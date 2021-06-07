@@ -1,0 +1,92 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral no property name
+check not null and not empty SimpleName MethodInvocation SimpleName name
+check not null and not empty SimpleName MethodInvocation StringLiteral no property name
+name SimpleName MethodInvocation StringLiteral no property name
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+key SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+cur val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+cur val SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur val
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName cur val
+is empty SimpleName MethodInvocation SimpleName cur val
+set property SimpleName MethodInvocation SimpleName key
+set property SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+cur val SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation SimpleName length
+cur val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+cur val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+cur val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string builder SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName cur val
+append SimpleName MethodInvocation SimpleName cur val
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+cur val SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+cur val SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+cur val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+cur val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation SimpleName value
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName value
+sb SimpleName MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation SimpleName key
+set property SimpleName MethodInvocation MethodInvocation SimpleName sb
+set property SimpleName MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation MethodInvocation SimpleName sb
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName append property value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType MethodDeclaration SimpleName append property value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+append property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+append property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName append property value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append property value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

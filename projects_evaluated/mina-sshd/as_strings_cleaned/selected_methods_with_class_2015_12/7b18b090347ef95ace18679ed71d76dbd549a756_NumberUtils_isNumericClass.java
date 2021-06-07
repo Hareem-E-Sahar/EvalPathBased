@@ -1,0 +1,37 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clazz
+number SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+number SimpleName SimpleType TypeLiteral MethodInvocation SimpleName clazz
+is assignable from SimpleName MethodInvocation SimpleName clazz
+numeric primitive classes SimpleName MethodInvocation SimpleName index of
+numeric primitive classes SimpleName MethodInvocation SimpleName clazz
+index of SimpleName MethodInvocation SimpleName clazz
+numeric primitive classes SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+clazz SimpleName MethodInvocation InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is numeric class
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is numeric class
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+boolean PrimitiveType MethodDeclaration SimpleName is numeric class
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+is numeric class SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+is numeric class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is numeric class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is numeric class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

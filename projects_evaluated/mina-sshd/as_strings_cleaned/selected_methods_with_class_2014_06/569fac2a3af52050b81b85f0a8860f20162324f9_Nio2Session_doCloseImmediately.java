@@ -1,0 +1,39 @@
+writes SimpleName MethodInvocation SimpleName poll
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName writes
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName poll
+default io write future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName closed channel exception
+set exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName closed channel exception
+socket SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral exception caught while closing socket
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral exception caught while closing socket
+info SimpleName MethodInvocation SimpleName e
+exception caught while closing socket StringLiteral MethodInvocation SimpleName e
+service SimpleName MethodInvocation SimpleName session closed
+handler SimpleName MethodInvocation SimpleName session closed
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral exception caught while calling io handlersession closed
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral exception caught while calling io handlersession closed
+debug SimpleName MethodInvocation SimpleName e
+exception caught while calling io handlersession closed StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do close immediately
+void PrimitiveType MethodDeclaration SimpleName do close immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close immediately

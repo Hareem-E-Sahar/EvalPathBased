@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+from name SimpleName MethodInvocation SimpleName name
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName from name
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+from enum name SimpleName MethodInvocation SimpleName name
+t SimpleName Assignment MethodInvocation SimpleName from enum name
+t SimpleName Assignment MethodInvocation SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName type
+public Modifier MethodDeclaration SimpleName from string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName type
+static Modifier MethodDeclaration SimpleName from string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName t
+final Modifier MethodDeclaration SimpleType SimpleName type
+final Modifier MethodDeclaration SimpleName from string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+final Modifier MethodDeclaration Block ReturnStatement SimpleName t
+type SimpleName SimpleType MethodDeclaration SimpleName from string
+type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+from string SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SimpleName from string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

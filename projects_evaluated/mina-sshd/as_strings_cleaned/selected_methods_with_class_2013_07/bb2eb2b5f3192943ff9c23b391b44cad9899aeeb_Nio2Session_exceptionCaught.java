@@ -1,0 +1,36 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exc
+closing SimpleName MethodInvocation SimpleName get
+socket SimpleName MethodInvocation SimpleName is open
+close SimpleName MethodInvocation BooleanLiteral true
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral caught exception now calling handler
+debug SimpleName MethodInvocation StringLiteral caught exception now calling handler
+handler SimpleName MethodInvocation SimpleName exception caught
+handler SimpleName MethodInvocation SimpleName exc
+exception caught SimpleName MethodInvocation SimpleName exc
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+logger SimpleName MethodInvocation SimpleName info
+logger SimpleName MethodInvocation StringLiteral exception handler threw exception closing the session
+logger SimpleName MethodInvocation SimpleName t
+info SimpleName MethodInvocation StringLiteral exception handler threw exception closing the session
+info SimpleName MethodInvocation SimpleName t
+exception handler threw exception closing the session StringLiteral MethodInvocation SimpleName t
+close SimpleName MethodInvocation BooleanLiteral true
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName exception caught
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName exc
+void PrimitiveType MethodDeclaration SimpleName exception caught
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exc
+exception caught SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+exception caught SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName exception caught
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exc
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exception caught
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exc

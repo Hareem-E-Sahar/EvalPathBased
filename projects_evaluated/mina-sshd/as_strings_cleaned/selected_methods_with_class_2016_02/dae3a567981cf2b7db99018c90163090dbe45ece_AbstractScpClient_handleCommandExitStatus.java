@@ -1,0 +1,118 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName exit status
+log SimpleName MethodInvocation SimpleName is debug enabled
+scp helper SimpleName MethodInvocation SimpleName get exit status name
+scp helper SimpleName MethodInvocation SimpleName exit status
+get exit status name SimpleName MethodInvocation SimpleName exit status
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral handle command exit status cmd exitstatus
+log SimpleName MethodInvocation MethodInvocation SimpleName get client session
+log SimpleName MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation MethodInvocation SimpleName scp helper
+log SimpleName MethodInvocation MethodInvocation SimpleName get exit status name
+log SimpleName MethodInvocation MethodInvocation SimpleName exit status
+debug SimpleName MethodInvocation StringLiteral handle command exit status cmd exitstatus
+debug SimpleName MethodInvocation MethodInvocation SimpleName get client session
+debug SimpleName MethodInvocation SimpleName cmd
+debug SimpleName MethodInvocation MethodInvocation SimpleName scp helper
+debug SimpleName MethodInvocation MethodInvocation SimpleName get exit status name
+debug SimpleName MethodInvocation MethodInvocation SimpleName exit status
+handle command exit status cmd exitstatus StringLiteral MethodInvocation MethodInvocation SimpleName get client session
+handle command exit status cmd exitstatus StringLiteral MethodInvocation SimpleName cmd
+handle command exit status cmd exitstatus StringLiteral MethodInvocation MethodInvocation SimpleName scp helper
+handle command exit status cmd exitstatus StringLiteral MethodInvocation MethodInvocation SimpleName get exit status name
+handle command exit status cmd exitstatus StringLiteral MethodInvocation MethodInvocation SimpleName exit status
+get client session SimpleName MethodInvocation MethodInvocation SimpleName cmd
+get client session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scp helper
+get client session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get exit status name
+get client session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exit status
+cmd SimpleName MethodInvocation MethodInvocation SimpleName scp helper
+cmd SimpleName MethodInvocation MethodInvocation SimpleName get exit status name
+cmd SimpleName MethodInvocation MethodInvocation SimpleName exit status
+exit status SimpleName MethodInvocation SimpleName int value
+status code SimpleName VariableDeclarationFragment MethodInvocation SimpleName exit status
+status code SimpleName VariableDeclarationFragment MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName status code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName exit status
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName int value
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral handle command exit status cmd may have terminated with some problems
+log SimpleName MethodInvocation MethodInvocation SimpleName get client session
+log SimpleName MethodInvocation SimpleName cmd
+warn SimpleName MethodInvocation StringLiteral handle command exit status cmd may have terminated with some problems
+warn SimpleName MethodInvocation MethodInvocation SimpleName get client session
+warn SimpleName MethodInvocation SimpleName cmd
+handle command exit status cmd may have terminated with some problems StringLiteral MethodInvocation MethodInvocation SimpleName get client session
+handle command exit status cmd may have terminated with some problems StringLiteral MethodInvocation SimpleName cmd
+get client session SimpleName MethodInvocation MethodInvocation SimpleName cmd
+scp helper SimpleName MethodInvocation SimpleName get exit status name
+scp helper SimpleName MethodInvocation SimpleName exit status
+get exit status name SimpleName MethodInvocation SimpleName exit status
+failed to run command StringLiteral InfixExpression SimpleName cmd
+failed to run command StringLiteral InfixExpression StringLiteral :
+failed to run command StringLiteral InfixExpression MethodInvocation SimpleName scp helper
+failed to run command StringLiteral InfixExpression MethodInvocation SimpleName get exit status name
+failed to run command StringLiteral InfixExpression MethodInvocation SimpleName exit status
+cmd SimpleName InfixExpression StringLiteral :
+cmd SimpleName InfixExpression MethodInvocation SimpleName scp helper
+cmd SimpleName InfixExpression MethodInvocation SimpleName get exit status name
+cmd SimpleName InfixExpression MethodInvocation SimpleName exit status
+: StringLiteral InfixExpression MethodInvocation SimpleName scp helper
+: StringLiteral InfixExpression MethodInvocation SimpleName get exit status name
+: StringLiteral InfixExpression MethodInvocation SimpleName exit status
+scp exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to run command
+scp exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cmd
+scp exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+scp exception SimpleName SimpleType ClassInstanceCreation SimpleName exit status
+failed to run command StringLiteral InfixExpression ClassInstanceCreation SimpleName exit status
+cmd SimpleName InfixExpression ClassInstanceCreation SimpleName exit status
+: StringLiteral InfixExpression ClassInstanceCreation SimpleName exit status
+scp helper SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName exit status
+get exit status name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName exit status
+exit status SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName exit status
+status code SimpleName SwitchStatement SwitchCase QualifiedName scp helperok
+status code SimpleName SwitchStatement SwitchCase QualifiedName scp helperwarning
+status code SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName log
+status code SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName warn
+status code SimpleName SwitchStatement ExpressionStatement MethodInvocation StringLiteral handle command exit status cmd may have terminated with some problems
+status code SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName cmd
+scp helperok QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName scp helperwarning
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName status code
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle command exit status
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit status
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName handle command exit status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit status
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName status code
+handle command exit status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle command exit status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+handle command exit status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+handle command exit status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit status
+handle command exit status SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle command exit status SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+handle command exit status SimpleName MethodDeclaration Block SwitchStatement SimpleName status code
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit status
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+exit status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle command exit status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit status
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle command exit status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

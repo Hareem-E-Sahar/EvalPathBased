@@ -1,0 +1,25 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier SingleVariableDeclaration SimpleName signature factories
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName signature factories
+signature factories SimpleName FieldAccess Assignment SimpleName signature factories
+public Modifier MethodDeclaration SimpleType SimpleName s
+public Modifier MethodDeclaration SimpleName signature factories
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName signature factories
+s SimpleName SimpleType MethodDeclaration SimpleName signature factories
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName signature factories
+signature factories SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+signature factories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName signature factories
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName signature factories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signature factories
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName signature factories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signature factories

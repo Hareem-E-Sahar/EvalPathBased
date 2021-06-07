@@ -1,0 +1,35 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName resolver
+property resolver utils SimpleName MethodInvocation SimpleName get long property
+property resolver utils SimpleName MethodInvocation SimpleName resolver
+property resolver utils SimpleName MethodInvocation SimpleName close wait timeout
+property resolver utils SimpleName MethodInvocation SimpleName default close wait timeout
+get long property SimpleName MethodInvocation SimpleName resolver
+get long property SimpleName MethodInvocation SimpleName close wait timeout
+get long property SimpleName MethodInvocation SimpleName default close wait timeout
+resolver SimpleName MethodInvocation SimpleName close wait timeout
+resolver SimpleName MethodInvocation SimpleName default close wait timeout
+close wait timeout SimpleName MethodInvocation SimpleName default close wait timeout
+resolver SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName default close wait timeout
+default close wait timeout SimpleName ConditionalExpression MethodInvocation SimpleName property resolver utils
+default close wait timeout SimpleName ConditionalExpression MethodInvocation SimpleName get long property
+default close wait timeout SimpleName ConditionalExpression MethodInvocation SimpleName resolver
+default close wait timeout SimpleName ConditionalExpression MethodInvocation SimpleName close wait timeout
+default close wait timeout SimpleName ConditionalExpression MethodInvocation SimpleName default close wait timeout
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get max close wait time
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolver
+long PrimitiveType MethodDeclaration SimpleName get max close wait time
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resolver
+get max close wait time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+get max close wait time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get max close wait time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get max close wait time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver

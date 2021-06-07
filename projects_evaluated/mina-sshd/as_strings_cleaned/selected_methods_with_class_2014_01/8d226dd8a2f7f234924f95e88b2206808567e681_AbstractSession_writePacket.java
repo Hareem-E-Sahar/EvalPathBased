@@ -1,0 +1,28 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+encode SimpleName MethodInvocation SimpleName buffer
+io session SimpleName MethodInvocation SimpleName write
+io session SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SimpleName write packet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+io write future SimpleName SimpleType MethodDeclaration SimpleName write packet
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write packet SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName write packet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write packet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

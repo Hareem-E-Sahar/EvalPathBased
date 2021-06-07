@@ -1,0 +1,423 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ssh key scan SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+string SimpleName SimpleType SingleVariableDeclaration SimpleName args
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName args
+length SimpleName MethodInvocation SimpleName args
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName args
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression SimpleName num args
+args SimpleName ArrayAccess SimpleName index
+opt name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+opt name SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opt name
+f StringLiteral MethodInvocation SimpleName equals
+f StringLiteral MethodInvocation SimpleName opt name
+equals SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName index
+validate utils SimpleName MethodInvocation InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation StringLiteral missing s option argument
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression SimpleName index
+check true SimpleName MethodInvocation InfixExpression SimpleName num args
+check true SimpleName MethodInvocation StringLiteral missing s option argument
+check true SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+num args SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+index SimpleName InfixExpression MethodInvocation SimpleName opt name
+num args SimpleName InfixExpression MethodInvocation SimpleName opt name
+missing s option argument StringLiteral MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation SimpleName get input stream
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get input stream
+validate utils SimpleName MethodInvocation StringLiteral s option respecified
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get input stream
+check true SimpleName MethodInvocation StringLiteral s option respecified
+check true SimpleName MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+get input stream SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+get input stream SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+s option respecified StringLiteral MethodInvocation SimpleName opt name
+args SimpleName ArrayAccess SimpleName index
+file path SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+file path SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file path
+- StringLiteral MethodInvocation SimpleName equals
+- StringLiteral MethodInvocation SimpleName file path
+equals SimpleName MethodInvocation SimpleName file path
+no close input stream SimpleName SimpleType ClassInstanceCreation QualifiedName systemin
+scanner SimpleName MethodInvocation SimpleName set input stream
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close input stream
+scanner SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemin
+set input stream SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close input stream
+set input stream SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemin
+file input stream SimpleName SimpleType ClassInstanceCreation SimpleName file path
+scanner SimpleName MethodInvocation SimpleName set input stream
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file input stream
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName file path
+set input stream SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file input stream
+set input stream SimpleName MethodInvocation ClassInstanceCreation SimpleName file path
+t StringLiteral MethodInvocation SimpleName equals
+t StringLiteral MethodInvocation SimpleName opt name
+equals SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName index
+validate utils SimpleName MethodInvocation InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation StringLiteral missing s option argument
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression SimpleName index
+check true SimpleName MethodInvocation InfixExpression SimpleName num args
+check true SimpleName MethodInvocation StringLiteral missing s option argument
+check true SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+num args SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+index SimpleName InfixExpression MethodInvocation SimpleName opt name
+num args SimpleName InfixExpression MethodInvocation SimpleName opt name
+missing s option argument StringLiteral MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation SimpleName get key types
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName scanner
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get key types
+is empty SimpleName MethodInvocation MethodInvocation SimpleName scanner
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get key types
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName is empty
+validate utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scanner
+validate utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key types
+validate utils SimpleName MethodInvocation StringLiteral s option respecified
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+check true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+check true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scanner
+check true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key types
+check true SimpleName MethodInvocation StringLiteral s option respecified
+check true SimpleName MethodInvocation SimpleName opt name
+generic utils SimpleName MethodInvocation MethodInvocation StringLiteral s option respecified
+is empty SimpleName MethodInvocation MethodInvocation StringLiteral s option respecified
+scanner SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral s option respecified
+get key types SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral s option respecified
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName opt name
+is empty SimpleName MethodInvocation MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opt name
+get key types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opt name
+s option respecified StringLiteral MethodInvocation SimpleName opt name
+args SimpleName ArrayAccess SimpleName index
+type list SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+type list SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type list
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName type list
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName type list
+split SimpleName MethodInvocation CharacterLiteral empty
+type list SimpleName MethodInvocation CharacterLiteral empty
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type list
+types SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName types
+length SimpleName MethodInvocation SimpleName types
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+types SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral no types specified for s
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral no types specified for s
+check true SimpleName MethodInvocation SimpleName opt name
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral no types specified for s
+length SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral no types specified for s
+types SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral no types specified for s
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral no types specified for s
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+types SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+empty NumberLiteral InfixExpression MethodInvocation SimpleName opt name
+no types specified for s StringLiteral MethodInvocation SimpleName opt name
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName types
+as list SimpleName MethodInvocation SimpleName types
+scanner SimpleName MethodInvocation SimpleName set key types
+scanner SimpleName MethodInvocation MethodInvocation SimpleName arrays
+scanner SimpleName MethodInvocation MethodInvocation SimpleName as list
+scanner SimpleName MethodInvocation MethodInvocation SimpleName types
+set key types SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set key types SimpleName MethodInvocation MethodInvocation SimpleName as list
+set key types SimpleName MethodInvocation MethodInvocation SimpleName types
+p StringLiteral MethodInvocation SimpleName equals
+p StringLiteral MethodInvocation SimpleName opt name
+equals SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName index
+validate utils SimpleName MethodInvocation InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation StringLiteral missing s option argument
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression SimpleName index
+check true SimpleName MethodInvocation InfixExpression SimpleName num args
+check true SimpleName MethodInvocation StringLiteral missing s option argument
+check true SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+num args SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+index SimpleName InfixExpression MethodInvocation SimpleName opt name
+num args SimpleName InfixExpression MethodInvocation SimpleName opt name
+missing s option argument StringLiteral MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation SimpleName get port
+scanner SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral s option respecified
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral s option respecified
+check true SimpleName MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+get port SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral s option respecified
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+get port SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+empty NumberLiteral InfixExpression MethodInvocation SimpleName opt name
+s option respecified StringLiteral MethodInvocation SimpleName opt name
+args SimpleName ArrayAccess SimpleName index
+port value SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+port value SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName port value
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName port value
+parse int SimpleName MethodInvocation SimpleName port value
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName port value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName port value
+port SimpleName InfixExpression NumberLiteral empty
+port SimpleName InfixExpression NumberLiteral x ffff
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation StringLiteral bad port s
+validate utils SimpleName MethodInvocation SimpleName port value
+check true SimpleName MethodInvocation StringLiteral bad port s
+check true SimpleName MethodInvocation SimpleName port value
+bad port s StringLiteral MethodInvocation SimpleName port value
+scanner SimpleName MethodInvocation SimpleName set port
+scanner SimpleName MethodInvocation SimpleName port
+set port SimpleName MethodInvocation SimpleName port
+t StringLiteral MethodInvocation SimpleName equals
+t StringLiteral MethodInvocation SimpleName opt name
+equals SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName index
+validate utils SimpleName MethodInvocation InfixExpression SimpleName num args
+validate utils SimpleName MethodInvocation StringLiteral missing s option argument
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression SimpleName index
+check true SimpleName MethodInvocation InfixExpression SimpleName num args
+check true SimpleName MethodInvocation StringLiteral missing s option argument
+check true SimpleName MethodInvocation SimpleName opt name
+index SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+num args SimpleName InfixExpression MethodInvocation StringLiteral missing s option argument
+index SimpleName InfixExpression MethodInvocation SimpleName opt name
+num args SimpleName InfixExpression MethodInvocation SimpleName opt name
+missing s option argument StringLiteral MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation SimpleName get timeout
+scanner SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get timeout SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get timeout
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral s option respecified
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get timeout
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral s option respecified
+check true SimpleName MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+get timeout SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral s option respecified
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+get timeout SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+empty NumberLiteral InfixExpression MethodInvocation SimpleName opt name
+s option respecified StringLiteral MethodInvocation SimpleName opt name
+args SimpleName ArrayAccess SimpleName index
+timeout value SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+timeout value SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout value
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName timeout value
+parse long SimpleName MethodInvocation SimpleName timeout value
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName timeout value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName timeout value
+timeout SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName timeout
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral bad timeout s
+validate utils SimpleName MethodInvocation SimpleName timeout value
+check true SimpleName MethodInvocation InfixExpression SimpleName timeout
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral bad timeout s
+check true SimpleName MethodInvocation SimpleName timeout value
+timeout SimpleName InfixExpression MethodInvocation StringLiteral bad timeout s
+l NumberLiteral InfixExpression MethodInvocation StringLiteral bad timeout s
+timeout SimpleName InfixExpression MethodInvocation SimpleName timeout value
+l NumberLiteral InfixExpression MethodInvocation SimpleName timeout value
+bad timeout s StringLiteral MethodInvocation SimpleName timeout value
+scanner SimpleName MethodInvocation SimpleName set timeout
+scanner SimpleName MethodInvocation SimpleName timeout
+set timeout SimpleName MethodInvocation SimpleName timeout
+v StringLiteral MethodInvocation SimpleName equals
+v StringLiteral MethodInvocation SimpleName opt name
+equals SimpleName MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation SimpleName get log level
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get log level
+validate utils SimpleName MethodInvocation StringLiteral s option respecified
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get log level
+check true SimpleName MethodInvocation StringLiteral s option respecified
+check true SimpleName MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+get log level SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s option respecified
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+get log level SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opt name
+s option respecified StringLiteral MethodInvocation SimpleName opt name
+scanner SimpleName MethodInvocation SimpleName set log level
+scanner SimpleName MethodInvocation QualifiedName levelfinest
+set log level SimpleName MethodInvocation QualifiedName levelfinest
+opt name SimpleName MethodInvocation SimpleName char at
+opt name SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+opt name SimpleName MethodInvocation InfixExpression CharacterLiteral -
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral -
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral -
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation ParenthesizedExpression InfixExpression CharacterLiteral -
+validate utils SimpleName MethodInvocation StringLiteral unknown option s
+validate utils SimpleName MethodInvocation SimpleName opt name
+check true SimpleName MethodInvocation ParenthesizedExpression InfixExpression CharacterLiteral -
+check true SimpleName MethodInvocation StringLiteral unknown option s
+check true SimpleName MethodInvocation SimpleName opt name
+- CharacterLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral unknown option s
+- CharacterLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName opt name
+unknown option s StringLiteral MethodInvocation SimpleName opt name
+num args SimpleName InfixExpression SimpleName index
+remaining SimpleName VariableDeclarationFragment InfixExpression SimpleName num args
+remaining SimpleName VariableDeclarationFragment InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName remaining
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName num args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName index
+remaining SimpleName InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName opt name
+singleton list SimpleName MethodInvocation SimpleName opt name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName remaining
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName remaining
+hosts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName remaining
+index SimpleName InfixExpression SimpleName num args
+args SimpleName ArrayAccess SimpleName index
+hosts SimpleName MethodInvocation SimpleName add
+hosts SimpleName MethodInvocation ArrayAccess SimpleName args
+hosts SimpleName MethodInvocation ArrayAccess SimpleName index
+add SimpleName MethodInvocation ArrayAccess SimpleName args
+add SimpleName MethodInvocation ArrayAccess SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+num args SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName hosts
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num args
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+num args SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+collections SimpleName MethodInvocation SimpleName empty list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName parse command line arguments
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh key scan
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName parse command line arguments
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh key scan
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName parse command line arguments
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh key scan
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse command line arguments
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse command line arguments
+parse command line arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh key scan
+parse command line arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+parse command line arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse command line arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+parse command line arguments SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse command line arguments SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse command line arguments
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse command line arguments
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

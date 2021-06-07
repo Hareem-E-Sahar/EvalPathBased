@@ -1,0 +1,47 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data
+file output stream SimpleName SimpleType ClassInstanceCreation SimpleName file
+fos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file output stream
+fos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+file output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fos
+data SimpleName MethodInvocation SimpleName get bytes
+fos SimpleName MethodInvocation SimpleName write
+fos SimpleName MethodInvocation MethodInvocation SimpleName data
+fos SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation SimpleName data
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+fos SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+write file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+write file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+write file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+write file SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

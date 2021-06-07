@@ -1,0 +1,35 @@
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName server factory managerserver identification
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName server factory managerserver identification
+get SimpleName MethodInvocation QualifiedName server factory managerserver identification
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName server factory managerserver identification
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName server factory managerserver identification
+get SimpleName MethodInvocation QualifiedName server factory managerserver identification
+ssh . - StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get properties
+ssh . - StringLiteral InfixExpression MethodInvocation SimpleName get
+ssh . - StringLiteral InfixExpression MethodInvocation QualifiedName server factory managerserver identification
+server version SimpleName Assignment InfixExpression StringLiteral ssh . -
+server version SimpleName Assignment InfixExpression MethodInvocation SimpleName get
+server version SimpleName Assignment InfixExpression MethodInvocation QualifiedName server factory managerserver identification
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get version
+ssh . - StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get factory manager
+ssh . - StringLiteral InfixExpression MethodInvocation SimpleName get version
+server version SimpleName Assignment InfixExpression StringLiteral ssh . -
+server version SimpleName Assignment InfixExpression MethodInvocation SimpleName get version
+send identification SimpleName MethodInvocation SimpleName server version
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName send server identification
+void PrimitiveType MethodDeclaration SimpleName send server identification
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send server identification
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send server identification

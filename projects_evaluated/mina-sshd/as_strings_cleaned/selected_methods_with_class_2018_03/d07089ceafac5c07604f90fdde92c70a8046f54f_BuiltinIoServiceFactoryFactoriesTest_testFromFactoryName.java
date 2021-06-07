@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+empty StringLiteral ArrayInitializer MethodInvocation SimpleName get current test name
+unexpected success for name StringLiteral InfixExpression SimpleName name
+unexpected success for name StringLiteral InfixExpression StringLiteral empty
+name SimpleName InfixExpression StringLiteral empty
+builtin io service factory factories SimpleName MethodInvocation SimpleName from factory name
+builtin io service factory factories SimpleName MethodInvocation SimpleName name
+from factory name SimpleName MethodInvocation SimpleName name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral unexpected success for name
+assert null SimpleName MethodInvocation InfixExpression SimpleName name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert null SimpleName MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+assert null SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+assert null SimpleName MethodInvocation MethodInvocation SimpleName name
+unexpected success for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+unexpected success for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from factory name
+unexpected success for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName from factory name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from factory name
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+expected SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+builtin io service factory factories SimpleName MethodInvocation SimpleName from factory name
+builtin io service factory factories SimpleName MethodInvocation SimpleName name
+from factory name SimpleName MethodInvocation SimpleName name
+assert same SimpleName MethodInvocation SimpleName name
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+assert same SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+assert same SimpleName MethodInvocation MethodInvocation SimpleName name
+name SimpleName MethodInvocation SimpleName expected
+name SimpleName MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+name SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+name SimpleName MethodInvocation MethodInvocation SimpleName name
+expected SimpleName MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+expected SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+expected SimpleName MethodInvocation MethodInvocation SimpleName name
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from factory name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from factory name
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+void PrimitiveType MethodDeclaration SimpleName test from factory name
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+test from factory name SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from factory name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from factory name

@@ -1,0 +1,31 @@
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+foobar StringLiteral MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+foobar StringLiteral MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foobarbaz
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral bar
+assert path equals SimpleName MethodInvocation StringLiteral baz
+foobarbaz StringLiteral MethodInvocation StringLiteral foo
+foobarbaz StringLiteral MethodInvocation StringLiteral bar
+foobarbaz StringLiteral MethodInvocation StringLiteral baz
+foo StringLiteral MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral baz
+bar StringLiteral MethodInvocation StringLiteral baz
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test path parsing with extra separators
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test path parsing with extra separators
+void PrimitiveType MethodDeclaration SimpleName test path parsing with extra separators
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test path parsing with extra separators
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test path parsing with extra separators

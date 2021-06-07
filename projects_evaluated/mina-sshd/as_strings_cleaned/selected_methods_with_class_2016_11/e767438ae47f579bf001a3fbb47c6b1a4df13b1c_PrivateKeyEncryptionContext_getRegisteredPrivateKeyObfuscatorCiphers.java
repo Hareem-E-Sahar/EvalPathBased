@@ -1,0 +1,38 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+obfuscators SimpleName MethodInvocation SimpleName key set
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName obfuscators
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName key set
+generic utils SimpleName MethodInvocation SimpleName as sorted set
+generic utils SimpleName MethodInvocation QualifiedName stringcase insensitive order
+generic utils SimpleName MethodInvocation SimpleName names
+as sorted set SimpleName MethodInvocation QualifiedName stringcase insensitive order
+as sorted set SimpleName MethodInvocation SimpleName names
+stringcase insensitive order QualifiedName MethodInvocation SimpleName names
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get registered private key obfuscator ciphers
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get registered private key obfuscator ciphers
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName get registered private key obfuscator ciphers
+final Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+sorted set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered private key obfuscator ciphers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered private key obfuscator ciphers
+get registered private key obfuscator ciphers SimpleName MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered private key obfuscator ciphers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered private key obfuscator ciphers

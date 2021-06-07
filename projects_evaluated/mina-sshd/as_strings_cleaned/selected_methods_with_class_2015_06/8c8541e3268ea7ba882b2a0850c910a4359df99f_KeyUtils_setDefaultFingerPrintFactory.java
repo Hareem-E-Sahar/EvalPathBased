@@ -1,0 +1,43 @@
+factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName f
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName f
+validate utils SimpleName MethodInvocation StringLiteral no digest factory
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName f
+check not null SimpleName MethodInvocation StringLiteral no digest factory
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+f SimpleName MethodInvocation StringLiteral no digest factory
+f SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no digest factory StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+default digest holder SimpleName MethodInvocation SimpleName set
+default digest holder SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+default digest holder SimpleName MethodInvocation MethodInvocation SimpleName check not null
+default digest holder SimpleName MethodInvocation MethodInvocation SimpleName f
+default digest holder SimpleName MethodInvocation MethodInvocation StringLiteral no digest factory
+default digest holder SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+set SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+set SimpleName MethodInvocation MethodInvocation SimpleName check not null
+set SimpleName MethodInvocation MethodInvocation SimpleName f
+set SimpleName MethodInvocation MethodInvocation StringLiteral no digest factory
+set SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set default finger print factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set default finger print factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration SimpleName set default finger print factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+set default finger print factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set default finger print factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set default finger print factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

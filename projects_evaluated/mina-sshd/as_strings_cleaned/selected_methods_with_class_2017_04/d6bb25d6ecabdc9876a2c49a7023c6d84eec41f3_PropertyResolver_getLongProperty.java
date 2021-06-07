@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+long PrimitiveType SingleVariableDeclaration SimpleName def
+property resolver utils SimpleName MethodInvocation SimpleName get long property
+property resolver utils SimpleName MethodInvocation SimpleName name
+property resolver utils SimpleName MethodInvocation SimpleName def
+get long property SimpleName MethodInvocation SimpleName name
+get long property SimpleName MethodInvocation SimpleName def
+name SimpleName MethodInvocation SimpleName def
+default Modifier MethodDeclaration PrimitiveType long
+default Modifier MethodDeclaration SimpleName get long property
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+default Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName def
+long PrimitiveType MethodDeclaration SimpleName get long property
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def
+get long property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get long property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get long property SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get long property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get long property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get long property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def

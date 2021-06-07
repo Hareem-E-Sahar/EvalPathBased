@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName class loader
+public Modifier MethodDeclaration SimpleName get resource loader
+public Modifier MethodDeclaration Block ReturnStatement SimpleName class loader
+class loader SimpleName SimpleType MethodDeclaration SimpleName get resource loader
+get resource loader SimpleName MethodDeclaration Block ReturnStatement SimpleName class loader
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource loader
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource loader

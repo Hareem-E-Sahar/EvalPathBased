@@ -1,0 +1,17 @@
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+supplier SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+supplier SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+supplier SimpleName MethodInvocation SimpleName get
+iterator of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName supplier
+iterator of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator of
+values SimpleName MethodInvocation SimpleName has next
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+private Modifier MethodDeclaration SimpleName next iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName next iterator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName next iterator
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next iterator

@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+int PrimitiveType MethodDeclaration SimpleName get active session count for user
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user name
+get active session count for user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get active session count for user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active session count for user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active session count for user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name

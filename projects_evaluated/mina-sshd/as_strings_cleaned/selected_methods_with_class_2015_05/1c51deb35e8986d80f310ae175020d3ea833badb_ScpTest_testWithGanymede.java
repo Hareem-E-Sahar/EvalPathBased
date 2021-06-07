@@ -1,0 +1,162 @@
+connection SimpleName SimpleType ClassInstanceCreation StringLiteral localhost
+connection SimpleName SimpleType ClassInstanceCreation SimpleName port
+localhost StringLiteral ClassInstanceCreation SimpleName port
+conn SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connection
+conn SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral localhost
+conn SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName port
+final Modifier VariableDeclarationStatement SimpleType SimpleName connection
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation StringLiteral localhost
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName port
+connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName connect
+conn SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation NumberLiteral empty
+connect SimpleName MethodInvocation NumberLiteral empty
+connect SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName authenticate with password
+conn SimpleName MethodInvocation StringLiteral sshd
+conn SimpleName MethodInvocation StringLiteral sshd
+authenticate with password SimpleName MethodInvocation StringLiteral sshd
+authenticate with password SimpleName MethodInvocation StringLiteral sshd
+sshd StringLiteral MethodInvocation StringLiteral sshd
+scp client SimpleName SimpleType ClassInstanceCreation SimpleName conn
+scp client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scp client
+scp client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conn
+final Modifier VariableDeclarationStatement SimpleType SimpleName scp client
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName scp client
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName conn
+scp client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scp client
+props SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+final Modifier VariableDeclarationStatement SimpleType SimpleName properties
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+props SimpleName MethodInvocation SimpleName set property
+props SimpleName MethodInvocation StringLiteral test
+props SimpleName MethodInvocation StringLiteral testpassed
+set property SimpleName MethodInvocation StringLiteral test
+set property SimpleName MethodInvocation StringLiteral testpassed
+test StringLiteral MethodInvocation StringLiteral testpassed
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetscpgan
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+f SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral targetscpgan
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName f
+delete recursive SimpleName MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName mkdirs
+f SimpleName MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName f
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+name SimpleName VariableDeclarationFragment StringLiteral testproperties
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral testproperties
+to bytes SimpleName MethodInvocation SimpleName props
+to bytes SimpleName MethodInvocation StringLiteral empty
+props SimpleName MethodInvocation StringLiteral empty
+scp client SimpleName MethodInvocation SimpleName put
+scp client SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+scp client SimpleName MethodInvocation MethodInvocation SimpleName props
+scp client SimpleName MethodInvocation MethodInvocation StringLiteral empty
+scp client SimpleName MethodInvocation SimpleName name
+scp client SimpleName MethodInvocation StringLiteral targetscpgan
+put SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName props
+put SimpleName MethodInvocation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral targetscpgan
+to bytes SimpleName MethodInvocation MethodInvocation SimpleName name
+props SimpleName MethodInvocation MethodInvocation SimpleName name
+empty StringLiteral MethodInvocation MethodInvocation SimpleName name
+to bytes SimpleName MethodInvocation MethodInvocation StringLiteral targetscpgan
+props SimpleName MethodInvocation MethodInvocation StringLiteral targetscpgan
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral targetscpgan
+name SimpleName MethodInvocation StringLiteral targetscpgan
+file SimpleName SimpleType ClassInstanceCreation SimpleName f
+file SimpleName SimpleType ClassInstanceCreation SimpleName name
+f SimpleName ClassInstanceCreation SimpleName name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName exists
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName exists
+name SimpleName ClassInstanceCreation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName f
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+file SimpleName SimpleType ClassInstanceCreation SimpleName f
+file SimpleName SimpleType ClassInstanceCreation SimpleName name
+f SimpleName ClassInstanceCreation SimpleName name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName delete
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName delete
+name SimpleName ClassInstanceCreation MethodInvocation SimpleName delete
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName f
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName delete
+name SimpleName Assignment StringLiteral test properties
+to bytes SimpleName MethodInvocation SimpleName props
+to bytes SimpleName MethodInvocation StringLiteral empty
+props SimpleName MethodInvocation StringLiteral empty
+scp client SimpleName MethodInvocation SimpleName put
+scp client SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+scp client SimpleName MethodInvocation MethodInvocation SimpleName props
+scp client SimpleName MethodInvocation MethodInvocation StringLiteral empty
+scp client SimpleName MethodInvocation SimpleName name
+scp client SimpleName MethodInvocation StringLiteral targetscpgan
+put SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName props
+put SimpleName MethodInvocation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral targetscpgan
+to bytes SimpleName MethodInvocation MethodInvocation SimpleName name
+props SimpleName MethodInvocation MethodInvocation SimpleName name
+empty StringLiteral MethodInvocation MethodInvocation SimpleName name
+to bytes SimpleName MethodInvocation MethodInvocation StringLiteral targetscpgan
+props SimpleName MethodInvocation MethodInvocation StringLiteral targetscpgan
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral targetscpgan
+name SimpleName MethodInvocation StringLiteral targetscpgan
+file SimpleName SimpleType ClassInstanceCreation SimpleName f
+file SimpleName SimpleType ClassInstanceCreation SimpleName name
+f SimpleName ClassInstanceCreation SimpleName name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName exists
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName exists
+name SimpleName ClassInstanceCreation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName f
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+file SimpleName SimpleType ClassInstanceCreation SimpleName f
+file SimpleName SimpleType ClassInstanceCreation SimpleName name
+f SimpleName ClassInstanceCreation SimpleName name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName delete
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName delete
+name SimpleName ClassInstanceCreation MethodInvocation SimpleName delete
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName f
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName delete
+f SimpleName MethodInvocation SimpleName delete
+assert true SimpleName MethodInvocation MethodInvocation SimpleName f
+assert true SimpleName MethodInvocation MethodInvocation SimpleName delete
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+conn SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test with ganymede
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test with ganymede
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test with ganymede
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test with ganymede SimpleName MethodDeclaration SimpleType SimpleName exception
+test with ganymede SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test with ganymede
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test with ganymede
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,20 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName kdf options
+kdf options SimpleName FieldAccess Assignment SimpleName kdf options
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set kdf options
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName kdf options
+void PrimitiveType MethodDeclaration SimpleName set kdf options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName kdf options
+set kdf options SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set kdf options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kdf options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set kdf options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kdf options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set kdf options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kdf options

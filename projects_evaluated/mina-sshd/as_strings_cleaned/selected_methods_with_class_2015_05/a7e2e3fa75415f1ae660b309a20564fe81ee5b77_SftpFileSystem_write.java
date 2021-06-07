@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName open mode
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mode
+open mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mode
+delegate SimpleName MethodInvocation SimpleName write
+delegate SimpleName MethodInvocation SimpleName path
+delegate SimpleName MethodInvocation SimpleName mode
+write SimpleName MethodInvocation SimpleName path
+write SimpleName MethodInvocation SimpleName mode
+path SimpleName MethodInvocation SimpleName mode
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName output stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName mode
+public Modifier MethodDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mode
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+output stream SimpleName SimpleType MethodDeclaration SimpleName write
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mode
+output stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mode
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+mode SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName output stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName output stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

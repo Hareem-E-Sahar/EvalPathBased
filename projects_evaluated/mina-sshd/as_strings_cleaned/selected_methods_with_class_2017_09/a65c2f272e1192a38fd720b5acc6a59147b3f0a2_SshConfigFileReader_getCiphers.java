@@ -1,0 +1,35 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName props
+props SimpleName MethodInvocation SimpleName get string
+props SimpleName MethodInvocation SimpleName ciphers config prop
+get string SimpleName MethodInvocation SimpleName ciphers config prop
+builtin ciphers SimpleName MethodInvocation SimpleName parse ciphers list
+builtin ciphers SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+builtin ciphers SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+builtin ciphers SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName ciphers config prop
+parse ciphers list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+parse ciphers list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+parse ciphers list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName ciphers config prop
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType QualifiedName builtin ciphersparse result
+public Modifier MethodDeclaration SimpleName get ciphers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SimpleType QualifiedName builtin ciphersparse result
+static Modifier MethodDeclaration SimpleName get ciphers
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+builtin ciphersparse result QualifiedName SimpleType MethodDeclaration SimpleName get ciphers
+builtin ciphersparse result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+get ciphers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+get ciphers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName builtin ciphersparse result
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ciphers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName builtin ciphersparse result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ciphers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

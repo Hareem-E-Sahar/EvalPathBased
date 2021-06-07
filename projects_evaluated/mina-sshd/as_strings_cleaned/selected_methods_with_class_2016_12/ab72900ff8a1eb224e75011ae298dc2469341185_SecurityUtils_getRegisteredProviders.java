@@ -1,0 +1,21 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+registered providers SimpleName MethodInvocation SimpleName key set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get registered providers
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get registered providers
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered providers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered providers
+get registered providers SimpleName MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered providers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered providers

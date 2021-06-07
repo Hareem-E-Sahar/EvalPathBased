@@ -1,0 +1,18 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+resolve interactive command SimpleName MethodInvocation MethodInvocation SimpleName is win
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName resolve default interactive command
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName resolve default interactive command
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve default interactive command
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve default interactive command
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve default interactive command
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve default interactive command

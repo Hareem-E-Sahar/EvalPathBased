@@ -1,0 +1,36 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName private key obfuscator
+obfuscators SimpleName MethodInvocation SimpleName values
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName obfuscators
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName l
+is empty SimpleName MethodInvocation SimpleName l
+collections SimpleName MethodInvocation SimpleName empty list
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName l
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName private key obfuscator
+public Modifier MethodDeclaration SimpleName get registered private key obfuscators
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName private key obfuscator
+static Modifier MethodDeclaration SimpleName get registered private key obfuscators
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName private key obfuscator
+final Modifier MethodDeclaration SimpleName get registered private key obfuscators
+final Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered private key obfuscators
+private key obfuscator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered private key obfuscators
+get registered private key obfuscators SimpleName MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered private key obfuscators
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered private key obfuscators

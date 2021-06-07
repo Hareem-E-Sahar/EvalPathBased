@@ -1,0 +1,20 @@
+ldap env SimpleName MethodInvocation SimpleName get
+ldap env SimpleName MethodInvocation QualifiedName contextinitial context factory
+get SimpleName MethodInvocation QualifiedName contextinitial context factory
+objects SimpleName MethodInvocation SimpleName to string
+objects SimpleName MethodInvocation MethodInvocation SimpleName ldap env
+objects SimpleName MethodInvocation MethodInvocation SimpleName get
+objects SimpleName MethodInvocation MethodInvocation QualifiedName contextinitial context factory
+to string SimpleName MethodInvocation MethodInvocation SimpleName ldap env
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation QualifiedName contextinitial context factory
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get ldap factory
+string SimpleName SimpleType MethodDeclaration SimpleName get ldap factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ldap factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ldap factory

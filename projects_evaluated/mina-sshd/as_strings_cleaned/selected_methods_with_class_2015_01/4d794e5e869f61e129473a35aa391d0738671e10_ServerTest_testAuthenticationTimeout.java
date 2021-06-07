@@ -1,0 +1,87 @@
+sshd SimpleName MethodInvocation SimpleName get properties
+sshd SimpleName MethodInvocation MethodInvocation SimpleName put
+get properties SimpleName MethodInvocation MethodInvocation SimpleName put
+sshd SimpleName MethodInvocation MethodInvocation QualifiedName ssh serverauth timeout
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName ssh serverauth timeout
+sshd SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get properties SimpleName MethodInvocation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation QualifiedName ssh serverauth timeout
+put SimpleName MethodInvocation StringLiteral empty
+ssh serverauth timeout QualifiedName MethodInvocation StringLiteral empty
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName Assignment MethodInvocation SimpleName ssh client
+client SimpleName Assignment MethodInvocation SimpleName set up default client
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation StringLiteral test
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation StringLiteral test
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+test StringLiteral MethodInvocation StringLiteral localhost
+test StringLiteral MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+test StringLiteral MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName wait for
+s SimpleName MethodInvocation QualifiedName client sessionclosed
+s SimpleName MethodInvocation NumberLiteral empty
+wait for SimpleName MethodInvocation QualifiedName client sessionclosed
+wait for SimpleName MethodInvocation NumberLiteral empty
+client sessionclosed QualifiedName MethodInvocation NumberLiteral empty
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for
+res SimpleName VariableDeclarationFragment MethodInvocation QualifiedName client sessionclosed
+res SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName res
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wait for
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName client sessionclosed
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+client sessionclosed QualifiedName InfixExpression QualifiedName client sessionwait auth
+assert equals SimpleName MethodInvocation StringLiteral session should be closed
+assert equals SimpleName MethodInvocation InfixExpression QualifiedName client sessionclosed
+assert equals SimpleName MethodInvocation InfixExpression QualifiedName client sessionwait auth
+assert equals SimpleName MethodInvocation SimpleName res
+session should be closed StringLiteral MethodInvocation InfixExpression QualifiedName client sessionclosed
+session should be closed StringLiteral MethodInvocation InfixExpression QualifiedName client sessionwait auth
+session should be closed StringLiteral MethodInvocation SimpleName res
+client sessionclosed QualifiedName InfixExpression MethodInvocation SimpleName res
+client sessionwait auth QualifiedName InfixExpression MethodInvocation SimpleName res
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test authentication timeout
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test authentication timeout
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test authentication timeout
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test authentication timeout SimpleName MethodDeclaration SimpleType SimpleName exception
+test authentication timeout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test authentication timeout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test authentication timeout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

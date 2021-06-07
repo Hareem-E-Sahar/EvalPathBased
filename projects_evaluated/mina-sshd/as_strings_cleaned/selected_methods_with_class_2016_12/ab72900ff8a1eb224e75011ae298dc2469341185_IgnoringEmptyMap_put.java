@@ -1,0 +1,46 @@
+k SimpleName SimpleType SingleVariableDeclaration SimpleName key
+v SimpleName SimpleType SingleVariableDeclaration SimpleName value
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName key
+objects SimpleName MethodInvocation StringLiteral no key provided
+require non null SimpleName MethodInvocation SimpleName key
+require non null SimpleName MethodInvocation StringLiteral no key provided
+key SimpleName MethodInvocation StringLiteral no key provided
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName value
+objects SimpleName MethodInvocation StringLiteral no value provided
+require non null SimpleName MethodInvocation SimpleName value
+require non null SimpleName MethodInvocation StringLiteral no value provided
+value SimpleName MethodInvocation StringLiteral no value provided
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName v
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName put
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName put
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+v SimpleName SimpleType MethodDeclaration SimpleName put
+v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName v
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

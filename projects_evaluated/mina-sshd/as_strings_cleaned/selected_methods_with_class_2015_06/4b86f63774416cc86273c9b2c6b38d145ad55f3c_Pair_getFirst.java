@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName u
+public Modifier MethodDeclaration SimpleName get first
+public Modifier MethodDeclaration Block ReturnStatement SimpleName first
+u SimpleName SimpleType MethodDeclaration SimpleName get first
+get first SimpleName MethodDeclaration Block ReturnStatement SimpleName first
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName u
+public Modifier TypeDeclaration MethodDeclaration SimpleName get first
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName u
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get first

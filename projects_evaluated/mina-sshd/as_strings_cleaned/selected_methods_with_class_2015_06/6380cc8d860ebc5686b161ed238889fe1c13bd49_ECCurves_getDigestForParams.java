@@ -1,0 +1,43 @@
+ec parameter spec SimpleName SimpleType SingleVariableDeclaration SimpleName params
+get curve size SimpleName MethodInvocation SimpleName params
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get curve size
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName params
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get curve size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName params
+size SimpleName InfixExpression NumberLiteral empty
+builtin digestssha QualifiedName MethodInvocation SimpleName create
+size SimpleName InfixExpression NumberLiteral empty
+builtin digestssha QualifiedName MethodInvocation SimpleName create
+size SimpleName InfixExpression NumberLiteral empty
+builtin digestssha QualifiedName MethodInvocation SimpleName create
+unsupported curve size for digest StringLiteral InfixExpression SimpleName size
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported curve size for digest
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName size
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName digest
+public Modifier MethodDeclaration SimpleName get digest for params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration SimpleType SimpleName digest
+static Modifier MethodDeclaration SimpleName get digest for params
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+digest SimpleName SimpleType MethodDeclaration SimpleName get digest for params
+digest SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName params
+get digest for params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+get digest for params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+get digest for params SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName digest
+public Modifier TypeDeclaration MethodDeclaration SimpleName get digest for params
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName digest
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get digest for params
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params

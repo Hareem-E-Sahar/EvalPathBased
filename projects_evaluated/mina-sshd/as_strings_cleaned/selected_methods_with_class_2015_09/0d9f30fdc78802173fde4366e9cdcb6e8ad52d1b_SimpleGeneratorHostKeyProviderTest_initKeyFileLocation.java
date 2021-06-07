@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algorithm
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get temp target relative file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+get temp target relative file SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName get temp target relative file
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert hierarchy target folder exists
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get temp target relative file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+algorithm SimpleName InfixExpression StringLiteral simplekey
+path SimpleName MethodInvocation SimpleName resolve
+path SimpleName MethodInvocation InfixExpression SimpleName algorithm
+path SimpleName MethodInvocation InfixExpression StringLiteral simplekey
+resolve SimpleName MethodInvocation InfixExpression SimpleName algorithm
+resolve SimpleName MethodInvocation InfixExpression StringLiteral simplekey
+path SimpleName Assignment MethodInvocation SimpleName path
+path SimpleName Assignment MethodInvocation SimpleName resolve
+path SimpleName Assignment MethodInvocation InfixExpression SimpleName algorithm
+path SimpleName Assignment MethodInvocation InfixExpression StringLiteral simplekey
+files SimpleName MethodInvocation SimpleName delete if exists
+files SimpleName MethodInvocation SimpleName path
+delete if exists SimpleName MethodInvocation SimpleName path
+private Modifier MethodDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SimpleName init key file location
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName path
+path SimpleName SimpleType MethodDeclaration SimpleName init key file location
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+init key file location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+init key file location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+init key file location SimpleName MethodDeclaration SimpleType SimpleName io exception
+init key file location SimpleName MethodDeclaration Block ReturnStatement SimpleName path
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName init key file location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init key file location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

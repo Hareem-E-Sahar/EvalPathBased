@@ -1,0 +1,20 @@
+unsupported attribute policy SimpleName SimpleType SingleVariableDeclaration SimpleName unsupported attribute policy
+unsupported attribute policy SimpleName FieldAccess Assignment SimpleName unsupported attribute policy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set unsupported attribute policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unsupported attribute policy
+void PrimitiveType MethodDeclaration SimpleName set unsupported attribute policy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unsupported attribute policy
+set unsupported attribute policy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+set unsupported attribute policy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unsupported attribute policy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set unsupported attribute policy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unsupported attribute policy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set unsupported attribute policy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unsupported attribute policy

@@ -1,0 +1,66 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+int PrimitiveType SingleVariableDeclaration SimpleName mask
+mask SimpleName InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName empty set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+caps SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get acl capability values map
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName integer
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ae
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ae
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ae
+map SimpleName MethodInvocation SimpleName entry set
+ae SimpleName MethodInvocation SimpleName get key
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName ae
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+ae SimpleName MethodInvocation SimpleName get value
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName ae
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+value SimpleName MethodInvocation SimpleName int value
+mask SimpleName InfixExpression MethodInvocation SimpleName value
+mask SimpleName InfixExpression MethodInvocation SimpleName int value
+mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+caps SimpleName MethodInvocation SimpleName add
+caps SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+ae SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName map
+ae SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName decode acl capabilities
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mask
+public Modifier MethodDeclaration Block ReturnStatement SimpleName caps
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName decode acl capabilities
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName mask
+static Modifier MethodDeclaration Block ReturnStatement SimpleName caps
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode acl capabilities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode acl capabilities
+decode acl capabilities SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+decode acl capabilities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mask
+decode acl capabilities SimpleName MethodDeclaration Block ReturnStatement SimpleName caps
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode acl capabilities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mask
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode acl capabilities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mask

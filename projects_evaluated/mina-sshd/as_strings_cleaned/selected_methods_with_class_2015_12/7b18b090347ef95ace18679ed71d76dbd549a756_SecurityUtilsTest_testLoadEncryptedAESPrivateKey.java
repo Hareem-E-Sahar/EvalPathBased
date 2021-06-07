@@ -1,0 +1,46 @@
+security utils SimpleName MethodInvocation SimpleName is bouncy castle registered
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral bouncycastle not registered
+assume SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+assume true SimpleName MethodInvocation StringLiteral bouncycastle not registered
+assume true SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+bouncycastle not registered StringLiteral MethodInvocation MethodInvocation SimpleName security utils
+bouncycastle not registered StringLiteral MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration SimpleName c
+builtin ciphersaes cbc QualifiedName ArrayInitializer QualifiedName builtin ciphersaes cbc
+builtin ciphersaes cbc QualifiedName ArrayInitializer QualifiedName builtin ciphersaes cbc
+builtin ciphersaes cbc QualifiedName ArrayInitializer QualifiedName builtin ciphersaes cbc
+c SimpleName MethodInvocation SimpleName is supported
+c SimpleName MethodInvocation SimpleName get name
+skip unsupported encryption scheme StringLiteral InfixExpression MethodInvocation SimpleName c
+skip unsupported encryption scheme StringLiteral InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral skip unsupported encryption scheme
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral skip unsupported encryption scheme
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+c SimpleName MethodInvocation SimpleName get key size
+aes StringLiteral InfixExpression MethodInvocation SimpleName c
+aes StringLiteral InfixExpression MethodInvocation SimpleName get key size
+test load encrypted rsa private key SimpleName MethodInvocation InfixExpression StringLiteral aes
+test load encrypted rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+test load encrypted rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key size
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load encrypted aes private key
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load encrypted aes private key
+void PrimitiveType MethodDeclaration SimpleName test load encrypted aes private key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load encrypted aes private key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load encrypted aes private key

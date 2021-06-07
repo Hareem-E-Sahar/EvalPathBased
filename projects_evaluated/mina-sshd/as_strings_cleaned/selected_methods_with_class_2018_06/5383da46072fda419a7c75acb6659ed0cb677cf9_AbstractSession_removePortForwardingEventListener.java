@@ -1,0 +1,45 @@
+port forwarding event listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+port forwarding event listener SimpleName MethodInvocation SimpleName validate listener
+port forwarding event listener SimpleName MethodInvocation SimpleName listener
+validate listener SimpleName MethodInvocation SimpleName listener
+tunnel listeners SimpleName FieldAccess MethodInvocation SimpleName remove
+tunnel listeners SimpleName FieldAccess MethodInvocation SimpleName listener
+remove SimpleName MethodInvocation SimpleName listener
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral remove port forwarding event listener removed
+log SimpleName MethodInvocation SimpleName listener
+trace SimpleName MethodInvocation StringLiteral remove port forwarding event listener removed
+trace SimpleName MethodInvocation SimpleName listener
+remove port forwarding event listener removed StringLiteral MethodInvocation SimpleName listener
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral remove port forwarding event listener not registered
+log SimpleName MethodInvocation SimpleName listener
+trace SimpleName MethodInvocation StringLiteral remove port forwarding event listener not registered
+trace SimpleName MethodInvocation SimpleName listener
+remove port forwarding event listener not registered StringLiteral MethodInvocation SimpleName listener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove port forwarding event listener
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove port forwarding event listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName port forwarding event listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName remove port forwarding event listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName port forwarding event listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+remove port forwarding event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName port forwarding event listener
+remove port forwarding event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove port forwarding event listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove port forwarding event listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

@@ -1,0 +1,38 @@
+long PrimitiveType SingleVariableDeclaration SimpleName new position
+new position SimpleName InfixExpression NumberLiteral empty
+pos SimpleName Assignment SimpleName new position
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName seekable byte channel
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName position
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new position
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName seekable byte channel
+public Modifier MethodDeclaration SimpleName position
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new position
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+seekable byte channel SimpleName SimpleType MethodDeclaration SimpleName position
+seekable byte channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+seekable byte channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new position
+seekable byte channel SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+position SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+position SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new position
+position SimpleName MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new position SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName seekable byte channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName position
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new position
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName seekable byte channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName position
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new position
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

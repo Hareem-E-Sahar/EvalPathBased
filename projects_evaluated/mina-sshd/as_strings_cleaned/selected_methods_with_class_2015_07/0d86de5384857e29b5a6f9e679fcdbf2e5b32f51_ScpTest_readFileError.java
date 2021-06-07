@@ -1,0 +1,71 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+session SimpleName MethodInvocation SimpleName open channel
+session SimpleName MethodInvocation StringLiteral exec
+open channel SimpleName MethodInvocation StringLiteral exec
+channel exec SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+channel exec SimpleName SimpleType CastExpression MethodInvocation SimpleName open channel
+channel exec SimpleName SimpleType CastExpression MethodInvocation StringLiteral exec
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName channel exec
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral exec
+channel exec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+scp f StringLiteral InfixExpression SimpleName path
+command SimpleName VariableDeclarationFragment InfixExpression StringLiteral scp f
+command SimpleName VariableDeclarationFragment InfixExpression SimpleName path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName command
+c SimpleName MethodInvocation SimpleName set command
+c SimpleName MethodInvocation SimpleName command
+set command SimpleName MethodInvocation SimpleName command
+c SimpleName MethodInvocation SimpleName connect
+c SimpleName MethodInvocation SimpleName get output stream
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output stream
+output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName os
+c SimpleName MethodInvocation SimpleName get input stream
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get input stream
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName is
+os SimpleName MethodInvocation SimpleName write
+os SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+os SimpleName MethodInvocation SimpleName flush
+mismatched response for command StringLiteral InfixExpression SimpleName command
+is SimpleName MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched response for command
+assert equals SimpleName MethodInvocation InfixExpression SimpleName command
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName is
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName read
+mismatched response for command StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+command SimpleName InfixExpression MethodInvocation NumberLiteral empty
+mismatched response for command StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is
+mismatched response for command StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName read
+command SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is
+command SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName read
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName is
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName read
+c SimpleName MethodInvocation SimpleName disconnect
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName read file error
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName read file error
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+read file error SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+read file error SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+read file error SimpleName MethodDeclaration SimpleType SimpleName exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName read file error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read file error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

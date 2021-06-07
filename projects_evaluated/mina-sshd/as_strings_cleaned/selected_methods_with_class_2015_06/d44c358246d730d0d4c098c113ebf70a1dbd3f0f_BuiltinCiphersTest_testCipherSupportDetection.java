@@ -1,0 +1,61 @@
+system SimpleName MethodInvocation SimpleName nano time
+random SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+random SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName nano time
+rnd SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+rnd SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName system
+rnd SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName nano time
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rnd
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName create
+test cipher encryption SimpleName MethodInvocation SimpleName rnd
+test cipher encryption SimpleName MethodInvocation MethodInvocation SimpleName c
+test cipher encryption SimpleName MethodInvocation MethodInvocation SimpleName create
+rnd SimpleName MethodInvocation MethodInvocation SimpleName c
+rnd SimpleName MethodInvocation MethodInvocation SimpleName create
+mismatched support report for StringLiteral InfixExpression SimpleName c
+c SimpleName MethodInvocation SimpleName is supported
+assert true SimpleName MethodInvocation InfixExpression StringLiteral mismatched support report for
+assert true SimpleName MethodInvocation InfixExpression SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is supported
+mismatched support report for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName c
+mismatched support report for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName c
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+mismatched support report for StringLiteral InfixExpression SimpleName c
+c SimpleName MethodInvocation SimpleName is supported
+assert false SimpleName MethodInvocation InfixExpression StringLiteral mismatched support report for
+assert false SimpleName MethodInvocation InfixExpression SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is supported
+mismatched support report for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName c
+mismatched support report for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName c
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin ciphersvalues
+c SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin ciphersvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cipher support detection
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cipher support detection
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin ciphersvalues
+void PrimitiveType MethodDeclaration SimpleName test cipher support detection
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin ciphersvalues
+test cipher support detection SimpleName MethodDeclaration SimpleType SimpleName exception
+test cipher support detection SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin ciphersvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cipher support detection
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cipher support detection
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

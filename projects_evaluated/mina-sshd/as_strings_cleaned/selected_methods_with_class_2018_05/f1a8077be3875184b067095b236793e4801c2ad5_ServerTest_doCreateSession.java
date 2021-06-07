@@ -1,0 +1,74 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host key types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+create proposal SimpleName SuperMethodInvocation SimpleName host key types
+proposal SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName create proposal
+proposal SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName host key types
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal optionc scomp
+proposal SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+put SimpleName MethodInvocation QualifiedName kex proposal optionc scomp
+put SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+kex proposal optionc scomp QualifiedName MethodInvocation MethodInvocation SimpleName get current test name
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal options ccomp
+proposal SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+put SimpleName MethodInvocation QualifiedName kex proposal options ccomp
+put SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+kex proposal options ccomp QualifiedName MethodInvocation MethodInvocation SimpleName get current test name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create proposal
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host key types
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName kex proposal option
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName create proposal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName host key types
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName proposal
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create proposal
+kex proposal option SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create proposal
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create proposal
+create proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host key types
+create proposal SimpleName MethodDeclaration Block ReturnStatement SimpleName proposal
+client session impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get client
+client session impl SimpleName SimpleType ClassInstanceCreation SimpleName io session
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleName io session
+io session SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+io session SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName create proposal
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName client session impl
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do create session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName io session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName client session impl
+protected Modifier MethodDeclaration SimpleName do create session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+client session impl SimpleName SimpleType MethodDeclaration SimpleName do create session
+client session impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName io session
+client session impl SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+do create session SimpleName MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client session impl
+public Modifier TypeDeclaration MethodDeclaration SimpleName do create session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client session impl
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do create session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

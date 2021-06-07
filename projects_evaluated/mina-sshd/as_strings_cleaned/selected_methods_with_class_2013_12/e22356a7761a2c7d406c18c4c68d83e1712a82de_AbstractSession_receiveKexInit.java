@@ -1,0 +1,141 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName proposal
+size SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName array
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+buffer SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+data SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+data SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data SimpleName ArrayAccess NumberLiteral empty
+ssh constantsmessagessh msg kexinit QualifiedName MethodInvocation SimpleName to byte
+data SimpleName ArrayAccess Assignment MethodInvocation QualifiedName ssh constantsmessagessh msg kexinit
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName to byte
+empty NumberLiteral ArrayAccess Assignment MethodInvocation QualifiedName ssh constantsmessagessh msg kexinit
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName to byte
+buffer SimpleName MethodInvocation SimpleName rpos
+datalength QualifiedName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName d
+system SimpleName MethodInvocation MethodInvocation SimpleName buffer
+system SimpleName MethodInvocation MethodInvocation SimpleName rpos
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName d
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName buffer
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName rpos
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression QualifiedName datalength
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+d SimpleName MethodInvocation MethodInvocation SimpleName buffer
+d SimpleName MethodInvocation MethodInvocation SimpleName rpos
+d SimpleName MethodInvocation SimpleName data
+d SimpleName MethodInvocation NumberLiteral empty
+d SimpleName MethodInvocation InfixExpression QualifiedName datalength
+d SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation MethodInvocation SimpleName data
+rpos SimpleName MethodInvocation MethodInvocation SimpleName data
+buffer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+rpos SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName datalength
+buffer SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+rpos SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName datalength
+rpos SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation InfixExpression QualifiedName datalength
+data SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName datalength
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rpos SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+rpos SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName proposallength
+size SimpleName Assignment NumberLiteral empty
+proposal SimpleName ArrayAccess SimpleName i
+buffer SimpleName MethodInvocation SimpleName get string
+proposal SimpleName ArrayAccess Assignment MethodInvocation SimpleName buffer
+proposal SimpleName ArrayAccess Assignment MethodInvocation SimpleName get string
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName buffer
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get string
+proposal SimpleName ArrayAccess SimpleName i
+proposal SimpleName ArrayAccess MethodInvocation SimpleName length
+i SimpleName ArrayAccess MethodInvocation SimpleName length
+size SimpleName Assignment MethodInvocation ArrayAccess SimpleName proposal
+size SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+size SimpleName Assignment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName proposallength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+proposallength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+buffer SimpleName MethodInvocation SimpleName get byte
+buffer SimpleName MethodInvocation SimpleName get int
+byte PrimitiveType ArrayType ArrayCreation SimpleName size
+data shrinked SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+data shrinked SimpleName VariableDeclarationFragment ArrayCreation SimpleName size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data shrinked
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName data shrinked
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data shrinked
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName size
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName data shrinked
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName data shrinked
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName size
+data shrinked SimpleName MethodInvocation NumberLiteral empty
+data shrinked SimpleName MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName size
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName receive kex init
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName proposal
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName data shrinked
+byte PrimitiveType ArrayType MethodDeclaration SimpleName receive kex init
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName proposal
+receive kex init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+receive kex init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+receive kex init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName proposal
+receive kex init SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+receive kex init SimpleName MethodDeclaration Block ReturnStatement SimpleName data shrinked
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName receive kex init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposal
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName receive kex init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposal

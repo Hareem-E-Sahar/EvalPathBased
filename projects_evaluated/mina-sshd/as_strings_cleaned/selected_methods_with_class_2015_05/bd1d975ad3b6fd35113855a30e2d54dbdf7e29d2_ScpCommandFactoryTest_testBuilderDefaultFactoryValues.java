@@ -1,0 +1,56 @@
+scp command factorybuilder QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName build
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+scp command factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+factory SimpleName MethodInvocation SimpleName get delegate command factory
+assert null SimpleName MethodInvocation StringLiteral mismatched delegate
+assert null SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get delegate command factory
+mismatched delegate StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched delegate StringLiteral MethodInvocation MethodInvocation SimpleName get delegate command factory
+factory SimpleName MethodInvocation SimpleName get executor service
+assert null SimpleName MethodInvocation StringLiteral mismatched executor
+assert null SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+mismatched executor StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched executor StringLiteral MethodInvocation MethodInvocation SimpleName get executor service
+factory SimpleName MethodInvocation SimpleName get send buffer size
+assert equals SimpleName MethodInvocation StringLiteral mismatched send size
+assert equals SimpleName MethodInvocation QualifiedName scp helpermin send buffer size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get send buffer size
+mismatched send size StringLiteral MethodInvocation QualifiedName scp helpermin send buffer size
+mismatched send size StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched send size StringLiteral MethodInvocation MethodInvocation SimpleName get send buffer size
+scp helpermin send buffer size QualifiedName MethodInvocation MethodInvocation SimpleName factory
+scp helpermin send buffer size QualifiedName MethodInvocation MethodInvocation SimpleName get send buffer size
+factory SimpleName MethodInvocation SimpleName get receive buffer size
+assert equals SimpleName MethodInvocation StringLiteral mismatched receive size
+assert equals SimpleName MethodInvocation QualifiedName scp helpermin receive buffer size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get receive buffer size
+mismatched receive size StringLiteral MethodInvocation QualifiedName scp helpermin receive buffer size
+mismatched receive size StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched receive size StringLiteral MethodInvocation MethodInvocation SimpleName get receive buffer size
+scp helpermin receive buffer size QualifiedName MethodInvocation MethodInvocation SimpleName factory
+scp helpermin receive buffer size QualifiedName MethodInvocation MethodInvocation SimpleName get receive buffer size
+factory SimpleName MethodInvocation SimpleName is shutdown on exit
+assert false SimpleName MethodInvocation StringLiteral mismatched shutdown state
+assert false SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+mismatched shutdown state StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched shutdown state StringLiteral MethodInvocation MethodInvocation SimpleName is shutdown on exit
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test builder default factory values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test builder default factory values
+void PrimitiveType MethodDeclaration SimpleName test builder default factory values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test builder default factory values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test builder default factory values

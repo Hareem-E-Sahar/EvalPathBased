@@ -1,0 +1,34 @@
+int PrimitiveType SingleVariableDeclaration SimpleName b
+x ff NumberLiteral InfixExpression SimpleName b
+commands SimpleName MethodInvocation SimpleName get
+commands SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+commands SimpleName MethodInvocation InfixExpression SimpleName b
+get SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+get SimpleName MethodInvocation InfixExpression SimpleName b
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName pty mode
+public Modifier MethodDeclaration SimpleName from int
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+static Modifier MethodDeclaration SimpleType SimpleName pty mode
+static Modifier MethodDeclaration SimpleName from int
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+pty mode SimpleName SimpleType MethodDeclaration SimpleName from int
+pty mode SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+pty mode SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName b
+from int SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+from int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName pty mode
+public Modifier TypeDeclaration MethodDeclaration SimpleName from int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName pty mode
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

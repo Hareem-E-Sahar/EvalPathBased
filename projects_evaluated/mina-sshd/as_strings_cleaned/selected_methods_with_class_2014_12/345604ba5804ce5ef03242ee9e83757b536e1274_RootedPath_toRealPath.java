@@ -1,0 +1,34 @@
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+absolute SimpleName VariableDeclarationFragment MethodInvocation SimpleName to absolute path
+rooted path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName absolute
+file system SimpleName MethodInvocation SimpleName provider
+file system SimpleName MethodInvocation MethodInvocation SimpleName check access
+provider SimpleName MethodInvocation MethodInvocation SimpleName check access
+file system SimpleName MethodInvocation MethodInvocation SimpleName absolute
+provider SimpleName MethodInvocation MethodInvocation SimpleName absolute
+check access SimpleName MethodInvocation SimpleName absolute
+public Modifier MethodDeclaration SimpleType SimpleName rooted path
+public Modifier MethodDeclaration SimpleName to real path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName absolute
+rooted path SimpleName SimpleType MethodDeclaration SimpleName to real path
+rooted path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+rooted path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+to real path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+to real path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+to real path SimpleName MethodDeclaration SimpleType SimpleName io exception
+to real path SimpleName MethodDeclaration Block ReturnStatement SimpleName absolute
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rooted path
+public Modifier TypeDeclaration MethodDeclaration SimpleName to real path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rooted path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to real path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

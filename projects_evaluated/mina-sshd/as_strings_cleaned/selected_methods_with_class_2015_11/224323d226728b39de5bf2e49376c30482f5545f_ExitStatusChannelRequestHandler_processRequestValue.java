@@ -1,0 +1,53 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+int PrimitiveType SingleVariableDeclaration SimpleName exit status
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral process request value status
+log SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName exit status
+debug SimpleName MethodInvocation StringLiteral process request value status
+debug SimpleName MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation SimpleName exit status
+process request value status StringLiteral MethodInvocation SimpleName channel
+process request value status StringLiteral MethodInvocation SimpleName exit status
+channel SimpleName MethodInvocation SimpleName exit status
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName exit status
+value of SimpleName MethodInvocation SimpleName exit status
+protected Modifier MethodDeclaration SimpleType SimpleName integer
+protected Modifier MethodDeclaration SimpleName process request value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit status
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+integer SimpleName SimpleType MethodDeclaration SimpleName process request value
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName channel
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName exit status
+integer SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+process request value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+process request value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+process request value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+process request value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit status
+process request value SimpleName MethodDeclaration SimpleType SimpleName exception
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit status
+channel SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+exit status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName process request value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit status
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process request value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

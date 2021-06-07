@@ -1,0 +1,58 @@
+r SimpleName TypeParameter SimpleType SimpleName named resource
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+comparator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resources
+find by name SimpleName MethodInvocation SimpleName name
+find by name SimpleName MethodInvocation SimpleName c
+find by name SimpleName MethodInvocation SimpleName resources
+name SimpleName MethodInvocation SimpleName c
+name SimpleName MethodInvocation SimpleName resources
+c SimpleName MethodInvocation SimpleName resources
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName find by name
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources
+r SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+resources SimpleName MethodInvocation SimpleName remove
+resources SimpleName MethodInvocation SimpleName r
+remove SimpleName MethodInvocation SimpleName r
+static Modifier MethodDeclaration TypeParameter SimpleName r
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName named resource
+static Modifier MethodDeclaration SimpleType SimpleName r
+static Modifier MethodDeclaration SimpleName remove by name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName TypeParameter MethodDeclaration SimpleType SimpleName r
+r SimpleName TypeParameter MethodDeclaration SimpleName remove by name
+named resource SimpleName SimpleType TypeParameter MethodDeclaration SimpleName remove by name
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName name
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName resources
+r SimpleName SimpleType MethodDeclaration SimpleName remove by name
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resources
+remove by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+remove by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+remove by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resources
+remove by name SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources

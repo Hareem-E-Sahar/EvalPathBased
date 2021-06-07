@@ -1,0 +1,26 @@
+io write future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName get exception
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName future
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+get session SimpleName MethodInvocation MethodInvocation SimpleName exception caught
+get session SimpleName MethodInvocation MethodInvocation SimpleName t
+exception caught SimpleName MethodInvocation SimpleName t
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName future done
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName future done
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+future done SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+future done SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName future done
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName future done
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future

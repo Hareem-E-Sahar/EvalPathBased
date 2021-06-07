@@ -1,0 +1,66 @@
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+expected SimpleName MethodInvocation SimpleName get bytes
+expected SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+base SimpleName MethodInvocation SimpleName encode to string
+base SimpleName MethodInvocation MethodInvocation SimpleName expected
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+encode to string SimpleName MethodInvocation MethodInvocation SimpleName expected
+encode to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+encode to string SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName base
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode to string
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName expected
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bytes
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+b SimpleName MethodInvocation SimpleName get bytes
+b SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+base SimpleName MethodInvocation SimpleName decode base
+base SimpleName MethodInvocation MethodInvocation SimpleName b
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+decode base SimpleName MethodInvocation MethodInvocation SimpleName b
+decode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode base SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+decoded SimpleName VariableDeclarationFragment MethodInvocation SimpleName base
+decoded SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode base
+decoded SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName b
+decoded SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bytes
+decoded SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName decoded
+string SimpleName SimpleType ClassInstanceCreation SimpleName decoded
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+decoded SimpleName ClassInstanceCreation QualifiedName standard charsetsutf
+actual SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+actual SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName decoded
+actual SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName standard charsetsutf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched decoded result for StringLiteral InfixExpression SimpleName b
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched decoded result for
+assert equals SimpleName MethodInvocation InfixExpression SimpleName b
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched decoded result for StringLiteral InfixExpression MethodInvocation SimpleName expected
+b SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched decoded result for StringLiteral InfixExpression MethodInvocation SimpleName actual
+b SimpleName InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test basic encode decode
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test basic encode decode
+void PrimitiveType MethodDeclaration SimpleName test basic encode decode
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test basic encode decode
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test basic encode decode

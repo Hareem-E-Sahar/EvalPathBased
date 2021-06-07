@@ -1,0 +1,53 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+key pair providerssh ed QualifiedName MethodInvocation SimpleName equals
+key pair providerssh ed QualifiedName MethodInvocation SimpleName key type
+equals SimpleName MethodInvocation SimpleName key type
+unsupported key type StringLiteral InfixExpression SimpleName key type
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported key type
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key type
+eddsa SimpleName InfixExpression StringLiteral provider not supported
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName eddsa
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral provider not supported
+general security exception SimpleName SimpleType ClassInstanceCreation StringLiteral full sshd implementation na
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName extract eddsa key pair
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+static Modifier MethodDeclaration SimpleType SimpleName key pair
+static Modifier MethodDeclaration SimpleName extract eddsa key pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+static Modifier MethodDeclaration SimpleType SimpleName general security exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName extract eddsa key pair
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key type
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+extract eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+extract eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+extract eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+extract eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+extract eddsa key pair SimpleName MethodDeclaration SimpleType SimpleName general security exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract eddsa key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract eddsa key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

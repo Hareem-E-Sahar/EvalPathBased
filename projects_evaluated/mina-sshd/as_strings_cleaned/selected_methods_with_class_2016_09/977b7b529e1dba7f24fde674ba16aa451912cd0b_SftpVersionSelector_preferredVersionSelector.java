@@ -1,0 +1,96 @@
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName iterable
+final Modifier SingleVariableDeclaration SimpleName preferred
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName preferred
+collection SimpleName SimpleType ParameterizedType WildcardType ?
+collection SimpleName SimpleType ParameterizedType CastExpression SimpleName preferred
+? WildcardType ParameterizedType CastExpression SimpleName preferred
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation CastExpression ParameterizedType WildcardType ?
+validate utils SimpleName MethodInvocation CastExpression SimpleName preferred
+validate utils SimpleName MethodInvocation StringLiteral empty preferred versions
+check not null and not empty SimpleName MethodInvocation CastExpression ParameterizedType WildcardType ?
+check not null and not empty SimpleName MethodInvocation CastExpression SimpleName preferred
+check not null and not empty SimpleName MethodInvocation StringLiteral empty preferred versions
+? WildcardType ParameterizedType CastExpression MethodInvocation StringLiteral empty preferred versions
+preferred SimpleName CastExpression MethodInvocation StringLiteral empty preferred versions
+preferred SimpleName MethodInvocation SimpleName spliterator
+stream support SimpleName MethodInvocation SimpleName stream
+stream support SimpleName MethodInvocation MethodInvocation SimpleName preferred
+stream support SimpleName MethodInvocation MethodInvocation SimpleName spliterator
+stream support SimpleName MethodInvocation BooleanLiteral false
+stream SimpleName MethodInvocation MethodInvocation SimpleName preferred
+stream SimpleName MethodInvocation MethodInvocation SimpleName spliterator
+stream SimpleName MethodInvocation BooleanLiteral false
+preferred SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+spliterator SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+number SimpleName ExpressionMethodReference SimpleName int value
+stream support SimpleName MethodInvocation MethodInvocation SimpleName map to int
+stream SimpleName MethodInvocation MethodInvocation SimpleName map to int
+preferred SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map to int
+spliterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map to int
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName map to int
+stream support SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName number
+stream support SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName int value
+stream SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName number
+stream SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName int value
+false BooleanLiteral MethodInvocation MethodInvocation ExpressionMethodReference SimpleName number
+false BooleanLiteral MethodInvocation MethodInvocation ExpressionMethodReference SimpleName int value
+map to int SimpleName MethodInvocation ExpressionMethodReference SimpleName number
+map to int SimpleName MethodInvocation ExpressionMethodReference SimpleName int value
+v SimpleName InfixExpression SimpleName current
+available SimpleName MethodInvocation SimpleName contains
+available SimpleName MethodInvocation SimpleName v
+contains SimpleName MethodInvocation SimpleName v
+v SimpleName InfixExpression InfixExpression MethodInvocation SimpleName available
+v SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains
+v SimpleName InfixExpression InfixExpression MethodInvocation SimpleName v
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName available
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName v
+stream support SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+map to int SimpleName MethodInvocation MethodInvocation SimpleName filter
+number SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName filter
+int value SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName v
+map to int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName find first
+filter SimpleName MethodInvocation MethodInvocation SimpleName find first
+preferred versions ( StringLiteral InfixExpression SimpleName preferred
+preferred versions ( StringLiteral InfixExpression StringLiteral ) not available
+preferred versions ( StringLiteral InfixExpression SimpleName available
+preferred SimpleName InfixExpression StringLiteral ) not available
+preferred SimpleName InfixExpression SimpleName available
+) not available StringLiteral InfixExpression SimpleName available
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral preferred versions (
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName preferred
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) not available
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName available
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName or else throw
+find first SimpleName MethodInvocation MethodInvocation SimpleName or else throw
+session SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName current
+session SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName available
+session SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName or else throw
+current SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName available
+current SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName or else throw
+available SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName or else throw
+static Modifier MethodDeclaration SimpleType SimpleName sftp version selector
+static Modifier MethodDeclaration SimpleName preferred version selector
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName preferred
+sftp version selector SimpleName SimpleType MethodDeclaration SimpleName preferred version selector
+sftp version selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+sftp version selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName preferred
+preferred version selector SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+preferred version selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName preferred
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp version selector
+public Modifier TypeDeclaration MethodDeclaration SimpleName preferred version selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preferred
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp version selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName preferred version selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preferred

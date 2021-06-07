@@ -1,0 +1,20 @@
+resolver SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel stream packet writer resolver
+channel stream packet writer resolver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolver
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+channel stream packet writer resolver manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName resolve channel stream packet writer resolver
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName channel stream packet writer resolver
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve channel stream packet writer resolver
+public Modifier MethodDeclaration SimpleType SimpleName channel stream packet writer resolver
+public Modifier MethodDeclaration SimpleName resolve channel stream packet writer resolver
+channel stream packet writer resolver SimpleName SimpleType MethodDeclaration SimpleName resolve channel stream packet writer resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName channel stream packet writer resolver
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve channel stream packet writer resolver
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName channel stream packet writer resolver
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve channel stream packet writer resolver

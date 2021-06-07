@@ -1,0 +1,169 @@
+connection service SimpleName SimpleType SingleVariableDeclaration SimpleName connection service
+string SimpleName SimpleType SingleVariableDeclaration SimpleName request
+boolean PrimitiveType SingleVariableDeclaration SimpleName want reply
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+request SimpleName MethodInvocation SimpleName equals
+request SimpleName MethodInvocation SimpleName request
+equals SimpleName MethodInvocation SimpleName request
+process SimpleName SuperMethodInvocation SimpleName connection service
+process SimpleName SuperMethodInvocation SimpleName request
+process SimpleName SuperMethodInvocation SimpleName want reply
+process SimpleName SuperMethodInvocation SimpleName buffer
+connection service SimpleName SuperMethodInvocation SimpleName request
+connection service SimpleName SuperMethodInvocation SimpleName want reply
+connection service SimpleName SuperMethodInvocation SimpleName buffer
+request SimpleName SuperMethodInvocation SimpleName want reply
+request SimpleName SuperMethodInvocation SimpleName buffer
+want reply SimpleName SuperMethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get string
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+buffer SimpleName MethodInvocation SimpleName get int
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName address
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName port
+address SimpleName ClassInstanceCreation SimpleName port
+socket address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+socket address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName address
+socket address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName port
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName socket address
+connection service SimpleName MethodInvocation SimpleName get tcpip forwarder
+forwarder SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection service
+forwarder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tcpip forwarder
+tcpip forwarder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName forwarder
+forwarder SimpleName MethodInvocation SimpleName local port forwarding requested
+forwarder SimpleName MethodInvocation SimpleName socket address
+local port forwarding requested SimpleName MethodInvocation SimpleName socket address
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName forwarder
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName local port forwarding requested
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket address
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral process {} => {} reply
+log SimpleName MethodInvocation SimpleName connection service
+log SimpleName MethodInvocation SimpleName request
+log SimpleName MethodInvocation SimpleName socket address
+debug SimpleName MethodInvocation StringLiteral process {} => {} reply
+debug SimpleName MethodInvocation SimpleName connection service
+debug SimpleName MethodInvocation SimpleName request
+debug SimpleName MethodInvocation SimpleName socket address
+debug SimpleName MethodInvocation SimpleName bound
+process {} => {} reply StringLiteral MethodInvocation SimpleName connection service
+process {} => {} reply StringLiteral MethodInvocation SimpleName request
+process {} => {} reply StringLiteral MethodInvocation SimpleName socket address
+process {} => {} reply StringLiteral MethodInvocation SimpleName bound
+process {} => {} reply StringLiteral MethodInvocation SimpleName want reply
+connection service SimpleName MethodInvocation SimpleName request
+connection service SimpleName MethodInvocation SimpleName socket address
+connection service SimpleName MethodInvocation SimpleName bound
+connection service SimpleName MethodInvocation SimpleName want reply
+request SimpleName MethodInvocation SimpleName socket address
+request SimpleName MethodInvocation SimpleName bound
+request SimpleName MethodInvocation SimpleName want reply
+socket address SimpleName MethodInvocation SimpleName bound
+socket address SimpleName MethodInvocation SimpleName want reply
+bound SimpleName MethodInvocation SimpleName want reply
+bound SimpleName MethodInvocation SimpleName get port
+port SimpleName Assignment MethodInvocation SimpleName bound
+port SimpleName Assignment MethodInvocation SimpleName get port
+connection service SimpleName MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection service
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+buffer utils SimpleName MethodInvocation SimpleName clear
+buffer utils SimpleName MethodInvocation SimpleName buffer
+clear SimpleName MethodInvocation SimpleName buffer
+session SimpleName MethodInvocation SimpleName prepare buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg request success
+session SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+session SimpleName MethodInvocation MethodInvocation SimpleName clear
+session SimpleName MethodInvocation MethodInvocation SimpleName buffer
+prepare buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg request success
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName clear
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+ssh constantsssh msg request success QualifiedName MethodInvocation MethodInvocation SimpleName buffer utils
+ssh constantsssh msg request success QualifiedName MethodInvocation MethodInvocation SimpleName clear
+ssh constantsssh msg request success QualifiedName MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName session
+buffer SimpleName Assignment MethodInvocation SimpleName prepare buffer
+buffer SimpleName Assignment MethodInvocation QualifiedName ssh constantsssh msg request success
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer utils
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName clear
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName port
+put int SimpleName MethodInvocation SimpleName port
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+want reply SimpleName IfStatement Block ReturnStatement QualifiedName resultreplied
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName connection service
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName result
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName connection service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName want reply
+result SimpleName SimpleType MethodDeclaration SimpleName process
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connection service
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName want reply
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection service
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+process SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName want reply
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+process SimpleName MethodDeclaration SimpleType SimpleName exception
+connection service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+connection service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+connection service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName want reply
+connection service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+connection service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName want reply
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+want reply SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+want reply SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName want reply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName want reply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

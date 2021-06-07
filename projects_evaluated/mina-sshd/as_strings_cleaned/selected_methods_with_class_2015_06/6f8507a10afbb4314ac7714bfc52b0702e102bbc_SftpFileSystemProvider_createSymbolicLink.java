@@ -1,0 +1,100 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName link
+path SimpleName SimpleType SingleVariableDeclaration SimpleName target
+file attribute SimpleName SimpleType ParameterizedType WildcardType ?
+file attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName attrs
+to sftp path SimpleName MethodInvocation SimpleName link
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sftp path
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName link
+sftp path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+l SimpleName MethodInvocation SimpleName get file system
+fs link SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+fs link SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+sftp file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs link
+to sftp path SimpleName MethodInvocation SimpleName target
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sftp path
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+sftp path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName get file system
+fs link SimpleName InfixExpression MethodInvocation SimpleName t
+fs link SimpleName InfixExpression MethodInvocation SimpleName get file system
+mismatched file system providers for StringLiteral InfixExpression SimpleName l
+mismatched file system providers for StringLiteral InfixExpression StringLiteral vs
+mismatched file system providers for StringLiteral InfixExpression SimpleName t
+l SimpleName InfixExpression StringLiteral vs
+l SimpleName InfixExpression SimpleName t
+vs StringLiteral InfixExpression SimpleName t
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mismatched file system providers for
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName l
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral vs
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName t
+fs link SimpleName MethodInvocation SimpleName get client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs link
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+l SimpleName MethodInvocation SimpleName to string
+t SimpleName MethodInvocation SimpleName to string
+client SimpleName MethodInvocation SimpleName sym link
+client SimpleName MethodInvocation MethodInvocation SimpleName l
+client SimpleName MethodInvocation MethodInvocation SimpleName to string
+client SimpleName MethodInvocation MethodInvocation SimpleName t
+client SimpleName MethodInvocation MethodInvocation SimpleName to string
+sym link SimpleName MethodInvocation MethodInvocation SimpleName l
+sym link SimpleName MethodInvocation MethodInvocation SimpleName to string
+sym link SimpleName MethodInvocation MethodInvocation SimpleName t
+sym link SimpleName MethodInvocation MethodInvocation SimpleName to string
+l SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+l SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create symbolic link
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName link
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create symbolic link
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName link
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+void PrimitiveType MethodDeclaration SimpleName create symbolic link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+create symbolic link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+create symbolic link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName link
+create symbolic link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+create symbolic link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+create symbolic link SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+create symbolic link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+create symbolic link SimpleName MethodDeclaration SimpleType SimpleName io exception
+link SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+link SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+link SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+target SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attrs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create symbolic link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create symbolic link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

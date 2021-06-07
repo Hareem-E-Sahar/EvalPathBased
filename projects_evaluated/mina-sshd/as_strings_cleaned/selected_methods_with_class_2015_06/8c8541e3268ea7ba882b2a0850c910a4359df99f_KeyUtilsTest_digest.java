@@ -1,0 +1,23 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ArrayType PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName digest
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName digest
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ThrowStatement SimpleName thrown
+byte PrimitiveType ArrayType MethodDeclaration SimpleName digest
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName exception
+digest SimpleName MethodDeclaration SimpleType SimpleName exception
+digest SimpleName MethodDeclaration Block ThrowStatement SimpleName thrown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName digest
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName digest
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

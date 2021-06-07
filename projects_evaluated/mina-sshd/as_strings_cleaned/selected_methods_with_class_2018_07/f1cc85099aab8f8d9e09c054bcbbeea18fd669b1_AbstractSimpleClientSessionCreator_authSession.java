@@ -1,0 +1,60 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName client session
+session SimpleName VariableDeclarationFragment SimpleName client session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client session
+io exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+session SimpleName MethodInvocation SimpleName auth
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth
+auth future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+auth SimpleName MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName get authentication timeout
+verify SimpleName MethodInvocation MethodInvocation SimpleName get authentication timeout
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName e
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName e
+err SimpleName MethodInvocation SimpleName e
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName e
+session SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName e
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName e
+err SimpleName MethodInvocation SimpleName e
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SimpleName auth session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client session
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName client session
+client session SimpleName SimpleType MethodDeclaration SimpleName auth session
+client session SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client session
+client session SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+auth session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+auth session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client session
+auth session SimpleName MethodDeclaration SimpleType SimpleName io exception
+auth session SimpleName MethodDeclaration Block ReturnStatement SimpleName client session
+client session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client session
+public Modifier TypeDeclaration MethodDeclaration SimpleName auth session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName auth session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

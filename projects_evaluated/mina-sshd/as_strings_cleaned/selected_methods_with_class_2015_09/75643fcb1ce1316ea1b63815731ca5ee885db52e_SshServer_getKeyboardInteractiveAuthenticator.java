@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName keyboard interactive authenticator
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get keyboard interactive authenticator
+public Modifier MethodDeclaration SimpleType SimpleName keyboard interactive authenticator
+public Modifier MethodDeclaration SimpleName get keyboard interactive authenticator
+public Modifier MethodDeclaration Block ReturnStatement SimpleName interactive authenticator
+keyboard interactive authenticator SimpleName SimpleType MethodDeclaration SimpleName get keyboard interactive authenticator
+get keyboard interactive authenticator SimpleName MethodDeclaration Block ReturnStatement SimpleName interactive authenticator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keyboard interactive authenticator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get keyboard interactive authenticator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keyboard interactive authenticator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get keyboard interactive authenticator

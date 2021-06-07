@@ -1,0 +1,46 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+string SimpleName SimpleType SingleVariableDeclaration SimpleName curve name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName curve name
+is empty SimpleName MethodInvocation SimpleName curve name
+lazy specs map holderspecs map QualifiedName MethodInvocation SimpleName get
+lazy specs map holderspecs map QualifiedName MethodInvocation SimpleName curve name
+get SimpleName MethodInvocation SimpleName curve name
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName ec parameter spec
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName ec parameter spec
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get ec parameter spec
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get ec parameter spec
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName curve name
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName curve name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName ec parameter spec
+public Modifier MethodDeclaration SimpleName get ec parameter spec
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName curve name
+static Modifier MethodDeclaration SimpleType SimpleName ec parameter spec
+static Modifier MethodDeclaration SimpleName get ec parameter spec
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName curve name
+ec parameter spec SimpleName SimpleType MethodDeclaration SimpleName get ec parameter spec
+ec parameter spec SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName curve name
+get ec parameter spec SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get ec parameter spec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curve name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ec parameter spec
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ec parameter spec
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curve name
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ec parameter spec
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ec parameter spec
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curve name

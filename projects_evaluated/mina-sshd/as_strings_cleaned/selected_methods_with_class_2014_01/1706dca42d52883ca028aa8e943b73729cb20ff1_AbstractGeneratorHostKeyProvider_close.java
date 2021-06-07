@@ -1,0 +1,21 @@
+closeable SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName close
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

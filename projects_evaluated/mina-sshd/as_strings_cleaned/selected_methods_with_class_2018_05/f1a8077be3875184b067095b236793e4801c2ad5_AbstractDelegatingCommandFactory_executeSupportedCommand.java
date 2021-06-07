@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName command
+protected Modifier MethodDeclaration SimpleName execute supported command
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+abstract Modifier MethodDeclaration SimpleType SimpleName command
+abstract Modifier MethodDeclaration SimpleName execute supported command
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+command SimpleName SimpleType MethodDeclaration SimpleName execute supported command
+command SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName command
+execute supported command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute supported command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute supported command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute supported command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command

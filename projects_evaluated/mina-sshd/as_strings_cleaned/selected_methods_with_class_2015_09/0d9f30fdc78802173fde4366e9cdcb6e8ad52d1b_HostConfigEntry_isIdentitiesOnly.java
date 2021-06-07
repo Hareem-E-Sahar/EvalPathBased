@@ -1,0 +1,14 @@
+exclusive identites SimpleName MethodInvocation SimpleName boolean value
+exclusive identites SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName default exclusive identities
+default exclusive identities SimpleName ConditionalExpression MethodInvocation SimpleName exclusive identites
+default exclusive identities SimpleName ConditionalExpression MethodInvocation SimpleName boolean value
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is identities only
+boolean PrimitiveType MethodDeclaration SimpleName is identities only
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is identities only
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is identities only

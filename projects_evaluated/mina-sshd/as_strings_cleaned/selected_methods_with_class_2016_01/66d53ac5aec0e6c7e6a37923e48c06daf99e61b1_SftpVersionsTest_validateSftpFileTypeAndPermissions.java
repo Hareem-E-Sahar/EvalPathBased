@@ -1,0 +1,151 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+int PrimitiveType SingleVariableDeclaration SimpleName version
+attributes SimpleName SimpleType SingleVariableDeclaration SimpleName attrs
+attrs SimpleName MethodInvocation SimpleName get permissions
+actual perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrs
+actual perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get permissions
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual perms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attrs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get permissions
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+sftp helper SimpleName MethodInvocation SimpleName permissions to file type
+sftp helper SimpleName MethodInvocation SimpleName actual perms
+permissions to file type SimpleName MethodInvocation SimpleName actual perms
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp helper
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName permissions to file type
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual perms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sftp helper
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName permissions to file type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName actual perms
+file name SimpleName InfixExpression StringLiteral : mismatched file type
+attrs SimpleName MethodInvocation SimpleName get type
+assert equals SimpleName MethodInvocation InfixExpression SimpleName file name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral : mismatched file type
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName attrs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+file name SimpleName InfixExpression MethodInvocation SimpleName expected
+: mismatched file type StringLiteral InfixExpression MethodInvocation SimpleName expected
+file name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName attrs
+file name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get type
+: mismatched file type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName attrs
+: mismatched file type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get type
+expected SimpleName MethodInvocation MethodInvocation SimpleName attrs
+expected SimpleName MethodInvocation MethodInvocation SimpleName get type
+attrs SimpleName MethodInvocation SimpleName get type
+sftp helper SimpleName MethodInvocation SimpleName file type to permission
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleName attrs
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleName get type
+file type to permission SimpleName MethodInvocation MethodInvocation SimpleName attrs
+file type to permission SimpleName MethodInvocation MethodInvocation SimpleName get type
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp helper
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName file type to permission
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attrs
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sftp helper
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName file type to permission
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation SimpleName expected
+to hex string SimpleName MethodInvocation SimpleName expected
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation SimpleName actual perms
+to hex string SimpleName MethodInvocation SimpleName actual perms
+file name SimpleName InfixExpression StringLiteral : missing permision x
+file name SimpleName InfixExpression MethodInvocation SimpleName integer
+file name SimpleName InfixExpression MethodInvocation SimpleName to hex string
+file name SimpleName InfixExpression MethodInvocation SimpleName expected
+file name SimpleName InfixExpression StringLiteral in x
+file name SimpleName InfixExpression MethodInvocation SimpleName integer
+file name SimpleName InfixExpression MethodInvocation SimpleName to hex string
+file name SimpleName InfixExpression MethodInvocation SimpleName actual perms
+: missing permision x StringLiteral InfixExpression MethodInvocation SimpleName integer
+: missing permision x StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+: missing permision x StringLiteral InfixExpression MethodInvocation SimpleName expected
+: missing permision x StringLiteral InfixExpression StringLiteral in x
+: missing permision x StringLiteral InfixExpression MethodInvocation SimpleName integer
+: missing permision x StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+: missing permision x StringLiteral InfixExpression MethodInvocation SimpleName actual perms
+integer SimpleName MethodInvocation InfixExpression StringLiteral in x
+to hex string SimpleName MethodInvocation InfixExpression StringLiteral in x
+expected SimpleName MethodInvocation InfixExpression StringLiteral in x
+integer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName integer
+integer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual perms
+to hex string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName integer
+to hex string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+to hex string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual perms
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName integer
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual perms
+in x StringLiteral InfixExpression MethodInvocation SimpleName integer
+in x StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+in x StringLiteral InfixExpression MethodInvocation SimpleName actual perms
+actual perms SimpleName InfixExpression SimpleName expected
+actual perms SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName expected
+expected SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName expected
+assert true SimpleName MethodInvocation InfixExpression SimpleName file name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral : missing permision x
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName integer
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+assert true SimpleName MethodInvocation InfixExpression StringLiteral in x
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName integer
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual perms
+assert true SimpleName MethodInvocation InfixExpression SimpleName expected
+file name SimpleName InfixExpression MethodInvocation InfixExpression SimpleName expected
+: missing permision x StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName expected
+in x StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName expected
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName attrs
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName attributes
+private Modifier MethodDeclaration SimpleName validate sftp file type and permissions
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration SimpleType SimpleName attributes
+static Modifier MethodDeclaration SimpleName validate sftp file type and permissions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+attributes SimpleName SimpleType MethodDeclaration SimpleName validate sftp file type and permissions
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName version
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+validate sftp file type and permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate sftp file type and permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+validate sftp file type and permissions SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+validate sftp file type and permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version
+validate sftp file type and permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributes
+validate sftp file type and permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+validate sftp file type and permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+validate sftp file type and permissions SimpleName MethodDeclaration Block ReturnStatement SimpleName attrs
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate sftp file type and permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate sftp file type and permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs

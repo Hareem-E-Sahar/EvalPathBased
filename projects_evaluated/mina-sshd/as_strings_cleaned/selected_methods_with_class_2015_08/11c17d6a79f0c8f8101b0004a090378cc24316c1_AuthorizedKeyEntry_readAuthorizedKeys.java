@@ -1,0 +1,58 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName authorized key entry
+buffered reader SimpleName SimpleType SingleVariableDeclaration SimpleName rdr
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName authorized key entry
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName rdr
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName line
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName rdr
+line SimpleName Assignment MethodInvocation SimpleName read line
+final Modifier VariableDeclarationStatement SimpleType SimpleName authorized key entry
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+authorized key entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+line SimpleName MethodInvocation SimpleName trim
+parse authorized key entry SimpleName MethodInvocation MethodInvocation SimpleName line
+parse authorized key entry SimpleName MethodInvocation MethodInvocation SimpleName trim
+entry SimpleName Assignment MethodInvocation SimpleName parse authorized key entry
+entry SimpleName Assignment MethodInvocation MethodInvocation SimpleName line
+entry SimpleName Assignment MethodInvocation MethodInvocation SimpleName trim
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+entries SimpleName MethodInvocation SimpleName add
+entries SimpleName MethodInvocation SimpleName entry
+add SimpleName MethodInvocation SimpleName entry
+line SimpleName InfixExpression ForStatement Assignment SimpleName line
+collections SimpleName MethodInvocation SimpleName empty list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName authorized key entry
+public Modifier MethodDeclaration SimpleName read authorized keys
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rdr
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName authorized key entry
+static Modifier MethodDeclaration SimpleName read authorized keys
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName rdr
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read authorized keys
+authorized key entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read authorized keys
+read authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+read authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rdr
+read authorized keys SimpleName MethodDeclaration SimpleType SimpleName io exception
+rdr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName read authorized keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rdr
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read authorized keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rdr
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

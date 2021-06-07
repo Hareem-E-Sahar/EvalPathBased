@@ -1,0 +1,25 @@
+parse path SimpleName MethodInvocation StringLiteral empty
+assert relativized path equals SimpleName MethodInvocation StringLiteral foobar
+assert relativized path equals SimpleName MethodInvocation MethodInvocation SimpleName parse path
+assert relativized path equals SimpleName MethodInvocation MethodInvocation StringLiteral empty
+assert relativized path equals SimpleName MethodInvocation StringLiteral foobar
+foobar StringLiteral MethodInvocation MethodInvocation SimpleName parse path
+foobar StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+foobar StringLiteral MethodInvocation StringLiteral foobar
+parse path SimpleName MethodInvocation MethodInvocation StringLiteral foobar
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral foobar
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test relativize against empty path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test relativize against empty path
+void PrimitiveType MethodDeclaration SimpleName test relativize against empty path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test relativize against empty path
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test relativize against empty path

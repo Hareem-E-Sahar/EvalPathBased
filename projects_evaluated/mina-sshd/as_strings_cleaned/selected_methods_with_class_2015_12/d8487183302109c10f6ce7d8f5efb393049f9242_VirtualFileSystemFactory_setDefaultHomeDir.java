@@ -1,0 +1,20 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName default home dir
+default home dir SimpleName FieldAccess Assignment SimpleName default home dir
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set default home dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName default home dir
+void PrimitiveType MethodDeclaration SimpleName set default home dir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName default home dir
+set default home dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set default home dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default home dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set default home dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default home dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set default home dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default home dir

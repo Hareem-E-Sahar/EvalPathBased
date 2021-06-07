@@ -1,0 +1,32 @@
+final Modifier SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration SimpleName delta
+int PrimitiveType SingleVariableDeclaration SimpleName delta
+delta SimpleName InfixExpression NumberLiteral empty
+value SimpleName InfixExpression SimpleName delta
+value SimpleName VariableDeclarationFragment LambdaExpression InfixExpression SimpleName value
+value SimpleName VariableDeclarationFragment LambdaExpression InfixExpression SimpleName delta
+static Modifier MethodDeclaration SimpleType SimpleName int int function
+static Modifier MethodDeclaration SimpleName add
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName delta
+int int function SimpleName SimpleType MethodDeclaration SimpleName add
+int int function SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+int int function SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int int function SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName delta
+add SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delta
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName int int function
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName int int function
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta

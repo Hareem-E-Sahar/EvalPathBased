@@ -1,0 +1,14 @@
+lock SimpleName SynchronizedStatement Block ReturnStatement SimpleName size
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get size
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType MethodDeclaration SimpleName get size
+int PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+get size SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get size

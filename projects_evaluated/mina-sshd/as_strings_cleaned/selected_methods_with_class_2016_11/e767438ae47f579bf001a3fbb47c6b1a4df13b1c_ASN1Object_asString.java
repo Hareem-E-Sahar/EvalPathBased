@@ -1,0 +1,73 @@
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get obj type
+asn type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral no type set
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName encoding
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoding
+encoding SimpleName Assignment StringLiteral iso -
+encoding SimpleName Assignment StringLiteral utf be
+encoding SimpleName Assignment StringLiteral utf
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid der cant handle ucs string
+invalid der object is not a string StringLiteral InfixExpression SimpleName type
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid der object is not a string
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+type SimpleName SwitchStatement SwitchCase SimpleName numeric string
+type SimpleName SwitchStatement SwitchCase SimpleName printable string
+type SimpleName SwitchStatement SwitchCase SimpleName videotex string
+type SimpleName SwitchStatement SwitchCase SimpleName ia string
+type SimpleName SwitchStatement SwitchCase SimpleName graphic string
+numeric string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName printable string
+numeric string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName videotex string
+numeric string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ia string
+numeric string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName graphic string
+numeric string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName iso string
+printable string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName videotex string
+printable string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ia string
+printable string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName graphic string
+printable string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName iso string
+printable string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName general string
+videotex string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ia string
+videotex string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName graphic string
+videotex string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName iso string
+videotex string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName general string
+ia string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName graphic string
+ia string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName iso string
+ia string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName general string
+graphic string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName iso string
+graphic string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName general string
+graphic string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName bmp string
+iso string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName general string
+iso string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName bmp string
+general string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName bmp string
+bmp string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName utf string
+utf string SimpleName SwitchCase SwitchStatement SwitchCase SimpleName universal string
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get length
+string SimpleName SimpleType ClassInstanceCreation SimpleName encoding
+get value SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get length
+get value SimpleName MethodInvocation ClassInstanceCreation SimpleName encoding
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get length
+empty NumberLiteral ClassInstanceCreation SimpleName encoding
+get length SimpleName MethodInvocation ClassInstanceCreation SimpleName encoding
+final Modifier VariableDeclarationStatement Block SwitchStatement SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName as string
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block SwitchStatement SimpleName type
+string SimpleName SimpleType MethodDeclaration SimpleName as string
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+as string SimpleName MethodDeclaration SimpleType SimpleName io exception
+as string SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+as string SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName as string
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as string
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

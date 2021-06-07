@@ -1,0 +1,123 @@
+collections SimpleName MethodInvocation SimpleName empty map
+file systems SimpleName MethodInvocation SimpleName new file system
+file systems SimpleName MethodInvocation MethodInvocation SimpleName create default file system uri
+file systems SimpleName MethodInvocation MethodInvocation SimpleName collections
+file systems SimpleName MethodInvocation MethodInvocation SimpleName empty map
+new file system SimpleName MethodInvocation MethodInvocation SimpleName create default file system uri
+new file system SimpleName MethodInvocation MethodInvocation SimpleName collections
+new file system SimpleName MethodInvocation MethodInvocation SimpleName empty map
+create default file system uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+create default file system uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file systems
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create default file system uri
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty map
+file system SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName fs
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName file store
+fs SimpleName MethodInvocation SimpleName get file stores
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file stores
+list SimpleName SimpleType ParameterizedType WildcardType ?
+iter SimpleName InstanceofExpression ParameterizedType SimpleType SimpleName list
+iter SimpleName InstanceofExpression ParameterizedType WildcardType ?
+assert true SimpleName MethodInvocation StringLiteral not a list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName iter
+assert true SimpleName MethodInvocation InstanceofExpression ParameterizedType WildcardType ?
+not a list StringLiteral MethodInvocation InstanceofExpression SimpleName iter
+not a list StringLiteral MethodInvocation InstanceofExpression ParameterizedType WildcardType ?
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file store
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file store
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName iter
+file store SimpleName SimpleType ParameterizedType CastExpression SimpleName iter
+list SimpleName VariableDeclarationFragment CastExpression SimpleName iter
+list SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation StringLiteral mismatched stores count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName list
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+mismatched stores count StringLiteral MethodInvocation NumberLiteral empty
+mismatched stores count StringLiteral MethodInvocation MethodInvocation SimpleName list
+mismatched stores count StringLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName list
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+store SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+store SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+store SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+file store SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName store
+store SimpleName MethodInvocation SimpleName type
+assert equals SimpleName MethodInvocation StringLiteral mismatched type
+assert equals SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName store
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName type
+mismatched type StringLiteral MethodInvocation QualifiedName sftp constantssftp subsystem name
+mismatched type StringLiteral MethodInvocation MethodInvocation SimpleName store
+mismatched type StringLiteral MethodInvocation MethodInvocation SimpleName type
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName store
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName type
+store SimpleName MethodInvocation SimpleName is read only
+assert false SimpleName MethodInvocation StringLiteral readonly ?
+assert false SimpleName MethodInvocation MethodInvocation SimpleName store
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is read only
+readonly ? StringLiteral MethodInvocation MethodInvocation SimpleName store
+readonly ? StringLiteral MethodInvocation MethodInvocation SimpleName is read only
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+fs SimpleName MethodInvocation SimpleName supported file attribute views
+unsupported view name StringLiteral InfixExpression SimpleName name
+store SimpleName MethodInvocation SimpleName supports file attribute view
+store SimpleName MethodInvocation SimpleName name
+supports file attribute view SimpleName MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral unsupported view name
+assert true SimpleName MethodInvocation InfixExpression SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName store
+assert true SimpleName MethodInvocation MethodInvocation SimpleName supports file attribute view
+assert true SimpleName MethodInvocation MethodInvocation SimpleName name
+unsupported view name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName store
+unsupported view name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName supports file attribute view
+unsupported view name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName store
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName supports file attribute view
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fs
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName supported file attribute views
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+type SimpleName MethodInvocation SimpleName get simple name
+unsupported view type StringLiteral InfixExpression MethodInvocation SimpleName type
+unsupported view type StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+store SimpleName MethodInvocation SimpleName supports file attribute view
+store SimpleName MethodInvocation SimpleName type
+supports file attribute view SimpleName MethodInvocation SimpleName type
+assert true SimpleName MethodInvocation InfixExpression StringLiteral unsupported view type
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName store
+assert true SimpleName MethodInvocation MethodInvocation SimpleName supports file attribute view
+assert true SimpleName MethodInvocation MethodInvocation SimpleName type
+unsupported view type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName store
+unsupported view type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName supports file attribute view
+unsupported view type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName type
+type SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName sftp file system provideruniversal supported views
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test file store
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test file store
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test file store
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test file store SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test file store
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test file store
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

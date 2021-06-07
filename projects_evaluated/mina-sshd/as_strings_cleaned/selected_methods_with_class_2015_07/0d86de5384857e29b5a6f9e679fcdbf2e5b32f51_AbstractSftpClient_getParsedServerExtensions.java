@@ -1,0 +1,52 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+string SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName extensions
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+parsed extensions holder SimpleName MethodInvocation SimpleName get
+parsed SimpleName VariableDeclarationFragment MethodInvocation SimpleName parsed extensions holder
+parsed SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+parser utils SimpleName MethodInvocation SimpleName parse
+parser utils SimpleName MethodInvocation SimpleName extensions
+parse SimpleName MethodInvocation SimpleName extensions
+parsed SimpleName Assignment MethodInvocation SimpleName parser utils
+parsed SimpleName Assignment MethodInvocation SimpleName parse
+parsed SimpleName Assignment MethodInvocation SimpleName extensions
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+parsed SimpleName Assignment MethodInvocation SimpleName collections
+parsed SimpleName Assignment MethodInvocation SimpleType SimpleName string
+parsed SimpleName Assignment MethodInvocation SimpleType SimpleName object
+parsed SimpleName Assignment MethodInvocation SimpleName empty map
+parsed extensions holder SimpleName MethodInvocation SimpleName set
+parsed extensions holder SimpleName MethodInvocation SimpleName parsed
+set SimpleName MethodInvocation SimpleName parsed
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName get parsed server extensions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName extensions
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName parsed
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parsed server extensions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parsed server extensions
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parsed server extensions
+get parsed server extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extensions
+get parsed server extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName parsed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parsed server extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parsed server extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions

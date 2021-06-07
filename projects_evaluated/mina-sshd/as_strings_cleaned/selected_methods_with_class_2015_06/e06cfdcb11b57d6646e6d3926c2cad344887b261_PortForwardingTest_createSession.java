@@ -1,0 +1,43 @@
+j sch logger SimpleName MethodInvocation SimpleName init
+sch SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j sch
+j sch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sch
+sch SimpleName MethodInvocation SimpleName get session
+sch SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+sch SimpleName MethodInvocation StringLiteral localhost
+sch SimpleName MethodInvocation SimpleName ssh port
+get session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+get session SimpleName MethodInvocation StringLiteral localhost
+get session SimpleName MethodInvocation SimpleName ssh port
+get current test name SimpleName MethodInvocation MethodInvocation StringLiteral localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName ssh port
+localhost StringLiteral MethodInvocation SimpleName ssh port
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName sch
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName VariableDeclarationFragment MethodInvocation StringLiteral localhost
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh port
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+simple user info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName set user info
+session SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple user info
+session SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current test name
+set user info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple user info
+set user info SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName connect
+protected Modifier MethodDeclaration SimpleType SimpleName session
+protected Modifier MethodDeclaration SimpleName create session
+protected Modifier MethodDeclaration SimpleType SimpleName j sch exception
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName session
+session SimpleName SimpleType MethodDeclaration SimpleName create session
+session SimpleName SimpleType MethodDeclaration SimpleType SimpleName j sch exception
+create session SimpleName MethodDeclaration SimpleType SimpleName j sch exception
+create session SimpleName MethodDeclaration Block ReturnStatement SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleName create session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j sch exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j sch exception

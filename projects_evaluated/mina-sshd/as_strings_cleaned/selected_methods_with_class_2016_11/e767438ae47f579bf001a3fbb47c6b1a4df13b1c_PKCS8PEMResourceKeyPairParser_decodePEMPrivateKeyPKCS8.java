@@ -1,0 +1,119 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName oid
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName key bytes
+file password provider SimpleName SimpleType SingleVariableDeclaration SimpleName password provider
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName oid
+validate utils SimpleName MethodInvocation StringLiteral no pkcs algorithm oid
+check not null and not empty SimpleName MethodInvocation SimpleName oid
+check not null and not empty SimpleName MethodInvocation StringLiteral no pkcs algorithm oid
+oid SimpleName MethodInvocation StringLiteral no pkcs algorithm oid
+pem resource parser utils SimpleName MethodInvocation SimpleName get pem resource parser by oid
+pem resource parser utils SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+pem resource parser utils SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+pem resource parser utils SimpleName MethodInvocation MethodInvocation SimpleName oid
+pem resource parser utils SimpleName MethodInvocation MethodInvocation StringLiteral no pkcs algorithm oid
+get pem resource parser by oid SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+get pem resource parser by oid SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+get pem resource parser by oid SimpleName MethodInvocation MethodInvocation SimpleName oid
+get pem resource parser by oid SimpleName MethodInvocation MethodInvocation StringLiteral no pkcs algorithm oid
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName pem resource parser utils
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName get pem resource parser by oid
+parser SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+parser SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null and not empty
+parser SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName oid
+parser SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no pkcs algorithm oid
+key pair pem resource parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+decode pem private key pkcs ( StringLiteral InfixExpression SimpleName oid
+decode pem private key pkcs ( StringLiteral InfixExpression StringLiteral ) unknown algorithm identifier
+oid SimpleName InfixExpression StringLiteral ) unknown algorithm identifier
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral decode pem private key pkcs (
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName oid
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) unknown algorithm identifier
+parser SimpleName MethodInvocation SimpleName get algorithm
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName parser
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+validate utils SimpleName MethodInvocation StringLiteral no parser algorithm
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName parser
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+check not null and not empty SimpleName MethodInvocation StringLiteral no parser algorithm
+parser SimpleName MethodInvocation MethodInvocation StringLiteral no parser algorithm
+get algorithm SimpleName MethodInvocation MethodInvocation StringLiteral no parser algorithm
+algorithm SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+algorithm SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+algorithm SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+algorithm SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get algorithm
+algorithm SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no parser algorithm
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName algorithm
+security utils SimpleName MethodInvocation SimpleName get key factory
+security utils SimpleName MethodInvocation SimpleName algorithm
+get key factory SimpleName MethodInvocation SimpleName algorithm
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key factory
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName algorithm
+key factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+pkcs encoded key spec SimpleName SimpleType ClassInstanceCreation SimpleName key bytes
+key spec SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName pkcs encoded key spec
+key spec SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName key bytes
+pkcs encoded key spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key spec
+factory SimpleName MethodInvocation SimpleName generate private
+factory SimpleName MethodInvocation SimpleName key spec
+generate private SimpleName MethodInvocation SimpleName key spec
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName private key
+public Modifier MethodDeclaration SimpleName decode pem private key pkcs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName oid
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName private key
+static Modifier MethodDeclaration SimpleName decode pem private key pkcs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName oid
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+final Modifier MethodDeclaration SimpleType SimpleName private key
+final Modifier MethodDeclaration SimpleName decode pem private key pkcs
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName oid
+final Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName password provider
+private key SimpleName SimpleType MethodDeclaration SimpleName decode pem private key pkcs
+private key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName oid
+private key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+private key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName password provider
+private key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+decode pem private key pkcs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+decode pem private key pkcs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName oid
+decode pem private key pkcs SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+decode pem private key pkcs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+decode pem private key pkcs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+decode pem private key pkcs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password provider
+decode pem private key pkcs SimpleName MethodDeclaration SimpleType SimpleName general security exception
+oid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+oid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+oid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+key bytes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+key bytes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode pem private key pkcs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName oid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode pem private key pkcs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName oid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

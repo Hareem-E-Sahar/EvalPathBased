@@ -1,0 +1,28 @@
+cipher SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get class
+from cipher type SimpleName MethodInvocation MethodInvocation SimpleName c
+from cipher type SimpleName MethodInvocation MethodInvocation SimpleName get class
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName builtin ciphers
+public Modifier MethodDeclaration SimpleName from cipher
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cipher
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration SimpleType SimpleName builtin ciphers
+static Modifier MethodDeclaration SimpleName from cipher
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cipher
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+builtin ciphers SimpleName SimpleType MethodDeclaration SimpleName from cipher
+builtin ciphers SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName c
+from cipher SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cipher
+from cipher SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin ciphers
+public Modifier TypeDeclaration MethodDeclaration SimpleName from cipher
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin ciphers
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from cipher
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

@@ -1,0 +1,110 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+failed channel not activated StringLiteral InfixExpression SimpleName channel
+active channels SimpleName MethodInvocation SimpleName contains
+active channels SimpleName MethodInvocation SimpleName channel
+contains SimpleName MethodInvocation SimpleName channel
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression StringLiteral failed channel not activated
+assert SimpleName MethodInvocation InfixExpression SimpleName channel
+assert SimpleName MethodInvocation MethodInvocation SimpleName active channels
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName channel
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed channel not activated
+assert true SimpleName MethodInvocation InfixExpression SimpleName channel
+assert true SimpleName MethodInvocation MethodInvocation SimpleName active channels
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName channel
+failed channel not activated StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName active channels
+failed channel not activated StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+failed channel not activated StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName channel
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName active channels
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName channel
+same channel instance refailed StringLiteral InfixExpression SimpleName channel
+failed channels SimpleName MethodInvocation SimpleName add
+failed channels SimpleName MethodInvocation SimpleName channel
+add SimpleName MethodInvocation SimpleName channel
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression StringLiteral same channel instance refailed
+assert SimpleName MethodInvocation InfixExpression SimpleName channel
+assert SimpleName MethodInvocation MethodInvocation SimpleName failed channels
+assert SimpleName MethodInvocation MethodInvocation SimpleName add
+assert SimpleName MethodInvocation MethodInvocation SimpleName channel
+assert true SimpleName MethodInvocation InfixExpression StringLiteral same channel instance refailed
+assert true SimpleName MethodInvocation InfixExpression SimpleName channel
+assert true SimpleName MethodInvocation MethodInvocation SimpleName failed channels
+assert true SimpleName MethodInvocation MethodInvocation SimpleName add
+assert true SimpleName MethodInvocation MethodInvocation SimpleName channel
+same channel instance refailed StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName failed channels
+same channel instance refailed StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName add
+same channel instance refailed StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName channel
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName failed channels
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName add
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName channel
+reason SimpleName MethodInvocation SimpleName get class
+reason SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+reason SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral channel open failure {} : {}
+log SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName reason
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation StringLiteral channel open failure {} : {}
+warn SimpleName MethodInvocation SimpleName channel
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation MethodInvocation SimpleName reason
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+channel open failure {} : {} StringLiteral MethodInvocation SimpleName channel
+channel open failure {} : {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+channel open failure {} : {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+channel open failure {} : {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+channel open failure {} : {} StringLiteral MethodInvocation MethodInvocation SimpleName reason
+channel open failure {} : {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+channel SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+channel SimpleName MethodInvocation MethodInvocation SimpleName reason
+channel SimpleName MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName channel open failure
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName channel
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName channel open failure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+void PrimitiveType MethodDeclaration SimpleName channel open failure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+channel open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+channel open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+channel open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+channel open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName channel open failure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName channel open failure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

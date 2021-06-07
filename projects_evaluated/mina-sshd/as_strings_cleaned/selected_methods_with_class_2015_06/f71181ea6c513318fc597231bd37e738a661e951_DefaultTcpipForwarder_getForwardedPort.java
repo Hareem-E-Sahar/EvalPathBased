@@ -1,0 +1,49 @@
+int PrimitiveType SingleVariableDeclaration SimpleName remote port
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName remote port
+value of SimpleName MethodInvocation SimpleName remote port
+remote to local SimpleName MethodInvocation SimpleName get
+remote to local SimpleName MethodInvocation MethodInvocation SimpleName integer
+remote to local SimpleName MethodInvocation MethodInvocation SimpleName value of
+remote to local SimpleName MethodInvocation MethodInvocation SimpleName remote port
+get SimpleName MethodInvocation MethodInvocation SimpleName integer
+get SimpleName MethodInvocation MethodInvocation SimpleName value of
+get SimpleName MethodInvocation MethodInvocation SimpleName remote port
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName sshd socket address
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get forwarded port
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName remote port
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SimpleName get forwarded port
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote port
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName remote to local
+synchronized Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SimpleName get forwarded port
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote port
+synchronized Modifier MethodDeclaration Block SynchronizedStatement SimpleName remote to local
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName get forwarded port
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName remote port
+get forwarded port SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get forwarded port SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote port
+get forwarded port SimpleName MethodDeclaration Block SynchronizedStatement SimpleName remote to local
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName get forwarded port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote port
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get forwarded port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote port

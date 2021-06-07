@@ -1,0 +1,33 @@
+named factory SimpleName MethodInvocation SimpleName set up builtin factories
+named factory SimpleName MethodInvocation BooleanLiteral false
+named factory SimpleName MethodInvocation SimpleName default compression factories
+set up builtin factories SimpleName MethodInvocation BooleanLiteral false
+set up builtin factories SimpleName MethodInvocation SimpleName default compression factories
+false BooleanLiteral MethodInvocation SimpleName default compression factories
+compression factories SimpleName Assignment MethodInvocation SimpleName named factory
+compression factories SimpleName Assignment MethodInvocation SimpleName set up builtin factories
+compression factories SimpleName Assignment MethodInvocation BooleanLiteral false
+compression factories SimpleName Assignment MethodInvocation SimpleName default compression factories
+set up default key exchanges SimpleName MethodInvocation BooleanLiteral false
+key exchange factories SimpleName Assignment MethodInvocation SimpleName set up default key exchanges
+key exchange factories SimpleName Assignment MethodInvocation BooleanLiteral false
+channel factories SimpleName Assignment SimpleName default channel factories
+global request handlers SimpleName Assignment SimpleName default global request handlers
+pubkey authenticator SimpleName Assignment SimpleName default public key authenticator
+interactive authenticator SimpleName Assignment SimpleName default interactive authenticator
+factory SimpleName Assignment QualifiedName ssh serverdefault ssh server factory
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName server builder
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName fill with default values
+protected Modifier MethodDeclaration SimpleType SimpleName server builder
+protected Modifier MethodDeclaration SimpleName fill with default values
+server builder SimpleName SimpleType MethodDeclaration SimpleName fill with default values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName server builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName fill with default values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName server builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fill with default values

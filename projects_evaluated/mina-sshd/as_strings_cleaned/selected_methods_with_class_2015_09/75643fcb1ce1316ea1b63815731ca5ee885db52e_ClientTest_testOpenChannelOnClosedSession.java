@@ -1,0 +1,63 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName ssh exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+client SimpleName MethodInvocation SimpleName start
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test client session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName create shell channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName create shell channel
+client channel SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+client session holder SimpleName MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation StringLiteral session closure not signalled
+assert null SimpleName MethodInvocation MethodInvocation SimpleName client session holder
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+session closure not signalled StringLiteral MethodInvocation MethodInvocation SimpleName client session holder
+session closure not signalled StringLiteral MethodInvocation MethodInvocation SimpleName get
+piped in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName piped output stream
+piped output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName piped in
+piped input stream SimpleName SimpleType ClassInstanceCreation SimpleName piped in
+in pipe SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName piped input stream
+in pipe SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName piped in
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName in pipe
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName out
+err SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName err
+channel SimpleName MethodInvocation SimpleName set in
+channel SimpleName MethodInvocation SimpleName in pipe
+set in SimpleName MethodInvocation SimpleName in pipe
+channel SimpleName MethodInvocation SimpleName set out
+channel SimpleName MethodInvocation SimpleName out
+set out SimpleName MethodInvocation SimpleName out
+channel SimpleName MethodInvocation SimpleName set err
+channel SimpleName MethodInvocation SimpleName err
+set err SimpleName MethodInvocation SimpleName err
+channel SimpleName MethodInvocation SimpleName open
+client SimpleName MethodInvocation SimpleName stop
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test open channel on closed session
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test open channel on closed session
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test open channel on closed session
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test open channel on closed session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test open channel on closed session SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test open channel on closed session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test open channel on closed session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

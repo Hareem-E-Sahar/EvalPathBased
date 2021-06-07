@@ -1,0 +1,25 @@
+int PrimitiveType SingleVariableDeclaration SimpleName perms
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName attributeperms
+add SimpleName MethodInvocation QualifiedName attributeperms
+perms SimpleName FieldAccess Assignment SimpleName perms
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName perms
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+attributes SimpleName SimpleType MethodDeclaration SimpleName perms
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName perms
+perms SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms

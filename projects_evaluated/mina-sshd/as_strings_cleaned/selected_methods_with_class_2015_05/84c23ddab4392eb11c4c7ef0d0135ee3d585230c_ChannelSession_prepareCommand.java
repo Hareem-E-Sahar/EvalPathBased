@@ -1,0 +1,225 @@
+session SimpleName MethodInvocation SimpleName get username
+add env variable SimpleName MethodInvocation QualifiedName environmentenv user
+add env variable SimpleName MethodInvocation MethodInvocation SimpleName session
+add env variable SimpleName MethodInvocation MethodInvocation SimpleName get username
+environmentenv user QualifiedName MethodInvocation MethodInvocation SimpleName session
+environmentenv user QualifiedName MethodInvocation MethodInvocation SimpleName get username
+command SimpleName InstanceofExpression SimpleType SimpleName session aware
+session aware SimpleName SimpleType CastExpression SimpleName command
+server session SimpleName SimpleType CastExpression SimpleName session
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set session
+set session SimpleName MethodInvocation CastExpression SimpleType SimpleName server session
+set session SimpleName MethodInvocation CastExpression SimpleName session
+command SimpleName InstanceofExpression SimpleType SimpleName channel session aware
+channel session aware SimpleName SimpleType CastExpression SimpleName command
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set channel session
+command SimpleName InstanceofExpression SimpleType SimpleName file system aware
+server session SimpleName SimpleType CastExpression SimpleName session
+session SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get factory manager
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get file system factory
+factory SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get factory manager
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system factory
+file system factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+file system aware SimpleName SimpleType CastExpression SimpleName command
+factory SimpleName MethodInvocation SimpleName create file system
+factory SimpleName MethodInvocation SimpleName session
+create file system SimpleName MethodInvocation SimpleName session
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set file system
+set file system SimpleName MethodInvocation MethodInvocation SimpleName factory
+set file system SimpleName MethodInvocation MethodInvocation SimpleName create file system
+set file system SimpleName MethodInvocation MethodInvocation SimpleName session
+command SimpleName InstanceofExpression SimpleType SimpleName async command
+channel async output stream SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+async out SimpleName Assignment ClassInstanceCreation SimpleType SimpleName channel async output stream
+async out SimpleName Assignment ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+channel async output stream SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh msg channel extended data
+async err SimpleName Assignment ClassInstanceCreation SimpleType SimpleName channel async output stream
+async err SimpleName Assignment ClassInstanceCreation QualifiedName ssh constantsssh msg channel extended data
+async command SimpleName SimpleType CastExpression SimpleName command
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set io output stream
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName async out
+set io output stream SimpleName MethodInvocation SimpleName async out
+async command SimpleName SimpleType CastExpression SimpleName command
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set io error stream
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName async err
+set io error stream SimpleName MethodInvocation SimpleName async err
+channel output stream SimpleName SimpleType ClassInstanceCreation SimpleName remote window
+channel output stream SimpleName SimpleType ClassInstanceCreation SimpleName log
+channel output stream SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+remote window SimpleName ClassInstanceCreation SimpleName log
+remote window SimpleName ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+log SimpleName ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+out SimpleName Assignment ClassInstanceCreation SimpleType SimpleName channel output stream
+out SimpleName Assignment ClassInstanceCreation SimpleName remote window
+out SimpleName Assignment ClassInstanceCreation SimpleName log
+out SimpleName Assignment ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+channel output stream SimpleName SimpleType ClassInstanceCreation SimpleName remote window
+channel output stream SimpleName SimpleType ClassInstanceCreation SimpleName log
+channel output stream SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh msg channel extended data
+remote window SimpleName ClassInstanceCreation SimpleName log
+remote window SimpleName ClassInstanceCreation QualifiedName ssh constantsssh msg channel extended data
+log SimpleName ClassInstanceCreation QualifiedName ssh constantsssh msg channel extended data
+err SimpleName Assignment ClassInstanceCreation SimpleType SimpleName channel output stream
+err SimpleName Assignment ClassInstanceCreation SimpleName remote window
+err SimpleName Assignment ClassInstanceCreation SimpleName log
+err SimpleName Assignment ClassInstanceCreation QualifiedName ssh constantsssh msg channel extended data
+log SimpleName MethodInvocation SimpleName is trace enabled
+logging filter output stream SimpleName SimpleType ClassInstanceCreation SimpleName out
+logging filter output stream SimpleName SimpleType ClassInstanceCreation StringLiteral out
+logging filter output stream SimpleName SimpleType ClassInstanceCreation SimpleName log
+out SimpleName ClassInstanceCreation StringLiteral out
+out SimpleName ClassInstanceCreation SimpleName log
+out StringLiteral ClassInstanceCreation SimpleName log
+out SimpleName Assignment ClassInstanceCreation SimpleType SimpleName logging filter output stream
+out SimpleName Assignment ClassInstanceCreation SimpleName out
+out SimpleName Assignment ClassInstanceCreation StringLiteral out
+out SimpleName Assignment ClassInstanceCreation SimpleName log
+logging filter output stream SimpleName SimpleType ClassInstanceCreation SimpleName err
+logging filter output stream SimpleName SimpleType ClassInstanceCreation StringLiteral err
+logging filter output stream SimpleName SimpleType ClassInstanceCreation SimpleName log
+err SimpleName ClassInstanceCreation StringLiteral err
+err SimpleName ClassInstanceCreation SimpleName log
+err StringLiteral ClassInstanceCreation SimpleName log
+err SimpleName Assignment ClassInstanceCreation SimpleType SimpleName logging filter output stream
+err SimpleName Assignment ClassInstanceCreation SimpleName err
+err SimpleName Assignment ClassInstanceCreation StringLiteral err
+err SimpleName Assignment ClassInstanceCreation SimpleName log
+command SimpleName MethodInvocation SimpleName set output stream
+command SimpleName MethodInvocation SimpleName out
+set output stream SimpleName MethodInvocation SimpleName out
+command SimpleName MethodInvocation SimpleName set error stream
+command SimpleName MethodInvocation SimpleName err
+set error stream SimpleName MethodInvocation SimpleName err
+command SimpleName InstanceofExpression SimpleType SimpleName async command
+recv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName async data receiver
+async data receiver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName recv
+set data receiver SimpleName MethodInvocation SimpleName recv
+async command SimpleName SimpleType CastExpression SimpleName command
+recv SimpleName MethodInvocation SimpleName get in
+command SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set io input stream
+set io input stream SimpleName MethodInvocation MethodInvocation SimpleName recv
+set io input stream SimpleName MethodInvocation MethodInvocation SimpleName get in
+pipe data receiver SimpleName SimpleType ClassInstanceCreation SimpleName local window
+recv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName pipe data receiver
+recv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local window
+pipe data receiver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName recv
+set data receiver SimpleName MethodInvocation SimpleName recv
+recv SimpleName MethodInvocation SimpleName get in
+command SimpleName MethodInvocation SimpleName set input stream
+command SimpleName MethodInvocation MethodInvocation SimpleName recv
+command SimpleName MethodInvocation MethodInvocation SimpleName get in
+set input stream SimpleName MethodInvocation MethodInvocation SimpleName recv
+set input stream SimpleName MethodInvocation MethodInvocation SimpleName get in
+buffer SimpleName VariableDeclarationFragment SimpleName temp buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp buffer
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName available
+do write data SimpleName MethodInvocation MethodInvocation SimpleName buffer
+do write data SimpleName MethodInvocation MethodInvocation SimpleName array
+do write data SimpleName MethodInvocation MethodInvocation SimpleName buffer
+do write data SimpleName MethodInvocation MethodInvocation SimpleName rpos
+do write data SimpleName MethodInvocation MethodInvocation SimpleName buffer
+do write data SimpleName MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+int PrimitiveType SingleVariableDeclaration SimpleName exit value
+close shell SimpleName MethodInvocation SimpleName exit value
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral error closing shell
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral error closing shell
+info SimpleName MethodInvocation SimpleName e
+error closing shell StringLiteral MethodInvocation SimpleName e
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName on exit
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName on exit
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on exit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on exit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit value
+void PrimitiveType MethodDeclaration SimpleName on exit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit value
+on exit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit value
+int PrimitiveType SingleVariableDeclaration SimpleName exit value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName exit message
+on exit SimpleName MethodInvocation SimpleName exit value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on exit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on exit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit message
+void PrimitiveType MethodDeclaration SimpleName on exit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit message
+on exit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit value
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit message
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+exit value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName on exit
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName on exit
+on exit SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+on exit SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+on exit SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName on exit
+command SimpleName MethodInvocation SimpleName set exit callback
+command SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exit callback
+set exit callback SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exit callback
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName prepare command
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName prepare command
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+prepare command SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName prepare command
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prepare command
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

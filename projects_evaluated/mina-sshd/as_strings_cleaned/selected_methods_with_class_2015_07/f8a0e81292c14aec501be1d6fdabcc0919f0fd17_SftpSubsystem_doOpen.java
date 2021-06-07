@@ -1,0 +1,273 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+handles SimpleName MethodInvocation SimpleName size
+cur handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+cur handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur handle count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName handles
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+factory manager utils SimpleName MethodInvocation SimpleName get int property
+factory manager utils SimpleName MethodInvocation SimpleName session
+factory manager utils SimpleName MethodInvocation SimpleName max open handles per session
+factory manager utils SimpleName MethodInvocation QualifiedName integermax value
+get int property SimpleName MethodInvocation SimpleName session
+get int property SimpleName MethodInvocation SimpleName max open handles per session
+get int property SimpleName MethodInvocation QualifiedName integermax value
+session SimpleName MethodInvocation SimpleName max open handles per session
+session SimpleName MethodInvocation QualifiedName integermax value
+max open handles per session SimpleName MethodInvocation QualifiedName integermax value
+max handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+max handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int property
+max handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+max handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName max open handles per session
+max handle count SimpleName VariableDeclarationFragment MethodInvocation QualifiedName integermax value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max handle count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName session
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max open handles per session
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName integermax value
+cur handle count SimpleName InfixExpression SimpleName max handle count
+too many open handles current StringLiteral InfixExpression SimpleName cur handle count
+too many open handles current StringLiteral InfixExpression StringLiteral max
+too many open handles current StringLiteral InfixExpression SimpleName max handle count
+cur handle count SimpleName InfixExpression StringLiteral max
+cur handle count SimpleName InfixExpression SimpleName max handle count
+max StringLiteral InfixExpression SimpleName max handle count
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation InfixExpression StringLiteral too many open handles current
+send status SimpleName MethodInvocation InfixExpression SimpleName cur handle count
+send status SimpleName MethodInvocation InfixExpression StringLiteral max
+send status SimpleName MethodInvocation InfixExpression SimpleName max handle count
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation InfixExpression StringLiteral too many open handles current
+id SimpleName MethodInvocation InfixExpression SimpleName cur handle count
+id SimpleName MethodInvocation InfixExpression StringLiteral max
+id SimpleName MethodInvocation InfixExpression SimpleName max handle count
+ssh fx failure SimpleName MethodInvocation InfixExpression StringLiteral too many open handles current
+ssh fx failure SimpleName MethodInvocation InfixExpression SimpleName cur handle count
+ssh fx failure SimpleName MethodInvocation InfixExpression StringLiteral max
+ssh fx failure SimpleName MethodInvocation InfixExpression SimpleName max handle count
+buffer SimpleName MethodInvocation SimpleName get string
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+access SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName access
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+version SimpleName InfixExpression SimpleName sftp v
+buffer SimpleName MethodInvocation SimpleName get int
+access SimpleName Assignment MethodInvocation SimpleName buffer
+access SimpleName Assignment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+pflags SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+pflags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pflags
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+version SimpleName InfixExpression SimpleName sftp v
+flags SimpleName VariableDeclarationFragment SimpleName pflags
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flags
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pflags
+pflags SimpleName Assignment NumberLiteral empty
+ssh fxf read SimpleName InfixExpression SimpleName ssh fxf write
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ssh fxf read
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ssh fxf write
+ace read data SimpleName InfixExpression SimpleName ace read attributes
+access SimpleName Assignment InfixExpression SimpleName ace read data
+access SimpleName Assignment InfixExpression SimpleName ace read attributes
+ace write data SimpleName InfixExpression SimpleName ace write attributes
+access SimpleName Assignment InfixExpression SimpleName ace write data
+access SimpleName Assignment InfixExpression SimpleName ace write attributes
+ace read data SimpleName InfixExpression SimpleName ace read attributes
+access SimpleName Assignment InfixExpression SimpleName ace read data
+access SimpleName Assignment InfixExpression SimpleName ace read attributes
+ace write data SimpleName InfixExpression SimpleName ace write attributes
+access SimpleName Assignment InfixExpression SimpleName ace write data
+access SimpleName Assignment InfixExpression SimpleName ace write attributes
+flags SimpleName InfixExpression SwitchStatement SwitchCase SimpleName ssh fxf read
+flags SimpleName InfixExpression SwitchStatement SwitchCase SimpleName ssh fxf write
+ssh fxf read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ssh fxf write
+flags SimpleName InfixExpression SimpleName ssh fxf append
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf append SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+access SimpleName Assignment SimpleName ace append data
+ssh fxf append data SimpleName InfixExpression SimpleName ssh fxf append data atomic
+pflags SimpleName Assignment InfixExpression SimpleName ssh fxf append data
+pflags SimpleName Assignment InfixExpression SimpleName ssh fxf append data atomic
+flags SimpleName InfixExpression SimpleName ssh fxf creat
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf creat SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+flags SimpleName InfixExpression SimpleName ssh fxf excl
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf excl SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+pflags SimpleName Assignment SimpleName ssh fxf create new
+flags SimpleName InfixExpression SimpleName ssh fxf trunc
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf trunc SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+pflags SimpleName Assignment SimpleName ssh fxf create truncate
+pflags SimpleName Assignment SimpleName ssh fxf open or create
+flags SimpleName InfixExpression SimpleName ssh fxf trunc
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf trunc SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+pflags SimpleName Assignment SimpleName ssh fxf truncate existing
+pflags SimpleName Assignment SimpleName ssh fxf open existing
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+read attrs SimpleName MethodInvocation SimpleName buffer
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attrs
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation SimpleName access
+to hex string SimpleName MethodInvocation SimpleName access
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation SimpleName pflags
+to hex string SimpleName MethodInvocation SimpleName pflags
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp open path access x pflags x attrs
+log SimpleName MethodInvocation SimpleName path
+log SimpleName MethodInvocation MethodInvocation SimpleName integer
+log SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+log SimpleName MethodInvocation MethodInvocation SimpleName access
+log SimpleName MethodInvocation MethodInvocation SimpleName integer
+log SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+log SimpleName MethodInvocation MethodInvocation SimpleName pflags
+debug SimpleName MethodInvocation StringLiteral received ssh fxp open path access x pflags x attrs
+debug SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+debug SimpleName MethodInvocation MethodInvocation SimpleName access
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+debug SimpleName MethodInvocation MethodInvocation SimpleName pflags
+debug SimpleName MethodInvocation SimpleName attrs
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation SimpleName path
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation MethodInvocation SimpleName integer
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation MethodInvocation SimpleName to hex string
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation MethodInvocation SimpleName access
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation MethodInvocation SimpleName integer
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation MethodInvocation SimpleName to hex string
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation MethodInvocation SimpleName pflags
+received ssh fxp open path access x pflags x attrs StringLiteral MethodInvocation SimpleName attrs
+path SimpleName MethodInvocation MethodInvocation SimpleName integer
+path SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+path SimpleName MethodInvocation MethodInvocation SimpleName access
+path SimpleName MethodInvocation MethodInvocation SimpleName integer
+path SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+path SimpleName MethodInvocation MethodInvocation SimpleName pflags
+path SimpleName MethodInvocation SimpleName attrs
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pflags
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pflags
+access SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+access SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+access SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pflags
+integer SimpleName MethodInvocation MethodInvocation SimpleName attrs
+to hex string SimpleName MethodInvocation MethodInvocation SimpleName attrs
+access SimpleName MethodInvocation MethodInvocation SimpleName attrs
+integer SimpleName MethodInvocation MethodInvocation SimpleName attrs
+to hex string SimpleName MethodInvocation MethodInvocation SimpleName attrs
+pflags SimpleName MethodInvocation MethodInvocation SimpleName attrs
+resolve file SimpleName MethodInvocation SimpleName path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uuid
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName random uuid
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+file handle SimpleName SimpleType ClassInstanceCreation SimpleName file
+file handle SimpleName SimpleType ClassInstanceCreation SimpleName pflags
+file handle SimpleName SimpleType ClassInstanceCreation SimpleName access
+file handle SimpleName SimpleType ClassInstanceCreation SimpleName attrs
+file SimpleName ClassInstanceCreation SimpleName pflags
+file SimpleName ClassInstanceCreation SimpleName access
+file SimpleName ClassInstanceCreation SimpleName attrs
+pflags SimpleName ClassInstanceCreation SimpleName access
+pflags SimpleName ClassInstanceCreation SimpleName attrs
+access SimpleName ClassInstanceCreation SimpleName attrs
+handles SimpleName MethodInvocation SimpleName put
+handles SimpleName MethodInvocation SimpleName handle
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file handle
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleName pflags
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleName access
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleName attrs
+put SimpleName MethodInvocation SimpleName handle
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file handle
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName pflags
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName access
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName attrs
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file handle
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleName pflags
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleName access
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleName attrs
+send handle SimpleName MethodInvocation SimpleName id
+send handle SimpleName MethodInvocation SimpleName handle
+id SimpleName MethodInvocation SimpleName handle
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName e
+id SimpleName MethodInvocation SimpleName e
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do open
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do open
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do open SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do open SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do open SimpleName MethodDeclaration SimpleType SimpleName io exception
+do open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do open
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do open
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

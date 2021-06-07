@@ -1,0 +1,304 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName local
+validate utils SimpleName MethodInvocation StringLiteral local address is null
+check not null SimpleName MethodInvocation SimpleName local
+check not null SimpleName MethodInvocation StringLiteral local address is null
+local SimpleName MethodInvocation StringLiteral local address is null
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName remote
+validate utils SimpleName MethodInvocation StringLiteral remote address is null
+check not null SimpleName MethodInvocation SimpleName remote
+check not null SimpleName MethodInvocation StringLiteral remote address is null
+remote SimpleName MethodInvocation StringLiteral remote address is null
+remote SimpleName MethodInvocation SimpleName get host name
+remote host SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote
+remote host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote host
+remote SimpleName MethodInvocation SimpleName get port
+remote port SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote
+remote port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName remote
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get port
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+remote host SimpleName MethodInvocation SimpleName length
+remote host SimpleName MethodInvocation InfixExpression QualifiedName longsize
+length SimpleName MethodInvocation InfixExpression QualifiedName longsize
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg global request
+session SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote host
+session SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+session SimpleName MethodInvocation InfixExpression QualifiedName longsize
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg global request
+create buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote host
+create buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+create buffer SimpleName MethodInvocation InfixExpression QualifiedName longsize
+ssh constantsssh msg global request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName remote host
+ssh constantsssh msg global request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName length
+ssh constantsssh msg global request QualifiedName MethodInvocation InfixExpression QualifiedName longsize
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh constantsssh msg global request
+buffer SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName longsize
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation StringLiteral tcpipforward
+put string SimpleName MethodInvocation StringLiteral tcpipforward
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation BooleanLiteral true
+put boolean SimpleName MethodInvocation BooleanLiteral true
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName remote host
+put string SimpleName MethodInvocation SimpleName remote host
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName remote port
+put int SimpleName MethodInvocation SimpleName remote port
+property resolver utils SimpleName MethodInvocation SimpleName get long property
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName forward request timeout
+property resolver utils SimpleName MethodInvocation SimpleName default forward request timeout
+get long property SimpleName MethodInvocation SimpleName session
+get long property SimpleName MethodInvocation SimpleName forward request timeout
+get long property SimpleName MethodInvocation SimpleName default forward request timeout
+session SimpleName MethodInvocation SimpleName forward request timeout
+session SimpleName MethodInvocation SimpleName default forward request timeout
+forward request timeout SimpleName MethodInvocation SimpleName default forward request timeout
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long property
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName forward request timeout
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName default forward request timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get long property
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName session
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName forward request timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default forward request timeout
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port forwarding event listener proxy
+port forwarding event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+listener SimpleName MethodInvocation SimpleName establishing explicit tunnel
+listener SimpleName MethodInvocation MethodInvocation SimpleName get session
+listener SimpleName MethodInvocation SimpleName local
+listener SimpleName MethodInvocation SimpleName remote
+listener SimpleName MethodInvocation BooleanLiteral false
+establishing explicit tunnel SimpleName MethodInvocation MethodInvocation SimpleName get session
+establishing explicit tunnel SimpleName MethodInvocation SimpleName local
+establishing explicit tunnel SimpleName MethodInvocation SimpleName remote
+establishing explicit tunnel SimpleName MethodInvocation BooleanLiteral false
+get session SimpleName MethodInvocation MethodInvocation SimpleName local
+get session SimpleName MethodInvocation MethodInvocation SimpleName remote
+get session SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+local SimpleName MethodInvocation SimpleName remote
+local SimpleName MethodInvocation BooleanLiteral false
+remote SimpleName MethodInvocation BooleanLiteral false
+session SimpleName MethodInvocation SimpleName request
+session SimpleName MethodInvocation StringLiteral tcpipforward
+session SimpleName MethodInvocation SimpleName buffer
+session SimpleName MethodInvocation SimpleName timeout
+session SimpleName MethodInvocation QualifiedName time unitmilliseconds
+request SimpleName MethodInvocation StringLiteral tcpipforward
+request SimpleName MethodInvocation SimpleName buffer
+request SimpleName MethodInvocation SimpleName timeout
+request SimpleName MethodInvocation QualifiedName time unitmilliseconds
+tcpipforward StringLiteral MethodInvocation SimpleName buffer
+tcpipforward StringLiteral MethodInvocation SimpleName timeout
+tcpipforward StringLiteral MethodInvocation QualifiedName time unitmilliseconds
+buffer SimpleName MethodInvocation SimpleName timeout
+buffer SimpleName MethodInvocation QualifiedName time unitmilliseconds
+timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+result SimpleName Assignment MethodInvocation SimpleName session
+result SimpleName Assignment MethodInvocation SimpleName request
+result SimpleName Assignment MethodInvocation StringLiteral tcpipforward
+result SimpleName Assignment MethodInvocation SimpleName buffer
+result SimpleName Assignment MethodInvocation SimpleName timeout
+result SimpleName Assignment MethodInvocation QualifiedName time unitmilliseconds
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral tcpip forwarding request denied by server
+remote port SimpleName InfixExpression NumberLiteral empty
+result SimpleName MethodInvocation SimpleName get int
+remote SimpleName MethodInvocation SimpleName get port
+result SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName remote
+result SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+get int SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName remote
+get int SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName result
+port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get int
+port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName remote
+port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get port
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+remote to local SimpleName MethodInvocation SimpleName put
+remote to local SimpleName MethodInvocation SimpleName port
+remote to local SimpleName MethodInvocation SimpleName local
+put SimpleName MethodInvocation SimpleName port
+put SimpleName MethodInvocation SimpleName local
+port SimpleName MethodInvocation SimpleName local
+prev SimpleName Assignment MethodInvocation SimpleName remote to local
+prev SimpleName Assignment MethodInvocation SimpleName put
+prev SimpleName Assignment MethodInvocation SimpleName port
+prev SimpleName Assignment MethodInvocation SimpleName local
+multiple remote port forwarding bindings on port StringLiteral InfixExpression SimpleName port
+multiple remote port forwarding bindings on port StringLiteral InfixExpression StringLiteral : current
+multiple remote port forwarding bindings on port StringLiteral InfixExpression SimpleName remote
+multiple remote port forwarding bindings on port StringLiteral InfixExpression StringLiteral previous
+multiple remote port forwarding bindings on port StringLiteral InfixExpression SimpleName prev
+port SimpleName InfixExpression StringLiteral : current
+port SimpleName InfixExpression SimpleName remote
+port SimpleName InfixExpression StringLiteral previous
+port SimpleName InfixExpression SimpleName prev
+: current StringLiteral InfixExpression SimpleName remote
+: current StringLiteral InfixExpression StringLiteral previous
+: current StringLiteral InfixExpression SimpleName prev
+remote SimpleName InfixExpression StringLiteral previous
+remote SimpleName InfixExpression SimpleName prev
+previous StringLiteral InfixExpression SimpleName prev
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral multiple remote port forwarding bindings on port
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName port
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : current
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName remote
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral previous
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prev
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+stop remote port forwarding SimpleName MethodInvocation SimpleName remote
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName err
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName err
+e SimpleName MethodInvocation SimpleName add suppressed
+e SimpleName MethodInvocation SimpleName err
+add suppressed SimpleName MethodInvocation SimpleName err
+listener SimpleName MethodInvocation SimpleName established explicit tunnel
+listener SimpleName MethodInvocation SimpleName session
+listener SimpleName MethodInvocation SimpleName local
+listener SimpleName MethodInvocation SimpleName remote
+listener SimpleName MethodInvocation BooleanLiteral false
+established explicit tunnel SimpleName MethodInvocation SimpleName session
+established explicit tunnel SimpleName MethodInvocation SimpleName local
+established explicit tunnel SimpleName MethodInvocation SimpleName remote
+established explicit tunnel SimpleName MethodInvocation BooleanLiteral false
+session SimpleName MethodInvocation SimpleName local
+session SimpleName MethodInvocation SimpleName remote
+session SimpleName MethodInvocation BooleanLiteral false
+session SimpleName MethodInvocation SimpleName e
+local SimpleName MethodInvocation SimpleName remote
+local SimpleName MethodInvocation BooleanLiteral false
+local SimpleName MethodInvocation SimpleName e
+remote SimpleName MethodInvocation BooleanLiteral false
+remote SimpleName MethodInvocation SimpleName e
+false BooleanLiteral MethodInvocation SimpleName e
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName remote host
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName port
+remote host SimpleName ClassInstanceCreation SimpleName port
+bound SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+bound SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName remote host
+bound SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName port
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound
+log SimpleName MethodInvocation SimpleName is debug enabled
+start remote port forwarding StringLiteral InfixExpression SimpleName remote
+start remote port forwarding StringLiteral InfixExpression StringLiteral ->
+start remote port forwarding StringLiteral InfixExpression SimpleName local
+start remote port forwarding StringLiteral InfixExpression StringLiteral ):
+start remote port forwarding StringLiteral InfixExpression SimpleName bound
+remote SimpleName InfixExpression StringLiteral ->
+remote SimpleName InfixExpression SimpleName local
+remote SimpleName InfixExpression StringLiteral ):
+remote SimpleName InfixExpression SimpleName bound
+-> StringLiteral InfixExpression SimpleName local
+-> StringLiteral InfixExpression StringLiteral ):
+-> StringLiteral InfixExpression SimpleName bound
+local SimpleName InfixExpression StringLiteral ):
+local SimpleName InfixExpression SimpleName bound
+): StringLiteral InfixExpression SimpleName bound
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral start remote port forwarding
+log SimpleName MethodInvocation InfixExpression SimpleName remote
+log SimpleName MethodInvocation InfixExpression StringLiteral ->
+log SimpleName MethodInvocation InfixExpression SimpleName local
+log SimpleName MethodInvocation InfixExpression StringLiteral ):
+log SimpleName MethodInvocation InfixExpression SimpleName bound
+debug SimpleName MethodInvocation InfixExpression StringLiteral start remote port forwarding
+debug SimpleName MethodInvocation InfixExpression SimpleName remote
+debug SimpleName MethodInvocation InfixExpression StringLiteral ->
+debug SimpleName MethodInvocation InfixExpression SimpleName local
+debug SimpleName MethodInvocation InfixExpression StringLiteral ):
+debug SimpleName MethodInvocation InfixExpression SimpleName bound
+listener SimpleName MethodInvocation SimpleName established explicit tunnel
+listener SimpleName MethodInvocation MethodInvocation SimpleName get session
+listener SimpleName MethodInvocation SimpleName local
+listener SimpleName MethodInvocation SimpleName remote
+listener SimpleName MethodInvocation BooleanLiteral false
+established explicit tunnel SimpleName MethodInvocation MethodInvocation SimpleName get session
+established explicit tunnel SimpleName MethodInvocation SimpleName local
+established explicit tunnel SimpleName MethodInvocation SimpleName remote
+established explicit tunnel SimpleName MethodInvocation BooleanLiteral false
+established explicit tunnel SimpleName MethodInvocation SimpleName bound
+get session SimpleName MethodInvocation MethodInvocation SimpleName local
+get session SimpleName MethodInvocation MethodInvocation SimpleName remote
+get session SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get session SimpleName MethodInvocation MethodInvocation SimpleName bound
+local SimpleName MethodInvocation SimpleName remote
+local SimpleName MethodInvocation BooleanLiteral false
+local SimpleName MethodInvocation SimpleName bound
+remote SimpleName MethodInvocation BooleanLiteral false
+remote SimpleName MethodInvocation SimpleName bound
+false BooleanLiteral MethodInvocation SimpleName bound
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+stop remote port forwarding SimpleName MethodInvocation SimpleName remote
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName sshd socket address
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start remote port forwarding
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName remote
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SimpleName start remote port forwarding
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+synchronized Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SimpleName start remote port forwarding
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName start remote port forwarding
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName remote
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+start remote port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+start remote port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote
+start remote port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+start remote port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+start remote port forwarding SimpleName MethodDeclaration SimpleType SimpleName io exception
+start remote port forwarding SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+start remote port forwarding SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+start remote port forwarding SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+remote SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+remote SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName start remote port forwarding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start remote port forwarding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

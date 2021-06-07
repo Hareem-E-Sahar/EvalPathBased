@@ -1,0 +1,14 @@
+default digest holder SimpleName MethodInvocation SimpleName get
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName factory
+public Modifier MethodDeclaration SimpleName get default finger print factory
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName factory
+static Modifier MethodDeclaration SimpleName get default finger print factory
+factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get default finger print factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default finger print factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default finger print factory

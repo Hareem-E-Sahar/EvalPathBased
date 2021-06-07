@@ -1,0 +1,76 @@
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName permission
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName permission
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName permission
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName permission
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+posix file permission SimpleName SimpleType SingleVariableDeclaration SimpleName perm
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionuser read
+add SimpleName MethodInvocation QualifiedName permissionuser read
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionuser write
+add SimpleName MethodInvocation QualifiedName permissionuser write
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionuser execute
+add SimpleName MethodInvocation QualifiedName permissionuser execute
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissiongroup read
+add SimpleName MethodInvocation QualifiedName permissiongroup read
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissiongroup write
+add SimpleName MethodInvocation QualifiedName permissiongroup write
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissiongroup execute
+add SimpleName MethodInvocation QualifiedName permissiongroup execute
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionothers read
+add SimpleName MethodInvocation QualifiedName permissionothers read
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionothers write
+add SimpleName MethodInvocation QualifiedName permissionothers write
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionothers execute
+add SimpleName MethodInvocation QualifiedName permissionothers execute
+perm SimpleName SwitchStatement SwitchCase SimpleName owner read
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName p
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName add
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation QualifiedName permissionuser read
+perm SimpleName SwitchStatement SwitchCase SimpleName owner write
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName p
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName add
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation QualifiedName permissionuser write
+owner read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner write
+owner write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner execute
+owner execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group read
+group read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group write
+group write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group execute
+group execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others read
+others read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others write
+others write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others execute
+posix file permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName perms
+perm SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName perms
+perms SimpleName EnhancedForStatement Block SwitchStatement SimpleName perm
+perms SimpleName EnhancedForStatement Block ReturnStatement SimpleName p
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enum set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName permission
+private Modifier MethodDeclaration SimpleName from perms
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName perms
+private Modifier MethodDeclaration Block ReturnStatement SimpleName p
+enum set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName from perms
+permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName from perms
+from perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+from perms SimpleName MethodDeclaration Block EnhancedForStatement SimpleName perms
+from perms SimpleName MethodDeclaration Block ReturnStatement SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName from perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms

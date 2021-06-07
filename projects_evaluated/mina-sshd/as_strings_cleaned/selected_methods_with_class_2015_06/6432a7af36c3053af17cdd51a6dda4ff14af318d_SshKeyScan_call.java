@@ -1,0 +1,90 @@
+exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName set up default client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+create key pairs SimpleName MethodInvocation SimpleName type names
+pairs map SimpleName VariableDeclarationFragment MethodInvocation SimpleName create key pairs
+pairs map SimpleName VariableDeclarationFragment MethodInvocation SimpleName type names
+client SimpleName MethodInvocation SimpleName set server key verifier
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get input stream
+input stream reader SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+get input stream SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName standard charsetsutf
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName standard charsetsutf
+buffered reader SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName rdr
+client SimpleName MethodInvocation SimpleName start
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName rdr
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName line
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName rdr
+line SimpleName Assignment MethodInvocation SimpleName read line
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation SimpleName line
+trim to empty SimpleName MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName generic utils
+line SimpleName Assignment MethodInvocation SimpleName trim to empty
+line SimpleName Assignment MethodInvocation SimpleName line
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName line
+is empty SimpleName MethodInvocation SimpleName line
+resolve server keys SimpleName MethodInvocation SimpleName client
+resolve server keys SimpleName MethodInvocation SimpleName line
+resolve server keys SimpleName MethodInvocation SimpleName pairs map
+client SimpleName MethodInvocation SimpleName line
+client SimpleName MethodInvocation SimpleName pairs map
+line SimpleName MethodInvocation SimpleName pairs map
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+is enabled SimpleName MethodInvocation QualifiedName levelfine
+failed to retrieve keys from StringLiteral InfixExpression SimpleName line
+log SimpleName MethodInvocation QualifiedName levelfine
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to retrieve keys from
+log SimpleName MethodInvocation InfixExpression SimpleName line
+log SimpleName MethodInvocation SimpleName e
+levelfine QualifiedName MethodInvocation InfixExpression StringLiteral failed to retrieve keys from
+levelfine QualifiedName MethodInvocation InfixExpression SimpleName line
+levelfine QualifiedName MethodInvocation SimpleName e
+failed to retrieve keys from StringLiteral InfixExpression MethodInvocation SimpleName e
+line SimpleName InfixExpression MethodInvocation SimpleName e
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName e
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName e
+err SimpleName MethodInvocation SimpleName e
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName e
+current host fingerprints SimpleName MethodInvocation SimpleName clear
+line SimpleName InfixExpression ForStatement Assignment SimpleName line
+client SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void SimpleName SimpleType MethodDeclaration SimpleName call
+void SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

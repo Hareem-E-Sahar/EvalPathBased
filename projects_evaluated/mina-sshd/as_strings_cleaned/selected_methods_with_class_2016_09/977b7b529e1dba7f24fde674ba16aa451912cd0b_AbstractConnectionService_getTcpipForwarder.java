@@ -1,0 +1,57 @@
+tcpip forwarder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName forwarder
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+s SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+tcpip forwarder holder SimpleName MethodInvocation SimpleName get
+forwarder SimpleName Assignment MethodInvocation SimpleName tcpip forwarder holder
+forwarder SimpleName Assignment MethodInvocation SimpleName get
+create tcpip forwarder SimpleName MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName create tcpip forwarder
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation StringLiteral no forwarder created for s
+validate utils SimpleName MethodInvocation SimpleName session
+check not null SimpleName MethodInvocation MethodInvocation SimpleName create tcpip forwarder
+check not null SimpleName MethodInvocation MethodInvocation SimpleName session
+check not null SimpleName MethodInvocation StringLiteral no forwarder created for s
+check not null SimpleName MethodInvocation SimpleName session
+create tcpip forwarder SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder created for s
+session SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder created for s
+create tcpip forwarder SimpleName MethodInvocation MethodInvocation SimpleName session
+session SimpleName MethodInvocation MethodInvocation SimpleName session
+no forwarder created for s StringLiteral MethodInvocation SimpleName session
+forwarder SimpleName Assignment MethodInvocation SimpleName validate utils
+forwarder SimpleName Assignment MethodInvocation SimpleName check not null
+forwarder SimpleName Assignment MethodInvocation MethodInvocation SimpleName create tcpip forwarder
+forwarder SimpleName Assignment MethodInvocation MethodInvocation SimpleName session
+forwarder SimpleName Assignment MethodInvocation StringLiteral no forwarder created for s
+forwarder SimpleName Assignment MethodInvocation SimpleName session
+tcpip forwarder holder SimpleName MethodInvocation SimpleName set
+tcpip forwarder holder SimpleName MethodInvocation SimpleName forwarder
+set SimpleName MethodInvocation SimpleName forwarder
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral get tcpip forwarder created instance
+log SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation StringLiteral get tcpip forwarder created instance
+debug SimpleName MethodInvocation SimpleName session
+get tcpip forwarder created instance StringLiteral MethodInvocation SimpleName session
+tcpip forwarder holder SimpleName SynchronizedStatement Block ReturnStatement SimpleName forwarder
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName tcpip forwarder
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tcpip forwarder
+public Modifier MethodDeclaration SimpleType SimpleName tcpip forwarder
+public Modifier MethodDeclaration SimpleName get tcpip forwarder
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName tcpip forwarder holder
+public Modifier MethodDeclaration Block ReturnStatement SimpleName forwarder
+tcpip forwarder SimpleName SimpleType MethodDeclaration SimpleName get tcpip forwarder
+get tcpip forwarder SimpleName MethodDeclaration Block SynchronizedStatement SimpleName tcpip forwarder holder
+get tcpip forwarder SimpleName MethodDeclaration Block ReturnStatement SimpleName forwarder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tcpip forwarder
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tcpip forwarder
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tcpip forwarder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tcpip forwarder

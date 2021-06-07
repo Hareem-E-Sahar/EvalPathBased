@@ -1,0 +1,135 @@
+name SimpleName MemberValuePair StringLiteral factory }
+parameters SimpleName NormalAnnotation MemberValuePair SimpleName name
+parameters SimpleName NormalAnnotation MemberValuePair StringLiteral factory }
+mac factory SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is supported
+skip unsupported mac StringLiteral InfixExpression SimpleName f
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral skip unsupported mac
+systemout QualifiedName MethodInvocation InfixExpression SimpleName f
+println SimpleName MethodInvocation InfixExpression StringLiteral skip unsupported mac
+println SimpleName MethodInvocation InfixExpression SimpleName f
+f SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+name SimpleName MethodInvocation SimpleName index of
+name SimpleName MethodInvocation CharacterLiteral -
+index of SimpleName MethodInvocation CharacterLiteral -
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral -
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral -
+pos SimpleName InfixExpression NumberLiteral empty
+name SimpleName MethodInvocation SimpleName substring
+name SimpleName MethodInvocation InfixExpression SimpleName pos
+name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName pos
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+remainder SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+remainder SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+remainder SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName pos
+remainder SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remainder
+remainder SimpleName MethodInvocation SimpleName index of
+remainder SimpleName MethodInvocation CharacterLiteral -
+index of SimpleName MethodInvocation CharacterLiteral -
+pos SimpleName Assignment MethodInvocation SimpleName remainder
+pos SimpleName Assignment MethodInvocation SimpleName index of
+pos SimpleName Assignment MethodInvocation CharacterLiteral -
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class name
+pos SimpleName InfixExpression NumberLiteral empty
+remainder SimpleName MethodInvocation SimpleName to upper case
+hmac StringLiteral InfixExpression MethodInvocation SimpleName remainder
+hmac StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+class name SimpleName Assignment InfixExpression StringLiteral hmac
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName remainder
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName to upper case
+remainder SimpleName MethodInvocation SimpleName substring
+remainder SimpleName MethodInvocation NumberLiteral empty
+remainder SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+algorithm SimpleName VariableDeclarationFragment MethodInvocation SimpleName remainder
+algorithm SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+algorithm SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+algorithm SimpleName VariableDeclarationFragment MethodInvocation SimpleName pos
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName algorithm
+pos SimpleName InfixExpression NumberLiteral empty
+remainder SimpleName MethodInvocation SimpleName substring
+remainder SimpleName MethodInvocation InfixExpression SimpleName pos
+remainder SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName pos
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+remainder SimpleName Assignment MethodInvocation SimpleName remainder
+remainder SimpleName Assignment MethodInvocation SimpleName substring
+remainder SimpleName Assignment MethodInvocation InfixExpression SimpleName pos
+remainder SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+sha StringLiteral MethodInvocation SimpleName equals
+sha StringLiteral MethodInvocation SimpleName algorithm
+equals SimpleName MethodInvocation SimpleName algorithm
+remainder SimpleName MethodInvocation SimpleName to upper case
+hmacsha StringLiteral InfixExpression MethodInvocation SimpleName remainder
+hmacsha StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+class name SimpleName Assignment InfixExpression StringLiteral hmacsha
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName remainder
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName to upper case
+algorithm SimpleName MethodInvocation SimpleName to upper case
+remainder SimpleName MethodInvocation SimpleName to upper case
+hmac StringLiteral InfixExpression MethodInvocation SimpleName algorithm
+hmac StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+hmac StringLiteral InfixExpression MethodInvocation SimpleName remainder
+hmac StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+algorithm SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remainder
+algorithm SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+to upper case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remainder
+to upper case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+class name SimpleName Assignment InfixExpression StringLiteral hmac
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName algorithm
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName to upper case
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName remainder
+class name SimpleName Assignment InfixExpression MethodInvocation SimpleName to upper case
+comjcraftjschjce StringLiteral InfixExpression SimpleName class name
+f SimpleName ArrayInitializer InfixExpression StringLiteral comjcraftjschjce
+f SimpleName ArrayInitializer InfixExpression SimpleName class name
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName f
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName f
+mac factory SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin macsvalues
+f SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin macsvalues
+builtin macsvalues QualifiedName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+builtin macsvalues QualifiedName EnhancedForStatement Block ReturnStatement SimpleName ret
+parameters SimpleName NormalAnnotation MethodDeclaration Modifier public
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+factory } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+parameters SimpleName NormalAnnotation MethodDeclaration Modifier static
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier static
+factory } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier static
+parameters SimpleName NormalAnnotation MethodDeclaration SimpleName parameters
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName parameters
+factory } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName parameters
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration SimpleName parameters
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+static Modifier MethodDeclaration SimpleName parameters
+static Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parameters
+parameters SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+parameters SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName parameters
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parameters

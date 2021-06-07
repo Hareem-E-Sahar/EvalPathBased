@@ -1,0 +1,98 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+io handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+session SimpleName MethodInvocation SimpleName get factory manager
+session SimpleName MethodInvocation MethodInvocation SimpleName get io service factory
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get io service factory
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create acceptor
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create acceptor
+get io service factory SimpleName MethodInvocation MethodInvocation SimpleName create acceptor
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handler
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handler
+get io service factory SimpleName MethodInvocation MethodInvocation SimpleName handler
+create acceptor SimpleName MethodInvocation SimpleName handler
+acceptor SimpleName Assignment MethodInvocation MethodInvocation SimpleName get io service factory
+acceptor SimpleName Assignment MethodInvocation SimpleName create acceptor
+acceptor SimpleName Assignment MethodInvocation SimpleName handler
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName socket address
+acceptor SimpleName MethodInvocation SimpleName get bound addresses
+before SimpleName VariableDeclarationFragment MethodInvocation SimpleName acceptor
+before SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bound addresses
+address SimpleName MethodInvocation SimpleName to inet socket address
+acceptor SimpleName MethodInvocation SimpleName bind
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName address
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+bind SimpleName MethodInvocation MethodInvocation SimpleName address
+bind SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName socket address
+acceptor SimpleName MethodInvocation SimpleName get bound addresses
+after SimpleName VariableDeclarationFragment MethodInvocation SimpleName acceptor
+after SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bound addresses
+after SimpleName MethodInvocation SimpleName remove all
+after SimpleName MethodInvocation SimpleName before
+remove all SimpleName MethodInvocation SimpleName before
+after SimpleName MethodInvocation SimpleName is empty
+error binding to StringLiteral InfixExpression SimpleName address
+error binding to StringLiteral InfixExpression StringLiteral : no local addresses bound
+address SimpleName InfixExpression StringLiteral : no local addresses bound
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral error binding to
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName address
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : no local addresses bound
+after SimpleName MethodInvocation SimpleName size
+after SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+multiple local addresses have been bound for StringLiteral InfixExpression SimpleName address
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral multiple local addresses have been bound for
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName address
+after SimpleName MethodInvocation SimpleName iterator
+after SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+inet socket address SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName inet socket address
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get host name
+result SimpleName MethodInvocation SimpleName get port
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName result
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get host name
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName result
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get port
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName bind err
+acceptor SimpleName MethodInvocation SimpleName get bound addresses
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get bound addresses SimpleName MethodInvocation MethodInvocation SimpleName is empty
+private Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+private Modifier MethodDeclaration SimpleName do bind
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io handler
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName handler
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName do bind
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName address
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName handler
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+do bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+do bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+do bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io handler
+do bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+do bind SimpleName MethodDeclaration SimpleType SimpleName io exception
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+address SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+handler SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName do bind
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do bind
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

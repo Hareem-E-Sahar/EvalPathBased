@@ -1,0 +1,51 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName folder
+folder SimpleName MethodInvocation SimpleName exists
+folder SimpleName MethodInvocation SimpleName get absolute path
+target is an existing file instead of a folder StringLiteral InfixExpression MethodInvocation SimpleName folder
+target is an existing file instead of a folder StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+folder SimpleName MethodInvocation SimpleName is directory
+assert true SimpleName MethodInvocation InfixExpression StringLiteral target is an existing file instead of a folder
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName folder
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName folder
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is directory
+target is an existing file instead of a folder StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName folder
+target is an existing file instead of a folder StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is directory
+folder SimpleName MethodInvocation SimpleName get absolute path
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation SimpleName folder
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+folder SimpleName MethodInvocation SimpleName mkdirs
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to create hierarchy of
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName folder
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName folder
+assert true SimpleName MethodInvocation MethodInvocation SimpleName mkdirs
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName folder
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName mkdirs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SimpleName assert hierarchy target folder exists
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName folder
+public Modifier MethodDeclaration Block ReturnStatement SimpleName folder
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName assert hierarchy target folder exists
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName folder
+static Modifier MethodDeclaration Block ReturnStatement SimpleName folder
+file SimpleName SimpleType MethodDeclaration SimpleName assert hierarchy target folder exists
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName folder
+assert hierarchy target folder exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+assert hierarchy target folder exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName folder
+assert hierarchy target folder exists SimpleName MethodDeclaration Block ReturnStatement SimpleName folder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert hierarchy target folder exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName folder
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert hierarchy target folder exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName folder

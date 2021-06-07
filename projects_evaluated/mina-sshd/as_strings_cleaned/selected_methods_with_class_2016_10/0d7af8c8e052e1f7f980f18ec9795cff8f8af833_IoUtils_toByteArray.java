@@ -1,0 +1,40 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName in stream
+byte array output stream SimpleName SimpleType ClassInstanceCreation SimpleName default copy size
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName default copy size
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName baos
+copy SimpleName MethodInvocation SimpleName in stream
+copy SimpleName MethodInvocation SimpleName baos
+in stream SimpleName MethodInvocation SimpleName baos
+baos SimpleName MethodInvocation SimpleName to byte array
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName to byte array
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in stream
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName to byte array
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName in stream
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+byte PrimitiveType ArrayType MethodDeclaration SimpleName to byte array
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName in stream
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName io exception
+to byte array SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+to byte array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in stream
+to byte array SimpleName MethodDeclaration SimpleType SimpleName io exception
+in stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName to byte array
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to byte array
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

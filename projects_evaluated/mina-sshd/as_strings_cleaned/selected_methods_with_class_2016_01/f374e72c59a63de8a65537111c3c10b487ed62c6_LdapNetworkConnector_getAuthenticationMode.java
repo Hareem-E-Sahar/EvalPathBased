@@ -1,0 +1,20 @@
+ldap env SimpleName MethodInvocation SimpleName get
+ldap env SimpleName MethodInvocation QualifiedName contextsecurity authentication
+get SimpleName MethodInvocation QualifiedName contextsecurity authentication
+objects SimpleName MethodInvocation SimpleName to string
+objects SimpleName MethodInvocation MethodInvocation SimpleName ldap env
+objects SimpleName MethodInvocation MethodInvocation SimpleName get
+objects SimpleName MethodInvocation MethodInvocation QualifiedName contextsecurity authentication
+to string SimpleName MethodInvocation MethodInvocation SimpleName ldap env
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation QualifiedName contextsecurity authentication
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get authentication mode
+string SimpleName SimpleType MethodDeclaration SimpleName get authentication mode
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authentication mode
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authentication mode

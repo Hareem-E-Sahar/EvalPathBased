@@ -1,0 +1,77 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+resolve file SimpleName MethodInvocation SimpleName path
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+files SimpleName MethodInvocation SimpleName read symbolic link
+files SimpleName MethodInvocation SimpleName f
+read symbolic link SimpleName MethodInvocation SimpleName f
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName read symbolic link
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do read linkid path {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral do read linkid path {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation SimpleName f
+do read linkid path {} StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+do read linkid path {} StringLiteral MethodInvocation SimpleName id
+do read linkid path {} StringLiteral MethodInvocation SimpleName path
+do read linkid path {} StringLiteral MethodInvocation SimpleName f
+do read linkid path {} StringLiteral MethodInvocation SimpleName t
+get server session SimpleName MethodInvocation MethodInvocation SimpleName id
+get server session SimpleName MethodInvocation MethodInvocation SimpleName path
+get server session SimpleName MethodInvocation MethodInvocation SimpleName f
+get server session SimpleName MethodInvocation MethodInvocation SimpleName t
+id SimpleName MethodInvocation SimpleName path
+id SimpleName MethodInvocation SimpleName f
+id SimpleName MethodInvocation SimpleName t
+path SimpleName MethodInvocation SimpleName f
+path SimpleName MethodInvocation SimpleName t
+f SimpleName MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName do read link
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName do read link
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+do read link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do read link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do read link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do read link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+do read link SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName do read link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do read link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

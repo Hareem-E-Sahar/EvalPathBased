@@ -1,0 +1,42 @@
+closeable executor service SimpleName SimpleType SingleVariableDeclaration SimpleName executor service
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pool name
+new cached thread pool SimpleName MethodInvocation SimpleName pool name
+executor service SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName new cached thread pool
+executor service SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName pool name
+executor service SimpleName InfixExpression ConditionalExpression SimpleName executor service
+new cached thread pool SimpleName MethodInvocation ConditionalExpression SimpleName executor service
+pool name SimpleName MethodInvocation ConditionalExpression SimpleName executor service
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName closeable executor service
+public Modifier MethodDeclaration SimpleName new cached thread pool if
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable executor service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pool name
+static Modifier MethodDeclaration SimpleType SimpleName closeable executor service
+static Modifier MethodDeclaration SimpleName new cached thread pool if
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable executor service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pool name
+closeable executor service SimpleName SimpleType MethodDeclaration SimpleName new cached thread pool if
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName executor service
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pool name
+new cached thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable executor service
+new cached thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleName executor service
+new cached thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new cached thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pool name
+executor service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable executor service
+public Modifier TypeDeclaration MethodDeclaration SimpleName new cached thread pool if
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable executor service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new cached thread pool if
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name

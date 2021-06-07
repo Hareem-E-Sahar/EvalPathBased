@@ -1,0 +1,39 @@
+long PrimitiveType SingleVariableDeclaration SimpleName count
+count SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName count
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral bad count limit d
+validate utils SimpleName MethodInvocation SimpleName count
+check true SimpleName MethodInvocation InfixExpression SimpleName count
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral bad count limit d
+check true SimpleName MethodInvocation SimpleName count
+count SimpleName InfixExpression MethodInvocation StringLiteral bad count limit d
+l NumberLiteral InfixExpression MethodInvocation StringLiteral bad count limit d
+count SimpleName InfixExpression MethodInvocation SimpleName count
+l NumberLiteral InfixExpression MethodInvocation SimpleName count
+bad count limit d StringLiteral MethodInvocation SimpleName count
+search controls SimpleName MethodInvocation SimpleName set count limit
+search controls SimpleName MethodInvocation SimpleName count
+set count limit SimpleName MethodInvocation SimpleName count
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set count limit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName count
+void PrimitiveType MethodDeclaration SimpleName set count limit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName count
+set count limit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set count limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set count limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set count limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count

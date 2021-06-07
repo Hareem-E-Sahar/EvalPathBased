@@ -1,0 +1,32 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName folder
+folder SimpleName MethodInvocation SimpleName exists
+folder SimpleName MethodInvocation SimpleName get absolute path
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation SimpleName folder
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+folder SimpleName MethodInvocation SimpleName mkdirs
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to create hierarchy of
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName folder
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName folder
+assert true SimpleName MethodInvocation MethodInvocation SimpleName mkdirs
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName folder
+failed to create hierarchy of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName mkdirs
+protected Modifier MethodDeclaration SimpleType SimpleName file
+protected Modifier MethodDeclaration SimpleName assert hierarchy target folder exists
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName folder
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName folder
+file SimpleName SimpleType MethodDeclaration SimpleName assert hierarchy target folder exists
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName folder
+assert hierarchy target folder exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+assert hierarchy target folder exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName folder
+assert hierarchy target folder exists SimpleName MethodDeclaration Block ReturnStatement SimpleName folder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert hierarchy target folder exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName folder
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert hierarchy target folder exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName folder

@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType QualifiedName orgapacheminacoresessionio session
+public Modifier MethodDeclaration SimpleName get session
+public Modifier MethodDeclaration Block ReturnStatement SimpleName session
+orgapacheminacoresessionio session QualifiedName SimpleType MethodDeclaration SimpleName get session
+get session SimpleName MethodDeclaration Block ReturnStatement SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapacheminacoresessionio session
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapacheminacoresessionio session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session

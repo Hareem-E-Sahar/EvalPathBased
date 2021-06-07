@@ -1,0 +1,21 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+attributes SimpleName MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType MethodDeclaration SimpleName get attribute
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

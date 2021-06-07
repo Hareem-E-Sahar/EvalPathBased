@@ -1,0 +1,79 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+buffer SimpleName MethodInvocation SimpleName get string
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp readlink path
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral received ssh fxp readlink path
+debug SimpleName MethodInvocation SimpleName path
+received ssh fxp readlink path StringLiteral MethodInvocation SimpleName path
+resolve file SimpleName MethodInvocation SimpleName path
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+files SimpleName MethodInvocation SimpleName read symbolic link
+files SimpleName MethodInvocation SimpleName f
+read symbolic link SimpleName MethodInvocation SimpleName f
+files SimpleName MethodInvocation MethodInvocation SimpleName to string
+read symbolic link SimpleName MethodInvocation MethodInvocation SimpleName to string
+f SimpleName MethodInvocation MethodInvocation SimpleName to string
+l SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName files
+l SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read symbolic link
+l SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName f
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+send link SimpleName MethodInvocation SimpleName id
+send link SimpleName MethodInvocation SimpleName l
+id SimpleName MethodInvocation SimpleName l
+unsupported operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx op unsupported
+send status SimpleName MethodInvocation StringLiteral command ssh fxp readlink is unsupported or not implemented
+id SimpleName MethodInvocation SimpleName ssh fx op unsupported
+id SimpleName MethodInvocation StringLiteral command ssh fxp readlink is unsupported or not implemented
+ssh fx op unsupported SimpleName MethodInvocation StringLiteral command ssh fxp readlink is unsupported or not implemented
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName e
+id SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do read link
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do read link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do read link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do read link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do read link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do read link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do read link SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do read link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do read link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

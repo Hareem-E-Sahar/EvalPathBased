@@ -1,0 +1,48 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+get u byte SimpleName MethodInvocation SimpleName buffer
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get u byte
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get u byte
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName length
+get u byte SimpleName MethodInvocation SimpleName buffer
+char PrimitiveType CastExpression MethodInvocation SimpleName get u byte
+char PrimitiveType CastExpression MethodInvocation SimpleName buffer
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CastExpression PrimitiveType char
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get u byte
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName buffer
+append SimpleName MethodInvocation CastExpression PrimitiveType char
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get u byte
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+length SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sb SimpleName MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get bl string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get bl string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+get bl string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+get bl string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+get bl string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bl string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bl string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

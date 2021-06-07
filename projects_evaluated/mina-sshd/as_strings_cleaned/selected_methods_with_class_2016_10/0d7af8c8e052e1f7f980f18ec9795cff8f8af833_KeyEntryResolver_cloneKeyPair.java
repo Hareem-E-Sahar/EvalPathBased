@@ -1,0 +1,111 @@
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+pub SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pub cloned
+kp SimpleName MethodInvocation SimpleName get public
+pub original SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+pub original SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pub original
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName pub
+pub expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public key type
+class SimpleName SimpleType ParameterizedType WildcardType ?
+pub original SimpleName MethodInvocation SimpleName get class
+org type SimpleName VariableDeclarationFragment MethodInvocation SimpleName pub original
+org type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName org type
+pub expected SimpleName MethodInvocation SimpleName is assignable from
+pub expected SimpleName MethodInvocation SimpleName org type
+is assignable from SimpleName MethodInvocation SimpleName org type
+pub expected SimpleName MethodInvocation SimpleName get simple name
+org type SimpleName MethodInvocation SimpleName get simple name
+mismatched public key types expected StringLiteral InfixExpression MethodInvocation SimpleName pub expected
+mismatched public key types expected StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+mismatched public key types expected StringLiteral InfixExpression StringLiteral actual
+mismatched public key types expected StringLiteral InfixExpression MethodInvocation SimpleName org type
+mismatched public key types expected StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+pub expected SimpleName MethodInvocation InfixExpression StringLiteral actual
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral actual
+pub expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName org type
+pub expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName org type
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+actual StringLiteral InfixExpression MethodInvocation SimpleName org type
+actual StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mismatched public key types expected
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral actual
+pub expected SimpleName MethodInvocation SimpleName cast
+pub expected SimpleName MethodInvocation SimpleName pub original
+cast SimpleName MethodInvocation SimpleName pub original
+clone public key SimpleName MethodInvocation MethodInvocation SimpleName pub expected
+clone public key SimpleName MethodInvocation MethodInvocation SimpleName cast
+clone public key SimpleName MethodInvocation MethodInvocation SimpleName pub original
+pub cloned SimpleName Assignment MethodInvocation SimpleName clone public key
+pub cloned SimpleName Assignment MethodInvocation MethodInvocation SimpleName pub expected
+pub cloned SimpleName Assignment MethodInvocation MethodInvocation SimpleName cast
+pub cloned SimpleName Assignment MethodInvocation MethodInvocation SimpleName pub original
+prv SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv cloned
+kp SimpleName MethodInvocation SimpleName get private
+prv original SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+prv original SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private
+private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv original
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName prv
+prv expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private key type
+class SimpleName SimpleType ParameterizedType WildcardType ?
+prv original SimpleName MethodInvocation SimpleName get class
+org type SimpleName VariableDeclarationFragment MethodInvocation SimpleName prv original
+org type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName org type
+prv expected SimpleName MethodInvocation SimpleName is assignable from
+prv expected SimpleName MethodInvocation SimpleName org type
+is assignable from SimpleName MethodInvocation SimpleName org type
+prv expected SimpleName MethodInvocation SimpleName get simple name
+org type SimpleName MethodInvocation SimpleName get simple name
+mismatched private key types expected StringLiteral InfixExpression MethodInvocation SimpleName prv expected
+mismatched private key types expected StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+mismatched private key types expected StringLiteral InfixExpression StringLiteral actual
+mismatched private key types expected StringLiteral InfixExpression MethodInvocation SimpleName org type
+mismatched private key types expected StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+prv expected SimpleName MethodInvocation InfixExpression StringLiteral actual
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral actual
+prv expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName org type
+prv expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName org type
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+actual StringLiteral InfixExpression MethodInvocation SimpleName org type
+actual StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mismatched private key types expected
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral actual
+prv expected SimpleName MethodInvocation SimpleName cast
+prv expected SimpleName MethodInvocation SimpleName prv original
+cast SimpleName MethodInvocation SimpleName prv original
+clone private key SimpleName MethodInvocation MethodInvocation SimpleName prv expected
+clone private key SimpleName MethodInvocation MethodInvocation SimpleName cast
+clone private key SimpleName MethodInvocation MethodInvocation SimpleName prv original
+prv cloned SimpleName Assignment MethodInvocation SimpleName clone private key
+prv cloned SimpleName Assignment MethodInvocation MethodInvocation SimpleName prv expected
+prv cloned SimpleName Assignment MethodInvocation MethodInvocation SimpleName cast
+prv cloned SimpleName Assignment MethodInvocation MethodInvocation SimpleName prv original
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName pub cloned
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName prv cloned
+pub cloned SimpleName ClassInstanceCreation SimpleName prv cloned
+default Modifier MethodDeclaration SimpleType SimpleName key pair
+default Modifier MethodDeclaration SimpleName clone key pair
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName kp
+default Modifier MethodDeclaration SimpleType SimpleName general security exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName clone key pair
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName kp
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+clone key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+clone key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kp
+clone key pair SimpleName MethodDeclaration SimpleType SimpleName general security exception
+kp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

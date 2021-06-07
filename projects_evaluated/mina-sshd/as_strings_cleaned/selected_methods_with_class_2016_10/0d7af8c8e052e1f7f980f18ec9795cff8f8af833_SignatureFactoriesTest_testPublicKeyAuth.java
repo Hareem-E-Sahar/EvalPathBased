@@ -1,0 +1,45 @@
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation MethodInvocation SimpleName is supported
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is supported
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName factory
+singleton list SimpleName MethodInvocation SimpleName factory
+test key pair provider SimpleName MethodInvocation MethodInvocation SimpleName get key type
+test key pair provider SimpleName MethodInvocation MethodInvocation SimpleName get key size
+test key pair provider SimpleName MethodInvocation SimpleName pub key decoder
+test key pair provider SimpleName MethodInvocation MethodInvocation SimpleName collections
+test key pair provider SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+test key pair provider SimpleName MethodInvocation MethodInvocation SimpleName factory
+get key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key size
+get key type SimpleName MethodInvocation MethodInvocation SimpleName pub key decoder
+get key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+get key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+get key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory
+get key size SimpleName MethodInvocation MethodInvocation SimpleName pub key decoder
+get key size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+get key size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+get key size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory
+pub key decoder SimpleName MethodInvocation MethodInvocation SimpleName collections
+pub key decoder SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+pub key decoder SimpleName MethodInvocation MethodInvocation SimpleName factory
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test public key auth
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test public key auth
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test public key auth
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test public key auth SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test public key auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test public key auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

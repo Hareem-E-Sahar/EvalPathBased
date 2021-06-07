@@ -1,0 +1,89 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName sig
+sig SimpleName ArrayAccess NumberLiteral empty
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+sig SimpleName ArrayAccess NumberLiteral empty
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+sig SimpleName ArrayAccess NumberLiteral empty
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+i SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName PostfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName PostfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName PostfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess ParenthesizedExpression InfixExpression NumberLiteral x ff
+i SimpleName Assignment SimpleName j
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName PostfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName PostfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName PostfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+sig SimpleName ArrayAccess PostfixExpression SimpleName i
+sig SimpleName ArrayAccess ParenthesizedExpression InfixExpression NumberLiteral x ff
+byte PrimitiveType ArrayType ArrayCreation SimpleName j
+tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+tmp SimpleName VariableDeclarationFragment ArrayCreation SimpleName j
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName sig
+system SimpleName MethodInvocation SimpleName i
+system SimpleName MethodInvocation SimpleName tmp
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName sig
+arraycopy SimpleName MethodInvocation SimpleName i
+arraycopy SimpleName MethodInvocation SimpleName tmp
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName j
+sig SimpleName MethodInvocation SimpleName i
+sig SimpleName MethodInvocation SimpleName tmp
+sig SimpleName MethodInvocation NumberLiteral empty
+sig SimpleName MethodInvocation SimpleName j
+i SimpleName MethodInvocation SimpleName tmp
+i SimpleName MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation SimpleName j
+tmp SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation SimpleName j
+empty NumberLiteral MethodInvocation SimpleName j
+sig SimpleName Assignment SimpleName tmp
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName extract sig
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName sig
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName sig
+byte PrimitiveType ArrayType MethodDeclaration SimpleName extract sig
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName sig
+extract sig SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+extract sig SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sig
+extract sig SimpleName MethodDeclaration Block ReturnStatement SimpleName sig
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract sig
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sig
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract sig
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sig

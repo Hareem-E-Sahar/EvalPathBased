@@ -1,0 +1,9 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get permissions
+posix file permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get permissions
+get permissions SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get permissions
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get permissions
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

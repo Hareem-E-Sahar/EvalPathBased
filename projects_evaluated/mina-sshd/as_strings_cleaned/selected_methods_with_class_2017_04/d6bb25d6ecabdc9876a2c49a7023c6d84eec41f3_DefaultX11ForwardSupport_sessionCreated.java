@@ -1,0 +1,77 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+channel forwarded x SimpleName SimpleType ClassInstanceCreation SimpleName session
+channel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName channel forwarded x
+channel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName session
+channel forwarded x SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+session SimpleName MethodInvocation SimpleName set attribute
+session SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel forwarded x
+session SimpleName MethodInvocation SimpleName channel
+set attribute SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel forwarded x
+set attribute SimpleName MethodInvocation SimpleName channel
+channel forwarded x SimpleName SimpleType TypeLiteral MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral session created channel
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation StringLiteral session created channel
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName channel
+session created channel StringLiteral MethodInvocation SimpleName session
+session created channel StringLiteral MethodInvocation SimpleName channel
+session SimpleName MethodInvocation SimpleName channel
+service SimpleName FieldAccess MethodInvocation SimpleName register channel
+service SimpleName FieldAccess MethodInvocation SimpleName channel
+register channel SimpleName MethodInvocation SimpleName channel
+channel SimpleName MethodInvocation SimpleName open
+channel SimpleName MethodInvocation SimpleName get long property
+channel SimpleName MethodInvocation SimpleName channel open timeout prop
+channel SimpleName MethodInvocation SimpleName default channel open timeout
+get long property SimpleName MethodInvocation SimpleName channel open timeout prop
+get long property SimpleName MethodInvocation SimpleName default channel open timeout
+channel open timeout prop SimpleName MethodInvocation SimpleName default channel open timeout
+channel SimpleName MethodInvocation MethodInvocation SimpleName verify
+open SimpleName MethodInvocation MethodInvocation SimpleName verify
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName channel
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get long property
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName channel open timeout prop
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default channel open timeout
+open SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName channel
+open SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get long property
+open SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName channel open timeout prop
+open SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default channel open timeout
+verify SimpleName MethodInvocation MethodInvocation SimpleName channel
+verify SimpleName MethodInvocation MethodInvocation SimpleName get long property
+verify SimpleName MethodInvocation MethodInvocation SimpleName channel open timeout prop
+verify SimpleName MethodInvocation MethodInvocation SimpleName default channel open timeout
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session created
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session created
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName session created
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session created SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session created
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session created
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

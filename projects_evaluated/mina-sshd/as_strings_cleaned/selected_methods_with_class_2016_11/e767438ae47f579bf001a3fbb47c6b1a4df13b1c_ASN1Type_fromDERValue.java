@@ -1,0 +1,31 @@
+int PrimitiveType SingleVariableDeclaration SimpleName value
+value SimpleName InfixExpression NumberLiteral x f
+from type value SimpleName MethodInvocation InfixExpression SimpleName value
+from type value SimpleName MethodInvocation InfixExpression NumberLiteral x f
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName asn type
+public Modifier MethodDeclaration SimpleName from der value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName asn type
+static Modifier MethodDeclaration SimpleName from der value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+asn type SimpleName SimpleType MethodDeclaration SimpleName from der value
+asn type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+asn type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+from der value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+from der value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName asn type
+public Modifier TypeDeclaration MethodDeclaration SimpleName from der value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName asn type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from der value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

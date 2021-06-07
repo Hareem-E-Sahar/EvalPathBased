@@ -1,0 +1,36 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName option
+option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName option
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName option
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName option
+opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName options
+as list SimpleName MethodInvocation SimpleName options
+opts SimpleName MethodInvocation SimpleName add all
+opts SimpleName MethodInvocation MethodInvocation SimpleName arrays
+opts SimpleName MethodInvocation MethodInvocation SimpleName as list
+opts SimpleName MethodInvocation MethodInvocation SimpleName options
+add all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+add all SimpleName MethodInvocation MethodInvocation SimpleName as list
+add all SimpleName MethodInvocation MethodInvocation SimpleName options
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName option
+private Modifier MethodDeclaration SimpleName options
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName option
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+private Modifier MethodDeclaration Block ReturnStatement SimpleName opts
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName options
+option SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName options
+options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName option
+options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+options SimpleName MethodDeclaration Block ReturnStatement SimpleName opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

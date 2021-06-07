@@ -1,0 +1,22 @@
+search controls SimpleName MethodInvocation SimpleName get returning attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName search controls
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get returning attributes
+attrslength QualifiedName InfixExpression NumberLiteral empty
+attrslength QualifiedName InfixExpression NumberLiteral empty
+attrs SimpleName ArrayAccess NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName join
+generic utils SimpleName MethodInvocation SimpleName attrs
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+join SimpleName MethodInvocation SimpleName attrs
+join SimpleName MethodInvocation CharacterLiteral empty
+attrs SimpleName MethodInvocation CharacterLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get retrieved attributes
+string SimpleName SimpleType MethodDeclaration SimpleName get retrieved attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get retrieved attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get retrieved attributes

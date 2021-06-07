@@ -1,0 +1,20 @@
+get negotiated kex parameter SimpleName MethodInvocation QualifiedName kex proposal optionserverkeys
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get negotiated kex parameter
+value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName kex proposal optionserverkeys
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+factory manager SimpleName MethodInvocation SimpleName get key pair provider
+factory manager SimpleName MethodInvocation MethodInvocation SimpleName load key
+get key pair provider SimpleName MethodInvocation MethodInvocation SimpleName load key
+factory manager SimpleName MethodInvocation MethodInvocation SimpleName value
+get key pair provider SimpleName MethodInvocation MethodInvocation SimpleName value
+load key SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName get host key
+key pair SimpleName SimpleType MethodDeclaration SimpleName get host key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName get host key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get host key

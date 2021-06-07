@@ -1,0 +1,25 @@
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation MethodInvocation SimpleName hash code
+to hex string SimpleName MethodInvocation MethodInvocation SimpleName hash code
+ssh server StringLiteral InfixExpression MethodInvocation SimpleName integer
+ssh server StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+ssh server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName hash code
+ssh server StringLiteral InfixExpression StringLiteral ]
+integer SimpleName MethodInvocation InfixExpression StringLiteral ]
+to hex string SimpleName MethodInvocation InfixExpression StringLiteral ]
+hash code SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

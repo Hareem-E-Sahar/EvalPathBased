@@ -1,0 +1,88 @@
+a SimpleName TypeParameter SimpleType SimpleName appendable
+a SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName props
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName props
+is empty SimpleName MethodInvocation SimpleName props
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName pe
+props SimpleName MethodInvocation SimpleName entry set
+pe SimpleName MethodInvocation SimpleName get key
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName pe
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+explicit properties SimpleName MethodInvocation SimpleName contains
+explicit properties SimpleName MethodInvocation SimpleName name
+contains SimpleName MethodInvocation SimpleName name
+pe SimpleName MethodInvocation SimpleName get value
+append non empty property SimpleName MethodInvocation SimpleName sb
+append non empty property SimpleName MethodInvocation SimpleName name
+append non empty property SimpleName MethodInvocation MethodInvocation SimpleName pe
+append non empty property SimpleName MethodInvocation MethodInvocation SimpleName get value
+sb SimpleName MethodInvocation SimpleName name
+sb SimpleName MethodInvocation MethodInvocation SimpleName pe
+sb SimpleName MethodInvocation MethodInvocation SimpleName get value
+name SimpleName MethodInvocation MethodInvocation SimpleName pe
+name SimpleName MethodInvocation MethodInvocation SimpleName get value
+pe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName props
+pe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName a
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName appendable
+public Modifier MethodDeclaration SimpleType SimpleName a
+public Modifier MethodDeclaration SimpleName append non empty properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration TypeParameter SimpleName a
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName appendable
+static Modifier MethodDeclaration SimpleType SimpleName a
+static Modifier MethodDeclaration SimpleName append non empty properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+a SimpleName TypeParameter MethodDeclaration SimpleType SimpleName a
+a SimpleName TypeParameter MethodDeclaration SimpleName append non empty properties
+appendable SimpleName SimpleType TypeParameter MethodDeclaration SimpleName append non empty properties
+a SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName sb
+a SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName props
+a SimpleName TypeParameter MethodDeclaration SimpleType SimpleName io exception
+a SimpleName SimpleType MethodDeclaration SimpleName append non empty properties
+a SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+a SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+a SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+append non empty properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+append non empty properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+append non empty properties SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+append non empty properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+append non empty properties SimpleName MethodDeclaration SimpleType SimpleName io exception
+append non empty properties SimpleName MethodDeclaration Block ReturnStatement SimpleName sb
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SimpleName append non empty properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append non empty properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

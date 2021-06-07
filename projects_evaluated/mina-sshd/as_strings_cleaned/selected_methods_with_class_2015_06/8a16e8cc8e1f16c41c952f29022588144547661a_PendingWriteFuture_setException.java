@@ -1,0 +1,30 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName cause
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName cause
+validate utils SimpleName MethodInvocation StringLiteral no cause specified
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName cause
+check not null SimpleName MethodInvocation StringLiteral no cause specified
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+cause SimpleName MethodInvocation StringLiteral no cause specified
+cause SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no cause specified StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+set value SimpleName MethodInvocation SimpleName cause
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cause
+void PrimitiveType MethodDeclaration SimpleName set exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cause
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cause
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cause
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cause

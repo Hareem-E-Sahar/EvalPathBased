@@ -1,0 +1,82 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName link
+unroot SimpleName MethodInvocation SimpleName link
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName link
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+provider SimpleName MethodInvocation SimpleName r
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+file system provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName read symbolic link
+p SimpleName MethodInvocation SimpleName r
+read symbolic link SimpleName MethodInvocation SimpleName r
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName read symbolic link
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+link SimpleName MethodInvocation SimpleName get file system
+rooted file system SimpleName SimpleType CastExpression MethodInvocation SimpleName link
+rooted file system SimpleName SimpleType CastExpression MethodInvocation SimpleName get file system
+root SimpleName MethodInvocation CastExpression SimpleType SimpleName rooted file system
+root SimpleName MethodInvocation CastExpression MethodInvocation SimpleName link
+root SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get file system
+root SimpleName MethodInvocation SimpleName t
+rooted file system SimpleName SimpleType CastExpression MethodInvocation SimpleName t
+link SimpleName MethodInvocation CastExpression MethodInvocation SimpleName t
+get file system SimpleName MethodInvocation CastExpression MethodInvocation SimpleName t
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral read symbolic link {}[{}]
+log SimpleName MethodInvocation SimpleName link
+log SimpleName MethodInvocation SimpleName r
+log SimpleName MethodInvocation SimpleName target
+trace SimpleName MethodInvocation StringLiteral read symbolic link {}[{}]
+trace SimpleName MethodInvocation SimpleName link
+trace SimpleName MethodInvocation SimpleName r
+trace SimpleName MethodInvocation SimpleName target
+trace SimpleName MethodInvocation SimpleName t
+read symbolic link {}[{}] StringLiteral MethodInvocation SimpleName link
+read symbolic link {}[{}] StringLiteral MethodInvocation SimpleName r
+read symbolic link {}[{}] StringLiteral MethodInvocation SimpleName target
+read symbolic link {}[{}] StringLiteral MethodInvocation SimpleName t
+link SimpleName MethodInvocation SimpleName r
+link SimpleName MethodInvocation SimpleName target
+link SimpleName MethodInvocation SimpleName t
+r SimpleName MethodInvocation SimpleName target
+r SimpleName MethodInvocation SimpleName t
+target SimpleName MethodInvocation SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read symbolic link
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName link
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName read symbolic link
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName link
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName target
+path SimpleName SimpleType MethodDeclaration SimpleName read symbolic link
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName link
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read symbolic link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+read symbolic link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName link
+read symbolic link SimpleName MethodDeclaration SimpleType SimpleName io exception
+read symbolic link SimpleName MethodDeclaration Block ReturnStatement SimpleName target
+link SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName read symbolic link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read symbolic link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

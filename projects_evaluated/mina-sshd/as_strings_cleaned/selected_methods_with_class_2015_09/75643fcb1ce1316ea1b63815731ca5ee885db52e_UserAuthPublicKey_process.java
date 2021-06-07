@@ -1,0 +1,329 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get username
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName get username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+keys SimpleName MethodInvocation SimpleName has next
+keys SimpleName MethodInvocation SimpleName next
+current SimpleName Assignment MethodInvocation SimpleName keys
+current SimpleName Assignment MethodInvocation SimpleName next
+current SimpleName MethodInvocation SimpleName get public key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public key
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName key
+get key type SimpleName MethodInvocation SimpleName key
+algo SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+algo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+algo SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName algo
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral process send ssh msg userauth request request {} algo
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation StringLiteral process send ssh msg userauth request request {} algo
+debug SimpleName MethodInvocation SimpleName username
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation SimpleName name
+process send ssh msg userauth request request {} algo StringLiteral MethodInvocation SimpleName username
+process send ssh msg userauth request request {} algo StringLiteral MethodInvocation SimpleName session
+process send ssh msg userauth request request {} algo StringLiteral MethodInvocation SimpleName service
+process send ssh msg userauth request request {} algo StringLiteral MethodInvocation SimpleName name
+process send ssh msg userauth request request {} algo StringLiteral MethodInvocation SimpleName algo
+username SimpleName MethodInvocation SimpleName session
+username SimpleName MethodInvocation SimpleName service
+username SimpleName MethodInvocation SimpleName name
+username SimpleName MethodInvocation SimpleName algo
+session SimpleName MethodInvocation SimpleName service
+session SimpleName MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName algo
+service SimpleName MethodInvocation SimpleName name
+service SimpleName MethodInvocation SimpleName algo
+name SimpleName MethodInvocation SimpleName algo
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName Assignment MethodInvocation SimpleName session
+buffer SimpleName Assignment MethodInvocation SimpleName create buffer
+buffer SimpleName Assignment MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName username
+put string SimpleName MethodInvocation SimpleName username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName service
+put string SimpleName MethodInvocation SimpleName service
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName name
+put string SimpleName MethodInvocation SimpleName name
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation BooleanLiteral false
+put boolean SimpleName MethodInvocation BooleanLiteral false
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName algo
+put string SimpleName MethodInvocation SimpleName algo
+buffer SimpleName MethodInvocation SimpleName put public key
+buffer SimpleName MethodInvocation SimpleName key
+put public key SimpleName MethodInvocation SimpleName key
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral process no more keys to send
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation StringLiteral process no more keys to send
+debug SimpleName MethodInvocation SimpleName username
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName service
+process no more keys to send StringLiteral MethodInvocation SimpleName username
+process no more keys to send StringLiteral MethodInvocation SimpleName session
+process no more keys to send StringLiteral MethodInvocation SimpleName service
+username SimpleName MethodInvocation SimpleName session
+username SimpleName MethodInvocation SimpleName service
+session SimpleName MethodInvocation SimpleName service
+buffer SimpleName MethodInvocation SimpleName get u byte
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get u byte
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get u byte
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg userauth pk ok
+current SimpleName MethodInvocation SimpleName get public key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public key
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName key
+get key type SimpleName MethodInvocation SimpleName key
+algo SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+algo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+algo SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName algo
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral process send ssh msg userauth request reply {} algo
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation StringLiteral process send ssh msg userauth request reply {} algo
+debug SimpleName MethodInvocation SimpleName username
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation SimpleName name
+process send ssh msg userauth request reply {} algo StringLiteral MethodInvocation SimpleName username
+process send ssh msg userauth request reply {} algo StringLiteral MethodInvocation SimpleName session
+process send ssh msg userauth request reply {} algo StringLiteral MethodInvocation SimpleName service
+process send ssh msg userauth request reply {} algo StringLiteral MethodInvocation SimpleName name
+process send ssh msg userauth request reply {} algo StringLiteral MethodInvocation SimpleName algo
+username SimpleName MethodInvocation SimpleName session
+username SimpleName MethodInvocation SimpleName service
+username SimpleName MethodInvocation SimpleName name
+username SimpleName MethodInvocation SimpleName algo
+session SimpleName MethodInvocation SimpleName service
+session SimpleName MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName algo
+service SimpleName MethodInvocation SimpleName name
+service SimpleName MethodInvocation SimpleName algo
+name SimpleName MethodInvocation SimpleName algo
+buffer utils SimpleName MethodInvocation SimpleName clear
+buffer utils SimpleName MethodInvocation SimpleName buffer
+clear SimpleName MethodInvocation SimpleName buffer
+session SimpleName MethodInvocation SimpleName prepare buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+session SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+session SimpleName MethodInvocation MethodInvocation SimpleName clear
+session SimpleName MethodInvocation MethodInvocation SimpleName buffer
+prepare buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName clear
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+ssh constantsssh msg userauth request QualifiedName MethodInvocation MethodInvocation SimpleName buffer utils
+ssh constantsssh msg userauth request QualifiedName MethodInvocation MethodInvocation SimpleName clear
+ssh constantsssh msg userauth request QualifiedName MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName session
+buffer SimpleName Assignment MethodInvocation SimpleName prepare buffer
+buffer SimpleName Assignment MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer utils
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName clear
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName username
+put string SimpleName MethodInvocation SimpleName username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName service
+put string SimpleName MethodInvocation SimpleName service
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName name
+put string SimpleName MethodInvocation SimpleName name
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation BooleanLiteral true
+put boolean SimpleName MethodInvocation BooleanLiteral true
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName algo
+put string SimpleName MethodInvocation SimpleName algo
+buffer SimpleName MethodInvocation SimpleName put public key
+buffer SimpleName MethodInvocation SimpleName key
+put public key SimpleName MethodInvocation SimpleName key
+bs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+session SimpleName MethodInvocation SimpleName get kex
+kex SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+kex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get kex
+key exchange SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kex
+kex SimpleName MethodInvocation SimpleName get h
+bs SimpleName MethodInvocation SimpleName put bytes
+bs SimpleName MethodInvocation MethodInvocation SimpleName kex
+bs SimpleName MethodInvocation MethodInvocation SimpleName get h
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName kex
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName get h
+bs SimpleName MethodInvocation SimpleName put byte
+bs SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+put byte SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+bs SimpleName MethodInvocation SimpleName put string
+bs SimpleName MethodInvocation SimpleName username
+put string SimpleName MethodInvocation SimpleName username
+bs SimpleName MethodInvocation SimpleName put string
+bs SimpleName MethodInvocation SimpleName service
+put string SimpleName MethodInvocation SimpleName service
+bs SimpleName MethodInvocation SimpleName put string
+bs SimpleName MethodInvocation SimpleName name
+put string SimpleName MethodInvocation SimpleName name
+bs SimpleName MethodInvocation SimpleName put boolean
+bs SimpleName MethodInvocation BooleanLiteral true
+put boolean SimpleName MethodInvocation BooleanLiteral true
+bs SimpleName MethodInvocation SimpleName put string
+bs SimpleName MethodInvocation SimpleName algo
+put string SimpleName MethodInvocation SimpleName algo
+bs SimpleName MethodInvocation SimpleName put public key
+bs SimpleName MethodInvocation SimpleName key
+put public key SimpleName MethodInvocation SimpleName key
+bs SimpleName MethodInvocation SimpleName get compact data
+current SimpleName MethodInvocation SimpleName sign
+current SimpleName MethodInvocation MethodInvocation SimpleName bs
+current SimpleName MethodInvocation MethodInvocation SimpleName get compact data
+sign SimpleName MethodInvocation MethodInvocation SimpleName bs
+sign SimpleName MethodInvocation MethodInvocation SimpleName get compact data
+sig SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+sig SimpleName VariableDeclarationFragment MethodInvocation SimpleName sign
+sig SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName bs
+sig SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get compact data
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName sig
+bs SimpleName Assignment ClassInstanceCreation SimpleType SimpleName byte array buffer
+bs SimpleName MethodInvocation SimpleName put string
+bs SimpleName MethodInvocation SimpleName algo
+put string SimpleName MethodInvocation SimpleName algo
+bs SimpleName MethodInvocation SimpleName put bytes
+bs SimpleName MethodInvocation SimpleName sig
+put bytes SimpleName MethodInvocation SimpleName sig
+bs SimpleName MethodInvocation SimpleName array
+bs SimpleName MethodInvocation SimpleName rpos
+bs SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation SimpleName put bytes
+buffer SimpleName MethodInvocation MethodInvocation SimpleName bs
+buffer SimpleName MethodInvocation MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation MethodInvocation SimpleName bs
+buffer SimpleName MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation SimpleName bs
+buffer SimpleName MethodInvocation MethodInvocation SimpleName available
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName bs
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName array
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName bs
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName rpos
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName bs
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName available
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bs
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bs
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bs
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bs
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bs
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bs
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+process StringLiteral InfixExpression SimpleName username
+process StringLiteral InfixExpression StringLiteral @
+process StringLiteral InfixExpression SimpleName session
+process StringLiteral InfixExpression StringLiteral )[
+process StringLiteral InfixExpression SimpleName service
+username SimpleName InfixExpression StringLiteral @
+username SimpleName InfixExpression SimpleName session
+username SimpleName InfixExpression StringLiteral )[
+username SimpleName InfixExpression SimpleName service
+username SimpleName InfixExpression StringLiteral ] received unknown packet cmd
+@ StringLiteral InfixExpression SimpleName session
+@ StringLiteral InfixExpression StringLiteral )[
+@ StringLiteral InfixExpression SimpleName service
+@ StringLiteral InfixExpression StringLiteral ] received unknown packet cmd
+@ StringLiteral InfixExpression SimpleName cmd
+session SimpleName InfixExpression StringLiteral )[
+session SimpleName InfixExpression SimpleName service
+session SimpleName InfixExpression StringLiteral ] received unknown packet cmd
+session SimpleName InfixExpression SimpleName cmd
+)[ StringLiteral InfixExpression SimpleName service
+)[ StringLiteral InfixExpression StringLiteral ] received unknown packet cmd
+)[ StringLiteral InfixExpression SimpleName cmd
+service SimpleName InfixExpression StringLiteral ] received unknown packet cmd
+service SimpleName InfixExpression SimpleName cmd
+] received unknown packet cmd StringLiteral InfixExpression SimpleName cmd
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral process
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName username
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral @
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName session
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )[
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName service
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ] received unknown packet cmd
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cmd
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration SimpleName process
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+process SimpleName MethodDeclaration SimpleType SimpleName exception
+process SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

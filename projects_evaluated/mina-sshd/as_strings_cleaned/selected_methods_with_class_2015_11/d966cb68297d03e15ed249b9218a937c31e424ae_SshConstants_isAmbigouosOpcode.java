@@ -1,0 +1,31 @@
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+get ambiguous opcodes SimpleName MethodInvocation MethodInvocation SimpleName contains
+get ambiguous opcodes SimpleName MethodInvocation MethodInvocation SimpleName cmd
+contains SimpleName MethodInvocation SimpleName cmd
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is ambigouos opcode
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is ambigouos opcode
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+boolean PrimitiveType MethodDeclaration SimpleName is ambigouos opcode
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+is ambigouos opcode SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+is ambigouos opcode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is ambigouos opcode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is ambigouos opcode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd

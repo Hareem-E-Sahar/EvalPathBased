@@ -1,0 +1,29 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName follow links
+no follow options SimpleName MethodInvocation SimpleName clone
+follow links SimpleName IfStatement Block ReturnStatement SimpleName empty options
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName link option
+public Modifier MethodDeclaration SimpleName get link options
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName follow links
+public Modifier MethodDeclaration Block IfStatement SimpleName follow links
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName link option
+static Modifier MethodDeclaration SimpleName get link options
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName follow links
+static Modifier MethodDeclaration Block IfStatement SimpleName follow links
+link option SimpleName SimpleType ArrayType MethodDeclaration SimpleName get link options
+get link options SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get link options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName follow links
+get link options SimpleName MethodDeclaration Block IfStatement SimpleName follow links
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get link options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow links
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get link options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow links

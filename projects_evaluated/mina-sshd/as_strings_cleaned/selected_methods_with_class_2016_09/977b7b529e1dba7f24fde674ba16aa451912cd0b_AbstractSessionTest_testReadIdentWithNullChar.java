@@ -1,0 +1,48 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal state exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+ssh . StringLiteral InfixExpression CharacterLiteral \
+ssh . StringLiteral InfixExpression StringLiteral softwarer
+\ CharacterLiteral InfixExpression StringLiteral softwarer
+id SimpleName VariableDeclarationFragment InfixExpression StringLiteral ssh .
+id SimpleName VariableDeclarationFragment InfixExpression CharacterLiteral \
+id SimpleName VariableDeclarationFragment InfixExpression StringLiteral softwarer
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName get bytes
+id SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+byte array buffer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName id
+byte array buffer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+byte array buffer SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName id
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+read identification SimpleName MethodInvocation SimpleName session
+read identification SimpleName MethodInvocation SimpleName buf
+session SimpleName MethodInvocation SimpleName buf
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName read identification
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName buf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ident
+unexpected success StringLiteral InfixExpression SimpleName ident
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected success
+fail SimpleName MethodInvocation InfixExpression SimpleName ident
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test read ident with null char
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test read ident with null char
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test read ident with null char
+void PrimitiveType MethodDeclaration SimpleName test read ident with null char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test read ident with null char
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test read ident with null char

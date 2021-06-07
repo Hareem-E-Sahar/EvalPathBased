@@ -1,0 +1,91 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ext name
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extension names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extension names
+ext name SimpleName InfixExpression StringLiteral count
+expected extensions SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName extension names
+size SimpleName MethodInvocation SimpleName extension names
+assert equals SimpleName MethodInvocation InfixExpression SimpleName ext name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected extensions
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName extension names
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected extensions
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+count StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected extensions
+count StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName extension names
+count StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+count StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+count StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName extension names
+expected extensions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generic utils
+expected extensions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+expected extensions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extension names
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generic utils
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extension names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+ext name SimpleName InfixExpression StringLiteral - missing
+ext name SimpleName InfixExpression SimpleName name
+- missing StringLiteral InfixExpression SimpleName name
+extension names SimpleName MethodInvocation SimpleName contains
+extension names SimpleName MethodInvocation SimpleName name
+contains SimpleName MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation InfixExpression SimpleName ext name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral - missing
+assert true SimpleName MethodInvocation InfixExpression SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName extension names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName name
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName extension names
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+ext name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+- missing StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName extension names
+- missing StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+- missing StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName extension names
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName expected extensions
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName expected extensions
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert supported extensions
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ext name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extension names
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert supported extensions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ext name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extension names
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName expected extensions
+void PrimitiveType MethodDeclaration SimpleName assert supported extensions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ext name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extension names
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName expected extensions
+assert supported extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert supported extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ext name
+assert supported extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extension names
+assert supported extensions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName expected extensions
+ext name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extension names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert supported extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ext name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extension names
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert supported extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ext name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extension names

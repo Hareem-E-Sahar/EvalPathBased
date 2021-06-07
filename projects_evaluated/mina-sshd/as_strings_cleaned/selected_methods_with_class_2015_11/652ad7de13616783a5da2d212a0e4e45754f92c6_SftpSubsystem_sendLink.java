@@ -1,0 +1,111 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName link
+link SimpleName MethodInvocation SimpleName replace
+link SimpleName MethodInvocation QualifiedName fileseparator char
+link SimpleName MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral /
+fileseparator char QualifiedName MethodInvocation CharacterLiteral /
+unix path SimpleName VariableDeclarationFragment MethodInvocation SimpleName link
+unix path SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+unix path SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator char
+unix path SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName unix path
+byte PrimitiveType CastExpression QualifiedName sftp constantsssh fxp name
+buffer SimpleName MethodInvocation SimpleName put byte
+buffer SimpleName MethodInvocation CastExpression PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression QualifiedName sftp constantsssh fxp name
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression QualifiedName sftp constantsssh fxp name
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName id
+put int SimpleName MethodInvocation SimpleName id
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation NumberLiteral empty
+put int SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName unix path
+put string SimpleName MethodInvocation SimpleName unix path
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName unix path
+put string SimpleName MethodInvocation SimpleName unix path
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+sftp helper SimpleName MethodInvocation SimpleName write attrs
+sftp helper SimpleName MethodInvocation SimpleName buffer
+sftp helper SimpleName MethodInvocation SimpleName version
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleName collections
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleName empty map
+write attrs SimpleName MethodInvocation SimpleName buffer
+write attrs SimpleName MethodInvocation SimpleName version
+write attrs SimpleName MethodInvocation MethodInvocation SimpleName collections
+write attrs SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+write attrs SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+write attrs SimpleName MethodInvocation MethodInvocation SimpleName empty map
+buffer SimpleName MethodInvocation SimpleName version
+buffer SimpleName MethodInvocation MethodInvocation SimpleName collections
+buffer SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+buffer SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+buffer SimpleName MethodInvocation MethodInvocation SimpleName empty map
+version SimpleName MethodInvocation MethodInvocation SimpleName collections
+version SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+version SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+version SimpleName MethodInvocation MethodInvocation SimpleName empty map
+send SimpleName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send link
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName link
+void PrimitiveType MethodDeclaration SimpleName send link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName link
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+send link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+send link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+send link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+send link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+send link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName link
+send link SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+link SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

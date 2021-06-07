@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName protocol
+protocol SimpleName FieldAccess Assignment SimpleName protocol
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set protocol
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName protocol
+void PrimitiveType MethodDeclaration SimpleName set protocol
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName protocol
+set protocol SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set protocol SimpleName MethodDeclaration SingleVariableDeclaration SimpleName protocol
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set protocol
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName protocol
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set protocol
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName protocol

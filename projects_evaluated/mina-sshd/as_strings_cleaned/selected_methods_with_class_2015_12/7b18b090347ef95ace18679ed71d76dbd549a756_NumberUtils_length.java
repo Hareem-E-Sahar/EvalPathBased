@@ -1,0 +1,31 @@
+long PrimitiveType SingleVariableDeclaration SimpleName a
+a SimpleName InfixExpression ConditionalExpression NumberLiteral empty
+a SimpleName InfixExpression ConditionalExpression QualifiedName alength
+empty NumberLiteral ConditionalExpression QualifiedName alength
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName length
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName length
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+int PrimitiveType MethodDeclaration SimpleName length
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a

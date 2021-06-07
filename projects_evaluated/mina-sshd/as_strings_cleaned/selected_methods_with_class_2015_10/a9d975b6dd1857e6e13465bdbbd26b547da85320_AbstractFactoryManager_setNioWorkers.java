@@ -1,0 +1,31 @@
+int PrimitiveType SingleVariableDeclaration SimpleName nio workers
+nio workers SimpleName InfixExpression NumberLiteral empty
+property resolver utils SimpleName MethodInvocation SimpleName update property
+property resolver utils SimpleName MethodInvocation SimpleName nio workers
+property resolver utils SimpleName MethodInvocation SimpleName nio workers
+update property SimpleName MethodInvocation SimpleName nio workers
+update property SimpleName MethodInvocation SimpleName nio workers
+nio workers SimpleName MethodInvocation SimpleName nio workers
+property resolver utils SimpleName MethodInvocation SimpleName update property
+property resolver utils SimpleName MethodInvocation SimpleName nio workers
+update property SimpleName MethodInvocation SimpleName nio workers
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set nio workers
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName nio workers
+void PrimitiveType MethodDeclaration SimpleName set nio workers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nio workers
+set nio workers SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set nio workers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nio workers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set nio workers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nio workers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set nio workers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nio workers

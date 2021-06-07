@@ -1,0 +1,42 @@
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName local link option
+local link option SimpleName InfixExpression QualifiedName link optionnofollow links
+link option SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName options
+local link option SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName options
+options SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName follow links
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName options
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName follow links
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName options
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName follow links
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName options
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+follow links SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+follow links SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+follow links SimpleName MethodDeclaration Block EnhancedForStatement SimpleName options
+follow links SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName follow links
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName follow links
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

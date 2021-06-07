@@ -1,0 +1,47 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+files SimpleName MethodInvocation SimpleName is directory
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+is directory SimpleName MethodInvocation SimpleName path
+is directory SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+not a directory StringLiteral InfixExpression SimpleName path
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not a directory
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName ensure directory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName ensure directory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration Block ReturnStatement SimpleName path
+path SimpleName SimpleType MethodDeclaration SimpleName ensure directory
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+ensure directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+ensure directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+ensure directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+ensure directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+ensure directory SimpleName MethodDeclaration Block ReturnStatement SimpleName path
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName ensure directory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ensure directory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

@@ -1,0 +1,139 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry permission
+int PrimitiveType SingleVariableDeclaration SimpleName acl mask
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry permission
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry permission
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry permission
+mask SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+mask SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace read data
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace read data QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionread data
+add SimpleName MethodInvocation QualifiedName acl entry permissionread data
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace list directory
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace list directory QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionlist directory
+add SimpleName MethodInvocation QualifiedName acl entry permissionlist directory
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace write data
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace write data QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionwrite data
+add SimpleName MethodInvocation QualifiedName acl entry permissionwrite data
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace add file
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace add file QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionadd file
+add SimpleName MethodInvocation QualifiedName acl entry permissionadd file
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace append data
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace append data QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionappend data
+add SimpleName MethodInvocation QualifiedName acl entry permissionappend data
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace add subdirectory
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace add subdirectory QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionadd subdirectory
+add SimpleName MethodInvocation QualifiedName acl entry permissionadd subdirectory
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace read named attrs
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace read named attrs QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionread named attrs
+add SimpleName MethodInvocation QualifiedName acl entry permissionread named attrs
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace write named attrs
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace write named attrs QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionwrite named attrs
+add SimpleName MethodInvocation QualifiedName acl entry permissionwrite named attrs
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace execute
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace execute QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionexecute
+add SimpleName MethodInvocation QualifiedName acl entry permissionexecute
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace delete child
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace delete child QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissiondelete child
+add SimpleName MethodInvocation QualifiedName acl entry permissiondelete child
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace read attributes
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace read attributes QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionread attributes
+add SimpleName MethodInvocation QualifiedName acl entry permissionread attributes
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace write attributes
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace write attributes QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionwrite attributes
+add SimpleName MethodInvocation QualifiedName acl entry permissionwrite attributes
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace delete
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace delete QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissiondelete
+add SimpleName MethodInvocation QualifiedName acl entry permissiondelete
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace read acl
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace read acl QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionread acl
+add SimpleName MethodInvocation QualifiedName acl entry permissionread acl
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace write acl
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace write acl QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionwrite acl
+add SimpleName MethodInvocation QualifiedName acl entry permissionwrite acl
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace write owner
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace write owner QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionwrite owner
+add SimpleName MethodInvocation QualifiedName acl entry permissionwrite owner
+acl mask SimpleName InfixExpression QualifiedName sftp constantsace synchronize
+acl mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace synchronize QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+mask SimpleName MethodInvocation SimpleName add
+mask SimpleName MethodInvocation QualifiedName acl entry permissionsynchronize
+add SimpleName MethodInvocation QualifiedName acl entry permissionsynchronize
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName acl entry permission
+public Modifier MethodDeclaration SimpleName decode acl mask
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl mask
+public Modifier MethodDeclaration Block ReturnStatement SimpleName mask
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName acl entry permission
+static Modifier MethodDeclaration SimpleName decode acl mask
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl mask
+static Modifier MethodDeclaration Block ReturnStatement SimpleName mask
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode acl mask
+acl entry permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode acl mask
+decode acl mask SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+decode acl mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl mask
+decode acl mask SimpleName MethodDeclaration Block ReturnStatement SimpleName mask
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode acl mask
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl mask
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode acl mask
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl mask

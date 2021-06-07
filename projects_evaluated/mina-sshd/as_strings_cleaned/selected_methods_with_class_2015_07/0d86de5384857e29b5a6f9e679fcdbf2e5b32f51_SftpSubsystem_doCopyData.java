@@ -1,0 +1,500 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral resource
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName read handle
+long PrimitiveType SingleVariableDeclaration SimpleName read offset
+long PrimitiveType SingleVariableDeclaration SimpleName read length
+string SimpleName SimpleType SingleVariableDeclaration SimpleName write handle
+long PrimitiveType SingleVariableDeclaration SimpleName write offset
+read handle SimpleName MethodInvocation SimpleName equals
+read handle SimpleName MethodInvocation SimpleName write handle
+equals SimpleName MethodInvocation SimpleName write handle
+in place copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName read handle
+in place copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName equals
+in place copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName write handle
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName in place copy
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read handle
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName equals
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName write handle
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName read handle
+get SimpleName MethodInvocation SimpleName read handle
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName read handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rh
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName write handle
+get SimpleName MethodInvocation SimpleName write handle
+in place copy SimpleName ConditionalExpression SimpleName rh
+in place copy SimpleName ConditionalExpression MethodInvocation SimpleName handles
+in place copy SimpleName ConditionalExpression MethodInvocation SimpleName get
+in place copy SimpleName ConditionalExpression MethodInvocation SimpleName write handle
+rh SimpleName ConditionalExpression MethodInvocation SimpleName handles
+rh SimpleName ConditionalExpression MethodInvocation SimpleName get
+rh SimpleName ConditionalExpression MethodInvocation SimpleName write handle
+wh SimpleName VariableDeclarationFragment ConditionalExpression SimpleName in place copy
+wh SimpleName VariableDeclarationFragment ConditionalExpression SimpleName rh
+wh SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName handles
+wh SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+wh SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName write handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wh
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ssh fxp extended read readoffset readlength write writeoffset
+log SimpleName MethodInvocation QualifiedName sftp constantsext copydata
+log SimpleName MethodInvocation SimpleName read handle
+log SimpleName MethodInvocation SimpleName rh
+debug SimpleName MethodInvocation StringLiteral ssh fxp extended read readoffset readlength write writeoffset
+debug SimpleName MethodInvocation QualifiedName sftp constantsext copydata
+debug SimpleName MethodInvocation SimpleName read handle
+debug SimpleName MethodInvocation SimpleName rh
+debug SimpleName MethodInvocation SimpleName read offset
+ssh fxp extended read readoffset readlength write writeoffset StringLiteral MethodInvocation QualifiedName sftp constantsext copydata
+ssh fxp extended read readoffset readlength write writeoffset StringLiteral MethodInvocation SimpleName read handle
+ssh fxp extended read readoffset readlength write writeoffset StringLiteral MethodInvocation SimpleName rh
+ssh fxp extended read readoffset readlength write writeoffset StringLiteral MethodInvocation SimpleName read offset
+ssh fxp extended read readoffset readlength write writeoffset StringLiteral MethodInvocation SimpleName read length
+sftp constantsext copydata QualifiedName MethodInvocation SimpleName read handle
+sftp constantsext copydata QualifiedName MethodInvocation SimpleName rh
+sftp constantsext copydata QualifiedName MethodInvocation SimpleName read offset
+sftp constantsext copydata QualifiedName MethodInvocation SimpleName read length
+sftp constantsext copydata QualifiedName MethodInvocation SimpleName write handle
+read handle SimpleName MethodInvocation SimpleName rh
+read handle SimpleName MethodInvocation SimpleName read offset
+read handle SimpleName MethodInvocation SimpleName read length
+read handle SimpleName MethodInvocation SimpleName write handle
+read handle SimpleName MethodInvocation SimpleName wh
+rh SimpleName MethodInvocation SimpleName read offset
+rh SimpleName MethodInvocation SimpleName read length
+rh SimpleName MethodInvocation SimpleName write handle
+rh SimpleName MethodInvocation SimpleName wh
+rh SimpleName MethodInvocation SimpleName write offset
+read offset SimpleName MethodInvocation SimpleName read length
+read offset SimpleName MethodInvocation SimpleName write handle
+read offset SimpleName MethodInvocation SimpleName wh
+read offset SimpleName MethodInvocation SimpleName write offset
+read length SimpleName MethodInvocation SimpleName write handle
+read length SimpleName MethodInvocation SimpleName wh
+read length SimpleName MethodInvocation SimpleName write offset
+write handle SimpleName MethodInvocation SimpleName wh
+write handle SimpleName MethodInvocation SimpleName write offset
+wh SimpleName MethodInvocation SimpleName write offset
+validate handle SimpleName MethodInvocation SimpleName read handle
+validate handle SimpleName MethodInvocation SimpleName rh
+validate handle SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+read handle SimpleName MethodInvocation SimpleName rh
+read handle SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+rh SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+src handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate handle
+src handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName read handle
+src handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName rh
+file handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src handle
+src handle SimpleName MethodInvocation SimpleName get file
+src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName src handle
+src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src path
+src handle SimpleName MethodInvocation SimpleName get access mask
+src access SimpleName VariableDeclarationFragment MethodInvocation SimpleName src handle
+src access SimpleName VariableDeclarationFragment MethodInvocation SimpleName get access mask
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName src access
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName src handle
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get access mask
+src access SimpleName InfixExpression SimpleName ace read data
+src access SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ace read data
+ace read data SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ace read data
+file not opened for read StringLiteral InfixExpression SimpleName src path
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file not opened for read
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName src path
+read length SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName read length
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral invalid read length d
+validate utils SimpleName MethodInvocation SimpleName read length
+check true SimpleName MethodInvocation InfixExpression SimpleName read length
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral invalid read length d
+check true SimpleName MethodInvocation SimpleName read length
+read length SimpleName InfixExpression MethodInvocation StringLiteral invalid read length d
+l NumberLiteral InfixExpression MethodInvocation StringLiteral invalid read length d
+read length SimpleName InfixExpression MethodInvocation SimpleName read length
+l NumberLiteral InfixExpression MethodInvocation SimpleName read length
+invalid read length d StringLiteral MethodInvocation SimpleName read length
+read offset SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName read offset
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral invalid read offset d
+validate utils SimpleName MethodInvocation SimpleName read offset
+check true SimpleName MethodInvocation InfixExpression SimpleName read offset
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral invalid read offset d
+check true SimpleName MethodInvocation SimpleName read offset
+read offset SimpleName InfixExpression MethodInvocation StringLiteral invalid read offset d
+l NumberLiteral InfixExpression MethodInvocation StringLiteral invalid read offset d
+read offset SimpleName InfixExpression MethodInvocation SimpleName read offset
+l NumberLiteral InfixExpression MethodInvocation SimpleName read offset
+invalid read offset d StringLiteral MethodInvocation SimpleName read offset
+src handle SimpleName MethodInvocation SimpleName get file
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation MethodInvocation SimpleName src handle
+files SimpleName MethodInvocation MethodInvocation SimpleName get file
+size SimpleName MethodInvocation MethodInvocation SimpleName src handle
+size SimpleName MethodInvocation MethodInvocation SimpleName get file
+total size SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+total size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+total size SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName src handle
+total size SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get file
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName files
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+effective length SimpleName VariableDeclarationFragment SimpleName read length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName effective length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read length
+effective length SimpleName InfixExpression NumberLiteral l
+total size SimpleName InfixExpression SimpleName read offset
+effective length SimpleName Assignment InfixExpression SimpleName total size
+effective length SimpleName Assignment InfixExpression SimpleName read offset
+read offset SimpleName InfixExpression SimpleName effective length
+max read SimpleName VariableDeclarationFragment InfixExpression SimpleName read offset
+max read SimpleName VariableDeclarationFragment InfixExpression SimpleName effective length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max read
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName read offset
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName effective length
+max read SimpleName InfixExpression SimpleName total size
+total size SimpleName InfixExpression SimpleName read offset
+effective length SimpleName Assignment InfixExpression SimpleName total size
+effective length SimpleName Assignment InfixExpression SimpleName read offset
+effective length SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName effective length
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral nonpositive effective copy data length d
+validate utils SimpleName MethodInvocation SimpleName effective length
+check true SimpleName MethodInvocation InfixExpression SimpleName effective length
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral nonpositive effective copy data length d
+check true SimpleName MethodInvocation SimpleName effective length
+effective length SimpleName InfixExpression MethodInvocation StringLiteral nonpositive effective copy data length d
+l NumberLiteral InfixExpression MethodInvocation StringLiteral nonpositive effective copy data length d
+effective length SimpleName InfixExpression MethodInvocation SimpleName effective length
+l NumberLiteral InfixExpression MethodInvocation SimpleName effective length
+nonpositive effective copy data length d StringLiteral MethodInvocation SimpleName effective length
+validate handle SimpleName MethodInvocation SimpleName write handle
+validate handle SimpleName MethodInvocation SimpleName wh
+validate handle SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+write handle SimpleName MethodInvocation SimpleName wh
+write handle SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+wh SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+in place copy SimpleName ConditionalExpression SimpleName src handle
+in place copy SimpleName ConditionalExpression MethodInvocation SimpleName validate handle
+in place copy SimpleName ConditionalExpression MethodInvocation SimpleName write handle
+in place copy SimpleName ConditionalExpression MethodInvocation SimpleName wh
+src handle SimpleName ConditionalExpression MethodInvocation SimpleName validate handle
+src handle SimpleName ConditionalExpression MethodInvocation SimpleName write handle
+src handle SimpleName ConditionalExpression MethodInvocation SimpleName wh
+dst handle SimpleName VariableDeclarationFragment ConditionalExpression SimpleName in place copy
+dst handle SimpleName VariableDeclarationFragment ConditionalExpression SimpleName src handle
+dst handle SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName validate handle
+dst handle SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName write handle
+dst handle SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName wh
+file handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst handle
+dst handle SimpleName MethodInvocation SimpleName get access mask
+dst access SimpleName VariableDeclarationFragment MethodInvocation SimpleName dst handle
+dst access SimpleName VariableDeclarationFragment MethodInvocation SimpleName get access mask
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst access
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dst handle
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get access mask
+dst access SimpleName InfixExpression SimpleName ace write data
+dst access SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ace write data
+ace write data SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ace write data
+file not opened for write StringLiteral InfixExpression SimpleName src handle
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file not opened for write
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName src handle
+write offset SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName write offset
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral invalid write offset d
+validate utils SimpleName MethodInvocation SimpleName write offset
+check true SimpleName MethodInvocation InfixExpression SimpleName write offset
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral invalid write offset d
+check true SimpleName MethodInvocation SimpleName write offset
+write offset SimpleName InfixExpression MethodInvocation StringLiteral invalid write offset d
+l NumberLiteral InfixExpression MethodInvocation StringLiteral invalid write offset d
+write offset SimpleName InfixExpression MethodInvocation SimpleName write offset
+l NumberLiteral InfixExpression MethodInvocation SimpleName write offset
+invalid write offset d StringLiteral MethodInvocation SimpleName write offset
+read offset SimpleName InfixExpression SimpleName effective length
+max read SimpleName VariableDeclarationFragment InfixExpression SimpleName read offset
+max read SimpleName VariableDeclarationFragment InfixExpression SimpleName effective length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max read
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName read offset
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName effective length
+max read SimpleName InfixExpression SimpleName total size
+max read SimpleName Assignment SimpleName total size
+write offset SimpleName InfixExpression SimpleName effective length
+max write SimpleName VariableDeclarationFragment InfixExpression SimpleName write offset
+max write SimpleName VariableDeclarationFragment InfixExpression SimpleName effective length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max write
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName write offset
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName effective length
+max write SimpleName InfixExpression SimpleName read offset
+write range end [ StringLiteral InfixExpression SimpleName write offset
+write range end [ StringLiteral InfixExpression StringLiteral -
+write range end [ StringLiteral InfixExpression SimpleName max write
+write range end [ StringLiteral InfixExpression StringLiteral ]
+write range end [ StringLiteral InfixExpression StringLiteral overlaps with read range [
+write offset SimpleName InfixExpression StringLiteral -
+write offset SimpleName InfixExpression SimpleName max write
+write offset SimpleName InfixExpression StringLiteral ]
+write offset SimpleName InfixExpression StringLiteral overlaps with read range [
+write offset SimpleName InfixExpression SimpleName read offset
+- StringLiteral InfixExpression SimpleName max write
+- StringLiteral InfixExpression StringLiteral ]
+- StringLiteral InfixExpression StringLiteral overlaps with read range [
+- StringLiteral InfixExpression SimpleName read offset
+- StringLiteral InfixExpression StringLiteral -
+max write SimpleName InfixExpression StringLiteral ]
+max write SimpleName InfixExpression StringLiteral overlaps with read range [
+max write SimpleName InfixExpression SimpleName read offset
+max write SimpleName InfixExpression StringLiteral -
+max write SimpleName InfixExpression SimpleName max read
+] StringLiteral InfixExpression StringLiteral overlaps with read range [
+] StringLiteral InfixExpression SimpleName read offset
+] StringLiteral InfixExpression StringLiteral -
+] StringLiteral InfixExpression SimpleName max read
+] StringLiteral InfixExpression StringLiteral ]
+overlaps with read range [ StringLiteral InfixExpression SimpleName read offset
+overlaps with read range [ StringLiteral InfixExpression StringLiteral -
+overlaps with read range [ StringLiteral InfixExpression SimpleName max read
+overlaps with read range [ StringLiteral InfixExpression StringLiteral ]
+read offset SimpleName InfixExpression StringLiteral -
+read offset SimpleName InfixExpression SimpleName max read
+read offset SimpleName InfixExpression StringLiteral ]
+- StringLiteral InfixExpression SimpleName max read
+- StringLiteral InfixExpression StringLiteral ]
+max read SimpleName InfixExpression StringLiteral ]
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral write range end [
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName write offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral -
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max write
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral overlaps with read range [
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName read offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral -
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max read
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+max read SimpleName InfixExpression SimpleName write offset
+read range end [ StringLiteral InfixExpression SimpleName read offset
+read range end [ StringLiteral InfixExpression StringLiteral -
+read range end [ StringLiteral InfixExpression SimpleName max read
+read range end [ StringLiteral InfixExpression StringLiteral ]
+read range end [ StringLiteral InfixExpression StringLiteral overlaps with write range [
+read offset SimpleName InfixExpression StringLiteral -
+read offset SimpleName InfixExpression SimpleName max read
+read offset SimpleName InfixExpression StringLiteral ]
+read offset SimpleName InfixExpression StringLiteral overlaps with write range [
+read offset SimpleName InfixExpression SimpleName write offset
+- StringLiteral InfixExpression SimpleName max read
+- StringLiteral InfixExpression StringLiteral ]
+- StringLiteral InfixExpression StringLiteral overlaps with write range [
+- StringLiteral InfixExpression SimpleName write offset
+- StringLiteral InfixExpression StringLiteral -
+max read SimpleName InfixExpression StringLiteral ]
+max read SimpleName InfixExpression StringLiteral overlaps with write range [
+max read SimpleName InfixExpression SimpleName write offset
+max read SimpleName InfixExpression StringLiteral -
+max read SimpleName InfixExpression SimpleName max write
+] StringLiteral InfixExpression StringLiteral overlaps with write range [
+] StringLiteral InfixExpression SimpleName write offset
+] StringLiteral InfixExpression StringLiteral -
+] StringLiteral InfixExpression SimpleName max write
+] StringLiteral InfixExpression StringLiteral ]
+overlaps with write range [ StringLiteral InfixExpression SimpleName write offset
+overlaps with write range [ StringLiteral InfixExpression StringLiteral -
+overlaps with write range [ StringLiteral InfixExpression SimpleName max write
+overlaps with write range [ StringLiteral InfixExpression StringLiteral ]
+write offset SimpleName InfixExpression StringLiteral -
+write offset SimpleName InfixExpression SimpleName max write
+write offset SimpleName InfixExpression StringLiteral ]
+- StringLiteral InfixExpression SimpleName max write
+- StringLiteral InfixExpression StringLiteral ]
+max write SimpleName InfixExpression StringLiteral ]
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral read range end [
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName read offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral -
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max read
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral overlaps with write range [
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName write offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral -
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max write
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+in place copy SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+in place copy SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType CastExpression SimpleName effective length
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation QualifiedName io utilsdefault copy size
+math SimpleName MethodInvocation CastExpression PrimitiveType int
+math SimpleName MethodInvocation CastExpression SimpleName effective length
+min SimpleName MethodInvocation QualifiedName io utilsdefault copy size
+min SimpleName MethodInvocation CastExpression PrimitiveType int
+min SimpleName MethodInvocation CastExpression SimpleName effective length
+io utilsdefault copy size QualifiedName MethodInvocation CastExpression PrimitiveType int
+io utilsdefault copy size QualifiedName MethodInvocation CastExpression SimpleName effective length
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName math
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName min
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName io utilsdefault copy size
+copy buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+copy buf SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName math
+copy buf SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName min
+copy buf SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation QualifiedName io utilsdefault copy size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName copy buf
+effective length SimpleName InfixExpression NumberLiteral l
+int PrimitiveType CastExpression SimpleName effective length
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation QualifiedName copy buflength
+math SimpleName MethodInvocation CastExpression PrimitiveType int
+math SimpleName MethodInvocation CastExpression SimpleName effective length
+min SimpleName MethodInvocation QualifiedName copy buflength
+min SimpleName MethodInvocation CastExpression PrimitiveType int
+min SimpleName MethodInvocation CastExpression SimpleName effective length
+copy buflength QualifiedName MethodInvocation CastExpression PrimitiveType int
+copy buflength QualifiedName MethodInvocation CastExpression SimpleName effective length
+remain length SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+remain length SimpleName VariableDeclarationFragment MethodInvocation SimpleName min
+remain length SimpleName VariableDeclarationFragment MethodInvocation QualifiedName copy buflength
+remain length SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType int
+remain length SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName effective length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName remain length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName min
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName copy buflength
+src handle SimpleName MethodInvocation SimpleName read
+src handle SimpleName MethodInvocation SimpleName copy buf
+src handle SimpleName MethodInvocation NumberLiteral empty
+src handle SimpleName MethodInvocation SimpleName remain length
+src handle SimpleName MethodInvocation SimpleName read offset
+read SimpleName MethodInvocation SimpleName copy buf
+read SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation SimpleName remain length
+read SimpleName MethodInvocation SimpleName read offset
+copy buf SimpleName MethodInvocation NumberLiteral empty
+copy buf SimpleName MethodInvocation SimpleName remain length
+copy buf SimpleName MethodInvocation SimpleName read offset
+empty NumberLiteral MethodInvocation SimpleName remain length
+empty NumberLiteral MethodInvocation SimpleName read offset
+remain length SimpleName MethodInvocation SimpleName read offset
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName src handle
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy buf
+read len SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName remain length
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName src handle
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName copy buf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName remain length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read offset
+read len SimpleName InfixExpression NumberLiteral empty
+premature eof while still remaining StringLiteral InfixExpression SimpleName effective length
+premature eof while still remaining StringLiteral InfixExpression StringLiteral bytes
+effective length SimpleName InfixExpression StringLiteral bytes
+eof exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral premature eof while still remaining
+eof exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName effective length
+eof exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bytes
+dst handle SimpleName MethodInvocation SimpleName write
+dst handle SimpleName MethodInvocation SimpleName copy buf
+dst handle SimpleName MethodInvocation NumberLiteral empty
+dst handle SimpleName MethodInvocation SimpleName read len
+dst handle SimpleName MethodInvocation SimpleName write offset
+write SimpleName MethodInvocation SimpleName copy buf
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName read len
+write SimpleName MethodInvocation SimpleName write offset
+copy buf SimpleName MethodInvocation NumberLiteral empty
+copy buf SimpleName MethodInvocation SimpleName read len
+copy buf SimpleName MethodInvocation SimpleName write offset
+empty NumberLiteral MethodInvocation SimpleName read len
+empty NumberLiteral MethodInvocation SimpleName write offset
+read len SimpleName MethodInvocation SimpleName write offset
+effective length SimpleName Assignment SimpleName read len
+read offset SimpleName Assignment SimpleName read len
+write offset SimpleName Assignment SimpleName read len
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName in place copy
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+resource StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+resource StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName do copy data
+resource StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName do copy data
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName id
+resource StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+resource StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName id
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName read handle
+resource StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName read handle
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do copy data
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName read handle
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName read offset
+void PrimitiveType MethodDeclaration SimpleName do copy data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName read handle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName read offset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName read length
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName read handle
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName read offset
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName read length
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName write handle
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read handle
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read handle
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read offset
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read offset
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read length
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read length
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write handle
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write handle
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write offset
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write offset
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read offset
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read length
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write handle
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write offset
+read handle SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read length

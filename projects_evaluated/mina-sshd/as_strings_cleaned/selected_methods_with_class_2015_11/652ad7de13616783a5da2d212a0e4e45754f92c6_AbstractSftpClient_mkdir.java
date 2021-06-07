@@ -1,0 +1,78 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+mkdir StringLiteral InfixExpression SimpleName path
+mkdir StringLiteral InfixExpression StringLiteral ) client is closed
+path SimpleName InfixExpression StringLiteral ) client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mkdir
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) client is closed
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral mkdir {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get client session
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral mkdir {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName get client session
+debug SimpleName MethodInvocation SimpleName path
+mkdir {} StringLiteral MethodInvocation MethodInvocation SimpleName get client session
+mkdir {} StringLiteral MethodInvocation SimpleName path
+get client session SimpleName MethodInvocation MethodInvocation SimpleName path
+path SimpleName MethodInvocation SimpleName length
+path SimpleName MethodInvocation InfixExpression QualifiedName longsize
+length SimpleName MethodInvocation InfixExpression QualifiedName longsize
+byte array buffer SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName longsize
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName longsize
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName path
+put string SimpleName MethodInvocation SimpleName path
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation NumberLiteral empty
+put int SimpleName MethodInvocation NumberLiteral empty
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get version
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+byte PrimitiveType CastExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put byte
+buffer SimpleName MethodInvocation CastExpression PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression NumberLiteral empty
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression NumberLiteral empty
+check status SimpleName MethodInvocation QualifiedName sftp constantsssh fxp mkdir
+check status SimpleName MethodInvocation SimpleName buffer
+sftp constantsssh fxp mkdir QualifiedName MethodInvocation SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName mkdir
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mkdir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName mkdir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+mkdir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+mkdir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+mkdir SimpleName MethodDeclaration SimpleType SimpleName io exception
+mkdir SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mkdir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mkdir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

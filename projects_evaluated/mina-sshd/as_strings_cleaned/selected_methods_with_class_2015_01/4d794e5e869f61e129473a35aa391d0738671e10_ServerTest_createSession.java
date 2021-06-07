@@ -1,0 +1,60 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host key types
+create proposal SimpleName SuperMethodInvocation SimpleName host key types
+proposal SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName create proposal
+proposal SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName host key types
+proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal lang ctos
+proposal SimpleName ArrayAccess Assignment StringLiteral enus
+ssh constantsproposal lang ctos QualifiedName ArrayAccess Assignment StringLiteral enus
+proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal lang stoc
+proposal SimpleName ArrayAccess Assignment StringLiteral enus
+ssh constantsproposal lang stoc QualifiedName ArrayAccess Assignment StringLiteral enus
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create proposal
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host key types
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName create proposal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName host key types
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName proposal
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName create proposal
+create proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host key types
+create proposal SimpleName MethodDeclaration Block ReturnStatement SimpleName proposal
+client session impl SimpleName SimpleType ClassInstanceCreation SimpleName client
+client session impl SimpleName SimpleType ClassInstanceCreation SimpleName io session
+client SimpleName ClassInstanceCreation SimpleName io session
+client SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+client SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName create proposal
+io session SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+io session SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName create proposal
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName abstract session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName io session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName abstract session
+protected Modifier MethodDeclaration SimpleName create session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+abstract session SimpleName SimpleType MethodDeclaration SimpleName create session
+abstract session SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName io session
+abstract session SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+create session SimpleName MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract session
+public Modifier TypeDeclaration MethodDeclaration SimpleName create session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName message digest
+protected Modifier MethodDeclaration SimpleName get message digest
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName md
+message digest SimpleName SimpleType MethodDeclaration SimpleName get message digest
+get message digest SimpleName MethodDeclaration Block ReturnStatement SimpleName md
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName message digest
+public Modifier TypeDeclaration MethodDeclaration SimpleName get message digest
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName message digest
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get message digest

@@ -1,0 +1,40 @@
+io function SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+io function SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+t SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+io function SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName after
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName after
+objects SimpleName MethodInvocation StringLiteral no composing function provided
+require non null SimpleName MethodInvocation SimpleName after
+require non null SimpleName MethodInvocation StringLiteral no composing function provided
+after SimpleName MethodInvocation StringLiteral no composing function provided
+t SimpleName SimpleType SingleVariableDeclaration SimpleName t
+apply SimpleName MethodInvocation SimpleName t
+after SimpleName MethodInvocation SimpleName apply
+after SimpleName MethodInvocation MethodInvocation SimpleName apply
+after SimpleName MethodInvocation MethodInvocation SimpleName t
+apply SimpleName MethodInvocation MethodInvocation SimpleName apply
+apply SimpleName MethodInvocation MethodInvocation SimpleName t
+t SimpleName SingleVariableDeclaration LambdaExpression MethodInvocation SimpleName after
+t SimpleName SingleVariableDeclaration LambdaExpression MethodInvocation SimpleName apply
+default Modifier MethodDeclaration TypeParameter SimpleName v
+default Modifier MethodDeclaration ParameterizedType SimpleType SimpleName io function
+default Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+default Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+default Modifier MethodDeclaration SimpleName and then
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName after
+v SimpleName TypeParameter MethodDeclaration SimpleName and then
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName after
+io function SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName and then
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName and then
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName and then
+and then SimpleName MethodDeclaration SingleVariableDeclaration SimpleName after
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName and then
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName after
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName and then
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName after

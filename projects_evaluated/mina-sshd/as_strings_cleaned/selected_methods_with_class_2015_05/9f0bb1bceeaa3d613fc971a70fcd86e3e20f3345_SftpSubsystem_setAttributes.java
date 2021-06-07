@@ -1,0 +1,180 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attributes SimpleName MethodInvocation SimpleName key set
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+attributes SimpleName MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation SimpleName attribute
+get SimpleName MethodInvocation SimpleName attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attributes
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+number SimpleName SimpleType CastExpression SimpleName value
+value SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName long value
+new size SimpleName VariableDeclarationFragment MethodInvocation SimpleName long value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long value
+file channel SimpleName MethodInvocation SimpleName open
+file channel SimpleName MethodInvocation SimpleName file
+file channel SimpleName MethodInvocation QualifiedName standard open optionwrite
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation QualifiedName standard open optionwrite
+file SimpleName MethodInvocation QualifiedName standard open optionwrite
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName file channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+channel SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard open optionwrite
+file channel SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName truncate
+channel SimpleName MethodInvocation SimpleName new size
+truncate SimpleName MethodInvocation SimpleName new size
+view SimpleName Assignment StringLiteral unix
+view SimpleName Assignment StringLiteral unix
+view SimpleName Assignment StringLiteral posix
+user principal SimpleName SimpleType CastExpression SimpleName value
+to user SimpleName MethodInvocation SimpleName file
+to user SimpleName MethodInvocation CastExpression SimpleType SimpleName user principal
+to user SimpleName MethodInvocation CastExpression SimpleName value
+file SimpleName MethodInvocation CastExpression SimpleType SimpleName user principal
+file SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName Assignment MethodInvocation SimpleName to user
+value SimpleName Assignment MethodInvocation SimpleName file
+value SimpleName Assignment MethodInvocation CastExpression SimpleName value
+view SimpleName Assignment StringLiteral posix
+group principal SimpleName SimpleType CastExpression SimpleName value
+to group SimpleName MethodInvocation SimpleName file
+to group SimpleName MethodInvocation CastExpression SimpleType SimpleName group principal
+to group SimpleName MethodInvocation CastExpression SimpleName value
+file SimpleName MethodInvocation CastExpression SimpleType SimpleName group principal
+file SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName Assignment MethodInvocation SimpleName to group
+value SimpleName Assignment MethodInvocation SimpleName file
+value SimpleName Assignment MethodInvocation CastExpression SimpleName value
+os utils SimpleName MethodInvocation SimpleName is win
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+collection SimpleName SimpleType ParameterizedType CastExpression SimpleName value
+posix file permission SimpleName SimpleType ParameterizedType CastExpression SimpleName value
+perms SimpleName VariableDeclarationFragment CastExpression SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName perms
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName perms
+file SimpleName MethodInvocation SimpleName to file
+io utils SimpleName MethodInvocation SimpleName set permissions to file
+io utils SimpleName MethodInvocation MethodInvocation SimpleName file
+io utils SimpleName MethodInvocation MethodInvocation SimpleName to file
+io utils SimpleName MethodInvocation SimpleName perms
+set permissions to file SimpleName MethodInvocation MethodInvocation SimpleName file
+set permissions to file SimpleName MethodInvocation MethodInvocation SimpleName to file
+set permissions to file SimpleName MethodInvocation SimpleName perms
+file SimpleName MethodInvocation MethodInvocation SimpleName perms
+to file SimpleName MethodInvocation MethodInvocation SimpleName perms
+view SimpleName Assignment StringLiteral posix
+view SimpleName Assignment StringLiteral basic
+view SimpleName Assignment StringLiteral basic
+view SimpleName Assignment StringLiteral basic
+attribute SimpleName SwitchStatement SwitchCase StringLiteral size
+attribute SimpleName SwitchStatement Block VariableDeclarationStatement PrimitiveType long
+attribute SimpleName SwitchStatement SwitchCase StringLiteral uid
+attribute SimpleName SwitchStatement ExpressionStatement Assignment SimpleName view
+attribute SimpleName SwitchStatement ExpressionStatement Assignment StringLiteral unix
+size StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral uid
+size StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral gid
+uid StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral gid
+gid StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral owner
+owner StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral group
+group StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral permissions
+permissions StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral creation time
+creation time StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral last modified time
+last modified time StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral last access time
+view SimpleName InfixExpression InfixExpression InfixExpression SimpleName value
+view SimpleName InfixExpression StringLiteral :
+view SimpleName InfixExpression SimpleName attribute
+: StringLiteral InfixExpression SimpleName attribute
+io utils SimpleName MethodInvocation SimpleName get link options
+io utils SimpleName MethodInvocation BooleanLiteral false
+get link options SimpleName MethodInvocation BooleanLiteral false
+files SimpleName MethodInvocation SimpleName set attribute
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation InfixExpression SimpleName view
+files SimpleName MethodInvocation InfixExpression StringLiteral :
+files SimpleName MethodInvocation InfixExpression SimpleName attribute
+files SimpleName MethodInvocation SimpleName value
+files SimpleName MethodInvocation MethodInvocation SimpleName io utils
+files SimpleName MethodInvocation MethodInvocation SimpleName get link options
+files SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+set attribute SimpleName MethodInvocation SimpleName file
+set attribute SimpleName MethodInvocation InfixExpression SimpleName view
+set attribute SimpleName MethodInvocation InfixExpression StringLiteral :
+set attribute SimpleName MethodInvocation InfixExpression SimpleName attribute
+set attribute SimpleName MethodInvocation SimpleName value
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName io utils
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get link options
+set attribute SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+file SimpleName MethodInvocation InfixExpression SimpleName view
+file SimpleName MethodInvocation InfixExpression StringLiteral :
+file SimpleName MethodInvocation InfixExpression SimpleName attribute
+file SimpleName MethodInvocation SimpleName value
+file SimpleName MethodInvocation MethodInvocation SimpleName io utils
+file SimpleName MethodInvocation MethodInvocation SimpleName get link options
+file SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+view SimpleName InfixExpression MethodInvocation SimpleName value
+: StringLiteral InfixExpression MethodInvocation SimpleName value
+attribute SimpleName InfixExpression MethodInvocation SimpleName value
+view SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName io utils
+view SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get link options
+view SimpleName InfixExpression MethodInvocation MethodInvocation BooleanLiteral false
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName io utils
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get link options
+: StringLiteral InfixExpression MethodInvocation MethodInvocation BooleanLiteral false
+attribute SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName io utils
+attribute SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get link options
+attribute SimpleName InfixExpression MethodInvocation MethodInvocation BooleanLiteral false
+value SimpleName MethodInvocation MethodInvocation SimpleName io utils
+value SimpleName MethodInvocation MethodInvocation SimpleName get link options
+value SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+unsupported operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+unsupported SimpleName MethodInvocation SimpleName add
+unsupported SimpleName MethodInvocation SimpleName attribute
+add SimpleName MethodInvocation SimpleName attribute
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName attributes
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+handle unsupported attributes SimpleName MethodInvocation SimpleName unsupported
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName set attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+set attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

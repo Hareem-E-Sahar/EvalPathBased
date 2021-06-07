@@ -1,0 +1,99 @@
+byte array input stream SimpleName SimpleType ClassInstanceCreation QualifiedName generic utilsempty byte array
+collections SimpleName MethodInvocation SimpleType SimpleName tty options
+collections SimpleName MethodInvocation SimpleName empty set
+tty options SimpleName SimpleType MethodInvocation SimpleName empty set
+tty filter input stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName generic utilsempty byte array
+tty filter input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+tty filter input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty set
+generic utilsempty byte array QualifiedName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName collections
+generic utilsempty byte array QualifiedName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName empty set
+tty in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tty filter input stream
+tty in SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName generic utilsempty byte array
+tty in SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+tty in SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty set
+tty filter input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName tty in
+byte array output stream SimpleName SimpleType ClassInstanceCreation QualifiedName bytemax value
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName bytemax value
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName baos
+collections SimpleName MethodInvocation SimpleType SimpleName tty options
+collections SimpleName MethodInvocation SimpleName empty set
+tty options SimpleName SimpleType MethodInvocation SimpleName empty set
+tty filter output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+tty filter output stream SimpleName SimpleType ClassInstanceCreation SimpleName tty in
+tty filter output stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+tty filter output stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty set
+baos SimpleName ClassInstanceCreation SimpleName tty in
+baos SimpleName ClassInstanceCreation MethodInvocation SimpleName collections
+baos SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName tty options
+baos SimpleName ClassInstanceCreation MethodInvocation SimpleName empty set
+tty in SimpleName ClassInstanceCreation MethodInvocation SimpleName collections
+tty in SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName tty options
+tty in SimpleName ClassInstanceCreation MethodInvocation SimpleName empty set
+tty out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tty filter output stream
+tty out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName baos
+tty out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tty in
+tty out SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+tty out SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty set
+tty filter output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName tty out
+output stream writer SimpleName SimpleType ClassInstanceCreation SimpleName tty out
+output stream writer SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+tty out SimpleName ClassInstanceCreation QualifiedName standard charsetsutf
+buffered writer SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName tty out
+buffered writer SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName standard charsetsutf
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered writer
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName tty out
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName standard charsetsutf
+buffered writer SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName writer
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+writer SimpleName MethodInvocation SimpleName append
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+writer SimpleName MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+writer SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+writer SimpleName MethodInvocation MethodInvocation CharacterLiteral #
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral #
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral #
+append SimpleName MethodInvocation CharacterLiteral #
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+# CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+# CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+append SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+writer SimpleName MethodInvocation SimpleName new line
+tty in SimpleName MethodInvocation SimpleName available
+assert equals SimpleName MethodInvocation StringLiteral unexpected data echoed
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tty in
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName available
+unexpected data echoed StringLiteral MethodInvocation NumberLiteral empty
+unexpected data echoed StringLiteral MethodInvocation MethodInvocation SimpleName tty in
+unexpected data echoed StringLiteral MethodInvocation MethodInvocation SimpleName available
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName tty in
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName available
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no echo if not in tty options
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no echo if not in tty options
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test no echo if not in tty options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test no echo if not in tty options SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no echo if not in tty options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no echo if not in tty options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

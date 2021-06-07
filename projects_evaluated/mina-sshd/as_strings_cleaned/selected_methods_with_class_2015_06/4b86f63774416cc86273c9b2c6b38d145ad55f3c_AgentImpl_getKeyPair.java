@@ -1,0 +1,64 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName k
+key pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName k
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName k
+k SimpleName MethodInvocation SimpleName get first
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+kp SimpleName MethodInvocation SimpleName get public
+key utils SimpleName MethodInvocation SimpleName compare keys
+key utils SimpleName MethodInvocation SimpleName key
+key utils SimpleName MethodInvocation MethodInvocation SimpleName kp
+key utils SimpleName MethodInvocation MethodInvocation SimpleName get public
+compare keys SimpleName MethodInvocation SimpleName key
+compare keys SimpleName MethodInvocation MethodInvocation SimpleName kp
+compare keys SimpleName MethodInvocation MethodInvocation SimpleName get public
+key SimpleName MethodInvocation MethodInvocation SimpleName kp
+key SimpleName MethodInvocation MethodInvocation SimpleName get public
+k SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get key pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get key pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName keys
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get key pair
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get key pair
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get key pair
+get key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName keys
+get key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+get key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get key pair SimpleName MethodDeclaration Block EnhancedForStatement SimpleName keys
+keys SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

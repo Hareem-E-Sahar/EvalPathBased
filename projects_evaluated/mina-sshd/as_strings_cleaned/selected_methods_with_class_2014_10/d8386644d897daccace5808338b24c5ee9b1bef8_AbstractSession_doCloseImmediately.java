@@ -1,0 +1,22 @@
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName sl
+sl SimpleName MethodInvocation SimpleName session closed
+session listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+sl SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName listeners
+void PrimitiveType MethodDeclaration SimpleName do close immediately
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName listeners
+do close immediately SimpleName MethodDeclaration Block EnhancedForStatement SimpleName listeners
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close immediately

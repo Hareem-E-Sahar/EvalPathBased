@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cipher name
+private key obfuscator SimpleName SimpleType SingleVariableDeclaration SimpleName o
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName cipher name
+validate utils SimpleName MethodInvocation StringLiteral no cipher name
+check not null and not empty SimpleName MethodInvocation SimpleName cipher name
+check not null and not empty SimpleName MethodInvocation StringLiteral no cipher name
+cipher name SimpleName MethodInvocation StringLiteral no cipher name
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName o
+objects SimpleName MethodInvocation StringLiteral no instance provided
+require non null SimpleName MethodInvocation SimpleName o
+require non null SimpleName MethodInvocation StringLiteral no instance provided
+o SimpleName MethodInvocation StringLiteral no instance provided
+obfuscators SimpleName MethodInvocation SimpleName put
+obfuscators SimpleName MethodInvocation SimpleName cipher name
+obfuscators SimpleName MethodInvocation SimpleName o
+put SimpleName MethodInvocation SimpleName cipher name
+put SimpleName MethodInvocation SimpleName o
+cipher name SimpleName MethodInvocation SimpleName o
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier MethodDeclaration SimpleName register private key obfuscator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+static Modifier MethodDeclaration SimpleType SimpleName private key obfuscator
+static Modifier MethodDeclaration SimpleName register private key obfuscator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+private key obfuscator SimpleName SimpleType MethodDeclaration SimpleName register private key obfuscator
+private key obfuscator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+private key obfuscator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName o
+register private key obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+register private key obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+register private key obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+register private key obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+register private key obfuscator SimpleName MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+cipher name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier TypeDeclaration MethodDeclaration SimpleName register private key obfuscator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

@@ -1,0 +1,98 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+passwords SimpleName MethodInvocation SimpleName has next
+passwords SimpleName MethodInvocation SimpleName next
+current SimpleName Assignment MethodInvocation SimpleName passwords
+current SimpleName Assignment MethodInvocation SimpleName next
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral send ssh msg userauth request for password
+debug SimpleName MethodInvocation StringLiteral send ssh msg userauth request for password
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName Assignment MethodInvocation SimpleName session
+buffer SimpleName Assignment MethodInvocation SimpleName create buffer
+buffer SimpleName Assignment MethodInvocation QualifiedName ssh constantsssh msg userauth request
+session SimpleName MethodInvocation SimpleName get username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName session
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get username
+put string SimpleName MethodInvocation MethodInvocation SimpleName session
+put string SimpleName MethodInvocation MethodInvocation SimpleName get username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName service
+put string SimpleName MethodInvocation SimpleName service
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation StringLiteral password
+put string SimpleName MethodInvocation StringLiteral password
+byte PrimitiveType CastExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put byte
+buffer SimpleName MethodInvocation CastExpression PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression NumberLiteral empty
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName current
+put string SimpleName MethodInvocation SimpleName current
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get byte
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get byte
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get byte
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg userauth passwd changereq
+buffer SimpleName MethodInvocation SimpleName get string
+prompt SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+prompt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prompt
+buffer SimpleName MethodInvocation SimpleName get string
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+prompt SimpleName InfixExpression StringLiteral - password change requested but not supported for lang
+prompt SimpleName InfixExpression SimpleName lang
+- password change requested but not supported for lang StringLiteral InfixExpression SimpleName lang
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression SimpleName prompt
+log SimpleName MethodInvocation InfixExpression StringLiteral - password change requested but not supported for lang
+log SimpleName MethodInvocation InfixExpression SimpleName lang
+warn SimpleName MethodInvocation InfixExpression SimpleName prompt
+warn SimpleName MethodInvocation InfixExpression StringLiteral - password change requested but not supported for lang
+warn SimpleName MethodInvocation InfixExpression SimpleName lang
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral received unknown packet
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+boolean PrimitiveType MethodDeclaration SimpleName process
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+process SimpleName MethodDeclaration SimpleType SimpleName exception
+process SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

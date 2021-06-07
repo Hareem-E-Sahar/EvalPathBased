@@ -1,0 +1,120 @@
+c SimpleName TypeParameter SimpleType SimpleName closeable
+atomic reference SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+atomic reference SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName channel holder
+channel SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName channel holder
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName c
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName channel type
+c SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName channel type
+factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factory
+channel type SimpleName MethodInvocation SimpleName get simple name
+channel type SimpleName MethodInvocation InfixExpression StringLiteral : unexpected currently active channel
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral : unexpected currently active channel
+channel holder SimpleName MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName channel type
+assert null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral : unexpected currently active channel
+assert null SimpleName MethodInvocation MethodInvocation SimpleName channel holder
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+: unexpected currently active channel StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName channel holder
+: unexpected currently active channel StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+factory SimpleName MethodInvocation SimpleName create
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+c SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName instance
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected channel
+instance SimpleName InstanceofExpression SimpleType SimpleName channel
+channel SimpleName SimpleType CastExpression SimpleName instance
+expected channel SimpleName Assignment CastExpression SimpleType SimpleName channel
+expected channel SimpleName Assignment CastExpression SimpleName instance
+instance SimpleName InstanceofExpression SimpleType SimpleName subsystem client
+subsystem client SimpleName SimpleType CastExpression SimpleName instance
+instance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get client channel
+expected channel SimpleName Assignment MethodInvocation SimpleName get client channel
+instance SimpleName MethodInvocation SimpleName get class
+instance SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+unknown test instance type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName instance
+unknown test instance type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+unknown test instance type StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown test instance type
+channel holder SimpleName MethodInvocation SimpleName get
+actual channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel holder
+actual channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual channel
+channel type SimpleName MethodInvocation SimpleName get simple name
+mismatched listener StringLiteral InfixExpression MethodInvocation SimpleName channel type
+mismatched listener StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+mismatched listener StringLiteral InfixExpression StringLiteral instances
+channel type SimpleName MethodInvocation InfixExpression StringLiteral instances
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral instances
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched listener
+assert same SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName channel type
+assert same SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral instances
+assert same SimpleName MethodInvocation SimpleName expected channel
+assert same SimpleName MethodInvocation SimpleName actual channel
+mismatched listener StringLiteral InfixExpression MethodInvocation SimpleName expected channel
+channel type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected channel
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected channel
+instances StringLiteral InfixExpression MethodInvocation SimpleName expected channel
+mismatched listener StringLiteral InfixExpression MethodInvocation SimpleName actual channel
+channel type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual channel
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual channel
+instances StringLiteral InfixExpression MethodInvocation SimpleName actual channel
+expected channel SimpleName MethodInvocation SimpleName actual channel
+channel type SimpleName MethodInvocation SimpleName get simple name
+channel type SimpleName MethodInvocation InfixExpression StringLiteral : active channel closure not signalled
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral : active channel closure not signalled
+channel holder SimpleName MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName channel type
+assert null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral : active channel closure not signalled
+assert null SimpleName MethodInvocation MethodInvocation SimpleName channel holder
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+: active channel closure not signalled StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName channel holder
+: active channel closure not signalled StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+private Modifier MethodDeclaration TypeParameter SimpleName c
+private Modifier MethodDeclaration TypeParameter SimpleType SimpleName closeable
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test client listener
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel holder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel type
+c SimpleName TypeParameter MethodDeclaration PrimitiveType void
+closeable SimpleName SimpleType TypeParameter MethodDeclaration PrimitiveType void
+c SimpleName TypeParameter MethodDeclaration SimpleName test client listener
+closeable SimpleName SimpleType TypeParameter MethodDeclaration SimpleName test client listener
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName channel holder
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName channel type
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName factory
+void PrimitiveType MethodDeclaration SimpleName test client listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel holder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factory
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test client listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel holder
+test client listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel type
+test client listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factory
+test client listener SimpleName MethodDeclaration SimpleType SimpleName exception
+channel holder SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel type
+channel holder SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+channel holder SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+channel type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+channel type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+factory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel holder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel holder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

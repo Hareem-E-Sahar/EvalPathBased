@@ -1,0 +1,47 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collector SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collector SimpleName SimpleType ParameterizedType WildcardType ?
+t SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType ParameterizedType SimpleType SimpleName sorted set
+? WildcardType ParameterizedType ParameterizedType SimpleType SimpleName t
+comparator SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+comparator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName comparator
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName comparator
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName comparator
+collectors SimpleName MethodInvocation SimpleName to collection
+collectors SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName comparator
+to collection SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName comparator
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collector
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName to sorted set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName comparator
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collector
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SimpleName to sorted set
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName comparator
+t SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+t SimpleName TypeParameter MethodDeclaration SimpleName to sorted set
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName comparator
+collector SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to sorted set
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to sorted set
+? WildcardType ParameterizedType MethodDeclaration SimpleName to sorted set
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName comparator
+to sorted set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comparator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName to sorted set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to sorted set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator

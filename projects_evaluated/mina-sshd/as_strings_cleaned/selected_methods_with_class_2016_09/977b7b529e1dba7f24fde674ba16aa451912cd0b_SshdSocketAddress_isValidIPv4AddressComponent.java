@@ -1,0 +1,71 @@
+char sequence SimpleName SimpleType SingleVariableDeclaration SimpleName c
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName c
+is empty SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName length
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName char at
+c SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+ch SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression CharacterLiteral empty
+number utils SimpleName MethodInvocation SimpleName is integer number
+number utils SimpleName MethodInvocation SimpleName c
+is integer number SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName c
+integer SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse int SimpleName MethodInvocation MethodInvocation SimpleName c
+parse int SimpleName MethodInvocation MethodInvocation SimpleName to string
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName c
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+v SimpleName InfixExpression NumberLiteral empty
+v SimpleName InfixExpression NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid i pv address component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is valid i pv address component
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration SimpleName is valid i pv address component
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+is valid i pv address component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+is valid i pv address component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+is valid i pv address component SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+is valid i pv address component SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid i pv address component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid i pv address component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

@@ -1,0 +1,111 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+number utils SimpleName MethodInvocation SimpleName is empty
+number utils SimpleName MethodInvocation SimpleName data
+is empty SimpleName MethodInvocation SimpleName data
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName groomed data
+bytes copied SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes copied
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName datalength
+data SimpleName ArrayAccess SimpleName i
+b SimpleName VariableDeclarationFragment ArrayAccess SimpleName data
+b SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName data
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName i
+is base SimpleName MethodInvocation SimpleName b
+groomed data SimpleName ArrayAccess PostfixExpression SimpleName bytes copied
+groomed data SimpleName ArrayAccess Assignment SimpleName b
+bytes copied SimpleName PostfixExpression ArrayAccess Assignment SimpleName b
+datalength QualifiedName InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName datalength
+byte PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+groomed data SimpleName Assignment ArrayCreation ArrayType PrimitiveType byte
+groomed data SimpleName Assignment ArrayCreation InfixExpression QualifiedName datalength
+groomed data SimpleName Assignment ArrayCreation InfixExpression NumberLiteral empty
+bytes copied SimpleName Assignment SimpleName i
+bytes copied SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName groomed data
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName groomed data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName bytes copied
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName groomed data
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName bytes copied
+empty NumberLiteral MethodInvocation SimpleName groomed data
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName bytes copied
+groomed data SimpleName MethodInvocation NumberLiteral empty
+groomed data SimpleName MethodInvocation SimpleName bytes copied
+empty NumberLiteral MethodInvocation SimpleName bytes copied
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName datalength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+datalength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+bytes copied SimpleName InfixExpression NumberLiteral empty
+bytes copied SimpleName InfixExpression QualifiedName groomed datalength
+byte PrimitiveType ArrayType ArrayCreation SimpleName bytes copied
+packed data SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+packed data SimpleName VariableDeclarationFragment ArrayCreation SimpleName bytes copied
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName packed data
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName groomed data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName packed data
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName groomed data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName packed data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName bytes copied
+groomed data SimpleName MethodInvocation NumberLiteral empty
+groomed data SimpleName MethodInvocation SimpleName packed data
+groomed data SimpleName MethodInvocation NumberLiteral empty
+groomed data SimpleName MethodInvocation SimpleName bytes copied
+empty NumberLiteral MethodInvocation SimpleName packed data
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName bytes copied
+packed data SimpleName MethodInvocation NumberLiteral empty
+packed data SimpleName MethodInvocation SimpleName bytes copied
+empty NumberLiteral MethodInvocation SimpleName bytes copied
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName discard non base
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName packed data
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName discard non base
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName packed data
+byte PrimitiveType ArrayType MethodDeclaration SimpleName discard non base
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName data
+discard non base SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+discard non base SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+discard non base SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+discard non base SimpleName MethodDeclaration Block ReturnStatement SimpleName packed data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName discard non base
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName discard non base
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

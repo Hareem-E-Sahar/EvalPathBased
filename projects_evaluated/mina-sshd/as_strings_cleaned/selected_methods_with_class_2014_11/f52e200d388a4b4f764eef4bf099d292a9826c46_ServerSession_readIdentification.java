@@ -1,0 +1,46 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+do read identification SimpleName MethodInvocation SimpleName buffer
+client version SimpleName Assignment MethodInvocation SimpleName do read identification
+client version SimpleName Assignment MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral client version string {}
+log SimpleName MethodInvocation SimpleName client version
+debug SimpleName MethodInvocation StringLiteral client version string {}
+debug SimpleName MethodInvocation SimpleName client version
+client version string {} StringLiteral MethodInvocation SimpleName client version
+client version SimpleName MethodInvocation SimpleName starts with
+client version SimpleName MethodInvocation StringLiteral ssh . -
+starts with SimpleName MethodInvocation StringLiteral ssh . -
+unsupported protocol version StringLiteral InfixExpression SimpleName client version
+ssh exception SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh disconnect protocol version not supported
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported protocol version
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName client version
+ssh constantsssh disconnect protocol version not supported QualifiedName ClassInstanceCreation InfixExpression StringLiteral unsupported protocol version
+ssh constantsssh disconnect protocol version not supported QualifiedName ClassInstanceCreation InfixExpression SimpleName client version
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName read identification
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName read identification
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+read identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+read identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+read identification SimpleName MethodDeclaration SimpleType SimpleName io exception
+read identification SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName read identification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read identification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

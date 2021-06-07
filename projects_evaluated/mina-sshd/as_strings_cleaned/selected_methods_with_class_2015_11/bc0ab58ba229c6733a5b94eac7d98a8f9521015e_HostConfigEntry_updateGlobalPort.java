@@ -1,0 +1,27 @@
+int PrimitiveType SingleVariableDeclaration SimpleName port value
+port value SimpleName InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set port SimpleName MethodInvocation SimpleName port value
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName update global port
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName port value
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName update global port
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName port value
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+update global port SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+update global port SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port value
+update global port SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update global port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update global port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port value

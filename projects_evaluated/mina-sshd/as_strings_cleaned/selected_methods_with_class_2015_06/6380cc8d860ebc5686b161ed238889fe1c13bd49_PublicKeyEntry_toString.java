@@ -1,0 +1,67 @@
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string builder SimpleName SimpleType ClassInstanceCreation QualifiedName bytemax value
+append public key entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string builder
+append public key entry SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+append public key entry SimpleName MethodInvocation SimpleName key
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+bytemax value QualifiedName ClassInstanceCreation MethodInvocation SimpleName key
+append public key entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+bytemax value QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+failed ( StringLiteral InfixExpression StringLiteral ) to encode
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to encode
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to encode
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ) to encode
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+) to encode StringLiteral InfixExpression MethodInvocation SimpleName e
+) to encode StringLiteral InfixExpression MethodInvocation SimpleName get message
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) to encode
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed ( StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+) to encode StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal argument exception
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+to string SimpleName MethodDeclaration SimpleType SimpleName illegal argument exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception

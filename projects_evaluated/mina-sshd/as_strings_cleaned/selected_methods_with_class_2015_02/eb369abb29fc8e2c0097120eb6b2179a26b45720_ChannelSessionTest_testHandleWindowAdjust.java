@@ -1,0 +1,60 @@
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffer
+final Modifier VariableDeclarationStatement SimpleType SimpleName buffer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation NumberLiteral empty
+put int SimpleName MethodInvocation NumberLiteral empty
+channel session SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName channel session
+final Modifier VariableDeclarationStatement SimpleType SimpleName channel session
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName channel session
+channel session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel session
+byte PrimitiveType CastExpression NumberLiteral empty
+expanded SimpleName Assignment BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on window expanded
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on window expanded
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName on window expanded
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+on window expanded SimpleName MethodDeclaration SimpleType SimpleName io exception
+channel async output stream SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType byte
+channel async output stream SimpleName SimpleType ClassInstanceCreation CastExpression NumberLiteral empty
+channel sessionasync out QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName channel async output stream
+channel sessionasync out QualifiedName Assignment ClassInstanceCreation CastExpression PrimitiveType byte
+channel sessionasync out QualifiedName Assignment ClassInstanceCreation CastExpression NumberLiteral empty
+channel session SimpleName MethodInvocation SimpleName handle window adjust
+channel session SimpleName MethodInvocation SimpleName buffer
+handle window adjust SimpleName MethodInvocation SimpleName buffer
+assert true SimpleName MethodInvocation SimpleName expanded
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test handle window adjust
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test handle window adjust
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test handle window adjust
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test handle window adjust SimpleName MethodDeclaration SimpleType SimpleName exception
+test handle window adjust SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test handle window adjust SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test handle window adjust
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test handle window adjust
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

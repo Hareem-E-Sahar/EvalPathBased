@@ -1,0 +1,144 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName begin marker
+string SimpleName SimpleType SingleVariableDeclaration SimpleName end marker
+file password provider SimpleName SimpleType SingleVariableDeclaration SimpleName password provider
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName stream
+decode rsa private key spec SimpleName MethodInvocation SimpleName stream
+decode rsa private key spec SimpleName MethodInvocation BooleanLiteral false
+stream SimpleName MethodInvocation BooleanLiteral false
+prv spec SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode rsa private key spec
+prv spec SimpleName VariableDeclarationFragment MethodInvocation SimpleName stream
+prv spec SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+rsa private crt key spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv spec
+security utils SimpleName MethodInvocation SimpleName get key factory
+security utils SimpleName MethodInvocation QualifiedName key utilsrsa algorithm
+get key factory SimpleName MethodInvocation QualifiedName key utilsrsa algorithm
+kf SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+kf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key factory
+kf SimpleName VariableDeclarationFragment MethodInvocation QualifiedName key utilsrsa algorithm
+key factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kf
+kf SimpleName MethodInvocation SimpleName generate private
+kf SimpleName MethodInvocation SimpleName prv spec
+generate private SimpleName MethodInvocation SimpleName prv spec
+rsa private key SimpleName SimpleType CastExpression MethodInvocation SimpleName kf
+rsa private key SimpleName SimpleType CastExpression MethodInvocation SimpleName generate private
+rsa private key SimpleName SimpleType CastExpression MethodInvocation SimpleName prv spec
+prv key SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName rsa private key
+prv key SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName kf
+prv key SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName generate private
+prv key SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName prv spec
+rsa private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv key
+prv spec SimpleName MethodInvocation SimpleName get prime p
+prv spec SimpleName MethodInvocation SimpleName get prime q
+prv spec SimpleName MethodInvocation SimpleName get public exponent
+key utils SimpleName MethodInvocation SimpleName recover rsa public key
+key utils SimpleName MethodInvocation MethodInvocation SimpleName prv spec
+key utils SimpleName MethodInvocation MethodInvocation SimpleName get prime p
+key utils SimpleName MethodInvocation MethodInvocation SimpleName prv spec
+key utils SimpleName MethodInvocation MethodInvocation SimpleName get prime q
+key utils SimpleName MethodInvocation MethodInvocation SimpleName prv spec
+key utils SimpleName MethodInvocation MethodInvocation SimpleName get public exponent
+recover rsa public key SimpleName MethodInvocation MethodInvocation SimpleName prv spec
+recover rsa public key SimpleName MethodInvocation MethodInvocation SimpleName get prime p
+recover rsa public key SimpleName MethodInvocation MethodInvocation SimpleName prv spec
+recover rsa public key SimpleName MethodInvocation MethodInvocation SimpleName get prime q
+recover rsa public key SimpleName MethodInvocation MethodInvocation SimpleName prv spec
+recover rsa public key SimpleName MethodInvocation MethodInvocation SimpleName get public exponent
+prv spec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prv spec
+prv spec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get prime q
+get prime p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prv spec
+get prime p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get prime q
+prv spec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prv spec
+prv spec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public exponent
+get prime p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prv spec
+get prime p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public exponent
+prv spec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prv spec
+prv spec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public exponent
+get prime q SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prv spec
+get prime q SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public exponent
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName recover rsa public key
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prv spec
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get prime p
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prv spec
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get prime q
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prv spec
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get public exponent
+rsa public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pub key
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName pub key
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName prv key
+pub key SimpleName ClassInstanceCreation SimpleName prv key
+kp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key pair
+kp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName pub key
+kp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName prv key
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName kp
+singleton list SimpleName MethodInvocation SimpleName kp
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName extract key pairs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName begin marker
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName extract key pairs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName begin marker
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end marker
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName extract key pairs
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName extract key pairs
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName begin marker
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end marker
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password provider
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stream
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin marker
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end marker
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+begin marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end marker
+begin marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+begin marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+begin marker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+begin marker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+end marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+end marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+end marker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+end marker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract key pairs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract key pairs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

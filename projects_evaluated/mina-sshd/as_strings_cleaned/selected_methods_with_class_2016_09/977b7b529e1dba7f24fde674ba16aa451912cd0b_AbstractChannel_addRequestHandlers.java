@@ -1,0 +1,23 @@
+request handler SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName handlers
+generic utils SimpleName MethodInvocation SimpleName for each
+generic utils SimpleName MethodInvocation SimpleName handlers
+generic utils SimpleName MethodInvocation ExpressionMethodReference SimpleName add request handler
+for each SimpleName MethodInvocation SimpleName handlers
+for each SimpleName MethodInvocation ExpressionMethodReference SimpleName add request handler
+handlers SimpleName MethodInvocation ExpressionMethodReference SimpleName add request handler
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add request handlers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName handlers
+void PrimitiveType MethodDeclaration SimpleName add request handlers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName handlers
+add request handlers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handlers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add request handlers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handlers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add request handlers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handlers

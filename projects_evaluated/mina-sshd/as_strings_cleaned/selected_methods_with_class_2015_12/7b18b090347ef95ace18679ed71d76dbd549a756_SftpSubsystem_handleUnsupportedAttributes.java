@@ -1,0 +1,64 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+attributes SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName join
+generic utils SimpleName MethodInvocation SimpleName attributes
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+join SimpleName MethodInvocation SimpleName attributes
+join SimpleName MethodInvocation CharacterLiteral empty
+attributes SimpleName MethodInvocation CharacterLiteral empty
+attrs list SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+attrs list SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+attrs list SimpleName VariableDeclarationFragment MethodInvocation SimpleName attributes
+attrs list SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs list
+unsupported attributes StringLiteral InfixExpression SimpleName attrs list
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unsupported attributes
+log SimpleName MethodInvocation InfixExpression SimpleName attrs list
+warn SimpleName MethodInvocation InfixExpression StringLiteral unsupported attributes
+warn SimpleName MethodInvocation InfixExpression SimpleName attrs list
+unsupported attributes StringLiteral InfixExpression SimpleName attrs list
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported attributes
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName attrs list
+unknown policy for attributes StringLiteral InfixExpression SimpleName attrs list
+unknown policy for attributes StringLiteral InfixExpression StringLiteral :
+unknown policy for attributes StringLiteral InfixExpression SimpleName unsupported attribute policy
+attrs list SimpleName InfixExpression StringLiteral :
+attrs list SimpleName InfixExpression SimpleName unsupported attribute policy
+: StringLiteral InfixExpression SimpleName unsupported attribute policy
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unknown policy for attributes
+log SimpleName MethodInvocation InfixExpression SimpleName attrs list
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName unsupported attribute policy
+warn SimpleName MethodInvocation InfixExpression StringLiteral unknown policy for attributes
+warn SimpleName MethodInvocation InfixExpression SimpleName attrs list
+warn SimpleName MethodInvocation InfixExpression StringLiteral :
+warn SimpleName MethodInvocation InfixExpression SimpleName unsupported attribute policy
+unsupported attribute policy SimpleName SwitchStatement SwitchCase SimpleName ignore
+unsupported attribute policy SimpleName SwitchStatement SwitchCase SimpleName warn
+unsupported attribute policy SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName log
+unsupported attribute policy SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName warn
+ignore SimpleName SwitchCase SwitchStatement SwitchCase SimpleName warn
+ignore SimpleName SwitchCase SwitchStatement SwitchCase SimpleName throw exception
+warn SimpleName SwitchCase SwitchStatement SwitchCase SimpleName throw exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle unsupported attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName unsupported attribute policy
+void PrimitiveType MethodDeclaration SimpleName handle unsupported attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName unsupported attribute policy
+handle unsupported attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+handle unsupported attributes SimpleName MethodDeclaration Block SwitchStatement SimpleName unsupported attribute policy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle unsupported attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle unsupported attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes

@@ -1,0 +1,41 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+charset SimpleName SimpleType SingleVariableDeclaration SimpleName cs
+read rle bytes SimpleName MethodInvocation SimpleName s
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName read rle bytes
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation SimpleName cs
+bytes SimpleName ClassInstanceCreation SimpleName cs
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName decode string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cs
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName decode string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cs
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+decode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+decode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+decode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+decode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cs
+decode string SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+cs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

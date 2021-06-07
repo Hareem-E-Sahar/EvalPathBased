@@ -1,0 +1,44 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName anchor
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName anchor
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread
+thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName current thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName thread
+thread SimpleName MethodInvocation SimpleName get context class loader
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get context class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+anchor SimpleName MethodInvocation SimpleName get class loader
+cl SimpleName Assignment MethodInvocation SimpleName anchor
+cl SimpleName Assignment MethodInvocation SimpleName get class loader
+class loader SimpleName MethodInvocation SimpleName get system class loader
+cl SimpleName Assignment MethodInvocation SimpleName class loader
+cl SimpleName Assignment MethodInvocation SimpleName get system class loader
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName class loader
+public Modifier MethodDeclaration SimpleName resolve default class loader
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cl
+static Modifier MethodDeclaration SimpleType SimpleName class loader
+static Modifier MethodDeclaration SimpleName resolve default class loader
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cl
+class loader SimpleName SimpleType MethodDeclaration SimpleName resolve default class loader
+class loader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anchor
+resolve default class loader SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+resolve default class loader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor
+resolve default class loader SimpleName MethodDeclaration Block ReturnStatement SimpleName cl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve default class loader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve default class loader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor

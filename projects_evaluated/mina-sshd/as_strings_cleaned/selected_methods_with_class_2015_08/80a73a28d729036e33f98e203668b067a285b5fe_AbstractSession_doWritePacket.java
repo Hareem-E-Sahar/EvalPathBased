@@ -1,0 +1,30 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+encode SimpleName MethodInvocation SimpleName buffer
+io session SimpleName MethodInvocation SimpleName write
+io session SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io write future
+protected Modifier MethodDeclaration SimpleName do write packet
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName encode lock
+io write future SimpleName SimpleType MethodDeclaration SimpleName do write packet
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+do write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do write packet SimpleName MethodDeclaration SimpleType SimpleName io exception
+do write packet SimpleName MethodDeclaration Block SynchronizedStatement SimpleName encode lock
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName do write packet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do write packet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

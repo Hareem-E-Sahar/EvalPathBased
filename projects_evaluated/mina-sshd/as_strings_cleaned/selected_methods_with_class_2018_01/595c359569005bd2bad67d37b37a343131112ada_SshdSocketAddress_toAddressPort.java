@@ -1,0 +1,32 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName addr
+addr SimpleName InstanceofExpression SimpleType SimpleName inet socket address
+inet socket address SimpleName SimpleType CastExpression SimpleName addr
+addr SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get port
+addr SimpleName InstanceofExpression SimpleType SimpleName sshd socket address
+sshd socket address SimpleName SimpleType CastExpression SimpleName addr
+addr SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get port
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName to address port
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName to address port
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+int PrimitiveType MethodDeclaration SimpleName to address port
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName addr
+to address port SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+to address port SimpleName MethodDeclaration SingleVariableDeclaration SimpleName addr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName to address port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to address port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr

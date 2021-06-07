@@ -1,0 +1,39 @@
+io function SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+io function SimpleName SimpleType ParameterizedType SimpleType SimpleName r
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName r
+io function SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName before
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName before
+objects SimpleName MethodInvocation StringLiteral no composing function provided
+require non null SimpleName MethodInvocation SimpleName before
+require non null SimpleName MethodInvocation StringLiteral no composing function provided
+before SimpleName MethodInvocation StringLiteral no composing function provided
+v SimpleName SimpleType SingleVariableDeclaration SimpleName v
+before SimpleName MethodInvocation SimpleName apply
+before SimpleName MethodInvocation SimpleName v
+apply SimpleName MethodInvocation SimpleName v
+apply SimpleName MethodInvocation MethodInvocation SimpleName before
+apply SimpleName MethodInvocation MethodInvocation SimpleName apply
+apply SimpleName MethodInvocation MethodInvocation SimpleName v
+v SimpleName SingleVariableDeclaration LambdaExpression MethodInvocation SimpleName apply
+default Modifier MethodDeclaration TypeParameter SimpleName v
+default Modifier MethodDeclaration ParameterizedType SimpleType SimpleName io function
+default Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+default Modifier MethodDeclaration ParameterizedType SimpleType SimpleName r
+default Modifier MethodDeclaration SimpleName compose
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName before
+v SimpleName TypeParameter MethodDeclaration SimpleName compose
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName before
+io function SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName compose
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName compose
+r SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName compose
+compose SimpleName MethodDeclaration SingleVariableDeclaration SimpleName before
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName compose
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compose
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName before

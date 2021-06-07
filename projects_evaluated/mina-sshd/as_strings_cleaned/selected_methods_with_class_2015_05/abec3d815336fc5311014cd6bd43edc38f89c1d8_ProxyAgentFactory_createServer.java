@@ -1,0 +1,90 @@
+connection service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+service SimpleName MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName InstanceofExpression SimpleType SimpleName server session
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral the session used to create an agent server proxy must be a server session
+agent server proxy SimpleName SimpleType ClassInstanceCreation SimpleName service
+proxy SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName agent server proxy
+proxy SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service
+final Modifier VariableDeclarationStatement SimpleType SimpleName agent server proxy
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName proxy
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName service
+agent server proxy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName proxy
+proxy SimpleName MethodInvocation SimpleName get id
+proxies SimpleName MethodInvocation SimpleName put
+proxies SimpleName MethodInvocation MethodInvocation SimpleName proxy
+proxies SimpleName MethodInvocation MethodInvocation SimpleName get id
+proxies SimpleName MethodInvocation SimpleName proxy
+put SimpleName MethodInvocation MethodInvocation SimpleName proxy
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation SimpleName proxy
+proxy SimpleName MethodInvocation MethodInvocation SimpleName proxy
+get id SimpleName MethodInvocation MethodInvocation SimpleName proxy
+proxy SimpleName MethodInvocation SimpleName get id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get id
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get id
+string SimpleName SimpleType MethodDeclaration SimpleName get id
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+proxy SimpleName MethodInvocation SimpleName get id
+proxies SimpleName MethodInvocation SimpleName remove
+proxies SimpleName MethodInvocation MethodInvocation SimpleName proxy
+proxies SimpleName MethodInvocation MethodInvocation SimpleName get id
+remove SimpleName MethodInvocation MethodInvocation SimpleName proxy
+remove SimpleName MethodInvocation MethodInvocation SimpleName get id
+proxy SimpleName MethodInvocation SimpleName close
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName close
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName close
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName close
+get id SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get id SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get id SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName ssh agent server
+public Modifier MethodDeclaration SimpleName create server
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+ssh agent server SimpleName SimpleType MethodDeclaration SimpleName create server
+ssh agent server SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service
+ssh agent server SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+create server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+create server SimpleName MethodDeclaration SimpleType SimpleName io exception
+create server SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent server
+public Modifier TypeDeclaration MethodDeclaration SimpleName create server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent server
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

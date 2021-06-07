@@ -1,0 +1,35 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName props
+props SimpleName MethodInvocation SimpleName get string
+props SimpleName MethodInvocation SimpleName compression prop
+get string SimpleName MethodInvocation SimpleName compression prop
+compression config value SimpleName MethodInvocation SimpleName from name
+compression config value SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+compression config value SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+compression config value SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName compression prop
+from name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+from name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+from name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName compression prop
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName compression factory
+public Modifier MethodDeclaration SimpleName get compression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SimpleType SimpleName compression factory
+static Modifier MethodDeclaration SimpleName get compression
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+compression factory SimpleName SimpleType MethodDeclaration SimpleName get compression
+compression factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+get compression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+get compression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName compression factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName get compression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName compression factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get compression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName v
+all options value SimpleName MethodInvocation SimpleName equals ignore case
+all options value SimpleName MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation SimpleName v
+all options wildcard SimpleName MethodInvocation SimpleName equals ignore case
+all options wildcard SimpleName MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation SimpleName v
+all options value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName all options wildcard
+all options value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+all options value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName all options wildcard
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName all options wildcard
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is all options value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SimpleName is all options value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+is all options value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is all options value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is all options value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is all options value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

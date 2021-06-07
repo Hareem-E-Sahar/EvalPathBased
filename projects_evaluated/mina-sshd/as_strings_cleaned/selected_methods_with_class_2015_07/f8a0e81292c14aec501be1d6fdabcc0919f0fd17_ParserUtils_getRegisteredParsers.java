@@ -1,0 +1,34 @@
+extension parser SimpleName SimpleType ParameterizedType WildcardType ?
+list SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+parsers map SimpleName MethodInvocation SimpleName is empty
+collections SimpleName MethodInvocation SimpleName empty list
+extension parser SimpleName SimpleType ParameterizedType WildcardType ?
+array list SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+parsers map SimpleName MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName get registered parsers
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName parsers map
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SimpleName get registered parsers
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName parsers map
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration ParameterizedType ParameterizedType WildcardType ?
+final Modifier MethodDeclaration SimpleName get registered parsers
+final Modifier MethodDeclaration Block SynchronizedStatement SimpleName parsers map
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered parsers
+? WildcardType ParameterizedType ParameterizedType MethodDeclaration SimpleName get registered parsers
+get registered parsers SimpleName MethodDeclaration Block SynchronizedStatement SimpleName parsers map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered parsers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered parsers

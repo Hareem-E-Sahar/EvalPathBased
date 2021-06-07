@@ -1,0 +1,25 @@
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+pub SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleName encode public key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+encode public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+encode public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+encode public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pub
+encode public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+encode public key SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

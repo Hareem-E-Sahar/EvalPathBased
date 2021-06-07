@@ -1,0 +1,110 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName proxy listener impl
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName proxy listener impl
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression QualifiedName bytesize
+impls SimpleName MethodInvocation SimpleName add
+impls SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName proxy listener impl
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName proxy listener impl
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName bytesize
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+bytesize QualifiedName InfixExpression ForStatement PostfixExpression SimpleName index
+event listener utils SimpleName MethodInvocation SimpleName proxy wrapper
+event listener utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName proxy listener
+event listener utils SimpleName MethodInvocation SimpleName impls
+proxy wrapper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName proxy listener
+proxy wrapper SimpleName MethodInvocation SimpleName impls
+proxy listener SimpleName SimpleType TypeLiteral MethodInvocation SimpleName impls
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName event listener utils
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName proxy wrapper
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName impls
+proxy listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+exp str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp str
+system SimpleName MethodInvocation SimpleName current time millis
+exp num SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+exp num SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp num
+listener SimpleName MethodInvocation SimpleName call me with string
+listener SimpleName MethodInvocation SimpleName exp str
+call me with string SimpleName MethodInvocation SimpleName exp str
+listener SimpleName MethodInvocation SimpleName call me with number
+listener SimpleName MethodInvocation SimpleName exp num
+call me with number SimpleName MethodInvocation SimpleName exp num
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+impls SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName impls
+index SimpleName InfixExpression MethodInvocation SimpleName size
+impls SimpleName MethodInvocation SimpleName get
+impls SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName impls
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+proxy listener impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+mismatched string at listener # StringLiteral InfixExpression SimpleName index
+l SimpleName MethodInvocation SimpleName get string value
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched string at listener #
+assert same SimpleName MethodInvocation InfixExpression SimpleName index
+assert same SimpleName MethodInvocation SimpleName exp str
+assert same SimpleName MethodInvocation MethodInvocation SimpleName l
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get string value
+mismatched string at listener # StringLiteral InfixExpression MethodInvocation SimpleName exp str
+index SimpleName InfixExpression MethodInvocation SimpleName exp str
+mismatched string at listener # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName l
+mismatched string at listener # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get string value
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName l
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get string value
+exp str SimpleName MethodInvocation MethodInvocation SimpleName l
+exp str SimpleName MethodInvocation MethodInvocation SimpleName get string value
+mismatched number at listener # StringLiteral InfixExpression SimpleName index
+l SimpleName MethodInvocation SimpleName get number value
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched number at listener #
+assert same SimpleName MethodInvocation InfixExpression SimpleName index
+assert same SimpleName MethodInvocation SimpleName exp num
+assert same SimpleName MethodInvocation MethodInvocation SimpleName l
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get number value
+mismatched number at listener # StringLiteral InfixExpression MethodInvocation SimpleName exp num
+index SimpleName InfixExpression MethodInvocation SimpleName exp num
+mismatched number at listener # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName l
+mismatched number at listener # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get number value
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName l
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get number value
+exp num SimpleName MethodInvocation MethodInvocation SimpleName l
+exp num SimpleName MethodInvocation MethodInvocation SimpleName get number value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+test SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test proxy wrapper
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName test proxy wrapper
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName test proxy wrapper
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test proxy wrapper
+void PrimitiveType MethodDeclaration SimpleName test proxy wrapper
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test proxy wrapper
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test proxy wrapper

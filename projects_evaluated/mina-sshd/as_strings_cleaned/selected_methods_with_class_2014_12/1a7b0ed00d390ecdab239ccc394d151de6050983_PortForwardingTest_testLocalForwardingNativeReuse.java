@@ -1,0 +1,77 @@
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName create native session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get free port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get free port
+sshd socket address SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName port
+empty StringLiteral ClassInstanceCreation SimpleName port
+local SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+local SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+local SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName port
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local
+sshd socket address SimpleName SimpleType ClassInstanceCreation StringLiteral localhost
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName echo port
+localhost StringLiteral ClassInstanceCreation SimpleName echo port
+remote SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+remote SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral localhost
+remote SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName echo port
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote
+session SimpleName MethodInvocation SimpleName start local port forwarding
+session SimpleName MethodInvocation SimpleName local
+session SimpleName MethodInvocation SimpleName remote
+start local port forwarding SimpleName MethodInvocation SimpleName local
+start local port forwarding SimpleName MethodInvocation SimpleName remote
+local SimpleName MethodInvocation SimpleName remote
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName start local port forwarding
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName local
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound
+session SimpleName MethodInvocation SimpleName stop local port forwarding
+session SimpleName MethodInvocation SimpleName bound
+stop local port forwarding SimpleName MethodInvocation SimpleName bound
+session SimpleName MethodInvocation SimpleName start local port forwarding
+session SimpleName MethodInvocation SimpleName local
+session SimpleName MethodInvocation SimpleName remote
+start local port forwarding SimpleName MethodInvocation SimpleName local
+start local port forwarding SimpleName MethodInvocation SimpleName remote
+local SimpleName MethodInvocation SimpleName remote
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName start local port forwarding
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName local
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound
+session SimpleName MethodInvocation SimpleName stop local port forwarding
+session SimpleName MethodInvocation SimpleName bound
+stop local port forwarding SimpleName MethodInvocation SimpleName bound
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+session SimpleName MethodInvocation MethodInvocation SimpleName await
+close SimpleName MethodInvocation MethodInvocation SimpleName await
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName await
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test local forwarding native reuse
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test local forwarding native reuse
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test local forwarding native reuse
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test local forwarding native reuse SimpleName MethodDeclaration SimpleType SimpleName exception
+test local forwarding native reuse SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test local forwarding native reuse
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test local forwarding native reuse
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,29 @@
+executor SimpleName MethodInvocation SimpleName shutdown now
+executor SimpleName MethodInvocation SimpleName await termination
+executor SimpleName MethodInvocation NumberLiteral empty
+executor SimpleName MethodInvocation QualifiedName time unitseconds
+await termination SimpleName MethodInvocation NumberLiteral empty
+await termination SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral exception caught while closing executor
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral exception caught while closing executor
+debug SimpleName MethodInvocation SimpleName e
+exception caught while closing executor StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do close immediately
+void PrimitiveType MethodDeclaration SimpleName do close immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close immediately

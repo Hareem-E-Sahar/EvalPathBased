@@ -1,0 +1,85 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+ec public key SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+ec public key SimpleName SimpleType SingleVariableDeclaration SimpleName actual
+expected SimpleName InfixExpression SimpleName actual
+message SimpleName InfixExpression StringLiteral w
+expected SimpleName MethodInvocation SimpleName get w
+actual SimpleName MethodInvocation SimpleName get w
+assert ec point equals SimpleName MethodInvocation InfixExpression SimpleName message
+assert ec point equals SimpleName MethodInvocation InfixExpression StringLiteral w
+assert ec point equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert ec point equals SimpleName MethodInvocation MethodInvocation SimpleName get w
+assert ec point equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert ec point equals SimpleName MethodInvocation MethodInvocation SimpleName get w
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get w
+w StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+w StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get w
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get w
+w StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+w StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get w
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get w
+get w SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+get w SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get w
+assert ec parameter spec equals SimpleName MethodInvocation SimpleName message
+assert ec parameter spec equals SimpleName MethodInvocation SimpleName expected
+assert ec parameter spec equals SimpleName MethodInvocation SimpleName actual
+message SimpleName MethodInvocation SimpleName expected
+message SimpleName MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert ec public key equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert ec public key equals
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName assert ec public key equals
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec public key
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec public key
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName actual
+void PrimitiveType MethodDeclaration SimpleName assert ec public key equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName actual
+assert ec public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert ec public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+assert ec public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec public key
+assert ec public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert ec public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec public key
+assert ec public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert ec public key equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert ec public key equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual

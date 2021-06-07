@@ -1,0 +1,125 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+buffer SimpleName MethodInvocation SimpleName get string
+targetpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+targetpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName targetpath
+buffer SimpleName MethodInvocation SimpleName get string
+linkpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+linkpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName linkpath
+buffer SimpleName MethodInvocation SimpleName get boolean
+sym link SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+sym link SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sym link
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean
+log SimpleName MethodInvocation SimpleName is debug enabled
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation SimpleName sym link
+value of SimpleName MethodInvocation SimpleName sym link
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp link linkpath targetpath symlink
+log SimpleName MethodInvocation SimpleName linkpath
+log SimpleName MethodInvocation SimpleName targetpath
+log SimpleName MethodInvocation MethodInvocation SimpleName boolean
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation SimpleName sym link
+debug SimpleName MethodInvocation StringLiteral received ssh fxp link linkpath targetpath symlink
+debug SimpleName MethodInvocation SimpleName linkpath
+debug SimpleName MethodInvocation SimpleName targetpath
+debug SimpleName MethodInvocation MethodInvocation SimpleName boolean
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName sym link
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation SimpleName linkpath
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation SimpleName targetpath
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation MethodInvocation SimpleName boolean
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation MethodInvocation SimpleName value of
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation MethodInvocation SimpleName sym link
+linkpath SimpleName MethodInvocation SimpleName targetpath
+linkpath SimpleName MethodInvocation MethodInvocation SimpleName boolean
+linkpath SimpleName MethodInvocation MethodInvocation SimpleName value of
+linkpath SimpleName MethodInvocation MethodInvocation SimpleName sym link
+targetpath SimpleName MethodInvocation MethodInvocation SimpleName boolean
+targetpath SimpleName MethodInvocation MethodInvocation SimpleName value of
+targetpath SimpleName MethodInvocation MethodInvocation SimpleName sym link
+resolve file SimpleName MethodInvocation SimpleName linkpath
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName linkpath
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName link
+file system SimpleName MethodInvocation SimpleName get path
+file system SimpleName MethodInvocation SimpleName targetpath
+get path SimpleName MethodInvocation SimpleName targetpath
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName targetpath
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+files SimpleName MethodInvocation SimpleName create symbolic link
+files SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName target
+create symbolic link SimpleName MethodInvocation SimpleName link
+create symbolic link SimpleName MethodInvocation SimpleName target
+link SimpleName MethodInvocation SimpleName target
+files SimpleName MethodInvocation SimpleName create link
+files SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName target
+create link SimpleName MethodInvocation SimpleName link
+create link SimpleName MethodInvocation SimpleName target
+link SimpleName MethodInvocation SimpleName target
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx ok
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx ok
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx ok SimpleName MethodInvocation StringLiteral empty
+unsupported operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx op unsupported
+send status SimpleName MethodInvocation StringLiteral command ssh fxp symlink is unsupported or not implemented
+id SimpleName MethodInvocation SimpleName ssh fx op unsupported
+id SimpleName MethodInvocation StringLiteral command ssh fxp symlink is unsupported or not implemented
+ssh fx op unsupported SimpleName MethodInvocation StringLiteral command ssh fxp symlink is unsupported or not implemented
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName e
+id SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do link
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do link SimpleName MethodDeclaration SimpleType SimpleName io exception
+do link SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

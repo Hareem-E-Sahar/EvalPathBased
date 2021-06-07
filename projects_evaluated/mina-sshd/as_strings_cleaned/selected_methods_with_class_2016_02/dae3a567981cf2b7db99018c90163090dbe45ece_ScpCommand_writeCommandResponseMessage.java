@@ -1,0 +1,83 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+int PrimitiveType SingleVariableDeclaration SimpleName exit value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName exit message
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral write command response message command exitstatus {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName command
+log SimpleName MethodInvocation SimpleName exit value
+debug SimpleName MethodInvocation StringLiteral write command response message command exitstatus {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation SimpleName command
+debug SimpleName MethodInvocation SimpleName exit value
+debug SimpleName MethodInvocation SimpleName exit message
+write command response message command exitstatus {} StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+write command response message command exitstatus {} StringLiteral MethodInvocation SimpleName command
+write command response message command exitstatus {} StringLiteral MethodInvocation SimpleName exit value
+write command response message command exitstatus {} StringLiteral MethodInvocation SimpleName exit message
+get server session SimpleName MethodInvocation MethodInvocation SimpleName command
+get server session SimpleName MethodInvocation MethodInvocation SimpleName exit value
+get server session SimpleName MethodInvocation MethodInvocation SimpleName exit message
+command SimpleName MethodInvocation SimpleName exit value
+command SimpleName MethodInvocation SimpleName exit message
+exit value SimpleName MethodInvocation SimpleName exit message
+scp helper SimpleName MethodInvocation SimpleName send response message
+scp helper SimpleName MethodInvocation SimpleName out
+scp helper SimpleName MethodInvocation SimpleName exit value
+scp helper SimpleName MethodInvocation SimpleName exit message
+send response message SimpleName MethodInvocation SimpleName out
+send response message SimpleName MethodInvocation SimpleName exit value
+send response message SimpleName MethodInvocation SimpleName exit message
+out SimpleName MethodInvocation SimpleName exit value
+out SimpleName MethodInvocation SimpleName exit message
+exit value SimpleName MethodInvocation SimpleName exit message
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName write command response message
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit message
+void PrimitiveType MethodDeclaration SimpleName write command response message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit message
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write command response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+write command response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+write command response message SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write command response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit value
+write command response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+write command response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit message
+write command response message SimpleName MethodDeclaration SimpleType SimpleName io exception
+command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit value
+command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+exit value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+exit value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+exit message SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write command response message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write command response message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

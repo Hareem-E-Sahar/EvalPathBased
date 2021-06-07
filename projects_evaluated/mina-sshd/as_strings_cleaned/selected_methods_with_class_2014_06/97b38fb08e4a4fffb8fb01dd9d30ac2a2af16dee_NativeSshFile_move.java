@@ -1,0 +1,51 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName ssh file
+final Modifier SingleVariableDeclaration SimpleName dest
+ssh file SimpleName SimpleType SingleVariableDeclaration SimpleName dest
+ret val SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret val
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+dest SimpleName MethodInvocation SimpleName is writable
+dest SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is readable
+is writable SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is readable
+native ssh file SimpleName SimpleType CastExpression SimpleName dest
+dest SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName file
+dest file SimpleName VariableDeclarationFragment FieldAccess SimpleName file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest file
+dest file SimpleName MethodInvocation SimpleName exists
+ret val SimpleName Assignment BooleanLiteral false
+file SimpleName MethodInvocation SimpleName rename to
+file SimpleName MethodInvocation SimpleName dest file
+rename to SimpleName MethodInvocation SimpleName dest file
+ret val SimpleName Assignment MethodInvocation SimpleName file
+ret val SimpleName Assignment MethodInvocation SimpleName rename to
+ret val SimpleName Assignment MethodInvocation SimpleName dest file
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret val
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName move
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret val
+boolean PrimitiveType MethodDeclaration SimpleName move
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dest
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret val
+move SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+move SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+move SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dest
+move SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+move SimpleName MethodDeclaration Block ReturnStatement SimpleName ret val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName move
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName move
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest

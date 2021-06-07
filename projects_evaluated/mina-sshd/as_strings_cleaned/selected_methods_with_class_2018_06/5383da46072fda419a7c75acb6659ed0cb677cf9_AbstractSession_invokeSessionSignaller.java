@@ -1,0 +1,52 @@
+invoker SimpleName SimpleType ParameterizedType SimpleType SimpleName session listener
+invoker SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+session listener SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+invoker SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName invoker
+session listener SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName invoker
+void SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName invoker
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get session listener proxy
+listeners SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation SimpleName get session listener proxy
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+invoker SimpleName MethodInvocation SimpleName invoke
+invoker SimpleName MethodInvocation SimpleName l
+invoke SimpleName MethodInvocation SimpleName l
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName t
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName t
+err SimpleName MethodInvocation SimpleName t
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName t
+session listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName invoke session signaller
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName invoker
+protected Modifier MethodDeclaration SimpleType SimpleName throwable
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName listeners
+void PrimitiveType MethodDeclaration SimpleName invoke session signaller
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName invoker
+void PrimitiveType MethodDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName listeners
+invoke session signaller SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invoker
+invoke session signaller SimpleName MethodDeclaration SimpleType SimpleName throwable
+invoke session signaller SimpleName MethodDeclaration Block EnhancedForStatement SimpleName listeners
+invoker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke session signaller
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoker
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke session signaller
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoker
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable

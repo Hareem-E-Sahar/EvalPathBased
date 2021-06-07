@@ -1,0 +1,6 @@
+void PrimitiveType MethodDeclaration SimpleName eof
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName eof
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName eof

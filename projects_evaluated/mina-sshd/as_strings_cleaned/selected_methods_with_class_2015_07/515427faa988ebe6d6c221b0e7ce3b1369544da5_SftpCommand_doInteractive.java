@@ -1,0 +1,183 @@
+buffered reader SimpleName SimpleType SingleVariableDeclaration SimpleName stdin
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stdout
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stderr
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+sftp client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sftp
+sftp SimpleName MethodInvocation SimpleName canonical path
+sftp SimpleName MethodInvocation StringLiteral .
+canonical path SimpleName MethodInvocation StringLiteral .
+set current remote directory SimpleName MethodInvocation MethodInvocation SimpleName sftp
+set current remote directory SimpleName MethodInvocation MethodInvocation SimpleName canonical path
+set current remote directory SimpleName MethodInvocation MethodInvocation StringLiteral .
+stdout SimpleName MethodInvocation SimpleName append
+stdout SimpleName MethodInvocation MethodInvocation SimpleName get current remote directory
+append SimpleName MethodInvocation MethodInvocation SimpleName get current remote directory
+stdout SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get current remote directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+stdout SimpleName MethodInvocation MethodInvocation StringLiteral >
+append SimpleName MethodInvocation MethodInvocation StringLiteral >
+get current remote directory SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+append SimpleName MethodInvocation StringLiteral >
+stdout SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+append SimpleName MethodInvocation MethodInvocation SimpleName flush
+> StringLiteral MethodInvocation MethodInvocation SimpleName flush
+stdin SimpleName MethodInvocation SimpleName read line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName stdin
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+line SimpleName MethodInvocation SimpleName trim
+line SimpleName Assignment MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName trim
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName line
+is empty SimpleName MethodInvocation SimpleName line
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName args
+cmd SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName args
+line SimpleName MethodInvocation SimpleName index of
+line SimpleName MethodInvocation CharacterLiteral empty
+index of SimpleName MethodInvocation CharacterLiteral empty
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName line
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+pos SimpleName InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation NumberLiteral empty
+line SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+cmd SimpleName Assignment MethodInvocation SimpleName line
+cmd SimpleName Assignment MethodInvocation SimpleName substring
+cmd SimpleName Assignment MethodInvocation NumberLiteral empty
+cmd SimpleName Assignment MethodInvocation SimpleName pos
+pos SimpleName InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation InfixExpression SimpleName pos
+line SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName pos
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation MethodInvocation SimpleName trim
+substring SimpleName MethodInvocation MethodInvocation SimpleName trim
+pos SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName trim
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName trim
+args SimpleName Assignment MethodInvocation MethodInvocation SimpleName line
+args SimpleName Assignment MethodInvocation MethodInvocation SimpleName substring
+args SimpleName Assignment MethodInvocation SimpleName trim
+cmd SimpleName Assignment SimpleName line
+args SimpleName Assignment StringLiteral empty
+commands map SimpleName MethodInvocation SimpleName get
+commands map SimpleName MethodInvocation SimpleName cmd
+get SimpleName MethodInvocation SimpleName cmd
+exec SimpleName VariableDeclarationFragment MethodInvocation SimpleName commands map
+exec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+exec SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+command executor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exec
+stderr SimpleName MethodInvocation SimpleName append
+stderr SimpleName MethodInvocation StringLiteral unknown command
+append SimpleName MethodInvocation StringLiteral unknown command
+stderr SimpleName MethodInvocation MethodInvocation SimpleName println
+append SimpleName MethodInvocation MethodInvocation SimpleName println
+unknown command StringLiteral MethodInvocation MethodInvocation SimpleName println
+stderr SimpleName MethodInvocation MethodInvocation SimpleName line
+append SimpleName MethodInvocation MethodInvocation SimpleName line
+unknown command StringLiteral MethodInvocation MethodInvocation SimpleName line
+println SimpleName MethodInvocation SimpleName line
+exec SimpleName MethodInvocation SimpleName execute command
+exec SimpleName MethodInvocation SimpleName args
+exec SimpleName MethodInvocation SimpleName stdin
+exec SimpleName MethodInvocation SimpleName stdout
+exec SimpleName MethodInvocation SimpleName stderr
+execute command SimpleName MethodInvocation SimpleName args
+execute command SimpleName MethodInvocation SimpleName stdin
+execute command SimpleName MethodInvocation SimpleName stdout
+execute command SimpleName MethodInvocation SimpleName stderr
+args SimpleName MethodInvocation SimpleName stdin
+args SimpleName MethodInvocation SimpleName stdout
+args SimpleName MethodInvocation SimpleName stderr
+stdin SimpleName MethodInvocation SimpleName stdout
+stdin SimpleName MethodInvocation SimpleName stderr
+stdout SimpleName MethodInvocation SimpleName stderr
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+stderr SimpleName MethodInvocation SimpleName append
+stderr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+stderr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+stderr SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+append SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+stderr SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+stderr SimpleName MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation MethodInvocation StringLiteral :
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation StringLiteral :
+e SimpleName MethodInvocation SimpleName get message
+stderr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName println
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName println
+append SimpleName MethodInvocation MethodInvocation SimpleName println
+: StringLiteral MethodInvocation MethodInvocation SimpleName println
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+println SimpleName MethodInvocation MethodInvocation SimpleName e
+println SimpleName MethodInvocation MethodInvocation SimpleName get message
+stdout SimpleName MethodInvocation SimpleName flush
+stderr SimpleName MethodInvocation SimpleName flush
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName do interactive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdin
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stderr
+void PrimitiveType MethodDeclaration SimpleName do interactive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stdin
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stdout
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stderr
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+do interactive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+do interactive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stdin
+do interactive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+do interactive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stdout
+do interactive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+do interactive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stderr
+do interactive SimpleName MethodDeclaration SimpleType SimpleName exception
+do interactive SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+stdin SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+stdin SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+stdin SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+stderr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do interactive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do interactive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

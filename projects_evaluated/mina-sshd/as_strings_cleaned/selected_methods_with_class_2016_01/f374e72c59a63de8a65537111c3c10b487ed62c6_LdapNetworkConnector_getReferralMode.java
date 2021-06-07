@@ -1,0 +1,20 @@
+ldap env SimpleName MethodInvocation SimpleName get
+ldap env SimpleName MethodInvocation QualifiedName contextreferral
+get SimpleName MethodInvocation QualifiedName contextreferral
+objects SimpleName MethodInvocation SimpleName to string
+objects SimpleName MethodInvocation MethodInvocation SimpleName ldap env
+objects SimpleName MethodInvocation MethodInvocation SimpleName get
+objects SimpleName MethodInvocation MethodInvocation QualifiedName contextreferral
+to string SimpleName MethodInvocation MethodInvocation SimpleName ldap env
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation QualifiedName contextreferral
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get referral mode
+string SimpleName SimpleType MethodDeclaration SimpleName get referral mode
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get referral mode
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get referral mode

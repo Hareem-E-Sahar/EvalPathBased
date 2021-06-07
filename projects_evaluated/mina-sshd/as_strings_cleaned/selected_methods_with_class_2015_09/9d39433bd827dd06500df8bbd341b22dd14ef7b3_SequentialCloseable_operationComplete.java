@@ -1,0 +1,82 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName previous future
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+closeable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+log SimpleName MethodInvocation SimpleName is trace enabled
+do close StringLiteral InfixExpression SimpleName immediately
+do close StringLiteral InfixExpression StringLiteral ) closing
+do close StringLiteral InfixExpression SimpleName c
+immediately SimpleName InfixExpression StringLiteral ) closing
+immediately SimpleName InfixExpression SimpleName c
+) closing StringLiteral InfixExpression SimpleName c
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral do close
+log SimpleName MethodInvocation InfixExpression SimpleName immediately
+log SimpleName MethodInvocation InfixExpression StringLiteral ) closing
+log SimpleName MethodInvocation InfixExpression SimpleName c
+trace SimpleName MethodInvocation InfixExpression StringLiteral do close
+trace SimpleName MethodInvocation InfixExpression SimpleName immediately
+trace SimpleName MethodInvocation InfixExpression StringLiteral ) closing
+trace SimpleName MethodInvocation InfixExpression SimpleName c
+c SimpleName MethodInvocation SimpleName close
+c SimpleName MethodInvocation SimpleName immediately
+close SimpleName MethodInvocation SimpleName immediately
+next future SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+next future SimpleName VariableDeclarationFragment MethodInvocation SimpleName close
+next future SimpleName VariableDeclarationFragment MethodInvocation SimpleName immediately
+close future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next future
+next future SimpleName MethodInvocation SimpleName add listener
+iterator SimpleName MethodInvocation SimpleName has next
+log SimpleName MethodInvocation SimpleName is debug enabled
+do close StringLiteral InfixExpression SimpleName immediately
+do close StringLiteral InfixExpression StringLiteral ) signal close complete
+immediately SimpleName InfixExpression StringLiteral ) signal close complete
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral do close
+log SimpleName MethodInvocation InfixExpression SimpleName immediately
+log SimpleName MethodInvocation InfixExpression StringLiteral ) signal close complete
+debug SimpleName MethodInvocation InfixExpression StringLiteral do close
+debug SimpleName MethodInvocation InfixExpression SimpleName immediately
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) signal close complete
+future SimpleName MethodInvocation SimpleName set closed
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName previous future
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName previous future
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName operation complete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName previous future
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName previous future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName previous future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName previous future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName operation complete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName previous future
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName operation complete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName previous future

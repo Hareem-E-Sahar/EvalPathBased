@@ -1,0 +1,134 @@
+a SimpleName TypeParameter SimpleType SimpleName appendable
+a SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+collection SimpleName SimpleType ParameterizedType WildcardType ?
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName values
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral no property name
+check not null and not empty SimpleName MethodInvocation SimpleName name
+check not null and not empty SimpleName MethodInvocation StringLiteral no property name
+name SimpleName MethodInvocation StringLiteral no property name
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName values
+is empty SimpleName MethodInvocation SimpleName values
+object SimpleName SimpleType SingleVariableDeclaration SimpleName v
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName k
+append SimpleName MethodInvocation MethodInvocation SimpleName k
+empty StringLiteral MethodInvocation MethodInvocation SimpleName k
+append SimpleName MethodInvocation SimpleName k
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+k SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+k SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+objects SimpleName MethodInvocation SimpleName to string
+objects SimpleName MethodInvocation SimpleName v
+to string SimpleName MethodInvocation SimpleName v
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName objects
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName objects
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName v
+append SimpleName MethodInvocation MethodInvocation SimpleName objects
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName v
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+objects SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName io utilseol
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+objects SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName io utilseol
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName io utilseol
+v SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation QualifiedName io utilseol
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+values SimpleName EnhancedForStatement Block ReturnStatement SimpleName sb
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName a
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName appendable
+public Modifier MethodDeclaration SimpleType SimpleName a
+public Modifier MethodDeclaration SimpleName append non empty values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration TypeParameter SimpleName a
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName appendable
+static Modifier MethodDeclaration SimpleType SimpleName a
+static Modifier MethodDeclaration SimpleName append non empty values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+a SimpleName TypeParameter MethodDeclaration SimpleType SimpleName a
+a SimpleName TypeParameter MethodDeclaration SimpleName append non empty values
+appendable SimpleName SimpleType TypeParameter MethodDeclaration SimpleName append non empty values
+a SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName sb
+a SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName name
+a SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName values
+a SimpleName SimpleType MethodDeclaration SimpleName append non empty values
+a SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+a SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+a SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName values
+a SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+append non empty values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+append non empty values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+append non empty values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append non empty values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+append non empty values SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+append non empty values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+append non empty values SimpleName MethodDeclaration SimpleType SimpleName io exception
+append non empty values SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+append non empty values SimpleName MethodDeclaration Block ReturnStatement SimpleName sb
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+values SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SimpleName append non empty values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append non empty values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

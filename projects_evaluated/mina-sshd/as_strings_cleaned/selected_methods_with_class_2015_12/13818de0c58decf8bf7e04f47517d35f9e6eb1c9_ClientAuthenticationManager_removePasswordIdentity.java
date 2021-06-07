@@ -1,0 +1,12 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+string SimpleName SimpleType MethodDeclaration SimpleName remove password identity
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName password
+remove password identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove password identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove password identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove password identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password

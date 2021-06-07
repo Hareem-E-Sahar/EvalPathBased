@@ -1,0 +1,61 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+decode int SimpleName MethodInvocation SimpleName s
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode int
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName decode int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+byte PrimitiveType ArrayType ArrayCreation SimpleName len
+bytes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+bytes SimpleName VariableDeclarationFragment ArrayCreation SimpleName len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+io utils SimpleName MethodInvocation SimpleName read fully
+io utils SimpleName MethodInvocation SimpleName s
+io utils SimpleName MethodInvocation SimpleName bytes
+read fully SimpleName MethodInvocation SimpleName s
+read fully SimpleName MethodInvocation SimpleName bytes
+s SimpleName MethodInvocation SimpleName bytes
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName bytes
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName read rle bytes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName read rle bytes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration ArrayType PrimitiveType byte
+final Modifier MethodDeclaration SimpleName read rle bytes
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block ReturnStatement SimpleName bytes
+byte PrimitiveType ArrayType MethodDeclaration SimpleName read rle bytes
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName s
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName io exception
+read rle bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+read rle bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+read rle bytes SimpleName MethodDeclaration SimpleType SimpleName io exception
+read rle bytes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read rle bytes SimpleName MethodDeclaration Block ReturnStatement SimpleName bytes
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName read rle bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read rle bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,31 @@
+booleantrue QualifiedName MethodInvocation SimpleName to string
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation SimpleName bc named usage prop
+system SimpleName MethodInvocation MethodInvocation QualifiedName booleantrue
+system SimpleName MethodInvocation MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation SimpleName bc named usage prop
+set property SimpleName MethodInvocation MethodInvocation QualifiedName booleantrue
+set property SimpleName MethodInvocation MethodInvocation SimpleName to string
+bc named usage prop SimpleName MethodInvocation MethodInvocation QualifiedName booleantrue
+bc named usage prop SimpleName MethodInvocation MethodInvocation SimpleName to string
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName use named bouncy castle provider
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName use named bouncy castle provider
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName use named bouncy castle provider
+void PrimitiveType MethodDeclaration SimpleName use named bouncy castle provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName use named bouncy castle provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName use named bouncy castle provider

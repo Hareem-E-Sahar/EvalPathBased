@@ -1,0 +1,25 @@
+long PrimitiveType SingleVariableDeclaration SimpleName size
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName attributesize
+add SimpleName MethodInvocation QualifiedName attributesize
+size SimpleName FieldAccess Assignment SimpleName size
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+attributes SimpleName SimpleType MethodDeclaration SimpleName size
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName size
+size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size

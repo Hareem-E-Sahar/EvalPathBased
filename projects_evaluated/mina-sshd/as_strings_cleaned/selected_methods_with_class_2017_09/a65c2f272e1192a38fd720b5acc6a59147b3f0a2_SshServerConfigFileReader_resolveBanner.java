@@ -1,0 +1,70 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName options
+property resolver utils SimpleName MethodInvocation SimpleName get string
+property resolver utils SimpleName MethodInvocation SimpleName options
+property resolver utils SimpleName MethodInvocation SimpleName banner config prop
+get string SimpleName MethodInvocation SimpleName options
+get string SimpleName MethodInvocation SimpleName banner config prop
+options SimpleName MethodInvocation SimpleName banner config prop
+banner option SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+banner option SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+banner option SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+banner option SimpleName VariableDeclarationFragment MethodInvocation SimpleName banner config prop
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName banner option
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName banner option
+is empty SimpleName MethodInvocation SimpleName banner option
+property resolver utils SimpleName MethodInvocation SimpleName get string property
+property resolver utils SimpleName MethodInvocation SimpleName options
+property resolver utils SimpleName MethodInvocation SimpleName visual host key
+property resolver utils SimpleName MethodInvocation SimpleName default visual host key
+get string property SimpleName MethodInvocation SimpleName options
+get string property SimpleName MethodInvocation SimpleName visual host key
+get string property SimpleName MethodInvocation SimpleName default visual host key
+options SimpleName MethodInvocation SimpleName visual host key
+options SimpleName MethodInvocation SimpleName default visual host key
+visual host key SimpleName MethodInvocation SimpleName default visual host key
+banner option SimpleName Assignment MethodInvocation SimpleName property resolver utils
+banner option SimpleName Assignment MethodInvocation SimpleName get string property
+banner option SimpleName Assignment MethodInvocation SimpleName options
+banner option SimpleName Assignment MethodInvocation SimpleName visual host key
+banner option SimpleName Assignment MethodInvocation SimpleName default visual host key
+ssh config file reader SimpleName MethodInvocation SimpleName parse boolean value
+ssh config file reader SimpleName MethodInvocation SimpleName banner option
+parse boolean value SimpleName MethodInvocation SimpleName banner option
+banner option SimpleName Assignment QualifiedName server authentication managerauto welcome banner value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName banner option
+is empty SimpleName MethodInvocation SimpleName banner option
+none StringLiteral MethodInvocation SimpleName equals
+none StringLiteral MethodInvocation SimpleName banner option
+equals SimpleName MethodInvocation SimpleName banner option
+server authentication managerauto welcome banner value QualifiedName MethodInvocation SimpleName equals ignore case
+server authentication managerauto welcome banner value QualifiedName MethodInvocation SimpleName banner option
+equals ignore case SimpleName MethodInvocation SimpleName banner option
+paths SimpleName MethodInvocation SimpleName get
+paths SimpleName MethodInvocation SimpleName banner option
+get SimpleName MethodInvocation SimpleName banner option
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName resolve banner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName resolve banner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+object SimpleName SimpleType MethodDeclaration SimpleName resolve banner
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+resolve banner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+resolve banner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve banner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve banner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

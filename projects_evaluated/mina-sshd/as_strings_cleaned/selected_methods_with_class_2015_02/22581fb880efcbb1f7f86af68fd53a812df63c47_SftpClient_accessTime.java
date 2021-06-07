@@ -1,0 +1,29 @@
+file time SimpleName SimpleType SingleVariableDeclaration SimpleName atime
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName attributeaccess time
+add SimpleName MethodInvocation QualifiedName attributeaccess time
+atime SimpleName MethodInvocation SimpleName to
+atime SimpleName MethodInvocation QualifiedName time unitseconds
+to SimpleName MethodInvocation QualifiedName time unitseconds
+int PrimitiveType CastExpression MethodInvocation SimpleName atime
+int PrimitiveType CastExpression MethodInvocation SimpleName to
+int PrimitiveType CastExpression MethodInvocation QualifiedName time unitseconds
+atime SimpleName FieldAccess Assignment CastExpression PrimitiveType int
+access time SimpleName FieldAccess Assignment SimpleName atime
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName access time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName atime
+attributes SimpleName SimpleType MethodDeclaration SimpleName access time
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName atime
+access time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file time
+access time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atime
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName access time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atime
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName access time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atime

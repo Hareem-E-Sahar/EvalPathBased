@@ -1,0 +1,86 @@
+int PrimitiveType SingleVariableDeclaration SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName len
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral invalid length d
+validate utils SimpleName MethodInvocation SimpleName len
+check true SimpleName MethodInvocation InfixExpression SimpleName len
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral invalid length d
+check true SimpleName MethodInvocation SimpleName len
+len SimpleName InfixExpression MethodInvocation StringLiteral invalid length d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral invalid length d
+len SimpleName InfixExpression MethodInvocation SimpleName len
+empty NumberLiteral InfixExpression MethodInvocation SimpleName len
+invalid length d StringLiteral MethodInvocation SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+write SimpleName MethodInvocation SimpleName len
+buffer utils SimpleName MethodInvocation SimpleName put u int
+buffer utils SimpleName MethodInvocation SimpleName len
+buffer utils SimpleName MethodInvocation SimpleName len bytes
+put u int SimpleName MethodInvocation SimpleName len
+put u int SimpleName MethodInvocation SimpleName len bytes
+len SimpleName MethodInvocation SimpleName len bytes
+non zero pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName non zero pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+non zero pos SimpleName InfixExpression QualifiedName len byteslength
+len bytes SimpleName ArrayAccess SimpleName non zero pos
+len bytes SimpleName ArrayAccess InfixExpression NumberLiteral empty
+non zero pos SimpleName ArrayAccess InfixExpression NumberLiteral empty
+non zero pos SimpleName InfixExpression ForStatement PostfixExpression SimpleName non zero pos
+len byteslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName non zero pos
+non zero pos SimpleName InfixExpression QualifiedName len byteslength
+all zeroes length representation for len StringLiteral InfixExpression SimpleName len
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral all zeroes length representation for len
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName len
+len byteslength QualifiedName InfixExpression SimpleName non zero pos
+bytes len SimpleName VariableDeclarationFragment InfixExpression QualifiedName len byteslength
+bytes len SimpleName VariableDeclarationFragment InfixExpression SimpleName non zero pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName len byteslength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName non zero pos
+x NumberLiteral InfixExpression SimpleName bytes len
+write SimpleName MethodInvocation InfixExpression NumberLiteral x
+write SimpleName MethodInvocation InfixExpression SimpleName bytes len
+write SimpleName MethodInvocation SimpleName len bytes
+write SimpleName MethodInvocation SimpleName non zero pos
+write SimpleName MethodInvocation SimpleName bytes len
+len bytes SimpleName MethodInvocation SimpleName non zero pos
+len bytes SimpleName MethodInvocation SimpleName bytes len
+non zero pos SimpleName MethodInvocation SimpleName bytes len
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write length
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName write length
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+write length SimpleName MethodDeclaration SimpleType SimpleName io exception
+write length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

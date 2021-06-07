@@ -1,0 +1,65 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buf
+io read future impl SimpleName SimpleType ClassInstanceCreation SimpleName read future id
+io read future impl SimpleName SimpleType ClassInstanceCreation SimpleName buf
+read future id SimpleName ClassInstanceCreation SimpleName buf
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName io read future impl
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName read future id
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName buf
+io read future impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+read pending exception SimpleName SimpleType ClassInstanceCreation StringLiteral previous pending read not handled
+buffer SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+futurebuffer QualifiedName MethodInvocation SimpleName put buffer
+futurebuffer QualifiedName MethodInvocation SimpleName buffer
+futurebuffer QualifiedName MethodInvocation BooleanLiteral false
+put buffer SimpleName MethodInvocation SimpleName buffer
+put buffer SimpleName MethodInvocation BooleanLiteral false
+buffer SimpleName MethodInvocation BooleanLiteral false
+nb read SimpleName VariableDeclarationFragment MethodInvocation QualifiedName futurebuffer
+nb read SimpleName VariableDeclarationFragment MethodInvocation SimpleName put buffer
+nb read SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+nb read SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nb read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName futurebuffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName put buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral false
+buffer SimpleName MethodInvocation SimpleName compact
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation SimpleName nb read
+set value SimpleName MethodInvocation SimpleName nb read
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral closed
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName io exception
+future SimpleName MethodInvocation ClassInstanceCreation StringLiteral closed
+set value SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName io exception
+set value SimpleName MethodInvocation ClassInstanceCreation StringLiteral closed
+read pending exception SimpleName SimpleType ClassInstanceCreation StringLiteral previous pending read not handled
+pending SimpleName Assignment SimpleName future
+do read SimpleName MethodInvocation BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io read future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier MethodDeclaration SimpleType SimpleName io read future
+public Modifier MethodDeclaration SimpleName read
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+io read future SimpleName SimpleType MethodDeclaration SimpleName read
+io read future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buf
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buf
+read SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io read future
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io read future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf

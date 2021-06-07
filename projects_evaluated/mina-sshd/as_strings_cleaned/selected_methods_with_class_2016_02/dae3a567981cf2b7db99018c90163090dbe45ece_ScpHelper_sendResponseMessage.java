@@ -1,0 +1,87 @@
+o SimpleName TypeParameter SimpleType SimpleName output stream
+o SimpleName SimpleType SingleVariableDeclaration SimpleName out
+int PrimitiveType SingleVariableDeclaration SimpleName level
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName level
+write SimpleName MethodInvocation SimpleName level
+message SimpleName MethodInvocation SimpleName get bytes
+message SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation SimpleName message
+out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+write SimpleName MethodInvocation MethodInvocation SimpleName message
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation CharacterLiteral empty
+write SimpleName MethodInvocation CharacterLiteral empty
+out SimpleName MethodInvocation SimpleName flush
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName o
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName output stream
+public Modifier MethodDeclaration SimpleType SimpleName o
+public Modifier MethodDeclaration SimpleName send response message
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+static Modifier MethodDeclaration TypeParameter SimpleName o
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName output stream
+static Modifier MethodDeclaration SimpleType SimpleName o
+static Modifier MethodDeclaration SimpleName send response message
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName o
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+o SimpleName TypeParameter MethodDeclaration SimpleType SimpleName o
+o SimpleName TypeParameter MethodDeclaration SimpleName send response message
+output stream SimpleName SimpleType TypeParameter MethodDeclaration SimpleName send response message
+o SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName out
+o SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType int
+o SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName level
+o SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName message
+o SimpleName SimpleType MethodDeclaration SimpleName send response message
+o SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName out
+o SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+o SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName level
+o SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName message
+o SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+send response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName o
+send response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+send response message SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+send response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName level
+send response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send response message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+send response message SimpleName MethodDeclaration SimpleType SimpleName io exception
+send response message SimpleName MethodDeclaration Block ReturnStatement SimpleName out
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+level SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+message SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SimpleName send response message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send response message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,54 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName modes
+pty mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName modes
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName modes
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName MethodInvocation SimpleName create enabled options
+pty mode SimpleName MethodInvocation SimpleName putty options
+create enabled options SimpleName MethodInvocation SimpleName putty options
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName pty mode
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName create enabled options
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName putty options
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName modes
+size SimpleName MethodInvocation SimpleName modes
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+modes SimpleName MethodInvocation InfixExpression NumberLiteral empty
+resolved SimpleName MethodInvocation SimpleName put all
+resolved SimpleName MethodInvocation SimpleName modes
+put all SimpleName MethodInvocation SimpleName modes
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pty mode
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName resolve shell tty options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName modes
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resolved
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pty mode
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName resolve shell tty options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName modes
+static Modifier MethodDeclaration Block ReturnStatement SimpleName resolved
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve shell tty options
+pty mode SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve shell tty options
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve shell tty options
+resolve shell tty options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName modes
+resolve shell tty options SimpleName MethodDeclaration Block ReturnStatement SimpleName resolved
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve shell tty options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve shell tty options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modes

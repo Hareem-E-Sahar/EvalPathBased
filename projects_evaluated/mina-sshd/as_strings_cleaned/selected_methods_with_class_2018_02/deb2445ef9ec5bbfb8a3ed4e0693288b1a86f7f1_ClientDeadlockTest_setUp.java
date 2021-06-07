@@ -1,0 +1,54 @@
+sshd SimpleName Assignment MethodInvocation SimpleName setup test server
+sshd SimpleName MethodInvocation SimpleName start
+sshd SimpleName MethodInvocation SimpleName get port
+port SimpleName Assignment MethodInvocation SimpleName sshd
+port SimpleName Assignment MethodInvocation SimpleName get port
+client SimpleName Assignment MethodInvocation SimpleName setup test client
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+simulated exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current test name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName client session impl
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do create session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName io session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName client session impl
+protected Modifier MethodDeclaration SimpleName do create session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+client session impl SimpleName SimpleType MethodDeclaration SimpleName do create session
+client session impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName io session
+client session impl SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+do create session SimpleName MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+session factory SimpleName SimpleType ClassInstanceCreation SimpleName client
+client SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+client SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName do create session
+client SimpleName MethodInvocation SimpleName set session factory
+client SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName session factory
+client SimpleName MethodInvocation ClassInstanceCreation SimpleName client
+set session factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName session factory
+set session factory SimpleName MethodInvocation ClassInstanceCreation SimpleName client
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

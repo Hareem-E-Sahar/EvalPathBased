@@ -1,0 +1,90 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+requests count SimpleName InfixExpression NumberLiteral l
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation StringLiteral version selection not the st request
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation StringLiteral version selection not the st request
+ssh fx failure SimpleName MethodInvocation StringLiteral version selection not the st request
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+buffer SimpleName MethodInvocation SimpleName get string
+proposed SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+proposed SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName proposed
+validate proposed version SimpleName MethodInvocation SimpleName id
+validate proposed version SimpleName MethodInvocation SimpleName proposed
+id SimpleName MethodInvocation SimpleName proposed
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate proposed version
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName proposed
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+result SimpleName MethodInvocation SimpleName boolean value
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName proposed
+parse int SimpleName MethodInvocation SimpleName proposed
+version SimpleName Assignment MethodInvocation SimpleName integer
+version SimpleName Assignment MethodInvocation SimpleName parse int
+version SimpleName Assignment MethodInvocation SimpleName proposed
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx ok
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx ok
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx ok SimpleName MethodInvocation StringLiteral empty
+unsupported version StringLiteral InfixExpression SimpleName proposed
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation InfixExpression StringLiteral unsupported version
+send status SimpleName MethodInvocation InfixExpression SimpleName proposed
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation InfixExpression StringLiteral unsupported version
+id SimpleName MethodInvocation InfixExpression SimpleName proposed
+ssh fx failure SimpleName MethodInvocation InfixExpression StringLiteral unsupported version
+ssh fx failure SimpleName MethodInvocation InfixExpression SimpleName proposed
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do version select
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do version select
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do version select SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do version select SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do version select SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do version select SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do version select SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do version select
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do version select
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,96 @@
+int PrimitiveType SingleVariableDeclaration SimpleName type
+type SimpleName SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type regular
+type SimpleName SwitchStatement ReturnStatement QualifiedName sftp constantss ifreg
+type SimpleName SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type directory
+type SimpleName SwitchStatement ReturnStatement QualifiedName sftp constantss ifdir
+type SimpleName SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type symlink
+sftp constantsssh filexfer type regular QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifreg
+sftp constantsssh filexfer type regular QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type directory
+sftp constantsssh filexfer type regular QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifdir
+sftp constantsssh filexfer type regular QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type symlink
+sftp constantsssh filexfer type regular QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss iflnk
+sftp constantss ifreg QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type directory
+sftp constantss ifreg QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ifdir
+sftp constantss ifreg QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type symlink
+sftp constantss ifreg QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss iflnk
+sftp constantss ifreg QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type socket
+sftp constantsssh filexfer type directory QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifdir
+sftp constantsssh filexfer type directory QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type symlink
+sftp constantsssh filexfer type directory QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss iflnk
+sftp constantsssh filexfer type directory QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type socket
+sftp constantsssh filexfer type directory QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifsock
+sftp constantss ifdir QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type symlink
+sftp constantss ifdir QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss iflnk
+sftp constantss ifdir QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type socket
+sftp constantss ifdir QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ifsock
+sftp constantss ifdir QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type block device
+sftp constantsssh filexfer type symlink QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss iflnk
+sftp constantsssh filexfer type symlink QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type socket
+sftp constantsssh filexfer type symlink QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifsock
+sftp constantsssh filexfer type symlink QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type block device
+sftp constantsssh filexfer type symlink QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifblk
+sftp constantss iflnk QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type socket
+sftp constantss iflnk QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ifsock
+sftp constantss iflnk QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type block device
+sftp constantss iflnk QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ifblk
+sftp constantss iflnk QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type char device
+sftp constantsssh filexfer type socket QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifsock
+sftp constantsssh filexfer type socket QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type block device
+sftp constantsssh filexfer type socket QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifblk
+sftp constantsssh filexfer type socket QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type char device
+sftp constantsssh filexfer type socket QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifchr
+sftp constantss ifsock QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type block device
+sftp constantss ifsock QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ifblk
+sftp constantss ifsock QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type char device
+sftp constantss ifsock QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ifchr
+sftp constantss ifsock QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type fifo
+sftp constantsssh filexfer type block device QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifblk
+sftp constantsssh filexfer type block device QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type char device
+sftp constantsssh filexfer type block device QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifchr
+sftp constantsssh filexfer type block device QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type fifo
+sftp constantsssh filexfer type block device QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ififo
+sftp constantss ifblk QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type char device
+sftp constantss ifblk QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ifchr
+sftp constantss ifblk QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type fifo
+sftp constantss ifblk QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ififo
+sftp constantsssh filexfer type char device QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ifchr
+sftp constantsssh filexfer type char device QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type fifo
+sftp constantsssh filexfer type char device QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ififo
+sftp constantsssh filexfer type char device QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+sftp constantss ifchr QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName sftp constantsssh filexfer type fifo
+sftp constantss ifchr QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName sftp constantss ififo
+sftp constantss ifchr QualifiedName ReturnStatement SwitchStatement ReturnStatement NumberLiteral empty
+sftp constantsssh filexfer type fifo QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName sftp constantss ififo
+sftp constantsssh filexfer type fifo QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+sftp constantss ififo QualifiedName ReturnStatement SwitchStatement ReturnStatement NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName file type to permission
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration Block SwitchStatement SimpleName type
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName file type to permission
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration Block SwitchStatement SimpleName type
+int PrimitiveType MethodDeclaration SimpleName file type to permission
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+file type to permission SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+file type to permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+file type to permission SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName file type to permission
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName file type to permission
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

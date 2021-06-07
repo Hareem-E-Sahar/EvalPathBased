@@ -1,0 +1,6 @@
+authentication identities provider SimpleName SimpleType MethodDeclaration SimpleName get registered identities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authentication identities provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered identities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authentication identities provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered identities

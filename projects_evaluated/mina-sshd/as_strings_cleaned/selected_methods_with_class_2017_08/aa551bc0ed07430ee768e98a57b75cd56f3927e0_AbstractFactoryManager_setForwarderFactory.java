@@ -1,0 +1,20 @@
+forwarding filter factory SimpleName SimpleType SingleVariableDeclaration SimpleName forwarder factory
+forwarder factory SimpleName FieldAccess Assignment SimpleName forwarder factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set forwarder factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName forwarding filter factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName forwarder factory
+void PrimitiveType MethodDeclaration SimpleName set forwarder factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName forwarding filter factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName forwarder factory
+set forwarder factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName forwarding filter factory
+set forwarder factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName forwarder factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set forwarder factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName forwarder factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set forwarder factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName forwarder factory

@@ -1,0 +1,108 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName time value config
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName spec
+time value config SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName spec
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName spec
+is empty SimpleName MethodInvocation SimpleName spec
+total SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName time value config
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName se
+time value config SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName se
+spec SimpleName MethodInvocation SimpleName entry set
+se SimpleName MethodInvocation SimpleName get key
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName se
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+time value config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+se SimpleName MethodInvocation SimpleName get value
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName se
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName long value
+factor SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+factor SimpleName VariableDeclarationFragment MethodInvocation SimpleName long value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName factor
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long value
+factor SimpleName InfixExpression NumberLiteral l
+v SimpleName MethodInvocation SimpleName name
+value of StringLiteral InfixExpression SimpleName spec
+value of StringLiteral InfixExpression StringLiteral ) bad factor (
+value of StringLiteral InfixExpression SimpleName c
+value of StringLiteral InfixExpression StringLiteral ) for
+value of StringLiteral InfixExpression MethodInvocation SimpleName v
+value of StringLiteral InfixExpression MethodInvocation SimpleName name
+spec SimpleName InfixExpression StringLiteral ) bad factor (
+spec SimpleName InfixExpression SimpleName c
+spec SimpleName InfixExpression StringLiteral ) for
+spec SimpleName InfixExpression MethodInvocation SimpleName v
+spec SimpleName InfixExpression MethodInvocation SimpleName name
+) bad factor ( StringLiteral InfixExpression SimpleName c
+) bad factor ( StringLiteral InfixExpression StringLiteral ) for
+) bad factor ( StringLiteral InfixExpression MethodInvocation SimpleName v
+) bad factor ( StringLiteral InfixExpression MethodInvocation SimpleName name
+c SimpleName InfixExpression StringLiteral ) for
+c SimpleName InfixExpression MethodInvocation SimpleName v
+c SimpleName InfixExpression MethodInvocation SimpleName name
+) for StringLiteral InfixExpression MethodInvocation SimpleName v
+) for StringLiteral InfixExpression MethodInvocation SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral value of
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName spec
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) bad factor (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName c
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) for
+v SimpleName MethodInvocation SimpleName get interval
+v SimpleName MethodInvocation InfixExpression SimpleName factor
+get interval SimpleName MethodInvocation InfixExpression SimpleName factor
+added SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName v
+added SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get interval
+added SimpleName VariableDeclarationFragment InfixExpression SimpleName factor
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName added
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName factor
+total SimpleName Assignment SimpleName added
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+se SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName spec
+se SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName total
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName duration of
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName spec
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName duration of
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName spec
+static Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+final Modifier MethodDeclaration PrimitiveType long
+final Modifier MethodDeclaration SimpleName duration of
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName spec
+final Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+final Modifier MethodDeclaration Block ReturnStatement SimpleName total
+long PrimitiveType MethodDeclaration SimpleName duration of
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName spec
+long PrimitiveType MethodDeclaration SimpleType SimpleName illegal argument exception
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName total
+duration of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName spec
+duration of SimpleName MethodDeclaration SimpleType SimpleName illegal argument exception
+duration of SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+duration of SimpleName MethodDeclaration Block ReturnStatement SimpleName total
+spec SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName duration of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spec
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName duration of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spec
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception

@@ -1,0 +1,69 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName InfixExpression StringLiteral is absolute should be true
+path SimpleName MethodInvocation SimpleName is absolute
+assert true SimpleName MethodInvocation InfixExpression SimpleName path
+assert true SimpleName MethodInvocation InfixExpression StringLiteral is absolute should be true
+assert true SimpleName MethodInvocation MethodInvocation SimpleName path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is absolute
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is absolute
+is absolute should be true StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+is absolute should be true StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is absolute
+path SimpleName InfixExpression StringLiteral get root should not be null
+path SimpleName MethodInvocation SimpleName get root
+assert not null SimpleName MethodInvocation InfixExpression SimpleName path
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral get root should not be null
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName path
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get root
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get root
+get root should not be null StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+get root should not be null StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get root
+path SimpleName MethodInvocation SimpleName get root
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+get root SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation SimpleName root
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root
+root SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName InfixExpression StringLiteral is absolute should be false
+path SimpleName MethodInvocation SimpleName is absolute
+assert false SimpleName MethodInvocation InfixExpression SimpleName path
+assert false SimpleName MethodInvocation InfixExpression StringLiteral is absolute should be false
+assert false SimpleName MethodInvocation MethodInvocation SimpleName path
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is absolute
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is absolute
+is absolute should be false StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+is absolute should be false StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is absolute
+path SimpleName InfixExpression StringLiteral get root should be null
+path SimpleName MethodInvocation SimpleName get root
+assert null SimpleName MethodInvocation InfixExpression SimpleName path
+assert null SimpleName MethodInvocation InfixExpression StringLiteral get root should be null
+assert null SimpleName MethodInvocation MethodInvocation SimpleName path
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get root
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get root
+get root should be null StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+get root should be null StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get root
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test root
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName test root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+test root SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+test root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

@@ -1,0 +1,84 @@
+builtin identitiesconstants QualifiedName SimpleType TypeLiteral MethodInvocation SimpleName get fields
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName get fields
+field SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName get modifiers
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mods
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName f
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+modifier SimpleName MethodInvocation SimpleName is static
+modifier SimpleName MethodInvocation SimpleName mods
+is static SimpleName MethodInvocation SimpleName mods
+modifier SimpleName MethodInvocation SimpleName is final
+modifier SimpleName MethodInvocation SimpleName mods
+is final SimpleName MethodInvocation SimpleName mods
+class SimpleName SimpleType ParameterizedType WildcardType ?
+f SimpleName MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type
+is assignable from SimpleName MethodInvocation SimpleName type
+f SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+f SimpleName MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName f
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName f
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+builtin identities SimpleName MethodInvocation SimpleName from name
+builtin identities SimpleName MethodInvocation SimpleName value
+from name SimpleName MethodInvocation SimpleName value
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName builtin identities
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName from name
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+builtin identities SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+no match found for field StringLiteral InfixExpression SimpleName name
+no match found for field StringLiteral InfixExpression StringLiteral =
+no match found for field StringLiteral InfixExpression SimpleName value
+name SimpleName InfixExpression StringLiteral =
+name SimpleName InfixExpression SimpleName value
+= StringLiteral InfixExpression SimpleName value
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral no match found for field
+assert not null SimpleName MethodInvocation InfixExpression SimpleName name
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral =
+assert not null SimpleName MethodInvocation InfixExpression SimpleName value
+assert not null SimpleName MethodInvocation SimpleName id
+no match found for field StringLiteral InfixExpression MethodInvocation SimpleName id
+name SimpleName InfixExpression MethodInvocation SimpleName id
+= StringLiteral InfixExpression MethodInvocation SimpleName id
+value SimpleName InfixExpression MethodInvocation SimpleName id
+field SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName fields
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName fields
+fields SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test all constants covered
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test all constants covered
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName fields
+void PrimitiveType MethodDeclaration SimpleName test all constants covered
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName fields
+test all constants covered SimpleName MethodDeclaration SimpleType SimpleName exception
+test all constants covered SimpleName MethodDeclaration Block EnhancedForStatement SimpleName fields
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test all constants covered
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test all constants covered
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,188 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName other
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName as t
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+check path SimpleName MethodInvocation SimpleName other
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName check path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName other
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get root
+p SimpleName MethodInvocation SimpleName get root
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get root
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get root
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get root
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get root
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root
+get root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root
+paths have different roots StringLiteral InfixExpression StringLiteral empty
+paths have different roots StringLiteral InfixExpression SimpleName other
+empty StringLiteral InfixExpression SimpleName other
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral paths have different roots
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName other
+p SimpleName MethodInvocation SimpleName equals
+p SimpleName MethodInvocation SimpleName p
+equals SimpleName MethodInvocation SimpleName p
+p names QualifiedName MethodInvocation SimpleName is empty
+p root QualifiedName InfixExpression InfixExpression MethodInvocation QualifiedName p names
+p root QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+shared subsequence length SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName shared subsequence length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+p names QualifiedName MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation SimpleName size
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation QualifiedName p names
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+math SimpleName MethodInvocation MethodInvocation QualifiedName p names
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation MethodInvocation QualifiedName p names
+min SimpleName MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation MethodInvocation QualifiedName p names
+min SimpleName MethodInvocation MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName p names
+p names QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName p names
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName math
+i SimpleName InfixExpression MethodInvocation SimpleName min
+i SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName p names
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName p names
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation SimpleName get
+p names QualifiedName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+p names QualifiedName MethodInvocation SimpleName get
+p names QualifiedName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+p names QualifiedName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+i SimpleName MethodInvocation MethodInvocation SimpleName equals
+p names QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName p names
+p names QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+p names QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName p names
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName p names
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+equals SimpleName MethodInvocation MethodInvocation QualifiedName p names
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+p names QualifiedName MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation InfixExpression SimpleName shared subsequence length
+size SimpleName MethodInvocation InfixExpression SimpleName shared subsequence length
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName p names
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+math SimpleName MethodInvocation InfixExpression SimpleName shared subsequence length
+max SimpleName MethodInvocation NumberLiteral empty
+max SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName p names
+max SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+max SimpleName MethodInvocation InfixExpression SimpleName shared subsequence length
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName p names
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation InfixExpression SimpleName shared subsequence length
+extra names in this SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+extra names in this SimpleName VariableDeclarationFragment MethodInvocation SimpleName max
+extra names in this SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+extra names in this SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName shared subsequence length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName extra names in this
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+p names QualifiedName MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation InfixExpression SimpleName shared subsequence length
+size SimpleName MethodInvocation InfixExpression SimpleName shared subsequence length
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+string SimpleName SimpleType MethodInvocation SimpleName empty list
+p names QualifiedName MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation SimpleName sub list
+p names QualifiedName MethodInvocation SimpleName shared subsequence length
+p names QualifiedName MethodInvocation MethodInvocation QualifiedName p names
+p names QualifiedName MethodInvocation MethodInvocation SimpleName size
+sub list SimpleName MethodInvocation SimpleName shared subsequence length
+sub list SimpleName MethodInvocation MethodInvocation QualifiedName p names
+sub list SimpleName MethodInvocation MethodInvocation SimpleName size
+shared subsequence length SimpleName MethodInvocation MethodInvocation QualifiedName p names
+shared subsequence length SimpleName MethodInvocation MethodInvocation SimpleName size
+collections SimpleName MethodInvocation ConditionalExpression MethodInvocation QualifiedName p names
+collections SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName sub list
+collections SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName shared subsequence length
+empty list SimpleName MethodInvocation ConditionalExpression MethodInvocation QualifiedName p names
+empty list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName sub list
+empty list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName shared subsequence length
+extra names in other SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName collections
+extra names in other SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName empty list
+extra names in other SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation QualifiedName p names
+extra names in other SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName sub list
+extra names in other SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName shared subsequence length
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extra names in other SimpleName MethodInvocation SimpleName size
+extra names in this SimpleName InfixExpression MethodInvocation SimpleName extra names in other
+extra names in this SimpleName InfixExpression MethodInvocation SimpleName size
+parts SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName extra names in this
+collections SimpleName MethodInvocation SimpleName n copies
+collections SimpleName MethodInvocation SimpleName extra names in this
+collections SimpleName MethodInvocation StringLiteral ..
+n copies SimpleName MethodInvocation SimpleName extra names in this
+n copies SimpleName MethodInvocation StringLiteral ..
+extra names in this SimpleName MethodInvocation StringLiteral ..
+parts SimpleName MethodInvocation SimpleName add all
+parts SimpleName MethodInvocation MethodInvocation SimpleName collections
+parts SimpleName MethodInvocation MethodInvocation SimpleName n copies
+parts SimpleName MethodInvocation MethodInvocation SimpleName extra names in this
+parts SimpleName MethodInvocation MethodInvocation StringLiteral ..
+add all SimpleName MethodInvocation MethodInvocation SimpleName collections
+add all SimpleName MethodInvocation MethodInvocation SimpleName n copies
+add all SimpleName MethodInvocation MethodInvocation SimpleName extra names in this
+add all SimpleName MethodInvocation MethodInvocation StringLiteral ..
+parts SimpleName MethodInvocation SimpleName add all
+parts SimpleName MethodInvocation SimpleName extra names in other
+add all SimpleName MethodInvocation SimpleName extra names in other
+create SimpleName MethodInvocation SimpleName parts
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName relativize
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName relativize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+t SimpleName SimpleType MethodDeclaration SimpleName relativize
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName other
+relativize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+relativize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+relativize SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+relativize SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName relativize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName relativize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

@@ -1,0 +1,102 @@
+security utils SimpleName MethodInvocation SimpleName is bouncy castle registered
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral boncy castle not registered
+assume SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+assume true SimpleName MethodInvocation StringLiteral boncy castle not registered
+assume true SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+boncy castle not registered StringLiteral MethodInvocation MethodInvocation SimpleName security utils
+boncy castle not registered StringLiteral MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+agent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName agent server
+agent server SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName agent
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth socket
+agent SimpleName MethodInvocation SimpleName start
+auth socket SimpleName Assignment MethodInvocation SimpleName agent
+auth socket SimpleName Assignment MethodInvocation SimpleName start
+unsatisfied link error SimpleName SimpleType SingleVariableDeclaration SimpleName e
+assume that SimpleName MethodInvocation SimpleName auth socket
+assume that SimpleName MethodInvocation MethodInvocation SimpleName not null value
+auth socket SimpleName MethodInvocation MethodInvocation SimpleName not null value
+agent client SimpleName SimpleType ClassInstanceCreation SimpleName auth socket
+client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName agent client
+client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName auth socket
+ssh agent SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+ssh agentpair QualifiedName SimpleType ParameterizedType SimpleType SimpleName public key
+ssh agentpair QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+public key SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+client SimpleName MethodInvocation SimpleName get identities
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identities
+assert not null SimpleName MethodInvocation SimpleName keys
+keys SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName keys
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName keys
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+utils SimpleName MethodInvocation SimpleName create test host key provider
+utils SimpleName MethodInvocation MethodInvocation SimpleName load key
+create test host key provider SimpleName MethodInvocation MethodInvocation SimpleName load key
+utils SimpleName MethodInvocation MethodInvocation QualifiedName key pair providerssh rsa
+create test host key provider SimpleName MethodInvocation MethodInvocation QualifiedName key pair providerssh rsa
+load key SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+k SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utils
+k SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create test host key provider
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName load key
+k SimpleName VariableDeclarationFragment MethodInvocation QualifiedName key pair providerssh rsa
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+client SimpleName MethodInvocation SimpleName add identity
+client SimpleName MethodInvocation SimpleName k
+client SimpleName MethodInvocation StringLiteral empty
+add identity SimpleName MethodInvocation SimpleName k
+add identity SimpleName MethodInvocation StringLiteral empty
+k SimpleName MethodInvocation StringLiteral empty
+client SimpleName MethodInvocation SimpleName get identities
+keys SimpleName Assignment MethodInvocation SimpleName client
+keys SimpleName Assignment MethodInvocation SimpleName get identities
+assert not null SimpleName MethodInvocation SimpleName keys
+keys SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName keys
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName keys
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+k SimpleName MethodInvocation SimpleName get public
+client SimpleName MethodInvocation SimpleName remove identity
+client SimpleName MethodInvocation MethodInvocation SimpleName k
+client SimpleName MethodInvocation MethodInvocation SimpleName get public
+remove identity SimpleName MethodInvocation MethodInvocation SimpleName k
+remove identity SimpleName MethodInvocation MethodInvocation SimpleName get public
+client SimpleName MethodInvocation SimpleName get identities
+keys SimpleName Assignment MethodInvocation SimpleName client
+keys SimpleName Assignment MethodInvocation SimpleName get identities
+assert not null SimpleName MethodInvocation SimpleName keys
+keys SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName keys
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName keys
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+client SimpleName MethodInvocation SimpleName remove all identities
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test agent
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test agent
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test agent
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test agent SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test agent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test agent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

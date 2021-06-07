@@ -1,0 +1,44 @@
+collection SimpleName SimpleType ParameterizedType WildcardType ?
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName params
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName params
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName params
+is empty SimpleName MethodInvocation SimpleName params
+collections SimpleName MethodInvocation SimpleName empty list
+params SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName params
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+object SimpleName SimpleType SingleVariableDeclaration SimpleName p
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName p
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName p
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName params
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName params
+params SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName parameterize
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName params
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName parameterize
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName params
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parameterize
+parameterize SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+parameterize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+parameterize SimpleName MethodDeclaration Block EnhancedForStatement SimpleName params
+parameterize SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName parameterize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parameterize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params

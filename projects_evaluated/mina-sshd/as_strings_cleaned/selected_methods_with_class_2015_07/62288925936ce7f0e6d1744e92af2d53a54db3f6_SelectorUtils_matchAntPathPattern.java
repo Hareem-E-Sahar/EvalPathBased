@@ -1,0 +1,374 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pattern
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+boolean PrimitiveType SingleVariableDeclaration SimpleName is case sensitive
+str SimpleName MethodInvocation SimpleName starts with
+str SimpleName MethodInvocation QualifiedName fileseparator
+starts with SimpleName MethodInvocation QualifiedName fileseparator
+pattern SimpleName MethodInvocation SimpleName starts with
+pattern SimpleName MethodInvocation QualifiedName fileseparator
+starts with SimpleName MethodInvocation QualifiedName fileseparator
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pattern
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+str SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName fileseparator
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pattern
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName fileseparator
+fileseparator QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName pattern
+fileseparator QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+fileseparator QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName fileseparator
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tokenize path SimpleName MethodInvocation SimpleName pattern
+tokenize path SimpleName MethodInvocation QualifiedName fileseparator
+pattern SimpleName MethodInvocation QualifiedName fileseparator
+pat dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName tokenize path
+pat dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+pat dirs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tokenize path SimpleName MethodInvocation SimpleName str
+tokenize path SimpleName MethodInvocation QualifiedName fileseparator
+str SimpleName MethodInvocation QualifiedName fileseparator
+str dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName tokenize path
+str dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+str dirs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator
+pat idx start SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat idx start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+pat dirs SimpleName MethodInvocation SimpleName size
+pat dirs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pat idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName pat dirs
+pat idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+pat idx end SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat idx end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+str idx start SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName str idx start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+str dirs SimpleName MethodInvocation SimpleName size
+str dirs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName str dirs
+str idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+str idx end SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName str idx end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+pat idx start SimpleName InfixExpression SimpleName pat idx end
+str idx start SimpleName InfixExpression SimpleName str idx end
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation SimpleName pat idx start
+get SimpleName MethodInvocation SimpleName pat idx start
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName pat dirs
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName pat idx start
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat dir
+pat dir SimpleName MethodInvocation SimpleName equals
+pat dir SimpleName MethodInvocation StringLiteral **
+equals SimpleName MethodInvocation StringLiteral **
+str dirs SimpleName MethodInvocation SimpleName get
+str dirs SimpleName MethodInvocation SimpleName str idx start
+get SimpleName MethodInvocation SimpleName str idx start
+match SimpleName MethodInvocation SimpleName pat dir
+match SimpleName MethodInvocation MethodInvocation SimpleName str dirs
+match SimpleName MethodInvocation MethodInvocation SimpleName get
+match SimpleName MethodInvocation MethodInvocation SimpleName str idx start
+match SimpleName MethodInvocation SimpleName is case sensitive
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName str dirs
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName get
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName str idx start
+pat dir SimpleName MethodInvocation SimpleName is case sensitive
+str dirs SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+get SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+str idx start SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+str idx start SimpleName InfixExpression SimpleName str idx end
+i SimpleName VariableDeclarationFragment SimpleName pat idx start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName pat idx start
+i SimpleName InfixExpression SimpleName pat idx end
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+pat dirs SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+i SimpleName MethodInvocation MethodInvocation SimpleName equals
+pat dirs SimpleName MethodInvocation MethodInvocation StringLiteral **
+get SimpleName MethodInvocation MethodInvocation StringLiteral **
+i SimpleName MethodInvocation MethodInvocation StringLiteral **
+equals SimpleName MethodInvocation StringLiteral **
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName pat idx end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pat idx end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pat idx start SimpleName InfixExpression SimpleName pat idx end
+pat idx start SimpleName InfixExpression SimpleName pat idx end
+str idx start SimpleName InfixExpression SimpleName str idx end
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation SimpleName pat idx end
+get SimpleName MethodInvocation SimpleName pat idx end
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName pat dirs
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName pat idx end
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat dir
+pat dir SimpleName MethodInvocation SimpleName equals
+pat dir SimpleName MethodInvocation StringLiteral **
+equals SimpleName MethodInvocation StringLiteral **
+str dirs SimpleName MethodInvocation SimpleName get
+str dirs SimpleName MethodInvocation SimpleName str idx end
+get SimpleName MethodInvocation SimpleName str idx end
+match SimpleName MethodInvocation SimpleName pat dir
+match SimpleName MethodInvocation MethodInvocation SimpleName str dirs
+match SimpleName MethodInvocation MethodInvocation SimpleName get
+match SimpleName MethodInvocation MethodInvocation SimpleName str idx end
+match SimpleName MethodInvocation SimpleName is case sensitive
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName str dirs
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName get
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName str idx end
+pat dir SimpleName MethodInvocation SimpleName is case sensitive
+str dirs SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+get SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+str idx end SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+str idx start SimpleName InfixExpression SimpleName str idx end
+i SimpleName VariableDeclarationFragment SimpleName pat idx start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName pat idx start
+i SimpleName InfixExpression SimpleName pat idx end
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+pat dirs SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+i SimpleName MethodInvocation MethodInvocation SimpleName equals
+pat dirs SimpleName MethodInvocation MethodInvocation StringLiteral **
+get SimpleName MethodInvocation MethodInvocation StringLiteral **
+i SimpleName MethodInvocation MethodInvocation StringLiteral **
+equals SimpleName MethodInvocation StringLiteral **
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName pat idx end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pat idx end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pat idx start SimpleName InfixExpression SimpleName pat idx end
+str idx start SimpleName InfixExpression SimpleName str idx end
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat idx tmp SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat idx tmp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+pat idx start SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName pat idx start
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression SimpleName pat idx start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression SimpleName pat idx end
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+pat dirs SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+i SimpleName MethodInvocation MethodInvocation SimpleName equals
+pat dirs SimpleName MethodInvocation MethodInvocation StringLiteral **
+get SimpleName MethodInvocation MethodInvocation StringLiteral **
+i SimpleName MethodInvocation MethodInvocation StringLiteral **
+equals SimpleName MethodInvocation StringLiteral **
+pat idx tmp SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName pat idx end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pat idx end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pat idx start SimpleName InfixExpression NumberLiteral empty
+pat idx tmp SimpleName InfixExpression InfixExpression SimpleName pat idx start
+pat idx tmp SimpleName InfixExpression InfixExpression NumberLiteral empty
+pat idx tmp SimpleName InfixExpression SimpleName pat idx start
+pat idx tmp SimpleName InfixExpression NumberLiteral empty
+pat idx start SimpleName InfixExpression NumberLiteral empty
+pat length SimpleName VariableDeclarationFragment InfixExpression SimpleName pat idx tmp
+pat length SimpleName VariableDeclarationFragment InfixExpression SimpleName pat idx start
+pat length SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName pat idx tmp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName pat idx start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+str idx end SimpleName InfixExpression SimpleName str idx start
+str idx end SimpleName InfixExpression InfixExpression NumberLiteral empty
+str idx start SimpleName InfixExpression InfixExpression NumberLiteral empty
+str length SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName str idx end
+str length SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName str idx start
+str length SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName str length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+found idx SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName found idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+str length SimpleName InfixExpression SimpleName pat length
+i SimpleName InfixExpression InfixExpression SimpleName str length
+i SimpleName InfixExpression InfixExpression SimpleName pat length
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName pat length
+pat idx start SimpleName InfixExpression SimpleName j
+pat idx start SimpleName InfixExpression NumberLiteral empty
+j SimpleName InfixExpression NumberLiteral empty
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation InfixExpression SimpleName pat idx start
+pat dirs SimpleName MethodInvocation InfixExpression SimpleName j
+pat dirs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName pat idx start
+get SimpleName MethodInvocation InfixExpression SimpleName j
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sub pat SimpleName VariableDeclarationFragment MethodInvocation SimpleName pat dirs
+sub pat SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sub pat SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName pat idx start
+sub pat SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName j
+sub pat SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sub pat
+str idx start SimpleName InfixExpression SimpleName i
+str idx start SimpleName InfixExpression SimpleName j
+i SimpleName InfixExpression SimpleName j
+str dirs SimpleName MethodInvocation SimpleName get
+str dirs SimpleName MethodInvocation InfixExpression SimpleName str idx start
+str dirs SimpleName MethodInvocation InfixExpression SimpleName i
+str dirs SimpleName MethodInvocation InfixExpression SimpleName j
+get SimpleName MethodInvocation InfixExpression SimpleName str idx start
+get SimpleName MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation InfixExpression SimpleName j
+sub str SimpleName VariableDeclarationFragment MethodInvocation SimpleName str dirs
+sub str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sub str SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName str idx start
+sub str SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName i
+sub str SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName j
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sub str
+match SimpleName MethodInvocation SimpleName sub pat
+match SimpleName MethodInvocation SimpleName sub str
+match SimpleName MethodInvocation SimpleName is case sensitive
+sub pat SimpleName MethodInvocation SimpleName sub str
+sub pat SimpleName MethodInvocation SimpleName is case sensitive
+sub str SimpleName MethodInvocation SimpleName is case sensitive
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName pat length
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+pat length SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+str idx start SimpleName InfixExpression SimpleName i
+found idx SimpleName Assignment InfixExpression SimpleName str idx start
+found idx SimpleName Assignment InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+str loop SimpleName LabeledStatement ForStatement VariableDeclarationExpression PrimitiveType int
+str loop SimpleName LabeledStatement ForStatement InfixExpression SimpleName i
+str loop SimpleName LabeledStatement ForStatement PostfixExpression SimpleName i
+found idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+pat idx start SimpleName Assignment SimpleName pat idx tmp
+found idx SimpleName InfixExpression SimpleName pat length
+str idx start SimpleName Assignment InfixExpression SimpleName found idx
+str idx start SimpleName Assignment InfixExpression SimpleName pat length
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName str loop
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName str loop
+int PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName str loop
+i SimpleName VariableDeclarationFragment SimpleName pat idx start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName pat idx start
+i SimpleName InfixExpression SimpleName pat idx end
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+pat dirs SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+i SimpleName MethodInvocation MethodInvocation SimpleName equals
+pat dirs SimpleName MethodInvocation MethodInvocation StringLiteral **
+get SimpleName MethodInvocation MethodInvocation StringLiteral **
+i SimpleName MethodInvocation MethodInvocation StringLiteral **
+equals SimpleName MethodInvocation StringLiteral **
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName pat idx end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pat idx end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName match ant path pattern
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName match ant path pattern
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+boolean PrimitiveType MethodDeclaration SimpleName match ant path pattern
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pattern
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+match ant path pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match ant path pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pattern
+match ant path pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match ant path pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+match ant path pattern SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+match ant path pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+match ant path pattern SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+match ant path pattern SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+match ant path pattern SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+match ant path pattern SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+match ant path pattern SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName match ant path pattern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName match ant path pattern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive

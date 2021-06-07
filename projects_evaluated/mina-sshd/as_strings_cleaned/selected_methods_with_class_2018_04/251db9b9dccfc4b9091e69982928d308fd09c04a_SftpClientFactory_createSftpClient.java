@@ -1,0 +1,25 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+sftp version selector SimpleName SimpleType SingleVariableDeclaration SimpleName selector
+sftp client SimpleName SimpleType MethodDeclaration SimpleName create sftp client
+sftp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+sftp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName selector
+sftp client SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp version selector
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selector
+create sftp client SimpleName MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+selector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+public Modifier TypeDeclaration MethodDeclaration SimpleName create sftp client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create sftp client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,61 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+int PrimitiveType SingleVariableDeclaration SimpleName max index
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression SimpleName max index
+args SimpleName ArrayAccess SimpleName index
+arg name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+arg name SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arg name
+v StringLiteral MethodInvocation SimpleName equals
+v StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+vv StringLiteral MethodInvocation SimpleName equals
+vv StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+vvv StringLiteral MethodInvocation SimpleName equals
+vvv StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+max index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName level
+public Modifier MethodDeclaration SimpleName resolve logging verbosity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max index
+static Modifier MethodDeclaration SimpleType SimpleName level
+static Modifier MethodDeclaration SimpleName resolve logging verbosity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName max index
+static Modifier MethodDeclaration Block ReturnStatement QualifiedName levelwarning
+level SimpleName SimpleType MethodDeclaration SimpleName resolve logging verbosity
+level SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+level SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+level SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName max index
+resolve logging verbosity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+resolve logging verbosity SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+resolve logging verbosity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max index
+resolve logging verbosity SimpleName MethodDeclaration Block ReturnStatement QualifiedName levelwarning
+args SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+args SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName level
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve logging verbosity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve logging verbosity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max index

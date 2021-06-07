@@ -1,0 +1,91 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+int PrimitiveType SingleVariableDeclaration SimpleName flags
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+cannot determine existence for attributes of StringLiteral InfixExpression SimpleName file
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot determine existence for attributes of
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+handle unknown status file attributes StringLiteral InfixExpression SimpleName file
+handle unknown status file attributes StringLiteral InfixExpression StringLiteral ) cannot determine existence
+file SimpleName InfixExpression StringLiteral ) cannot determine existence
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral handle unknown status file attributes
+log SimpleName MethodInvocation InfixExpression SimpleName file
+log SimpleName MethodInvocation InfixExpression StringLiteral ) cannot determine existence
+warn SimpleName MethodInvocation InfixExpression StringLiteral handle unknown status file attributes
+warn SimpleName MethodInvocation InfixExpression SimpleName file
+warn SimpleName MethodInvocation InfixExpression StringLiteral ) cannot determine existence
+handle unknown status file attributes StringLiteral InfixExpression SimpleName file
+handle unknown status file attributes StringLiteral InfixExpression StringLiteral ) unknown policy
+handle unknown status file attributes StringLiteral InfixExpression SimpleName unsupported attribute policy
+file SimpleName InfixExpression StringLiteral ) unknown policy
+file SimpleName InfixExpression SimpleName unsupported attribute policy
+) unknown policy StringLiteral InfixExpression SimpleName unsupported attribute policy
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral handle unknown status file attributes
+log SimpleName MethodInvocation InfixExpression SimpleName file
+log SimpleName MethodInvocation InfixExpression StringLiteral ) unknown policy
+log SimpleName MethodInvocation InfixExpression SimpleName unsupported attribute policy
+warn SimpleName MethodInvocation InfixExpression StringLiteral handle unknown status file attributes
+warn SimpleName MethodInvocation InfixExpression SimpleName file
+warn SimpleName MethodInvocation InfixExpression StringLiteral ) unknown policy
+warn SimpleName MethodInvocation InfixExpression SimpleName unsupported attribute policy
+unsupported attribute policy SimpleName SwitchStatement SwitchCase SimpleName ignore
+unsupported attribute policy SimpleName SwitchStatement SwitchCase SimpleName throw exception
+unsupported attribute policy SimpleName SwitchStatement SwitchCase SimpleName warn
+ignore SimpleName SwitchCase SwitchStatement SwitchCase SimpleName throw exception
+ignore SimpleName SwitchCase SwitchStatement SwitchCase SimpleName warn
+throw exception SimpleName SwitchCase SwitchStatement SwitchCase SimpleName warn
+get attributes SimpleName MethodInvocation SimpleName file
+get attributes SimpleName MethodInvocation SimpleName flags
+get attributes SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName flags
+file SimpleName MethodInvocation SimpleName options
+flags SimpleName MethodInvocation SimpleName options
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName handle unknown status file attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName flags
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName handle unknown status file attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName handle unknown status file attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName handle unknown status file attributes
+handle unknown status file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+handle unknown status file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+handle unknown status file attributes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+handle unknown status file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flags
+handle unknown status file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+handle unknown status file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+handle unknown status file attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle unknown status file attributes SimpleName MethodDeclaration Block SwitchStatement SimpleName unsupported attribute policy
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+flags SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+flags SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle unknown status file attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle unknown status file attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

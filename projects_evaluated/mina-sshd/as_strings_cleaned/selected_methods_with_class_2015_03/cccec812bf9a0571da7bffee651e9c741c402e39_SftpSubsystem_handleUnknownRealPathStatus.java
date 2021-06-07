@@ -1,0 +1,127 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName SimpleType SingleVariableDeclaration SimpleName absolute
+path SimpleName SimpleType SingleVariableDeclaration SimpleName normalized
+handle unknown real path status StringLiteral InfixExpression SimpleName path
+handle unknown real path status StringLiteral InfixExpression StringLiteral ) abs
+handle unknown real path status StringLiteral InfixExpression SimpleName absolute
+handle unknown real path status StringLiteral InfixExpression StringLiteral normal
+handle unknown real path status StringLiteral InfixExpression SimpleName normalized
+path SimpleName InfixExpression StringLiteral ) abs
+path SimpleName InfixExpression SimpleName absolute
+path SimpleName InfixExpression StringLiteral normal
+path SimpleName InfixExpression SimpleName normalized
+) abs StringLiteral InfixExpression SimpleName absolute
+) abs StringLiteral InfixExpression StringLiteral normal
+) abs StringLiteral InfixExpression SimpleName normalized
+absolute SimpleName InfixExpression StringLiteral normal
+absolute SimpleName InfixExpression SimpleName normalized
+normal StringLiteral InfixExpression SimpleName normalized
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral handle unknown real path status
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral ) abs
+log SimpleName MethodInvocation InfixExpression SimpleName absolute
+log SimpleName MethodInvocation InfixExpression StringLiteral normal
+log SimpleName MethodInvocation InfixExpression SimpleName normalized
+warn SimpleName MethodInvocation InfixExpression StringLiteral handle unknown real path status
+warn SimpleName MethodInvocation InfixExpression SimpleName path
+warn SimpleName MethodInvocation InfixExpression StringLiteral ) abs
+warn SimpleName MethodInvocation InfixExpression SimpleName absolute
+warn SimpleName MethodInvocation InfixExpression StringLiteral normal
+warn SimpleName MethodInvocation InfixExpression SimpleName normalized
+cannot determine existence status of real path StringLiteral InfixExpression SimpleName normalized
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot determine existence status of real path
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName normalized
+handle unknown real path status StringLiteral InfixExpression SimpleName path
+handle unknown real path status StringLiteral InfixExpression StringLiteral ) abs
+handle unknown real path status StringLiteral InfixExpression SimpleName absolute
+handle unknown real path status StringLiteral InfixExpression StringLiteral normal
+handle unknown real path status StringLiteral InfixExpression SimpleName normalized
+path SimpleName InfixExpression StringLiteral ) abs
+path SimpleName InfixExpression SimpleName absolute
+path SimpleName InfixExpression StringLiteral normal
+path SimpleName InfixExpression SimpleName normalized
+path SimpleName InfixExpression StringLiteral - unknown policy
+) abs StringLiteral InfixExpression SimpleName absolute
+) abs StringLiteral InfixExpression StringLiteral normal
+) abs StringLiteral InfixExpression SimpleName normalized
+) abs StringLiteral InfixExpression StringLiteral - unknown policy
+) abs StringLiteral InfixExpression SimpleName unsupported attribute policy
+absolute SimpleName InfixExpression StringLiteral normal
+absolute SimpleName InfixExpression SimpleName normalized
+absolute SimpleName InfixExpression StringLiteral - unknown policy
+absolute SimpleName InfixExpression SimpleName unsupported attribute policy
+normal StringLiteral InfixExpression SimpleName normalized
+normal StringLiteral InfixExpression StringLiteral - unknown policy
+normal StringLiteral InfixExpression SimpleName unsupported attribute policy
+normalized SimpleName InfixExpression StringLiteral - unknown policy
+normalized SimpleName InfixExpression SimpleName unsupported attribute policy
+- unknown policy StringLiteral InfixExpression SimpleName unsupported attribute policy
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral handle unknown real path status
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral ) abs
+log SimpleName MethodInvocation InfixExpression SimpleName absolute
+log SimpleName MethodInvocation InfixExpression StringLiteral normal
+log SimpleName MethodInvocation InfixExpression SimpleName normalized
+log SimpleName MethodInvocation InfixExpression StringLiteral - unknown policy
+log SimpleName MethodInvocation InfixExpression SimpleName unsupported attribute policy
+warn SimpleName MethodInvocation InfixExpression StringLiteral handle unknown real path status
+warn SimpleName MethodInvocation InfixExpression SimpleName path
+warn SimpleName MethodInvocation InfixExpression StringLiteral ) abs
+warn SimpleName MethodInvocation InfixExpression SimpleName absolute
+warn SimpleName MethodInvocation InfixExpression StringLiteral normal
+warn SimpleName MethodInvocation InfixExpression SimpleName normalized
+warn SimpleName MethodInvocation InfixExpression StringLiteral - unknown policy
+warn SimpleName MethodInvocation InfixExpression SimpleName unsupported attribute policy
+unsupported attribute policy SimpleName SwitchStatement SwitchCase SimpleName ignore
+unsupported attribute policy SimpleName SwitchStatement SwitchCase SimpleName warn
+unsupported attribute policy SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName log
+unsupported attribute policy SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName warn
+ignore SimpleName SwitchCase SwitchStatement SwitchCase SimpleName warn
+ignore SimpleName SwitchCase SwitchStatement SwitchCase SimpleName throw exception
+warn SimpleName SwitchCase SwitchStatement SwitchCase SimpleName throw exception
+unsupported attribute policy SimpleName SwitchStatement Block ReturnStatement SimpleName absolute
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName handle unknown real path status
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName absolute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName normalized
+path SimpleName SimpleType MethodDeclaration SimpleName handle unknown real path status
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName absolute
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName normalized
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+handle unknown real path status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle unknown real path status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+handle unknown real path status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+handle unknown real path status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName absolute
+handle unknown real path status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+handle unknown real path status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName normalized
+handle unknown real path status SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle unknown real path status SimpleName MethodDeclaration Block SwitchStatement SimpleName unsupported attribute policy
+handle unknown real path status SimpleName MethodDeclaration Block ReturnStatement SimpleName absolute
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName absolute
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName normalized
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+absolute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName normalized
+absolute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+normalized SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle unknown real path status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName absolute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName normalized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle unknown real path status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName absolute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName normalized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

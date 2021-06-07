@@ -1,0 +1,100 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+dsa public key SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+dsa public key SimpleName SimpleType SingleVariableDeclaration SimpleName actual
+expected SimpleName InfixExpression SimpleName actual
+message SimpleName InfixExpression StringLiteral y
+expected SimpleName MethodInvocation SimpleName get y
+actual SimpleName MethodInvocation SimpleName get y
+assert equals SimpleName MethodInvocation InfixExpression SimpleName message
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral y
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get y
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get y
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get y
+y StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+y StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get y
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get y
+y StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+y StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get y
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+message SimpleName InfixExpression StringLiteral params
+expected SimpleName MethodInvocation SimpleName get params
+actual SimpleName MethodInvocation SimpleName get params
+assert dsa params equals SimpleName MethodInvocation InfixExpression SimpleName message
+assert dsa params equals SimpleName MethodInvocation InfixExpression StringLiteral params
+assert dsa params equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert dsa params equals SimpleName MethodInvocation MethodInvocation SimpleName get params
+assert dsa params equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert dsa params equals SimpleName MethodInvocation MethodInvocation SimpleName get params
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get params
+params StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+params StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get params
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get params
+params StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+params StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get params
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get params
+get params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+get params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get params
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert dsa public key equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert dsa public key equals
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName assert dsa public key equals
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName actual
+void PrimitiveType MethodDeclaration SimpleName assert dsa public key equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName actual
+assert dsa public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert dsa public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+assert dsa public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+assert dsa public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert dsa public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+assert dsa public key equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert dsa public key equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert dsa public key equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual

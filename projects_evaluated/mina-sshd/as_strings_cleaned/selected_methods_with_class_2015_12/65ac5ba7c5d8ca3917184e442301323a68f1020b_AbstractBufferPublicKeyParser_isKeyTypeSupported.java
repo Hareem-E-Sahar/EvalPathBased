@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get supported key types
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName key type
+length SimpleName MethodInvocation SimpleName key type
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key type SimpleName MethodInvocation InfixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName keys
+size SimpleName MethodInvocation SimpleName keys
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+keys SimpleName MethodInvocation InfixExpression NumberLiteral empty
+keys SimpleName MethodInvocation SimpleName contains
+keys SimpleName MethodInvocation SimpleName key type
+contains SimpleName MethodInvocation SimpleName key type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is key type supported
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is key type supported
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+boolean PrimitiveType MethodDeclaration SimpleName is key type supported
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key type
+is key type supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is key type supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is key type supported
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is key type supported
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type

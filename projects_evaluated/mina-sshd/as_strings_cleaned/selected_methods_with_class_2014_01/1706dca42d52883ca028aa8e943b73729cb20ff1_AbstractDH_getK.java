@@ -1,0 +1,21 @@
+k array SimpleName Assignment MethodInvocation SimpleName calculate k
+big integer SimpleName SimpleType ClassInstanceCreation SimpleName k array
+k SimpleName Assignment ClassInstanceCreation SimpleType SimpleName big integer
+k SimpleName Assignment ClassInstanceCreation SimpleName k array
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get k
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName k array
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get k
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName exception
+get k SimpleName MethodDeclaration SimpleType SimpleName exception
+get k SimpleName MethodDeclaration Block ReturnStatement SimpleName k array
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get k
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get k
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

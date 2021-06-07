@@ -1,0 +1,12 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+channels SimpleName MethodInvocation SimpleName values
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName channel
+public Modifier MethodDeclaration SimpleName get channels
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get channels
+channel SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get channels
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get channels
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get channels

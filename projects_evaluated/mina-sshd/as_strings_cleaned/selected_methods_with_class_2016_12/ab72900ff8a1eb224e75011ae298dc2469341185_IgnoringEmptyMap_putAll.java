@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName m
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName put all
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put all
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SimpleName put all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+put all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

@@ -1,0 +1,15 @@
+key pair SimpleName SimpleType MethodDeclaration SimpleName get client identity
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+get client identity SimpleName MethodDeclaration SimpleType SimpleName io exception
+get client identity SimpleName MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client identity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client identity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

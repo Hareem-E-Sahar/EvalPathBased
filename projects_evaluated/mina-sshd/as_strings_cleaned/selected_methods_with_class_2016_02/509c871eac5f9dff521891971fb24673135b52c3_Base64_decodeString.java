@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName s
+is empty SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName get bytes
+s SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+decode base SimpleName MethodInvocation MethodInvocation SimpleName s
+decode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode base SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName decode string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName decode string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+byte PrimitiveType ArrayType MethodDeclaration SimpleName decode string
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName s
+decode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+decode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

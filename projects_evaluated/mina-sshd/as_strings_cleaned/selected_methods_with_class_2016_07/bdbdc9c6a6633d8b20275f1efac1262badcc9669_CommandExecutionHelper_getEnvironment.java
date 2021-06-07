@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName environment
+public Modifier MethodDeclaration SimpleName get environment
+public Modifier MethodDeclaration Block ReturnStatement SimpleName environment
+environment SimpleName SimpleType MethodDeclaration SimpleName get environment
+get environment SimpleName MethodDeclaration Block ReturnStatement SimpleName environment
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName environment
+public Modifier TypeDeclaration MethodDeclaration SimpleName get environment
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName environment
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get environment

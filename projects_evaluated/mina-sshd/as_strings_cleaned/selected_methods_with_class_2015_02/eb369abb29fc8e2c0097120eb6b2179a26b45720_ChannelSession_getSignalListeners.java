@@ -1,0 +1,52 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName signal listener
+signal SimpleName SimpleType SingleVariableDeclaration SimpleName signal
+boolean PrimitiveType SingleVariableDeclaration SimpleName create
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName signal listener
+listeners SimpleName MethodInvocation SimpleName get
+listeners SimpleName MethodInvocation SimpleName signal
+get SimpleName MethodInvocation SimpleName signal
+ls SimpleName VariableDeclarationFragment MethodInvocation SimpleName listeners
+ls SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ls SimpleName VariableDeclarationFragment MethodInvocation SimpleName signal
+ls SimpleName InfixExpression InfixExpression SimpleName create
+listeners SimpleName MethodInvocation SimpleName get
+listeners SimpleName MethodInvocation SimpleName signal
+get SimpleName MethodInvocation SimpleName signal
+ls SimpleName Assignment MethodInvocation SimpleName listeners
+ls SimpleName Assignment MethodInvocation SimpleName get
+ls SimpleName Assignment MethodInvocation SimpleName signal
+copy on write array set SimpleName SimpleType ParameterizedType SimpleType SimpleName signal listener
+listeners SimpleName MethodInvocation SimpleName put
+listeners SimpleName MethodInvocation SimpleName signal
+listeners SimpleName MethodInvocation SimpleName ls
+put SimpleName MethodInvocation SimpleName signal
+put SimpleName MethodInvocation SimpleName ls
+signal SimpleName MethodInvocation SimpleName ls
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName signal listener
+protected Modifier MethodDeclaration SimpleName get signal listeners
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName signal
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName create
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ls
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get signal listeners
+signal listener SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get signal listeners
+get signal listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signal
+get signal listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName signal
+get signal listeners SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get signal listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName create
+get signal listeners SimpleName MethodDeclaration Block ReturnStatement SimpleName ls
+signal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+signal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get signal listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get signal listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create

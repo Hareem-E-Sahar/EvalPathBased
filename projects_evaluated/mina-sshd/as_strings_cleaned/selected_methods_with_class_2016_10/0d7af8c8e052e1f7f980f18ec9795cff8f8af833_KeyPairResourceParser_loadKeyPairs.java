@@ -1,0 +1,95 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+file password provider SimpleName SimpleType SingleVariableDeclaration SimpleName password provider
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+collections SimpleName MethodInvocation SimpleName empty list
+key pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+key pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+key pair resource parser SimpleName SimpleType SingleVariableDeclaration SimpleName p
+p SimpleName MethodInvocation SimpleName can extract key pairs
+p SimpleName MethodInvocation SimpleName resource key
+p SimpleName MethodInvocation SimpleName lines
+can extract key pairs SimpleName MethodInvocation SimpleName resource key
+can extract key pairs SimpleName MethodInvocation SimpleName lines
+resource key SimpleName MethodInvocation SimpleName lines
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+p SimpleName MethodInvocation SimpleName load key pairs
+p SimpleName MethodInvocation SimpleName resource key
+p SimpleName MethodInvocation SimpleName password provider
+p SimpleName MethodInvocation SimpleName lines
+load key pairs SimpleName MethodInvocation SimpleName resource key
+load key pairs SimpleName MethodInvocation SimpleName password provider
+load key pairs SimpleName MethodInvocation SimpleName lines
+resource key SimpleName MethodInvocation SimpleName password provider
+resource key SimpleName MethodInvocation SimpleName lines
+password provider SimpleName MethodInvocation SimpleName lines
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName load key pairs
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource key
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName password provider
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName lines
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName kps
+is empty SimpleName MethodInvocation SimpleName kps
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName key pairs
+is empty SimpleName MethodInvocation SimpleName key pairs
+linked list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName kps
+key pairs SimpleName Assignment ClassInstanceCreation SimpleName kps
+key pairs SimpleName MethodInvocation SimpleName add all
+key pairs SimpleName MethodInvocation SimpleName kps
+add all SimpleName MethodInvocation SimpleName kps
+key pair resource parser SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName parsers
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName parsers
+parsers SimpleName EnhancedForStatement Block ReturnStatement SimpleName key pairs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load key pairs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load key pairs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lines
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load key pairs
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load key pairs
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password provider
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lines
+load key pairs SimpleName MethodDeclaration SimpleType SimpleName io exception
+load key pairs SimpleName MethodDeclaration SimpleType SimpleName general security exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName load key pairs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load key pairs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

@@ -1,0 +1,22 @@
+int PrimitiveType SingleVariableDeclaration SimpleName pty width
+pty width SimpleName FieldAccess Assignment SimpleName pty width
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set pty width
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pty width
+void PrimitiveType MethodDeclaration SimpleName set pty width
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pty width
+set pty width SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set pty width SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pty width
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set pty width
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pty width
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set pty width
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pty width

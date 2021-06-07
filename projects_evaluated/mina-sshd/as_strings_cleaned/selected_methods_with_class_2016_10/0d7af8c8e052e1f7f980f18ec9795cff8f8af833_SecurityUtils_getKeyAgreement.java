@@ -1,0 +1,54 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algorithm
+provider name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default provider
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName provider name
+is empty SimpleName MethodInvocation SimpleName provider name
+key agreement SimpleName MethodInvocation SimpleName get instance
+key agreement SimpleName MethodInvocation SimpleName algorithm
+get instance SimpleName MethodInvocation SimpleName algorithm
+key agreement SimpleName MethodInvocation SimpleName get instance
+key agreement SimpleName MethodInvocation SimpleName algorithm
+key agreement SimpleName MethodInvocation SimpleName provider name
+get instance SimpleName MethodInvocation SimpleName algorithm
+get instance SimpleName MethodInvocation SimpleName provider name
+algorithm SimpleName MethodInvocation SimpleName provider name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName key agreement
+public Modifier MethodDeclaration SimpleName get key agreement
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName key agreement
+static Modifier MethodDeclaration SimpleName get key agreement
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+static Modifier MethodDeclaration SimpleType SimpleName general security exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName key agreement
+synchronized Modifier MethodDeclaration SimpleName get key agreement
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+synchronized Modifier MethodDeclaration SimpleType SimpleName general security exception
+key agreement SimpleName SimpleType MethodDeclaration SimpleName get key agreement
+key agreement SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+key agreement SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+get key agreement SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get key agreement SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+get key agreement SimpleName MethodDeclaration SimpleType SimpleName general security exception
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key agreement
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key agreement
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key agreement
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key agreement
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

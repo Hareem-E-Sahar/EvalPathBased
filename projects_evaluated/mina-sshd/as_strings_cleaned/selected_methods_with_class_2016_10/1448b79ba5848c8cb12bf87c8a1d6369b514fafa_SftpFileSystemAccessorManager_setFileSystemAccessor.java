@@ -1,0 +1,13 @@
+sftp file system accessor SimpleName SimpleType SingleVariableDeclaration SimpleName accessor
+void PrimitiveType MethodDeclaration SimpleName set file system accessor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp file system accessor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName accessor
+set file system accessor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp file system accessor
+set file system accessor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accessor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file system accessor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file system accessor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor

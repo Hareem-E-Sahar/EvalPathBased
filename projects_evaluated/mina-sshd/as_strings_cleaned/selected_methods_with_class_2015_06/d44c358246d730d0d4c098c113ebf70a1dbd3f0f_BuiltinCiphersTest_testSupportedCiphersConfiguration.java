@@ -1,0 +1,77 @@
+m SimpleName TypeParameter SimpleType SimpleName factory manager
+m SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+manager SimpleName MethodInvocation SimpleName get cipher factories
+factories SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+factories SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cipher factories
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+named resourceutils QualifiedName MethodInvocation SimpleName get name list
+named resourceutils QualifiedName MethodInvocation SimpleName factories
+get name list SimpleName MethodInvocation SimpleName factories
+names SimpleName VariableDeclarationFragment MethodInvocation QualifiedName named resourceutils
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name list
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName factories
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration SimpleName c
+builtin ciphersnone QualifiedName MethodInvocation SimpleName equals
+builtin ciphersnone QualifiedName MethodInvocation SimpleName c
+equals SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName get key size
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get key size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+supported cipher not configured by default StringLiteral InfixExpression SimpleName c
+c SimpleName MethodInvocation SimpleName get name
+names SimpleName MethodInvocation SimpleName contains
+names SimpleName MethodInvocation MethodInvocation SimpleName c
+names SimpleName MethodInvocation MethodInvocation SimpleName get name
+contains SimpleName MethodInvocation MethodInvocation SimpleName c
+contains SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral supported cipher not configured by default
+assert true SimpleName MethodInvocation InfixExpression SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation SimpleName names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+supported cipher not configured by default StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName names
+supported cipher not configured by default StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName names
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin ciphersvalues
+c SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin ciphersvalues
+builtin ciphersvalues QualifiedName EnhancedForStatement Block ReturnStatement SimpleName manager
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName m
+private Modifier MethodDeclaration TypeParameter SimpleType SimpleName factory manager
+private Modifier MethodDeclaration SimpleType SimpleName m
+private Modifier MethodDeclaration SimpleName test supported ciphers configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName m
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+static Modifier MethodDeclaration TypeParameter SimpleName m
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName factory manager
+static Modifier MethodDeclaration SimpleType SimpleName m
+static Modifier MethodDeclaration SimpleName test supported ciphers configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName m
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+static Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin ciphersvalues
+static Modifier MethodDeclaration Block ReturnStatement SimpleName manager
+m SimpleName TypeParameter MethodDeclaration SimpleType SimpleName m
+m SimpleName TypeParameter MethodDeclaration SimpleName test supported ciphers configuration
+factory manager SimpleName SimpleType TypeParameter MethodDeclaration SimpleName test supported ciphers configuration
+m SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName manager
+m SimpleName SimpleType MethodDeclaration SimpleName test supported ciphers configuration
+m SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName manager
+test supported ciphers configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName m
+test supported ciphers configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+test supported ciphers configuration SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin ciphersvalues
+test supported ciphers configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SimpleName test supported ciphers configuration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test supported ciphers configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager

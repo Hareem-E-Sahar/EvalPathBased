@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path arg
+cwd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current remote directory
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cwd
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName path arg
+is empty SimpleName MethodInvocation SimpleName path arg
+path arg SimpleName MethodInvocation SimpleName char at
+path arg SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+path arg SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral /
+cwd SimpleName InfixExpression StringLiteral /
+cwd SimpleName InfixExpression SimpleName path arg
+/ StringLiteral InfixExpression SimpleName path arg
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve remote path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path arg
+string SimpleName SimpleType MethodDeclaration SimpleName resolve remote path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path arg
+resolve remote path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve remote path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path arg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve remote path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path arg
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve remote path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path arg

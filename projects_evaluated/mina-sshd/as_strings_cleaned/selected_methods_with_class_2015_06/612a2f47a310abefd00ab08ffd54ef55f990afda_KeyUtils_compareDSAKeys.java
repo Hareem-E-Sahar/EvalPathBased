@@ -1,0 +1,71 @@
+dsa public key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+dsa public key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName k
+objects SimpleName MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+k SimpleName MethodInvocation SimpleName k
+k SimpleName MethodInvocation SimpleName get y
+k SimpleName MethodInvocation SimpleName get y
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName k
+objects SimpleName MethodInvocation MethodInvocation SimpleName get y
+objects SimpleName MethodInvocation MethodInvocation SimpleName k
+objects SimpleName MethodInvocation MethodInvocation SimpleName get y
+equals SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation MethodInvocation SimpleName get y
+equals SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation MethodInvocation SimpleName get y
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+k SimpleName MethodInvocation SimpleName get params
+k SimpleName MethodInvocation SimpleName get params
+compare dsa params SimpleName MethodInvocation MethodInvocation SimpleName k
+compare dsa params SimpleName MethodInvocation MethodInvocation SimpleName get params
+compare dsa params SimpleName MethodInvocation MethodInvocation SimpleName k
+compare dsa params SimpleName MethodInvocation MethodInvocation SimpleName get params
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get params
+get params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+get params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get params
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare dsa params
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare dsa params
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName compare dsa keys
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName compare dsa keys
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+boolean PrimitiveType MethodDeclaration SimpleName compare dsa keys
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+compare dsa keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+compare dsa keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+compare dsa keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa public key
+compare dsa keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare dsa keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare dsa keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k

@@ -1,0 +1,54 @@
+int PrimitiveType SingleVariableDeclaration SimpleName code
+orgapachetomcatjnierror QualifiedName MethodInvocation SimpleName strerror
+orgapachetomcatjnierror QualifiedName MethodInvocation PrefixExpression SimpleName code
+strerror SimpleName MethodInvocation PrefixExpression SimpleName code
+orgapachetomcatjnierror QualifiedName MethodInvocation InfixExpression StringLiteral code
+strerror SimpleName MethodInvocation InfixExpression StringLiteral code
+code SimpleName PrefixExpression MethodInvocation InfixExpression StringLiteral code
+orgapachetomcatjnierror QualifiedName MethodInvocation InfixExpression SimpleName code
+strerror SimpleName MethodInvocation InfixExpression SimpleName code
+code SimpleName PrefixExpression MethodInvocation InfixExpression SimpleName code
+orgapachetomcatjnierror QualifiedName MethodInvocation InfixExpression StringLiteral )
+strerror SimpleName MethodInvocation InfixExpression StringLiteral )
+code SimpleName PrefixExpression MethodInvocation InfixExpression StringLiteral )
+code StringLiteral InfixExpression SimpleName code
+code StringLiteral InfixExpression StringLiteral )
+code SimpleName InfixExpression StringLiteral )
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral code
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName code
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName throw exception
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName code
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName throw exception
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName code
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName throw exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName code
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+throw exception SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+throw exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName code
+throw exception SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+code SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName throw exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName code
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName throw exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName code
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

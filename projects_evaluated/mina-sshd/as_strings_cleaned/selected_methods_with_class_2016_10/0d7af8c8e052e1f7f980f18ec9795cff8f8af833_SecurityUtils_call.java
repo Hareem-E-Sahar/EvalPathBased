@@ -1,0 +1,86 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+logger factory SimpleName MethodInvocation SimpleName get logger
+logger factory SimpleName MethodInvocation TypeLiteral SimpleType SimpleName security utils
+get logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName security utils
+logger SimpleName VariableDeclarationFragment MethodInvocation SimpleName logger factory
+logger SimpleName VariableDeclarationFragment MethodInvocation SimpleName get logger
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName logger
+javasecuritysecurity QualifiedName MethodInvocation SimpleName get provider
+javasecuritysecurity QualifiedName MethodInvocation SimpleName eddsa
+get provider SimpleName MethodInvocation SimpleName eddsa
+p SimpleName VariableDeclarationFragment MethodInvocation QualifiedName javasecuritysecurity
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get provider
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName eddsa
+provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+trying to register StringLiteral InfixExpression SimpleName eddsa
+trying to register StringLiteral InfixExpression StringLiteral as a jce provider
+eddsa SimpleName InfixExpression StringLiteral as a jce provider
+logger SimpleName MethodInvocation SimpleName info
+logger SimpleName MethodInvocation InfixExpression StringLiteral trying to register
+logger SimpleName MethodInvocation InfixExpression SimpleName eddsa
+logger SimpleName MethodInvocation InfixExpression StringLiteral as a jce provider
+info SimpleName MethodInvocation InfixExpression StringLiteral trying to register
+info SimpleName MethodInvocation InfixExpression SimpleName eddsa
+info SimpleName MethodInvocation InfixExpression StringLiteral as a jce provider
+p SimpleName Assignment ClassInstanceCreation SimpleType SimpleName ed dsa security provider
+javasecuritysecurity QualifiedName MethodInvocation SimpleName add provider
+javasecuritysecurity QualifiedName MethodInvocation SimpleName p
+add provider SimpleName MethodInvocation SimpleName p
+key factory SimpleName MethodInvocation SimpleName get instance
+key factory SimpleName MethodInvocation SimpleName eddsa
+key factory SimpleName MethodInvocation SimpleName eddsa
+get instance SimpleName MethodInvocation SimpleName eddsa
+get instance SimpleName MethodInvocation SimpleName eddsa
+eddsa SimpleName MethodInvocation SimpleName eddsa
+logger SimpleName MethodInvocation SimpleName info
+logger SimpleName MethodInvocation StringLiteral registration succeeded
+info SimpleName MethodInvocation StringLiteral registration succeeded
+eddsa SimpleName InfixExpression StringLiteral already registered as a jce provider
+logger SimpleName MethodInvocation SimpleName info
+logger SimpleName MethodInvocation InfixExpression SimpleName eddsa
+logger SimpleName MethodInvocation InfixExpression StringLiteral already registered as a jce provider
+info SimpleName MethodInvocation InfixExpression SimpleName eddsa
+info SimpleName MethodInvocation InfixExpression StringLiteral already registered as a jce provider
+registered providers SimpleName MethodInvocation SimpleName put
+registered providers SimpleName MethodInvocation SimpleName eddsa
+registered providers SimpleName MethodInvocation SimpleName p
+put SimpleName MethodInvocation SimpleName eddsa
+put SimpleName MethodInvocation SimpleName p
+eddsa SimpleName MethodInvocation SimpleName p
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName call
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName call
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+void SimpleName SimpleType MethodDeclaration SimpleName call
+void SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

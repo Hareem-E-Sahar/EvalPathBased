@@ -1,0 +1,92 @@
+original user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current test name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName original user
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName original user
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+entry user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+entry user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entry user
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get simple name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry user
+host config entry SimpleName MethodInvocation SimpleName resolve username
+host config entry SimpleName MethodInvocation SimpleName original user
+host config entry SimpleName MethodInvocation SimpleName entry user
+resolve username SimpleName MethodInvocation SimpleName original user
+resolve username SimpleName MethodInvocation SimpleName entry user
+original user SimpleName MethodInvocation SimpleName entry user
+assert same SimpleName MethodInvocation StringLiteral mismatched entry user preference
+assert same SimpleName MethodInvocation SimpleName entry user
+assert same SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+assert same SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+assert same SimpleName MethodInvocation MethodInvocation SimpleName original user
+assert same SimpleName MethodInvocation MethodInvocation SimpleName entry user
+mismatched entry user preference StringLiteral MethodInvocation SimpleName entry user
+mismatched entry user preference StringLiteral MethodInvocation MethodInvocation SimpleName host config entry
+mismatched entry user preference StringLiteral MethodInvocation MethodInvocation SimpleName resolve username
+mismatched entry user preference StringLiteral MethodInvocation MethodInvocation SimpleName original user
+mismatched entry user preference StringLiteral MethodInvocation MethodInvocation SimpleName entry user
+entry user SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+entry user SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+entry user SimpleName MethodInvocation MethodInvocation SimpleName original user
+entry user SimpleName MethodInvocation MethodInvocation SimpleName entry user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entry user
+nonpreferred original user for entry user StringLiteral InfixExpression SimpleName entry user
+nonpreferred original user for entry user StringLiteral InfixExpression StringLiteral empty
+entry user SimpleName InfixExpression StringLiteral empty
+host config entry SimpleName MethodInvocation SimpleName resolve username
+host config entry SimpleName MethodInvocation SimpleName original user
+host config entry SimpleName MethodInvocation SimpleName entry user
+resolve username SimpleName MethodInvocation SimpleName original user
+resolve username SimpleName MethodInvocation SimpleName entry user
+original user SimpleName MethodInvocation SimpleName entry user
+assert same SimpleName MethodInvocation InfixExpression StringLiteral nonpreferred original user for entry user
+assert same SimpleName MethodInvocation InfixExpression SimpleName entry user
+assert same SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert same SimpleName MethodInvocation SimpleName original user
+assert same SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+assert same SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+assert same SimpleName MethodInvocation MethodInvocation SimpleName original user
+assert same SimpleName MethodInvocation MethodInvocation SimpleName entry user
+nonpreferred original user for entry user StringLiteral InfixExpression MethodInvocation SimpleName original user
+entry user SimpleName InfixExpression MethodInvocation SimpleName original user
+empty StringLiteral InfixExpression MethodInvocation SimpleName original user
+nonpreferred original user for entry user StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName host config entry
+nonpreferred original user for entry user StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName resolve username
+nonpreferred original user for entry user StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName original user
+nonpreferred original user for entry user StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry user
+entry user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName host config entry
+entry user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName resolve username
+entry user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName original user
+entry user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry user
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName host config entry
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName resolve username
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName original user
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry user
+original user SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+original user SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+original user SimpleName MethodInvocation MethodInvocation SimpleName original user
+original user SimpleName MethodInvocation MethodInvocation SimpleName entry user
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resolve username
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resolve username
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test resolve username
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test resolve username SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test resolve username SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resolve username
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resolve username

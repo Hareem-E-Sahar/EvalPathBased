@@ -1,0 +1,31 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get available key lengths
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get available key lengths
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get available key lengths
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName lazy values holderkey lengths
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get available key lengths
+static Modifier MethodDeclaration Block ReturnStatement QualifiedName lazy values holderkey lengths
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get available key lengths
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get available key lengths
+get available key lengths SimpleName MethodDeclaration Block ReturnStatement QualifiedName lazy values holderkey lengths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get available key lengths
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get available key lengths

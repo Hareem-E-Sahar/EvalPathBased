@@ -1,0 +1,46 @@
+ignore packet data length SimpleName InfixExpression NumberLiteral empty
+ignore packets frequency SimpleName InfixExpression NumberLiteral l
+ignore packets variance SimpleName InfixExpression NumberLiteral empty
+ignore packets count SimpleName MethodInvocation SimpleName decrement and get
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName ignore packets count
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName decrement and get
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ignore packets count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName decrement and get
+count SimpleName InfixExpression NumberLiteral l
+calculate next ignore packet count SimpleName MethodInvocation SimpleName random
+calculate next ignore packet count SimpleName MethodInvocation SimpleName ignore packets frequency
+calculate next ignore packet count SimpleName MethodInvocation SimpleName ignore packets variance
+random SimpleName MethodInvocation SimpleName ignore packets frequency
+random SimpleName MethodInvocation SimpleName ignore packets variance
+ignore packets frequency SimpleName MethodInvocation SimpleName ignore packets variance
+count SimpleName Assignment MethodInvocation SimpleName calculate next ignore packet count
+count SimpleName Assignment MethodInvocation SimpleName random
+count SimpleName Assignment MethodInvocation SimpleName ignore packets frequency
+count SimpleName Assignment MethodInvocation SimpleName ignore packets variance
+ignore packets count SimpleName MethodInvocation SimpleName set
+ignore packets count SimpleName MethodInvocation SimpleName count
+set SimpleName MethodInvocation SimpleName count
+random SimpleName MethodInvocation SimpleName random
+random SimpleName MethodInvocation SimpleName ignore packet data length
+random SimpleName MethodInvocation SimpleName ignore packet data length
+ignore packet data length SimpleName InfixExpression MethodInvocation SimpleName random
+ignore packet data length SimpleName InfixExpression MethodInvocation SimpleName random
+ignore packet data length SimpleName InfixExpression MethodInvocation SimpleName ignore packet data length
+long PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName random
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName resolve ignore buffer data length
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName random
+int PrimitiveType MethodDeclaration SimpleName resolve ignore buffer data length
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName random
+resolve ignore buffer data length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+resolve ignore buffer data length SimpleName MethodDeclaration Block SynchronizedStatement SimpleName random
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve ignore buffer data length
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve ignore buffer data length

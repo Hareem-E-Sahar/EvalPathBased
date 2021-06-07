@@ -1,0 +1,24 @@
+int PrimitiveType SingleVariableDeclaration SimpleName delta
+empty NumberLiteral InfixExpression SimpleName delta
+add SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add SimpleName MethodInvocation InfixExpression SimpleName delta
+static Modifier MethodDeclaration SimpleType SimpleName int int function
+static Modifier MethodDeclaration SimpleName sub
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName delta
+int int function SimpleName SimpleType MethodDeclaration SimpleName sub
+int int function SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int int function SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName delta
+sub SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sub SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delta
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName int int function
+public Modifier TypeDeclaration MethodDeclaration SimpleName sub
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName int int function
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sub
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta

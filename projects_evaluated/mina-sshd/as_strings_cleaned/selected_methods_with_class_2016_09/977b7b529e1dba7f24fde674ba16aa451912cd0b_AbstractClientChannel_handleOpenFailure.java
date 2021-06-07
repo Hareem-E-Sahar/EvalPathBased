@@ -1,0 +1,80 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get int
+reason SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+reason SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName reason
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get string
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+buffer SimpleName MethodInvocation SimpleName get string
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+log SimpleName MethodInvocation SimpleName is debug enabled
+ssh constants SimpleName MethodInvocation SimpleName get open error code name
+ssh constants SimpleName MethodInvocation SimpleName reason
+get open error code name SimpleName MethodInvocation SimpleName reason
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral handle open failure reason lang msg
+log SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+log SimpleName MethodInvocation MethodInvocation SimpleName get open error code name
+log SimpleName MethodInvocation MethodInvocation SimpleName reason
+log SimpleName MethodInvocation SimpleName lang
+debug SimpleName MethodInvocation StringLiteral handle open failure reason lang msg
+debug SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+debug SimpleName MethodInvocation MethodInvocation SimpleName get open error code name
+debug SimpleName MethodInvocation MethodInvocation SimpleName reason
+debug SimpleName MethodInvocation SimpleName lang
+debug SimpleName MethodInvocation SimpleName msg
+handle open failure reason lang msg StringLiteral MethodInvocation MethodInvocation SimpleName ssh constants
+handle open failure reason lang msg StringLiteral MethodInvocation MethodInvocation SimpleName get open error code name
+handle open failure reason lang msg StringLiteral MethodInvocation MethodInvocation SimpleName reason
+handle open failure reason lang msg StringLiteral MethodInvocation SimpleName lang
+handle open failure reason lang msg StringLiteral MethodInvocation SimpleName msg
+ssh constants SimpleName MethodInvocation MethodInvocation SimpleName lang
+get open error code name SimpleName MethodInvocation MethodInvocation SimpleName lang
+reason SimpleName MethodInvocation MethodInvocation SimpleName lang
+ssh constants SimpleName MethodInvocation MethodInvocation SimpleName msg
+get open error code name SimpleName MethodInvocation MethodInvocation SimpleName msg
+reason SimpleName MethodInvocation MethodInvocation SimpleName msg
+lang SimpleName MethodInvocation SimpleName msg
+open failure reason SimpleName FieldAccess Assignment SimpleName reason
+open failure msg SimpleName FieldAccess Assignment SimpleName msg
+open failure lang SimpleName FieldAccess Assignment SimpleName lang
+ssh exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+open future SimpleName FieldAccess MethodInvocation SimpleName set exception
+open future SimpleName FieldAccess MethodInvocation ClassInstanceCreation SimpleName msg
+set exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+set exception SimpleName MethodInvocation ClassInstanceCreation SimpleName msg
+close future SimpleName FieldAccess MethodInvocation SimpleName set closed
+notify state changed SimpleName MethodInvocation StringLiteral ssh msg channel open failure
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName handle open failure
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle open failure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName handle open failure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+handle open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle open failure SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle open failure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle open failure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

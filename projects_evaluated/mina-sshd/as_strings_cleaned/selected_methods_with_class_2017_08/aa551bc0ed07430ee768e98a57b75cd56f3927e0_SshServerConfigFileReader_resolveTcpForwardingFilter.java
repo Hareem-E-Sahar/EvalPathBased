@@ -1,0 +1,71 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName options
+property resolver utils SimpleName MethodInvocation SimpleName get string property
+property resolver utils SimpleName MethodInvocation SimpleName options
+property resolver utils SimpleName MethodInvocation SimpleName allow tcp forwarding config prop
+property resolver utils SimpleName MethodInvocation SimpleName default tcp forwarding
+get string property SimpleName MethodInvocation SimpleName options
+get string property SimpleName MethodInvocation SimpleName allow tcp forwarding config prop
+get string property SimpleName MethodInvocation SimpleName default tcp forwarding
+options SimpleName MethodInvocation SimpleName allow tcp forwarding config prop
+options SimpleName MethodInvocation SimpleName default tcp forwarding
+allow tcp forwarding config prop SimpleName MethodInvocation SimpleName default tcp forwarding
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string property
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName allow tcp forwarding config prop
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName default tcp forwarding
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+allow tcp forwarding value SimpleName MethodInvocation SimpleName from string
+allow tcp forwarding value SimpleName MethodInvocation SimpleName value
+from string SimpleName MethodInvocation SimpleName value
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName allow tcp forwarding value
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+tcp forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName filter
+validate utils SimpleName MethodInvocation StringLiteral unknown s value s
+validate utils SimpleName MethodInvocation SimpleName allow tcp forwarding config prop
+validate utils SimpleName MethodInvocation SimpleName value
+check not null SimpleName MethodInvocation SimpleName filter
+check not null SimpleName MethodInvocation StringLiteral unknown s value s
+check not null SimpleName MethodInvocation SimpleName allow tcp forwarding config prop
+check not null SimpleName MethodInvocation SimpleName value
+filter SimpleName MethodInvocation StringLiteral unknown s value s
+filter SimpleName MethodInvocation SimpleName allow tcp forwarding config prop
+filter SimpleName MethodInvocation SimpleName value
+unknown s value s StringLiteral MethodInvocation SimpleName allow tcp forwarding config prop
+unknown s value s StringLiteral MethodInvocation SimpleName value
+allow tcp forwarding config prop SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName tcp forwarding filter
+public Modifier MethodDeclaration SimpleName resolve tcp forwarding filter
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration Block ReturnStatement SimpleName filter
+static Modifier MethodDeclaration SimpleType SimpleName tcp forwarding filter
+static Modifier MethodDeclaration SimpleName resolve tcp forwarding filter
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration Block ReturnStatement SimpleName filter
+tcp forwarding filter SimpleName SimpleType MethodDeclaration SimpleName resolve tcp forwarding filter
+tcp forwarding filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+resolve tcp forwarding filter SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+resolve tcp forwarding filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+resolve tcp forwarding filter SimpleName MethodDeclaration Block ReturnStatement SimpleName filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tcp forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve tcp forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tcp forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve tcp forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

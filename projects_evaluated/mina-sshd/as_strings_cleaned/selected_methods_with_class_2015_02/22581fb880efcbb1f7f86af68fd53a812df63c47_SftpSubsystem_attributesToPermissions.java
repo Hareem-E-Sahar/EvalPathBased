@@ -1,0 +1,137 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+attributes SimpleName MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation StringLiteral is regular file
+get SimpleName MethodInvocation StringLiteral is regular file
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName attributes
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation StringLiteral is regular file
+get bool SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+get bool SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attributes
+get bool SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get bool SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral is regular file
+is reg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bool
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is reg
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get bool
+attributes SimpleName MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation StringLiteral is directory
+get SimpleName MethodInvocation StringLiteral is directory
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName attributes
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation StringLiteral is directory
+get bool SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+get bool SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attributes
+get bool SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get bool SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral is directory
+is dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bool
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is dir
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get bool
+attributes SimpleName MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation StringLiteral is symbolic link
+get SimpleName MethodInvocation StringLiteral is symbolic link
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName attributes
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation StringLiteral is symbolic link
+get bool SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+get bool SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attributes
+get bool SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get bool SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral is symbolic link
+is lnk SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bool
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is lnk
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get bool
+pf SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+attributes SimpleName MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation StringLiteral permissions
+get SimpleName MethodInvocation StringLiteral permissions
+perms SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attributes
+perms SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+perms SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral permissions
+posix file permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+pf SimpleName Assignment SimpleName s irusr
+pf SimpleName Assignment SimpleName s iwusr
+pf SimpleName Assignment SimpleName s ixusr
+pf SimpleName Assignment SimpleName s irgrp
+pf SimpleName Assignment SimpleName s iwgrp
+pf SimpleName Assignment SimpleName s ixgrp
+pf SimpleName Assignment SimpleName s iroth
+pf SimpleName Assignment SimpleName s iwoth
+pf SimpleName Assignment SimpleName s ixoth
+p SimpleName SwitchStatement SwitchCase SimpleName owner read
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s irusr
+p SimpleName SwitchStatement SwitchCase SimpleName owner write
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s iwusr
+owner read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner write
+owner write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner execute
+owner execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group read
+group read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group write
+group write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group execute
+group execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others read
+others read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others write
+others write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others execute
+posix file permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName perms
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName perms
+perms SimpleName EnhancedForStatement Block SwitchStatement SimpleName p
+is reg SimpleName ConditionalExpression SimpleName s ifreg
+is reg SimpleName ConditionalExpression NumberLiteral empty
+s ifreg SimpleName ConditionalExpression NumberLiteral empty
+pf SimpleName Assignment ConditionalExpression SimpleName is reg
+pf SimpleName Assignment ConditionalExpression SimpleName s ifreg
+pf SimpleName Assignment ConditionalExpression NumberLiteral empty
+is dir SimpleName ConditionalExpression SimpleName s ifdir
+is dir SimpleName ConditionalExpression NumberLiteral empty
+s ifdir SimpleName ConditionalExpression NumberLiteral empty
+pf SimpleName Assignment ConditionalExpression SimpleName is dir
+pf SimpleName Assignment ConditionalExpression SimpleName s ifdir
+pf SimpleName Assignment ConditionalExpression NumberLiteral empty
+is lnk SimpleName ConditionalExpression SimpleName s iflnk
+is lnk SimpleName ConditionalExpression NumberLiteral empty
+s iflnk SimpleName ConditionalExpression NumberLiteral empty
+pf SimpleName Assignment ConditionalExpression SimpleName is lnk
+pf SimpleName Assignment ConditionalExpression SimpleName s iflnk
+pf SimpleName Assignment ConditionalExpression NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName attributes to permissions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName pf
+int PrimitiveType MethodDeclaration SimpleName attributes to permissions
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName pf
+attributes to permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+attributes to permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+attributes to permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+attributes to permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+attributes to permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+attributes to permissions SimpleName MethodDeclaration Block ReturnStatement SimpleName pf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName attributes to permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attributes to permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes

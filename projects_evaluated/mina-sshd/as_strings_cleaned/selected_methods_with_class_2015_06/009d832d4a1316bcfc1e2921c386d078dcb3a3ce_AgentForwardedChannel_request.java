@@ -1,0 +1,73 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName available
+get inverted in SimpleName MethodInvocation MethodInvocation SimpleName write
+get inverted in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get inverted in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName array
+get inverted in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get inverted in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+get inverted in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get inverted in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName array
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName rpos
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+get inverted in SimpleName MethodInvocation MethodInvocation SimpleName flush
+buffer SimpleName MethodInvocation SimpleName available
+local window SimpleName MethodInvocation SimpleName consume and check
+local window SimpleName MethodInvocation MethodInvocation SimpleName buffer
+local window SimpleName MethodInvocation MethodInvocation SimpleName available
+consume and check SimpleName MethodInvocation MethodInvocation SimpleName buffer
+consume and check SimpleName MethodInvocation MethodInvocation SimpleName available
+messages SimpleName MethodInvocation SimpleName is empty
+messages SimpleName MethodInvocation SimpleName wait
+messages SimpleName MethodInvocation SimpleName poll
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interrupted io exception SimpleName SimpleType ClassInstanceCreation StringLiteral interrupted while polling for messages
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+interrupted while polling for messages StringLiteral ClassInstanceCreation MethodInvocation SimpleName init cause
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+interrupted while polling for messages StringLiteral ClassInstanceCreation MethodInvocation SimpleName e
+init cause SimpleName MethodInvocation SimpleName e
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SimpleName request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName messages
+buffer SimpleName SimpleType MethodDeclaration SimpleName request
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+buffer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+request SimpleName MethodDeclaration SimpleType SimpleName io exception
+request SimpleName MethodDeclaration Block SynchronizedStatement SimpleName messages
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

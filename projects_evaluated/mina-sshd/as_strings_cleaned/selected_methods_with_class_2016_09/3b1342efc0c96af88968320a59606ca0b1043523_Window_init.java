@@ -1,0 +1,144 @@
+long PrimitiveType SingleVariableDeclaration SimpleName size
+long PrimitiveType SingleVariableDeclaration SimpleName packet size
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+buffer utils SimpleName MethodInvocation SimpleName validate uint value
+buffer utils SimpleName MethodInvocation SimpleName size
+buffer utils SimpleName MethodInvocation StringLiteral illegal initial size d
+validate uint value SimpleName MethodInvocation SimpleName size
+validate uint value SimpleName MethodInvocation StringLiteral illegal initial size d
+size SimpleName MethodInvocation StringLiteral illegal initial size d
+buffer utils SimpleName MethodInvocation SimpleName validate uint value
+buffer utils SimpleName MethodInvocation SimpleName packet size
+buffer utils SimpleName MethodInvocation StringLiteral illegal packet size d
+validate uint value SimpleName MethodInvocation SimpleName packet size
+validate uint value SimpleName MethodInvocation StringLiteral illegal packet size d
+packet size SimpleName MethodInvocation StringLiteral illegal packet size d
+packet size SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName packet size
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral packet size must be positive d
+validate utils SimpleName MethodInvocation SimpleName packet size
+check true SimpleName MethodInvocation InfixExpression SimpleName packet size
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral packet size must be positive d
+check true SimpleName MethodInvocation SimpleName packet size
+packet size SimpleName InfixExpression MethodInvocation StringLiteral packet size must be positive d
+l NumberLiteral InfixExpression MethodInvocation StringLiteral packet size must be positive d
+packet size SimpleName InfixExpression MethodInvocation SimpleName packet size
+l NumberLiteral InfixExpression MethodInvocation SimpleName packet size
+packet size must be positive d StringLiteral MethodInvocation SimpleName packet size
+property resolver utils SimpleName MethodInvocation SimpleName get long property
+property resolver utils SimpleName MethodInvocation SimpleName props
+property resolver utils SimpleName MethodInvocation QualifiedName factory managerlimit packet size
+property resolver utils SimpleName MethodInvocation QualifiedName factory managerdefault limit packet size
+get long property SimpleName MethodInvocation SimpleName props
+get long property SimpleName MethodInvocation QualifiedName factory managerlimit packet size
+get long property SimpleName MethodInvocation QualifiedName factory managerdefault limit packet size
+props SimpleName MethodInvocation QualifiedName factory managerlimit packet size
+props SimpleName MethodInvocation QualifiedName factory managerdefault limit packet size
+factory managerlimit packet size QualifiedName MethodInvocation QualifiedName factory managerdefault limit packet size
+limit packet size SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+limit packet size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long property
+limit packet size SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+limit packet size SimpleName VariableDeclarationFragment MethodInvocation QualifiedName factory managerlimit packet size
+limit packet size SimpleName VariableDeclarationFragment MethodInvocation QualifiedName factory managerdefault limit packet size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName limit packet size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get long property
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName props
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName factory managerlimit packet size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName factory managerdefault limit packet size
+packet size SimpleName InfixExpression SimpleName limit packet size
+requested packet size ( StringLiteral InfixExpression SimpleName packet size
+requested packet size ( StringLiteral InfixExpression StringLiteral ) exceeds max allowed
+requested packet size ( StringLiteral InfixExpression SimpleName limit packet size
+packet size SimpleName InfixExpression StringLiteral ) exceeds max allowed
+packet size SimpleName InfixExpression SimpleName limit packet size
+) exceeds max allowed StringLiteral InfixExpression SimpleName limit packet size
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral requested packet size (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName packet size
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) exceeds max allowed
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName limit packet size
+max size SimpleName FieldAccess Assignment SimpleName size
+packet size SimpleName FieldAccess Assignment SimpleName packet size
+collections SimpleName MethodInvocation SimpleName empty map
+props SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName props
+collections SimpleName MethodInvocation ConditionalExpression SimpleName props
+empty map SimpleName MethodInvocation ConditionalExpression SimpleName props
+props SimpleName FieldAccess Assignment ConditionalExpression SimpleName props
+update size SimpleName MethodInvocation SimpleName size
+initialized SimpleName MethodInvocation SimpleName get and set
+initialized SimpleName MethodInvocation BooleanLiteral true
+get and set SimpleName MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral init reinitializing
+debug SimpleName MethodInvocation StringLiteral init reinitializing
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral init size max packet
+log SimpleName MethodInvocation MethodInvocation SimpleName get size
+log SimpleName MethodInvocation MethodInvocation SimpleName get max size
+debug SimpleName MethodInvocation StringLiteral init size max packet
+debug SimpleName MethodInvocation MethodInvocation SimpleName get size
+debug SimpleName MethodInvocation MethodInvocation SimpleName get max size
+debug SimpleName MethodInvocation MethodInvocation SimpleName get packet size
+init size max packet StringLiteral MethodInvocation MethodInvocation SimpleName get size
+init size max packet StringLiteral MethodInvocation MethodInvocation SimpleName get max size
+init size max packet StringLiteral MethodInvocation MethodInvocation SimpleName get packet size
+get size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max size
+get size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get packet size
+get max size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get packet size
+long PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName lock
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName packet size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName packet size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName packet size
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+init SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+init SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+packet size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

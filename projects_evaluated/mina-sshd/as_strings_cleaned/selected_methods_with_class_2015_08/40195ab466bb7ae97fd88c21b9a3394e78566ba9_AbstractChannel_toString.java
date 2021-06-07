@@ -1,0 +1,34 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral id
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral id
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral recipient
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral recipient
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get recipient
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+id StringLiteral InfixExpression MethodInvocation SimpleName get id
+id StringLiteral InfixExpression StringLiteral recipient
+id StringLiteral InfixExpression MethodInvocation SimpleName get recipient
+id StringLiteral InfixExpression StringLiteral ]
+get id SimpleName MethodInvocation InfixExpression StringLiteral recipient
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get recipient
+get id SimpleName MethodInvocation InfixExpression StringLiteral ]
+recipient StringLiteral InfixExpression MethodInvocation SimpleName get recipient
+recipient StringLiteral InfixExpression StringLiteral ]
+get recipient SimpleName MethodInvocation InfixExpression StringLiteral ]
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

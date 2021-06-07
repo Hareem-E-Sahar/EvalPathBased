@@ -1,0 +1,139 @@
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName src
+src SimpleName MethodInvocation SimpleName has array
+src SimpleName MethodInvocation SimpleName remaining
+rem SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+rem SimpleName VariableDeclarationFragment MethodInvocation SimpleName remaining
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rem
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName src
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName remaining
+src SimpleName MethodInvocation SimpleName array
+src SimpleName MethodInvocation SimpleName array offset
+src SimpleName MethodInvocation SimpleName position
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+array offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+array offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation SimpleName pos
+sftp SimpleName MethodInvocation MethodInvocation SimpleName src
+sftp SimpleName MethodInvocation MethodInvocation SimpleName array
+sftp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+sftp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName array offset
+sftp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+sftp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+write SimpleName MethodInvocation SimpleName handle
+write SimpleName MethodInvocation SimpleName pos
+write SimpleName MethodInvocation MethodInvocation SimpleName src
+write SimpleName MethodInvocation MethodInvocation SimpleName array
+write SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+write SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName array offset
+write SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+write SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+write SimpleName MethodInvocation SimpleName rem
+handle SimpleName MethodInvocation SimpleName pos
+handle SimpleName MethodInvocation MethodInvocation SimpleName src
+handle SimpleName MethodInvocation MethodInvocation SimpleName array
+handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName array offset
+handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+handle SimpleName MethodInvocation SimpleName rem
+pos SimpleName MethodInvocation MethodInvocation SimpleName src
+pos SimpleName MethodInvocation MethodInvocation SimpleName array
+pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName array offset
+pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+pos SimpleName MethodInvocation SimpleName rem
+src SimpleName MethodInvocation MethodInvocation SimpleName rem
+array SimpleName MethodInvocation MethodInvocation SimpleName rem
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rem
+array offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rem
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rem
+position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rem
+src SimpleName MethodInvocation SimpleName position
+src SimpleName MethodInvocation InfixExpression SimpleName rem
+position SimpleName MethodInvocation InfixExpression SimpleName rem
+src SimpleName MethodInvocation SimpleName position
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+src SimpleName MethodInvocation InfixExpression SimpleName rem
+position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src
+position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName position
+position SimpleName MethodInvocation InfixExpression SimpleName rem
+pos SimpleName Assignment SimpleName rem
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName rem
+src SimpleName MethodInvocation SimpleName remaining
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation NumberLiteral empty
+math SimpleName MethodInvocation MethodInvocation SimpleName src
+math SimpleName MethodInvocation MethodInvocation SimpleName remaining
+min SimpleName MethodInvocation NumberLiteral empty
+min SimpleName MethodInvocation MethodInvocation SimpleName src
+min SimpleName MethodInvocation MethodInvocation SimpleName remaining
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName src
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName remaining
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName math
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName min
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buf SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName math
+buf SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName min
+buf SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+src SimpleName MethodInvocation SimpleName get
+src SimpleName MethodInvocation SimpleName buf
+get SimpleName MethodInvocation SimpleName buf
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation SimpleName pos
+sftp SimpleName MethodInvocation SimpleName buf
+sftp SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName handle
+write SimpleName MethodInvocation SimpleName pos
+write SimpleName MethodInvocation SimpleName buf
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation QualifiedName buflength
+handle SimpleName MethodInvocation SimpleName pos
+handle SimpleName MethodInvocation SimpleName buf
+handle SimpleName MethodInvocation NumberLiteral empty
+handle SimpleName MethodInvocation QualifiedName buflength
+pos SimpleName MethodInvocation SimpleName buf
+pos SimpleName MethodInvocation NumberLiteral empty
+pos SimpleName MethodInvocation QualifiedName buflength
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation QualifiedName buflength
+empty NumberLiteral MethodInvocation QualifiedName buflength
+pos SimpleName Assignment QualifiedName buflength
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName src
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName write
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+src SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,178 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new path
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName copy option
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+copy option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+resolve file SimpleName MethodInvocation SimpleName old path
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName old path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+resolve file SimpleName MethodInvocation SimpleName new path
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName new path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sftp event listener proxy
+sftp event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server session
+server session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+listener SimpleName MethodInvocation SimpleName moving
+listener SimpleName MethodInvocation SimpleName session
+listener SimpleName MethodInvocation SimpleName o
+listener SimpleName MethodInvocation SimpleName n
+listener SimpleName MethodInvocation SimpleName opts
+moving SimpleName MethodInvocation SimpleName session
+moving SimpleName MethodInvocation SimpleName o
+moving SimpleName MethodInvocation SimpleName n
+moving SimpleName MethodInvocation SimpleName opts
+session SimpleName MethodInvocation SimpleName o
+session SimpleName MethodInvocation SimpleName n
+session SimpleName MethodInvocation SimpleName opts
+o SimpleName MethodInvocation SimpleName n
+o SimpleName MethodInvocation SimpleName opts
+n SimpleName MethodInvocation SimpleName opts
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName opts
+is empty SimpleName MethodInvocation SimpleName opts
+opts SimpleName MethodInvocation SimpleName size
+opts SimpleName MethodInvocation SimpleName to array
+opts SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName opts
+opts SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName opts
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation ConditionalExpression QualifiedName io utilsempty copy options
+is empty SimpleName MethodInvocation ConditionalExpression QualifiedName io utilsempty copy options
+opts SimpleName MethodInvocation ConditionalExpression QualifiedName io utilsempty copy options
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to array
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to array
+opts SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+opts SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to array
+io utilsempty copy options QualifiedName ConditionalExpression MethodInvocation SimpleName opts
+io utilsempty copy options QualifiedName ConditionalExpression MethodInvocation SimpleName to array
+files SimpleName MethodInvocation SimpleName move
+files SimpleName MethodInvocation SimpleName o
+files SimpleName MethodInvocation SimpleName n
+files SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+files SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is empty
+files SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+files SimpleName MethodInvocation ConditionalExpression QualifiedName io utilsempty copy options
+files SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+files SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to array
+move SimpleName MethodInvocation SimpleName o
+move SimpleName MethodInvocation SimpleName n
+move SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+move SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is empty
+move SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+move SimpleName MethodInvocation ConditionalExpression QualifiedName io utilsempty copy options
+move SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+move SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to array
+o SimpleName MethodInvocation SimpleName n
+o SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+o SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is empty
+o SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+o SimpleName MethodInvocation ConditionalExpression QualifiedName io utilsempty copy options
+o SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+o SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to array
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is empty
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+n SimpleName MethodInvocation ConditionalExpression QualifiedName io utilsempty copy options
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName opts
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to array
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+listener SimpleName MethodInvocation SimpleName moved
+listener SimpleName MethodInvocation SimpleName session
+listener SimpleName MethodInvocation SimpleName o
+listener SimpleName MethodInvocation SimpleName n
+listener SimpleName MethodInvocation SimpleName opts
+moved SimpleName MethodInvocation SimpleName session
+moved SimpleName MethodInvocation SimpleName o
+moved SimpleName MethodInvocation SimpleName n
+moved SimpleName MethodInvocation SimpleName opts
+moved SimpleName MethodInvocation SimpleName e
+session SimpleName MethodInvocation SimpleName o
+session SimpleName MethodInvocation SimpleName n
+session SimpleName MethodInvocation SimpleName opts
+session SimpleName MethodInvocation SimpleName e
+o SimpleName MethodInvocation SimpleName n
+o SimpleName MethodInvocation SimpleName opts
+o SimpleName MethodInvocation SimpleName e
+n SimpleName MethodInvocation SimpleName opts
+n SimpleName MethodInvocation SimpleName e
+opts SimpleName MethodInvocation SimpleName e
+listener SimpleName MethodInvocation SimpleName moved
+listener SimpleName MethodInvocation SimpleName session
+listener SimpleName MethodInvocation SimpleName o
+listener SimpleName MethodInvocation SimpleName n
+listener SimpleName MethodInvocation SimpleName opts
+moved SimpleName MethodInvocation SimpleName session
+moved SimpleName MethodInvocation SimpleName o
+moved SimpleName MethodInvocation SimpleName n
+moved SimpleName MethodInvocation SimpleName opts
+session SimpleName MethodInvocation SimpleName o
+session SimpleName MethodInvocation SimpleName n
+session SimpleName MethodInvocation SimpleName opts
+o SimpleName MethodInvocation SimpleName n
+o SimpleName MethodInvocation SimpleName opts
+n SimpleName MethodInvocation SimpleName opts
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do rename
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName old path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new path
+void PrimitiveType MethodDeclaration SimpleName do rename
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName opts
+do rename SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old path
+do rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new path
+do rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+do rename SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+old path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+old path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+old path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+new path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do rename
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do rename
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

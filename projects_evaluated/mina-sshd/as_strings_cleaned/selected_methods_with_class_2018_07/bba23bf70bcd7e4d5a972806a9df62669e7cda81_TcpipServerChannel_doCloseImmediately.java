@@ -1,0 +1,32 @@
+connector SimpleName MethodInvocation SimpleName close
+connector SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+executor SimpleName MethodInvocation SimpleName close
+executor SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+f SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName executor
+f SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName close
+f SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation BooleanLiteral true
+connector SimpleName MethodInvocation MethodInvocation SimpleName add listener
+close SimpleName MethodInvocation MethodInvocation SimpleName add listener
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName add listener
+add listener SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName f
+add listener SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName executor
+add listener SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName close
+add listener SimpleName MethodInvocation LambdaExpression MethodInvocation BooleanLiteral true
+executor SimpleName MethodInvocation SimpleName submit
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do close immediately
+void PrimitiveType MethodDeclaration SimpleName do close immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close immediately

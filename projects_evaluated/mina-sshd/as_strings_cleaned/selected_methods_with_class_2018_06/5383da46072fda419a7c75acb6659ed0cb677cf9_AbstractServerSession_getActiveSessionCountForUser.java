@@ -1,0 +1,82 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName user name
+is empty SimpleName MethodInvocation SimpleName user name
+network session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get io session
+io session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName network session
+network session SimpleName MethodInvocation SimpleName get service
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName network session
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+io service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+map SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+? WildcardType ParameterizedType SimpleType SimpleName io session
+service SimpleName MethodInvocation SimpleName get managed sessions
+sessions map SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+sessions map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get managed sessions
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName sessions map
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName sessions map
+is empty SimpleName MethodInvocation SimpleName sessions map
+total count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName is
+sessions map SimpleName MethodInvocation SimpleName values
+get session SimpleName MethodInvocation SimpleName is
+get session SimpleName MethodInvocation BooleanLiteral true
+is SimpleName MethodInvocation BooleanLiteral true
+server session SimpleName SimpleType CastExpression MethodInvocation SimpleName get session
+server session SimpleName SimpleType CastExpression MethodInvocation SimpleName is
+server session SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral true
+session SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName server session
+session SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName is
+session SimpleName VariableDeclarationFragment CastExpression MethodInvocation BooleanLiteral true
+server session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get username
+session user SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+session user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session user
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName session user
+is empty SimpleName MethodInvocation SimpleName session user
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName session user
+objects SimpleName MethodInvocation SimpleName user name
+equals SimpleName MethodInvocation SimpleName session user
+equals SimpleName MethodInvocation SimpleName user name
+session user SimpleName MethodInvocation SimpleName user name
+is SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName sessions map
+is SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName total count
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get active session count for user
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get active session count for user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName total count
+int PrimitiveType MethodDeclaration SimpleName get active session count for user
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user name
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName total count
+get active session count for user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get active session count for user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+get active session count for user SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get active session count for user SimpleName MethodDeclaration Block ReturnStatement SimpleName total count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active session count for user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active session count for user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name

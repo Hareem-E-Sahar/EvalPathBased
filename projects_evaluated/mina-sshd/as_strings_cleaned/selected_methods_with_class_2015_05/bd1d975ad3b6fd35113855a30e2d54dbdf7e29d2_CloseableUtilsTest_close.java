@@ -1,0 +1,43 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+assert true SimpleName MethodInvocation StringLiteral closure is not immediate
+assert true SimpleName MethodInvocation SimpleName immediately
+closure is not immediate StringLiteral MethodInvocation SimpleName immediately
+calls count SimpleName MethodInvocation SimpleName increment and get
+assert equals SimpleName MethodInvocation StringLiteral multiple close immediate calls
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName calls count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName increment and get
+multiple close immediate calls StringLiteral MethodInvocation NumberLiteral empty
+multiple close immediate calls StringLiteral MethodInvocation MethodInvocation SimpleName calls count
+multiple close immediate calls StringLiteral MethodInvocation MethodInvocation SimpleName increment and get
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName calls count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName increment and get
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName close future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+close future SimpleName SimpleType MethodDeclaration SimpleName close
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

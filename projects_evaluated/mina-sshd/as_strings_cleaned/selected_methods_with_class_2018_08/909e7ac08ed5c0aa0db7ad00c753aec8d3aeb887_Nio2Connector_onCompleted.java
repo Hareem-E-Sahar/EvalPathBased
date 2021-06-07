@@ -1,0 +1,220 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+void SimpleName SimpleType SingleVariableDeclaration SimpleName result
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attachment
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session id
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get io service event listener
+io service event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+socket SimpleName MethodInvocation SimpleName get local address
+local SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+local SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local address
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local
+socket SimpleName MethodInvocation SimpleName get remote address
+remote SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+remote SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote address
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote
+listener SimpleName MethodInvocation SimpleName connection established
+listener SimpleName MethodInvocation ThisExpression SimpleName nio connector
+listener SimpleName MethodInvocation SimpleName local
+listener SimpleName MethodInvocation SimpleName remote
+connection established SimpleName MethodInvocation ThisExpression SimpleName nio connector
+connection established SimpleName MethodInvocation SimpleName local
+connection established SimpleName MethodInvocation SimpleName remote
+nio connector SimpleName ThisExpression MethodInvocation SimpleName local
+nio connector SimpleName ThisExpression MethodInvocation SimpleName remote
+local SimpleName MethodInvocation SimpleName remote
+create session SimpleName MethodInvocation SimpleName manager
+create session SimpleName MethodInvocation SimpleName handler
+create session SimpleName MethodInvocation SimpleName socket
+manager SimpleName MethodInvocation SimpleName handler
+manager SimpleName MethodInvocation SimpleName socket
+handler SimpleName MethodInvocation SimpleName socket
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName create session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName handler
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+nio session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+handler SimpleName MethodInvocation SimpleName session created
+handler SimpleName MethodInvocation SimpleName session
+session created SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName get id
+session id SimpleName Assignment MethodInvocation SimpleName session
+session id SimpleName Assignment MethodInvocation SimpleName get id
+sessions SimpleName MethodInvocation SimpleName put
+sessions SimpleName MethodInvocation SimpleName session id
+sessions SimpleName MethodInvocation SimpleName session
+put SimpleName MethodInvocation SimpleName session id
+put SimpleName MethodInvocation SimpleName session
+session id SimpleName MethodInvocation SimpleName session
+future SimpleName MethodInvocation SimpleName set session
+future SimpleName MethodInvocation SimpleName session
+set session SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName is closing
+handler SimpleName MethodInvocation SimpleName session closed
+handler SimpleName MethodInvocation SimpleName session
+session closed SimpleName MethodInvocation SimpleName session
+unmap session SimpleName MethodInvocation SimpleName session id
+session SimpleName MethodInvocation SimpleName start reading
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exc
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName exc
+peel exception SimpleName MethodInvocation SimpleName exc
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName exc
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+log SimpleName MethodInvocation SimpleName is debug enabled
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName log
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName log
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+socket SimpleName MethodInvocation SimpleName get local address
+local address SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+local address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local address
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local address
+socket SimpleName MethodInvocation SimpleName get remote address
+remote address SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+remote address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote address
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote address
+listener SimpleName MethodInvocation SimpleName abort established connection
+listener SimpleName MethodInvocation ThisExpression SimpleName nio connector
+listener SimpleName MethodInvocation SimpleName local address
+listener SimpleName MethodInvocation SimpleName remote address
+listener SimpleName MethodInvocation SimpleName t
+abort established connection SimpleName MethodInvocation ThisExpression SimpleName nio connector
+abort established connection SimpleName MethodInvocation SimpleName local address
+abort established connection SimpleName MethodInvocation SimpleName remote address
+abort established connection SimpleName MethodInvocation SimpleName t
+nio connector SimpleName ThisExpression MethodInvocation SimpleName local address
+nio connector SimpleName ThisExpression MethodInvocation SimpleName remote address
+nio connector SimpleName ThisExpression MethodInvocation SimpleName t
+local address SimpleName MethodInvocation SimpleName remote address
+local address SimpleName MethodInvocation SimpleName t
+remote address SimpleName MethodInvocation SimpleName t
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+on completed listener StringLiteral InfixExpression SimpleName listener
+on completed listener StringLiteral InfixExpression StringLiteral ignoring abort event exception
+listener SimpleName InfixExpression StringLiteral ignoring abort event exception
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral on completed listener
+log SimpleName MethodInvocation InfixExpression SimpleName listener
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring abort event exception
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral on completed listener
+debug SimpleName MethodInvocation InfixExpression SimpleName listener
+debug SimpleName MethodInvocation InfixExpression StringLiteral ignoring abort event exception
+debug SimpleName MethodInvocation SimpleName e
+on completed listener StringLiteral InfixExpression MethodInvocation SimpleName e
+listener SimpleName InfixExpression MethodInvocation SimpleName e
+ignoring abort event exception StringLiteral InfixExpression MethodInvocation SimpleName e
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral on completed - failed {} to start session {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation StringLiteral on completed - failed {} to start session {}
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation MethodInvocation SimpleName t
+debug SimpleName MethodInvocation MethodInvocation SimpleName get message
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName t
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation SimpleName t
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral on completed - session creation failure details
+log SimpleName MethodInvocation SimpleName t
+trace SimpleName MethodInvocation StringLiteral on completed - session creation failure details
+trace SimpleName MethodInvocation SimpleName t
+on completed - session creation failure details StringLiteral MethodInvocation SimpleName t
+socket SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName err
+err SimpleName MethodInvocation SimpleName get class
+err SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+err SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral on completed - failed {} to close socket {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName err
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation StringLiteral on completed - failed {} to close socket {}
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation MethodInvocation SimpleName err
+debug SimpleName MethodInvocation MethodInvocation SimpleName get message
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName err
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation SimpleName err
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation SimpleName t
+set exception SimpleName MethodInvocation SimpleName t
+unmap session SimpleName MethodInvocation SimpleName session id
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName debug enabled
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on completed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName on completed
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName on completed
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attachment
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attachment
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName on completed
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName void
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attachment
+void PrimitiveType MethodDeclaration SimpleName on completed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName void
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attachment
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName void
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attachment
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attachment
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on completed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attachment
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on completed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attachment

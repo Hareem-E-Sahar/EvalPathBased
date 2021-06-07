@@ -1,0 +1,62 @@
+remote window SimpleName MethodInvocation SimpleName get packet size
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName remote window
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName get packet size
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buffer SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName remote window
+buffer SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName get packet size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+close future SimpleName MethodInvocation SimpleName is closed
+secured read SimpleName MethodInvocation SimpleName in
+secured read SimpleName MethodInvocation SimpleName buffer
+secured read SimpleName MethodInvocation NumberLiteral empty
+secured read SimpleName MethodInvocation QualifiedName bufferlength
+in SimpleName MethodInvocation SimpleName buffer
+in SimpleName MethodInvocation NumberLiteral empty
+in SimpleName MethodInvocation QualifiedName bufferlength
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation QualifiedName bufferlength
+empty NumberLiteral MethodInvocation QualifiedName bufferlength
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName secured read
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+len SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+len SimpleName VariableDeclarationFragment MethodInvocation QualifiedName bufferlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName secured read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName bufferlength
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName reset idle timeout
+len SimpleName InfixExpression NumberLiteral empty
+inverted in SimpleName MethodInvocation SimpleName write
+inverted in SimpleName MethodInvocation SimpleName buffer
+inverted in SimpleName MethodInvocation NumberLiteral empty
+inverted in SimpleName MethodInvocation SimpleName len
+write SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName len
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName len
+empty NumberLiteral MethodInvocation SimpleName len
+inverted in SimpleName MethodInvocation SimpleName flush
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral caught exception
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral caught exception
+debug SimpleName MethodInvocation SimpleName e
+caught exception StringLiteral MethodInvocation SimpleName e
+close SimpleName MethodInvocation BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName pump input stream
+void PrimitiveType MethodDeclaration SimpleName pump input stream
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName pump input stream
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pump input stream

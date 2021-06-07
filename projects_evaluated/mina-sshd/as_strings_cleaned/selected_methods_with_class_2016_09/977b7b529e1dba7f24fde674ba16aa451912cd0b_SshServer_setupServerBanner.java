@@ -1,0 +1,133 @@
+server factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName server
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+options SimpleName MethodInvocation SimpleName remove
+options SimpleName MethodInvocation QualifiedName ssh config file readerbanner config prop
+remove SimpleName MethodInvocation QualifiedName ssh config file readerbanner config prop
+objects SimpleName MethodInvocation SimpleName to string
+objects SimpleName MethodInvocation MethodInvocation SimpleName options
+objects SimpleName MethodInvocation MethodInvocation SimpleName remove
+objects SimpleName MethodInvocation MethodInvocation QualifiedName ssh config file readerbanner config prop
+to string SimpleName MethodInvocation MethodInvocation SimpleName options
+to string SimpleName MethodInvocation MethodInvocation SimpleName remove
+to string SimpleName MethodInvocation MethodInvocation QualifiedName ssh config file readerbanner config prop
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName objects
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName objects
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName objects
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+banner option SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName generic utils
+banner option SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is empty
+banner option SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName options
+banner option SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName objects
+banner option SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName banner option
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName banner option
+is empty SimpleName MethodInvocation SimpleName banner option
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+options SimpleName MethodInvocation SimpleName remove
+options SimpleName MethodInvocation QualifiedName ssh config file readervisual host key
+remove SimpleName MethodInvocation QualifiedName ssh config file readervisual host key
+objects SimpleName MethodInvocation SimpleName to string
+objects SimpleName MethodInvocation MethodInvocation SimpleName options
+objects SimpleName MethodInvocation MethodInvocation SimpleName remove
+objects SimpleName MethodInvocation MethodInvocation QualifiedName ssh config file readervisual host key
+to string SimpleName MethodInvocation MethodInvocation SimpleName options
+to string SimpleName MethodInvocation MethodInvocation SimpleName remove
+to string SimpleName MethodInvocation MethodInvocation QualifiedName ssh config file readervisual host key
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName objects
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName objects
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName objects
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+banner option SimpleName Assignment ConditionalExpression MethodInvocation SimpleName generic utils
+banner option SimpleName Assignment ConditionalExpression MethodInvocation SimpleName is empty
+banner option SimpleName Assignment ConditionalExpression MethodInvocation SimpleName options
+banner option SimpleName Assignment ConditionalExpression MethodInvocation SimpleName objects
+banner option SimpleName Assignment ConditionalExpression MethodInvocation SimpleName to string
+ssh config file reader SimpleName MethodInvocation SimpleName parse boolean value
+ssh config file reader SimpleName MethodInvocation SimpleName banner option
+parse boolean value SimpleName MethodInvocation SimpleName banner option
+banner option SimpleName Assignment QualifiedName server authentication managerauto welcome banner value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName banner
+generic utils SimpleName MethodInvocation SimpleName is not empty
+generic utils SimpleName MethodInvocation SimpleName banner option
+is not empty SimpleName MethodInvocation SimpleName banner option
+none StringLiteral MethodInvocation SimpleName equals
+none StringLiteral MethodInvocation SimpleName banner option
+equals SimpleName MethodInvocation SimpleName banner option
+server authentication managerauto welcome banner value QualifiedName MethodInvocation SimpleName equals ignore case
+server authentication managerauto welcome banner value QualifiedName MethodInvocation SimpleName banner option
+equals ignore case SimpleName MethodInvocation SimpleName banner option
+banner SimpleName Assignment SimpleName banner option
+paths SimpleName MethodInvocation SimpleName get
+paths SimpleName MethodInvocation SimpleName banner option
+get SimpleName MethodInvocation SimpleName banner option
+banner SimpleName Assignment MethodInvocation SimpleName paths
+banner SimpleName Assignment MethodInvocation SimpleName get
+banner SimpleName Assignment MethodInvocation SimpleName banner option
+banner SimpleName Assignment StringLiteral welcome to sshd
+property resolver utils SimpleName MethodInvocation SimpleName update property
+property resolver utils SimpleName MethodInvocation SimpleName server
+property resolver utils SimpleName MethodInvocation QualifiedName server authentication managerwelcome banner
+property resolver utils SimpleName MethodInvocation SimpleName banner
+update property SimpleName MethodInvocation SimpleName server
+update property SimpleName MethodInvocation QualifiedName server authentication managerwelcome banner
+update property SimpleName MethodInvocation SimpleName banner
+server SimpleName MethodInvocation QualifiedName server authentication managerwelcome banner
+server SimpleName MethodInvocation SimpleName banner
+server authentication managerwelcome banner QualifiedName MethodInvocation SimpleName banner
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName setup server banner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server factory manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName setup server banner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server factory manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName setup server banner
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+setup server banner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server factory manager
+setup server banner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+setup server banner SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+setup server banner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+setup server banner SimpleName MethodDeclaration SimpleType SimpleName exception
+setup server banner SimpleName MethodDeclaration Block ReturnStatement SimpleName banner
+server SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+server SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup server banner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup server banner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

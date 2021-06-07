@@ -1,0 +1,43 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName register bouncy castle
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation SimpleName register bouncy castle
+value of SimpleName MethodInvocation SimpleName register bouncy castle
+security utilsregister bouncy castle QualifiedName Assignment MethodInvocation SimpleName boolean
+security utilsregister bouncy castle QualifiedName Assignment MethodInvocation SimpleName value of
+security utilsregister bouncy castle QualifiedName Assignment MethodInvocation SimpleName register bouncy castle
+registration done SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set register bouncy castle
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName register bouncy castle
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set register bouncy castle
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName register bouncy castle
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set register bouncy castle
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName register bouncy castle
+void PrimitiveType MethodDeclaration SimpleName set register bouncy castle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName register bouncy castle
+set register bouncy castle SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set register bouncy castle SimpleName MethodDeclaration SingleVariableDeclaration SimpleName register bouncy castle
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set register bouncy castle
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName register bouncy castle
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set register bouncy castle
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName register bouncy castle

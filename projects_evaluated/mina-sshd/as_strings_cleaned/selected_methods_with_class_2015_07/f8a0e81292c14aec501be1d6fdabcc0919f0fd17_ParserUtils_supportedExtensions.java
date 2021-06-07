@@ -1,0 +1,106 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parsed
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parsed
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName parsed
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName parsed
+is empty SimpleName MethodInvocation SimpleName parsed
+collections SimpleName MethodInvocation SimpleName empty set
+supported parserinstance QualifiedName MethodInvocation SimpleName get name
+parsed SimpleName MethodInvocation SimpleName get
+parsed SimpleName MethodInvocation MethodInvocation QualifiedName supported parserinstance
+parsed SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation QualifiedName supported parserinstance
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+supported SimpleName SimpleType CastExpression MethodInvocation SimpleName parsed
+supported SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+sup SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName supported
+sup SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName parsed
+sup SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+supported SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sup
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sup SimpleName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName supextension names
+extra SimpleName VariableDeclarationFragment ConditionalExpression QualifiedName supextension names
+supported parserinstance QualifiedName MethodInvocation SimpleName get name
+parsed SimpleName MethodInvocation SimpleName get
+parsed SimpleName MethodInvocation MethodInvocation QualifiedName supported parserinstance
+parsed SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation QualifiedName supported parserinstance
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+supported SimpleName SimpleType CastExpression MethodInvocation SimpleName parsed
+supported SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+sup SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName supported
+sup SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName parsed
+sup SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+supported SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sup
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sup SimpleName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName sup extension names
+extra SimpleName VariableDeclarationFragment ConditionalExpression QualifiedName sup extension names
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName extra
+is empty SimpleName MethodInvocation SimpleName extra
+generic utils SimpleName MethodInvocation SimpleName as sorted set
+generic utils SimpleName MethodInvocation QualifiedName stringcase insensitive order
+generic utils SimpleName MethodInvocation SimpleName extra
+as sorted set SimpleName MethodInvocation QualifiedName stringcase insensitive order
+as sorted set SimpleName MethodInvocation SimpleName extra
+stringcase insensitive order QualifiedName MethodInvocation SimpleName extra
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName extra
+is empty SimpleName MethodInvocation SimpleName extra
+generic utils SimpleName MethodInvocation SimpleName as sorted set
+generic utils SimpleName MethodInvocation QualifiedName stringcase insensitive order
+generic utils SimpleName MethodInvocation SimpleName extra
+as sorted set SimpleName MethodInvocation QualifiedName stringcase insensitive order
+as sorted set SimpleName MethodInvocation SimpleName extra
+stringcase insensitive order QualifiedName MethodInvocation SimpleName extra
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+result SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+result SimpleName MethodInvocation SimpleName add all
+result SimpleName MethodInvocation SimpleName extra
+add all SimpleName MethodInvocation SimpleName extra
+result SimpleName MethodInvocation SimpleName add all
+result SimpleName MethodInvocation SimpleName extra
+add all SimpleName MethodInvocation SimpleName extra
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName supported extensions
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parsed
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName supported extensions
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName parsed
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName supported extensions
+final Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName parsed
+final Modifier MethodDeclaration Block ReturnStatement SimpleName result
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName supported extensions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName supported extensions
+supported extensions SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+supported extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parsed
+supported extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName supported extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parsed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName supported extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parsed

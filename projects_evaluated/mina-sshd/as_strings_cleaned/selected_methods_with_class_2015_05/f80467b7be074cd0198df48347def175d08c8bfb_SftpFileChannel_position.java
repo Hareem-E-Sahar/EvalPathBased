@@ -1,0 +1,56 @@
+long PrimitiveType SingleVariableDeclaration SimpleName new position
+new position SimpleName InfixExpression NumberLiteral empty
+position StringLiteral InfixExpression SimpleName p
+position StringLiteral InfixExpression StringLiteral ) illegal file channel position
+position StringLiteral InfixExpression SimpleName new position
+p SimpleName InfixExpression StringLiteral ) illegal file channel position
+p SimpleName InfixExpression SimpleName new position
+) illegal file channel position StringLiteral InfixExpression SimpleName new position
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral position
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName p
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) illegal file channel position
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new position
+collections SimpleName MethodInvocation SimpleType QualifiedName sftp clientopen mode
+collections SimpleName MethodInvocation SimpleName empty set
+sftp clientopen mode QualifiedName SimpleType MethodInvocation SimpleName empty set
+ensure open SimpleName MethodInvocation MethodInvocation SimpleName collections
+ensure open SimpleName MethodInvocation MethodInvocation SimpleType QualifiedName sftp clientopen mode
+ensure open SimpleName MethodInvocation MethodInvocation SimpleName empty set
+pos SimpleName Assignment SimpleName new position
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file channel
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName position
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new position
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName file channel
+public Modifier MethodDeclaration SimpleName position
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new position
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+file channel SimpleName SimpleType MethodDeclaration SimpleName position
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new position
+file channel SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+position SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+position SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new position
+position SimpleName MethodDeclaration SimpleType SimpleName io exception
+position SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new position SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName position
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new position
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName position
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new position
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

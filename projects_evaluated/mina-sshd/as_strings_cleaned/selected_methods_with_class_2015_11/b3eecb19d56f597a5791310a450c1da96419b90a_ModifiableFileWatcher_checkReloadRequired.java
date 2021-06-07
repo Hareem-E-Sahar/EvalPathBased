@@ -1,0 +1,63 @@
+exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName exists
+last existed SimpleName MethodInvocation SimpleName get and set
+last existed SimpleName MethodInvocation SimpleName exists
+get and set SimpleName MethodInvocation SimpleName exists
+exists SimpleName InfixExpression MethodInvocation SimpleName last existed
+exists SimpleName InfixExpression MethodInvocation SimpleName get and set
+exists SimpleName InfixExpression MethodInvocation SimpleName exists
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+size SimpleName InfixExpression NumberLiteral l
+last size SimpleName MethodInvocation SimpleName get and set
+last size SimpleName MethodInvocation SimpleName size
+get and set SimpleName MethodInvocation SimpleName size
+size SimpleName InfixExpression MethodInvocation SimpleName last size
+size SimpleName InfixExpression MethodInvocation SimpleName get and set
+size SimpleName InfixExpression MethodInvocation SimpleName size
+modified time SimpleName VariableDeclarationFragment MethodInvocation SimpleName last modified
+file time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName modified time
+modified time SimpleName MethodInvocation SimpleName to millis
+timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName modified time
+timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName to millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timestamp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName modified time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to millis
+last modified SimpleName MethodInvocation SimpleName get and set
+last modified SimpleName MethodInvocation SimpleName timestamp
+get and set SimpleName MethodInvocation SimpleName timestamp
+timestamp SimpleName InfixExpression MethodInvocation SimpleName last modified
+timestamp SimpleName InfixExpression MethodInvocation SimpleName get and set
+timestamp SimpleName InfixExpression MethodInvocation SimpleName timestamp
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName check reload required
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName check reload required
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+check reload required SimpleName MethodDeclaration SimpleType SimpleName io exception
+check reload required SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+check reload required SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+check reload required SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+check reload required SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check reload required
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check reload required
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

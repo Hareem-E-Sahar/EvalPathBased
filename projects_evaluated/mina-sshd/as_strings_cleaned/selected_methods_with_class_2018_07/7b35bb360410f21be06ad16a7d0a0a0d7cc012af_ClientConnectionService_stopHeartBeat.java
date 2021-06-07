@@ -1,0 +1,18 @@
+heart beat SimpleName MethodInvocation SimpleName cancel
+heart beat SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+protected Modifier MethodDeclaration Modifier synchronized
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName stop heart beat
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName stop heart beat
+void PrimitiveType MethodDeclaration SimpleName stop heart beat
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop heart beat
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop heart beat

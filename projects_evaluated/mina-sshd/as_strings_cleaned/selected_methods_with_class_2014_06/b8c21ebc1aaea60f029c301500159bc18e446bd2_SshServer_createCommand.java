@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+enum set SimpleName SimpleType ParameterizedType SimpleType QualifiedName process shell factorytty options
+os utils SimpleName MethodInvocation SimpleName is unix
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName process shell factorytty optionso nl cr
+of SimpleName MethodInvocation QualifiedName process shell factorytty optionso nl cr
+tty options SimpleName Assignment MethodInvocation SimpleName enum set
+tty options SimpleName Assignment MethodInvocation SimpleName of
+tty options SimpleName Assignment MethodInvocation QualifiedName process shell factorytty optionso nl cr
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName process shell factorytty optionsecho
+enum set SimpleName MethodInvocation QualifiedName process shell factorytty optionsi cr nl
+enum set SimpleName MethodInvocation QualifiedName process shell factorytty optionso nl cr
+of SimpleName MethodInvocation QualifiedName process shell factorytty optionsecho
+of SimpleName MethodInvocation QualifiedName process shell factorytty optionsi cr nl
+of SimpleName MethodInvocation QualifiedName process shell factorytty optionso nl cr
+process shell factorytty optionsecho QualifiedName MethodInvocation QualifiedName process shell factorytty optionsi cr nl
+process shell factorytty optionsecho QualifiedName MethodInvocation QualifiedName process shell factorytty optionso nl cr
+process shell factorytty optionsi cr nl QualifiedName MethodInvocation QualifiedName process shell factorytty optionso nl cr
+tty options SimpleName Assignment MethodInvocation SimpleName enum set
+tty options SimpleName Assignment MethodInvocation SimpleName of
+tty options SimpleName Assignment MethodInvocation QualifiedName process shell factorytty optionsecho
+tty options SimpleName Assignment MethodInvocation QualifiedName process shell factorytty optionsi cr nl
+tty options SimpleName Assignment MethodInvocation QualifiedName process shell factorytty optionso nl cr
+command SimpleName MethodInvocation SimpleName split
+command SimpleName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+process shell factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName command
+process shell factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName split
+process shell factory SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+process shell factory SimpleName SimpleType ClassInstanceCreation SimpleName tty options
+command SimpleName MethodInvocation ClassInstanceCreation SimpleName tty options
+split SimpleName MethodInvocation ClassInstanceCreation SimpleName tty options
+empty StringLiteral MethodInvocation ClassInstanceCreation SimpleName tty options
+process shell factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create
+command SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+split SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+empty StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+tty options SimpleName ClassInstanceCreation MethodInvocation SimpleName create
+public Modifier MethodDeclaration SimpleType SimpleName command
+public Modifier MethodDeclaration SimpleName create command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+command SimpleName SimpleType MethodDeclaration SimpleName create command
+command SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName command
+create command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SimpleName create command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command

@@ -1,0 +1,147 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+int PrimitiveType SingleVariableDeclaration SimpleName flags
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+file SimpleName MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+fs SimpleName MethodInvocation SimpleName supported file attribute views
+supported views SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+supported views SimpleName VariableDeclarationFragment MethodInvocation SimpleName supported file attribute views
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+object SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+attrs SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName supported views
+is empty SimpleName MethodInvocation SimpleName supported views
+collections SimpleName MethodInvocation SimpleName empty list
+views SimpleName Assignment MethodInvocation SimpleName collections
+views SimpleName Assignment MethodInvocation SimpleName empty list
+supported views SimpleName MethodInvocation SimpleName contains
+supported views SimpleName MethodInvocation StringLiteral unix
+contains SimpleName MethodInvocation StringLiteral unix
+views SimpleName Assignment SimpleName default unix view
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+supported views SimpleName MethodInvocation SimpleName size
+views SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName supported views
+views SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName InfixExpression StringLiteral :*
+views SimpleName MethodInvocation SimpleName add
+views SimpleName MethodInvocation InfixExpression SimpleName v
+views SimpleName MethodInvocation InfixExpression StringLiteral :*
+add SimpleName MethodInvocation InfixExpression SimpleName v
+add SimpleName MethodInvocation InfixExpression StringLiteral :*
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName supported views
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName supported views
+string SimpleName SimpleType SingleVariableDeclaration SimpleName v
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+read file attributes SimpleName MethodInvocation SimpleName file
+read file attributes SimpleName MethodInvocation SimpleName v
+read file attributes SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName v
+file SimpleName MethodInvocation SimpleName options
+v SimpleName MethodInvocation SimpleName options
+ta SimpleName VariableDeclarationFragment MethodInvocation SimpleName read file attributes
+ta SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+ta SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+ta SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName ta
+size SimpleName MethodInvocation SimpleName ta
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ta SimpleName MethodInvocation InfixExpression NumberLiteral empty
+attrs SimpleName MethodInvocation SimpleName put all
+attrs SimpleName MethodInvocation SimpleName ta
+put all SimpleName MethodInvocation SimpleName ta
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName views
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName views
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+resolve missing file attributes SimpleName MethodInvocation SimpleName file
+resolve missing file attributes SimpleName MethodInvocation SimpleName flags
+resolve missing file attributes SimpleName MethodInvocation SimpleName attrs
+resolve missing file attributes SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName flags
+file SimpleName MethodInvocation SimpleName attrs
+file SimpleName MethodInvocation SimpleName options
+flags SimpleName MethodInvocation SimpleName attrs
+flags SimpleName MethodInvocation SimpleName options
+attrs SimpleName MethodInvocation SimpleName options
+completions SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve missing file attributes
+completions SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+completions SimpleName VariableDeclarationFragment MethodInvocation SimpleName flags
+completions SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrs
+completions SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName completions
+size SimpleName MethodInvocation SimpleName completions
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+completions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+attrs SimpleName MethodInvocation SimpleName put all
+attrs SimpleName MethodInvocation SimpleName completions
+put all SimpleName MethodInvocation SimpleName completions
+views SimpleName EnhancedForStatement Block ReturnStatement SimpleName attrs
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName get attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName flags
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flags
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+get attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+get attributes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName views
+get attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName attrs
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+flags SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+flags SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

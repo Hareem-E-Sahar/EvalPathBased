@@ -1,0 +1,35 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName get registered identities
+session SimpleName MethodInvocation SimpleName get key pair provider
+resolve key identity provider SimpleName MethodInvocation MethodInvocation SimpleName session
+resolve key identity provider SimpleName MethodInvocation MethodInvocation SimpleName get registered identities
+resolve key identity provider SimpleName MethodInvocation MethodInvocation SimpleName session
+resolve key identity provider SimpleName MethodInvocation MethodInvocation SimpleName get key pair provider
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName session
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key pair provider
+get registered identities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName session
+get registered identities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key pair provider
+session SimpleName InfixExpression ConditionalExpression SimpleName empty keys provider
+session SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName resolve key identity provider
+empty keys provider SimpleName ConditionalExpression MethodInvocation SimpleName resolve key identity provider
+empty keys provider SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName session
+empty keys provider SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName get registered identities
+empty keys provider SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName session
+empty keys provider SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName get key pair provider
+static Modifier MethodDeclaration SimpleType SimpleName key identity provider
+static Modifier MethodDeclaration SimpleName provider of
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+key identity provider SimpleName SimpleType MethodDeclaration SimpleName provider of
+key identity provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+provider of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+provider of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName provider of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName provider of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

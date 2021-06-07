@@ -1,0 +1,21 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+load count SimpleName MethodInvocation SimpleName increment and get
+output debug message SimpleName MethodInvocation StringLiteral load passwords - counts
+output debug message SimpleName MethodInvocation SimpleName load count
+load passwords - counts StringLiteral MethodInvocation SimpleName load count
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load passwords
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName load passwords
+public Modifier MethodDeclaration Block ReturnStatement SimpleName passwords
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load passwords
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load passwords
+load passwords SimpleName MethodDeclaration Block ReturnStatement SimpleName passwords
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName load passwords
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load passwords

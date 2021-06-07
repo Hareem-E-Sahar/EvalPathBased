@@ -1,0 +1,26 @@
+closeables SimpleName MethodInvocation SimpleName is empty
+simple closeable SimpleName SimpleType ClassInstanceCreation SimpleName lock
+closeables SimpleName MethodInvocation SimpleName size
+closeables SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+closeables SimpleName MethodInvocation SimpleName get
+closeables SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+sequential closeable SimpleName SimpleType ClassInstanceCreation SimpleName lock
+sequential closeable SimpleName SimpleType ClassInstanceCreation SimpleName closeables
+lock SimpleName ClassInstanceCreation SimpleName closeables
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName closeable
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName build
+public Modifier MethodDeclaration SimpleType SimpleName closeable
+public Modifier MethodDeclaration SimpleName build
+closeable SimpleName SimpleType MethodDeclaration SimpleName build
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable
+public Modifier TypeDeclaration MethodDeclaration SimpleName build
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build

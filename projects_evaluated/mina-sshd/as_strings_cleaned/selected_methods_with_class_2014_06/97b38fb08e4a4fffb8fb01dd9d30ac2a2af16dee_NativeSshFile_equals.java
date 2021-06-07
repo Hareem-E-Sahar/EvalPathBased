@@ -1,0 +1,47 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName native ssh file
+obj SimpleName InfixExpression InfixExpression InstanceofExpression SimpleName obj
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName this canonical file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other canonical file
+file SimpleName FieldAccess MethodInvocation SimpleName get canonical file
+this canonical file SimpleName Assignment MethodInvocation FieldAccess SimpleName file
+this canonical file SimpleName Assignment MethodInvocation SimpleName get canonical file
+native ssh file SimpleName SimpleType CastExpression SimpleName obj
+obj SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName file
+file SimpleName FieldAccess MethodInvocation SimpleName get canonical file
+other canonical file SimpleName Assignment MethodInvocation FieldAccess SimpleName file
+other canonical file SimpleName Assignment MethodInvocation SimpleName get canonical file
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to get the canonical path
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to get the canonical path StringLiteral ClassInstanceCreation SimpleName e
+this canonical file SimpleName MethodInvocation SimpleName equals
+this canonical file SimpleName MethodInvocation SimpleName other canonical file
+equals SimpleName MethodInvocation SimpleName other canonical file
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

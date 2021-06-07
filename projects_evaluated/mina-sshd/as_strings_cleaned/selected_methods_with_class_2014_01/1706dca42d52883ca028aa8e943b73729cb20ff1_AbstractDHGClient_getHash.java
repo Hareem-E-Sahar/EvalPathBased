@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName digest
+public Modifier MethodDeclaration SimpleName get hash
+public Modifier MethodDeclaration Block ReturnStatement SimpleName hash
+digest SimpleName SimpleType MethodDeclaration SimpleName get hash
+get hash SimpleName MethodDeclaration Block ReturnStatement SimpleName hash
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName digest
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hash
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName digest
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hash

@@ -1,0 +1,31 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file store
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get file store
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName file store
+public Modifier MethodDeclaration SimpleName get file store
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+file store SimpleName SimpleType MethodDeclaration SimpleName get file store
+file store SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+file store SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get file store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get file store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+get file store SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file store
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file store
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

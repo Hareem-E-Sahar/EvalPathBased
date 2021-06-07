@@ -1,0 +1,34 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exception
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName exception
+validate utils SimpleName MethodInvocation StringLiteral no exception specified
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName exception
+check not null SimpleName MethodInvocation StringLiteral no exception specified
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+exception SimpleName MethodInvocation StringLiteral no exception specified
+exception SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no exception specified StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+set value SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+set value SimpleName MethodInvocation MethodInvocation SimpleName check not null
+set value SimpleName MethodInvocation MethodInvocation SimpleName exception
+set value SimpleName MethodInvocation MethodInvocation StringLiteral no exception specified
+set value SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exception
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception

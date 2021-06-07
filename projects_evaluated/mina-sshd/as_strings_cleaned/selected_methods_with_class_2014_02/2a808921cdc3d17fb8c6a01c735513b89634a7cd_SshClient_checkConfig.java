@@ -1,0 +1,53 @@
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral key exchange factories not set
+executors SimpleName MethodInvocation SimpleName new single thread scheduled executor
+set scheduled executor service SimpleName MethodInvocation MethodInvocation SimpleName executors
+set scheduled executor service SimpleName MethodInvocation MethodInvocation SimpleName new single thread scheduled executor
+set scheduled executor service SimpleName MethodInvocation BooleanLiteral true
+executors SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+new single thread scheduled executor SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral cipher factories not set
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral compression factories not set
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral mac factories not set
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral random factory not set
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral tcpip forwarder factory not set
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral server key verifier not set
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+factories SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel factories
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName factories
+factories SimpleName Assignment ClassInstanceCreation SimpleName factories
+get agent factory SimpleName MethodInvocation MethodInvocation SimpleName get channel forwarding factory
+factories SimpleName MethodInvocation SimpleName add
+factories SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get agent factory
+factories SimpleName MethodInvocation MethodInvocation SimpleName get channel forwarding factory
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get agent factory
+add SimpleName MethodInvocation MethodInvocation SimpleName get channel forwarding factory
+set channel factories SimpleName MethodInvocation SimpleName factories
+set io service factory factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default io service factory factory
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client user auth servicefactory
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client connection servicefactory
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client user auth servicefactory
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client connection servicefactory
+set service factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set service factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName user auth public keyfactory
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName user auth keyboard interactivefactory
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName user auth passwordfactory
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName user auth public keyfactory
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName user auth keyboard interactivefactory
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName user auth passwordfactory
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check config
+void PrimitiveType MethodDeclaration SimpleName check config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check config
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check config

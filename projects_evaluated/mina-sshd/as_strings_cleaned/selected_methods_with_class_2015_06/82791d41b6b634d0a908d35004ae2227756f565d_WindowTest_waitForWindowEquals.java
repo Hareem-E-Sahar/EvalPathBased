@@ -1,0 +1,103 @@
+window SimpleName SimpleType SingleVariableDeclaration SimpleName w
+window SimpleName SimpleType SingleVariableDeclaration SimpleName w
+string SimpleName SimpleType SingleVariableDeclaration SimpleName n
+string SimpleName SimpleType SingleVariableDeclaration SimpleName n
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression NumberLiteral empty
+w SimpleName MethodInvocation SimpleName get size
+w SimpleName MethodInvocation SimpleName get size
+w SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName w
+w SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+get size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName w
+get size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName j
+n SimpleName InfixExpression StringLiteral and
+n SimpleName InfixExpression SimpleName n
+and StringLiteral InfixExpression SimpleName n
+w SimpleName MethodInvocation SimpleName get size
+w SimpleName MethodInvocation SimpleName get size
+assert equals SimpleName MethodInvocation InfixExpression SimpleName n
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral and
+assert equals SimpleName MethodInvocation InfixExpression SimpleName n
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName w
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName w
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get size
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName w
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get size
+and StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName w
+and StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get size
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName w
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get size
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName w
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get size
+and StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName w
+and StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get size
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName w
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get size
+w SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName w
+w SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get size
+get size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName w
+get size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get size
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName wait for window equals
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName w
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName w
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName wait for window equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName w
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName w
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName w
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName w
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+wait for window equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+wait for window equals SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+w SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+w SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+n SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+n SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for window equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for window equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

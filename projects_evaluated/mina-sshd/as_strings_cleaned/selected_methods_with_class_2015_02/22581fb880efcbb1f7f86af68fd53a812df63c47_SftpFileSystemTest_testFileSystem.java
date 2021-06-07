@@ -1,0 +1,323 @@
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetsftp
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+utils SimpleName MethodInvocation ClassInstanceCreation StringLiteral targetsftp
+delete recursive SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+delete recursive SimpleName MethodInvocation ClassInstanceCreation StringLiteral targetsftp
+sftpxxlocalhost StringLiteral InfixExpression SimpleName port
+sftpxxlocalhost StringLiteral InfixExpression StringLiteral /
+port SimpleName InfixExpression StringLiteral /
+uri SimpleName VariableDeclarationFragment InfixExpression StringLiteral sftpxxlocalhost
+uri SimpleName VariableDeclarationFragment InfixExpression SimpleName port
+uri SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+uri SimpleName MethodInvocation SimpleName create
+uri SimpleName MethodInvocation SimpleName uri
+create SimpleName MethodInvocation SimpleName uri
+file systems SimpleName MethodInvocation SimpleName new file system
+file systems SimpleName MethodInvocation MethodInvocation SimpleName uri
+file systems SimpleName MethodInvocation MethodInvocation SimpleName create
+file systems SimpleName MethodInvocation MethodInvocation SimpleName uri
+new file system SimpleName MethodInvocation MethodInvocation SimpleName uri
+new file system SimpleName MethodInvocation MethodInvocation SimpleName create
+new file system SimpleName MethodInvocation MethodInvocation SimpleName uri
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file systems
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uri
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uri
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get root directories
+fs SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get root directories SimpleName MethodInvocation MethodInvocation SimpleName iterator
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+get root directories SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+root SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+directory stream SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+files SimpleName MethodInvocation SimpleName new directory stream
+files SimpleName MethodInvocation SimpleName root
+new directory stream SimpleName MethodInvocation SimpleName root
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName new directory stream
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+path SimpleName SimpleType SingleVariableDeclaration SimpleName child
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName child
+println SimpleName MethodInvocation SimpleName child
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ds
+child SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ds
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation StringLiteral .
+get path SimpleName MethodInvocation StringLiteral .
+fs SimpleName MethodInvocation MethodInvocation SimpleName to real path
+get path SimpleName MethodInvocation MethodInvocation SimpleName to real path
+. StringLiteral MethodInvocation MethodInvocation SimpleName to real path
+current SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+current SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+current SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral .
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName to real path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation StringLiteral targetsftpclienttesttxt
+get path SimpleName MethodInvocation StringLiteral targetsftpclienttesttxt
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral targetsftpclienttesttxt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName get parent
+files SimpleName MethodInvocation SimpleName create directories
+files SimpleName MethodInvocation MethodInvocation SimpleName file
+files SimpleName MethodInvocation MethodInvocation SimpleName get parent
+create directories SimpleName MethodInvocation MethodInvocation SimpleName file
+create directories SimpleName MethodInvocation MethodInvocation SimpleName get parent
+hello world StringLiteral MethodInvocation SimpleName get bytes
+files SimpleName MethodInvocation SimpleName write
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation MethodInvocation StringLiteral hello world
+files SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation SimpleName file
+write SimpleName MethodInvocation MethodInvocation StringLiteral hello world
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+file SimpleName MethodInvocation MethodInvocation StringLiteral hello world
+file SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+files SimpleName MethodInvocation SimpleName read all bytes
+files SimpleName MethodInvocation SimpleName file
+read all bytes SimpleName MethodInvocation SimpleName file
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName files
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName read all bytes
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName files
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName read all bytes
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+assert equals SimpleName MethodInvocation StringLiteral hello world
+assert equals SimpleName MethodInvocation SimpleName buf
+hello world StringLiteral MethodInvocation SimpleName buf
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation StringLiteral targetsftpclienttest txt
+get path SimpleName MethodInvocation StringLiteral targetsftpclienttest txt
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral targetsftpclienttest txt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation StringLiteral targetsftpclienttest txt
+get path SimpleName MethodInvocation StringLiteral targetsftpclienttest txt
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral targetsftpclienttest txt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+files SimpleName MethodInvocation SimpleName move
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation SimpleName file
+file SimpleName MethodInvocation SimpleName file
+fail SimpleName MethodInvocation StringLiteral expected an io exception
+no such file exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+h StringLiteral MethodInvocation SimpleName get bytes
+files SimpleName MethodInvocation SimpleName write
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation MethodInvocation StringLiteral h
+files SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation SimpleName file
+write SimpleName MethodInvocation MethodInvocation StringLiteral h
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+file SimpleName MethodInvocation MethodInvocation StringLiteral h
+file SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+files SimpleName MethodInvocation SimpleName move
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation SimpleName file
+file SimpleName MethodInvocation SimpleName file
+fail SimpleName MethodInvocation StringLiteral expected an io exception
+file already exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+files SimpleName MethodInvocation SimpleName move
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation QualifiedName standard copy optionreplace existing
+move SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation QualifiedName standard copy optionreplace existing
+file SimpleName MethodInvocation SimpleName file
+file SimpleName MethodInvocation QualifiedName standard copy optionreplace existing
+file SimpleName MethodInvocation QualifiedName standard copy optionreplace existing
+files SimpleName MethodInvocation SimpleName move
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation SimpleName file
+move SimpleName MethodInvocation SimpleName file
+file SimpleName MethodInvocation SimpleName file
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+files SimpleName MethodInvocation SimpleName read attributes
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation StringLiteral *
+read attributes SimpleName MethodInvocation SimpleName file
+read attributes SimpleName MethodInvocation StringLiteral *
+file SimpleName MethodInvocation StringLiteral *
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+attrs SimpleName VariableDeclarationFragment MethodInvocation StringLiteral *
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName attrs
+println SimpleName MethodInvocation SimpleName attrs
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation StringLiteral targetsftpclienttest txt
+get path SimpleName MethodInvocation StringLiteral targetsftpclienttest txt
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+link SimpleName VariableDeclarationFragment MethodInvocation StringLiteral targetsftpclienttest txt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName link
+link SimpleName MethodInvocation SimpleName get parent
+link SimpleName MethodInvocation MethodInvocation SimpleName relativize
+get parent SimpleName MethodInvocation MethodInvocation SimpleName relativize
+link SimpleName MethodInvocation MethodInvocation SimpleName file
+get parent SimpleName MethodInvocation MethodInvocation SimpleName file
+relativize SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName create symbolic link
+files SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName link
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parent
+files SimpleName MethodInvocation MethodInvocation SimpleName relativize
+files SimpleName MethodInvocation MethodInvocation SimpleName file
+create symbolic link SimpleName MethodInvocation SimpleName link
+create symbolic link SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName link
+create symbolic link SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parent
+create symbolic link SimpleName MethodInvocation MethodInvocation SimpleName relativize
+create symbolic link SimpleName MethodInvocation MethodInvocation SimpleName file
+link SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName link
+link SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parent
+link SimpleName MethodInvocation MethodInvocation SimpleName relativize
+link SimpleName MethodInvocation MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName is symbolic link
+files SimpleName MethodInvocation SimpleName link
+is symbolic link SimpleName MethodInvocation SimpleName link
+assert true SimpleName MethodInvocation MethodInvocation SimpleName files
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is symbolic link
+assert true SimpleName MethodInvocation MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName read symbolic link
+files SimpleName MethodInvocation SimpleName link
+read symbolic link SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation MethodInvocation SimpleName to string
+read symbolic link SimpleName MethodInvocation MethodInvocation SimpleName to string
+link SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral testtxt
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName files
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName read symbolic link
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName link
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+testtxt StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName files
+testtxt StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName read symbolic link
+testtxt StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName link
+testtxt StringLiteral MethodInvocation MethodInvocation SimpleName to string
+files SimpleName MethodInvocation SimpleName delete
+files SimpleName MethodInvocation SimpleName link
+delete SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName read attributes
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation StringLiteral *
+files SimpleName MethodInvocation QualifiedName link optionnofollow links
+read attributes SimpleName MethodInvocation SimpleName file
+read attributes SimpleName MethodInvocation StringLiteral *
+read attributes SimpleName MethodInvocation QualifiedName link optionnofollow links
+file SimpleName MethodInvocation StringLiteral *
+file SimpleName MethodInvocation QualifiedName link optionnofollow links
+* StringLiteral MethodInvocation QualifiedName link optionnofollow links
+attrs SimpleName Assignment MethodInvocation SimpleName files
+attrs SimpleName Assignment MethodInvocation SimpleName read attributes
+attrs SimpleName Assignment MethodInvocation SimpleName file
+attrs SimpleName Assignment MethodInvocation StringLiteral *
+attrs SimpleName Assignment MethodInvocation QualifiedName link optionnofollow links
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName attrs
+println SimpleName MethodInvocation SimpleName attrs
+files SimpleName MethodInvocation SimpleName read all bytes
+files SimpleName MethodInvocation SimpleName file
+read all bytes SimpleName MethodInvocation SimpleName file
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName files
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName read all bytes
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file
+buf SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+buf SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName files
+buf SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName read all bytes
+buf SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName file
+assert equals SimpleName MethodInvocation StringLiteral hello world
+assert equals SimpleName MethodInvocation SimpleName buf
+hello world StringLiteral MethodInvocation SimpleName buf
+file channel SimpleName MethodInvocation SimpleName open
+file channel SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation SimpleName file
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName file channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+file channel SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName lock
+lock SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+lock SimpleName VariableDeclarationFragment MethodInvocation SimpleName lock
+file lock SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName lock
+lock SimpleName MethodInvocation SimpleName to string
+locked StringLiteral InfixExpression MethodInvocation SimpleName lock
+locked StringLiteral InfixExpression MethodInvocation SimpleName to string
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral locked
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName lock
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+println SimpleName MethodInvocation InfixExpression StringLiteral locked
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lock
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+file channel SimpleName MethodInvocation SimpleName open
+file channel SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation SimpleName file
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName file channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+file channel SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName lock
+lock SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+lock SimpleName VariableDeclarationFragment MethodInvocation SimpleName lock
+file lock SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName lock
+lock SimpleName MethodInvocation SimpleName to string
+locked StringLiteral InfixExpression MethodInvocation SimpleName lock
+locked StringLiteral InfixExpression MethodInvocation SimpleName to string
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral locked
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName lock
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+println SimpleName MethodInvocation InfixExpression StringLiteral locked
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lock
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fail SimpleName MethodInvocation StringLiteral expected an exception
+overlapping file lock exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+files SimpleName MethodInvocation SimpleName delete
+files SimpleName MethodInvocation SimpleName file
+delete SimpleName MethodInvocation SimpleName file
+fs SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test file system
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test file system
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test file system
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test file system SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test file system
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

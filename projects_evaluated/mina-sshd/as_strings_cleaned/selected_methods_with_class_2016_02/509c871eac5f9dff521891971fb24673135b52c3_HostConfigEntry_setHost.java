@@ -1,0 +1,45 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName patterns
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName patterns
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName patterns
+validate utils SimpleName MethodInvocation StringLiteral no patterns
+check not null and not empty SimpleName MethodInvocation SimpleName patterns
+check not null and not empty SimpleName MethodInvocation StringLiteral no patterns
+patterns SimpleName MethodInvocation StringLiteral no patterns
+generic utils SimpleName MethodInvocation SimpleName join
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName patterns
+generic utils SimpleName MethodInvocation MethodInvocation StringLiteral no patterns
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+join SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+join SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+join SimpleName MethodInvocation MethodInvocation SimpleName patterns
+join SimpleName MethodInvocation MethodInvocation StringLiteral no patterns
+join SimpleName MethodInvocation CharacterLiteral empty
+validate utils SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+check not null and not empty SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+patterns SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+no patterns StringLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+host SimpleName FieldAccess Assignment MethodInvocation SimpleName generic utils
+host SimpleName FieldAccess Assignment MethodInvocation SimpleName join
+host SimpleName FieldAccess Assignment MethodInvocation CharacterLiteral empty
+parse patterns SimpleName MethodInvocation SimpleName patterns
+set patterns SimpleName MethodInvocation MethodInvocation SimpleName parse patterns
+set patterns SimpleName MethodInvocation MethodInvocation SimpleName patterns
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName patterns
+void PrimitiveType MethodDeclaration SimpleName set host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName patterns
+set host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName patterns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName patterns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName patterns

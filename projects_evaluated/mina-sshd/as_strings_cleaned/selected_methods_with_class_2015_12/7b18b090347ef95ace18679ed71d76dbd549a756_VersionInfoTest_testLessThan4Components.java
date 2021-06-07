@@ -1,0 +1,70 @@
+version info SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+version info SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName version info
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+version info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+expected SimpleName MethodInvocation SimpleName get major version
+expected SimpleName MethodInvocation SimpleName get minor version
+number utils SimpleName MethodInvocation SimpleName join
+number utils SimpleName MethodInvocation CharacterLiteral .
+number utils SimpleName MethodInvocation MethodInvocation SimpleName expected
+number utils SimpleName MethodInvocation MethodInvocation SimpleName get major version
+number utils SimpleName MethodInvocation MethodInvocation SimpleName expected
+number utils SimpleName MethodInvocation MethodInvocation SimpleName get minor version
+join SimpleName MethodInvocation CharacterLiteral .
+join SimpleName MethodInvocation MethodInvocation SimpleName expected
+join SimpleName MethodInvocation MethodInvocation SimpleName get major version
+join SimpleName MethodInvocation MethodInvocation SimpleName expected
+join SimpleName MethodInvocation MethodInvocation SimpleName get minor version
+. CharacterLiteral MethodInvocation MethodInvocation SimpleName expected
+. CharacterLiteral MethodInvocation MethodInvocation SimpleName get major version
+. CharacterLiteral MethodInvocation MethodInvocation SimpleName expected
+. CharacterLiteral MethodInvocation MethodInvocation SimpleName get minor version
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get minor version
+get major version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+get major version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get minor version
+version info SimpleName MethodInvocation SimpleName parse
+version info SimpleName MethodInvocation MethodInvocation SimpleName number utils
+version info SimpleName MethodInvocation MethodInvocation SimpleName join
+version info SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+version info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+version info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get major version
+version info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+version info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get minor version
+parse SimpleName MethodInvocation MethodInvocation SimpleName number utils
+parse SimpleName MethodInvocation MethodInvocation SimpleName join
+parse SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+parse SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+parse SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get major version
+parse SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+parse SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get minor version
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName version info
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName number utils
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName join
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation CharacterLiteral .
+version info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert equals SimpleName MethodInvocation StringLiteral mismatched result
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched result StringLiteral MethodInvocation SimpleName expected
+mismatched result StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test less than components
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test less than components
+void PrimitiveType MethodDeclaration SimpleName test less than components
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test less than components
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test less than components

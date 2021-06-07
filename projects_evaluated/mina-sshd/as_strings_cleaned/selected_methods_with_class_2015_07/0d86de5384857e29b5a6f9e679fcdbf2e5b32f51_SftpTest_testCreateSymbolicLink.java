@@ -1,0 +1,253 @@
+ignore SimpleName SingleMemberAnnotation StringLiteral symlinks via java + sftp pose some issues
+os utils SimpleName MethodInvocation SimpleName is unix
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral skip nonunix os
+assume SimpleName MethodInvocation MethodInvocation SimpleName os utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName is unix
+assume true SimpleName MethodInvocation StringLiteral skip nonunix os
+assume true SimpleName MethodInvocation MethodInvocation SimpleName os utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is unix
+skip nonunix os StringLiteral MethodInvocation MethodInvocation SimpleName os utils
+skip nonunix os StringLiteral MethodInvocation MethodInvocation SimpleName is unix
+detect target folder SimpleName MethodInvocation MethodInvocation SimpleName to path
+target path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName detect target folder
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName to path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation SimpleName target path
+utils SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+resolve SimpleName MethodInvocation SimpleName target path
+resolve SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+resolve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+target path SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+target path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+target path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target path SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp constantssftp subsystem name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get simple name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lcl sftp
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName lcl sftp
+delete recursive SimpleName MethodInvocation SimpleName lcl sftp
+target path SimpleName MethodInvocation SimpleName get parent
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent path
+assert hierarchy target folder exists SimpleName MethodInvocation SimpleName lcl sftp
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName resolve
+lcl sftp SimpleName MethodInvocation MethodInvocation SimpleName resolve
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation StringLiteral srctxt
+lcl sftp SimpleName MethodInvocation MethodInvocation StringLiteral srctxt
+resolve SimpleName MethodInvocation StringLiteral srctxt
+source path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+source path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName lcl sftp
+source path SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+source path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral srctxt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source path
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName parent path
+utils SimpleName MethodInvocation SimpleName source path
+resolve relative remote path SimpleName MethodInvocation SimpleName parent path
+resolve relative remote path SimpleName MethodInvocation SimpleName source path
+parent path SimpleName MethodInvocation SimpleName source path
+rem src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+rem src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve relative remote path
+rem src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent path
+rem src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName source path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rem src path
+source path SimpleName MethodInvocation SimpleName get file name
+link StringLiteral InfixExpression MethodInvocation SimpleName source path
+link StringLiteral InfixExpression MethodInvocation SimpleName get file name
+lcl sftp SimpleName MethodInvocation SimpleName resolve
+lcl sftp SimpleName MethodInvocation InfixExpression StringLiteral link
+lcl sftp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName source path
+lcl sftp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file name
+resolve SimpleName MethodInvocation InfixExpression StringLiteral link
+resolve SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName source path
+resolve SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file name
+link path SimpleName VariableDeclarationFragment MethodInvocation SimpleName lcl sftp
+link path SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+link path SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral link
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName link path
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName parent path
+utils SimpleName MethodInvocation SimpleName link path
+resolve relative remote path SimpleName MethodInvocation SimpleName parent path
+resolve relative remote path SimpleName MethodInvocation SimpleName link path
+parent path SimpleName MethodInvocation SimpleName link path
+rem link path SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+rem link path SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve relative remote path
+rem link path SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent path
+rem link path SimpleName VariableDeclarationFragment MethodInvocation SimpleName link path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rem link path
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+session SimpleName MethodInvocation SimpleName open channel
+session SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+open channel SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName open channel
+channel sftp SimpleName SimpleType CastExpression MethodInvocation QualifiedName sftp constantssftp subsystem name
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName channel sftp
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName sftp constantssftp subsystem name
+channel sftp SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName connect
+data SimpleName MethodInvocation SimpleName get bytes
+data SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+c SimpleName MethodInvocation SimpleName put
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array input stream
+c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+c SimpleName MethodInvocation SimpleName rem src path
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array input stream
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation SimpleName rem src path
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rem src path
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rem src path
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rem src path
+standard charsetsutf QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rem src path
+source file not created StringLiteral InfixExpression SimpleName source path
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName source path
+exists SimpleName MethodInvocation SimpleName source path
+assert true SimpleName MethodInvocation InfixExpression StringLiteral source file not created
+assert true SimpleName MethodInvocation InfixExpression SimpleName source path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName files
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName source path
+source file not created StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName files
+source file not created StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exists
+source file not created StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName source path
+source path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName files
+source path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exists
+source path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName source path
+mismatched stored data in StringLiteral InfixExpression SimpleName rem src path
+read file SimpleName MethodInvocation SimpleName rem src path
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched stored data in
+assert equals SimpleName MethodInvocation InfixExpression SimpleName rem src path
+assert equals SimpleName MethodInvocation SimpleName data
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName read file
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName rem src path
+mismatched stored data in StringLiteral InfixExpression MethodInvocation SimpleName data
+rem src path SimpleName InfixExpression MethodInvocation SimpleName data
+mismatched stored data in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName read file
+mismatched stored data in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName rem src path
+rem src path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName read file
+rem src path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName rem src path
+data SimpleName MethodInvocation MethodInvocation SimpleName read file
+data SimpleName MethodInvocation MethodInvocation SimpleName rem src path
+c SimpleName MethodInvocation SimpleName symlink
+c SimpleName MethodInvocation SimpleName rem src path
+c SimpleName MethodInvocation SimpleName rem link path
+symlink SimpleName MethodInvocation SimpleName rem src path
+symlink SimpleName MethodInvocation SimpleName rem link path
+rem src path SimpleName MethodInvocation SimpleName rem link path
+symlink not created StringLiteral InfixExpression SimpleName link path
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName link path
+exists SimpleName MethodInvocation SimpleName link path
+assert true SimpleName MethodInvocation InfixExpression StringLiteral symlink not created
+assert true SimpleName MethodInvocation InfixExpression SimpleName link path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName files
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName link path
+symlink not created StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName files
+symlink not created StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exists
+symlink not created StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName link path
+link path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName files
+link path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exists
+link path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName link path
+mismatched link data in StringLiteral InfixExpression SimpleName rem link path
+read file SimpleName MethodInvocation SimpleName rem link path
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched link data in
+assert equals SimpleName MethodInvocation InfixExpression SimpleName rem link path
+assert equals SimpleName MethodInvocation SimpleName data
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName read file
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName rem link path
+mismatched link data in StringLiteral InfixExpression MethodInvocation SimpleName data
+rem link path SimpleName InfixExpression MethodInvocation SimpleName data
+mismatched link data in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName read file
+mismatched link data in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName rem link path
+rem link path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName read file
+rem link path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName rem link path
+data SimpleName MethodInvocation MethodInvocation SimpleName read file
+data SimpleName MethodInvocation MethodInvocation SimpleName rem link path
+c SimpleName MethodInvocation SimpleName readlink
+c SimpleName MethodInvocation SimpleName rem link path
+readlink SimpleName MethodInvocation SimpleName rem link path
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName readlink
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName rem link path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+c SimpleName MethodInvocation SimpleName realpath
+c SimpleName MethodInvocation SimpleName rem src path
+realpath SimpleName MethodInvocation SimpleName rem src path
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName realpath
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName rem src path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+assert equals SimpleName MethodInvocation StringLiteral mismatched link vs real path
+assert equals SimpleName MethodInvocation SimpleName str
+assert equals SimpleName MethodInvocation SimpleName str
+mismatched link vs real path StringLiteral MethodInvocation SimpleName str
+mismatched link vs real path StringLiteral MethodInvocation SimpleName str
+str SimpleName MethodInvocation SimpleName str
+c SimpleName MethodInvocation SimpleName disconnect
+test SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName ignore
+test SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral symlinks via java + sftp pose some issues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create symbolic link
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+ignore SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+symlinks via java + sftp pose some issues StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+ignore SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+symlinks via java + sftp pose some issues StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+ignore SimpleName SingleMemberAnnotation MethodDeclaration SimpleName test create symbolic link
+symlinks via java + sftp pose some issues StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName test create symbolic link
+ignore SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+symlinks via java + sftp pose some issues StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create symbolic link
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create symbolic link
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create symbolic link SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName ignore
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral symlinks via java + sftp pose some issues
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create symbolic link
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName ignore
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral symlinks via java + sftp pose some issues
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create symbolic link
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

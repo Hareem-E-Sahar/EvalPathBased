@@ -1,0 +1,43 @@
+names SimpleName MethodInvocation SimpleName is empty
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName sub list
+names SimpleName MethodInvocation NumberLiteral empty
+names SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName names
+names SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sub list SimpleName MethodInvocation NumberLiteral empty
+sub list SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName names
+sub list SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+sub list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName names
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+create SimpleName MethodInvocation SimpleName root
+create SimpleName MethodInvocation MethodInvocation SimpleName names
+create SimpleName MethodInvocation MethodInvocation SimpleName sub list
+create SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+root SimpleName MethodInvocation MethodInvocation SimpleName names
+root SimpleName MethodInvocation MethodInvocation SimpleName sub list
+root SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+root SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get parent
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get parent
+t SimpleName SimpleType MethodDeclaration SimpleName get parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent

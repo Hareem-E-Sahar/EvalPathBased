@@ -1,0 +1,20 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName cast
+get class SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName clone
+cast SimpleName MethodInvocation SuperMethodInvocation SimpleName clone
+clone not supported exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName scp command factory
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration SimpleType SimpleName scp command factory
+public Modifier MethodDeclaration SimpleName clone
+scp command factory SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scp command factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scp command factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

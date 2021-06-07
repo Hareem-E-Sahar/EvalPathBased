@@ -1,0 +1,21 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+collections SimpleName MethodInvocation SimpleType SimpleName path
+collections SimpleName MethodInvocation SimpleName singleton
+path SimpleName SimpleType MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation MethodInvocation SimpleName iterator
+path SimpleName SimpleType MethodInvocation MethodInvocation SimpleName iterator
+singleton SimpleName MethodInvocation MethodInvocation SimpleName iterator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+path SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator

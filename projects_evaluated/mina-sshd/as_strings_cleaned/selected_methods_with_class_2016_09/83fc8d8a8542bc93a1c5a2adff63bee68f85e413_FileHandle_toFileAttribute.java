@@ -1,0 +1,154 @@
+file attribute SimpleName SimpleType ParameterizedType WildcardType ?
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName val
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+is other StringLiteral MethodInvocation SimpleName equals
+is other StringLiteral MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+boolean SimpleName SimpleType CastExpression SimpleName val
+not allowed to use StringLiteral InfixExpression SimpleName key
+not allowed to use StringLiteral InfixExpression StringLiteral =
+not allowed to use StringLiteral InfixExpression SimpleName val
+key SimpleName InfixExpression StringLiteral =
+key SimpleName InfixExpression SimpleName val
+= StringLiteral InfixExpression SimpleName val
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not allowed to use
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral =
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName val
+is regular StringLiteral MethodInvocation SimpleName equals
+is regular StringLiteral MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+boolean SimpleName SimpleType CastExpression SimpleName val
+not allowed to use StringLiteral InfixExpression SimpleName key
+not allowed to use StringLiteral InfixExpression StringLiteral =
+not allowed to use StringLiteral InfixExpression SimpleName val
+key SimpleName InfixExpression StringLiteral =
+key SimpleName InfixExpression SimpleName val
+= StringLiteral InfixExpression SimpleName val
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not allowed to use
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral =
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName val
+file attribute SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+key SimpleName InfixExpression StringLiteral =
+key SimpleName InfixExpression SimpleName val
+= StringLiteral InfixExpression SimpleName val
+s SimpleName VariableDeclarationFragment InfixExpression SimpleName key
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral =
+s SimpleName VariableDeclarationFragment InfixExpression SimpleName val
+private Modifier FieldDeclaration Modifier final
+private Modifier FieldDeclaration SimpleType SimpleName string
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName s
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression SimpleName key
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral =
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression SimpleName val
+final Modifier FieldDeclaration SimpleType SimpleName string
+final Modifier FieldDeclaration VariableDeclarationFragment SimpleName s
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression SimpleName key
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral =
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression SimpleName val
+string SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleName name
+name SimpleName MethodDeclaration Block ReturnStatement SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName val
+object SimpleName SimpleType MethodDeclaration SimpleName value
+value SimpleName MethodDeclaration Block ReturnStatement SimpleName val
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName name
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName name
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName value
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName value
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName value
+name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName value
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+value SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+value SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file attribute
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName to file attribute
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file attribute
+static Modifier MethodDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SimpleName to file attribute
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+file attribute SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to file attribute
+? WildcardType ParameterizedType MethodDeclaration SimpleName to file attribute
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration Modifier final
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName key
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration Modifier final
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName val
+to file attribute SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+to file attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to file attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+to file attribute SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+to file attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to file attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName to file attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to file attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

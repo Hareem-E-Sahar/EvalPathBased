@@ -1,0 +1,70 @@
+security utils SimpleName MethodInvocation SimpleName is bouncy castle registered
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral bouncycastle not registered
+assume SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+assume true SimpleName MethodInvocation StringLiteral bouncycastle not registered
+assume true SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+bouncycastle not registered StringLiteral MethodInvocation MethodInvocation SimpleName security utils
+bouncycastle not registered StringLiteral MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+security utils SimpleName MethodInvocation SimpleName has ecc
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral ec not supported
+assume SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName has ecc
+assume true SimpleName MethodInvocation StringLiteral ec not supported
+assume true SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName has ecc
+ec not supported StringLiteral MethodInvocation MethodInvocation SimpleName security utils
+ec not supported StringLiteral MethodInvocation MethodInvocation SimpleName has ecc
+ec curves SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName is supported
+c SimpleName MethodInvocation SimpleName get name
+skip unsupported curve StringLiteral InfixExpression MethodInvocation SimpleName c
+skip unsupported curve StringLiteral InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral skip unsupported curve
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral skip unsupported curve
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+c SimpleName MethodInvocation SimpleName get key size
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ec
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ec
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key size
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral key pair
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral key pair
+ec StringLiteral InfixExpression MethodInvocation SimpleName c
+ec StringLiteral InfixExpression MethodInvocation SimpleName get key size
+ec StringLiteral InfixExpression StringLiteral key pair
+c SimpleName MethodInvocation InfixExpression StringLiteral key pair
+get key size SimpleName MethodInvocation InfixExpression StringLiteral key pair
+test load ec private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+test load ec private key SimpleName MethodInvocation InfixExpression StringLiteral ec
+test load ec private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+test load ec private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key size
+test load ec private key SimpleName MethodInvocation InfixExpression StringLiteral key pair
+ec curves SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName ec curvesvalues
+c SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName ec curvesvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load unencrypted ec private key
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load unencrypted ec private key
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName ec curvesvalues
+void PrimitiveType MethodDeclaration SimpleName test load unencrypted ec private key
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName ec curvesvalues
+test load unencrypted ec private key SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName ec curvesvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load unencrypted ec private key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load unencrypted ec private key

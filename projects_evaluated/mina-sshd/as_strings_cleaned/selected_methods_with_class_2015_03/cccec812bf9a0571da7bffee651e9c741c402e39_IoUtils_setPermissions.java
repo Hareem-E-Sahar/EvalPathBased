@@ -1,0 +1,66 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+path SimpleName MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+fs SimpleName MethodInvocation SimpleName supported file attribute views
+views SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+views SimpleName VariableDeclarationFragment MethodInvocation SimpleName supported file attribute views
+views SimpleName MethodInvocation SimpleName contains
+views SimpleName MethodInvocation StringLiteral posix
+contains SimpleName MethodInvocation StringLiteral posix
+files SimpleName MethodInvocation SimpleName set posix file permissions
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName perms
+set posix file permissions SimpleName MethodInvocation SimpleName path
+set posix file permissions SimpleName MethodInvocation SimpleName perms
+path SimpleName MethodInvocation SimpleName perms
+path SimpleName MethodInvocation SimpleName to file
+set permissions to file SimpleName MethodInvocation MethodInvocation SimpleName path
+set permissions to file SimpleName MethodInvocation MethodInvocation SimpleName to file
+set permissions to file SimpleName MethodInvocation SimpleName perms
+path SimpleName MethodInvocation MethodInvocation SimpleName perms
+to file SimpleName MethodInvocation MethodInvocation SimpleName perms
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set permissions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set permissions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName set permissions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perms
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+set permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+set permissions SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

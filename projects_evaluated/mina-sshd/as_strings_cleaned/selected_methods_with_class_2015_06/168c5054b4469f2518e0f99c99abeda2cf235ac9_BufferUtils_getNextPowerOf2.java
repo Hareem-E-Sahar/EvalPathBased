@@ -1,0 +1,50 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName i
+j SimpleName Assignment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName j
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get next power of
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get next power of
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName j
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName get next power of
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block ReturnStatement SimpleName j
+int PrimitiveType MethodDeclaration SimpleName get next power of
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName i
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName j
+get next power of SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get next power of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+get next power of SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get next power of SimpleName MethodDeclaration Block ReturnStatement SimpleName j
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next power of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next power of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

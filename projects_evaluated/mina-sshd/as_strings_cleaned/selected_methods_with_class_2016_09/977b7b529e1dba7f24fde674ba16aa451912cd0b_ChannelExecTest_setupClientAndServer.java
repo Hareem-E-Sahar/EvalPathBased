@@ -1,0 +1,88 @@
+utils SimpleName MethodInvocation SimpleName setup test server
+utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel exec test
+setup test server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel exec test
+sshd SimpleName Assignment MethodInvocation SimpleName utils
+sshd SimpleName Assignment MethodInvocation SimpleName setup test server
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+stdout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stdout
+command SimpleName MethodInvocation SimpleName get bytes
+command SimpleName MethodInvocation QualifiedName standard charsetsus ascii
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsus ascii
+stdout SimpleName MethodInvocation SimpleName write
+stdout SimpleName MethodInvocation MethodInvocation SimpleName command
+stdout SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+stdout SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsus ascii
+write SimpleName MethodInvocation MethodInvocation SimpleName command
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsus ascii
+stdout SimpleName MethodInvocation SimpleName flush
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName handle command line
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName command
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName handle command line
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName handle command line
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName command
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+handle command line SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle command line SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+handle command line SimpleName MethodDeclaration SimpleType SimpleName exception
+handle command line SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+command execution helper SimpleName SimpleType ClassInstanceCreation SimpleName command
+command SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+command SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+command SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName handle command line
+command SimpleName VariableDeclarationFragment LambdaExpression ClassInstanceCreation SimpleName command
+sshd SimpleName MethodInvocation SimpleName set command factory
+sshd SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName command
+sshd SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName command
+set command factory SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName command
+set command factory SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName command
+sshd SimpleName MethodInvocation SimpleName start
+sshd SimpleName MethodInvocation SimpleName get port
+port SimpleName Assignment MethodInvocation SimpleName sshd
+port SimpleName Assignment MethodInvocation SimpleName get port
+utils SimpleName MethodInvocation SimpleName setup test client
+utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel exec test
+setup test client SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel exec test
+client SimpleName Assignment MethodInvocation SimpleName utils
+client SimpleName Assignment MethodInvocation SimpleName setup test client
+client SimpleName MethodInvocation SimpleName start
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName setup client and server
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup client and server
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName setup client and server
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName setup client and server
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+setup client and server SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup client and server
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup client and server
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

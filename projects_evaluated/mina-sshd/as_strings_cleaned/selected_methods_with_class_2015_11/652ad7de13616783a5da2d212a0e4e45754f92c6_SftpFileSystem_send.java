@@ -1,0 +1,86 @@
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+sftp constants SimpleName MethodInvocation SimpleName get command message name
+sftp constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+sendcmd StringLiteral InfixExpression MethodInvocation SimpleName sftp constants
+sendcmd StringLiteral InfixExpression MethodInvocation SimpleName get command message name
+sendcmd StringLiteral InfixExpression MethodInvocation SimpleName cmd
+sendcmd StringLiteral InfixExpression StringLiteral ) client is closed
+sftp constants SimpleName MethodInvocation InfixExpression StringLiteral ) client is closed
+get command message name SimpleName MethodInvocation InfixExpression StringLiteral ) client is closed
+cmd SimpleName MethodInvocation InfixExpression StringLiteral ) client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral sendcmd
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) client is closed
+delegate SimpleName InstanceofExpression SimpleType SimpleName raw sftp client
+raw sftp client SimpleName SimpleType CastExpression SimpleName delegate
+delegate SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName send
+delegate SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName cmd
+delegate SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName buffer
+send SimpleName MethodInvocation SimpleName cmd
+send SimpleName MethodInvocation SimpleName buffer
+cmd SimpleName MethodInvocation SimpleName buffer
+sftp constants SimpleName MethodInvocation SimpleName get command message name
+sftp constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+raw sftp client SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+sendcmd StringLiteral InfixExpression MethodInvocation SimpleName sftp constants
+sendcmd StringLiteral InfixExpression MethodInvocation SimpleName get command message name
+sendcmd StringLiteral InfixExpression MethodInvocation SimpleName cmd
+sendcmd StringLiteral InfixExpression StringLiteral ) delegate is not a
+sendcmd StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+sftp constants SimpleName MethodInvocation InfixExpression StringLiteral ) delegate is not a
+get command message name SimpleName MethodInvocation InfixExpression StringLiteral ) delegate is not a
+cmd SimpleName MethodInvocation InfixExpression StringLiteral ) delegate is not a
+sftp constants SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get command message name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+cmd SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+) delegate is not a StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral sendcmd
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) delegate is not a
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName send
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cmd
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName send
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName send
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+send SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+send SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName send
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,59 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName closeable
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get inner closeable
+protected Modifier MethodDeclaration SimpleType SimpleName closeable
+protected Modifier MethodDeclaration SimpleName get inner closeable
+closeable SimpleName SimpleType MethodDeclaration SimpleName get inner closeable
+ssh config file reader SimpleName MethodInvocation SimpleName configure macs
+ssh config file reader SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract factory manager
+ssh config file reader SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+ssh config file reader SimpleName MethodInvocation BooleanLiteral false
+ssh config file reader SimpleName MethodInvocation BooleanLiteral true
+configure macs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract factory manager
+configure macs SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+configure macs SimpleName MethodInvocation BooleanLiteral false
+configure macs SimpleName MethodInvocation BooleanLiteral true
+abstract factory manager SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+abstract factory manager SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+get current test name SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get current test name SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh config file reader
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName configure macs
+manager SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+manager SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+manager SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get mac factories
+named resourceutils QualifiedName MethodInvocation SimpleName get names
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName manager
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName get mac factories
+get names SimpleName MethodInvocation MethodInvocation SimpleName manager
+get names SimpleName MethodInvocation MethodInvocation SimpleName get mac factories
+unexpected success StringLiteral InfixExpression MethodInvocation QualifiedName named resourceutils
+unexpected success StringLiteral InfixExpression MethodInvocation SimpleName get names
+unexpected success StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName manager
+unexpected success StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get mac factories
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected success
+fail SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName named resourceutils
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get names
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test non lenient macs configuration
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test non lenient macs configuration
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test non lenient macs configuration
+void PrimitiveType MethodDeclaration SimpleName test non lenient macs configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test non lenient macs configuration
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test non lenient macs configuration

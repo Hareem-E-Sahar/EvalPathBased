@@ -1,0 +1,99 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName param path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName as t
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+check path SimpleName MethodInvocation SimpleName param path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName check path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName param path
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+compare SimpleName MethodInvocation QualifiedName p root
+compare SimpleName MethodInvocation QualifiedName p root
+p root QualifiedName MethodInvocation QualifiedName p root
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare
+c SimpleName VariableDeclarationFragment MethodInvocation QualifiedName p root
+c SimpleName VariableDeclarationFragment MethodInvocation QualifiedName p root
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName p root
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName p root
+c SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+p names QualifiedName MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation SimpleName size
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation QualifiedName p names
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+math SimpleName MethodInvocation MethodInvocation QualifiedName p names
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation MethodInvocation QualifiedName p names
+min SimpleName MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation MethodInvocation QualifiedName p names
+min SimpleName MethodInvocation MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName p names
+p names QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName p names
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName math
+i SimpleName InfixExpression MethodInvocation SimpleName min
+i SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName p names
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName p names
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation SimpleName get
+p names QualifiedName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation QualifiedName p names
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+p names QualifiedName MethodInvocation SimpleName get
+p names QualifiedName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation QualifiedName p names
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+compare SimpleName MethodInvocation SimpleName n
+compare SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName n
+c SimpleName Assignment MethodInvocation SimpleName compare
+c SimpleName Assignment MethodInvocation SimpleName n
+c SimpleName Assignment MethodInvocation SimpleName n
+c SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+p names QualifiedName MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation SimpleName size
+p names QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName p names
+p names QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName p names
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName param path
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName param path
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName param path
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param path
+compare to SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param path
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param path

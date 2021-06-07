@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+pattern SimpleName SimpleType SingleVariableDeclaration SimpleName pattern
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName host
+is empty SimpleName MethodInvocation SimpleName host
+pattern SimpleName MethodInvocation SimpleName matcher
+pattern SimpleName MethodInvocation SimpleName host
+matcher SimpleName MethodInvocation SimpleName host
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName matcher
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName host
+matcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName matches
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is host match
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pattern
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is host match
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pattern
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+boolean PrimitiveType MethodDeclaration SimpleName is host match
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pattern
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pattern
+is host match SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is host match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+is host match SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pattern
+is host match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pattern
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is host match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is host match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern

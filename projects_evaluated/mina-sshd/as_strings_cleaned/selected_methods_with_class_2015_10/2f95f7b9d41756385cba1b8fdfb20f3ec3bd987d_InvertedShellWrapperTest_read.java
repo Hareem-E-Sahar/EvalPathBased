@@ -1,0 +1,24 @@
+read pos SimpleName InfixExpression QualifiedName datalength
+eof exception SimpleName SimpleType ClassInstanceCreation StringLiteral data exhausted
+data SimpleName ArrayAccess PostfixExpression SimpleName read pos
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName read
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName read
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+read SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

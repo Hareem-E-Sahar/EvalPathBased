@@ -1,0 +1,14 @@
+lock SimpleName MethodInvocation SimpleName notify all
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName notify state changed
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+void PrimitiveType MethodDeclaration SimpleName notify state changed
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+notify state changed SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify state changed
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify state changed

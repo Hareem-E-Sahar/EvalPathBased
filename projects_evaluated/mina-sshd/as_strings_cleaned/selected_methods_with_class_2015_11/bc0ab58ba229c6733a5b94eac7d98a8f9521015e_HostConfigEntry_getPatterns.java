@@ -1,0 +1,13 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName pattern
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+pattern SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration SimpleName get patterns
+public Modifier MethodDeclaration Block ReturnStatement SimpleName patterns
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get patterns
+get patterns SimpleName MethodDeclaration Block ReturnStatement SimpleName patterns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get patterns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get patterns

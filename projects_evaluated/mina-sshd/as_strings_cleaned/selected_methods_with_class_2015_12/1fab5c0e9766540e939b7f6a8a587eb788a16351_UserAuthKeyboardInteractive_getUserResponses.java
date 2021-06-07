@@ -1,0 +1,148 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instruction
+string SimpleName SimpleType SingleVariableDeclaration SimpleName lang
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName prompt
+boolean PrimitiveType ArrayType SingleVariableDeclaration SimpleName echo
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName prompt
+length SimpleName MethodInvocation SimpleName prompt
+num SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+num SimpleName VariableDeclarationFragment MethodInvocation SimpleName prompt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName prompt
+num SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral get user responses no prompts for interaction
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName name
+debug SimpleName MethodInvocation StringLiteral get user responses no prompts for interaction
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName name
+get user responses no prompts for interaction StringLiteral MethodInvocation SimpleName session
+get user responses no prompts for interaction StringLiteral MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName name
+candidate SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current password candidate
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName candidate
+use current password SimpleName MethodInvocation SimpleName candidate
+use current password SimpleName MethodInvocation SimpleName name
+use current password SimpleName MethodInvocation SimpleName instruction
+use current password SimpleName MethodInvocation SimpleName lang
+use current password SimpleName MethodInvocation SimpleName prompt
+candidate SimpleName MethodInvocation SimpleName name
+candidate SimpleName MethodInvocation SimpleName instruction
+candidate SimpleName MethodInvocation SimpleName lang
+candidate SimpleName MethodInvocation SimpleName prompt
+candidate SimpleName MethodInvocation SimpleName echo
+name SimpleName MethodInvocation SimpleName instruction
+name SimpleName MethodInvocation SimpleName lang
+name SimpleName MethodInvocation SimpleName prompt
+name SimpleName MethodInvocation SimpleName echo
+instruction SimpleName MethodInvocation SimpleName lang
+instruction SimpleName MethodInvocation SimpleName prompt
+instruction SimpleName MethodInvocation SimpleName echo
+lang SimpleName MethodInvocation SimpleName prompt
+lang SimpleName MethodInvocation SimpleName echo
+prompt SimpleName MethodInvocation SimpleName echo
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral get user responses use password candidate for interaction
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName name
+debug SimpleName MethodInvocation StringLiteral get user responses use password candidate for interaction
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName name
+get user responses use password candidate for interaction StringLiteral MethodInvocation SimpleName session
+get user responses use password candidate for interaction StringLiteral MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName get user interaction
+ui SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+ui SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user interaction
+user interaction SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ui
+ui SimpleName MethodInvocation SimpleName is interaction allowed
+ui SimpleName MethodInvocation SimpleName session
+is interaction allowed SimpleName MethodInvocation SimpleName session
+ui SimpleName MethodInvocation SimpleName interactive
+ui SimpleName MethodInvocation SimpleName session
+ui SimpleName MethodInvocation SimpleName name
+ui SimpleName MethodInvocation SimpleName instruction
+ui SimpleName MethodInvocation SimpleName lang
+interactive SimpleName MethodInvocation SimpleName session
+interactive SimpleName MethodInvocation SimpleName name
+interactive SimpleName MethodInvocation SimpleName instruction
+interactive SimpleName MethodInvocation SimpleName lang
+interactive SimpleName MethodInvocation SimpleName prompt
+session SimpleName MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName instruction
+session SimpleName MethodInvocation SimpleName lang
+session SimpleName MethodInvocation SimpleName prompt
+session SimpleName MethodInvocation SimpleName echo
+name SimpleName MethodInvocation SimpleName instruction
+name SimpleName MethodInvocation SimpleName lang
+name SimpleName MethodInvocation SimpleName prompt
+name SimpleName MethodInvocation SimpleName echo
+instruction SimpleName MethodInvocation SimpleName lang
+instruction SimpleName MethodInvocation SimpleName prompt
+instruction SimpleName MethodInvocation SimpleName echo
+lang SimpleName MethodInvocation SimpleName prompt
+lang SimpleName MethodInvocation SimpleName echo
+prompt SimpleName MethodInvocation SimpleName echo
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral get user responses no user interaction for name
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName name
+debug SimpleName MethodInvocation StringLiteral get user responses no user interaction for name
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName name
+get user responses no user interaction for name StringLiteral MethodInvocation SimpleName session
+get user responses no user interaction for name StringLiteral MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName name
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get user responses
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName instruction
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName lang
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get user responses
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instruction
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lang
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prompt
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType boolean
+get user responses SimpleName MethodDeclaration SingleVariableDeclaration SimpleName echo
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instruction
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prompt
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo
+instruction SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang
+instruction SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prompt
+instruction SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo
+lang SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prompt
+lang SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo
+prompt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user responses
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instruction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prompt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user responses
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instruction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prompt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo

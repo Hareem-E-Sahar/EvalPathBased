@@ -1,0 +1,42 @@
+uri SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+rooted file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file system
+uri to path SimpleName MethodInvocation SimpleName uri
+uri to path SimpleName MethodInvocation MethodInvocation SimpleName to real path
+uri SimpleName MethodInvocation MethodInvocation SimpleName to real path
+file systems SimpleName MethodInvocation SimpleName get
+file systems SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uri to path
+file systems SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uri
+file systems SimpleName MethodInvocation MethodInvocation SimpleName to real path
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uri to path
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uri
+get SimpleName MethodInvocation MethodInvocation SimpleName to real path
+file system SimpleName Assignment MethodInvocation SimpleName file systems
+file system SimpleName Assignment MethodInvocation SimpleName get
+file system SimpleName Assignment MethodInvocation MethodInvocation SimpleName to real path
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ignore
+file systems SimpleName SynchronizedStatement Block ReturnStatement SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get file system
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName get file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName file systems
+file system SimpleName SimpleType MethodDeclaration SimpleName get file system
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+get file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+get file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+get file system SimpleName MethodDeclaration Block SynchronizedStatement SimpleName file systems
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri

@@ -1,0 +1,107 @@
+enum set SimpleName SimpleType ParameterizedType SimpleType QualifiedName ssh filepermission
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName str
+integer SimpleName MethodInvocation NumberLiteral empty
+parse int SimpleName MethodInvocation SimpleName str
+parse int SimpleName MethodInvocation NumberLiteral empty
+str SimpleName MethodInvocation NumberLiteral empty
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+perms SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName perms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName str
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+enum set SimpleName SimpleType ParameterizedType SimpleType QualifiedName ssh filepermission
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName ssh filepermission
+none of SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName ssh filepermission
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+perms SimpleName InfixExpression SimpleName s irusr
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s irusr SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissionuser read
+add SimpleName MethodInvocation QualifiedName ssh filepermissionuser read
+perms SimpleName InfixExpression SimpleName s iwusr
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iwusr SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissionuser write
+add SimpleName MethodInvocation QualifiedName ssh filepermissionuser write
+perms SimpleName InfixExpression SimpleName s ixusr
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s ixusr SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissionuser execute
+add SimpleName MethodInvocation QualifiedName ssh filepermissionuser execute
+perms SimpleName InfixExpression SimpleName s irgrp
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s irgrp SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissiongroup read
+add SimpleName MethodInvocation QualifiedName ssh filepermissiongroup read
+perms SimpleName InfixExpression SimpleName s iwgrp
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iwgrp SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissiongroup write
+add SimpleName MethodInvocation QualifiedName ssh filepermissiongroup write
+perms SimpleName InfixExpression SimpleName s ixgrp
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s ixgrp SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissiongroup execute
+add SimpleName MethodInvocation QualifiedName ssh filepermissiongroup execute
+perms SimpleName InfixExpression SimpleName s iroth
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iroth SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissionothers read
+add SimpleName MethodInvocation QualifiedName ssh filepermissionothers read
+perms SimpleName InfixExpression SimpleName s iwoth
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iwoth SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissionothers write
+add SimpleName MethodInvocation QualifiedName ssh filepermissionothers write
+perms SimpleName InfixExpression SimpleName s ixoth
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s ixoth SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName ssh filepermissionothers execute
+add SimpleName MethodInvocation QualifiedName ssh filepermissionothers execute
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enum set
+public Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName ssh filepermission
+public Modifier MethodDeclaration SimpleName from octal perms
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName p
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enum set
+static Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName ssh filepermission
+static Modifier MethodDeclaration SimpleName from octal perms
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName p
+enum set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName from octal perms
+ssh filepermission QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName from octal perms
+from octal perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from octal perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+from octal perms SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+from octal perms SimpleName MethodDeclaration Block ReturnStatement SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName from octal perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from octal perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str

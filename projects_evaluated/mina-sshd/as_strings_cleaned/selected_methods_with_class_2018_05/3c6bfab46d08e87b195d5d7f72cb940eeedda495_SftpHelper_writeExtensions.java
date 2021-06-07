@@ -1,0 +1,107 @@
+b SimpleName TypeParameter SimpleType SimpleName buffer
+b SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+map SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName extensions
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName extensions
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName extensions
+size SimpleName MethodInvocation SimpleName extensions
+num extensions SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num extensions SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+num extensions SimpleName VariableDeclarationFragment MethodInvocation SimpleName extensions
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num extensions
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName extensions
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName num extensions
+put int SimpleName MethodInvocation SimpleName num extensions
+num extensions SimpleName InfixExpression NumberLiteral empty
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName key
+objects SimpleName MethodInvocation StringLiteral no extension type
+require non null SimpleName MethodInvocation SimpleName key
+require non null SimpleName MethodInvocation StringLiteral no extension type
+key SimpleName MethodInvocation StringLiteral no extension type
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName value
+objects SimpleName MethodInvocation StringLiteral no extension value
+require non null SimpleName MethodInvocation SimpleName value
+require non null SimpleName MethodInvocation StringLiteral no extension value
+value SimpleName MethodInvocation StringLiteral no extension value
+key SimpleName MethodInvocation SimpleName to string
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName key
+buffer SimpleName MethodInvocation MethodInvocation SimpleName to string
+put string SimpleName MethodInvocation MethodInvocation SimpleName key
+put string SimpleName MethodInvocation MethodInvocation SimpleName to string
+value SimpleName InstanceofExpression ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType CastExpression SimpleName value
+buffer SimpleName MethodInvocation SimpleName put bytes
+buffer SimpleName MethodInvocation CastExpression ArrayType PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression SimpleName value
+put bytes SimpleName MethodInvocation CastExpression ArrayType PrimitiveType byte
+put bytes SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName to string
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName value
+buffer SimpleName MethodInvocation MethodInvocation SimpleName to string
+put string SimpleName MethodInvocation MethodInvocation SimpleName value
+put string SimpleName MethodInvocation MethodInvocation SimpleName to string
+key SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName value
+extensions SimpleName MethodInvocation SimpleName for each
+extensions SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key
+extensions SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName value
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName value
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName buffer
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName b
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SimpleName write extensions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration TypeParameter SimpleName b
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+static Modifier MethodDeclaration SimpleType SimpleName b
+static Modifier MethodDeclaration SimpleName write extensions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extensions
+b SimpleName TypeParameter MethodDeclaration SimpleType SimpleName b
+b SimpleName TypeParameter MethodDeclaration SimpleName write extensions
+buffer SimpleName SimpleType TypeParameter MethodDeclaration SimpleName write extensions
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName extensions
+b SimpleName SimpleType MethodDeclaration SimpleName write extensions
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extensions
+write extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+write extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write extensions SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+write extensions SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+write extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extensions
+write extensions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName buffer
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleName write extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions

@@ -1,0 +1,141 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName str
+integer SimpleName MethodInvocation NumberLiteral empty
+parse int SimpleName MethodInvocation SimpleName str
+parse int SimpleName MethodInvocation NumberLiteral empty
+str SimpleName MethodInvocation NumberLiteral empty
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+perms SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName perms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName str
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName posix file permission
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName posix file permission
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+perms SimpleName InfixExpression SimpleName s irusr
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s irusr SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissionowner read
+add SimpleName MethodInvocation QualifiedName posix file permissionowner read
+perms SimpleName InfixExpression SimpleName s iwusr
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iwusr SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissionowner write
+add SimpleName MethodInvocation QualifiedName posix file permissionowner write
+perms SimpleName InfixExpression SimpleName s ixusr
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s ixusr SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissionowner execute
+add SimpleName MethodInvocation QualifiedName posix file permissionowner execute
+perms SimpleName InfixExpression SimpleName s irgrp
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s irgrp SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissiongroup read
+add SimpleName MethodInvocation QualifiedName posix file permissiongroup read
+perms SimpleName InfixExpression SimpleName s iwgrp
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iwgrp SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissiongroup write
+add SimpleName MethodInvocation QualifiedName posix file permissiongroup write
+perms SimpleName InfixExpression SimpleName s ixgrp
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s ixgrp SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissiongroup execute
+add SimpleName MethodInvocation QualifiedName posix file permissiongroup execute
+perms SimpleName InfixExpression SimpleName s iroth
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iroth SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissionothers read
+add SimpleName MethodInvocation QualifiedName posix file permissionothers read
+perms SimpleName InfixExpression SimpleName s iwoth
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s iwoth SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissionothers write
+add SimpleName MethodInvocation QualifiedName posix file permissionothers write
+perms SimpleName InfixExpression SimpleName s ixoth
+perms SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+s ixoth SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName posix file permissionothers execute
+add SimpleName MethodInvocation QualifiedName posix file permissionothers execute
+path SimpleName MethodInvocation SimpleName get file system
+path SimpleName MethodInvocation MethodInvocation SimpleName supported file attribute views
+get file system SimpleName MethodInvocation MethodInvocation SimpleName supported file attribute views
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+get file system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+supported file attribute views SimpleName MethodInvocation MethodInvocation SimpleName contains
+path SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral posix
+get file system SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral posix
+supported file attribute views SimpleName MethodInvocation MethodInvocation StringLiteral posix
+contains SimpleName MethodInvocation StringLiteral posix
+files SimpleName MethodInvocation SimpleName set posix file permissions
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName p
+set posix file permissions SimpleName MethodInvocation SimpleName path
+set posix file permissions SimpleName MethodInvocation SimpleName p
+path SimpleName MethodInvocation SimpleName p
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unable to set file permissions because the underlying file system does not support posix permissions
+warn SimpleName MethodInvocation StringLiteral unable to set file permissions because the underlying file system does not support posix permissions
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set octal perms
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set octal perms
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName set octal perms
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set octal perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set octal perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+set octal perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set octal perms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+set octal perms SimpleName MethodDeclaration SimpleType SimpleName io exception
+set octal perms SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+str SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set octal perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set octal perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

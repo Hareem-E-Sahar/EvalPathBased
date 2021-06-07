@@ -1,0 +1,47 @@
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+class SimpleName SimpleType ParameterizedType WildcardType ?
+expected SimpleName MethodInvocation SimpleName get factory class
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName get simple name
+builtin io service factory factories SimpleName MethodInvocation SimpleName from factory class
+builtin io service factory factories SimpleName MethodInvocation SimpleName clazz
+from factory class SimpleName MethodInvocation SimpleName clazz
+assert same SimpleName MethodInvocation MethodInvocation SimpleName clazz
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+assert same SimpleName MethodInvocation MethodInvocation SimpleName from factory class
+assert same SimpleName MethodInvocation MethodInvocation SimpleName clazz
+clazz SimpleName MethodInvocation MethodInvocation SimpleName expected
+get simple name SimpleName MethodInvocation MethodInvocation SimpleName expected
+clazz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+clazz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from factory class
+clazz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clazz
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from factory class
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clazz
+expected SimpleName MethodInvocation MethodInvocation SimpleName builtin io service factory factories
+expected SimpleName MethodInvocation MethodInvocation SimpleName from factory class
+expected SimpleName MethodInvocation MethodInvocation SimpleName clazz
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from factory class
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from factory class
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+void PrimitiveType MethodDeclaration SimpleName test from factory class
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+test from factory class SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from factory class
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from factory class

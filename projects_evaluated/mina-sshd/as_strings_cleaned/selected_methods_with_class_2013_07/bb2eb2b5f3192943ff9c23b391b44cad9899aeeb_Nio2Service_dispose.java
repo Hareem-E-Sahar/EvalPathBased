@@ -1,0 +1,26 @@
+disposing SimpleName MethodInvocation SimpleName compare and set
+disposing SimpleName MethodInvocation BooleanLiteral false
+disposing SimpleName MethodInvocation BooleanLiteral true
+compare and set SimpleName MethodInvocation BooleanLiteral false
+compare and set SimpleName MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral disposing {}
+logger SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+logger SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation StringLiteral disposing {}
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+disposing {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+disposing {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

@@ -1,0 +1,35 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName props
+props SimpleName MethodInvocation SimpleName get string
+props SimpleName MethodInvocation SimpleName host key algorithms config prop
+get string SimpleName MethodInvocation SimpleName host key algorithms config prop
+builtin signatures SimpleName MethodInvocation SimpleName parse signature list
+builtin signatures SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+builtin signatures SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+builtin signatures SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName host key algorithms config prop
+parse signature list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+parse signature list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+parse signature list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName host key algorithms config prop
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType QualifiedName builtin signaturesparse result
+public Modifier MethodDeclaration SimpleName get signatures
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SimpleType QualifiedName builtin signaturesparse result
+static Modifier MethodDeclaration SimpleName get signatures
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+builtin signaturesparse result QualifiedName SimpleType MethodDeclaration SimpleName get signatures
+builtin signaturesparse result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+get signatures SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+get signatures SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName builtin signaturesparse result
+public Modifier TypeDeclaration MethodDeclaration SimpleName get signatures
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName builtin signaturesparse result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get signatures
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

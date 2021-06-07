@@ -1,0 +1,6 @@
+forwarding filter factory SimpleName SimpleType MethodDeclaration SimpleName get forwarder factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName get forwarder factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get forwarder factory

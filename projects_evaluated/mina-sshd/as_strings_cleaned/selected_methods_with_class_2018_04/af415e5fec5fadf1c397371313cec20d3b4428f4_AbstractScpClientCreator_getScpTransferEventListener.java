@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName scp transfer event listener
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get scp transfer event listener
+public Modifier MethodDeclaration SimpleType SimpleName scp transfer event listener
+public Modifier MethodDeclaration SimpleName get scp transfer event listener
+public Modifier MethodDeclaration Block ReturnStatement SimpleName listener
+scp transfer event listener SimpleName SimpleType MethodDeclaration SimpleName get scp transfer event listener
+get scp transfer event listener SimpleName MethodDeclaration Block ReturnStatement SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scp transfer event listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get scp transfer event listener
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scp transfer event listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get scp transfer event listener

@@ -1,0 +1,26 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName tcpip forwarder factory
+final Modifier SingleVariableDeclaration SimpleName tcpip forwarder factory
+tcpip forwarder factory SimpleName SimpleType SingleVariableDeclaration SimpleName tcpip forwarder factory
+tcpip forwarder factory SimpleName FieldAccess Assignment SimpleName tcpip forwarder factory
+public Modifier MethodDeclaration SimpleType SimpleName s
+public Modifier MethodDeclaration SimpleName tcpip forwarder factory
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tcpip forwarder factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tcpip forwarder factory
+s SimpleName SimpleType MethodDeclaration SimpleName tcpip forwarder factory
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tcpip forwarder factory
+tcpip forwarder factory SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+tcpip forwarder factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tcpip forwarder factory
+tcpip forwarder factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tcpip forwarder factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName tcpip forwarder factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tcpip forwarder factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tcpip forwarder factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tcpip forwarder factory

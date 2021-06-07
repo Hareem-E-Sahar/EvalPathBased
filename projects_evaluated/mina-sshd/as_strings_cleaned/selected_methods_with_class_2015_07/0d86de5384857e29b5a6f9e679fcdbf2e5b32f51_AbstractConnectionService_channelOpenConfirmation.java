@@ -1,0 +1,96 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+get channel SimpleName MethodInvocation SimpleName buffer
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+log SimpleName MethodInvocation SimpleName is debug enabled
+channel SimpleName MethodInvocation SimpleName get id
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation MethodInvocation SimpleName channel
+integer SimpleName MethodInvocation MethodInvocation SimpleName get id
+value of SimpleName MethodInvocation MethodInvocation SimpleName channel
+value of SimpleName MethodInvocation MethodInvocation SimpleName get id
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh msg channel open confirmation on channel {}
+log SimpleName MethodInvocation MethodInvocation SimpleName integer
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName channel
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+debug SimpleName MethodInvocation StringLiteral received ssh msg channel open confirmation on channel {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+received ssh msg channel open confirmation on channel {} StringLiteral MethodInvocation MethodInvocation SimpleName integer
+received ssh msg channel open confirmation on channel {} StringLiteral MethodInvocation MethodInvocation SimpleName value of
+received ssh msg channel open confirmation on channel {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName channel
+received ssh msg channel open confirmation on channel {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+buffer SimpleName MethodInvocation SimpleName get int
+recipient SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+recipient SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName recipient
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+rwsize SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+rwsize SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rwsize
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+rmpsize SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+rmpsize SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rmpsize
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+channel SimpleName MethodInvocation SimpleName handle open success
+channel SimpleName MethodInvocation SimpleName recipient
+channel SimpleName MethodInvocation SimpleName rwsize
+channel SimpleName MethodInvocation SimpleName rmpsize
+channel SimpleName MethodInvocation SimpleName buffer
+handle open success SimpleName MethodInvocation SimpleName recipient
+handle open success SimpleName MethodInvocation SimpleName rwsize
+handle open success SimpleName MethodInvocation SimpleName rmpsize
+handle open success SimpleName MethodInvocation SimpleName buffer
+recipient SimpleName MethodInvocation SimpleName rwsize
+recipient SimpleName MethodInvocation SimpleName rmpsize
+recipient SimpleName MethodInvocation SimpleName buffer
+rwsize SimpleName MethodInvocation SimpleName rmpsize
+rwsize SimpleName MethodInvocation SimpleName buffer
+rmpsize SimpleName MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName channel open confirmation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName channel open confirmation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+channel open confirmation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+channel open confirmation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+channel open confirmation SimpleName MethodDeclaration SimpleType SimpleName io exception
+channel open confirmation SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+channel open confirmation SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+channel open confirmation SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName channel open confirmation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName channel open confirmation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

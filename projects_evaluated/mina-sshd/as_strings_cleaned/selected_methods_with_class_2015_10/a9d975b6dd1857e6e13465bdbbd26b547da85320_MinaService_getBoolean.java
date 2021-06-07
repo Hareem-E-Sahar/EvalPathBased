@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+property resolver utils SimpleName MethodInvocation SimpleName get boolean
+property resolver utils SimpleName MethodInvocation SimpleName manager
+property resolver utils SimpleName MethodInvocation SimpleName property
+get boolean SimpleName MethodInvocation SimpleName manager
+get boolean SimpleName MethodInvocation SimpleName property
+manager SimpleName MethodInvocation SimpleName property
+protected Modifier MethodDeclaration SimpleType SimpleName boolean
+protected Modifier MethodDeclaration SimpleName get boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+boolean SimpleName SimpleType MethodDeclaration SimpleName get boolean
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property
+get boolean SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get boolean SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

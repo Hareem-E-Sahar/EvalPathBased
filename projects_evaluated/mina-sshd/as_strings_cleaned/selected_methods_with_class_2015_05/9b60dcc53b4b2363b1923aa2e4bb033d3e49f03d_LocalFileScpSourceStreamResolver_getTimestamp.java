@@ -1,0 +1,23 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName scp timestamp
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get timestamp
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName scp timestamp
+public Modifier MethodDeclaration SimpleName get timestamp
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName time
+scp timestamp SimpleName SimpleType MethodDeclaration SimpleName get timestamp
+scp timestamp SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get timestamp SimpleName MethodDeclaration SimpleType SimpleName io exception
+get timestamp SimpleName MethodDeclaration Block ReturnStatement SimpleName time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scp timestamp
+public Modifier TypeDeclaration MethodDeclaration SimpleName get timestamp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scp timestamp
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get timestamp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

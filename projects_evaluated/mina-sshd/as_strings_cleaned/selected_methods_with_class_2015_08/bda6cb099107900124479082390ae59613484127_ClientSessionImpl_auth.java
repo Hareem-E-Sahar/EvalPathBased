@@ -1,0 +1,37 @@
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral no username specified when the session was created
+auth service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user auth service
+client user auth service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth service
+auth service SimpleName MethodInvocation SimpleName auth
+auth service SimpleName MethodInvocation SimpleName identities
+auth service SimpleName MethodInvocation MethodInvocation SimpleName next service name
+auth SimpleName MethodInvocation SimpleName identities
+auth SimpleName MethodInvocation MethodInvocation SimpleName next service name
+identities SimpleName MethodInvocation MethodInvocation SimpleName next service name
+auth future SimpleName Assignment MethodInvocation SimpleName auth service
+auth future SimpleName Assignment MethodInvocation SimpleName auth
+auth future SimpleName Assignment MethodInvocation SimpleName identities
+auth future SimpleName Assignment MethodInvocation MethodInvocation SimpleName next service name
+lock SimpleName SynchronizedStatement Block ReturnStatement SimpleName auth future
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName auth future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName auth
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName auth future
+public Modifier MethodDeclaration SimpleName auth
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+auth future SimpleName SimpleType MethodDeclaration SimpleName auth
+auth future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+auth SimpleName MethodDeclaration SimpleType SimpleName io exception
+auth SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName auth future
+public Modifier TypeDeclaration MethodDeclaration SimpleName auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName auth future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

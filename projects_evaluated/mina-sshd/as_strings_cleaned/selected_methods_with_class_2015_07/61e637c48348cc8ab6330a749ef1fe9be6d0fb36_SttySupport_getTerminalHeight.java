@@ -1,0 +1,25 @@
+get terminal property SimpleName MethodInvocation StringLiteral rows
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get terminal property
+val SimpleName VariableDeclarationFragment MethodInvocation StringLiteral rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get terminal property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral rows
+val SimpleName InfixExpression PrefixExpression NumberLiteral empty
+val SimpleName Assignment SimpleName default terminal height
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName val
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get terminal height
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get terminal height
+int PrimitiveType MethodDeclaration SimpleName get terminal height
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get terminal height
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get terminal height

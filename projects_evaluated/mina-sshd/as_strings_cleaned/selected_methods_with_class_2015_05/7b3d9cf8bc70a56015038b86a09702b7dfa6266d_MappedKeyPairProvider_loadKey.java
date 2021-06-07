@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+pairs map SimpleName MethodInvocation SimpleName get
+pairs map SimpleName MethodInvocation SimpleName type
+get SimpleName MethodInvocation SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+key pair SimpleName SimpleType MethodDeclaration SimpleName load key
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName load key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

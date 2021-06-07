@@ -1,0 +1,35 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is absolute
+f SimpleName MethodInvocation SimpleName to absolute path
+f SimpleName MethodInvocation ConditionalExpression SimpleName f
+is absolute SimpleName MethodInvocation ConditionalExpression SimpleName f
+f SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName f
+f SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to absolute path
+is absolute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName f
+is absolute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to absolute path
+f SimpleName ConditionalExpression MethodInvocation SimpleName f
+f SimpleName ConditionalExpression MethodInvocation SimpleName to absolute path
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName f
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is absolute
+abs SimpleName VariableDeclarationFragment ConditionalExpression SimpleName f
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName f
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to absolute path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName abs
+abs SimpleName MethodInvocation SimpleName normalize
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName normalize
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+path SimpleName SimpleType MethodDeclaration SimpleName normalize
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName f
+normalize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+normalize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

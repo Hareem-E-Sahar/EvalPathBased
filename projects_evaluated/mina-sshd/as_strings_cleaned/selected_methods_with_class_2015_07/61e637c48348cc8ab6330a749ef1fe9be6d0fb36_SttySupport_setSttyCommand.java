@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+stty command holder SimpleName MethodInvocation SimpleName set
+stty command holder SimpleName MethodInvocation SimpleName cmd
+set SimpleName MethodInvocation SimpleName cmd
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set stty command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set stty command
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+void PrimitiveType MethodDeclaration SimpleName set stty command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+set stty command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set stty command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set stty command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set stty command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd

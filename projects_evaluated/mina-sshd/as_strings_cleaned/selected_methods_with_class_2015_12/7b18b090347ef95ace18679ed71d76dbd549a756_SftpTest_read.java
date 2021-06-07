@@ -1,0 +1,203 @@
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType SingleVariableDeclaration SimpleName remote handle
+directory handle SimpleName SimpleType SingleVariableDeclaration SimpleName local handle
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName entries
+size SimpleName MethodInvocation SimpleName entries
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entries
+entries count SimpleName MethodInvocation SimpleName add and get
+entries count SimpleName MethodInvocation SimpleName num entries
+add and get SimpleName MethodInvocation SimpleName num entries
+log SimpleName MethodInvocation SimpleName is debug enabled
+local handle SimpleName MethodInvocation SimpleName get file
+read StringLiteral InfixExpression SimpleName session
+read StringLiteral InfixExpression StringLiteral )[
+read StringLiteral InfixExpression MethodInvocation SimpleName local handle
+read StringLiteral InfixExpression MethodInvocation SimpleName get file
+read StringLiteral InfixExpression StringLiteral ]
+read StringLiteral InfixExpression SimpleName num entries
+session SimpleName InfixExpression StringLiteral )[
+session SimpleName InfixExpression MethodInvocation SimpleName local handle
+session SimpleName InfixExpression MethodInvocation SimpleName get file
+session SimpleName InfixExpression StringLiteral ]
+session SimpleName InfixExpression SimpleName num entries
+session SimpleName InfixExpression StringLiteral entries
+)[ StringLiteral InfixExpression MethodInvocation SimpleName local handle
+)[ StringLiteral InfixExpression MethodInvocation SimpleName get file
+)[ StringLiteral InfixExpression StringLiteral ]
+)[ StringLiteral InfixExpression SimpleName num entries
+)[ StringLiteral InfixExpression StringLiteral entries
+local handle SimpleName MethodInvocation InfixExpression StringLiteral ]
+get file SimpleName MethodInvocation InfixExpression StringLiteral ]
+local handle SimpleName MethodInvocation InfixExpression SimpleName num entries
+get file SimpleName MethodInvocation InfixExpression SimpleName num entries
+local handle SimpleName MethodInvocation InfixExpression StringLiteral entries
+get file SimpleName MethodInvocation InfixExpression StringLiteral entries
+] StringLiteral InfixExpression SimpleName num entries
+] StringLiteral InfixExpression StringLiteral entries
+num entries SimpleName InfixExpression StringLiteral entries
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral read
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local handle
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file
+log SimpleName MethodInvocation InfixExpression StringLiteral ]
+log SimpleName MethodInvocation InfixExpression SimpleName num entries
+log SimpleName MethodInvocation InfixExpression StringLiteral entries
+debug SimpleName MethodInvocation InfixExpression StringLiteral read
+debug SimpleName MethodInvocation InfixExpression SimpleName session
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local handle
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file
+debug SimpleName MethodInvocation InfixExpression StringLiteral ]
+debug SimpleName MethodInvocation InfixExpression SimpleName num entries
+debug SimpleName MethodInvocation InfixExpression StringLiteral entries
+num entries SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is trace enabled
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ee
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ee
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ee
+entries SimpleName MethodInvocation SimpleName entry set
+local handle SimpleName MethodInvocation SimpleName get file
+ee SimpleName MethodInvocation SimpleName get key
+ee SimpleName MethodInvocation SimpleName get value
+read StringLiteral InfixExpression SimpleName session
+read StringLiteral InfixExpression StringLiteral )[
+read StringLiteral InfixExpression MethodInvocation SimpleName local handle
+read StringLiteral InfixExpression MethodInvocation SimpleName get file
+read StringLiteral InfixExpression StringLiteral ]
+read StringLiteral InfixExpression MethodInvocation SimpleName ee
+read StringLiteral InfixExpression MethodInvocation SimpleName get key
+session SimpleName InfixExpression StringLiteral )[
+session SimpleName InfixExpression MethodInvocation SimpleName local handle
+session SimpleName InfixExpression MethodInvocation SimpleName get file
+session SimpleName InfixExpression StringLiteral ]
+session SimpleName InfixExpression MethodInvocation SimpleName ee
+session SimpleName InfixExpression MethodInvocation SimpleName get key
+session SimpleName InfixExpression StringLiteral -
+)[ StringLiteral InfixExpression MethodInvocation SimpleName local handle
+)[ StringLiteral InfixExpression MethodInvocation SimpleName get file
+)[ StringLiteral InfixExpression StringLiteral ]
+)[ StringLiteral InfixExpression MethodInvocation SimpleName ee
+)[ StringLiteral InfixExpression MethodInvocation SimpleName get key
+)[ StringLiteral InfixExpression StringLiteral -
+)[ StringLiteral InfixExpression MethodInvocation SimpleName ee
+)[ StringLiteral InfixExpression MethodInvocation SimpleName get value
+local handle SimpleName MethodInvocation InfixExpression StringLiteral ]
+get file SimpleName MethodInvocation InfixExpression StringLiteral ]
+local handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+local handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+get file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+local handle SimpleName MethodInvocation InfixExpression StringLiteral -
+get file SimpleName MethodInvocation InfixExpression StringLiteral -
+local handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+local handle SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+get file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+] StringLiteral InfixExpression MethodInvocation SimpleName ee
+] StringLiteral InfixExpression MethodInvocation SimpleName get key
+] StringLiteral InfixExpression StringLiteral -
+] StringLiteral InfixExpression MethodInvocation SimpleName ee
+] StringLiteral InfixExpression MethodInvocation SimpleName get value
+ee SimpleName MethodInvocation InfixExpression StringLiteral -
+get key SimpleName MethodInvocation InfixExpression StringLiteral -
+ee SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+ee SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+- StringLiteral InfixExpression MethodInvocation SimpleName ee
+- StringLiteral InfixExpression MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral read
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local handle
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file
+log SimpleName MethodInvocation InfixExpression StringLiteral ]
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation InfixExpression StringLiteral -
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+trace SimpleName MethodInvocation InfixExpression StringLiteral read
+trace SimpleName MethodInvocation InfixExpression SimpleName session
+trace SimpleName MethodInvocation InfixExpression StringLiteral )[
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local handle
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file
+trace SimpleName MethodInvocation InfixExpression StringLiteral ]
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+trace SimpleName MethodInvocation InfixExpression StringLiteral -
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ee
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+ee SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entries
+ee SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName remote handle
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote handle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory handle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local handle
+void PrimitiveType MethodDeclaration SimpleName read
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote handle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory handle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local handle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entries
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote handle
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory handle
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local handle
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+read SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote handle
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local handle
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+remote handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local handle
+remote handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+local handle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote handle
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local handle
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote handle
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local handle
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries

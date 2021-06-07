@@ -1,0 +1,29 @@
+charset SimpleName SimpleType SingleVariableDeclaration SimpleName cs
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName cs
+data SimpleName ClassInstanceCreation SimpleName cs
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName read string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cs
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName read string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cs
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+read string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cs
+read string SimpleName MethodDeclaration SimpleType SimpleName io exception
+cs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName read string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

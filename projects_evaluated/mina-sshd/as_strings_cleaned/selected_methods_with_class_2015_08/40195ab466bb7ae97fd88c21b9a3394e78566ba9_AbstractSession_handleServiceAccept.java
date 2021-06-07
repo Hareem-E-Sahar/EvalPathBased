@@ -1,0 +1,21 @@
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh msg service accept
+debug SimpleName MethodInvocation StringLiteral received ssh msg service accept
+validate kex state SimpleName MethodInvocation QualifiedName ssh constantsssh msg service accept
+validate kex state SimpleName MethodInvocation QualifiedName kex statedone
+ssh constantsssh msg service accept QualifiedName MethodInvocation QualifiedName kex statedone
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName handle service accept
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName handle service accept
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+handle service accept SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle service accept
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle service accept
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

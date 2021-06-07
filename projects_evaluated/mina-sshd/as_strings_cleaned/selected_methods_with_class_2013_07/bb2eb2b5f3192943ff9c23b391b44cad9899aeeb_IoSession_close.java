@@ -1,0 +1,15 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+io close future SimpleName SimpleType MethodDeclaration SimpleName close
+io close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+io close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

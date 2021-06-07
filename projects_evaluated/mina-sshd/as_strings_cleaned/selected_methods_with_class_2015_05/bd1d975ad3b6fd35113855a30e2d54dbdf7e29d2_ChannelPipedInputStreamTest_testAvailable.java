@@ -1,0 +1,87 @@
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+bogus channel SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+bogus channel SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+window SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName window
+window SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+window SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName window
+channel piped input stream SimpleName SimpleType ClassInstanceCreation SimpleName window
+stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName channel piped input stream
+stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName window
+channel piped input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName stream
+test StringLiteral MethodInvocation SimpleName get bytes
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+stream SimpleName MethodInvocation SimpleName receive
+stream SimpleName MethodInvocation SimpleName b
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation QualifiedName blength
+receive SimpleName MethodInvocation SimpleName b
+receive SimpleName MethodInvocation NumberLiteral empty
+receive SimpleName MethodInvocation QualifiedName blength
+b SimpleName MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation QualifiedName blength
+empty NumberLiteral MethodInvocation QualifiedName blength
+stream SimpleName MethodInvocation SimpleName available
+assert equals SimpleName MethodInvocation QualifiedName blength
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName available
+blength QualifiedName MethodInvocation MethodInvocation SimpleName stream
+blength QualifiedName MethodInvocation MethodInvocation SimpleName available
+stream SimpleName MethodInvocation SimpleName eof
+stream SimpleName MethodInvocation SimpleName available
+assert equals SimpleName MethodInvocation QualifiedName blength
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName available
+blength QualifiedName MethodInvocation MethodInvocation SimpleName stream
+blength QualifiedName MethodInvocation MethodInvocation SimpleName available
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+read bytes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+read bytes SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement ArrayType PrimitiveType byte
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName read bytes
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName read bytes
+stream SimpleName MethodInvocation SimpleName read
+stream SimpleName MethodInvocation SimpleName read bytes
+read SimpleName MethodInvocation SimpleName read bytes
+assert equals SimpleName MethodInvocation QualifiedName blength
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName read bytes
+blength QualifiedName MethodInvocation MethodInvocation SimpleName stream
+blength QualifiedName MethodInvocation MethodInvocation SimpleName read
+blength QualifiedName MethodInvocation MethodInvocation SimpleName read bytes
+assert stream equals SimpleName MethodInvocation SimpleName b
+assert stream equals SimpleName MethodInvocation SimpleName read bytes
+b SimpleName MethodInvocation SimpleName read bytes
+stream SimpleName MethodInvocation SimpleName available
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName available
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName stream
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName available
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test available
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test available
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test available
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test available SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test available
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test available
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

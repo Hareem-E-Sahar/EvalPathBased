@@ -1,0 +1,35 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName session listener
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName session listener
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName listeners
+session listener SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName listeners
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName listeners
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName array list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName session listener
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName listeners
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName sl
+sl SimpleName MethodInvocation SimpleName session closed
+session listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName l
+sl SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName l
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName l
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName l
+void PrimitiveType MethodDeclaration SimpleName do close immediately
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName l
+do close immediately SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+do close immediately SimpleName MethodDeclaration Block EnhancedForStatement SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close immediately

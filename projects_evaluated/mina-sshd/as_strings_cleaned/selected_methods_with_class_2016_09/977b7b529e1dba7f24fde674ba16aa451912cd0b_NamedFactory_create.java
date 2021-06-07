@@ -1,0 +1,49 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factories
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+named resource SimpleName MethodInvocation SimpleName find by name
+named resource SimpleName MethodInvocation SimpleName name
+named resource SimpleName MethodInvocation QualifiedName stringcase insensitive order
+named resource SimpleName MethodInvocation SimpleName factories
+find by name SimpleName MethodInvocation SimpleName name
+find by name SimpleName MethodInvocation QualifiedName stringcase insensitive order
+find by name SimpleName MethodInvocation SimpleName factories
+name SimpleName MethodInvocation QualifiedName stringcase insensitive order
+name SimpleName MethodInvocation SimpleName factories
+stringcase insensitive order QualifiedName MethodInvocation SimpleName factories
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName named resource
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName find by name
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+f SimpleName VariableDeclarationFragment MethodInvocation QualifiedName stringcase insensitive order
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName factories
+f SimpleName MethodInvocation SimpleName create
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName create
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName create
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName factories
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName name
+t SimpleName SimpleType MethodDeclaration SimpleName create
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName factories
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factories
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+factories SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

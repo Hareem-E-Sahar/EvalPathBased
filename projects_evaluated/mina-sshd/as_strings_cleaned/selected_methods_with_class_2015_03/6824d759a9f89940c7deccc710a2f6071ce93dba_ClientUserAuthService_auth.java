@@ -1,0 +1,66 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName identities
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName identities
+string SimpleName SimpleType SingleVariableDeclaration SimpleName service
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral start authentication
+debug SimpleName MethodInvocation StringLiteral start authentication
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName identities
+identities SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName identities
+service SimpleName FieldAccess Assignment SimpleName service
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral send ssh msg userauth request for none
+debug SimpleName MethodInvocation StringLiteral send ssh msg userauth request for none
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+session SimpleName MethodInvocation SimpleName get username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName session
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get username
+put string SimpleName MethodInvocation MethodInvocation SimpleName session
+put string SimpleName MethodInvocation MethodInvocation SimpleName get username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName service
+put string SimpleName MethodInvocation SimpleName service
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation StringLiteral none
+put string SimpleName MethodInvocation StringLiteral none
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName auth future
+public Modifier MethodDeclaration SimpleName auth
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName identities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+auth future SimpleName SimpleType MethodDeclaration SimpleName auth
+auth future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName identities
+auth future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service
+auth future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName identities
+auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+auth SimpleName MethodDeclaration SimpleType SimpleName io exception
+auth SimpleName MethodDeclaration Block ReturnStatement SimpleName auth future
+identities SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+identities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName auth future
+public Modifier TypeDeclaration MethodDeclaration SimpleName auth
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName auth future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName auth
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

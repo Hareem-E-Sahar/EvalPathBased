@@ -1,0 +1,56 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType SingleVariableDeclaration SimpleName nat
+rooted file system SimpleName SimpleType CastExpression SimpleName fs
+rfs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName rooted file system
+rfs SimpleName VariableDeclarationFragment CastExpression SimpleName fs
+rooted file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rfs
+nat SimpleName MethodInvocation SimpleName is absolute
+rfs SimpleName MethodInvocation SimpleName get root
+rfs SimpleName MethodInvocation MethodInvocation SimpleName relativize
+get root SimpleName MethodInvocation MethodInvocation SimpleName relativize
+rfs SimpleName MethodInvocation MethodInvocation SimpleName nat
+get root SimpleName MethodInvocation MethodInvocation SimpleName nat
+relativize SimpleName MethodInvocation SimpleName nat
+rfs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+relativize SimpleName MethodInvocation MethodInvocation SimpleName to string
+nat SimpleName MethodInvocation MethodInvocation SimpleName to string
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relativize
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName nat
+/ StringLiteral InfixExpression MethodInvocation SimpleName to string
+rfs SimpleName MethodInvocation SimpleName get path
+rfs SimpleName MethodInvocation InfixExpression StringLiteral /
+rfs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get path SimpleName MethodInvocation InfixExpression StringLiteral /
+get path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+nat SimpleName MethodInvocation SimpleName to string
+rfs SimpleName MethodInvocation SimpleName get path
+rfs SimpleName MethodInvocation MethodInvocation SimpleName nat
+rfs SimpleName MethodInvocation MethodInvocation SimpleName to string
+get path SimpleName MethodInvocation MethodInvocation SimpleName nat
+get path SimpleName MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SimpleName root
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName nat
+path SimpleName SimpleType MethodDeclaration SimpleName root
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName nat
+root SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+root SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nat
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nat
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nat
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nat

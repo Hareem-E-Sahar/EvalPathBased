@@ -1,0 +1,57 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName InstanceofExpression SimpleType SimpleName undeclared throwable exception
+undeclared throwable exception SimpleName SimpleType CastExpression SimpleName t
+t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get undeclared throwable
+wrapped SimpleName VariableDeclarationFragment MethodInvocation SimpleName get undeclared throwable
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wrapped
+peel exception SimpleName MethodInvocation SimpleName wrapped
+t SimpleName MethodInvocation SimpleName get cause
+wrapped SimpleName Assignment MethodInvocation SimpleName t
+wrapped SimpleName Assignment MethodInvocation SimpleName get cause
+wrapped SimpleName InfixExpression SimpleName t
+peel exception SimpleName MethodInvocation SimpleName wrapped
+t SimpleName InstanceofExpression SimpleType SimpleName invocation target exception
+invocation target exception SimpleName SimpleType CastExpression SimpleName t
+t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get target exception
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get target exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+peel exception SimpleName MethodInvocation SimpleName target
+t SimpleName InstanceofExpression SimpleType SimpleName reflection exception
+reflection exception SimpleName SimpleType CastExpression SimpleName t
+t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get target exception
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get target exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+peel exception SimpleName MethodInvocation SimpleName target
+t SimpleName InstanceofExpression SimpleType SimpleName m bean exception
+m bean exception SimpleName SimpleType CastExpression SimpleName t
+t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get target exception
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get target exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+peel exception SimpleName MethodInvocation SimpleName target
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleName peel exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier MethodDeclaration Block ReturnStatement SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName throwable
+static Modifier MethodDeclaration SimpleName peel exception
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+static Modifier MethodDeclaration Block ReturnStatement SimpleName t
+throwable SimpleName SimpleType MethodDeclaration SimpleName peel exception
+throwable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName t
+peel exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+peel exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+peel exception SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration MethodDeclaration SimpleName peel exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName peel exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

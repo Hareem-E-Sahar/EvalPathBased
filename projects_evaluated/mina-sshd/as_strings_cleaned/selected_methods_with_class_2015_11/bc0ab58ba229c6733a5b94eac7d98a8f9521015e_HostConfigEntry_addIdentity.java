@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName id
+validate utils SimpleName MethodInvocation StringLiteral no identity provided
+check not null and not empty SimpleName MethodInvocation SimpleName id
+check not null and not empty SimpleName MethodInvocation StringLiteral no identity provided
+id SimpleName MethodInvocation StringLiteral no identity provided
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no identity provided
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName identities
+is empty SimpleName MethodInvocation SimpleName identities
+identities SimpleName MethodInvocation SimpleName add
+identities SimpleName MethodInvocation SimpleName path
+add SimpleName MethodInvocation SimpleName path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add identity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName add identity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+add identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

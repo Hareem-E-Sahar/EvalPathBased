@@ -1,0 +1,16 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+public Modifier MethodDeclaration SimpleName get factory class
+public Modifier MethodDeclaration Block ReturnStatement SimpleName factory class
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+final Modifier MethodDeclaration SimpleName get factory class
+final Modifier MethodDeclaration Block ReturnStatement SimpleName factory class
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get factory class
+get factory class SimpleName MethodDeclaration Block ReturnStatement SimpleName factory class
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get factory class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get factory class

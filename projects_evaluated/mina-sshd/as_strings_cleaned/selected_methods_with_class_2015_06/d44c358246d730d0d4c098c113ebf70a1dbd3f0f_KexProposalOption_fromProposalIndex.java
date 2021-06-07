@@ -1,0 +1,35 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+index SimpleName InfixExpression NumberLiteral empty
+values SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName values
+index SimpleName InfixExpression MethodInvocation SimpleName size
+values SimpleName MethodInvocation SimpleName get
+values SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName kex proposal option
+public Modifier MethodDeclaration SimpleName from proposal index
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+static Modifier MethodDeclaration SimpleType SimpleName kex proposal option
+static Modifier MethodDeclaration SimpleName from proposal index
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+kex proposal option SimpleName SimpleType MethodDeclaration SimpleName from proposal index
+kex proposal option SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+kex proposal option SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+from proposal index SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+from proposal index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName kex proposal option
+public Modifier TypeDeclaration MethodDeclaration SimpleName from proposal index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName kex proposal option
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from proposal index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

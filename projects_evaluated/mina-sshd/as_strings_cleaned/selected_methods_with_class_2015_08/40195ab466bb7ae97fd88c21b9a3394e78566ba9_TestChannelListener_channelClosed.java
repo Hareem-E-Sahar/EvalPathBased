@@ -1,0 +1,52 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+unknown closed channel instance StringLiteral InfixExpression SimpleName channel
+active channels SimpleName MethodInvocation SimpleName remove
+active channels SimpleName MethodInvocation SimpleName channel
+remove SimpleName MethodInvocation SimpleName channel
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression StringLiteral unknown closed channel instance
+assert SimpleName MethodInvocation InfixExpression SimpleName channel
+assert SimpleName MethodInvocation MethodInvocation SimpleName active channels
+assert SimpleName MethodInvocation MethodInvocation SimpleName remove
+assert SimpleName MethodInvocation MethodInvocation SimpleName channel
+assert true SimpleName MethodInvocation InfixExpression StringLiteral unknown closed channel instance
+assert true SimpleName MethodInvocation InfixExpression SimpleName channel
+assert true SimpleName MethodInvocation MethodInvocation SimpleName active channels
+assert true SimpleName MethodInvocation MethodInvocation SimpleName remove
+assert true SimpleName MethodInvocation MethodInvocation SimpleName channel
+unknown closed channel instance StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName active channels
+unknown closed channel instance StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName remove
+unknown closed channel instance StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName channel
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName active channels
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName remove
+channel SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral channel closed
+log SimpleName MethodInvocation SimpleName channel
+info SimpleName MethodInvocation StringLiteral channel closed
+info SimpleName MethodInvocation SimpleName channel
+channel closed StringLiteral MethodInvocation SimpleName channel
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName channel closed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName channel closed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+void PrimitiveType MethodDeclaration SimpleName channel closed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel
+channel closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+channel closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName channel closed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName channel closed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel

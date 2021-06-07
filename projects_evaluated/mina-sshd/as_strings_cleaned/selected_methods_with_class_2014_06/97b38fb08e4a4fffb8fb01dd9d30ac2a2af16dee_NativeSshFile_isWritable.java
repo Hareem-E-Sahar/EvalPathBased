@@ -1,0 +1,31 @@
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral checking if file exists
+debug SimpleName MethodInvocation StringLiteral checking if file exists
+file SimpleName MethodInvocation SimpleName exists
+file SimpleName MethodInvocation SimpleName can write
+checking can write StringLiteral InfixExpression MethodInvocation SimpleName file
+checking can write StringLiteral InfixExpression MethodInvocation SimpleName can write
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral checking can write
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can write
+debug SimpleName MethodInvocation InfixExpression StringLiteral checking can write
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can write
+file SimpleName MethodInvocation SimpleName can write
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral authorized
+debug SimpleName MethodInvocation StringLiteral authorized
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is writable
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is writable
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is writable SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is writable
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is writable

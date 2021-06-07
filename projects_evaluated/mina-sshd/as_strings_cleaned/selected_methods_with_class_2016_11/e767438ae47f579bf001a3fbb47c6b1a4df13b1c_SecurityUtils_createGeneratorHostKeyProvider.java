@@ -1,0 +1,32 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+validate utils SimpleName MethodInvocation StringLiteral bouncy castle not registered
+check true SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+check true SimpleName MethodInvocation StringLiteral bouncy castle not registered
+is bouncy castle registered SimpleName MethodInvocation MethodInvocation StringLiteral bouncy castle not registered
+bouncy castle generator host key provider SimpleName SimpleType ClassInstanceCreation SimpleName path
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName abstract generator host key provider
+public Modifier MethodDeclaration SimpleName create generator host key provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SimpleType SimpleName abstract generator host key provider
+static Modifier MethodDeclaration SimpleName create generator host key provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+abstract generator host key provider SimpleName SimpleType MethodDeclaration SimpleName create generator host key provider
+abstract generator host key provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+create generator host key provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+create generator host key provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract generator host key provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName create generator host key provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract generator host key provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create generator host key provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

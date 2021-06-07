@@ -1,0 +1,25 @@
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName get string
+session SimpleName MethodInvocation SimpleName newline value
+get string SimpleName MethodInvocation SimpleName newline value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName newline value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve newline value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType MethodDeclaration SimpleName resolve newline value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+resolve newline value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+resolve newline value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve newline value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve newline value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

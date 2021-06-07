@@ -1,0 +1,342 @@
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName detect target folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+target path SimpleName MethodInvocation SimpleName get parent
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent path
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation SimpleName target path
+utils SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+resolve SimpleName MethodInvocation SimpleName target path
+resolve SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+resolve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+target path SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+target path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+target path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target path SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp constantssftp subsystem name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get simple name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lcl sftp
+assert hierarchy target folder exists SimpleName MethodInvocation SimpleName lcl sftp
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName resolve
+lcl sftp SimpleName MethodInvocation MethodInvocation SimpleName resolve
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation StringLiteral filetxt
+lcl sftp SimpleName MethodInvocation MethodInvocation StringLiteral filetxt
+resolve SimpleName MethodInvocation StringLiteral filetxt
+test file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+test file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName lcl sftp
+test file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+test file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral filetxt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test file
+files SimpleName MethodInvocation SimpleName delete if exists
+files SimpleName MethodInvocation SimpleName test file
+delete if exists SimpleName MethodInvocation SimpleName test file
+byte PrimitiveType ArrayType ArrayCreation QualifiedName bytemax value
+expected random SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+expected random SimpleName VariableDeclarationFragment ArrayCreation QualifiedName bytemax value
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected random
+sshd SimpleName MethodInvocation SimpleName get random factory
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName sshd
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get random factory
+factory SimpleName MethodInvocation SimpleName create
+rnd SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory
+rnd SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rnd
+rnd SimpleName MethodInvocation SimpleName fill
+rnd SimpleName MethodInvocation SimpleName expected random
+fill SimpleName MethodInvocation SimpleName expected random
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+# StringLiteral InfixExpression MethodInvocation SimpleName get current test name
+# StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+# StringLiteral InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+expected text SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+expected text SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected text
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup test client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+session SimpleName MethodInvocation SimpleName create sftp client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create sftp client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName parent path
+utils SimpleName MethodInvocation SimpleName test file
+resolve relative remote path SimpleName MethodInvocation SimpleName parent path
+resolve relative remote path SimpleName MethodInvocation SimpleName test file
+parent path SimpleName MethodInvocation SimpleName test file
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve relative remote path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName test file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation QualifiedName open modecreate
+sftp SimpleName MethodInvocation QualifiedName open modewrite
+sftp SimpleName MethodInvocation QualifiedName open moderead
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation QualifiedName open modecreate
+open SimpleName MethodInvocation QualifiedName open modewrite
+open SimpleName MethodInvocation QualifiedName open moderead
+open SimpleName MethodInvocation QualifiedName open modeappend
+file SimpleName MethodInvocation QualifiedName open modecreate
+file SimpleName MethodInvocation QualifiedName open modewrite
+file SimpleName MethodInvocation QualifiedName open moderead
+file SimpleName MethodInvocation QualifiedName open modeappend
+open modecreate QualifiedName MethodInvocation QualifiedName open modewrite
+open modecreate QualifiedName MethodInvocation QualifiedName open moderead
+open modecreate QualifiedName MethodInvocation QualifiedName open modeappend
+open modewrite QualifiedName MethodInvocation QualifiedName open moderead
+open modewrite QualifiedName MethodInvocation QualifiedName open modeappend
+open moderead QualifiedName MethodInvocation QualifiedName open modeappend
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+handle SimpleName VariableDeclarationFragment MethodInvocation QualifiedName open modecreate
+handle SimpleName VariableDeclarationFragment MethodInvocation QualifiedName open modewrite
+handle SimpleName VariableDeclarationFragment MethodInvocation QualifiedName open moderead
+handle SimpleName VariableDeclarationFragment MethodInvocation QualifiedName open modeappend
+closeable handle SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName handle
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation NumberLiteral l
+sftp SimpleName MethodInvocation SimpleName expected random
+write SimpleName MethodInvocation SimpleName handle
+write SimpleName MethodInvocation NumberLiteral l
+write SimpleName MethodInvocation SimpleName expected random
+handle SimpleName MethodInvocation NumberLiteral l
+handle SimpleName MethodInvocation SimpleName expected random
+l NumberLiteral MethodInvocation SimpleName expected random
+byte PrimitiveType ArrayType ArrayCreation QualifiedName expected randomlength
+actual random SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+actual random SimpleName VariableDeclarationFragment ArrayCreation QualifiedName expected randomlength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual random
+sftp SimpleName MethodInvocation SimpleName read
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation NumberLiteral l
+sftp SimpleName MethodInvocation SimpleName actual random
+read SimpleName MethodInvocation SimpleName handle
+read SimpleName MethodInvocation NumberLiteral l
+read SimpleName MethodInvocation SimpleName actual random
+handle SimpleName MethodInvocation NumberLiteral l
+handle SimpleName MethodInvocation SimpleName actual random
+l NumberLiteral MethodInvocation SimpleName actual random
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+read len SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual random
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sftp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName handle
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName actual random
+assert equals SimpleName MethodInvocation StringLiteral incomplete random data read
+assert equals SimpleName MethodInvocation QualifiedName expected randomlength
+assert equals SimpleName MethodInvocation SimpleName read len
+incomplete random data read StringLiteral MethodInvocation QualifiedName expected randomlength
+incomplete random data read StringLiteral MethodInvocation SimpleName read len
+expected randomlength QualifiedName MethodInvocation SimpleName read len
+assert array equals SimpleName MethodInvocation StringLiteral mismatched read random data
+assert array equals SimpleName MethodInvocation SimpleName expected random
+assert array equals SimpleName MethodInvocation SimpleName actual random
+mismatched read random data StringLiteral MethodInvocation SimpleName expected random
+mismatched read random data StringLiteral MethodInvocation SimpleName actual random
+expected random SimpleName MethodInvocation SimpleName actual random
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation NumberLiteral l
+sftp SimpleName MethodInvocation SimpleName expected text
+write SimpleName MethodInvocation SimpleName handle
+write SimpleName MethodInvocation NumberLiteral l
+write SimpleName MethodInvocation SimpleName expected text
+handle SimpleName MethodInvocation NumberLiteral l
+handle SimpleName MethodInvocation SimpleName expected text
+l NumberLiteral MethodInvocation SimpleName expected text
+byte PrimitiveType ArrayType ArrayCreation QualifiedName expected textlength
+actual text SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+actual text SimpleName VariableDeclarationFragment ArrayCreation QualifiedName expected textlength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual text
+sftp SimpleName MethodInvocation SimpleName read
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation QualifiedName actual randomlength
+sftp SimpleName MethodInvocation SimpleName actual text
+read SimpleName MethodInvocation SimpleName handle
+read SimpleName MethodInvocation QualifiedName actual randomlength
+read SimpleName MethodInvocation SimpleName actual text
+handle SimpleName MethodInvocation QualifiedName actual randomlength
+handle SimpleName MethodInvocation SimpleName actual text
+actual randomlength QualifiedName MethodInvocation SimpleName actual text
+read len SimpleName Assignment MethodInvocation SimpleName sftp
+read len SimpleName Assignment MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName handle
+read len SimpleName Assignment MethodInvocation QualifiedName actual randomlength
+read len SimpleName Assignment MethodInvocation SimpleName actual text
+assert equals SimpleName MethodInvocation StringLiteral incomplete text data read
+assert equals SimpleName MethodInvocation QualifiedName actual textlength
+assert equals SimpleName MethodInvocation SimpleName read len
+incomplete text data read StringLiteral MethodInvocation QualifiedName actual textlength
+incomplete text data read StringLiteral MethodInvocation SimpleName read len
+actual textlength QualifiedName MethodInvocation SimpleName read len
+assert array equals SimpleName MethodInvocation StringLiteral mismatched read text data
+assert array equals SimpleName MethodInvocation SimpleName expected text
+assert array equals SimpleName MethodInvocation SimpleName actual text
+mismatched read text data StringLiteral MethodInvocation SimpleName expected text
+mismatched read text data StringLiteral MethodInvocation SimpleName actual text
+expected text SimpleName MethodInvocation SimpleName actual text
+client SimpleName MethodInvocation SimpleName stop
+files SimpleName MethodInvocation SimpleName read all bytes
+files SimpleName MethodInvocation SimpleName test file
+read all bytes SimpleName MethodInvocation SimpleName test file
+actual bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+actual bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName read all bytes
+actual bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName test file
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual bytes
+expected randomlength QualifiedName InfixExpression QualifiedName expected textlength
+assert equals SimpleName MethodInvocation StringLiteral mismatched result file size
+assert equals SimpleName MethodInvocation InfixExpression QualifiedName expected randomlength
+assert equals SimpleName MethodInvocation InfixExpression QualifiedName expected textlength
+assert equals SimpleName MethodInvocation QualifiedName actual byteslength
+mismatched result file size StringLiteral MethodInvocation InfixExpression QualifiedName expected randomlength
+mismatched result file size StringLiteral MethodInvocation InfixExpression QualifiedName expected textlength
+mismatched result file size StringLiteral MethodInvocation QualifiedName actual byteslength
+expected randomlength QualifiedName InfixExpression MethodInvocation QualifiedName actual byteslength
+expected textlength QualifiedName InfixExpression MethodInvocation QualifiedName actual byteslength
+arrays SimpleName MethodInvocation SimpleName copy of range
+arrays SimpleName MethodInvocation SimpleName actual bytes
+arrays SimpleName MethodInvocation NumberLiteral empty
+arrays SimpleName MethodInvocation QualifiedName expected randomlength
+copy of range SimpleName MethodInvocation SimpleName actual bytes
+copy of range SimpleName MethodInvocation NumberLiteral empty
+copy of range SimpleName MethodInvocation QualifiedName expected randomlength
+actual bytes SimpleName MethodInvocation NumberLiteral empty
+actual bytes SimpleName MethodInvocation QualifiedName expected randomlength
+empty NumberLiteral MethodInvocation QualifiedName expected randomlength
+actual random SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+actual random SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy of range
+actual random SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual bytes
+actual random SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+actual random SimpleName VariableDeclarationFragment MethodInvocation QualifiedName expected randomlength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual random
+assert array equals SimpleName MethodInvocation StringLiteral mismatched random part
+assert array equals SimpleName MethodInvocation SimpleName expected random
+assert array equals SimpleName MethodInvocation SimpleName actual random
+mismatched random part StringLiteral MethodInvocation SimpleName expected random
+mismatched random part StringLiteral MethodInvocation SimpleName actual random
+expected random SimpleName MethodInvocation SimpleName actual random
+arrays SimpleName MethodInvocation SimpleName copy of range
+arrays SimpleName MethodInvocation SimpleName actual bytes
+arrays SimpleName MethodInvocation QualifiedName expected randomlength
+arrays SimpleName MethodInvocation QualifiedName actual byteslength
+copy of range SimpleName MethodInvocation SimpleName actual bytes
+copy of range SimpleName MethodInvocation QualifiedName expected randomlength
+copy of range SimpleName MethodInvocation QualifiedName actual byteslength
+actual bytes SimpleName MethodInvocation QualifiedName expected randomlength
+actual bytes SimpleName MethodInvocation QualifiedName actual byteslength
+expected randomlength QualifiedName MethodInvocation QualifiedName actual byteslength
+actual text SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+actual text SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy of range
+actual text SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual bytes
+actual text SimpleName VariableDeclarationFragment MethodInvocation QualifiedName expected randomlength
+actual text SimpleName VariableDeclarationFragment MethodInvocation QualifiedName actual byteslength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual text
+assert array equals SimpleName MethodInvocation StringLiteral mismatched text part
+assert array equals SimpleName MethodInvocation SimpleName expected text
+assert array equals SimpleName MethodInvocation SimpleName actual text
+mismatched text part StringLiteral MethodInvocation SimpleName expected text
+mismatched text part StringLiteral MethodInvocation SimpleName actual text
+expected text SimpleName MethodInvocation SimpleName actual text
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test write offset ignored for append mode
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test write offset ignored for append mode
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test write offset ignored for append mode
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test write offset ignored for append mode SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test write offset ignored for append mode
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test write offset ignored for append mode
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

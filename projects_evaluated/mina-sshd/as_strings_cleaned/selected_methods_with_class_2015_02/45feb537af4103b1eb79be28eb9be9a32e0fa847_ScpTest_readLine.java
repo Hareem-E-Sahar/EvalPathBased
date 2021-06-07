@@ -1,0 +1,39 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName in
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+in SimpleName MethodInvocation SimpleName read
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+c SimpleName InfixExpression CharacterLiteral empty
+baos SimpleName MethodInvocation SimpleName to string
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral end of stream
+baos SimpleName MethodInvocation SimpleName write
+baos SimpleName MethodInvocation SimpleName c
+write SimpleName MethodInvocation SimpleName c
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName read line
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName read line
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName in
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read line SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+read line SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+read line SimpleName MethodDeclaration SimpleType SimpleName io exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName read line
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read line
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

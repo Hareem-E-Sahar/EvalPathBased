@@ -1,0 +1,22 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName values
+init vector SimpleName Assignment SimpleName values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set init vector
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+void PrimitiveType MethodDeclaration SimpleName set init vector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+set init vector SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+set init vector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set init vector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set init vector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

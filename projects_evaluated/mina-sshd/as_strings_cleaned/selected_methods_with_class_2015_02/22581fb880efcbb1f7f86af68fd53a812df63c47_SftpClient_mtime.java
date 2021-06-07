@@ -1,0 +1,35 @@
+int PrimitiveType SingleVariableDeclaration SimpleName mtime
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName attributemodify time
+add SimpleName MethodInvocation QualifiedName attributemodify time
+mtime SimpleName FieldAccess Assignment SimpleName mtime
+file time SimpleName MethodInvocation SimpleName from
+file time SimpleName MethodInvocation SimpleName atime
+file time SimpleName MethodInvocation QualifiedName time unitseconds
+from SimpleName MethodInvocation SimpleName atime
+from SimpleName MethodInvocation QualifiedName time unitseconds
+atime SimpleName MethodInvocation QualifiedName time unitseconds
+modify time SimpleName FieldAccess Assignment MethodInvocation SimpleName file time
+modify time SimpleName FieldAccess Assignment MethodInvocation SimpleName from
+modify time SimpleName FieldAccess Assignment MethodInvocation SimpleName atime
+modify time SimpleName FieldAccess Assignment MethodInvocation QualifiedName time unitseconds
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName mtime
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mtime
+attributes SimpleName SimpleType MethodDeclaration SimpleName mtime
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mtime
+mtime SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+mtime SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mtime
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName mtime
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mtime
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mtime
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mtime

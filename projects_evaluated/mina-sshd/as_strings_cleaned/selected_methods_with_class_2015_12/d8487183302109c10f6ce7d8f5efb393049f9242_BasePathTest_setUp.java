@@ -1,0 +1,23 @@
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file system provider
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file system provider
+test file system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mockito
+test file system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mock
+file system SimpleName Assignment ClassInstanceCreation SimpleType SimpleName test file system
+file system SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName mockito
+file system SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName mock
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up

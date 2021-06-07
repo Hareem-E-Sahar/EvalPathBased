@@ -1,0 +1,50 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName env
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName env
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName env
+ensure directory SimpleName MethodInvocation SimpleName path
+rooted file system SimpleName SimpleType ClassInstanceCreation SimpleName path
+rooted file system SimpleName SimpleType ClassInstanceCreation SimpleName env
+path SimpleName ClassInstanceCreation SimpleName env
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new file system
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName new file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+file system SimpleName SimpleType MethodDeclaration SimpleName new file system
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName env
+file system SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+new file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+new file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+new file system SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+new file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+new file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName new file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

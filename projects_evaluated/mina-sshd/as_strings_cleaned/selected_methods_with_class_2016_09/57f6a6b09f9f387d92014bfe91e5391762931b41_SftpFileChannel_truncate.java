@@ -1,0 +1,51 @@
+long PrimitiveType SingleVariableDeclaration SimpleName size
+collections SimpleName MethodInvocation SimpleName empty set
+ensure open SimpleName MethodInvocation MethodInvocation SimpleName collections
+ensure open SimpleName MethodInvocation MethodInvocation SimpleName empty set
+sftp clientattributes QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+sftp clientattributes QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+size SimpleName MethodInvocation SimpleName size
+sftp SimpleName MethodInvocation SimpleName set stat
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation MethodInvocation SimpleName size
+sftp SimpleName MethodInvocation MethodInvocation SimpleName size
+set stat SimpleName MethodInvocation SimpleName handle
+set stat SimpleName MethodInvocation MethodInvocation SimpleName size
+set stat SimpleName MethodInvocation MethodInvocation SimpleName size
+handle SimpleName MethodInvocation MethodInvocation SimpleName size
+handle SimpleName MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file channel
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName truncate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName file channel
+public Modifier MethodDeclaration SimpleName truncate
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+file channel SimpleName SimpleType MethodDeclaration SimpleName truncate
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName size
+file channel SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+truncate SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+truncate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+truncate SimpleName MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName truncate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName truncate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

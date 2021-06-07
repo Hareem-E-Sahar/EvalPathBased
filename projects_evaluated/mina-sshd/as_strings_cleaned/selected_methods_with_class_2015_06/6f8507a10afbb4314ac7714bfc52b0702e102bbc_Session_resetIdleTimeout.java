@@ -1,0 +1,6 @@
+void PrimitiveType MethodDeclaration SimpleName reset idle timeout
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset idle timeout
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset idle timeout

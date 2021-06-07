@@ -1,0 +1,37 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName v
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName v
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName case insensitive map
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName case insensitive map
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName factory
+public Modifier MethodDeclaration SimpleName case insensitive map
+public Modifier MethodDeclaration Block ReturnStatement SimpleName case insensitive map factory
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName factory
+static Modifier MethodDeclaration SimpleName case insensitive map
+static Modifier MethodDeclaration Block ReturnStatement SimpleName case insensitive map factory
+v SimpleName TypeParameter MethodDeclaration SimpleName case insensitive map
+factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName case insensitive map
+case insensitive map SimpleName MethodDeclaration Block ReturnStatement SimpleName case insensitive map factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName case insensitive map
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName case insensitive map

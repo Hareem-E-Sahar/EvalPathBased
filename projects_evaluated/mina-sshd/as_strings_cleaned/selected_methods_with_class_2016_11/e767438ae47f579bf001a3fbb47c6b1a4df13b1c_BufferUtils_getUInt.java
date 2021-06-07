@@ -1,0 +1,102 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName buf
+int PrimitiveType SingleVariableDeclaration SimpleName off
+int PrimitiveType SingleVariableDeclaration SimpleName len
+len SimpleName InfixExpression QualifiedName integerbytes
+not enough data for a uint required StringLiteral InfixExpression QualifiedName integerbytes
+not enough data for a uint required StringLiteral InfixExpression StringLiteral available
+not enough data for a uint required StringLiteral InfixExpression SimpleName len
+integerbytes QualifiedName InfixExpression StringLiteral available
+integerbytes QualifiedName InfixExpression SimpleName len
+available StringLiteral InfixExpression SimpleName len
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not enough data for a uint required
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName integerbytes
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral available
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName len
+buf SimpleName ArrayAccess SimpleName off
+buf SimpleName ArrayAccess InfixExpression NumberLiteral empty
+off SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xff l
+l SimpleName VariableDeclarationFragment InfixExpression NumberLiteral xff l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral xff l
+off SimpleName InfixExpression NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression SimpleName off
+buf SimpleName ArrayAccess InfixExpression NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral empty
+off SimpleName InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff l
+l SimpleName Assignment InfixExpression NumberLiteral x ff l
+off SimpleName InfixExpression NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression SimpleName off
+buf SimpleName ArrayAccess InfixExpression NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral empty
+off SimpleName InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff l
+l SimpleName Assignment InfixExpression NumberLiteral x ff l
+off SimpleName InfixExpression NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression SimpleName off
+buf SimpleName ArrayAccess InfixExpression NumberLiteral empty
+buf SimpleName ArrayAccess ParenthesizedExpression InfixExpression NumberLiteral x ff l
+l SimpleName Assignment InfixExpression NumberLiteral x ff l
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName l
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get u int
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName off
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get u int
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buf
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName off
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+long PrimitiveType MethodDeclaration SimpleName get u int
+long PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buf
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName off
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName l
+get u int SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+get u int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buf
+get u int SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get u int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName off
+get u int SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get u int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+get u int SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get u int SimpleName MethodDeclaration Block ReturnStatement SimpleName l
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get u int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get u int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len

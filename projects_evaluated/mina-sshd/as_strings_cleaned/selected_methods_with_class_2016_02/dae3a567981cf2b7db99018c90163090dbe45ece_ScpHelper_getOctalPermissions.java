@@ -1,0 +1,67 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+pf SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+posix file permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+pf SimpleName Assignment SimpleName s irusr
+pf SimpleName Assignment SimpleName s iwusr
+pf SimpleName Assignment SimpleName s ixusr
+pf SimpleName Assignment SimpleName s irgrp
+pf SimpleName Assignment SimpleName s iwgrp
+pf SimpleName Assignment SimpleName s ixgrp
+pf SimpleName Assignment SimpleName s iroth
+pf SimpleName Assignment SimpleName s iwoth
+pf SimpleName Assignment SimpleName s ixoth
+p SimpleName SwitchStatement SwitchCase SimpleName owner read
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s irusr
+p SimpleName SwitchStatement SwitchCase SimpleName owner write
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s iwusr
+owner read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner write
+owner write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner execute
+owner execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group read
+group read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group write
+group write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group execute
+group execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others read
+others read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others write
+others write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others execute
+posix file permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName perms
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName perms
+perms SimpleName EnhancedForStatement Block SwitchStatement SimpleName p
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % o
+string SimpleName MethodInvocation SimpleName pf
+format SimpleName MethodInvocation StringLiteral % o
+format SimpleName MethodInvocation SimpleName pf
+% o StringLiteral MethodInvocation SimpleName pf
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName perms
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get octal permissions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName perms
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get octal permissions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName perms
+string SimpleName SimpleType MethodDeclaration SimpleName get octal permissions
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName perms
+get octal permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+get octal permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get octal permissions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName perms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get octal permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get octal permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms

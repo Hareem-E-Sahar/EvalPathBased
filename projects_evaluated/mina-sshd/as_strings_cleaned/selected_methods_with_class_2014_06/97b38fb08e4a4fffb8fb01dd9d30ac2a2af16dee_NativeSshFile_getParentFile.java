@@ -1,0 +1,88 @@
+native file system view SimpleName MethodInvocation SimpleName get separator
+separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName native file system view
+separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get separator
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName separator
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName native file system view
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get separator
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get absolute path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName last index of
+path SimpleName MethodInvocation SimpleName separator
+last index of SimpleName MethodInvocation SimpleName separator
+index of slash SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+index of slash SimpleName VariableDeclarationFragment MethodInvocation SimpleName last index of
+index of slash SimpleName VariableDeclarationFragment MethodInvocation SimpleName separator
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index of slash
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName path
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName last index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName separator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent full name
+index of slash SimpleName InfixExpression NumberLiteral empty
+parent full name SimpleName Assignment StringLiteral /
+path SimpleName MethodInvocation SimpleName index of
+path SimpleName MethodInvocation SimpleName separator
+index of SimpleName MethodInvocation SimpleName separator
+path SimpleName MethodInvocation InfixExpression SimpleName index of slash
+index of SimpleName MethodInvocation InfixExpression SimpleName index of slash
+separator SimpleName MethodInvocation InfixExpression SimpleName index of slash
+index of slash SimpleName InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName substring
+path SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation InfixExpression SimpleName index of slash
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName index of slash
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression SimpleName index of slash
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+parent full name SimpleName Assignment MethodInvocation SimpleName path
+parent full name SimpleName Assignment MethodInvocation SimpleName substring
+parent full name SimpleName Assignment MethodInvocation NumberLiteral empty
+parent full name SimpleName Assignment MethodInvocation InfixExpression SimpleName index of slash
+parent full name SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName substring
+path SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation SimpleName index of slash
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName index of slash
+empty NumberLiteral MethodInvocation SimpleName index of slash
+parent full name SimpleName Assignment MethodInvocation SimpleName path
+parent full name SimpleName Assignment MethodInvocation SimpleName substring
+parent full name SimpleName Assignment MethodInvocation NumberLiteral empty
+parent full name SimpleName Assignment MethodInvocation SimpleName index of slash
+file SimpleName MethodInvocation SimpleName get absolute file
+file SimpleName MethodInvocation MethodInvocation SimpleName get parent file
+get absolute file SimpleName MethodInvocation MethodInvocation SimpleName get parent file
+native file system view SimpleName MethodInvocation SimpleName create native ssh file
+native file system view SimpleName MethodInvocation SimpleName parent full name
+native file system view SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+native file system view SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute file
+native file system view SimpleName MethodInvocation MethodInvocation SimpleName get parent file
+native file system view SimpleName MethodInvocation SimpleName user name
+create native ssh file SimpleName MethodInvocation SimpleName parent full name
+create native ssh file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+create native ssh file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute file
+create native ssh file SimpleName MethodInvocation MethodInvocation SimpleName get parent file
+create native ssh file SimpleName MethodInvocation SimpleName user name
+parent full name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+parent full name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute file
+parent full name SimpleName MethodInvocation MethodInvocation SimpleName get parent file
+parent full name SimpleName MethodInvocation SimpleName user name
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user name
+get absolute file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user name
+get parent file SimpleName MethodInvocation MethodInvocation SimpleName user name
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration SimpleType SimpleName ssh file
+public Modifier MethodDeclaration SimpleName get parent file
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+ssh file SimpleName SimpleType MethodDeclaration SimpleName get parent file
+get parent file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+get parent file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent file
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent file

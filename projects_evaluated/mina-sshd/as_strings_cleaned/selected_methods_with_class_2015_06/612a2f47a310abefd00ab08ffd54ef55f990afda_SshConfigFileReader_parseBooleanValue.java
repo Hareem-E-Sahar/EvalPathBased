@@ -1,0 +1,100 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName v
+yes StringLiteral MethodInvocation SimpleName equals ignore case
+yes StringLiteral MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation SimpleName v
+y StringLiteral MethodInvocation SimpleName equals ignore case
+y StringLiteral MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation SimpleName v
+on StringLiteral MethodInvocation SimpleName equals ignore case
+on StringLiteral MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation SimpleName v
+true StringLiteral MethodInvocation SimpleName equals ignore case
+true StringLiteral MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation SimpleName v
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral y
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral y
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral y
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral on
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral on
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral on
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral true
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+yes StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+y StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral on
+y StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+y StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral on
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral on
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+y StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral true
+y StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+y StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+on StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral true
+on StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+on StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName parse boolean value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName parse boolean value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName parse boolean value
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SimpleName parse boolean value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+parse boolean value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse boolean value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse boolean value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse boolean value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

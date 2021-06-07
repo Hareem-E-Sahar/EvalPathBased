@@ -1,0 +1,32 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName octect
+octect SimpleName InfixExpression SimpleName pad
+base alphabet SimpleName ArrayAccess SimpleName octect
+base alphabet SimpleName ArrayAccess InfixExpression PrefixExpression NumberLiteral empty
+octect SimpleName ArrayAccess InfixExpression PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is base
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName octect
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is base
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName octect
+boolean PrimitiveType MethodDeclaration SimpleName is base
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName octect
+is base SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+is base SimpleName MethodDeclaration SingleVariableDeclaration SimpleName octect
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is base
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName octect
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is base
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName octect

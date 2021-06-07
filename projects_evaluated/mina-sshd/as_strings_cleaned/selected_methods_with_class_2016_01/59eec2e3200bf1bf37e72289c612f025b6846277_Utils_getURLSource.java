@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName external form
+url SimpleName VariableDeclarationFragment SimpleName external form
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName external form
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName url
+is empty SimpleName MethodInvocation SimpleName url
+strip jar url prefix SimpleName MethodInvocation SimpleName external form
+url SimpleName Assignment MethodInvocation SimpleName strip jar url prefix
+url SimpleName Assignment MethodInvocation SimpleName external form
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName url
+is empty SimpleName MethodInvocation SimpleName url
+url SimpleName MethodInvocation SimpleName index of
+url SimpleName MethodInvocation SimpleName resource subpath separator
+index of SimpleName MethodInvocation SimpleName resource subpath separator
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName url
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource subpath separator
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sep pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName url
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName resource subpath separator
+sep pos SimpleName InfixExpression NumberLiteral empty
+adjust url path value SimpleName MethodInvocation SimpleName url
+url SimpleName MethodInvocation SimpleName substring
+url SimpleName MethodInvocation NumberLiteral empty
+url SimpleName MethodInvocation SimpleName sep pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName sep pos
+empty NumberLiteral MethodInvocation SimpleName sep pos
+adjust url path value SimpleName MethodInvocation MethodInvocation SimpleName url
+adjust url path value SimpleName MethodInvocation MethodInvocation SimpleName substring
+adjust url path value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+adjust url path value SimpleName MethodInvocation MethodInvocation SimpleName sep pos
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get url source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName external form
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get url source
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName external form
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName get url source
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName external form
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get url source
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName external form
+get url source SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get url source SimpleName MethodDeclaration SingleVariableDeclaration SimpleName external form
+get url source SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get url source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external form
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get url source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external form

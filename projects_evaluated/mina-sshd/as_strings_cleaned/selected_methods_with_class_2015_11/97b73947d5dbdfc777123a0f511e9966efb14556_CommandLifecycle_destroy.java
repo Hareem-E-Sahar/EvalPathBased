@@ -1,0 +1,10 @@
+void PrimitiveType MethodDeclaration SimpleName destroy
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+destroy SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName destroy
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName destroy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

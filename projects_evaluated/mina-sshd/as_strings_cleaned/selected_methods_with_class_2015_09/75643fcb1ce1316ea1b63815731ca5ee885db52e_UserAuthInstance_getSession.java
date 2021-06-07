@@ -1,0 +1,6 @@
+s SimpleName SimpleType MethodDeclaration SimpleName get session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session

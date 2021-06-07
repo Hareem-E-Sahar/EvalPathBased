@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+open dir StringLiteral InfixExpression SimpleName path
+open dir StringLiteral InfixExpression StringLiteral ) client is closed
+path SimpleName InfixExpression StringLiteral ) client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral open dir
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) client is closed
+path SimpleName MethodInvocation SimpleName length
+path SimpleName MethodInvocation InfixExpression QualifiedName longsize
+length SimpleName MethodInvocation InfixExpression QualifiedName longsize
+byte array buffer SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName longsize
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName longsize
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName path
+put string SimpleName MethodInvocation SimpleName path
+check handle SimpleName MethodInvocation SimpleName ssh fxp opendir
+check handle SimpleName MethodInvocation SimpleName buffer
+ssh fxp opendir SimpleName MethodInvocation SimpleName buffer
+default closeable handle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName check handle
+default closeable handle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ssh fxp opendir
+default closeable handle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName closeable handle
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName open dir
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName closeable handle
+public Modifier MethodDeclaration SimpleName open dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+closeable handle SimpleName SimpleType MethodDeclaration SimpleName open dir
+closeable handle SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+closeable handle SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+open dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+open dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+open dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable handle
+public Modifier TypeDeclaration MethodDeclaration SimpleName open dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable handle
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,53 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+pty mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+collections SimpleName MethodInvocation SimpleName empty map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName SimpleType SingleVariableDeclaration SimpleName m
+modes SimpleName MethodInvocation SimpleName put
+modes SimpleName MethodInvocation SimpleName m
+modes SimpleName MethodInvocation SimpleName true setting
+put SimpleName MethodInvocation SimpleName m
+put SimpleName MethodInvocation SimpleName true setting
+m SimpleName MethodInvocation SimpleName true setting
+pty mode SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName options
+m SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName options
+options SimpleName EnhancedForStatement Block ReturnStatement SimpleName modes
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pty mode
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName create enabled options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName options
+public Modifier MethodDeclaration Block ReturnStatement SimpleName modes
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pty mode
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName create enabled options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName options
+static Modifier MethodDeclaration Block ReturnStatement SimpleName modes
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create enabled options
+pty mode SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create enabled options
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create enabled options
+create enabled options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+create enabled options SimpleName MethodDeclaration Block EnhancedForStatement SimpleName options
+create enabled options SimpleName MethodDeclaration Block ReturnStatement SimpleName modes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create enabled options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create enabled options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName kp
+get key type SimpleName MethodInvocation SimpleName kp
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName type
+objects SimpleName MethodInvocation SimpleName t
+equals SimpleName MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName t
+type SimpleName MethodInvocation SimpleName t
+key pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+kp SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName pairs
+key pair SimpleName SimpleType MethodDeclaration SimpleName load key
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+load key SimpleName MethodDeclaration Block EnhancedForStatement SimpleName pairs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName load key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

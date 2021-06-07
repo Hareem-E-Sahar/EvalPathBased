@@ -1,0 +1,70 @@
+mac factoryfac named QualifiedName MethodInvocation SimpleName transform
+assert null SimpleName MethodInvocation StringLiteral invalid null transformation
+assert null SimpleName MethodInvocation MethodInvocation QualifiedName mac factoryfac named
+assert null SimpleName MethodInvocation MethodInvocation SimpleName transform
+invalid null transformation StringLiteral MethodInvocation MethodInvocation QualifiedName mac factoryfac named
+invalid null transformation StringLiteral MethodInvocation MethodInvocation SimpleName transform
+mac factory SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName mac
+mac factoryfac named QualifiedName MethodInvocation SimpleName transform
+mac factoryfac named QualifiedName MethodInvocation SimpleName expected
+transform SimpleName MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName mac factoryfac named
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation SimpleName get name
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName expected
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName get name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched transformed instance for
+assert same SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+mac factory SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin macsvalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin macsvalues
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mac factory
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mac factory
+mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+mac factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mock
+mac factoryfac named QualifiedName MethodInvocation SimpleName transform
+mac factoryfac named QualifiedName MethodInvocation SimpleName mock
+transform SimpleName MethodInvocation SimpleName mock
+assert same SimpleName MethodInvocation StringLiteral mismatched transformed mocked instance
+assert same SimpleName MethodInvocation SimpleName mock
+assert same SimpleName MethodInvocation MethodInvocation QualifiedName mac factoryfac named
+assert same SimpleName MethodInvocation MethodInvocation SimpleName transform
+assert same SimpleName MethodInvocation MethodInvocation SimpleName mock
+mismatched transformed mocked instance StringLiteral MethodInvocation SimpleName mock
+mismatched transformed mocked instance StringLiteral MethodInvocation MethodInvocation QualifiedName mac factoryfac named
+mismatched transformed mocked instance StringLiteral MethodInvocation MethodInvocation SimpleName transform
+mismatched transformed mocked instance StringLiteral MethodInvocation MethodInvocation SimpleName mock
+mock SimpleName MethodInvocation MethodInvocation QualifiedName mac factoryfac named
+mock SimpleName MethodInvocation MethodInvocation SimpleName transform
+mock SimpleName MethodInvocation MethodInvocation SimpleName mock
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test fac named transformer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test fac named transformer
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+void PrimitiveType MethodDeclaration SimpleName test fac named transformer
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+test fac named transformer SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test fac named transformer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test fac named transformer

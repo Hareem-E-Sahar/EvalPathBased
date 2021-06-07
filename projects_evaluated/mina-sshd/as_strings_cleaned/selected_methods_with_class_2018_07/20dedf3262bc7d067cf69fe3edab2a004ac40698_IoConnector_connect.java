@@ -1,0 +1,19 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName target address
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local address
+io connect future SimpleName SimpleType MethodDeclaration SimpleName connect
+io connect future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target address
+io connect future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local address
+target address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io connect future
+public Modifier TypeDeclaration MethodDeclaration SimpleName connect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io connect future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName connect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address

@@ -1,0 +1,17 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName t
+r SimpleName SimpleType MethodDeclaration SimpleName apply
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName t
+r SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+apply SimpleName MethodDeclaration SimpleType SimpleName io exception
+t SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

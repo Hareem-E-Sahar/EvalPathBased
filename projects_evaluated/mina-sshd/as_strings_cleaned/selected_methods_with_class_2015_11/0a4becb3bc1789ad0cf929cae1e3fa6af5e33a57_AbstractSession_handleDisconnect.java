@@ -1,0 +1,71 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get int
+code SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+code SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get string
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+buffer SimpleName MethodInvocation SimpleName get string
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+log SimpleName MethodInvocation SimpleName is debug enabled
+ssh constants SimpleName MethodInvocation SimpleName get disconnect reason name
+ssh constants SimpleName MethodInvocation SimpleName code
+get disconnect reason name SimpleName MethodInvocation SimpleName code
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral handle disconnect ssh msg disconnect reason lang msg
+log SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+log SimpleName MethodInvocation MethodInvocation SimpleName get disconnect reason name
+log SimpleName MethodInvocation MethodInvocation SimpleName code
+log SimpleName MethodInvocation SimpleName lang
+debug SimpleName MethodInvocation StringLiteral handle disconnect ssh msg disconnect reason lang msg
+debug SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+debug SimpleName MethodInvocation MethodInvocation SimpleName get disconnect reason name
+debug SimpleName MethodInvocation MethodInvocation SimpleName code
+debug SimpleName MethodInvocation SimpleName lang
+debug SimpleName MethodInvocation SimpleName msg
+handle disconnect ssh msg disconnect reason lang msg StringLiteral MethodInvocation MethodInvocation SimpleName ssh constants
+handle disconnect ssh msg disconnect reason lang msg StringLiteral MethodInvocation MethodInvocation SimpleName get disconnect reason name
+handle disconnect ssh msg disconnect reason lang msg StringLiteral MethodInvocation MethodInvocation SimpleName code
+handle disconnect ssh msg disconnect reason lang msg StringLiteral MethodInvocation SimpleName lang
+handle disconnect ssh msg disconnect reason lang msg StringLiteral MethodInvocation SimpleName msg
+ssh constants SimpleName MethodInvocation MethodInvocation SimpleName lang
+get disconnect reason name SimpleName MethodInvocation MethodInvocation SimpleName lang
+code SimpleName MethodInvocation MethodInvocation SimpleName lang
+ssh constants SimpleName MethodInvocation MethodInvocation SimpleName msg
+get disconnect reason name SimpleName MethodInvocation MethodInvocation SimpleName msg
+code SimpleName MethodInvocation MethodInvocation SimpleName msg
+lang SimpleName MethodInvocation SimpleName msg
+close SimpleName MethodInvocation BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle disconnect
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName handle disconnect
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+handle disconnect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle disconnect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle disconnect SimpleName MethodDeclaration SimpleType SimpleName exception
+handle disconnect SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle disconnect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle disconnect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

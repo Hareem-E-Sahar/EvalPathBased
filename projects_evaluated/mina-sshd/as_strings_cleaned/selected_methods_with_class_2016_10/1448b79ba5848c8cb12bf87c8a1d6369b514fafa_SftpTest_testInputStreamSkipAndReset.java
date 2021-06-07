@@ -1,0 +1,366 @@
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName detect target folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+target path SimpleName MethodInvocation SimpleName get parent
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent path
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation SimpleName target path
+utils SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+resolve SimpleName MethodInvocation SimpleName target path
+resolve SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+resolve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+target path SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+target path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+target path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target path SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+local file SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+local file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+local file SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+local file SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp constantssftp subsystem name
+local file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get simple name
+local file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local file
+local file SimpleName MethodInvocation SimpleName get parent
+files SimpleName MethodInvocation SimpleName create directories
+files SimpleName MethodInvocation MethodInvocation SimpleName local file
+files SimpleName MethodInvocation MethodInvocation SimpleName get parent
+create directories SimpleName MethodInvocation MethodInvocation SimpleName local file
+create directories SimpleName MethodInvocation MethodInvocation SimpleName get parent
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral [
+get name SimpleName MethodInvocation InfixExpression StringLiteral [
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName local file
+get name SimpleName MethodInvocation InfixExpression SimpleName local file
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+get name SimpleName MethodInvocation InfixExpression StringLiteral ]
+# StringLiteral InfixExpression MethodInvocation SimpleName get current test name
+# StringLiteral InfixExpression StringLiteral [
+# StringLiteral InfixExpression SimpleName local file
+# StringLiteral InfixExpression StringLiteral ]
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral [
+get current test name SimpleName MethodInvocation InfixExpression SimpleName local file
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName local file
+[ StringLiteral InfixExpression StringLiteral ]
+local file SimpleName InfixExpression StringLiteral ]
+# StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+[ StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+local file SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+] StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+# StringLiteral InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+[ StringLiteral InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+local file SimpleName InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+] StringLiteral InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+data SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+files SimpleName MethodInvocation SimpleName write
+files SimpleName MethodInvocation SimpleName local file
+files SimpleName MethodInvocation SimpleName data
+files SimpleName MethodInvocation QualifiedName standard open optioncreate
+write SimpleName MethodInvocation SimpleName local file
+write SimpleName MethodInvocation SimpleName data
+write SimpleName MethodInvocation QualifiedName standard open optioncreate
+local file SimpleName MethodInvocation SimpleName data
+local file SimpleName MethodInvocation QualifiedName standard open optioncreate
+data SimpleName MethodInvocation QualifiedName standard open optioncreate
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+session SimpleName MethodInvocation SimpleName create sftp client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create sftp client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName parent path
+utils SimpleName MethodInvocation SimpleName local file
+resolve relative remote path SimpleName MethodInvocation SimpleName parent path
+resolve relative remote path SimpleName MethodInvocation SimpleName local file
+parent path SimpleName MethodInvocation SimpleName local file
+sftp SimpleName MethodInvocation SimpleName read
+sftp SimpleName MethodInvocation MethodInvocation SimpleName utils
+sftp SimpleName MethodInvocation MethodInvocation SimpleName resolve relative remote path
+sftp SimpleName MethodInvocation MethodInvocation SimpleName parent path
+sftp SimpleName MethodInvocation MethodInvocation SimpleName local file
+sftp SimpleName MethodInvocation QualifiedName open moderead
+read SimpleName MethodInvocation MethodInvocation SimpleName utils
+read SimpleName MethodInvocation MethodInvocation SimpleName resolve relative remote path
+read SimpleName MethodInvocation MethodInvocation SimpleName parent path
+read SimpleName MethodInvocation MethodInvocation SimpleName local file
+read SimpleName MethodInvocation QualifiedName open moderead
+utils SimpleName MethodInvocation MethodInvocation QualifiedName open moderead
+resolve relative remote path SimpleName MethodInvocation MethodInvocation QualifiedName open moderead
+parent path SimpleName MethodInvocation MethodInvocation QualifiedName open moderead
+local file SimpleName MethodInvocation MethodInvocation QualifiedName open moderead
+stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utils
+stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resolve relative remote path
+stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parent path
+stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName local file
+stream SimpleName VariableDeclarationFragment MethodInvocation QualifiedName open moderead
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName stream
+stream SimpleName MethodInvocation SimpleName mark supported
+assert false SimpleName MethodInvocation StringLiteral stream reported mark supported
+assert false SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert false SimpleName MethodInvocation MethodInvocation SimpleName mark supported
+stream reported mark supported StringLiteral MethodInvocation MethodInvocation SimpleName stream
+stream reported mark supported StringLiteral MethodInvocation MethodInvocation SimpleName mark supported
+stream SimpleName MethodInvocation SimpleName mark
+stream SimpleName MethodInvocation QualifiedName datalength
+mark SimpleName MethodInvocation QualifiedName datalength
+fail SimpleName MethodInvocation StringLiteral unexpected success to mark the read limit
+unsupported operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+datalength QualifiedName InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName datalength
+byte PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+expected SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+expected SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName datalength
+expected SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+stream SimpleName MethodInvocation SimpleName read
+stream SimpleName MethodInvocation SimpleName expected
+read SimpleName MethodInvocation SimpleName expected
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName stream
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName stream
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation StringLiteral failed to read fully initial data
+assert equals SimpleName MethodInvocation QualifiedName expectedlength
+assert equals SimpleName MethodInvocation SimpleName read len
+failed to read fully initial data StringLiteral MethodInvocation QualifiedName expectedlength
+failed to read fully initial data StringLiteral MethodInvocation SimpleName read len
+expectedlength QualifiedName MethodInvocation SimpleName read len
+byte PrimitiveType ArrayType ArrayCreation SimpleName read len
+actual SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+actual SimpleName VariableDeclarationFragment ArrayCreation SimpleName read len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+stream SimpleName MethodInvocation SimpleName reset
+stream SimpleName MethodInvocation SimpleName read
+stream SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName Assignment MethodInvocation SimpleName stream
+read len SimpleName Assignment MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation StringLiteral failed to read fully reset data
+assert equals SimpleName MethodInvocation QualifiedName actuallength
+assert equals SimpleName MethodInvocation SimpleName read len
+failed to read fully reset data StringLiteral MethodInvocation QualifiedName actuallength
+failed to read fully reset data StringLiteral MethodInvocation SimpleName read len
+actuallength QualifiedName MethodInvocation SimpleName read len
+assert array equals SimpleName MethodInvocation StringLiteral mismatched reread data contents
+assert array equals SimpleName MethodInvocation SimpleName expected
+assert array equals SimpleName MethodInvocation SimpleName actual
+mismatched reread data contents StringLiteral MethodInvocation SimpleName expected
+mismatched reread data contents StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName expected
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName expected
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName expectedlength
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName expected
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation QualifiedName expectedlength
+empty NumberLiteral MethodInvocation SimpleName expected
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName expectedlength
+expected SimpleName MethodInvocation NumberLiteral empty
+expected SimpleName MethodInvocation QualifiedName expectedlength
+empty NumberLiteral MethodInvocation QualifiedName expectedlength
+assert array equals SimpleName MethodInvocation StringLiteral mismatched original data contents
+assert array equals SimpleName MethodInvocation SimpleName expected
+assert array equals SimpleName MethodInvocation SimpleName actual
+mismatched original data contents StringLiteral MethodInvocation SimpleName expected
+mismatched original data contents StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+stream SimpleName MethodInvocation SimpleName skip
+stream SimpleName MethodInvocation SimpleName read len
+skip SimpleName MethodInvocation SimpleName read len
+skipped SimpleName VariableDeclarationFragment MethodInvocation SimpleName stream
+skipped SimpleName VariableDeclarationFragment MethodInvocation SimpleName skip
+skipped SimpleName VariableDeclarationFragment MethodInvocation SimpleName read len
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName skipped
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName stream
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName skip
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read len
+assert equals SimpleName MethodInvocation StringLiteral mismatched skipped forward size
+assert equals SimpleName MethodInvocation SimpleName read len
+assert equals SimpleName MethodInvocation SimpleName skipped
+mismatched skipped forward size StringLiteral MethodInvocation SimpleName read len
+mismatched skipped forward size StringLiteral MethodInvocation SimpleName skipped
+read len SimpleName MethodInvocation SimpleName skipped
+stream SimpleName MethodInvocation SimpleName read
+stream SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName Assignment MethodInvocation SimpleName stream
+read len SimpleName Assignment MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation StringLiteral failed to read fully skipped forward data
+assert equals SimpleName MethodInvocation QualifiedName actuallength
+assert equals SimpleName MethodInvocation SimpleName read len
+failed to read fully skipped forward data StringLiteral MethodInvocation QualifiedName actuallength
+failed to read fully skipped forward data StringLiteral MethodInvocation SimpleName read len
+actuallength QualifiedName MethodInvocation SimpleName read len
+expectedlength QualifiedName InfixExpression SimpleName read len
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation InfixExpression QualifiedName expectedlength
+system SimpleName MethodInvocation InfixExpression SimpleName read len
+system SimpleName MethodInvocation SimpleName expected
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation InfixExpression QualifiedName expectedlength
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName read len
+arraycopy SimpleName MethodInvocation SimpleName expected
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName expectedlength
+data SimpleName MethodInvocation InfixExpression QualifiedName expectedlength
+data SimpleName MethodInvocation InfixExpression SimpleName read len
+data SimpleName MethodInvocation SimpleName expected
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation QualifiedName expectedlength
+expectedlength QualifiedName InfixExpression MethodInvocation SimpleName expected
+read len SimpleName InfixExpression MethodInvocation SimpleName expected
+expectedlength QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+read len SimpleName InfixExpression MethodInvocation NumberLiteral empty
+expectedlength QualifiedName InfixExpression MethodInvocation QualifiedName expectedlength
+read len SimpleName InfixExpression MethodInvocation QualifiedName expectedlength
+expected SimpleName MethodInvocation NumberLiteral empty
+expected SimpleName MethodInvocation QualifiedName expectedlength
+empty NumberLiteral MethodInvocation QualifiedName expectedlength
+assert array equals SimpleName MethodInvocation StringLiteral mismatched skipped forward data contents
+assert array equals SimpleName MethodInvocation SimpleName expected
+assert array equals SimpleName MethodInvocation SimpleName actual
+mismatched skipped forward data contents StringLiteral MethodInvocation SimpleName expected
+mismatched skipped forward data contents StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+empty NumberLiteral InfixExpression SimpleName read len
+stream SimpleName MethodInvocation SimpleName skip
+stream SimpleName MethodInvocation InfixExpression NumberLiteral empty
+stream SimpleName MethodInvocation InfixExpression SimpleName read len
+skip SimpleName MethodInvocation InfixExpression NumberLiteral empty
+skip SimpleName MethodInvocation InfixExpression SimpleName read len
+skipped SimpleName Assignment MethodInvocation SimpleName stream
+skipped SimpleName Assignment MethodInvocation SimpleName skip
+skipped SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+skipped SimpleName Assignment MethodInvocation InfixExpression SimpleName read len
+assert equals SimpleName MethodInvocation StringLiteral mismatched backward skip size
+assert equals SimpleName MethodInvocation SimpleName read len
+assert equals SimpleName MethodInvocation SimpleName skipped
+mismatched backward skip size StringLiteral MethodInvocation SimpleName read len
+mismatched backward skip size StringLiteral MethodInvocation SimpleName skipped
+read len SimpleName MethodInvocation SimpleName skipped
+stream SimpleName MethodInvocation SimpleName read
+stream SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName Assignment MethodInvocation SimpleName stream
+read len SimpleName Assignment MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation StringLiteral failed to read fully skipped backward data
+assert equals SimpleName MethodInvocation QualifiedName actuallength
+assert equals SimpleName MethodInvocation SimpleName read len
+failed to read fully skipped backward data StringLiteral MethodInvocation QualifiedName actuallength
+failed to read fully skipped backward data StringLiteral MethodInvocation SimpleName read len
+actuallength QualifiedName MethodInvocation SimpleName read len
+assert array equals SimpleName MethodInvocation StringLiteral mismatched skipped backward data contents
+assert array equals SimpleName MethodInvocation SimpleName expected
+assert array equals SimpleName MethodInvocation SimpleName actual
+mismatched skipped backward data contents StringLiteral MethodInvocation SimpleName expected
+mismatched skipped backward data contents StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test input stream skip and reset
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test input stream skip and reset
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test input stream skip and reset
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test input stream skip and reset SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test input stream skip and reset
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test input stream skip and reset
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

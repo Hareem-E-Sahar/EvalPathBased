@@ -1,0 +1,74 @@
+directory service SimpleName SimpleType SingleVariableDeclaration SimpleName directory service
+directory service SimpleName MethodInvocation SimpleName is started
+logger factory SimpleName MethodInvocation SimpleName get logger
+logger factory SimpleName MethodInvocation TypeLiteral SimpleType SimpleName base authenticator test
+get logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName base authenticator test
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName logger factory
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName get logger
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log
+directory service SimpleName MethodInvocation SimpleName get working directory
+work dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName directory service
+work dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get working directory
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work dir
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral shutdown directory service ...
+info SimpleName MethodInvocation StringLiteral shutdown directory service ...
+directory service SimpleName MethodInvocation SimpleName shutdown
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral directory service shut down
+info SimpleName MethodInvocation StringLiteral directory service shut down
+work dir SimpleName MethodInvocation SimpleName get absolute path
+deleting StringLiteral InfixExpression MethodInvocation SimpleName work dir
+deleting StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral deleting
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work dir
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+info SimpleName MethodInvocation InfixExpression StringLiteral deleting
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work dir
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName work dir
+delete recursive SimpleName MethodInvocation SimpleName work dir
+work dir SimpleName MethodInvocation SimpleName get absolute path
+work dir SimpleName MethodInvocation InfixExpression StringLiteral deleted
+get absolute path SimpleName MethodInvocation InfixExpression StringLiteral deleted
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work dir
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+log SimpleName MethodInvocation InfixExpression StringLiteral deleted
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work dir
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+info SimpleName MethodInvocation InfixExpression StringLiteral deleted
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop apache ds
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName directory service
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName stop apache ds
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName directory service
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName stop apache ds
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName directory service
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+stop apache ds SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory service
+stop apache ds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName directory service
+stop apache ds SimpleName MethodDeclaration SimpleType SimpleName exception
+directory service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop apache ds
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName directory service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop apache ds
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName directory service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

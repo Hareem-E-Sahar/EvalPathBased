@@ -1,0 +1,28 @@
+digest SimpleName SimpleType SingleVariableDeclaration SimpleName d
+d SimpleName MethodInvocation SimpleName get algorithm
+from algorithm SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName d
+from algorithm SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get algorithm
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName builtin digests
+public Modifier MethodDeclaration SimpleName from digest
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName d
+static Modifier MethodDeclaration SimpleType SimpleName builtin digests
+static Modifier MethodDeclaration SimpleName from digest
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName d
+builtin digests SimpleName SimpleType MethodDeclaration SimpleName from digest
+builtin digests SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName d
+from digest SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest
+from digest SimpleName MethodDeclaration SingleVariableDeclaration SimpleName d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin digests
+public Modifier TypeDeclaration MethodDeclaration SimpleName from digest
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin digests
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from digest
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d

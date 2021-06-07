@@ -1,0 +1,45 @@
+map SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName m
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName m
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName m
+m SimpleName MethodInvocation SimpleName size
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName size
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName size
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName size
+final Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+int PrimitiveType MethodDeclaration SimpleName size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+int PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+size SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+size SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

@@ -1,0 +1,21 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName host entry pair
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+host entry pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+keys holder SimpleName MethodInvocation SimpleName set
+keys holder SimpleName MethodInvocation SimpleName keys
+set SimpleName MethodInvocation SimpleName keys
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set loaded hosts entries
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys
+void PrimitiveType MethodDeclaration SimpleName set loaded hosts entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName keys
+set loaded hosts entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set loaded hosts entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set loaded hosts entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys

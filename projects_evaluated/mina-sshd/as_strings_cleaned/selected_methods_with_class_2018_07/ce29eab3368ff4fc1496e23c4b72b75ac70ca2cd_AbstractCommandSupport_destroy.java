@@ -1,0 +1,62 @@
+log SimpleName MethodInvocation SimpleName is debug enabled
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName log
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName log
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+cmd future SimpleName MethodInvocation SimpleName is done
+thread SimpleName MethodInvocation SimpleName current thread
+cmd runner SimpleName InfixExpression MethodInvocation SimpleName thread
+cmd runner SimpleName InfixExpression MethodInvocation SimpleName current thread
+cmd future SimpleName MethodInvocation SimpleName cancel
+cmd future SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd future
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName cancel
+result SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cmd future
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cancel
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral true
+destroy - cancel pending future StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral destroy - cancel pending future
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral destroy - cancel pending future
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName debug enabled
+executors SimpleName VariableDeclarationFragment MethodInvocation SimpleName get executor service
+closeable executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName executors
+executors SimpleName MethodInvocation SimpleName is shutdown
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+executors SimpleName MethodInvocation SimpleName shutdown now
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName shutdown now
+runners SimpleName MethodInvocation SimpleName size
+destroy - shutdown executor service - runners count StringLiteral InfixExpression MethodInvocation SimpleName runners
+destroy - shutdown executor service - runners count StringLiteral InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral destroy - shutdown executor service - runners count
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral destroy - shutdown executor service - runners count
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName destroy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName destroy
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName destroy
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+destroy SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName destroy
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName destroy

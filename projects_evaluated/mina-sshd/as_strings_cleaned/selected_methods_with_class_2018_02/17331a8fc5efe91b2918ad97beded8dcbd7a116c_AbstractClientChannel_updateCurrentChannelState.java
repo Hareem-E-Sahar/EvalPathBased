@@ -1,0 +1,48 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName client channel event
+c SimpleName TypeParameter ParameterizedType SimpleType SimpleName collection
+c SimpleName TypeParameter ParameterizedType SimpleType SimpleName client channel event
+c SimpleName SimpleType SingleVariableDeclaration SimpleName state
+open future SimpleName MethodInvocation SimpleName is opened
+state SimpleName MethodInvocation SimpleName add
+state SimpleName MethodInvocation QualifiedName client channel eventopened
+add SimpleName MethodInvocation QualifiedName client channel eventopened
+close future SimpleName MethodInvocation SimpleName is closed
+state SimpleName MethodInvocation SimpleName add
+state SimpleName MethodInvocation QualifiedName client channel eventclosed
+add SimpleName MethodInvocation QualifiedName client channel eventclosed
+state SimpleName MethodInvocation SimpleName add
+state SimpleName MethodInvocation QualifiedName client channel eventeof
+add SimpleName MethodInvocation QualifiedName client channel eventeof
+exit status holder SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation SimpleName add
+state SimpleName MethodInvocation QualifiedName client channel eventexit status
+add SimpleName MethodInvocation QualifiedName client channel eventexit status
+exit signal holder SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation SimpleName add
+state SimpleName MethodInvocation QualifiedName client channel eventexit signal
+add SimpleName MethodInvocation QualifiedName client channel eventexit signal
+protected Modifier MethodDeclaration TypeParameter SimpleName c
+protected Modifier MethodDeclaration SimpleType SimpleName c
+protected Modifier MethodDeclaration SimpleName update current channel state
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName state
+c SimpleName TypeParameter MethodDeclaration SimpleType SimpleName c
+c SimpleName TypeParameter MethodDeclaration SimpleName update current channel state
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName state
+c SimpleName SimpleType MethodDeclaration SimpleName update current channel state
+c SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName state
+update current channel state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+update current channel state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+update current channel state SimpleName MethodDeclaration Block ReturnStatement SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleName update current channel state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update current channel state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

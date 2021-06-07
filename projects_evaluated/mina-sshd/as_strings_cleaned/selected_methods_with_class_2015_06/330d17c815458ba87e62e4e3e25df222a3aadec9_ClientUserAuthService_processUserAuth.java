@@ -1,0 +1,129 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get byte
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get byte
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get byte
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg userauth success
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received ssh msg userauth success
+info SimpleName MethodInvocation StringLiteral received ssh msg userauth success
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral succeeded with {}
+log SimpleName MethodInvocation SimpleName user auth
+debug SimpleName MethodInvocation StringLiteral succeeded with {}
+debug SimpleName MethodInvocation SimpleName user auth
+succeeded with {} StringLiteral MethodInvocation SimpleName user auth
+user auth SimpleName MethodInvocation SimpleName destroy
+session SimpleName MethodInvocation SimpleName set authenticated
+session SimpleName MethodInvocation SimpleName switch to next service
+auth future SimpleName MethodInvocation SimpleName set authed
+auth future SimpleName MethodInvocation BooleanLiteral true
+set authed SimpleName MethodInvocation BooleanLiteral true
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg userauth failure
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received ssh msg userauth failure
+info SimpleName MethodInvocation StringLiteral received ssh msg userauth failure
+buffer SimpleName MethodInvocation SimpleName get string
+mths SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+mths SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mths
+buffer SimpleName MethodInvocation SimpleName get boolean
+partial SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+partial SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName partial
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean
+partial SimpleName InfixExpression InfixExpression SimpleName server methods
+mths SimpleName MethodInvocation SimpleName split
+mths SimpleName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName mths
+arrays SimpleName MethodInvocation MethodInvocation SimpleName split
+arrays SimpleName MethodInvocation MethodInvocation StringLiteral empty
+as list SimpleName MethodInvocation MethodInvocation SimpleName mths
+as list SimpleName MethodInvocation MethodInvocation SimpleName split
+as list SimpleName MethodInvocation MethodInvocation StringLiteral empty
+server methods SimpleName Assignment MethodInvocation SimpleName arrays
+server methods SimpleName Assignment MethodInvocation SimpleName as list
+server methods SimpleName Assignment MethodInvocation MethodInvocation SimpleName mths
+server methods SimpleName Assignment MethodInvocation MethodInvocation SimpleName split
+server methods SimpleName Assignment MethodInvocation MethodInvocation StringLiteral empty
+log SimpleName MethodInvocation SimpleName is debug enabled
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral authentications that can continue
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral authentications that can continue
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+server methods SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName server methods
+i SimpleName InfixExpression MethodInvocation SimpleName size
+i SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+server methods SimpleName MethodInvocation SimpleName get
+server methods SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName server methods
+sb SimpleName MethodInvocation MethodInvocation SimpleName get
+sb SimpleName MethodInvocation MethodInvocation SimpleName i
+append SimpleName MethodInvocation MethodInvocation SimpleName server methods
+append SimpleName MethodInvocation MethodInvocation SimpleName get
+append SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sb SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName sb
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName sb
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+user auth SimpleName MethodInvocation SimpleName destroy
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral received unknown packet
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rpos SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+rpos SimpleName MethodInvocation InfixExpression NumberLiteral empty
+user auth SimpleName MethodInvocation SimpleName process
+user auth SimpleName MethodInvocation SimpleName buffer
+process SimpleName MethodInvocation SimpleName buffer
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process user auth
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+void PrimitiveType MethodDeclaration SimpleName process user auth
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+process user auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+process user auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+process user auth SimpleName MethodDeclaration SimpleType SimpleName exception
+process user auth SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process user auth
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process user auth
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

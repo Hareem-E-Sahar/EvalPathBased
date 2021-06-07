@@ -1,0 +1,242 @@
+level SimpleName SimpleType SingleVariableDeclaration SimpleName level
+final Modifier SingleVariableDeclaration SimpleType SimpleName print stream
+final Modifier SingleVariableDeclaration SimpleName stdout
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stdout
+final Modifier SingleVariableDeclaration SimpleType SimpleName print stream
+final Modifier SingleVariableDeclaration SimpleName stderr
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stderr
+final Modifier SingleVariableDeclaration SimpleType SimpleName output stream
+final Modifier SingleVariableDeclaration SimpleName output stream
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName output stream
+set output stream SimpleName MethodInvocation SimpleName output stream
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName out
+out SimpleName InfixExpression SimpleName stdout
+out SimpleName InfixExpression SimpleName stderr
+no close output stream SimpleName SimpleType ClassInstanceCreation SimpleName out
+set output stream SimpleName SuperMethodInvocation ClassInstanceCreation SimpleType SimpleName no close output stream
+set output stream SimpleName SuperMethodInvocation ClassInstanceCreation SimpleName out
+set output stream SimpleName SuperMethodInvocation SimpleName out
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set output stream
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName out
+protected Modifier MethodDeclaration Modifier synchronized
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set output stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+protected Modifier MethodDeclaration SimpleType SimpleName security exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set output stream
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+synchronized Modifier MethodDeclaration SimpleType SimpleName security exception
+void PrimitiveType MethodDeclaration SimpleName set output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName security exception
+set output stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+set output stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+set output stream SimpleName MethodDeclaration SimpleType SimpleName security exception
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName security exception
+fh SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName console handler
+handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fh
+fh SimpleName MethodInvocation SimpleName set level
+fh SimpleName MethodInvocation QualifiedName levelfinest
+set level SimpleName MethodInvocation QualifiedName levelfinest
+log record SimpleName SimpleType SingleVariableDeclaration SimpleName record
+format message SimpleName MethodInvocation SimpleName record
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName format message
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName record
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+throwable SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName throwable
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+record SimpleName MethodInvocation SimpleName get thrown
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName record
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get thrown
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+sw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string writer
+string writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sw
+print writer SimpleName SimpleType ClassInstanceCreation SimpleName sw
+pw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName print writer
+pw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sw
+print writer SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName pw
+pw SimpleName MethodInvocation SimpleName println
+t SimpleName MethodInvocation SimpleName print stack trace
+t SimpleName MethodInvocation SimpleName pw
+print stack trace SimpleName MethodInvocation SimpleName pw
+sw SimpleName MethodInvocation SimpleName to string
+throwable SimpleName Assignment MethodInvocation SimpleName sw
+throwable SimpleName Assignment MethodInvocation SimpleName to string
+record SimpleName MethodInvocation SimpleName get millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName record
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get millis
+record SimpleName MethodInvocation SimpleName get level
+record SimpleName MethodInvocation MethodInvocation SimpleName get name
+get level SimpleName MethodInvocation MethodInvocation SimpleName get name
+record SimpleName MethodInvocation SimpleName get logger name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % t y tm td % $- . s % $- . s % s sn
+string SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName record
+string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get millis
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName record
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get level
+string SimpleName MethodInvocation MethodInvocation SimpleName get name
+string SimpleName MethodInvocation MethodInvocation SimpleName record
+string SimpleName MethodInvocation MethodInvocation SimpleName get logger name
+format SimpleName MethodInvocation StringLiteral % t y tm td % $- . s % $- . s % s sn
+format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName record
+format SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get millis
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName record
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get level
+format SimpleName MethodInvocation MethodInvocation SimpleName get name
+format SimpleName MethodInvocation MethodInvocation SimpleName record
+format SimpleName MethodInvocation MethodInvocation SimpleName get logger name
+format SimpleName MethodInvocation SimpleName message
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName record
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get millis
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName record
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get level
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation SimpleName get name
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation SimpleName record
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation SimpleName get logger name
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation SimpleName message
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation SimpleName throwable
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName message
+record SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName message
+get millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName message
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName throwable
+record SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName throwable
+get millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName throwable
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName record
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get logger name
+record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName message
+get level SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName message
+get name SimpleName MethodInvocation MethodInvocation SimpleName message
+record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName throwable
+get level SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName throwable
+get name SimpleName MethodInvocation MethodInvocation SimpleName throwable
+record SimpleName MethodInvocation MethodInvocation SimpleName message
+get logger name SimpleName MethodInvocation MethodInvocation SimpleName message
+record SimpleName MethodInvocation MethodInvocation SimpleName throwable
+get logger name SimpleName MethodInvocation MethodInvocation SimpleName throwable
+message SimpleName MethodInvocation SimpleName throwable
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName format
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName record
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log record
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName record
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName record
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log record
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName record
+fh SimpleName MethodInvocation SimpleName set formatter
+fh SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName formatter
+set formatter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName formatter
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation StringLiteral empty
+get logger SimpleName MethodInvocation StringLiteral empty
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName logger
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get logger
+root SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+root SimpleName MethodInvocation SimpleName get handlers
+root SimpleName MethodInvocation SimpleName remove handler
+root SimpleName MethodInvocation SimpleName handler
+remove handler SimpleName MethodInvocation SimpleName handler
+handler SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName root
+handler SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get handlers
+root SimpleName MethodInvocation SimpleName add handler
+root SimpleName MethodInvocation SimpleName fh
+add handler SimpleName MethodInvocation SimpleName fh
+root SimpleName MethodInvocation SimpleName set level
+root SimpleName MethodInvocation SimpleName level
+set level SimpleName MethodInvocation SimpleName level
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName handler
+public Modifier MethodDeclaration SimpleName setup logging
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdout
+static Modifier MethodDeclaration SimpleType SimpleName handler
+static Modifier MethodDeclaration SimpleName setup logging
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdout
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stderr
+handler SimpleName SimpleType MethodDeclaration SimpleName setup logging
+handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName level
+handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stdout
+handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stderr
+handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName output stream
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleName level
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stdout
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stderr
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+setup logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleName output stream
+setup logging SimpleName MethodDeclaration Block ReturnStatement SimpleName fh
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output stream
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output stream
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output stream
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output stream
+stderr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+stderr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output stream
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup logging
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output stream
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup logging
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output stream

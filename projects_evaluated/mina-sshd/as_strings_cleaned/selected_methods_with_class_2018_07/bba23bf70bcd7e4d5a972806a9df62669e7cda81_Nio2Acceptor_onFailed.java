@@ -1,0 +1,99 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exc
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+ok to reaccept SimpleName MethodInvocation SimpleName exc
+ok to reaccept SimpleName MethodInvocation SimpleName address
+exc SimpleName MethodInvocation SimpleName address
+socket SimpleName MethodInvocation SimpleName accept
+socket SimpleName MethodInvocation SimpleName address
+accept SimpleName MethodInvocation SimpleName address
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName t
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+failed ( StringLiteral InfixExpression StringLiteral to reaccept new connections on
+failed ( StringLiteral InfixExpression SimpleName address
+failed ( StringLiteral InfixExpression StringLiteral :
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName t
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get message
+t SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral to reaccept new connections on
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral to reaccept new connections on
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral to reaccept new connections on
+t SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName address
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName address
+get simple name SimpleName MethodInvocation InfixExpression SimpleName address
+t SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+to reaccept new connections on StringLiteral InfixExpression SimpleName address
+to reaccept new connections on StringLiteral InfixExpression StringLiteral :
+to reaccept new connections on StringLiteral InfixExpression MethodInvocation SimpleName t
+to reaccept new connections on StringLiteral InfixExpression MethodInvocation SimpleName get message
+address SimpleName InfixExpression StringLiteral :
+address SimpleName InfixExpression MethodInvocation SimpleName t
+address SimpleName InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName t
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed (
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral to reaccept new connections on
+log SimpleName MethodInvocation InfixExpression SimpleName address
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral failed (
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+error SimpleName MethodInvocation InfixExpression StringLiteral to reaccept new connections on
+error SimpleName MethodInvocation InfixExpression SimpleName address
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName t
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+to reaccept new connections on StringLiteral InfixExpression MethodInvocation SimpleName t
+address SimpleName InfixExpression MethodInvocation SimpleName t
+: StringLiteral InfixExpression MethodInvocation SimpleName t
+t SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on failed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exc
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName address
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName on failed
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName exc
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+void PrimitiveType MethodDeclaration SimpleName on failed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exc
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName address
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exc
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+exc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on failed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on failed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address

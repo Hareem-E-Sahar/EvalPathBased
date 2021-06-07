@@ -1,0 +1,253 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+directory service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName anchor
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName anchor
+string SimpleName SimpleType SingleVariableDeclaration SimpleName credential name
+logger factory SimpleName MethodInvocation SimpleName get logger
+logger factory SimpleName MethodInvocation SimpleName anchor
+get logger SimpleName MethodInvocation SimpleName anchor
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName logger factory
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName get logger
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName anchor
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log
+service SimpleName MethodInvocation SimpleName get admin session
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName service
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get admin session
+validate utils SimpleName MethodInvocation StringLiteral no core session
+check not null SimpleName MethodInvocation MethodInvocation SimpleName service
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get admin session
+check not null SimpleName MethodInvocation StringLiteral no core session
+service SimpleName MethodInvocation MethodInvocation StringLiteral no core session
+get admin session SimpleName MethodInvocation MethodInvocation StringLiteral no core session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName service
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get admin session
+session SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no core session
+core session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+anchor SimpleName MethodInvocation SimpleName get resource as stream
+anchor SimpleName MethodInvocation StringLiteral authusersldif
+get resource as stream SimpleName MethodInvocation StringLiteral authusersldif
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName anchor
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get resource as stream
+validate utils SimpleName MethodInvocation MethodInvocation StringLiteral authusersldif
+validate utils SimpleName MethodInvocation StringLiteral no users ldif
+check not null SimpleName MethodInvocation MethodInvocation SimpleName anchor
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get resource as stream
+check not null SimpleName MethodInvocation MethodInvocation StringLiteral authusersldif
+check not null SimpleName MethodInvocation StringLiteral no users ldif
+anchor SimpleName MethodInvocation MethodInvocation StringLiteral no users ldif
+get resource as stream SimpleName MethodInvocation MethodInvocation StringLiteral no users ldif
+authusersldif StringLiteral MethodInvocation MethodInvocation StringLiteral no users ldif
+ldif reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName validate utils
+ldif reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName check not null
+ldif reader SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral no users ldif
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ldif reader
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName validate utils
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName check not null
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral no users ldif
+ldif reader SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName reader
+id SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+ldif entry SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add ldif entry
+log SimpleName MethodInvocation SimpleName entry
+debug SimpleName MethodInvocation StringLiteral add ldif entry
+debug SimpleName MethodInvocation SimpleName entry
+add ldif entry StringLiteral MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation SimpleName get change type
+change type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+change type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get change type
+change type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName change type
+mismatched change type in users ldif entry StringLiteral InfixExpression SimpleName entry
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched change type in users ldif entry
+assert equals SimpleName MethodInvocation InfixExpression SimpleName entry
+assert equals SimpleName MethodInvocation QualifiedName change typeadd
+assert equals SimpleName MethodInvocation SimpleName change type
+mismatched change type in users ldif entry StringLiteral InfixExpression MethodInvocation QualifiedName change typeadd
+entry SimpleName InfixExpression MethodInvocation QualifiedName change typeadd
+mismatched change type in users ldif entry StringLiteral InfixExpression MethodInvocation SimpleName change type
+entry SimpleName InfixExpression MethodInvocation SimpleName change type
+change typeadd QualifiedName MethodInvocation SimpleName change type
+entry SimpleName MethodInvocation SimpleName get entry
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entry
+entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data SimpleName MethodInvocation SimpleName get
+data SimpleName MethodInvocation StringLiteral uid
+get SimpleName MethodInvocation StringLiteral uid
+user attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+user attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+user attr SimpleName VariableDeclarationFragment MethodInvocation StringLiteral uid
+entry attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user attr
+data SimpleName MethodInvocation SimpleName get
+data SimpleName MethodInvocation SimpleName credential name
+get SimpleName MethodInvocation SimpleName credential name
+pass attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+pass attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+pass attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName credential name
+entry attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass attr
+user attr SimpleName MethodInvocation SimpleName get string
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName user attr
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+pass attr SimpleName MethodInvocation SimpleName get string
+users map SimpleName MethodInvocation SimpleName put
+users map SimpleName MethodInvocation SimpleName username
+users map SimpleName MethodInvocation MethodInvocation SimpleName pass attr
+users map SimpleName MethodInvocation MethodInvocation SimpleName get string
+put SimpleName MethodInvocation SimpleName username
+put SimpleName MethodInvocation MethodInvocation SimpleName pass attr
+put SimpleName MethodInvocation MethodInvocation SimpleName get string
+username SimpleName MethodInvocation MethodInvocation SimpleName pass attr
+username SimpleName MethodInvocation MethodInvocation SimpleName get string
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName users map
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName put
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName username
+validate utils SimpleName MethodInvocation StringLiteral multiple entries for users
+validate utils SimpleName MethodInvocation SimpleName username
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName users map
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName put
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName username
+check true SimpleName MethodInvocation StringLiteral multiple entries for users
+check true SimpleName MethodInvocation SimpleName username
+users map SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral multiple entries for users
+put SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral multiple entries for users
+username SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral multiple entries for users
+users map SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName username
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName username
+username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName username
+multiple entries for users StringLiteral MethodInvocation SimpleName username
+add request impl SimpleName SimpleType ClassInstanceCreation PostfixExpression SimpleName id
+add request SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName add request impl
+add request SimpleName VariableDeclarationFragment ClassInstanceCreation PostfixExpression SimpleName id
+internal add request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName add request
+add request SimpleName MethodInvocation SimpleName set entry
+add request SimpleName MethodInvocation SimpleName data
+set entry SimpleName MethodInvocation SimpleName data
+session SimpleName MethodInvocation SimpleName add
+session SimpleName MethodInvocation SimpleName add request
+add SimpleName MethodInvocation SimpleName add request
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+failed ( StringLiteral InfixExpression StringLiteral ) to add entry
+failed ( StringLiteral InfixExpression SimpleName entry
+failed ( StringLiteral InfixExpression StringLiteral :
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to add entry
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to add entry
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ) to add entry
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName entry
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName entry
+get simple name SimpleName MethodInvocation InfixExpression SimpleName entry
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+) to add entry StringLiteral InfixExpression SimpleName entry
+) to add entry StringLiteral InfixExpression StringLiteral :
+) to add entry StringLiteral InfixExpression MethodInvocation SimpleName e
+) to add entry StringLiteral InfixExpression MethodInvocation SimpleName get message
+entry SimpleName InfixExpression StringLiteral :
+entry SimpleName InfixExpression MethodInvocation SimpleName e
+entry SimpleName InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName e
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed (
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral ) to add entry
+log SimpleName MethodInvocation InfixExpression SimpleName entry
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral failed (
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+error SimpleName MethodInvocation InfixExpression StringLiteral ) to add entry
+error SimpleName MethodInvocation InfixExpression SimpleName entry
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+) to add entry StringLiteral InfixExpression MethodInvocation SimpleName e
+entry SimpleName InfixExpression MethodInvocation SimpleName e
+: StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+ldif entry SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName reader
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName reader
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName reader
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName populate users
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName populate users
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName credential name
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName populate users
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName populate users
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName populate users
+populate users SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory service
+populate users SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+populate users SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+populate users SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor
+populate users SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+populate users SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credential name
+populate users SimpleName MethodDeclaration SimpleType SimpleName exception
+populate users SimpleName MethodDeclaration Block ReturnStatement SimpleName users map
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credential name
+service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+anchor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credential name
+anchor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+credential name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName populate users
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credential name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName populate users
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credential name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

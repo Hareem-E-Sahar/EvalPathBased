@@ -1,0 +1,158 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pattern
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+string SimpleName SimpleType SingleVariableDeclaration SimpleName separator
+boolean PrimitiveType SingleVariableDeclaration SimpleName is case sensitive
+str SimpleName MethodInvocation SimpleName starts with
+str SimpleName MethodInvocation SimpleName separator
+starts with SimpleName MethodInvocation SimpleName separator
+pattern SimpleName MethodInvocation SimpleName starts with
+pattern SimpleName MethodInvocation SimpleName separator
+starts with SimpleName MethodInvocation SimpleName separator
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pattern
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName separator
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pattern
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName separator
+separator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pattern
+separator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+separator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName separator
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tokenize path SimpleName MethodInvocation SimpleName pattern
+tokenize path SimpleName MethodInvocation SimpleName separator
+pattern SimpleName MethodInvocation SimpleName separator
+pat dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName tokenize path
+pat dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+pat dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName separator
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tokenize path SimpleName MethodInvocation SimpleName str
+tokenize path SimpleName MethodInvocation SimpleName separator
+str SimpleName MethodInvocation SimpleName separator
+str dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName tokenize path
+str dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+str dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName separator
+pat idx start SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat idx start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+pat dirs SimpleName MethodInvocation SimpleName size
+pat dirs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pat idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName pat dirs
+pat idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+pat idx end SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat idx end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+str idx start SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName str idx start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+str dirs SimpleName MethodInvocation SimpleName size
+str dirs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName str dirs
+str idx end SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+str idx end SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName str idx end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+pat idx start SimpleName InfixExpression SimpleName pat idx end
+str idx start SimpleName InfixExpression SimpleName str idx end
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx start SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx start
+pat idx end SimpleName InfixExpression InfixExpression InfixExpression SimpleName str idx end
+pat dirs SimpleName MethodInvocation SimpleName get
+pat dirs SimpleName MethodInvocation SimpleName pat idx start
+get SimpleName MethodInvocation SimpleName pat idx start
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName pat dirs
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+pat dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName pat idx start
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pat dir
+pat dir SimpleName MethodInvocation SimpleName equals
+pat dir SimpleName MethodInvocation StringLiteral **
+equals SimpleName MethodInvocation StringLiteral **
+str dirs SimpleName MethodInvocation SimpleName get
+str dirs SimpleName MethodInvocation SimpleName str idx start
+get SimpleName MethodInvocation SimpleName str idx start
+match SimpleName MethodInvocation SimpleName pat dir
+match SimpleName MethodInvocation MethodInvocation SimpleName str dirs
+match SimpleName MethodInvocation MethodInvocation SimpleName get
+match SimpleName MethodInvocation MethodInvocation SimpleName str idx start
+match SimpleName MethodInvocation SimpleName is case sensitive
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName str dirs
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName get
+pat dir SimpleName MethodInvocation MethodInvocation SimpleName str idx start
+pat dir SimpleName MethodInvocation SimpleName is case sensitive
+str dirs SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+get SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+str idx start SimpleName MethodInvocation MethodInvocation SimpleName is case sensitive
+str idx start SimpleName InfixExpression SimpleName str idx end
+pat idx start SimpleName InfixExpression SimpleName pat idx end
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName match ant path pattern start
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName match ant path pattern start
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName separator
+boolean PrimitiveType MethodDeclaration SimpleName match ant path pattern start
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pattern
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName separator
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pattern
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName separator
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+match ant path pattern start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+match ant path pattern start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+match ant path pattern start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+match ant path pattern start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+match ant path pattern start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName separator
+pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName separator
+str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+separator SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+separator SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName match ant path pattern start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName separator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName match ant path pattern start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName separator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is case sensitive

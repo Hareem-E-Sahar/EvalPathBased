@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received ssh msg channel request on channel {}
+log SimpleName MethodInvocation SimpleName id
+info SimpleName MethodInvocation StringLiteral received ssh msg channel request on channel {}
+info SimpleName MethodInvocation SimpleName id
+received ssh msg channel request on channel {} StringLiteral MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received channel request {}
+log SimpleName MethodInvocation SimpleName type
+info SimpleName MethodInvocation StringLiteral received channel request {}
+info SimpleName MethodInvocation SimpleName type
+received channel request {} StringLiteral MethodInvocation SimpleName type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName handle request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName handle request
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle request SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle request SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

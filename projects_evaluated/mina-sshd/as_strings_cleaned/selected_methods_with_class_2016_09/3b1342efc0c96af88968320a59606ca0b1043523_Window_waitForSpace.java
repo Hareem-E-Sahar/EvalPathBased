@@ -1,0 +1,57 @@
+long PrimitiveType SingleVariableDeclaration SimpleName max wait time
+check initialized SimpleName MethodInvocation StringLiteral wait for space
+wait for condition SimpleName MethodInvocation SimpleName space available predicate
+wait for condition SimpleName MethodInvocation SimpleName max wait time
+space available predicate SimpleName MethodInvocation SimpleName max wait time
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait for space available {}
+log SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation StringLiteral wait for space available {}
+debug SimpleName MethodInvocation SimpleName size holder
+wait for space available {} StringLiteral MethodInvocation SimpleName size holder
+size holder SimpleName MethodInvocation SimpleName get
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName wait for space
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration SimpleType SimpleName window closed exception
+long PrimitiveType MethodDeclaration SimpleName wait for space
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+long PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+long PrimitiveType MethodDeclaration SimpleType SimpleName window closed exception
+long PrimitiveType MethodDeclaration SimpleType SimpleName socket timeout exception
+wait for space SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wait for space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+wait for space SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+wait for space SimpleName MethodDeclaration SimpleType SimpleName window closed exception
+wait for space SimpleName MethodDeclaration SimpleType SimpleName socket timeout exception
+wait for space SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName window closed exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName socket timeout exception
+window closed exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName socket timeout exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception

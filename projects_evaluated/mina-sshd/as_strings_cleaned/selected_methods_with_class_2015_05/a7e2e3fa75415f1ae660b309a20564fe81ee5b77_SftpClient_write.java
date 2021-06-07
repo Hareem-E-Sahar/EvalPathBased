@@ -1,0 +1,26 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName open mode
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mode
+open mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mode
+output stream SimpleName SimpleType MethodDeclaration SimpleName write
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mode
+output stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mode
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+mode SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName output stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName output stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

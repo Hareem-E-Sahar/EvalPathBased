@@ -1,0 +1,235 @@
+nio completion handler SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+nio completion handler SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+void SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+io connect future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+asynchronous socket channel SimpleName SimpleType SingleVariableDeclaration SimpleName socket
+factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+io handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+nio completion handler SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+nio completion handler SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+void SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+void SimpleName SimpleType SingleVariableDeclaration SimpleName result
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attachment
+create session SimpleName MethodInvocation SimpleName manager
+create session SimpleName MethodInvocation SimpleName handler
+create session SimpleName MethodInvocation SimpleName socket
+manager SimpleName MethodInvocation SimpleName handler
+manager SimpleName MethodInvocation SimpleName socket
+handler SimpleName MethodInvocation SimpleName socket
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName create session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName handler
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+nio session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+handler SimpleName MethodInvocation SimpleName session created
+handler SimpleName MethodInvocation SimpleName session
+session created SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName get id
+session id SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+session id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName session id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName session
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get id
+sessions SimpleName MethodInvocation SimpleName put
+sessions SimpleName MethodInvocation SimpleName session id
+sessions SimpleName MethodInvocation SimpleName session
+put SimpleName MethodInvocation SimpleName session id
+put SimpleName MethodInvocation SimpleName session
+session id SimpleName MethodInvocation SimpleName session
+future SimpleName MethodInvocation SimpleName set session
+future SimpleName MethodInvocation SimpleName session
+set session SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName start reading
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exc
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName exc
+peel exception SimpleName MethodInvocation SimpleName exc
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName exc
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+log SimpleName MethodInvocation SimpleName is debug enabled
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral on completed - failed {} to start session {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation StringLiteral on completed - failed {} to start session {}
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation MethodInvocation SimpleName t
+debug SimpleName MethodInvocation MethodInvocation SimpleName get message
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName t
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation SimpleName t
+on completed - failed {} to start session {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral on completed - session creation failure details
+log SimpleName MethodInvocation SimpleName t
+trace SimpleName MethodInvocation StringLiteral on completed - session creation failure details
+trace SimpleName MethodInvocation SimpleName t
+on completed - session creation failure details StringLiteral MethodInvocation SimpleName t
+socket SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName err
+log SimpleName MethodInvocation SimpleName is debug enabled
+err SimpleName MethodInvocation SimpleName get class
+err SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+err SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral on completed - failed {} to close socket {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName err
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation StringLiteral on completed - failed {} to close socket {}
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation MethodInvocation SimpleName err
+debug SimpleName MethodInvocation MethodInvocation SimpleName get message
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName err
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation SimpleName err
+on completed - failed {} to close socket {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation SimpleName t
+set exception SimpleName MethodInvocation SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on completed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName on completed
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName on completed
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attachment
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attachment
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName on completed
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName void
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attachment
+void PrimitiveType MethodDeclaration SimpleName on completed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName void
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attachment
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName void
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attachment
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attachment
+final Modifier SingleVariableDeclaration SimpleType SimpleName throwable
+final Modifier SingleVariableDeclaration SimpleName exc
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exc
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName attachment
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attachment
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation SimpleName exc
+set exception SimpleName MethodInvocation SimpleName exc
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on failed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exc
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attachment
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName on failed
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName exc
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attachment
+void PrimitiveType MethodDeclaration SimpleName on failed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exc
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attachment
+on failed SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exc
+on failed SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+on failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attachment
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attachment
+exc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+exc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attachment
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName on failed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName on failed
+on completed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+on completed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+on completed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName on failed
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName nio completion handler
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName void
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName create connection completion handler
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asynchronous socket channel
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName socket
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+nio completion handler SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create connection completion handler
+void SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create connection completion handler
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create connection completion handler
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asynchronous socket channel
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName socket
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io handler
+create connection completion handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+future SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket
+future SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+future SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+socket SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+socket SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+manager SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName create connection completion handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create connection completion handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler

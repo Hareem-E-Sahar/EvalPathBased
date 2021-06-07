@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+remove property SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral no property name
+check not null and not empty SimpleName MethodInvocation SimpleName name
+check not null and not empty SimpleName MethodInvocation StringLiteral no property name
+name SimpleName MethodInvocation StringLiteral no property name
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+key SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName properties
+is empty SimpleName MethodInvocation SimpleName properties
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+properties SimpleName Assignment ClassInstanceCreation QualifiedName stringcase insensitive order
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation SimpleName key
+properties SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName set property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType MethodDeclaration SimpleName set property
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName set property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

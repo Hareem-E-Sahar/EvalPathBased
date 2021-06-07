@@ -1,0 +1,73 @@
+asynchronous socket channel SimpleName SimpleType SingleVariableDeclaration SimpleName result
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+channels SimpleName MethodInvocation SimpleName contains key
+channels SimpleName MethodInvocation SimpleName address
+contains key SimpleName MethodInvocation SimpleName address
+result SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral ignoring error closing accepted connection on unbound socket
+logger SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral ignoring error closing accepted connection on unbound socket
+debug SimpleName MethodInvocation SimpleName e
+ignoring error closing accepted connection on unbound socket StringLiteral MethodInvocation SimpleName e
+acceptor stopped SimpleName MethodInvocation SimpleName address
+nio session SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName nio acceptor
+nio session SimpleName SimpleType ClassInstanceCreation SimpleName handler
+nio session SimpleName SimpleType ClassInstanceCreation SimpleName result
+nio acceptor SimpleName ThisExpression ClassInstanceCreation SimpleName handler
+nio acceptor SimpleName ThisExpression ClassInstanceCreation SimpleName result
+handler SimpleName ClassInstanceCreation SimpleName result
+session SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName nio session
+session SimpleName VariableDeclarationFragment ClassInstanceCreation ThisExpression SimpleName nio acceptor
+session SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName handler
+session SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName result
+nio session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+handler SimpleName MethodInvocation SimpleName session created
+handler SimpleName MethodInvocation SimpleName session
+session created SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName get id
+sessions SimpleName MethodInvocation SimpleName put
+sessions SimpleName MethodInvocation MethodInvocation SimpleName session
+sessions SimpleName MethodInvocation MethodInvocation SimpleName get id
+sessions SimpleName MethodInvocation SimpleName session
+put SimpleName MethodInvocation MethodInvocation SimpleName session
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation MethodInvocation SimpleName session
+get id SimpleName MethodInvocation MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName start reading
+socket SimpleName MethodInvocation SimpleName accept
+socket SimpleName MethodInvocation SimpleName address
+accept SimpleName MethodInvocation SimpleName address
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exc
+failed SimpleName MethodInvocation SimpleName exc
+failed SimpleName MethodInvocation SimpleName address
+exc SimpleName MethodInvocation SimpleName address
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName on completed
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asynchronous socket channel
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+void PrimitiveType MethodDeclaration SimpleName on completed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asynchronous socket channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName address
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asynchronous socket channel
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+on completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on completed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on completed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address

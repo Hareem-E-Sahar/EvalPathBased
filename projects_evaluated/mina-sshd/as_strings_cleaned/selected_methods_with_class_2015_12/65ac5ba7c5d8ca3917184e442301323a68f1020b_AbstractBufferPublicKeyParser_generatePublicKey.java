@@ -1,0 +1,76 @@
+s SimpleName TypeParameter SimpleType SimpleName key spec
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algorithm
+s SimpleName SimpleType SingleVariableDeclaration SimpleName key spec
+get key factory SimpleName MethodInvocation SimpleName algorithm
+key factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key factory
+key factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName algorithm
+key factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key factory
+key factory SimpleName MethodInvocation SimpleName generate public
+key factory SimpleName MethodInvocation SimpleName key spec
+generate public SimpleName MethodInvocation SimpleName key spec
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key factory
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate public
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key spec
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName pub
+kc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key class
+kc SimpleName MethodInvocation SimpleName is instance
+kc SimpleName MethodInvocation SimpleName key
+is instance SimpleName MethodInvocation SimpleName key
+kc SimpleName MethodInvocation SimpleName get simple name
+mismatched generated key types expected StringLiteral InfixExpression MethodInvocation SimpleName kc
+mismatched generated key types expected StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+mismatched generated key types expected StringLiteral InfixExpression StringLiteral actual
+mismatched generated key types expected StringLiteral InfixExpression SimpleName key
+kc SimpleName MethodInvocation InfixExpression StringLiteral actual
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral actual
+kc SimpleName MethodInvocation InfixExpression SimpleName key
+get simple name SimpleName MethodInvocation InfixExpression SimpleName key
+actual StringLiteral InfixExpression SimpleName key
+invalid key spec exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mismatched generated key types expected
+invalid key spec exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral actual
+invalid key spec exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+kc SimpleName MethodInvocation SimpleName cast
+kc SimpleName MethodInvocation SimpleName key
+cast SimpleName MethodInvocation SimpleName key
+protected Modifier MethodDeclaration TypeParameter SimpleName s
+protected Modifier MethodDeclaration TypeParameter SimpleType SimpleName key spec
+protected Modifier MethodDeclaration SimpleType SimpleName pub
+protected Modifier MethodDeclaration SimpleName generate public key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName key spec
+s SimpleName TypeParameter MethodDeclaration SimpleType SimpleName pub
+s SimpleName TypeParameter MethodDeclaration SimpleName generate public key
+key spec SimpleName SimpleType TypeParameter MethodDeclaration SimpleName generate public key
+s SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+s SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName key spec
+s SimpleName TypeParameter MethodDeclaration SimpleType SimpleName general security exception
+pub SimpleName SimpleType MethodDeclaration SimpleName generate public key
+pub SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+pub SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key spec
+pub SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+generate public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+generate public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+generate public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+generate public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key spec
+generate public key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key spec
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+key spec SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName pub
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key spec
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName pub
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key spec
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

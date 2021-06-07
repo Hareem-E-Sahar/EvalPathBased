@@ -1,0 +1,60 @@
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+type SimpleName InfixExpression NumberLiteral x
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation SimpleName type
+to hex string SimpleName MethodInvocation SimpleName type
+invalid der data type is not an integer x StringLiteral InfixExpression MethodInvocation SimpleName integer
+invalid der data type is not an integer x StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+invalid der data type is not an integer x StringLiteral InfixExpression MethodInvocation SimpleName type
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid der data type is not an integer x
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read length
+byte PrimitiveType ArrayType ArrayCreation SimpleName len
+value SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+value SimpleName VariableDeclarationFragment ArrayCreation SimpleName len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+read SimpleName MethodInvocation SimpleName value
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName value
+n SimpleName InfixExpression SimpleName len
+invalid der stream too short missing value read StringLiteral InfixExpression SimpleName n
+invalid der stream too short missing value read StringLiteral InfixExpression StringLiteral out of required
+invalid der stream too short missing value read StringLiteral InfixExpression SimpleName len
+n SimpleName InfixExpression StringLiteral out of required
+n SimpleName InfixExpression SimpleName len
+out of required StringLiteral InfixExpression SimpleName len
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid der stream too short missing value read
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName n
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral out of required
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName len
+big integer SimpleName SimpleType ClassInstanceCreation SimpleName value
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration SimpleType SimpleName big integer
+public Modifier MethodDeclaration SimpleName read big integer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+big integer SimpleName SimpleType MethodDeclaration SimpleName read big integer
+big integer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read big integer SimpleName MethodDeclaration SimpleType SimpleName io exception
+read big integer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read big integer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read big integer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName read big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

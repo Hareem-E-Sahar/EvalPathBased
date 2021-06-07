@@ -1,0 +1,39 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName mac
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore unsupported
+utils SimpleName MethodInvocation SimpleName set up builtin factories
+utils SimpleName MethodInvocation SimpleName ignore unsupported
+utils SimpleName MethodInvocation SimpleName default mac preference
+set up builtin factories SimpleName MethodInvocation SimpleName ignore unsupported
+set up builtin factories SimpleName MethodInvocation SimpleName default mac preference
+ignore unsupported SimpleName MethodInvocation SimpleName default mac preference
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName set up default macs
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName set up default macs
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration SimpleName set up default macs
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName set up default macs
+set up default macs SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set up default macs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up default macs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up default macs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported

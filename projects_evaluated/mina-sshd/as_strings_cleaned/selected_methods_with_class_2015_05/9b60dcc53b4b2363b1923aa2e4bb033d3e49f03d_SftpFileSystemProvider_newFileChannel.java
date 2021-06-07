@@ -1,0 +1,119 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+file attribute SimpleName SimpleType ParameterizedType WildcardType ?
+file attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName attrs
+to sftp path SimpleName MethodInvocation SimpleName path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sftp path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+final Modifier VariableDeclarationStatement SimpleType SimpleName sftp path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to sftp path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName path
+sftp path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+enum set SimpleName SimpleType ParameterizedType SimpleType QualifiedName sftp clientopen mode
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName sftp clientopen mode
+none of SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName sftp clientopen mode
+modes SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+modes SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName enum set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType QualifiedName sftp clientopen mode
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName modes
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName enum set
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName none of
+open option SimpleName SimpleType SingleVariableDeclaration SimpleName option
+option SimpleName InfixExpression QualifiedName standard open optionread
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+add SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+option SimpleName InfixExpression QualifiedName standard open optionappend
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen modeappend
+add SimpleName MethodInvocation QualifiedName sftp clientopen modeappend
+option SimpleName InfixExpression QualifiedName standard open optioncreate
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen modecreate
+add SimpleName MethodInvocation QualifiedName sftp clientopen modecreate
+option SimpleName InfixExpression QualifiedName standard open optiontruncate existing
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen modetruncate
+add SimpleName MethodInvocation QualifiedName sftp clientopen modetruncate
+option SimpleName InfixExpression QualifiedName standard open optionwrite
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+add SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+option SimpleName InfixExpression QualifiedName standard open optioncreate new
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen modecreate
+add SimpleName MethodInvocation QualifiedName sftp clientopen modecreate
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen modeexclusive
+add SimpleName MethodInvocation QualifiedName sftp clientopen modeexclusive
+unsupported open option StringLiteral InfixExpression SimpleName option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported open option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName option
+open option SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName options
+option SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName options
+modes SimpleName MethodInvocation SimpleName is empty
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+add SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+modes SimpleName MethodInvocation SimpleName add
+modes SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+add SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+sftp file channel SimpleName SimpleType ClassInstanceCreation SimpleName p
+sftp file channel SimpleName SimpleType ClassInstanceCreation SimpleName modes
+p SimpleName ClassInstanceCreation SimpleName modes
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName options
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file channel
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new file channel
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SimpleType SimpleName file channel
+public Modifier MethodDeclaration SimpleName new file channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+file channel SimpleName SimpleType MethodDeclaration SimpleName new file channel
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+file channel SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+new file channel SimpleName MethodDeclaration SimpleType SimpleName io exception
+new file channel SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+new file channel SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+new file channel SimpleName MethodDeclaration Block EnhancedForStatement SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attrs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName new file channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new file channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

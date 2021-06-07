@@ -1,0 +1,23 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+get u byte SimpleName MethodInvocation SimpleName buffer
+get u byte SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+buffer SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+get u byte SimpleName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName get u short
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType MethodDeclaration SimpleName get u short
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+get u short SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+get u short SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get u short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get u short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

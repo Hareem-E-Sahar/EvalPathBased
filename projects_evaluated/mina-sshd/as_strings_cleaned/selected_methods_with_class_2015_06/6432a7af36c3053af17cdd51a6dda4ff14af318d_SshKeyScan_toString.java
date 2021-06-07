@@ -1,0 +1,40 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName addr
+addr SimpleName InstanceofExpression SimpleType SimpleName inet socket address
+inet socket address SimpleName SimpleType CastExpression SimpleName addr
+addr SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get host string
+addr SimpleName InstanceofExpression SimpleType SimpleName sshd socket address
+sshd socket address SimpleName SimpleType CastExpression SimpleName addr
+addr SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get host name
+addr SimpleName MethodInvocation SimpleName to string
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName to string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName to string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName addr
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName addr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr

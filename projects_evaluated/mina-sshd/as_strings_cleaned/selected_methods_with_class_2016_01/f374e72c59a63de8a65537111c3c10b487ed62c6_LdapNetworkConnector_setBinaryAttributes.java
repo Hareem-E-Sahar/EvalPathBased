@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName value
+validate utils SimpleName MethodInvocation StringLiteral no attributes
+check not null and not empty SimpleName MethodInvocation SimpleName value
+check not null and not empty SimpleName MethodInvocation StringLiteral no attributes
+value SimpleName MethodInvocation StringLiteral no attributes
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName replace
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName replace
+value SimpleName MethodInvocation MethodInvocation SimpleName replace
+no attributes StringLiteral MethodInvocation MethodInvocation SimpleName replace
+validate utils SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+check not null and not empty SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+no attributes StringLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+validate utils SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+check not null and not empty SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+no attributes StringLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation CharacterLiteral empty
+empty CharacterLiteral MethodInvocation CharacterLiteral empty
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName validate utils
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName check not null and not empty
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName value
+value SimpleName Assignment MethodInvocation MethodInvocation StringLiteral no attributes
+value SimpleName Assignment MethodInvocation SimpleName replace
+value SimpleName Assignment MethodInvocation CharacterLiteral empty
+value SimpleName Assignment MethodInvocation CharacterLiteral empty
+ldap env SimpleName MethodInvocation SimpleName put
+ldap env SimpleName MethodInvocation StringLiteral javanamingldapattributesbinary
+ldap env SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation StringLiteral javanamingldapattributesbinary
+put SimpleName MethodInvocation SimpleName value
+javanamingldapattributesbinary StringLiteral MethodInvocation SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set binary attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set binary attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set binary attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set binary attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set binary attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set binary attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

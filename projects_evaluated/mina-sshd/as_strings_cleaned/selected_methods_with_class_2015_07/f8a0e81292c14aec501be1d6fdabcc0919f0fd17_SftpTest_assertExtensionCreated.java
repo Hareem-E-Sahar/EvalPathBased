@@ -1,0 +1,75 @@
+e SimpleName TypeParameter SimpleType SimpleName sftp client extension
+sftp client SimpleName SimpleType SingleVariableDeclaration SimpleName sftp
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+sftp SimpleName MethodInvocation SimpleName get extension
+sftp SimpleName MethodInvocation SimpleName type
+get extension SimpleName MethodInvocation SimpleName type
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get extension
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+e SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+type SimpleName MethodInvocation SimpleName get simple name
+extension not created StringLiteral InfixExpression MethodInvocation SimpleName type
+extension not created StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral extension not created
+assert not null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type
+assert not null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert not null SimpleName MethodInvocation SimpleName instance
+extension not created StringLiteral InfixExpression MethodInvocation SimpleName instance
+type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+instance SimpleName MethodInvocation SimpleName get name
+extension not supported StringLiteral InfixExpression MethodInvocation SimpleName instance
+extension not supported StringLiteral InfixExpression MethodInvocation SimpleName get name
+instance SimpleName MethodInvocation SimpleName is supported
+assert true SimpleName MethodInvocation InfixExpression StringLiteral extension not supported
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName instance
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is supported
+extension not supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName instance
+extension not supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration TypeParameter SimpleType SimpleName sftp client extension
+private Modifier MethodDeclaration SimpleType SimpleName e
+private Modifier MethodDeclaration SimpleName assert extension created
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sftp
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName sftp client extension
+static Modifier MethodDeclaration SimpleType SimpleName e
+static Modifier MethodDeclaration SimpleName assert extension created
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sftp
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName e
+e SimpleName TypeParameter MethodDeclaration SimpleName assert extension created
+sftp client extension SimpleName SimpleType TypeParameter MethodDeclaration SimpleName assert extension created
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName sftp
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName type
+e SimpleName SimpleType MethodDeclaration SimpleName assert extension created
+e SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sftp
+e SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+assert extension created SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+assert extension created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sftp
+assert extension created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+assert extension created SimpleName MethodDeclaration Block ReturnStatement SimpleName instance
+sftp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert extension created
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sftp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert extension created
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sftp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

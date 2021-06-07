@@ -1,0 +1,10 @@
+protected Modifier MethodDeclaration SimpleType SimpleName closeable
+protected Modifier MethodDeclaration SimpleName get inner closeable
+closeable SimpleName SimpleType MethodDeclaration SimpleName get inner closeable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get inner closeable
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get inner closeable

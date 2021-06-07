@@ -1,0 +1,67 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral channel has been closed
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName id
+value of SimpleName MethodInvocation SimpleName id
+messages SimpleName MethodInvocation SimpleName remove
+messages SimpleName MethodInvocation MethodInvocation SimpleName integer
+messages SimpleName MethodInvocation MethodInvocation SimpleName value of
+messages SimpleName MethodInvocation MethodInvocation SimpleName id
+remove SimpleName MethodInvocation MethodInvocation SimpleName integer
+remove SimpleName MethodInvocation MethodInvocation SimpleName value of
+remove SimpleName MethodInvocation MethodInvocation SimpleName id
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName messages
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+buffer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName integer
+buffer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value of
+buffer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName id
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+messages SimpleName MethodInvocation SimpleName wait
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interrupted io exception SimpleName SimpleType ClassInstanceCreation StringLiteral interrupted while waiting for messages
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+interrupted while waiting for messages StringLiteral ClassInstanceCreation MethodInvocation SimpleName init cause
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+interrupted while waiting for messages StringLiteral ClassInstanceCreation MethodInvocation SimpleName e
+init cause SimpleName MethodInvocation SimpleName e
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+true BooleanLiteral WhileStatement Block IfStatement SimpleName closing
+messages SimpleName SynchronizedStatement Block WhileStatement BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName receive
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName id
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleName receive
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName messages
+buffer SimpleName SimpleType MethodDeclaration SimpleName receive
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+receive SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+receive SimpleName MethodDeclaration SimpleType SimpleName io exception
+receive SimpleName MethodDeclaration Block SynchronizedStatement SimpleName messages
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName receive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName receive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

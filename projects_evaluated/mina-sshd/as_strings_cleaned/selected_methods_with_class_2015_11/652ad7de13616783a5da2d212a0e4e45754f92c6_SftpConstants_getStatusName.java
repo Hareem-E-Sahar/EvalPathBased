@@ -1,0 +1,46 @@
+int PrimitiveType SingleVariableDeclaration SimpleName status
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+lazy status name holderstatus map QualifiedName MethodInvocation SimpleName get
+lazy status name holderstatus map QualifiedName MethodInvocation SimpleName status
+get SimpleName MethodInvocation SimpleName status
+name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lazy status name holderstatus map
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+syntheticaccess StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+syntheticaccess StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName status
+to string SimpleName MethodInvocation SimpleName status
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get status name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get status name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+string SimpleName SimpleType MethodDeclaration SimpleName get status name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName status
+get status name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get status name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get status name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get status name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status

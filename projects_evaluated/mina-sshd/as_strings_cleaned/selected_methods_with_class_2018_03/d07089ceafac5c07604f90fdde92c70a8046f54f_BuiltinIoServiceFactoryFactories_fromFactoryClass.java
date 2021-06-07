@@ -1,0 +1,42 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clazz
+io service factory factory SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+io service factory factory SimpleName SimpleType TypeLiteral MethodInvocation SimpleName clazz
+is assignable from SimpleName MethodInvocation SimpleName clazz
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName get factory class
+clazz SimpleName MethodInvocation SimpleName is assignable from
+clazz SimpleName MethodInvocation MethodInvocation SimpleName f
+clazz SimpleName MethodInvocation MethodInvocation SimpleName get factory class
+is assignable from SimpleName MethodInvocation MethodInvocation SimpleName f
+is assignable from SimpleName MethodInvocation MethodInvocation SimpleName get factory class
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName builtin io service factory factories
+public Modifier MethodDeclaration SimpleName from factory class
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+static Modifier MethodDeclaration SimpleType SimpleName builtin io service factory factories
+static Modifier MethodDeclaration SimpleName from factory class
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+builtin io service factory factories SimpleName SimpleType MethodDeclaration SimpleName from factory class
+builtin io service factory factories SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+from factory class SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+from factory class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+from factory class SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin io service factory factories
+public Modifier TypeDeclaration MethodDeclaration SimpleName from factory class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin io service factory factories
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from factory class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

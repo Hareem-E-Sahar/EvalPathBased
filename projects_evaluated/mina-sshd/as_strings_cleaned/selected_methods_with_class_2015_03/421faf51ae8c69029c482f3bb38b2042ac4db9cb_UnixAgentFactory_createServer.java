@@ -1,0 +1,31 @@
+connection service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+service SimpleName MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName InstanceofExpression SimpleType SimpleName server session
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral the session used to create an agent server proxy must be a server session
+agent server proxy SimpleName SimpleType ClassInstanceCreation SimpleName service
+public Modifier MethodDeclaration SimpleType SimpleName ssh agent server
+public Modifier MethodDeclaration SimpleName create server
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+ssh agent server SimpleName SimpleType MethodDeclaration SimpleName create server
+ssh agent server SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service
+ssh agent server SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+create server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+create server SimpleName MethodDeclaration SimpleType SimpleName io exception
+service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent server
+public Modifier TypeDeclaration MethodDeclaration SimpleName create server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent server
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

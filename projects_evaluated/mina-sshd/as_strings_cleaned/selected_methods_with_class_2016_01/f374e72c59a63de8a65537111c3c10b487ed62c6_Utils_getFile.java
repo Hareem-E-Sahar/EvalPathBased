@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+utils SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get class loader
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName resource
+get resource SimpleName MethodInvocation SimpleName resource
+url SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class loader
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName MethodInvocation SimpleName to uri
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to uri
+uri syntax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+url SimpleName MethodInvocation SimpleName get path
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get path
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SimpleName get file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName get file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+file SimpleName SimpleType MethodDeclaration SimpleName get file
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource

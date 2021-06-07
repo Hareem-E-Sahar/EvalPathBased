@@ -1,0 +1,22 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName echo
+echo SimpleName FieldAccess Assignment SimpleName echo
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set echo
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName echo
+void PrimitiveType MethodDeclaration SimpleName set echo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName echo
+set echo SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set echo SimpleName MethodDeclaration SingleVariableDeclaration SimpleName echo
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set echo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set echo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo

@@ -1,0 +1,20 @@
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+listener SimpleName MethodInvocation SimpleName session created
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName signal session created
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName signal session created
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+signal session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+signal session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName signal session created
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName signal session created
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

@@ -1,0 +1,33 @@
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName date
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName date
+date SimpleName SimpleType ParameterizedType SimpleType SimpleName date
+transformerutils QualifiedName MethodInvocation SimpleName identity
+date transformer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName transformerutils
+date transformer SimpleName VariableDeclarationFragment MethodInvocation SimpleName identity
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+transformerutils QualifiedName MethodInvocation SimpleName identity
+string transformer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName transformerutils
+string transformer SimpleName VariableDeclarationFragment MethodInvocation SimpleName identity
+assert same SimpleName MethodInvocation StringLiteral mismatched identity instance
+assert same SimpleName MethodInvocation SimpleName date transformer
+assert same SimpleName MethodInvocation SimpleName string transformer
+mismatched identity instance StringLiteral MethodInvocation SimpleName date transformer
+mismatched identity instance StringLiteral MethodInvocation SimpleName string transformer
+date transformer SimpleName MethodInvocation SimpleName string transformer
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test singleton identity instance
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test singleton identity instance
+void PrimitiveType MethodDeclaration SimpleName test singleton identity instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test singleton identity instance
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test singleton identity instance

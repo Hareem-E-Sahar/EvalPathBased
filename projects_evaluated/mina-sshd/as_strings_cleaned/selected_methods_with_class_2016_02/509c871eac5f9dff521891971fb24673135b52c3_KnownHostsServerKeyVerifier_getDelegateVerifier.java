@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName server key verifier
+public Modifier MethodDeclaration SimpleName get delegate verifier
+public Modifier MethodDeclaration Block ReturnStatement SimpleName delegate
+server key verifier SimpleName SimpleType MethodDeclaration SimpleName get delegate verifier
+get delegate verifier SimpleName MethodDeclaration Block ReturnStatement SimpleName delegate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName server key verifier
+public Modifier TypeDeclaration MethodDeclaration SimpleName get delegate verifier
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName server key verifier
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get delegate verifier

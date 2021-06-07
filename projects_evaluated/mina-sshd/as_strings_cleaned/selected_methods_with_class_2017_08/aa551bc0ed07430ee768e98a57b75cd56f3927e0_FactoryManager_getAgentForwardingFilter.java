@@ -1,0 +1,10 @@
+default Modifier MethodDeclaration SimpleType SimpleName agent forwarding filter
+default Modifier MethodDeclaration SimpleName get agent forwarding filter
+agent forwarding filter SimpleName SimpleType MethodDeclaration SimpleName get agent forwarding filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName agent forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get agent forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName agent forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get agent forwarding filter

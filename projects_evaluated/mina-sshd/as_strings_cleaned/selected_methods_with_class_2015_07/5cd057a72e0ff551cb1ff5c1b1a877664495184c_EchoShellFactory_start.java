@@ -1,0 +1,40 @@
+environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+environment SimpleName Assignment SimpleName env
+thread SimpleName SimpleType ClassInstanceCreation StringLiteral echo shell
+thread SimpleName Assignment ClassInstanceCreation SimpleType SimpleName thread
+thread SimpleName Assignment ClassInstanceCreation StringLiteral echo shell
+thread SimpleName MethodInvocation SimpleName set daemon
+thread SimpleName MethodInvocation BooleanLiteral true
+set daemon SimpleName MethodInvocation BooleanLiteral true
+thread SimpleName MethodInvocation SimpleName start
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName env
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName env
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+start SimpleName MethodDeclaration SimpleType SimpleName io exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

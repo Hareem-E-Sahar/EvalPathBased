@@ -1,0 +1,53 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName type
+sftp client extension SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+sftp client extension SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type
+is assignable from SimpleName MethodInvocation SimpleName type
+sftp client extension SimpleName SimpleType TypeLiteral InfixExpression SimpleName type
+builtin sftp client extensions SimpleName SimpleType SingleVariableDeclaration SimpleName v
+class SimpleName SimpleType ParameterizedType WildcardType ?
+v SimpleName MethodInvocation SimpleName get type
+vt SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+vt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName vt
+vt SimpleName MethodInvocation SimpleName is assignable from
+vt SimpleName MethodInvocation SimpleName type
+is assignable from SimpleName MethodInvocation SimpleName type
+builtin sftp client extensions SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+public Modifier MethodDeclaration SimpleName from type
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+static Modifier MethodDeclaration SimpleName from type
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+final Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+final Modifier MethodDeclaration SimpleName from type
+final Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+final Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+builtin sftp client extensions SimpleName SimpleType MethodDeclaration SimpleName from type
+builtin sftp client extensions SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+from type SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+from type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+from type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+public Modifier TypeDeclaration MethodDeclaration SimpleName from type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

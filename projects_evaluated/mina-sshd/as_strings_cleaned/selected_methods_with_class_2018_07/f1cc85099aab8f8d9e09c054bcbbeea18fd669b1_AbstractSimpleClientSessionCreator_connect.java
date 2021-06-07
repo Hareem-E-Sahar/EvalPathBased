@@ -1,0 +1,47 @@
+host config entry SimpleName SimpleType SingleVariableDeclaration SimpleName host config
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local address
+creator SimpleName MethodInvocation SimpleName connect
+creator SimpleName MethodInvocation SimpleName host config
+creator SimpleName MethodInvocation SimpleName local address
+connect SimpleName MethodInvocation SimpleName host config
+connect SimpleName MethodInvocation SimpleName local address
+host config SimpleName MethodInvocation SimpleName local address
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName connect future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName connect
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host config
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier MethodDeclaration SimpleType SimpleName connect future
+public Modifier MethodDeclaration SimpleName connect
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+connect future SimpleName SimpleType MethodDeclaration SimpleName connect
+connect future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host config
+connect future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local address
+connect future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host config
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local address
+connect SimpleName MethodDeclaration SimpleType SimpleName io exception
+host config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+host config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+local address SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connect future
+public Modifier TypeDeclaration MethodDeclaration SimpleName connect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connect future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName connect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

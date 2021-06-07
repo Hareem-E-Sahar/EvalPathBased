@@ -1,0 +1,57 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+user principal SimpleName SimpleType SingleVariableDeclaration SimpleName name
+name SimpleName MethodInvocation SimpleName to string
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+file SimpleName MethodInvocation SimpleName get file system
+file system SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+file system SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file system
+file system SimpleName MethodInvocation SimpleName get user principal lookup service
+lookup service SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+lookup service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user principal lookup service
+user principal lookup service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup service
+user principal not found exception SimpleName SimpleType ClassInstanceCreation StringLiteral no lookup service
+lookup service SimpleName MethodInvocation SimpleName lookup principal by name
+lookup service SimpleName MethodInvocation SimpleName username
+lookup principal by name SimpleName MethodInvocation SimpleName username
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle user principal lookup service exception SimpleName MethodInvocation TypeLiteral SimpleType SimpleName user principal
+handle user principal lookup service exception SimpleName MethodInvocation SimpleName username
+handle user principal lookup service exception SimpleName MethodInvocation SimpleName e
+user principal SimpleName SimpleType TypeLiteral MethodInvocation SimpleName username
+user principal SimpleName SimpleType TypeLiteral MethodInvocation SimpleName e
+username SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName user principal
+protected Modifier MethodDeclaration SimpleName to user
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user principal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+user principal SimpleName SimpleType MethodDeclaration SimpleName to user
+user principal SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+user principal SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+user principal SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+to user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+to user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+to user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user principal
+to user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+to user SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user principal
+public Modifier TypeDeclaration MethodDeclaration SimpleName to user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user principal
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

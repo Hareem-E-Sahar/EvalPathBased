@@ -1,0 +1,51 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName attributes
+sftp helper SimpleName MethodInvocation SimpleName write attrs
+sftp helper SimpleName MethodInvocation SimpleName buffer
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleName get version
+sftp helper SimpleName MethodInvocation SimpleName attributes
+write attrs SimpleName MethodInvocation SimpleName buffer
+write attrs SimpleName MethodInvocation MethodInvocation SimpleName get version
+write attrs SimpleName MethodInvocation SimpleName attributes
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get version
+buffer SimpleName MethodInvocation SimpleName attributes
+get version SimpleName MethodInvocation MethodInvocation SimpleName attributes
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName write attrs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write attrs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write attrs SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+write attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+write attrs SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write attrs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write attrs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,97 @@
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation StringLiteral localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+channel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName channel shell
+channel shell SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel
+sent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sent
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName out
+err SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName err
+session SimpleName MethodInvocation SimpleName get service
+session SimpleName MethodInvocation TypeLiteral SimpleType SimpleName connection service
+get service SimpleName MethodInvocation TypeLiteral SimpleType SimpleName connection service
+session SimpleName MethodInvocation MethodInvocation SimpleName register channel
+get service SimpleName MethodInvocation MethodInvocation SimpleName register channel
+session SimpleName MethodInvocation MethodInvocation SimpleName channel
+get service SimpleName MethodInvocation MethodInvocation SimpleName channel
+register channel SimpleName MethodInvocation SimpleName channel
+channel SimpleName MethodInvocation SimpleName set out
+channel SimpleName MethodInvocation SimpleName out
+set out SimpleName MethodInvocation SimpleName out
+channel SimpleName MethodInvocation SimpleName set err
+channel SimpleName MethodInvocation SimpleName err
+set err SimpleName MethodInvocation SimpleName err
+channel SimpleName MethodInvocation SimpleName open
+channel SimpleName MethodInvocation MethodInvocation SimpleName verify
+open SimpleName MethodInvocation MethodInvocation SimpleName verify
+channel SimpleName MethodInvocation MethodInvocation NumberLiteral l
+open SimpleName MethodInvocation MethodInvocation NumberLiteral l
+channel SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+open SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+channel SimpleName MethodInvocation SimpleName close
+channel SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+channel SimpleName MethodInvocation MethodInvocation SimpleName await
+close SimpleName MethodInvocation MethodInvocation SimpleName await
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test client with custom channel
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test client with custom channel
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test client with custom channel
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test client with custom channel SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client with custom channel
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client with custom channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

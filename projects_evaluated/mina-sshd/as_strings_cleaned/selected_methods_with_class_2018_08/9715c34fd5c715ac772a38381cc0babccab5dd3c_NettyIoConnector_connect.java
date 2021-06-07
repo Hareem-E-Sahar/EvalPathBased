@@ -1,0 +1,100 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local address
+log SimpleName MethodInvocation SimpleName is debug enabled
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName log
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName log
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral connecting to {}
+log SimpleName MethodInvocation SimpleName address
+debug SimpleName MethodInvocation StringLiteral connecting to {}
+debug SimpleName MethodInvocation SimpleName address
+connecting to {} StringLiteral MethodInvocation SimpleName address
+default io connect future SimpleName SimpleType ClassInstanceCreation SimpleName address
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default io connect future
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName address
+io connect future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+channel future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName chf
+bootstrap SimpleName MethodInvocation SimpleName connect
+bootstrap SimpleName MethodInvocation SimpleName address
+bootstrap SimpleName MethodInvocation SimpleName local address
+connect SimpleName MethodInvocation SimpleName address
+connect SimpleName MethodInvocation SimpleName local address
+address SimpleName MethodInvocation SimpleName local address
+chf SimpleName Assignment MethodInvocation SimpleName bootstrap
+chf SimpleName Assignment MethodInvocation SimpleName connect
+chf SimpleName Assignment MethodInvocation SimpleName address
+chf SimpleName Assignment MethodInvocation SimpleName local address
+bootstrap SimpleName MethodInvocation SimpleName connect
+bootstrap SimpleName MethodInvocation SimpleName address
+connect SimpleName MethodInvocation SimpleName address
+chf SimpleName Assignment MethodInvocation SimpleName bootstrap
+chf SimpleName Assignment MethodInvocation SimpleName connect
+chf SimpleName Assignment MethodInvocation SimpleName address
+chf SimpleName MethodInvocation SimpleName channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName chf
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName attr
+channel SimpleName MethodInvocation SimpleName connect future key
+attr SimpleName MethodInvocation SimpleName connect future key
+channel SimpleName MethodInvocation MethodInvocation SimpleName set
+attr SimpleName MethodInvocation MethodInvocation SimpleName set
+connect future key SimpleName MethodInvocation MethodInvocation SimpleName set
+channel SimpleName MethodInvocation MethodInvocation SimpleName future
+attr SimpleName MethodInvocation MethodInvocation SimpleName future
+connect future key SimpleName MethodInvocation MethodInvocation SimpleName future
+set SimpleName MethodInvocation SimpleName future
+chf SimpleName MethodInvocation SimpleName cause
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName chf
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName cause
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation SimpleName t
+set exception SimpleName MethodInvocation SimpleName t
+chf SimpleName MethodInvocation SimpleName is cancelled
+future SimpleName MethodInvocation SimpleName cancel
+chf SimpleName MethodInvocation SimpleName add listener
+chf SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName cf
+add listener SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName cf
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName debug enabled
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io connect future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName connect
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName address
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier MethodDeclaration SimpleType SimpleName io connect future
+public Modifier MethodDeclaration SimpleName connect
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+io connect future SimpleName SimpleType MethodDeclaration SimpleName connect
+io connect future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName address
+io connect future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+connect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local address
+connect SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+connect SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+connect SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io connect future
+public Modifier TypeDeclaration MethodDeclaration SimpleName connect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io connect future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName connect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address

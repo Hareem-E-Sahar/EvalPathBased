@@ -1,0 +1,91 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName line
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName line
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName substring
+generic utils SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation MethodInvocation SimpleName line
+split SimpleName MethodInvocation MethodInvocation SimpleName substring
+split SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation CharacterLiteral empty
+line SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+substring SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+numbers SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+numbers SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+numbers SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName line
+numbers SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName substring
+numbers SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+numbers SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+numbers SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName numbers
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName numbers
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+time unitseconds QualifiedName MethodInvocation SimpleName to millis
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName long
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName parse long
+time unitseconds QualifiedName MethodInvocation MethodInvocation ArrayAccess SimpleName numbers
+time unitseconds QualifiedName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+to millis SimpleName MethodInvocation MethodInvocation SimpleName long
+to millis SimpleName MethodInvocation MethodInvocation SimpleName parse long
+to millis SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName numbers
+to millis SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+numbers SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName numbers
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName numbers
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+time unitseconds QualifiedName MethodInvocation SimpleName to millis
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName long
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName parse long
+time unitseconds QualifiedName MethodInvocation MethodInvocation ArrayAccess SimpleName numbers
+time unitseconds QualifiedName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+to millis SimpleName MethodInvocation MethodInvocation SimpleName long
+to millis SimpleName MethodInvocation MethodInvocation SimpleName parse long
+to millis SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName numbers
+to millis SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+scp timestamp SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitseconds
+scp timestamp SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to millis
+scp timestamp SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitseconds
+scp timestamp SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to millis
+time unitseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName time unitseconds
+time unitseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to millis
+to millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName time unitseconds
+to millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to millis
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName scp timestamp
+public Modifier MethodDeclaration SimpleName parse time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName line
+public Modifier MethodDeclaration SimpleType SimpleName number format exception
+static Modifier MethodDeclaration SimpleType SimpleName scp timestamp
+static Modifier MethodDeclaration SimpleName parse time
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName line
+static Modifier MethodDeclaration SimpleType SimpleName number format exception
+scp timestamp SimpleName SimpleType MethodDeclaration SimpleName parse time
+scp timestamp SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName line
+scp timestamp SimpleName SimpleType MethodDeclaration SimpleType SimpleName number format exception
+parse time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName line
+parse time SimpleName MethodDeclaration SimpleType SimpleName number format exception
+line SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName number format exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scp timestamp
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scp timestamp
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception

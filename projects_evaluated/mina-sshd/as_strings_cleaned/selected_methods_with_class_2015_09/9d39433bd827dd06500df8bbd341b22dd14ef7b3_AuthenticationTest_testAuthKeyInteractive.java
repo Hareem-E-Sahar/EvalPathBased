@@ -1,0 +1,133 @@
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup test client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client user auth service oldfactory
+arrays SimpleName MethodInvocation QualifiedName client connection service factoryinstance
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client user auth service oldfactory
+as list SimpleName MethodInvocation QualifiedName client connection service factoryinstance
+client user auth service oldfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation QualifiedName client connection service factoryinstance
+client SimpleName MethodInvocation SimpleName set service factories
+client SimpleName MethodInvocation MethodInvocation SimpleName arrays
+client SimpleName MethodInvocation MethodInvocation SimpleName as list
+client SimpleName MethodInvocation MethodInvocation QualifiedName client connection service factoryinstance
+set service factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set service factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+set service factories SimpleName MethodInvocation MethodInvocation QualifiedName client connection service factoryinstance
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName s
+client sessionclosed QualifiedName InfixExpression QualifiedName client sessionwait auth
+s SimpleName MethodInvocation SimpleName wait for
+s SimpleName MethodInvocation InfixExpression QualifiedName client sessionclosed
+s SimpleName MethodInvocation InfixExpression QualifiedName client sessionwait auth
+s SimpleName MethodInvocation NumberLiteral empty
+wait for SimpleName MethodInvocation InfixExpression QualifiedName client sessionclosed
+wait for SimpleName MethodInvocation InfixExpression QualifiedName client sessionwait auth
+wait for SimpleName MethodInvocation NumberLiteral empty
+client sessionclosed QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+client sessionwait auth QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+create test host key provider SimpleName MethodInvocation MethodInvocation SimpleName load key
+create test host key provider SimpleName MethodInvocation MethodInvocation QualifiedName key pair providerssh rsa
+load key SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+pair SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create test host key provider
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName load key
+pair SimpleName VariableDeclarationFragment MethodInvocation QualifiedName key pair providerssh rsa
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pair
+auth public key SimpleName MethodInvocation SimpleName s
+auth public key SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+auth public key SimpleName MethodInvocation SimpleName pair
+s SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+s SimpleName MethodInvocation SimpleName pair
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName pair
+assert authentication result SimpleName MethodInvocation StringLiteral pubkey
+assert authentication result SimpleName MethodInvocation MethodInvocation SimpleName auth public key
+assert authentication result SimpleName MethodInvocation MethodInvocation SimpleName s
+assert authentication result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+assert authentication result SimpleName MethodInvocation MethodInvocation SimpleName pair
+assert authentication result SimpleName MethodInvocation BooleanLiteral false
+pubkey StringLiteral MethodInvocation MethodInvocation SimpleName auth public key
+pubkey StringLiteral MethodInvocation MethodInvocation SimpleName s
+pubkey StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+pubkey StringLiteral MethodInvocation MethodInvocation SimpleName pair
+pubkey StringLiteral MethodInvocation BooleanLiteral false
+auth public key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+s SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+pair SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+auth interactive SimpleName MethodInvocation SimpleName s
+auth interactive SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+auth interactive SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+s SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+s SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+assert authentication result SimpleName MethodInvocation StringLiteral interactive
+assert authentication result SimpleName MethodInvocation MethodInvocation SimpleName auth interactive
+assert authentication result SimpleName MethodInvocation MethodInvocation SimpleName s
+assert authentication result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+assert authentication result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+assert authentication result SimpleName MethodInvocation BooleanLiteral true
+interactive StringLiteral MethodInvocation MethodInvocation SimpleName auth interactive
+interactive StringLiteral MethodInvocation MethodInvocation SimpleName s
+interactive StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+interactive StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+interactive StringLiteral MethodInvocation BooleanLiteral true
+auth interactive SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+s SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+s SimpleName MethodInvocation SimpleName close
+s SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+client SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test auth key interactive
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test auth key interactive
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test auth key interactive
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test auth key interactive SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test auth key interactive
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test auth key interactive
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

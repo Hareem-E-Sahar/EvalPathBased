@@ -1,0 +1,65 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+object SimpleName SimpleType SingleVariableDeclaration SimpleName args
+check true SimpleName MethodInvocation InfixExpression SimpleName t
+check true SimpleName MethodInvocation SimpleName message
+check true SimpleName MethodInvocation SimpleName args
+t SimpleName InfixExpression MethodInvocation SimpleName message
+t SimpleName InfixExpression MethodInvocation SimpleName args
+message SimpleName MethodInvocation SimpleName args
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName check not null
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName check not null
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+final Modifier MethodDeclaration TypeParameter SimpleName t
+final Modifier MethodDeclaration SimpleType SimpleName t
+final Modifier MethodDeclaration SimpleName check not null
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName check not null
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName t
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName message
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName args
+t SimpleName SimpleType MethodDeclaration SimpleName check not null
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName t
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName message
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+check not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+check not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+check not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+check not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+check not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+check not null SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName check not null
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check not null
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

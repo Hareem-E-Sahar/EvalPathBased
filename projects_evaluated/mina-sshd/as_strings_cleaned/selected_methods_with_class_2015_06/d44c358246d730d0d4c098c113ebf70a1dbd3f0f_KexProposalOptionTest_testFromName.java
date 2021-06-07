@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName n
+empty StringLiteral ArrayInitializer MethodInvocation SimpleName get current test name
+kex proposal option SimpleName MethodInvocation SimpleName from name
+kex proposal option SimpleName MethodInvocation SimpleName n
+from name SimpleName MethodInvocation SimpleName n
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex proposal option
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName from name
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+kex proposal option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+unexpected value for name StringLiteral InfixExpression SimpleName n
+unexpected value for name StringLiteral InfixExpression StringLiteral empty
+n SimpleName InfixExpression StringLiteral empty
+assert null SimpleName MethodInvocation InfixExpression StringLiteral unexpected value for name
+assert null SimpleName MethodInvocation InfixExpression SimpleName n
+assert null SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert null SimpleName MethodInvocation SimpleName o
+unexpected value for name StringLiteral InfixExpression MethodInvocation SimpleName o
+n SimpleName InfixExpression MethodInvocation SimpleName o
+empty StringLiteral InfixExpression MethodInvocation SimpleName o
+kex proposal option SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+expected SimpleName MethodInvocation SimpleName name
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+n SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName n
+index SimpleName InfixExpression MethodInvocation SimpleName length
+kex proposal option SimpleName MethodInvocation SimpleName from name
+kex proposal option SimpleName MethodInvocation SimpleName n
+from name SimpleName MethodInvocation SimpleName n
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex proposal option
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName from name
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+kex proposal option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched option for name StringLiteral InfixExpression SimpleName n
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched option for name
+assert same SimpleName MethodInvocation InfixExpression SimpleName n
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched option for name StringLiteral InfixExpression MethodInvocation SimpleName expected
+n SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched option for name StringLiteral InfixExpression MethodInvocation SimpleName actual
+n SimpleName InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+shuffle case SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName shuffle case
+n SimpleName Assignment MethodInvocation SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+kex proposal option SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName kex proposal optionvalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName kex proposal optionvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from name
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName kex proposal optionvalues
+void PrimitiveType MethodDeclaration SimpleName test from name
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName kex proposal optionvalues
+test from name SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName kex proposal optionvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from name

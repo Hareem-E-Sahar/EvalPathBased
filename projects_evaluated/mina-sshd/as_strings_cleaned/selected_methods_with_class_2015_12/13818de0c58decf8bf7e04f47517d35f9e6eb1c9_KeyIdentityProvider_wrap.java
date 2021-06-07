@@ -1,0 +1,43 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName iterable
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName key pair
+final Modifier SingleVariableDeclaration SimpleName keys
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+key pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load keys
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load keys
+public Modifier MethodDeclaration Block ReturnStatement SimpleName keys
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load keys
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load keys
+load keys SimpleName MethodDeclaration Block ReturnStatement SimpleName keys
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key identity provider
+public Modifier MethodDeclaration SimpleName wrap
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys
+static Modifier MethodDeclaration SimpleType SimpleName key identity provider
+static Modifier MethodDeclaration SimpleName wrap
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys
+key identity provider SimpleName SimpleType MethodDeclaration SimpleName wrap
+key identity provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+key identity provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName keys
+wrap SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+wrap SimpleName MethodDeclaration SingleVariableDeclaration SimpleName keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys

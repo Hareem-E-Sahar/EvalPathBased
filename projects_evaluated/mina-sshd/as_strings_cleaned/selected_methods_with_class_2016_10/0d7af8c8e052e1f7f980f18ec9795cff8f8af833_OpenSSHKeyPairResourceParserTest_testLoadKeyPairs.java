@@ -1,0 +1,254 @@
+identity SimpleName InfixExpression StringLiteral not supported
+identity SimpleName MethodInvocation SimpleName is supported
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation InfixExpression SimpleName identity
+assume SimpleName MethodInvocation InfixExpression StringLiteral not supported
+assume SimpleName MethodInvocation MethodInvocation SimpleName identity
+assume SimpleName MethodInvocation MethodInvocation SimpleName is supported
+assume true SimpleName MethodInvocation InfixExpression SimpleName identity
+assume true SimpleName MethodInvocation InfixExpression StringLiteral not supported
+assume true SimpleName MethodInvocation MethodInvocation SimpleName identity
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is supported
+identity SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName identity
+identity SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+not supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName identity
+not supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+identity SimpleName MethodInvocation SimpleName get name
+identity SimpleName MethodInvocation MethodInvocation SimpleName to upper case
+get name SimpleName MethodInvocation MethodInvocation SimpleName to upper case
+key pair SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral -
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral -
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+- StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName identity
+- StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get name
+- StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+- StringLiteral InfixExpression StringLiteral -
+- StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+identity SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+get name SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+to upper case SimpleName MethodInvocation InfixExpression StringLiteral -
+to upper case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+- StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+resource key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+resource key SimpleName VariableDeclarationFragment InfixExpression StringLiteral -
+resource key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to upper case
+resource key SimpleName VariableDeclarationFragment InfixExpression StringLiteral -
+resource key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource key
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation SimpleName resource key
+get resource SimpleName MethodInvocation SimpleName resource key
+url key pair SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+url key pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+url key pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource key
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url key pair
+missing keypair resource StringLiteral InfixExpression SimpleName resource key
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral missing keypair resource
+assert not null SimpleName MethodInvocation InfixExpression SimpleName resource key
+assert not null SimpleName MethodInvocation SimpleName url key pair
+missing keypair resource StringLiteral InfixExpression MethodInvocation SimpleName url key pair
+resource key SimpleName InfixExpression MethodInvocation SimpleName url key pair
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+parser SimpleName MethodInvocation SimpleName load key pairs
+parser SimpleName MethodInvocation SimpleName url key pair
+parser SimpleName MethodInvocation QualifiedName file password providerempty
+load key pairs SimpleName MethodInvocation SimpleName url key pair
+load key pairs SimpleName MethodInvocation QualifiedName file password providerempty
+url key pair SimpleName MethodInvocation QualifiedName file password providerempty
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName parser
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName load key pairs
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName url key pair
+pairs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName file password providerempty
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName pairs
+size SimpleName MethodInvocation SimpleName pairs
+assert equals SimpleName MethodInvocation StringLiteral mismatched pairs count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName pairs
+mismatched pairs count StringLiteral MethodInvocation NumberLiteral empty
+mismatched pairs count StringLiteral MethodInvocation MethodInvocation SimpleName generic utils
+mismatched pairs count StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched pairs count StringLiteral MethodInvocation MethodInvocation SimpleName pairs
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName generic utils
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName pairs
+resource key SimpleName InfixExpression StringLiteral pub
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName resource key
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral pub
+get resource SimpleName MethodInvocation InfixExpression SimpleName resource key
+get resource SimpleName MethodInvocation InfixExpression StringLiteral pub
+url pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+url pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+url pub key SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName resource key
+url pub key SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral pub
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url pub key
+missing public key resource StringLiteral InfixExpression SimpleName resource key
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral missing public key resource
+assert not null SimpleName MethodInvocation InfixExpression SimpleName resource key
+assert not null SimpleName MethodInvocation SimpleName url pub key
+missing public key resource StringLiteral InfixExpression MethodInvocation SimpleName url pub key
+resource key SimpleName InfixExpression MethodInvocation SimpleName url pub key
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName authorized key entry
+authorized key entry SimpleName MethodInvocation SimpleName read authorized keys
+authorized key entry SimpleName MethodInvocation SimpleName url pub key
+read authorized keys SimpleName MethodInvocation SimpleName url pub key
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName authorized key entry
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName read authorized keys
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName url pub key
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName entries
+size SimpleName MethodInvocation SimpleName entries
+assert equals SimpleName MethodInvocation StringLiteral mismatched public keys count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entries
+mismatched public keys count StringLiteral MethodInvocation NumberLiteral empty
+mismatched public keys count StringLiteral MethodInvocation MethodInvocation SimpleName generic utils
+mismatched public keys count StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched public keys count StringLiteral MethodInvocation MethodInvocation SimpleName entries
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName generic utils
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName entries
+entries SimpleName MethodInvocation SimpleName get
+entries SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+entry SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+authorized key entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+entry SimpleName MethodInvocation SimpleName resolve public key
+entry SimpleName MethodInvocation QualifiedName public key entry resolverfailing
+resolve public key SimpleName MethodInvocation QualifiedName public key entry resolverfailing
+pub entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+pub entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve public key
+pub entry SimpleName VariableDeclarationFragment MethodInvocation QualifiedName public key entry resolverfailing
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pub entry
+assert not null SimpleName MethodInvocation StringLiteral cannot retrieve public key
+assert not null SimpleName MethodInvocation SimpleName pub entry
+cannot retrieve public key StringLiteral MethodInvocation SimpleName pub entry
+identity SimpleName MethodInvocation SimpleName get public key type
+pub type SimpleName VariableDeclarationFragment MethodInvocation SimpleName identity
+pub type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public key type
+identity SimpleName MethodInvocation SimpleName get private key type
+prv type SimpleName VariableDeclarationFragment MethodInvocation SimpleName identity
+prv type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private key type
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+kp SimpleName MethodInvocation SimpleName get public
+validate utils SimpleName MethodInvocation SimpleName check instance of
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName kp
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get public
+validate utils SimpleName MethodInvocation SimpleName pub type
+validate utils SimpleName MethodInvocation StringLiteral mismatched public key type
+check instance of SimpleName MethodInvocation MethodInvocation SimpleName kp
+check instance of SimpleName MethodInvocation MethodInvocation SimpleName get public
+check instance of SimpleName MethodInvocation SimpleName pub type
+check instance of SimpleName MethodInvocation StringLiteral mismatched public key type
+kp SimpleName MethodInvocation MethodInvocation SimpleName pub type
+get public SimpleName MethodInvocation MethodInvocation SimpleName pub type
+kp SimpleName MethodInvocation MethodInvocation StringLiteral mismatched public key type
+get public SimpleName MethodInvocation MethodInvocation StringLiteral mismatched public key type
+pub type SimpleName MethodInvocation StringLiteral mismatched public key type
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName check instance of
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName kp
+pub key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get public
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName pub type
+pub key SimpleName VariableDeclarationFragment MethodInvocation StringLiteral mismatched public key type
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pub key
+assert key equals SimpleName MethodInvocation StringLiteral mismatched identity public key
+assert key equals SimpleName MethodInvocation SimpleName pub entry
+assert key equals SimpleName MethodInvocation SimpleName pub key
+mismatched identity public key StringLiteral MethodInvocation SimpleName pub entry
+mismatched identity public key StringLiteral MethodInvocation SimpleName pub key
+pub entry SimpleName MethodInvocation SimpleName pub key
+kp SimpleName MethodInvocation SimpleName get private
+validate utils SimpleName MethodInvocation SimpleName check instance of
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName kp
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get private
+validate utils SimpleName MethodInvocation SimpleName prv type
+validate utils SimpleName MethodInvocation StringLiteral mismatched private key type
+check instance of SimpleName MethodInvocation MethodInvocation SimpleName kp
+check instance of SimpleName MethodInvocation MethodInvocation SimpleName get private
+check instance of SimpleName MethodInvocation SimpleName prv type
+check instance of SimpleName MethodInvocation StringLiteral mismatched private key type
+kp SimpleName MethodInvocation MethodInvocation SimpleName prv type
+get private SimpleName MethodInvocation MethodInvocation SimpleName prv type
+kp SimpleName MethodInvocation MethodInvocation StringLiteral mismatched private key type
+get private SimpleName MethodInvocation MethodInvocation StringLiteral mismatched private key type
+prv type SimpleName MethodInvocation StringLiteral mismatched private key type
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName check instance of
+prv key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName kp
+prv key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get private
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName prv type
+prv key SimpleName VariableDeclarationFragment MethodInvocation StringLiteral mismatched private key type
+private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv key
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral rawtypes
+open ssh key pair resource parser SimpleName MethodInvocation SimpleName get private key entry decoder
+open ssh key pair resource parser SimpleName MethodInvocation SimpleName prv key
+get private key entry decoder SimpleName MethodInvocation SimpleName prv key
+decoder SimpleName VariableDeclarationFragment MethodInvocation SimpleName open ssh key pair resource parser
+decoder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private key entry decoder
+decoder SimpleName VariableDeclarationFragment MethodInvocation SimpleName prv key
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName private key entry decoder
+rawtypes StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName private key entry decoder
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName decoder
+rawtypes StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName decoder
+private key entry decoder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName decoder
+assert not null SimpleName MethodInvocation StringLiteral no private key decoder
+assert not null SimpleName MethodInvocation SimpleName decoder
+no private key decoder StringLiteral MethodInvocation SimpleName decoder
+decoder SimpleName MethodInvocation SimpleName is public key recovery supported
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+decoder SimpleName MethodInvocation SimpleName recover public key
+decoder SimpleName MethodInvocation SimpleName prv key
+recover public key SimpleName MethodInvocation SimpleName prv key
+rec key SimpleName VariableDeclarationFragment MethodInvocation SimpleName decoder
+rec key SimpleName VariableDeclarationFragment MethodInvocation SimpleName recover public key
+rec key SimpleName VariableDeclarationFragment MethodInvocation SimpleName prv key
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName public key
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName public key
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName rec key
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName rec key
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rec key
+assert key equals SimpleName MethodInvocation StringLiteral mismatched recovered public key
+assert key equals SimpleName MethodInvocation SimpleName pub key
+assert key equals SimpleName MethodInvocation SimpleName rec key
+mismatched recovered public key StringLiteral MethodInvocation SimpleName pub key
+mismatched recovered public key StringLiteral MethodInvocation SimpleName rec key
+pub key SimpleName MethodInvocation SimpleName rec key
+key pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+kp SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load key pairs
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load key pairs
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName pairs
+void PrimitiveType MethodDeclaration SimpleName test load key pairs
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName pairs
+test load key pairs SimpleName MethodDeclaration SimpleType SimpleName exception
+test load key pairs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName pairs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load key pairs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load key pairs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

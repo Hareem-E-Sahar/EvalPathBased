@@ -1,0 +1,55 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity type
+all support holder SimpleName MethodInvocation SimpleName get
+all value SimpleName VariableDeclarationFragment MethodInvocation SimpleName all support holder
+all value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName all value
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName all value
+length SimpleName MethodInvocation SimpleName all value
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+all value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get configuration property name SimpleName MethodInvocation StringLiteral support all
+prop name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration property name
+prop name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral support all
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop name
+get string property SimpleName MethodInvocation SimpleName prop name
+get string property SimpleName MethodInvocation SimpleName all options value
+prop name SimpleName MethodInvocation SimpleName all options value
+all value SimpleName Assignment MethodInvocation SimpleName get string property
+all value SimpleName Assignment MethodInvocation SimpleName prop name
+all value SimpleName Assignment MethodInvocation SimpleName all options value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName all value
+is empty SimpleName MethodInvocation SimpleName all value
+all value SimpleName Assignment SimpleName no options value
+all support holder SimpleName MethodInvocation SimpleName set
+all support holder SimpleName MethodInvocation SimpleName all value
+set SimpleName MethodInvocation SimpleName all value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get default security entity support value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get default security entity support value
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName all value
+string SimpleName SimpleType MethodDeclaration SimpleName get default security entity support value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get default security entity support value SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get default security entity support value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get default security entity support value SimpleName MethodDeclaration Block ReturnStatement SimpleName all value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default security entity support value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default security entity support value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type

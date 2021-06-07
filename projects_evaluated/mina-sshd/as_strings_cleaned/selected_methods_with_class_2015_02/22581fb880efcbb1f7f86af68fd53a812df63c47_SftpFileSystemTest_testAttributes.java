@@ -1,0 +1,170 @@
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetsftp
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+utils SimpleName MethodInvocation ClassInstanceCreation StringLiteral targetsftp
+delete recursive SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+delete recursive SimpleName MethodInvocation ClassInstanceCreation StringLiteral targetsftp
+sftpxxlocalhost StringLiteral InfixExpression SimpleName port
+sftpxxlocalhost StringLiteral InfixExpression StringLiteral /
+port SimpleName InfixExpression StringLiteral /
+uri SimpleName MethodInvocation SimpleName create
+uri SimpleName MethodInvocation InfixExpression StringLiteral sftpxxlocalhost
+uri SimpleName MethodInvocation InfixExpression SimpleName port
+uri SimpleName MethodInvocation InfixExpression StringLiteral /
+create SimpleName MethodInvocation InfixExpression StringLiteral sftpxxlocalhost
+create SimpleName MethodInvocation InfixExpression SimpleName port
+create SimpleName MethodInvocation InfixExpression StringLiteral /
+file systems SimpleName MethodInvocation SimpleName new file system
+file systems SimpleName MethodInvocation MethodInvocation SimpleName uri
+file systems SimpleName MethodInvocation MethodInvocation SimpleName create
+file systems SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral sftpxxlocalhost
+file systems SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName port
+file systems SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+new file system SimpleName MethodInvocation MethodInvocation SimpleName uri
+new file system SimpleName MethodInvocation MethodInvocation SimpleName create
+new file system SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral sftpxxlocalhost
+new file system SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName port
+new file system SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file systems
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uri
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation StringLiteral targetsftpclienttesttxt
+get path SimpleName MethodInvocation StringLiteral targetsftpclienttesttxt
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral targetsftpclienttesttxt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName get parent
+files SimpleName MethodInvocation SimpleName create directories
+files SimpleName MethodInvocation MethodInvocation SimpleName file
+files SimpleName MethodInvocation MethodInvocation SimpleName get parent
+create directories SimpleName MethodInvocation MethodInvocation SimpleName file
+create directories SimpleName MethodInvocation MethodInvocation SimpleName get parent
+hello world StringLiteral MethodInvocation SimpleName get bytes
+files SimpleName MethodInvocation SimpleName write
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation MethodInvocation StringLiteral hello world
+files SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation SimpleName file
+write SimpleName MethodInvocation MethodInvocation StringLiteral hello world
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+file SimpleName MethodInvocation MethodInvocation StringLiteral hello world
+file SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+files SimpleName MethodInvocation SimpleName read attributes
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation StringLiteral posix
+read attributes SimpleName MethodInvocation SimpleName file
+read attributes SimpleName MethodInvocation StringLiteral posix
+file SimpleName MethodInvocation StringLiteral posix
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+attrs SimpleName VariableDeclarationFragment MethodInvocation StringLiteral posix
+files SimpleName MethodInvocation SimpleName set attribute
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation StringLiteral basicsize
+files SimpleName MethodInvocation NumberLiteral l
+set attribute SimpleName MethodInvocation SimpleName file
+set attribute SimpleName MethodInvocation StringLiteral basicsize
+set attribute SimpleName MethodInvocation NumberLiteral l
+file SimpleName MethodInvocation StringLiteral basicsize
+file SimpleName MethodInvocation NumberLiteral l
+basicsize StringLiteral MethodInvocation NumberLiteral l
+posix file permissions SimpleName MethodInvocation SimpleName from string
+posix file permissions SimpleName MethodInvocation StringLiteral rwxr
+from string SimpleName MethodInvocation StringLiteral rwxr
+files SimpleName MethodInvocation SimpleName set attribute
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation StringLiteral posixpermissions
+files SimpleName MethodInvocation MethodInvocation SimpleName posix file permissions
+files SimpleName MethodInvocation MethodInvocation SimpleName from string
+files SimpleName MethodInvocation MethodInvocation StringLiteral rwxr
+set attribute SimpleName MethodInvocation SimpleName file
+set attribute SimpleName MethodInvocation StringLiteral posixpermissions
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName posix file permissions
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName from string
+set attribute SimpleName MethodInvocation MethodInvocation StringLiteral rwxr
+file SimpleName MethodInvocation StringLiteral posixpermissions
+file SimpleName MethodInvocation MethodInvocation SimpleName posix file permissions
+file SimpleName MethodInvocation MethodInvocation SimpleName from string
+file SimpleName MethodInvocation MethodInvocation StringLiteral rwxr
+posixpermissions StringLiteral MethodInvocation MethodInvocation SimpleName posix file permissions
+posixpermissions StringLiteral MethodInvocation MethodInvocation SimpleName from string
+posixpermissions StringLiteral MethodInvocation MethodInvocation StringLiteral rwxr
+file time SimpleName MethodInvocation SimpleName from millis
+file time SimpleName MethodInvocation NumberLiteral l
+from millis SimpleName MethodInvocation NumberLiteral l
+files SimpleName MethodInvocation SimpleName set attribute
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation StringLiteral basiclast modified time
+files SimpleName MethodInvocation MethodInvocation SimpleName file time
+files SimpleName MethodInvocation MethodInvocation SimpleName from millis
+files SimpleName MethodInvocation MethodInvocation NumberLiteral l
+set attribute SimpleName MethodInvocation SimpleName file
+set attribute SimpleName MethodInvocation StringLiteral basiclast modified time
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName file time
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName from millis
+set attribute SimpleName MethodInvocation MethodInvocation NumberLiteral l
+file SimpleName MethodInvocation StringLiteral basiclast modified time
+file SimpleName MethodInvocation MethodInvocation SimpleName file time
+file SimpleName MethodInvocation MethodInvocation SimpleName from millis
+file SimpleName MethodInvocation MethodInvocation NumberLiteral l
+basiclast modified time StringLiteral MethodInvocation MethodInvocation SimpleName file time
+basiclast modified time StringLiteral MethodInvocation MethodInvocation SimpleName from millis
+basiclast modified time StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+file SimpleName MethodInvocation SimpleName get file system
+file SimpleName MethodInvocation MethodInvocation SimpleName get user principal lookup service
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get user principal lookup service
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lookup principal by group name
+get file system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lookup principal by group name
+get user principal lookup service SimpleName MethodInvocation MethodInvocation SimpleName lookup principal by group name
+file SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral everyone
+get file system SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral everyone
+get user principal lookup service SimpleName MethodInvocation MethodInvocation StringLiteral everyone
+lookup principal by group name SimpleName MethodInvocation StringLiteral everyone
+files SimpleName MethodInvocation SimpleName set attribute
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation StringLiteral posixgroup
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user principal lookup service
+files SimpleName MethodInvocation MethodInvocation SimpleName lookup principal by group name
+files SimpleName MethodInvocation MethodInvocation StringLiteral everyone
+set attribute SimpleName MethodInvocation SimpleName file
+set attribute SimpleName MethodInvocation StringLiteral posixgroup
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user principal lookup service
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName lookup principal by group name
+set attribute SimpleName MethodInvocation MethodInvocation StringLiteral everyone
+file SimpleName MethodInvocation StringLiteral posixgroup
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user principal lookup service
+file SimpleName MethodInvocation MethodInvocation SimpleName lookup principal by group name
+file SimpleName MethodInvocation MethodInvocation StringLiteral everyone
+posixgroup StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get user principal lookup service
+posixgroup StringLiteral MethodInvocation MethodInvocation SimpleName lookup principal by group name
+posixgroup StringLiteral MethodInvocation MethodInvocation StringLiteral everyone
+fs SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test attributes
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test attributes
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test attributes SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,30 @@
+event notifier SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+event notifier SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName notifier
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName notifier
+exit status channel request handler SimpleName SimpleType ClassInstanceCreation SimpleName exit status holder
+exit status channel request handler SimpleName SimpleType ClassInstanceCreation SimpleName notifier
+exit status holder SimpleName ClassInstanceCreation SimpleName notifier
+add request handler SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exit status channel request handler
+add request handler SimpleName MethodInvocation ClassInstanceCreation SimpleName exit status holder
+add request handler SimpleName MethodInvocation ClassInstanceCreation SimpleName notifier
+exit signal channel request handler SimpleName SimpleType ClassInstanceCreation SimpleName exit signal holder
+exit signal channel request handler SimpleName SimpleType ClassInstanceCreation SimpleName notifier
+exit signal holder SimpleName ClassInstanceCreation SimpleName notifier
+add request handler SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exit signal channel request handler
+add request handler SimpleName MethodInvocation ClassInstanceCreation SimpleName exit signal holder
+add request handler SimpleName MethodInvocation ClassInstanceCreation SimpleName notifier
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add channel signal request handlers
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName notifier
+void PrimitiveType MethodDeclaration SimpleName add channel signal request handlers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName notifier
+add channel signal request handlers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName notifier
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add channel signal request handlers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notifier
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add channel signal request handlers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notifier

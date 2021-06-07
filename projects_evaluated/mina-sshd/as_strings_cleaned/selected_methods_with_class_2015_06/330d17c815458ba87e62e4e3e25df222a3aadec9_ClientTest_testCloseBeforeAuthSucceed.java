@@ -1,0 +1,78 @@
+count down latch SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+auth latch SimpleName Assignment ClassInstanceCreation SimpleType SimpleName count down latch
+auth latch SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation StringLiteral localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth
+auth future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth future
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+close future SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+close future SimpleName VariableDeclarationFragment MethodInvocation SimpleName close
+close future SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+close future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName close future
+auth latch SimpleName MethodInvocation SimpleName count down
+auth future SimpleName MethodInvocation SimpleName await
+close future SimpleName MethodInvocation SimpleName await
+auth future SimpleName MethodInvocation SimpleName get exception
+assert not null SimpleName MethodInvocation StringLiteral no authentication exception
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName auth future
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get exception
+no authentication exception StringLiteral MethodInvocation MethodInvocation SimpleName auth future
+no authentication exception StringLiteral MethodInvocation MethodInvocation SimpleName get exception
+close future SimpleName MethodInvocation SimpleName is closed
+assert true SimpleName MethodInvocation StringLiteral future not closed
+assert true SimpleName MethodInvocation MethodInvocation SimpleName close future
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is closed
+future not closed StringLiteral MethodInvocation MethodInvocation SimpleName close future
+future not closed StringLiteral MethodInvocation MethodInvocation SimpleName is closed
+client SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test close before auth succeed
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test close before auth succeed
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test close before auth succeed
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test close before auth succeed SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test close before auth succeed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test close before auth succeed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,96 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName link path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName target path
+boolean PrimitiveType SingleVariableDeclaration SimpleName symbolic
+link StringLiteral InfixExpression SimpleName link path
+link StringLiteral InfixExpression StringLiteral =>
+link StringLiteral InfixExpression SimpleName target path
+link StringLiteral InfixExpression StringLiteral ] symbolic
+link StringLiteral InfixExpression SimpleName symbolic
+link path SimpleName InfixExpression StringLiteral =>
+link path SimpleName InfixExpression SimpleName target path
+link path SimpleName InfixExpression StringLiteral ] symbolic
+link path SimpleName InfixExpression SimpleName symbolic
+link path SimpleName InfixExpression StringLiteral : client is closed
+=> StringLiteral InfixExpression SimpleName target path
+=> StringLiteral InfixExpression StringLiteral ] symbolic
+=> StringLiteral InfixExpression SimpleName symbolic
+=> StringLiteral InfixExpression StringLiteral : client is closed
+target path SimpleName InfixExpression StringLiteral ] symbolic
+target path SimpleName InfixExpression SimpleName symbolic
+target path SimpleName InfixExpression StringLiteral : client is closed
+] symbolic StringLiteral InfixExpression SimpleName symbolic
+] symbolic StringLiteral InfixExpression StringLiteral : client is closed
+symbolic SimpleName InfixExpression StringLiteral : client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral link
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName link path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral =>
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName target path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ] symbolic
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName symbolic
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : client is closed
+delegate SimpleName MethodInvocation SimpleName link
+delegate SimpleName MethodInvocation SimpleName link path
+delegate SimpleName MethodInvocation SimpleName target path
+delegate SimpleName MethodInvocation SimpleName symbolic
+link SimpleName MethodInvocation SimpleName link path
+link SimpleName MethodInvocation SimpleName target path
+link SimpleName MethodInvocation SimpleName symbolic
+link path SimpleName MethodInvocation SimpleName target path
+link path SimpleName MethodInvocation SimpleName symbolic
+target path SimpleName MethodInvocation SimpleName symbolic
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName link
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName link path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName target path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName link
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName link path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target path
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName symbolic
+void PrimitiveType MethodDeclaration SimpleName link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName link path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName symbolic
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName link path
+link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target path
+link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName symbolic
+link SimpleName MethodDeclaration SimpleType SimpleName io exception
+link path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target path
+link path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+link path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName symbolic
+link path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+target path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+target path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName symbolic
+target path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+symbolic SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName symbolic
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName symbolic
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,155 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+char PrimitiveType SingleVariableDeclaration SimpleName sep char
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName path
+is empty SimpleName MethodInvocation SimpleName path
+path SimpleName MethodInvocation SimpleName index of
+path SimpleName MethodInvocation SimpleName sep char
+index of SimpleName MethodInvocation SimpleName sep char
+cur pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+cur pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+cur pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName sep char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName path
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sep char
+cur pos SimpleName InfixExpression NumberLiteral empty
+last pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+path SimpleName MethodInvocation SimpleName length
+cur pos SimpleName InfixExpression MethodInvocation SimpleName path
+cur pos SimpleName InfixExpression MethodInvocation SimpleName length
+next pos SimpleName VariableDeclarationFragment SimpleName cur pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur pos
+path SimpleName MethodInvocation SimpleName length
+next pos SimpleName InfixExpression MethodInvocation SimpleName path
+next pos SimpleName InfixExpression MethodInvocation SimpleName length
+path SimpleName MethodInvocation SimpleName char at
+path SimpleName MethodInvocation SimpleName next pos
+char at SimpleName MethodInvocation SimpleName next pos
+path SimpleName MethodInvocation InfixExpression SimpleName sep char
+char at SimpleName MethodInvocation InfixExpression SimpleName sep char
+next pos SimpleName MethodInvocation InfixExpression SimpleName sep char
+next pos SimpleName InfixExpression SimpleName cur pos
+seq len SimpleName VariableDeclarationFragment InfixExpression SimpleName next pos
+seq len SimpleName VariableDeclarationFragment InfixExpression SimpleName cur pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName seq len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName next pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName cur pos
+seq len SimpleName InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName length
+path SimpleName MethodInvocation InfixExpression SimpleName seq len
+length SimpleName MethodInvocation InfixExpression SimpleName seq len
+string builder SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName seq len
+sb SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName seq len
+last pos SimpleName InfixExpression SimpleName cur pos
+path SimpleName MethodInvocation SimpleName substring
+path SimpleName MethodInvocation SimpleName last pos
+path SimpleName MethodInvocation SimpleName cur pos
+substring SimpleName MethodInvocation SimpleName last pos
+substring SimpleName MethodInvocation SimpleName cur pos
+last pos SimpleName MethodInvocation SimpleName cur pos
+clr text SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+clr text SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+clr text SimpleName VariableDeclarationFragment MethodInvocation SimpleName last pos
+clr text SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur pos
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clr text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName clr text
+append SimpleName MethodInvocation SimpleName clr text
+last pos SimpleName Assignment SimpleName next pos
+path SimpleName MethodInvocation SimpleName length
+next pos SimpleName InfixExpression MethodInvocation SimpleName path
+next pos SimpleName InfixExpression MethodInvocation SimpleName length
+path SimpleName MethodInvocation SimpleName index of
+path SimpleName MethodInvocation SimpleName sep char
+path SimpleName MethodInvocation SimpleName next pos
+index of SimpleName MethodInvocation SimpleName sep char
+index of SimpleName MethodInvocation SimpleName next pos
+sep char SimpleName MethodInvocation SimpleName next pos
+cur pos SimpleName Assignment MethodInvocation SimpleName path
+cur pos SimpleName Assignment MethodInvocation SimpleName index of
+cur pos SimpleName Assignment MethodInvocation SimpleName sep char
+cur pos SimpleName Assignment MethodInvocation SimpleName next pos
+cur pos SimpleName InfixExpression SimpleName next pos
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+path SimpleName MethodInvocation SimpleName length
+last pos SimpleName InfixExpression MethodInvocation SimpleName path
+last pos SimpleName InfixExpression MethodInvocation SimpleName length
+path SimpleName MethodInvocation SimpleName substring
+path SimpleName MethodInvocation SimpleName last pos
+substring SimpleName MethodInvocation SimpleName last pos
+clr text SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+clr text SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+clr text SimpleName VariableDeclarationFragment MethodInvocation SimpleName last pos
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clr text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName clr text
+append SimpleName MethodInvocation SimpleName clr text
+sb SimpleName MethodInvocation SimpleName to string
+path SimpleName Assignment MethodInvocation SimpleName sb
+path SimpleName Assignment MethodInvocation SimpleName to string
+path SimpleName MethodInvocation SimpleName length
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName length
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName char at
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName path
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName path
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation InfixExpression SimpleName sep char
+char at SimpleName MethodInvocation InfixExpression SimpleName sep char
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName sep char
+path SimpleName InfixExpression StringLiteral .
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName apply slashify rules
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sep char
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName apply slashify rules
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sep char
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName apply slashify rules
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sep char
+apply slashify rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+apply slashify rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+apply slashify rules SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+apply slashify rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sep char
+apply slashify rules SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+apply slashify rules SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sep char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply slashify rules
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sep char
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply slashify rules
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sep char

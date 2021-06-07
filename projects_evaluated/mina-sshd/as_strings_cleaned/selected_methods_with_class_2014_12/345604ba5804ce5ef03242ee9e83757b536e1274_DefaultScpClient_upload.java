@@ -1,0 +1,216 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName local
+string SimpleName SimpleType SingleVariableDeclaration SimpleName remote
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName option
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+check not null and not empty SimpleName MethodInvocation SimpleName local
+check not null and not empty SimpleName MethodInvocation StringLiteral invalid argument local {}
+local SimpleName MethodInvocation StringLiteral invalid argument local {}
+local SimpleName Assignment MethodInvocation SimpleName check not null and not empty
+local SimpleName Assignment MethodInvocation SimpleName local
+local SimpleName Assignment MethodInvocation StringLiteral invalid argument local {}
+check not null and not empty SimpleName MethodInvocation SimpleName remote
+check not null and not empty SimpleName MethodInvocation StringLiteral invalid argument remote {}
+remote SimpleName MethodInvocation StringLiteral invalid argument remote {}
+remote SimpleName Assignment MethodInvocation SimpleName check not null and not empty
+remote SimpleName Assignment MethodInvocation SimpleName remote
+remote SimpleName Assignment MethodInvocation StringLiteral invalid argument remote {}
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral scp
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral scp
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName optionrecursive
+contains SimpleName MethodInvocation QualifiedName optionrecursive
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral r
+append SimpleName MethodInvocation StringLiteral r
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName optiontarget is directory
+contains SimpleName MethodInvocation QualifiedName optiontarget is directory
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral d
+append SimpleName MethodInvocation StringLiteral d
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName optionpreserve attributes
+contains SimpleName MethodInvocation QualifiedName optionpreserve attributes
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral p
+append SimpleName MethodInvocation StringLiteral p
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral t
+append SimpleName MethodInvocation StringLiteral t
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral --
+append SimpleName MethodInvocation StringLiteral --
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName remote
+append SimpleName MethodInvocation SimpleName remote
+sb SimpleName MethodInvocation SimpleName to string
+client session SimpleName MethodInvocation SimpleName create exec channel
+client session SimpleName MethodInvocation MethodInvocation SimpleName sb
+client session SimpleName MethodInvocation MethodInvocation SimpleName to string
+create exec channel SimpleName MethodInvocation MethodInvocation SimpleName sb
+create exec channel SimpleName MethodInvocation MethodInvocation SimpleName to string
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName client session
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName create exec channel
+channel SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sb
+channel SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+channel exec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName open
+channel SimpleName MethodInvocation MethodInvocation SimpleName await
+open SimpleName MethodInvocation MethodInvocation SimpleName await
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+init cause SimpleName MethodInvocation SimpleName e
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+client session SimpleName MethodInvocation SimpleName get factory manager
+client session SimpleName MethodInvocation MethodInvocation SimpleName get file system factory
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get file system factory
+factory SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName client session
+factory SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get factory manager
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system factory
+file system factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+factory SimpleName MethodInvocation SimpleName create file system
+factory SimpleName MethodInvocation SimpleName client session
+create file system SimpleName MethodInvocation SimpleName client session
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName client session
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+channel SimpleName MethodInvocation SimpleName get inverted out
+channel SimpleName MethodInvocation SimpleName get inverted in
+scp helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName channel
+scp helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get inverted out
+scp helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName channel
+scp helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get inverted in
+scp helper SimpleName SimpleType ClassInstanceCreation SimpleName fs
+channel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName channel
+channel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get inverted in
+get inverted out SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName channel
+get inverted out SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get inverted in
+channel SimpleName MethodInvocation ClassInstanceCreation SimpleName fs
+get inverted out SimpleName MethodInvocation ClassInstanceCreation SimpleName fs
+channel SimpleName MethodInvocation ClassInstanceCreation SimpleName fs
+get inverted in SimpleName MethodInvocation ClassInstanceCreation SimpleName fs
+helper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scp helper
+helper SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName channel
+helper SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get inverted out
+helper SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName channel
+helper SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get inverted in
+helper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+scp helper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName helper
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName local
+as list SimpleName MethodInvocation SimpleName local
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName optionrecursive
+contains SimpleName MethodInvocation QualifiedName optionrecursive
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName optionpreserve attributes
+contains SimpleName MethodInvocation QualifiedName optionpreserve attributes
+helper SimpleName MethodInvocation SimpleName send
+helper SimpleName MethodInvocation MethodInvocation SimpleName arrays
+helper SimpleName MethodInvocation MethodInvocation SimpleName as list
+helper SimpleName MethodInvocation MethodInvocation SimpleName local
+helper SimpleName MethodInvocation MethodInvocation SimpleName options
+helper SimpleName MethodInvocation MethodInvocation SimpleName contains
+helper SimpleName MethodInvocation MethodInvocation QualifiedName optionrecursive
+helper SimpleName MethodInvocation MethodInvocation SimpleName options
+helper SimpleName MethodInvocation MethodInvocation SimpleName contains
+helper SimpleName MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+helper SimpleName MethodInvocation QualifiedName scp helperdefault send buffer size
+send SimpleName MethodInvocation MethodInvocation SimpleName arrays
+send SimpleName MethodInvocation MethodInvocation SimpleName as list
+send SimpleName MethodInvocation MethodInvocation SimpleName local
+send SimpleName MethodInvocation MethodInvocation SimpleName options
+send SimpleName MethodInvocation MethodInvocation SimpleName contains
+send SimpleName MethodInvocation MethodInvocation QualifiedName optionrecursive
+send SimpleName MethodInvocation MethodInvocation SimpleName options
+send SimpleName MethodInvocation MethodInvocation SimpleName contains
+send SimpleName MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+send SimpleName MethodInvocation QualifiedName scp helperdefault send buffer size
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionrecursive
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionrecursive
+local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+local SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionrecursive
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+local SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+arrays SimpleName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+as list SimpleName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+local SimpleName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+options SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+optionrecursive QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName options
+optionrecursive QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+optionrecursive QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName optionpreserve attributes
+options SimpleName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+contains SimpleName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+optionrecursive QualifiedName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+options SimpleName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+contains SimpleName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+optionpreserve attributes QualifiedName MethodInvocation MethodInvocation QualifiedName scp helperdefault send buffer size
+fs SimpleName MethodInvocation SimpleName close
+unsupported operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+channel SimpleName MethodInvocation SimpleName close
+channel SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName upload
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName upload
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+upload SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+upload SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+upload SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote
+upload SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+upload SimpleName MethodDeclaration SimpleType SimpleName io exception
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+remote SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+remote SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName upload
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName upload
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

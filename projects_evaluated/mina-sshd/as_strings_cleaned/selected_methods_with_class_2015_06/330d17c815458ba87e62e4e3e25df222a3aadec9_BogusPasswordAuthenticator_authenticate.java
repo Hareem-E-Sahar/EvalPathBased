@@ -1,0 +1,93 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+username SimpleName MethodInvocation SimpleName equals
+username SimpleName MethodInvocation SimpleName password
+equals SimpleName MethodInvocation SimpleName password
+result SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName username
+result SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName equals
+result SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName password
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+log SimpleName MethodInvocation SimpleName is debug enabled
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation SimpleName result
+value of SimpleName MethodInvocation SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral authenticate {} / {} - sucess = {}
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName password
+debug SimpleName MethodInvocation StringLiteral authenticate {} / {} - sucess = {}
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName username
+debug SimpleName MethodInvocation SimpleName password
+debug SimpleName MethodInvocation MethodInvocation SimpleName boolean
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName result
+authenticate {} / {} - sucess = {} StringLiteral MethodInvocation SimpleName session
+authenticate {} / {} - sucess = {} StringLiteral MethodInvocation SimpleName username
+authenticate {} / {} - sucess = {} StringLiteral MethodInvocation SimpleName password
+authenticate {} / {} - sucess = {} StringLiteral MethodInvocation MethodInvocation SimpleName boolean
+authenticate {} / {} - sucess = {} StringLiteral MethodInvocation MethodInvocation SimpleName value of
+authenticate {} / {} - sucess = {} StringLiteral MethodInvocation MethodInvocation SimpleName result
+session SimpleName MethodInvocation SimpleName username
+session SimpleName MethodInvocation SimpleName password
+session SimpleName MethodInvocation MethodInvocation SimpleName boolean
+session SimpleName MethodInvocation MethodInvocation SimpleName value of
+session SimpleName MethodInvocation MethodInvocation SimpleName result
+username SimpleName MethodInvocation SimpleName password
+username SimpleName MethodInvocation MethodInvocation SimpleName boolean
+username SimpleName MethodInvocation MethodInvocation SimpleName value of
+username SimpleName MethodInvocation MethodInvocation SimpleName result
+password SimpleName MethodInvocation MethodInvocation SimpleName boolean
+password SimpleName MethodInvocation MethodInvocation SimpleName value of
+password SimpleName MethodInvocation MethodInvocation SimpleName result
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName authenticate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName username
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName authenticate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SimpleName authenticate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName password
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+authenticate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+authenticate SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+password SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName authenticate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName authenticate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

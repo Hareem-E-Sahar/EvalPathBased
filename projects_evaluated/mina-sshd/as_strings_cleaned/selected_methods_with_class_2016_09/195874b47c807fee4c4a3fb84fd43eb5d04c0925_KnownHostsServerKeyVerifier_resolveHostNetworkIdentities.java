@@ -1,0 +1,55 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName client session
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote address
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+candidates SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+sshd socket address SimpleName MethodInvocation SimpleName to address string
+sshd socket address SimpleName MethodInvocation SimpleName remote address
+to address string SimpleName MethodInvocation SimpleName remote address
+candidates SimpleName MethodInvocation SimpleName add
+candidates SimpleName MethodInvocation MethodInvocation SimpleName sshd socket address
+candidates SimpleName MethodInvocation MethodInvocation SimpleName to address string
+candidates SimpleName MethodInvocation MethodInvocation SimpleName remote address
+add SimpleName MethodInvocation MethodInvocation SimpleName sshd socket address
+add SimpleName MethodInvocation MethodInvocation SimpleName to address string
+add SimpleName MethodInvocation MethodInvocation SimpleName remote address
+client session SimpleName MethodInvocation SimpleName get connect address
+connect address SimpleName VariableDeclarationFragment MethodInvocation SimpleName client session
+connect address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connect address
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connect address
+sshd socket address SimpleName MethodInvocation SimpleName to address string
+sshd socket address SimpleName MethodInvocation SimpleName connect address
+to address string SimpleName MethodInvocation SimpleName connect address
+candidates SimpleName MethodInvocation SimpleName add
+candidates SimpleName MethodInvocation MethodInvocation SimpleName sshd socket address
+candidates SimpleName MethodInvocation MethodInvocation SimpleName to address string
+candidates SimpleName MethodInvocation MethodInvocation SimpleName connect address
+add SimpleName MethodInvocation MethodInvocation SimpleName sshd socket address
+add SimpleName MethodInvocation MethodInvocation SimpleName to address string
+add SimpleName MethodInvocation MethodInvocation SimpleName connect address
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve host network identities
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote address
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName candidates
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve host network identities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve host network identities
+resolve host network identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+resolve host network identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client session
+resolve host network identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+resolve host network identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote address
+resolve host network identities SimpleName MethodDeclaration Block ReturnStatement SimpleName candidates
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve host network identities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve host network identities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address

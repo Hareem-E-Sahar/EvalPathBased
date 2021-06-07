@@ -1,0 +1,500 @@
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName set up default client
+ssh client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation StringLiteral x
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation StringLiteral x
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+x StringLiteral MethodInvocation StringLiteral localhost
+x StringLiteral MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+x StringLiteral MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+x StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation StringLiteral x
+add password identity SimpleName MethodInvocation StringLiteral x
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+file SimpleName VariableDeclarationFragment StringLiteral targetsftpclienttest opentxt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral targetsftpclienttest opentxt
+file SimpleName SimpleType ClassInstanceCreation SimpleName file
+java file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+java file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName java file
+java file SimpleName MethodInvocation SimpleName get parent file
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName java file
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName get parent file
+java file SimpleName MethodInvocation SimpleName create new file
+java file SimpleName MethodInvocation SimpleName set writable
+java file SimpleName MethodInvocation BooleanLiteral false
+java file SimpleName MethodInvocation BooleanLiteral false
+set writable SimpleName MethodInvocation BooleanLiteral false
+set writable SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+java file SimpleName MethodInvocation SimpleName set readable
+java file SimpleName MethodInvocation BooleanLiteral false
+java file SimpleName MethodInvocation BooleanLiteral false
+set readable SimpleName MethodInvocation BooleanLiteral false
+set readable SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+session SimpleName MethodInvocation SimpleName create sftp client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create sftp client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+sftp clienthandle QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+os utils SimpleName MethodInvocation SimpleName is win
+is windows SimpleName VariableDeclarationFragment MethodInvocation SimpleName os utils
+is windows SimpleName VariableDeclarationFragment MethodInvocation SimpleName is win
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is windows
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName os utils
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is win
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+of SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral empty read should have failed
+assert SimpleName MethodInvocation SimpleName is windows
+assert true SimpleName MethodInvocation StringLiteral empty read should have failed
+assert true SimpleName MethodInvocation SimpleName is windows
+empty read should have failed StringLiteral MethodInvocation SimpleName is windows
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName h
+close SimpleName MethodInvocation SimpleName h
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+is windows SimpleName IfStatement Block ThrowStatement SimpleName e
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+of SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+fail SimpleName MethodInvocation StringLiteral empty write should have failed
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modetruncate
+of SimpleName MethodInvocation QualifiedName sftp clientopen modetruncate
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral empty truncate should have failed
+assert SimpleName MethodInvocation SimpleName is windows
+assert true SimpleName MethodInvocation StringLiteral empty truncate should have failed
+assert true SimpleName MethodInvocation SimpleName is windows
+empty truncate should have failed StringLiteral MethodInvocation SimpleName is windows
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName h
+close SimpleName MethodInvocation SimpleName h
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+sftp SimpleName MethodInvocation SimpleName stat
+sftp SimpleName MethodInvocation SimpleName file
+stat SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation FieldAccess SimpleName perms
+stat SimpleName MethodInvocation FieldAccess SimpleName perms
+file SimpleName MethodInvocation FieldAccess SimpleName perms
+perms SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName sftp
+perms SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName stat
+perms SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName file
+perms SimpleName VariableDeclarationFragment FieldAccess SimpleName perms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName perms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment FieldAccess SimpleName perms
+is windows SimpleName ConditionalExpression NumberLiteral empty
+is windows SimpleName ConditionalExpression QualifiedName sftp clients irusr
+empty NumberLiteral ConditionalExpression QualifiedName sftp clients irusr
+sftp clients iwusr QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName is windows
+sftp clients iwusr QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+sftp clients iwusr QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName sftp clients irusr
+perms mask SimpleName VariableDeclarationFragment InfixExpression QualifiedName sftp clients iwusr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName perms mask
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName sftp clients iwusr
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation SimpleName perms
+to hex string SimpleName MethodInvocation SimpleName perms
+mismatched permissions - x StringLiteral InfixExpression MethodInvocation SimpleName integer
+mismatched permissions - x StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+mismatched permissions - x StringLiteral InfixExpression MethodInvocation SimpleName perms
+perms SimpleName InfixExpression SimpleName perms mask
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression StringLiteral mismatched permissions - x
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName integer
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName perms
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName perms
+assert SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName perms mask
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched permissions - x
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName integer
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName perms
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName perms
+assert equals SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName perms mask
+mismatched permissions - x StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+integer SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+to hex string SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+perms SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName perms
+empty NumberLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName perms mask
+java file SimpleName MethodInvocation SimpleName set writable
+java file SimpleName MethodInvocation BooleanLiteral true
+java file SimpleName MethodInvocation BooleanLiteral false
+set writable SimpleName MethodInvocation BooleanLiteral true
+set writable SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modetruncate
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+of SimpleName MethodInvocation QualifiedName sftp clientopen modetruncate
+of SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+sftp clientopen modetruncate QualifiedName MethodInvocation QualifiedName sftp clientopen modewrite
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen modetruncate
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName h
+close SimpleName MethodInvocation SimpleName h
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+of SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+empty StringLiteral MethodInvocation SimpleName get bytes
+d SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName h
+sftp SimpleName MethodInvocation NumberLiteral empty
+sftp SimpleName MethodInvocation SimpleName d
+sftp SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName h
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName d
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation QualifiedName dlength
+h SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation SimpleName d
+h SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation QualifiedName dlength
+empty NumberLiteral MethodInvocation SimpleName d
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName dlength
+d SimpleName MethodInvocation NumberLiteral empty
+d SimpleName MethodInvocation QualifiedName dlength
+empty NumberLiteral MethodInvocation QualifiedName dlength
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName h
+sftp SimpleName MethodInvocation QualifiedName dlength
+sftp SimpleName MethodInvocation SimpleName d
+sftp SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName h
+write SimpleName MethodInvocation QualifiedName dlength
+write SimpleName MethodInvocation SimpleName d
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation QualifiedName dlength
+h SimpleName MethodInvocation QualifiedName dlength
+h SimpleName MethodInvocation SimpleName d
+h SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation QualifiedName dlength
+dlength QualifiedName MethodInvocation SimpleName d
+dlength QualifiedName MethodInvocation NumberLiteral empty
+dlength QualifiedName MethodInvocation QualifiedName dlength
+d SimpleName MethodInvocation NumberLiteral empty
+d SimpleName MethodInvocation QualifiedName dlength
+empty NumberLiteral MethodInvocation QualifiedName dlength
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName h
+close SimpleName MethodInvocation SimpleName h
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+of SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+dlength QualifiedName InfixExpression NumberLiteral empty
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName h
+sftp SimpleName MethodInvocation InfixExpression QualifiedName dlength
+sftp SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sftp SimpleName MethodInvocation SimpleName d
+sftp SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName h
+write SimpleName MethodInvocation InfixExpression QualifiedName dlength
+write SimpleName MethodInvocation InfixExpression NumberLiteral empty
+write SimpleName MethodInvocation SimpleName d
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation QualifiedName dlength
+h SimpleName MethodInvocation InfixExpression QualifiedName dlength
+h SimpleName MethodInvocation InfixExpression NumberLiteral empty
+h SimpleName MethodInvocation SimpleName d
+h SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation QualifiedName dlength
+dlength QualifiedName InfixExpression MethodInvocation SimpleName d
+empty NumberLiteral InfixExpression MethodInvocation SimpleName d
+dlength QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+dlength QualifiedName InfixExpression MethodInvocation QualifiedName dlength
+empty NumberLiteral InfixExpression MethodInvocation QualifiedName dlength
+d SimpleName MethodInvocation NumberLiteral empty
+d SimpleName MethodInvocation QualifiedName dlength
+empty NumberLiteral MethodInvocation QualifiedName dlength
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName h
+close SimpleName MethodInvocation SimpleName h
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+of SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+- StringLiteral MethodInvocation SimpleName get bytes
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName h
+sftp SimpleName MethodInvocation NumberLiteral empty
+sftp SimpleName MethodInvocation MethodInvocation StringLiteral -
+sftp SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+sftp SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName h
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation MethodInvocation StringLiteral -
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation MethodInvocation StringLiteral -
+h SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+h SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral -
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get bytes
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+- StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+- StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName h
+close SimpleName MethodInvocation SimpleName h
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+of SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral data read should have failed
+assert SimpleName MethodInvocation SimpleName is windows
+assert true SimpleName MethodInvocation StringLiteral data read should have failed
+assert true SimpleName MethodInvocation SimpleName is windows
+data read should have failed StringLiteral MethodInvocation SimpleName is windows
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName h
+close SimpleName MethodInvocation SimpleName h
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+is windows SimpleName IfStatement Block ThrowStatement SimpleName e
+java file SimpleName MethodInvocation SimpleName set readable
+java file SimpleName MethodInvocation BooleanLiteral true
+java file SimpleName MethodInvocation BooleanLiteral false
+set readable SimpleName MethodInvocation BooleanLiteral true
+set readable SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+of SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+open SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+file SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file SimpleName MethodInvocation MethodInvocation SimpleName of
+file SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+h SimpleName Assignment MethodInvocation SimpleName sftp
+h SimpleName Assignment MethodInvocation SimpleName open
+h SimpleName Assignment MethodInvocation SimpleName file
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName enum set
+h SimpleName Assignment MethodInvocation MethodInvocation SimpleName of
+h SimpleName Assignment MethodInvocation MethodInvocation QualifiedName sftp clientopen moderead
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buf SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+sftp SimpleName MethodInvocation SimpleName read
+sftp SimpleName MethodInvocation SimpleName h
+sftp SimpleName MethodInvocation NumberLiteral l
+sftp SimpleName MethodInvocation SimpleName buf
+sftp SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation SimpleName h
+read SimpleName MethodInvocation NumberLiteral l
+read SimpleName MethodInvocation SimpleName buf
+read SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation NumberLiteral l
+h SimpleName MethodInvocation SimpleName buf
+h SimpleName MethodInvocation NumberLiteral empty
+h SimpleName MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation SimpleName buf
+l NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName h
+l SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName buf
+l SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty

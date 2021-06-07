@@ -1,0 +1,77 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+object SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+props SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName factory manager
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get properties
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName manager
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get properties
+when SimpleName MethodInvocation MethodInvocation SimpleName manager
+when SimpleName MethodInvocation MethodInvocation SimpleName get properties
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation SimpleName props
+when SimpleName MethodInvocation MethodInvocation SimpleName props
+manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName props
+get properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName props
+then return SimpleName MethodInvocation SimpleName props
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName session
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get username
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get username
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName get username
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+then return SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName get factory manager
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation SimpleName manager
+when SimpleName MethodInvocation MethodInvocation SimpleName manager
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName manager
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName manager
+then return SimpleName MethodInvocation SimpleName manager
+private Modifier MethodDeclaration SimpleType SimpleName session
+private Modifier MethodDeclaration SimpleName create mock session
+private Modifier MethodDeclaration Block ReturnStatement SimpleName session
+session SimpleName SimpleType MethodDeclaration SimpleName create mock session
+create mock session SimpleName MethodDeclaration Block ReturnStatement SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleName create mock session
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create mock session

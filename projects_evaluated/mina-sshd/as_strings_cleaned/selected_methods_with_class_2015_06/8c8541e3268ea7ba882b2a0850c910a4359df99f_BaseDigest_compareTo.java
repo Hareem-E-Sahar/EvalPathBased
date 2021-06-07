@@ -1,0 +1,77 @@
+digest SimpleName SimpleType SingleVariableDeclaration SimpleName that
+this alg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get algorithm
+that SimpleName MethodInvocation SimpleName get algorithm
+that alg SimpleName VariableDeclarationFragment MethodInvocation SimpleName that
+that alg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get algorithm
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName this alg
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName that alg
+this alg SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName that alg
+generic utils SimpleName MethodInvocation SimpleName safe compare
+generic utils SimpleName MethodInvocation SimpleName this alg
+generic utils SimpleName MethodInvocation SimpleName that alg
+generic utils SimpleName MethodInvocation BooleanLiteral false
+safe compare SimpleName MethodInvocation SimpleName this alg
+safe compare SimpleName MethodInvocation SimpleName that alg
+safe compare SimpleName MethodInvocation BooleanLiteral false
+this alg SimpleName MethodInvocation SimpleName that alg
+this alg SimpleName MethodInvocation BooleanLiteral false
+that alg SimpleName MethodInvocation BooleanLiteral false
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName safe compare
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName this alg
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName that alg
+n res SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n res
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName safe compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName this alg
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName that alg
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral false
+n res SimpleName InfixExpression NumberLiteral empty
+that SimpleName MethodInvocation SimpleName get block size
+integer SimpleName MethodInvocation SimpleName compare
+integer SimpleName MethodInvocation MethodInvocation SimpleName get block size
+integer SimpleName MethodInvocation MethodInvocation SimpleName that
+integer SimpleName MethodInvocation MethodInvocation SimpleName get block size
+compare SimpleName MethodInvocation MethodInvocation SimpleName get block size
+compare SimpleName MethodInvocation MethodInvocation SimpleName that
+compare SimpleName MethodInvocation MethodInvocation SimpleName get block size
+get block size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName that
+get block size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get block size
+n res SimpleName Assignment MethodInvocation SimpleName integer
+n res SimpleName Assignment MethodInvocation SimpleName compare
+n res SimpleName Assignment MethodInvocation MethodInvocation SimpleName get block size
+n res SimpleName Assignment MethodInvocation MethodInvocation SimpleName that
+n res SimpleName Assignment MethodInvocation MethodInvocation SimpleName get block size
+n res SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName that
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName that
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName that
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName that
+compare to SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare to SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that

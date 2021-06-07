@@ -1,0 +1,76 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType WildcardType ?
+pty mode SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName modes
+pty mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName modes
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName modes
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+pty mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName modes
+is empty SimpleName MethodInvocation SimpleName modes
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName options
+modes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+modes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+modes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName options
+collections SimpleName MethodInvocation SimpleName empty set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName pty mode
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName pty mode
+enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+pty mode SimpleName SimpleType SingleVariableDeclaration SimpleName m
+get boolean setting value SimpleName MethodInvocation SimpleName modes
+get boolean setting value SimpleName MethodInvocation SimpleName m
+modes SimpleName MethodInvocation SimpleName m
+enabled SimpleName MethodInvocation SimpleName add
+enabled SimpleName MethodInvocation SimpleName m
+add SimpleName MethodInvocation SimpleName m
+pty mode SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName options
+m SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName options
+options SimpleName EnhancedForStatement Block ReturnStatement SimpleName enabled
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pty mode
+public Modifier MethodDeclaration SimpleName resolve enabled options
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName modes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pty mode
+static Modifier MethodDeclaration SimpleName resolve enabled options
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName modes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName options
+static Modifier MethodDeclaration Block ReturnStatement SimpleName enabled
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve enabled options
+pty mode SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve enabled options
+resolve enabled options SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+resolve enabled options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName modes
+resolve enabled options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+resolve enabled options SimpleName MethodDeclaration Block EnhancedForStatement SimpleName options
+resolve enabled options SimpleName MethodDeclaration Block ReturnStatement SimpleName enabled
+modes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve enabled options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve enabled options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

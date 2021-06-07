@@ -1,0 +1,52 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName load keys
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName key
+get key type SimpleName MethodInvocation SimpleName key
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName type
+is empty SimpleName MethodInvocation SimpleName type
+types SimpleName MethodInvocation SimpleName contains
+types SimpleName MethodInvocation SimpleName type
+contains SimpleName MethodInvocation SimpleName type
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type
+type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types
+type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type
+types SimpleName MethodInvocation SimpleName add
+types SimpleName MethodInvocation SimpleName type
+add SimpleName MethodInvocation SimpleName type
+key pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+keys SimpleName EnhancedForStatement Block ReturnStatement SimpleName types
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get key types
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get key types
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName keys
+public Modifier MethodDeclaration Block ReturnStatement SimpleName types
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get key types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get key types
+get key types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName keys
+get key types SimpleName MethodDeclaration Block ReturnStatement SimpleName types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key types
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key types

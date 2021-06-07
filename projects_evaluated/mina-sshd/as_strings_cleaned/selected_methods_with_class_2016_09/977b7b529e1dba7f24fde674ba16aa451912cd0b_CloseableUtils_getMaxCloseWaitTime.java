@@ -1,0 +1,29 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName resolver
+closeable SimpleName MethodInvocation SimpleName get max close wait time
+closeable SimpleName MethodInvocation SimpleName resolver
+get max close wait time SimpleName MethodInvocation SimpleName resolver
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get max close wait time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolver
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get max close wait time
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolver
+long PrimitiveType MethodDeclaration SimpleName get max close wait time
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resolver
+get max close wait time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+get max close wait time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get max close wait time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get max close wait time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver

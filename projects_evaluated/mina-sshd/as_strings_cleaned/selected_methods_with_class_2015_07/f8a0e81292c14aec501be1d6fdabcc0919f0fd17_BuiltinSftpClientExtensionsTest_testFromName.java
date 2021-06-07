@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+empty StringLiteral ArrayInitializer MethodInvocation SimpleName get current test name
+unexpected result for name StringLiteral InfixExpression SimpleName name
+unexpected result for name StringLiteral InfixExpression StringLiteral empty
+name SimpleName InfixExpression StringLiteral empty
+builtin sftp client extensions SimpleName MethodInvocation SimpleName from name
+builtin sftp client extensions SimpleName MethodInvocation SimpleName name
+from name SimpleName MethodInvocation SimpleName name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral unexpected result for name
+assert null SimpleName MethodInvocation InfixExpression SimpleName name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert null SimpleName MethodInvocation MethodInvocation SimpleName builtin sftp client extensions
+assert null SimpleName MethodInvocation MethodInvocation SimpleName from name
+assert null SimpleName MethodInvocation MethodInvocation SimpleName name
+unexpected result for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName builtin sftp client extensions
+unexpected result for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from name
+unexpected result for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName builtin sftp client extensions
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName from name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName builtin sftp client extensions
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from name
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+builtin sftp client extensions SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+expected SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+name SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName name
+index SimpleName InfixExpression MethodInvocation SimpleName length
+builtin sftp client extensions SimpleName MethodInvocation SimpleName from name
+builtin sftp client extensions SimpleName MethodInvocation SimpleName name
+from name SimpleName MethodInvocation SimpleName name
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName builtin sftp client extensions
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName from name
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+builtin sftp client extensions SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation SimpleName name
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+name SimpleName MethodInvocation SimpleName expected
+name SimpleName MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+shuffle case SimpleName MethodInvocation SimpleName name
+name SimpleName Assignment MethodInvocation SimpleName shuffle case
+name SimpleName Assignment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+builtin sftp client extensions SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin sftp client extensionsvalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin sftp client extensionsvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from name
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin sftp client extensionsvalues
+void PrimitiveType MethodDeclaration SimpleName test from name
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin sftp client extensionsvalues
+test from name SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin sftp client extensionsvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from name

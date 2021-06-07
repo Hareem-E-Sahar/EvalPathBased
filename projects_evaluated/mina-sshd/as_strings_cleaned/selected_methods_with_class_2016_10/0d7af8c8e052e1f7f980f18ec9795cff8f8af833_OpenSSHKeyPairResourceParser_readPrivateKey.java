@@ -1,0 +1,163 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName private key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+private key SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+open ssh parser context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+file password provider SimpleName SimpleType SingleVariableDeclaration SimpleName password provider
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName stream
+key entry resolver SimpleName MethodInvocation SimpleName decode string
+key entry resolver SimpleName MethodInvocation SimpleName stream
+decode string SimpleName MethodInvocation SimpleName stream
+prv type SimpleName VariableDeclarationFragment MethodInvocation SimpleName key entry resolver
+prv type SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode string
+prv type SimpleName VariableDeclarationFragment MethodInvocation SimpleName stream
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv type
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName key type
+objects SimpleName MethodInvocation SimpleName prv type
+equals SimpleName MethodInvocation SimpleName key type
+equals SimpleName MethodInvocation SimpleName prv type
+key type SimpleName MethodInvocation SimpleName prv type
+mismatched private key type StringLiteral InfixExpression StringLiteral expected
+mismatched private key type StringLiteral InfixExpression InfixExpression SimpleName key type
+expected StringLiteral InfixExpression InfixExpression SimpleName key type
+mismatched private key type StringLiteral InfixExpression InfixExpression StringLiteral actual
+expected StringLiteral InfixExpression InfixExpression StringLiteral actual
+mismatched private key type StringLiteral InfixExpression InfixExpression SimpleName prv type
+expected StringLiteral InfixExpression InfixExpression SimpleName prv type
+mismatched private key type StringLiteral InfixExpression InfixExpression StringLiteral in
+expected StringLiteral InfixExpression InfixExpression StringLiteral in
+mismatched private key type StringLiteral InfixExpression InfixExpression SimpleName resource key
+expected StringLiteral InfixExpression InfixExpression SimpleName resource key
+key type SimpleName InfixExpression StringLiteral actual
+key type SimpleName InfixExpression SimpleName prv type
+key type SimpleName InfixExpression StringLiteral in
+key type SimpleName InfixExpression SimpleName resource key
+actual StringLiteral InfixExpression SimpleName prv type
+actual StringLiteral InfixExpression StringLiteral in
+actual StringLiteral InfixExpression SimpleName resource key
+prv type SimpleName InfixExpression StringLiteral in
+prv type SimpleName InfixExpression SimpleName resource key
+in StringLiteral InfixExpression SimpleName resource key
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key type
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral actual
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prv type
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral in
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName resource key
+private key entry decoder SimpleName SimpleType ParameterizedType WildcardType ?
+private key entry decoder SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+get private key entry decoder SimpleName MethodInvocation SimpleName prv type
+decoder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private key entry decoder
+decoder SimpleName VariableDeclarationFragment MethodInvocation SimpleName prv type
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName decoder
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName decoder
+unsupported key type ( StringLiteral InfixExpression SimpleName prv type
+unsupported key type ( StringLiteral InfixExpression StringLiteral ) in
+unsupported key type ( StringLiteral InfixExpression SimpleName resource key
+prv type SimpleName InfixExpression StringLiteral ) in
+prv type SimpleName InfixExpression SimpleName resource key
+) in StringLiteral InfixExpression SimpleName resource key
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported key type (
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prv type
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) in
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName resource key
+decoder SimpleName MethodInvocation SimpleName decode private key
+decoder SimpleName MethodInvocation SimpleName prv type
+decoder SimpleName MethodInvocation SimpleName password provider
+decoder SimpleName MethodInvocation SimpleName stream
+decode private key SimpleName MethodInvocation SimpleName prv type
+decode private key SimpleName MethodInvocation SimpleName password provider
+decode private key SimpleName MethodInvocation SimpleName stream
+prv type SimpleName MethodInvocation SimpleName password provider
+prv type SimpleName MethodInvocation SimpleName stream
+password provider SimpleName MethodInvocation SimpleName stream
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName decoder
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode private key
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName prv type
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName password provider
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName stream
+private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv key
+cannot parse key type ( StringLiteral InfixExpression SimpleName prv type
+cannot parse key type ( StringLiteral InfixExpression StringLiteral ) in
+cannot parse key type ( StringLiteral InfixExpression SimpleName resource key
+prv type SimpleName InfixExpression StringLiteral ) in
+prv type SimpleName InfixExpression SimpleName resource key
+) in StringLiteral InfixExpression SimpleName resource key
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot parse key type (
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prv type
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) in
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName resource key
+key entry resolver SimpleName MethodInvocation SimpleName decode string
+key entry resolver SimpleName MethodInvocation SimpleName stream
+decode string SimpleName MethodInvocation SimpleName stream
+comment SimpleName VariableDeclarationFragment MethodInvocation SimpleName key entry resolver
+comment SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode string
+comment SimpleName VariableDeclarationFragment MethodInvocation SimpleName stream
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName comment
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName prv key
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName comment
+prv key SimpleName ClassInstanceCreation SimpleName comment
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName private key
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName read private key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open ssh parser context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read private key
+private key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read private key
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read private key
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open ssh parser context
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password provider
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+read private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stream
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName read private key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read private key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

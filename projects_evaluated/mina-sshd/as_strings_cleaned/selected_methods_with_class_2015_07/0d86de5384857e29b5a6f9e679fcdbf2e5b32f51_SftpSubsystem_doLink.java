@@ -1,0 +1,109 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName target path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName link path
+boolean PrimitiveType SingleVariableDeclaration SimpleName sym link
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp link linkpath targetpath symlink
+log SimpleName MethodInvocation SimpleName link path
+log SimpleName MethodInvocation SimpleName target path
+log SimpleName MethodInvocation SimpleName sym link
+debug SimpleName MethodInvocation StringLiteral received ssh fxp link linkpath targetpath symlink
+debug SimpleName MethodInvocation SimpleName link path
+debug SimpleName MethodInvocation SimpleName target path
+debug SimpleName MethodInvocation SimpleName sym link
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation SimpleName link path
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation SimpleName target path
+received ssh fxp link linkpath targetpath symlink StringLiteral MethodInvocation SimpleName sym link
+link path SimpleName MethodInvocation SimpleName target path
+link path SimpleName MethodInvocation SimpleName sym link
+target path SimpleName MethodInvocation SimpleName sym link
+resolve file SimpleName MethodInvocation SimpleName link path
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName link path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName link
+file system SimpleName MethodInvocation SimpleName get path
+file system SimpleName MethodInvocation SimpleName target path
+get path SimpleName MethodInvocation SimpleName target path
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+files SimpleName MethodInvocation SimpleName create symbolic link
+files SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName target
+create symbolic link SimpleName MethodInvocation SimpleName link
+create symbolic link SimpleName MethodInvocation SimpleName target
+link SimpleName MethodInvocation SimpleName target
+files SimpleName MethodInvocation SimpleName create link
+files SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName target
+create link SimpleName MethodInvocation SimpleName link
+create link SimpleName MethodInvocation SimpleName target
+link SimpleName MethodInvocation SimpleName target
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do link
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName link path
+void PrimitiveType MethodDeclaration SimpleName do link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName link path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sym link
+do link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target path
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName link path
+do link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+do link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sym link
+do link SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+target path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+target path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+target path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+target path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+link path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+link path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+link path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+sym link SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

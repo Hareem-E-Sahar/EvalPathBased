@@ -1,0 +1,123 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+buffer SimpleName MethodInvocation SimpleName get string
+src file SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+src file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src file
+buffer SimpleName MethodInvocation SimpleName get string
+dst file SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+dst file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst file
+buffer SimpleName MethodInvocation SimpleName get boolean
+overwrite destination SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+overwrite destination SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName overwrite destination
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean
+log SimpleName MethodInvocation SimpleName is debug enabled
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation SimpleName overwrite destination
+value of SimpleName MethodInvocation SimpleName overwrite destination
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ssh fxp extended src dst overwrite x
+log SimpleName MethodInvocation QualifiedName sftp constantsext copyfile
+log SimpleName MethodInvocation SimpleName src file
+log SimpleName MethodInvocation SimpleName dst file
+debug SimpleName MethodInvocation StringLiteral ssh fxp extended src dst overwrite x
+debug SimpleName MethodInvocation QualifiedName sftp constantsext copyfile
+debug SimpleName MethodInvocation SimpleName src file
+debug SimpleName MethodInvocation SimpleName dst file
+debug SimpleName MethodInvocation MethodInvocation SimpleName boolean
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName overwrite destination
+ssh fxp extended src dst overwrite x StringLiteral MethodInvocation QualifiedName sftp constantsext copyfile
+ssh fxp extended src dst overwrite x StringLiteral MethodInvocation SimpleName src file
+ssh fxp extended src dst overwrite x StringLiteral MethodInvocation SimpleName dst file
+ssh fxp extended src dst overwrite x StringLiteral MethodInvocation MethodInvocation SimpleName boolean
+ssh fxp extended src dst overwrite x StringLiteral MethodInvocation MethodInvocation SimpleName value of
+ssh fxp extended src dst overwrite x StringLiteral MethodInvocation MethodInvocation SimpleName overwrite destination
+sftp constantsext copyfile QualifiedName MethodInvocation SimpleName src file
+sftp constantsext copyfile QualifiedName MethodInvocation SimpleName dst file
+sftp constantsext copyfile QualifiedName MethodInvocation MethodInvocation SimpleName boolean
+sftp constantsext copyfile QualifiedName MethodInvocation MethodInvocation SimpleName value of
+sftp constantsext copyfile QualifiedName MethodInvocation MethodInvocation SimpleName overwrite destination
+src file SimpleName MethodInvocation SimpleName dst file
+src file SimpleName MethodInvocation MethodInvocation SimpleName boolean
+src file SimpleName MethodInvocation MethodInvocation SimpleName value of
+src file SimpleName MethodInvocation MethodInvocation SimpleName overwrite destination
+dst file SimpleName MethodInvocation MethodInvocation SimpleName boolean
+dst file SimpleName MethodInvocation MethodInvocation SimpleName value of
+dst file SimpleName MethodInvocation MethodInvocation SimpleName overwrite destination
+overwrite destination SimpleName ConditionalExpression ArrayCreation ArrayInitializer QualifiedName standard copy optionreplace existing
+overwrite destination SimpleName ConditionalExpression QualifiedName io utilsempty copy options
+standard copy optionreplace existing QualifiedName ArrayInitializer ArrayCreation ConditionalExpression QualifiedName io utilsempty copy options
+opts SimpleName VariableDeclarationFragment ConditionalExpression SimpleName overwrite destination
+opts SimpleName VariableDeclarationFragment ConditionalExpression QualifiedName io utilsempty copy options
+resolve file SimpleName MethodInvocation SimpleName src file
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName src file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+resolve file SimpleName MethodInvocation SimpleName dst file
+dst SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+dst SimpleName VariableDeclarationFragment MethodInvocation SimpleName dst file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst
+files SimpleName MethodInvocation SimpleName copy
+files SimpleName MethodInvocation SimpleName src
+files SimpleName MethodInvocation SimpleName dst
+files SimpleName MethodInvocation SimpleName opts
+copy SimpleName MethodInvocation SimpleName src
+copy SimpleName MethodInvocation SimpleName dst
+copy SimpleName MethodInvocation SimpleName opts
+src SimpleName MethodInvocation SimpleName dst
+src SimpleName MethodInvocation SimpleName opts
+dst SimpleName MethodInvocation SimpleName opts
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx ok
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx ok
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx ok SimpleName MethodInvocation StringLiteral empty
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName e
+id SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do copy file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do copy file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+do copy file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do copy file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do copy file SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do copy file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do copy file SimpleName MethodDeclaration SimpleType SimpleName io exception
+do copy file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do copy file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do copy file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

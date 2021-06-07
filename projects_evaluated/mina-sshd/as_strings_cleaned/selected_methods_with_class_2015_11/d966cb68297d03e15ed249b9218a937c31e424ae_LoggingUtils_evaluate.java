@@ -1,0 +1,54 @@
+field SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName get modifiers
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mods
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName f
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+modifier SimpleName MethodInvocation SimpleName is public
+modifier SimpleName MethodInvocation SimpleName mods
+is public SimpleName MethodInvocation SimpleName mods
+modifier SimpleName MethodInvocation SimpleName is static
+modifier SimpleName MethodInvocation SimpleName mods
+is static SimpleName MethodInvocation SimpleName mods
+modifier SimpleName MethodInvocation SimpleName is final
+modifier SimpleName MethodInvocation SimpleName mods
+is final SimpleName MethodInvocation SimpleName mods
+class SimpleName SimpleType ParameterizedType WildcardType ?
+f SimpleName MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+number utils SimpleName MethodInvocation SimpleName is numeric class
+number utils SimpleName MethodInvocation SimpleName type
+is numeric class SimpleName MethodInvocation SimpleName type
+acceptor SimpleName MethodInvocation SimpleName evaluate
+acceptor SimpleName MethodInvocation SimpleName f
+evaluate SimpleName MethodInvocation SimpleName f
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration SimpleName evaluate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+evaluate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName evaluate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName evaluate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

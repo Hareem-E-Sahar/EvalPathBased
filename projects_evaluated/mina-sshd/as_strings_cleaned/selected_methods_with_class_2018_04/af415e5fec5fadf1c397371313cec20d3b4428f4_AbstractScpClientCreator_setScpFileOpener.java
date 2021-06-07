@@ -1,0 +1,26 @@
+scp file opener SimpleName SimpleType SingleVariableDeclaration SimpleName opener
+opener SimpleName FieldAccess Assignment SimpleName opener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set scp file opener
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName opener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set scp file opener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp file opener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName opener
+void PrimitiveType MethodDeclaration SimpleName set scp file opener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp file opener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName opener
+set scp file opener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp file opener
+set scp file opener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set scp file opener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opener
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set scp file opener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opener

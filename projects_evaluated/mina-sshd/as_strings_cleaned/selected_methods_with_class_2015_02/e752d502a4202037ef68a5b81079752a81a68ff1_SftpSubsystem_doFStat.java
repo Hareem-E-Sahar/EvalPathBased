@@ -1,0 +1,95 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+buffer SimpleName MethodInvocation SimpleName get string
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+flags SimpleName VariableDeclarationFragment SimpleName ssh filexfer attr all
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flags
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssh filexfer attr all
+version SimpleName InfixExpression SimpleName sftp v
+buffer SimpleName MethodInvocation SimpleName get int
+flags SimpleName Assignment MethodInvocation SimpleName buffer
+flags SimpleName Assignment MethodInvocation SimpleName get int
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp fstat handle flags
+log SimpleName MethodInvocation SimpleName handle
+log SimpleName MethodInvocation SimpleName flags
+debug SimpleName MethodInvocation StringLiteral received ssh fxp fstat handle flags
+debug SimpleName MethodInvocation SimpleName handle
+debug SimpleName MethodInvocation SimpleName flags
+received ssh fxp fstat handle flags StringLiteral MethodInvocation SimpleName handle
+received ssh fxp fstat handle flags StringLiteral MethodInvocation SimpleName flags
+handle SimpleName MethodInvocation SimpleName flags
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName handle
+get SimpleName MethodInvocation SimpleName handle
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx invalid handle
+send status SimpleName MethodInvocation SimpleName handle
+id SimpleName MethodInvocation SimpleName ssh fx invalid handle
+id SimpleName MethodInvocation SimpleName handle
+ssh fx invalid handle SimpleName MethodInvocation SimpleName handle
+p SimpleName MethodInvocation SimpleName get file
+send attrs SimpleName MethodInvocation SimpleName id
+send attrs SimpleName MethodInvocation MethodInvocation SimpleName p
+send attrs SimpleName MethodInvocation MethodInvocation SimpleName get file
+send attrs SimpleName MethodInvocation SimpleName flags
+send attrs SimpleName MethodInvocation BooleanLiteral true
+id SimpleName MethodInvocation MethodInvocation SimpleName p
+id SimpleName MethodInvocation MethodInvocation SimpleName get file
+id SimpleName MethodInvocation SimpleName flags
+id SimpleName MethodInvocation BooleanLiteral true
+p SimpleName MethodInvocation MethodInvocation SimpleName flags
+get file SimpleName MethodInvocation MethodInvocation SimpleName flags
+p SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get file SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+flags SimpleName MethodInvocation BooleanLiteral true
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName e
+id SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do f stat
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do f stat
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do f stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do f stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do f stat SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do f stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do f stat SimpleName MethodDeclaration SimpleType SimpleName io exception
+do f stat SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do f stat
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do f stat
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

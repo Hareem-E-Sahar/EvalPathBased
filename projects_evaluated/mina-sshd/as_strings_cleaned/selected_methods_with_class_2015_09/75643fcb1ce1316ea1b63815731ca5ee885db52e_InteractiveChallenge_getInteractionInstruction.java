@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get interaction instruction
+public Modifier MethodDeclaration Block ReturnStatement SimpleName interaction instruction
+string SimpleName SimpleType MethodDeclaration SimpleName get interaction instruction
+get interaction instruction SimpleName MethodDeclaration Block ReturnStatement SimpleName interaction instruction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get interaction instruction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get interaction instruction

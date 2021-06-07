@@ -1,0 +1,6 @@
+t SimpleName SimpleType MethodDeclaration SimpleName build
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName build
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build

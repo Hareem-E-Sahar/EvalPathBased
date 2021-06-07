@@ -1,0 +1,371 @@
+roots SimpleName MethodInvocation SimpleName size
+roots SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+roots SimpleName MethodInvocation SimpleName contains key
+roots SimpleName MethodInvocation StringLiteral /
+contains key SimpleName MethodInvocation StringLiteral /
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName roots
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName contains key
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation StringLiteral /
+separator SimpleName InfixExpression CharacterLiteral /
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+reroot SimpleName MethodInvocation SimpleName current
+get file SimpleName MethodInvocation MethodInvocation SimpleName reroot
+get file SimpleName MethodInvocation MethodInvocation SimpleName current
+get file SimpleName MethodInvocation SimpleName file
+reroot SimpleName MethodInvocation MethodInvocation SimpleName file
+current SimpleName MethodInvocation MethodInvocation SimpleName file
+public Modifier MethodDeclaration SimpleType SimpleName ssh file
+public Modifier MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+ssh file SimpleName SimpleType MethodDeclaration SimpleName get file
+ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+ssh file SimpleName SimpleType SingleVariableDeclaration SimpleName base dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+base dir SimpleName MethodInvocation SimpleName get absolute path
+get file SimpleName MethodInvocation MethodInvocation SimpleName base dir
+get file SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get file SimpleName MethodInvocation SimpleName file
+base dir SimpleName MethodInvocation MethodInvocation SimpleName file
+get absolute path SimpleName MethodInvocation MethodInvocation SimpleName file
+public Modifier MethodDeclaration SimpleType SimpleName ssh file
+public Modifier MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName base dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+ssh file SimpleName SimpleType MethodDeclaration SimpleName get file
+ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName base dir
+ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base dir
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+base dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier MethodDeclaration SimpleType SimpleName file system view
+public Modifier MethodDeclaration SimpleName get normalized view
+file system view SimpleName SimpleType MethodDeclaration SimpleName get normalized view
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+append slash SimpleName MethodInvocation SimpleName file
+file SimpleName Assignment MethodInvocation SimpleName append slash
+file SimpleName Assignment MethodInvocation SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName r
+roots SimpleName MethodInvocation SimpleName key set
+file SimpleName MethodInvocation SimpleName starts with
+file SimpleName MethodInvocation SimpleName r
+starts with SimpleName MethodInvocation SimpleName r
+normalize root SimpleName MethodInvocation SimpleName r
+r SimpleName MethodInvocation SimpleName length
+file SimpleName MethodInvocation SimpleName substring
+file SimpleName MethodInvocation MethodInvocation SimpleName r
+file SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName r
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+/ StringLiteral InfixExpression MethodInvocation SimpleName normalize root
+/ StringLiteral InfixExpression MethodInvocation SimpleName r
+/ StringLiteral InfixExpression MethodInvocation SimpleName file
+/ StringLiteral InfixExpression MethodInvocation SimpleName substring
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName r
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName length
+normalize root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+normalize root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName roots
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName reroot
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType MethodDeclaration SimpleName reroot
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+reroot SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reroot SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+normalize separate char SimpleName MethodInvocation SimpleName dir
+append slash SimpleName MethodInvocation MethodInvocation SimpleName normalize separate char
+append slash SimpleName MethodInvocation MethodInvocation SimpleName dir
+dir SimpleName Assignment MethodInvocation SimpleName append slash
+dir SimpleName Assignment MethodInvocation MethodInvocation SimpleName normalize separate char
+dir SimpleName Assignment MethodInvocation MethodInvocation SimpleName dir
+normalize separate char SimpleName MethodInvocation SimpleName file
+file SimpleName Assignment MethodInvocation SimpleName normalize separate char
+file SimpleName Assignment MethodInvocation SimpleName file
+file SimpleName MethodInvocation SimpleName starts with
+file SimpleName MethodInvocation StringLiteral /
+starts with SimpleName MethodInvocation StringLiteral /
+dir SimpleName InfixExpression SimpleName file
+file SimpleName Assignment InfixExpression SimpleName dir
+file SimpleName Assignment InfixExpression SimpleName file
+native ssh file SimpleName MethodInvocation SimpleName get physical name
+native ssh file SimpleName MethodInvocation StringLiteral /
+native ssh file SimpleName MethodInvocation StringLiteral /
+native ssh file SimpleName MethodInvocation SimpleName file
+native ssh file SimpleName MethodInvocation SimpleName case insensitive
+get physical name SimpleName MethodInvocation StringLiteral /
+get physical name SimpleName MethodInvocation StringLiteral /
+get physical name SimpleName MethodInvocation SimpleName file
+get physical name SimpleName MethodInvocation SimpleName case insensitive
+/ StringLiteral MethodInvocation StringLiteral /
+/ StringLiteral MethodInvocation SimpleName file
+/ StringLiteral MethodInvocation SimpleName case insensitive
+/ StringLiteral MethodInvocation SimpleName file
+/ StringLiteral MethodInvocation SimpleName case insensitive
+file SimpleName MethodInvocation SimpleName case insensitive
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName native ssh file
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get physical name
+user file name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+user file name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName case insensitive
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user file name
+user file name SimpleName MethodInvocation SimpleName equals
+user file name SimpleName MethodInvocation StringLiteral /
+equals SimpleName MethodInvocation StringLiteral /
+user file name SimpleName MethodInvocation SimpleName index of
+user file name SimpleName MethodInvocation StringLiteral /
+user file name SimpleName MethodInvocation NumberLiteral empty
+index of SimpleName MethodInvocation StringLiteral /
+index of SimpleName MethodInvocation NumberLiteral empty
+/ StringLiteral MethodInvocation NumberLiteral empty
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName user file name
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+idx SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+idx SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName user file name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral /
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+idx SimpleName InfixExpression NumberLiteral empty
+user file name SimpleName InfixExpression StringLiteral /
+root SimpleName VariableDeclarationFragment InfixExpression SimpleName user file name
+root SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName phys root
+string SimpleName SimpleType SingleVariableDeclaration SimpleName r
+roots SimpleName MethodInvocation SimpleName key set
+normalize root SimpleName MethodInvocation SimpleName r
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName equals
+r SimpleName MethodInvocation MethodInvocation SimpleName equals
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName root
+r SimpleName MethodInvocation MethodInvocation SimpleName root
+equals SimpleName MethodInvocation SimpleName root
+roots SimpleName MethodInvocation SimpleName get
+roots SimpleName MethodInvocation SimpleName r
+get SimpleName MethodInvocation SimpleName r
+phys root SimpleName Assignment MethodInvocation SimpleName roots
+phys root SimpleName Assignment MethodInvocation SimpleName get
+phys root SimpleName Assignment MethodInvocation SimpleName r
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName roots
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+unknown root StringLiteral InfixExpression SimpleName user file name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown root
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user file name
+file SimpleName SimpleType ClassInstanceCreation SimpleName phys root
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName phys root
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file obj
+normalize separate char SimpleName MethodInvocation SimpleName user file name
+user file name SimpleName Assignment MethodInvocation SimpleName normalize separate char
+user file name SimpleName Assignment MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName file obj
+create native ssh file SimpleName MethodInvocation SimpleName user name
+user file name SimpleName MethodInvocation SimpleName file obj
+user file name SimpleName MethodInvocation SimpleName user name
+file obj SimpleName MethodInvocation SimpleName user name
+user file name SimpleName MethodInvocation SimpleName substring
+user file name SimpleName MethodInvocation NumberLiteral empty
+user file name SimpleName MethodInvocation SimpleName idx
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName idx
+empty NumberLiteral MethodInvocation SimpleName idx
+user file name SimpleName MethodInvocation InfixExpression StringLiteral /
+substring SimpleName MethodInvocation InfixExpression StringLiteral /
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral /
+idx SimpleName MethodInvocation InfixExpression StringLiteral /
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName user file name
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName substring
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation NumberLiteral empty
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName idx
+root SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName phys root
+string SimpleName SimpleType SingleVariableDeclaration SimpleName r
+roots SimpleName MethodInvocation SimpleName key set
+normalize root SimpleName MethodInvocation SimpleName r
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName equals
+r SimpleName MethodInvocation MethodInvocation SimpleName equals
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName root
+r SimpleName MethodInvocation MethodInvocation SimpleName root
+equals SimpleName MethodInvocation SimpleName root
+roots SimpleName MethodInvocation SimpleName get
+roots SimpleName MethodInvocation SimpleName r
+get SimpleName MethodInvocation SimpleName r
+phys root SimpleName Assignment MethodInvocation SimpleName roots
+phys root SimpleName Assignment MethodInvocation SimpleName get
+phys root SimpleName Assignment MethodInvocation SimpleName r
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName roots
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+unknown root StringLiteral InfixExpression SimpleName user file name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown root
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user file name
+idx SimpleName InfixExpression NumberLiteral empty
+user file name SimpleName MethodInvocation SimpleName substring
+user file name SimpleName MethodInvocation InfixExpression SimpleName idx
+user file name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName idx
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+phys root SimpleName InfixExpression MethodInvocation SimpleName user file name
+phys root SimpleName InfixExpression MethodInvocation SimpleName substring
+phys root SimpleName InfixExpression MethodInvocation InfixExpression SimpleName idx
+phys root SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName phys root
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName phys root
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file obj
+normalize separate char SimpleName MethodInvocation SimpleName user file name
+user file name SimpleName Assignment MethodInvocation SimpleName normalize separate char
+user file name SimpleName Assignment MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName file obj
+create native ssh file SimpleName MethodInvocation SimpleName user name
+user file name SimpleName MethodInvocation SimpleName file obj
+user file name SimpleName MethodInvocation SimpleName user name
+file obj SimpleName MethodInvocation SimpleName user name
+protected Modifier MethodDeclaration SimpleType SimpleName ssh file
+protected Modifier MethodDeclaration SimpleName get file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+ssh file SimpleName SimpleType MethodDeclaration SimpleName get file
+ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dir
+ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+get file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+get file SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+get normalized view SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+get normalized view SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+get normalized view SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+get normalized view SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+reroot SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+reroot SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get file
+native file system view SimpleName SimpleType ClassInstanceCreation SimpleName user name
+native file system view SimpleName SimpleType ClassInstanceCreation SimpleName roots
+native file system view SimpleName SimpleType ClassInstanceCreation SimpleName current
+native file system view SimpleName SimpleType ClassInstanceCreation CharacterLiteral /
+native file system view SimpleName SimpleType ClassInstanceCreation SimpleName case insensitive
+user name SimpleName ClassInstanceCreation SimpleName roots
+user name SimpleName ClassInstanceCreation SimpleName current
+user name SimpleName ClassInstanceCreation CharacterLiteral /
+user name SimpleName ClassInstanceCreation SimpleName case insensitive
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+user name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+roots SimpleName ClassInstanceCreation SimpleName current
+roots SimpleName ClassInstanceCreation CharacterLiteral /
+roots SimpleName ClassInstanceCreation SimpleName case insensitive
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+roots SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+current SimpleName ClassInstanceCreation CharacterLiteral /
+current SimpleName ClassInstanceCreation SimpleName case insensitive
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+current SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+/ CharacterLiteral ClassInstanceCreation SimpleName case insensitive
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+/ CharacterLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get normalized view
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName reroot
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+case insensitive SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration SimpleType SimpleName file system view
+public Modifier MethodDeclaration SimpleName get normalized view
+file system view SimpleName SimpleType MethodDeclaration SimpleName get normalized view
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system view
+public Modifier TypeDeclaration MethodDeclaration SimpleName get normalized view
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system view
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get normalized view

@@ -1,0 +1,55 @@
+b SimpleName TypeParameter SimpleType SimpleName buffer
+b SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+eddsa SimpleName InfixExpression StringLiteral provider not supported
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName eddsa
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral provider not supported
+ed dsa security provider utils SimpleName MethodInvocation SimpleName put raw eddsa public key
+ed dsa security provider utils SimpleName MethodInvocation SimpleName buffer
+ed dsa security provider utils SimpleName MethodInvocation SimpleName key
+put raw eddsa public key SimpleName MethodInvocation SimpleName buffer
+put raw eddsa public key SimpleName MethodInvocation SimpleName key
+buffer SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName b
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SimpleName put raw eddsa public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration TypeParameter SimpleName b
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+static Modifier MethodDeclaration SimpleType SimpleName b
+static Modifier MethodDeclaration SimpleName put raw eddsa public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+b SimpleName TypeParameter MethodDeclaration SimpleType SimpleName b
+b SimpleName TypeParameter MethodDeclaration SimpleName put raw eddsa public key
+buffer SimpleName SimpleType TypeParameter MethodDeclaration SimpleName put raw eddsa public key
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName key
+b SimpleName SimpleType MethodDeclaration SimpleName put raw eddsa public key
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+put raw eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+put raw eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+put raw eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+put raw eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleName put raw eddsa public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put raw eddsa public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

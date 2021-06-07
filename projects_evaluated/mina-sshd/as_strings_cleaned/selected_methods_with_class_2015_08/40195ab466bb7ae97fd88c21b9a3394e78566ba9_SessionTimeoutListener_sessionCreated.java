@@ -1,0 +1,50 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName InstanceofExpression SimpleType SimpleName abstract session
+session SimpleName MethodInvocation SimpleName get auth timeout
+session SimpleName MethodInvocation InfixExpression NumberLiteral l
+get auth timeout SimpleName MethodInvocation InfixExpression NumberLiteral l
+session SimpleName MethodInvocation SimpleName get idle timeout
+session SimpleName MethodInvocation InfixExpression NumberLiteral l
+get idle timeout SimpleName MethodInvocation InfixExpression NumberLiteral l
+abstract session SimpleName SimpleType CastExpression SimpleName session
+sessions SimpleName MethodInvocation SimpleName add
+sessions SimpleName MethodInvocation CastExpression SimpleType SimpleName abstract session
+sessions SimpleName MethodInvocation CastExpression SimpleName session
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName abstract session
+add SimpleName MethodInvocation CastExpression SimpleName session
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral session created tracking
+log SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation StringLiteral session created tracking
+debug SimpleName MethodInvocation SimpleName session
+session created tracking StringLiteral MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral session created not tracked
+log SimpleName MethodInvocation SimpleName session
+trace SimpleName MethodInvocation StringLiteral session created not tracked
+trace SimpleName MethodInvocation SimpleName session
+session created not tracked StringLiteral MethodInvocation SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session created
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session created
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName session created
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session created
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session created
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

@@ -1,0 +1,29 @@
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg unimplemented
+create buffer SimpleName MethodInvocation NumberLiteral empty
+ssh constantsssh msg unimplemented QualifiedName MethodInvocation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh constantsssh msg unimplemented
+buffer SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+seqi SimpleName InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation InfixExpression SimpleName seqi
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+put int SimpleName MethodInvocation InfixExpression SimpleName seqi
+put int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+write packet SimpleName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName not implemented
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName not implemented
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+not implemented SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName not implemented
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName not implemented
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

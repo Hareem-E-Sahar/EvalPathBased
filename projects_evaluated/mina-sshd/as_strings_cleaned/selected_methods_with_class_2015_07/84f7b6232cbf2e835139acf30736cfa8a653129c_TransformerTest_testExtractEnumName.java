@@ -1,0 +1,42 @@
+transformerenum name extractor QualifiedName MethodInvocation SimpleName transform
+assert null SimpleName MethodInvocation StringLiteral invalid null result
+assert null SimpleName MethodInvocation MethodInvocation QualifiedName transformerenum name extractor
+assert null SimpleName MethodInvocation MethodInvocation SimpleName transform
+invalid null result StringLiteral MethodInvocation MethodInvocation QualifiedName transformerenum name extractor
+invalid null result StringLiteral MethodInvocation MethodInvocation SimpleName transform
+time unit SimpleName SimpleType SingleVariableDeclaration SimpleName u
+time unit SimpleName MethodInvocation SimpleName values
+u SimpleName MethodInvocation SimpleName name
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName u
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+transformerenum name extractor QualifiedName MethodInvocation SimpleName transform
+transformerenum name extractor QualifiedName MethodInvocation SimpleName u
+transform SimpleName MethodInvocation SimpleName u
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName transformerenum name extractor
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName u
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert equals SimpleName MethodInvocation StringLiteral mismatched name
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched name StringLiteral MethodInvocation SimpleName expected
+mismatched name StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+u SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName time unit
+u SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test extract enum name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test extract enum name
+void PrimitiveType MethodDeclaration SimpleName test extract enum name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test extract enum name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test extract enum name

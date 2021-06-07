@@ -1,0 +1,50 @@
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName os
+object output stream SimpleName SimpleType ClassInstanceCreation SimpleName os
+w SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object output stream
+w SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName os
+object output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName w
+w SimpleName MethodInvocation SimpleName write object
+w SimpleName MethodInvocation SimpleName kp
+write object SimpleName MethodInvocation SimpleName kp
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do write key pair
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName kp
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName os
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do write key pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName kp
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName os
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName do write key pair
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName kp
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName os
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+do write key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+do write key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kp
+do write key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+do write key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName os
+do write key pair SimpleName MethodDeclaration SimpleType SimpleName exception
+kp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName os
+kp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+os SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do write key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName os
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do write key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName os
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

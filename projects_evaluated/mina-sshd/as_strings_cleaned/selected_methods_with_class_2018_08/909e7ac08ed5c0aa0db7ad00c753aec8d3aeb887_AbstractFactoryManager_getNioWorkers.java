@@ -1,0 +1,24 @@
+get int property SimpleName MethodInvocation SimpleName nio workers
+get int property SimpleName MethodInvocation SimpleName default nio workers
+nio workers SimpleName MethodInvocation SimpleName default nio workers
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int property
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName nio workers
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName default nio workers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nio workers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default nio workers
+nb SimpleName InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get nio workers
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName get nio workers
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get nio workers SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get nio workers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get nio workers

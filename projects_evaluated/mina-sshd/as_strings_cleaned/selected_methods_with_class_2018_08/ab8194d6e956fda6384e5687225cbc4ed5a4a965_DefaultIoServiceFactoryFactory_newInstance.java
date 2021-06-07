@@ -1,0 +1,126 @@
+t SimpleName TypeParameter SimpleType SimpleName io service factory factory
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+string SimpleName SimpleType SingleVariableDeclaration SimpleName factory
+builtin io service factory factories SimpleName MethodInvocation SimpleName from factory name
+builtin io service factory factories SimpleName MethodInvocation SimpleName factory
+from factory name SimpleName MethodInvocation SimpleName factory
+builtin SimpleName VariableDeclarationFragment MethodInvocation SimpleName builtin io service factory factories
+builtin SimpleName VariableDeclarationFragment MethodInvocation SimpleName from factory name
+builtin SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory
+builtin io service factory factories SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builtin
+builtin SimpleName MethodInvocation SimpleName create
+builtin instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName builtin
+builtin instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+io service factory factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builtin instance
+clazz SimpleName MethodInvocation SimpleName cast
+clazz SimpleName MethodInvocation SimpleName builtin instance
+cast SimpleName MethodInvocation SimpleName builtin instance
+thread SimpleName MethodInvocation SimpleName current thread
+current thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread
+current thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName current thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current thread
+current thread SimpleName MethodInvocation SimpleName get context class loader
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName current thread
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get context class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+class SimpleName SimpleType ParameterizedType WildcardType ?
+cl SimpleName MethodInvocation SimpleName load class
+cl SimpleName MethodInvocation SimpleName factory
+load class SimpleName MethodInvocation SimpleName factory
+loaded SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+loaded SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+loaded SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName loaded
+loaded SimpleName MethodInvocation SimpleName new instance
+factory instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName loaded
+factory instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory instance
+clazz SimpleName MethodInvocation SimpleName cast
+clazz SimpleName MethodInvocation SimpleName factory instance
+cast SimpleName MethodInvocation SimpleName factory instance
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+exception while loading factory StringLiteral InfixExpression SimpleName factory
+logger SimpleName MethodInvocation SimpleName trace
+logger SimpleName MethodInvocation InfixExpression StringLiteral exception while loading factory
+logger SimpleName MethodInvocation InfixExpression SimpleName factory
+logger SimpleName MethodInvocation SimpleName t
+trace SimpleName MethodInvocation InfixExpression StringLiteral exception while loading factory
+trace SimpleName MethodInvocation InfixExpression SimpleName factory
+trace SimpleName MethodInvocation SimpleName t
+exception while loading factory StringLiteral InfixExpression MethodInvocation SimpleName t
+factory SimpleName InfixExpression MethodInvocation SimpleName t
+default io service factory factory SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get class loader
+cl default SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl default
+cl SimpleName InfixExpression SimpleName cl default
+class SimpleName SimpleType ParameterizedType WildcardType ?
+cl default SimpleName MethodInvocation SimpleName load class
+cl default SimpleName MethodInvocation SimpleName factory
+load class SimpleName MethodInvocation SimpleName factory
+loaded SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl default
+loaded SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+loaded SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName loaded
+loaded SimpleName MethodInvocation SimpleName new instance
+factory instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName loaded
+factory instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory instance
+clazz SimpleName MethodInvocation SimpleName cast
+clazz SimpleName MethodInvocation SimpleName factory instance
+cast SimpleName MethodInvocation SimpleName factory instance
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+exception while loading factory StringLiteral InfixExpression SimpleName factory
+logger SimpleName MethodInvocation SimpleName trace
+logger SimpleName MethodInvocation InfixExpression StringLiteral exception while loading factory
+logger SimpleName MethodInvocation InfixExpression SimpleName factory
+logger SimpleName MethodInvocation SimpleName t
+trace SimpleName MethodInvocation InfixExpression StringLiteral exception while loading factory
+trace SimpleName MethodInvocation InfixExpression SimpleName factory
+trace SimpleName MethodInvocation SimpleName t
+exception while loading factory StringLiteral InfixExpression MethodInvocation SimpleName t
+factory SimpleName InfixExpression MethodInvocation SimpleName t
+unable to create instance of class StringLiteral InfixExpression SimpleName factory
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unable to create instance of class
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName factory
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName io service factory factory
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName new instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName io service factory factory
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName new instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName new instance
+io service factory factory SimpleName SimpleType TypeParameter MethodDeclaration SimpleName new instance
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName factory
+t SimpleName SimpleType MethodDeclaration SimpleName new instance
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName factory
+new instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+new instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factory
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName new instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory

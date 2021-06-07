@@ -1,0 +1,69 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local
+local SimpleName MethodInvocation SimpleName get port
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation MethodInvocation SimpleName local
+integer SimpleName MethodInvocation MethodInvocation SimpleName get port
+value of SimpleName MethodInvocation MethodInvocation SimpleName local
+value of SimpleName MethodInvocation MethodInvocation SimpleName get port
+dynamic local SimpleName MethodInvocation SimpleName remove
+dynamic local SimpleName MethodInvocation MethodInvocation SimpleName integer
+dynamic local SimpleName MethodInvocation MethodInvocation SimpleName value of
+dynamic local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName local
+dynamic local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+remove SimpleName MethodInvocation MethodInvocation SimpleName integer
+remove SimpleName MethodInvocation MethodInvocation SimpleName value of
+remove SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName local
+remove SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+obj SimpleName VariableDeclarationFragment MethodInvocation SimpleName dynamic local
+obj SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+obj SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName integer
+obj SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value of
+closeable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj
+obj SimpleName MethodInvocation SimpleName close
+obj SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+local SimpleName MethodInvocation SimpleName to inet socket address
+acceptor SimpleName MethodInvocation SimpleName unbind
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName local
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+unbind SimpleName MethodInvocation MethodInvocation SimpleName local
+unbind SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName stop dynamic port forwarding
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop dynamic port forwarding
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName stop dynamic port forwarding
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName stop dynamic port forwarding
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+stop dynamic port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+stop dynamic port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+stop dynamic port forwarding SimpleName MethodDeclaration SimpleType SimpleName io exception
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop dynamic port forwarding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop dynamic port forwarding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

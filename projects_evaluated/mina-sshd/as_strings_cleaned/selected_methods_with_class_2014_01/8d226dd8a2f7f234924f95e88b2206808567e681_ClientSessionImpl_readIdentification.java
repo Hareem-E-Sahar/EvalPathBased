@@ -1,0 +1,58 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+do read identification SimpleName MethodInvocation SimpleName buffer
+server version SimpleName Assignment MethodInvocation SimpleName do read identification
+server version SimpleName Assignment MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral server version string {}
+log SimpleName MethodInvocation SimpleName server version
+info SimpleName MethodInvocation StringLiteral server version string {}
+info SimpleName MethodInvocation SimpleName server version
+server version string {} StringLiteral MethodInvocation SimpleName server version
+server version SimpleName MethodInvocation SimpleName starts with
+server version SimpleName MethodInvocation StringLiteral ssh . -
+starts with SimpleName MethodInvocation StringLiteral ssh . -
+server version SimpleName MethodInvocation SimpleName starts with
+server version SimpleName MethodInvocation StringLiteral ssh . -
+starts with SimpleName MethodInvocation StringLiteral ssh . -
+server version SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server version
+server version SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+server version SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral ssh . -
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server version
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral ssh . -
+ssh . - StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName server version
+ssh . - StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+ssh . - StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral ssh . -
+unsupported protocol version StringLiteral InfixExpression SimpleName server version
+ssh exception SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh disconnect protocol version not supported
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported protocol version
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName server version
+ssh constantsssh disconnect protocol version not supported QualifiedName ClassInstanceCreation InfixExpression StringLiteral unsupported protocol version
+ssh constantsssh disconnect protocol version not supported QualifiedName ClassInstanceCreation InfixExpression SimpleName server version
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName read identification
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName read identification
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+read identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+read identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+read identification SimpleName MethodDeclaration SimpleType SimpleName io exception
+read identification SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName read identification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read identification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

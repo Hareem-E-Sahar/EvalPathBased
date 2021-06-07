@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName client version
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName client version
+length SimpleName MethodInvocation SimpleName client version
+sessiondefault ssh version prefix QualifiedName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName sessiondefault ssh version prefix
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName sessiondefault ssh version prefix
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+client version SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName sessiondefault ssh version prefix
+client version SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+client version SimpleName MethodInvocation SimpleName to lower case
+client version SimpleName MethodInvocation MethodInvocation SimpleName contains
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName contains
+client version SimpleName MethodInvocation MethodInvocation StringLiteral putty
+to lower case SimpleName MethodInvocation MethodInvocation StringLiteral putty
+contains SimpleName MethodInvocation StringLiteral putty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is putty client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client version
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is putty client
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName client version
+boolean PrimitiveType MethodDeclaration SimpleName is putty client
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName client version
+is putty client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is putty client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is putty client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is putty client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client version

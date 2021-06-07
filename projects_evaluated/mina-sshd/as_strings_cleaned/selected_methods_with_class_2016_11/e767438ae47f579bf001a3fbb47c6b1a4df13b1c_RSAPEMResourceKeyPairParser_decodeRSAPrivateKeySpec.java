@@ -1,0 +1,181 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+boolean PrimitiveType SingleVariableDeclaration SimpleName ok to close
+asn object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sequence
+no close input stream SimpleName MethodInvocation SimpleName resolve input stream
+no close input stream SimpleName MethodInvocation SimpleName s
+no close input stream SimpleName MethodInvocation SimpleName ok to close
+resolve input stream SimpleName MethodInvocation SimpleName s
+resolve input stream SimpleName MethodInvocation SimpleName ok to close
+s SimpleName MethodInvocation SimpleName ok to close
+der parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName no close input stream
+der parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName resolve input stream
+der parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName s
+der parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ok to close
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName der parser
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName no close input stream
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName resolve input stream
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName s
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ok to close
+der parser SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName parser
+parser SimpleName MethodInvocation SimpleName read object
+sequence SimpleName Assignment MethodInvocation SimpleName parser
+sequence SimpleName Assignment MethodInvocation SimpleName read object
+sequence SimpleName MethodInvocation SimpleName get obj type
+asn typesequence QualifiedName MethodInvocation SimpleName equals
+asn typesequence QualifiedName MethodInvocation MethodInvocation SimpleName sequence
+asn typesequence QualifiedName MethodInvocation MethodInvocation SimpleName get obj type
+equals SimpleName MethodInvocation MethodInvocation SimpleName sequence
+equals SimpleName MethodInvocation MethodInvocation SimpleName get obj type
+sequence SimpleName MethodInvocation SimpleName get obj type
+invalid der not a sequence StringLiteral InfixExpression MethodInvocation SimpleName sequence
+invalid der not a sequence StringLiteral InfixExpression MethodInvocation SimpleName get obj type
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid der not a sequence
+sequence SimpleName MethodInvocation SimpleName create parser
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName sequence
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName create parser
+der parser SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName parser
+parser SimpleName MethodInvocation SimpleName read object
+version object SimpleName VariableDeclarationFragment MethodInvocation SimpleName parser
+version object SimpleName VariableDeclarationFragment MethodInvocation SimpleName read object
+asn object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version object
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation StringLiteral no version
+version object SimpleName MethodInvocation SimpleName as integer
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName version object
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+big integerzero QualifiedName MethodInvocation SimpleName equals
+big integerzero QualifiedName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation StringLiteral multiprimes na
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+modulus SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+modulus SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+modulus SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName modulus
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+public exp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+public exp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+public exp SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName public exp
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+private exp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+private exp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+private exp SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName private exp
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+prime p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+prime p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+prime p SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prime p
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+prime q SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+prime q SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+prime q SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prime q
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+prime exponent p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+prime exponent p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+prime exponent p SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prime exponent p
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+prime exponent q SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+prime exponent q SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+prime exponent q SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prime exponent q
+parser SimpleName MethodInvocation SimpleName read object
+parser SimpleName MethodInvocation MethodInvocation SimpleName as integer
+read object SimpleName MethodInvocation MethodInvocation SimpleName as integer
+crt coef SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parser
+crt coef SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName read object
+crt coef SimpleName VariableDeclarationFragment MethodInvocation SimpleName as integer
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName crt coef
+rsa private crt key spec SimpleName SimpleType ClassInstanceCreation SimpleName modulus
+rsa private crt key spec SimpleName SimpleType ClassInstanceCreation SimpleName public exp
+rsa private crt key spec SimpleName SimpleType ClassInstanceCreation SimpleName private exp
+rsa private crt key spec SimpleName SimpleType ClassInstanceCreation SimpleName prime p
+rsa private crt key spec SimpleName SimpleType ClassInstanceCreation SimpleName prime q
+modulus SimpleName ClassInstanceCreation SimpleName public exp
+modulus SimpleName ClassInstanceCreation SimpleName private exp
+modulus SimpleName ClassInstanceCreation SimpleName prime p
+modulus SimpleName ClassInstanceCreation SimpleName prime q
+modulus SimpleName ClassInstanceCreation SimpleName prime exponent p
+public exp SimpleName ClassInstanceCreation SimpleName private exp
+public exp SimpleName ClassInstanceCreation SimpleName prime p
+public exp SimpleName ClassInstanceCreation SimpleName prime q
+public exp SimpleName ClassInstanceCreation SimpleName prime exponent p
+public exp SimpleName ClassInstanceCreation SimpleName prime exponent q
+private exp SimpleName ClassInstanceCreation SimpleName prime p
+private exp SimpleName ClassInstanceCreation SimpleName prime q
+private exp SimpleName ClassInstanceCreation SimpleName prime exponent p
+private exp SimpleName ClassInstanceCreation SimpleName prime exponent q
+private exp SimpleName ClassInstanceCreation SimpleName crt coef
+prime p SimpleName ClassInstanceCreation SimpleName prime q
+prime p SimpleName ClassInstanceCreation SimpleName prime exponent p
+prime p SimpleName ClassInstanceCreation SimpleName prime exponent q
+prime p SimpleName ClassInstanceCreation SimpleName crt coef
+prime q SimpleName ClassInstanceCreation SimpleName prime exponent p
+prime q SimpleName ClassInstanceCreation SimpleName prime exponent q
+prime q SimpleName ClassInstanceCreation SimpleName crt coef
+prime exponent p SimpleName ClassInstanceCreation SimpleName prime exponent q
+prime exponent p SimpleName ClassInstanceCreation SimpleName crt coef
+prime exponent q SimpleName ClassInstanceCreation SimpleName crt coef
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName rsa private crt key spec
+public Modifier MethodDeclaration SimpleName decode rsa private key spec
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+static Modifier MethodDeclaration SimpleType SimpleName rsa private crt key spec
+static Modifier MethodDeclaration SimpleName decode rsa private key spec
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+rsa private crt key spec SimpleName SimpleType MethodDeclaration SimpleName decode rsa private key spec
+rsa private crt key spec SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+rsa private crt key spec SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+rsa private crt key spec SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+rsa private crt key spec SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+decode rsa private key spec SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+decode rsa private key spec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+decode rsa private key spec SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+decode rsa private key spec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+decode rsa private key spec SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+ok to close SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rsa private crt key spec
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode rsa private key spec
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rsa private crt key spec
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode rsa private key spec
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

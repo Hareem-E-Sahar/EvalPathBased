@@ -1,0 +1,81 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName ssh client session
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote address
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName server key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+object SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+ssh client session SimpleName MethodInvocation SimpleName get metadata map
+metadata map SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh client session
+metadata map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata map
+metadata map SimpleName MethodInvocation SimpleName get
+metadata map SimpleName MethodInvocation TypeLiteral SimpleType SimpleName server key verifier
+get SimpleName MethodInvocation TypeLiteral SimpleType SimpleName server key verifier
+verifier SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata map
+verifier SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName verifier
+log SimpleName MethodInvocation SimpleName is trace enabled
+verify server key StringLiteral InfixExpression SimpleName remote address
+verify server key StringLiteral InfixExpression StringLiteral ) no verifier found in client session metadata accepting server key
+remote address SimpleName InfixExpression StringLiteral ) no verifier found in client session metadata accepting server key
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral verify server key
+log SimpleName MethodInvocation InfixExpression SimpleName remote address
+log SimpleName MethodInvocation InfixExpression StringLiteral ) no verifier found in client session metadata accepting server key
+trace SimpleName MethodInvocation InfixExpression StringLiteral verify server key
+trace SimpleName MethodInvocation InfixExpression SimpleName remote address
+trace SimpleName MethodInvocation InfixExpression StringLiteral ) no verifier found in client session metadata accepting server key
+server key verifier SimpleName SimpleType CastExpression SimpleName verifier
+verifier SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName verify server key
+verifier SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName ssh client session
+verifier SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName remote address
+verifier SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName server key
+verify server key SimpleName MethodInvocation SimpleName ssh client session
+verify server key SimpleName MethodInvocation SimpleName remote address
+verify server key SimpleName MethodInvocation SimpleName server key
+ssh client session SimpleName MethodInvocation SimpleName remote address
+ssh client session SimpleName MethodInvocation SimpleName server key
+remote address SimpleName MethodInvocation SimpleName server key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName verify server key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName verify server key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server key
+boolean PrimitiveType MethodDeclaration SimpleName verify server key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server key
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote address
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server key
+ssh client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+ssh client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify server key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify server key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key

@@ -1,0 +1,80 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ciphers
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ciphers
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ciphers
+is empty SimpleName MethodInvocation SimpleName ciphers
+collections SimpleName MethodInvocation SimpleName empty list
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+ciphers SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ciphers
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+from factory name SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral bad factory name s in s
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation SimpleName ciphers
+check not null SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+check not null SimpleName MethodInvocation MethodInvocation SimpleName name
+check not null SimpleName MethodInvocation StringLiteral bad factory name s in s
+check not null SimpleName MethodInvocation SimpleName name
+check not null SimpleName MethodInvocation SimpleName ciphers
+from factory name SimpleName MethodInvocation MethodInvocation StringLiteral bad factory name s in s
+name SimpleName MethodInvocation MethodInvocation StringLiteral bad factory name s in s
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName name
+name SimpleName MethodInvocation MethodInvocation SimpleName name
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName ciphers
+name SimpleName MethodInvocation MethodInvocation SimpleName ciphers
+bad factory name s in s StringLiteral MethodInvocation SimpleName name
+bad factory name s in s StringLiteral MethodInvocation SimpleName ciphers
+name SimpleName MethodInvocation SimpleName ciphers
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from factory name
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral bad factory name s in s
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName ciphers
+builtin ciphers SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName c
+add SimpleName MethodInvocation SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ciphers
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ciphers
+ciphers SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName parse ciphers list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ciphers
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName parse ciphers list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ciphers
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName ciphers
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration SimpleName parse ciphers list
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName ciphers
+final Modifier MethodDeclaration Block EnhancedForStatement SimpleName ciphers
+final Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse ciphers list
+parse ciphers list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ciphers
+parse ciphers list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName ciphers
+parse ciphers list SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse ciphers list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ciphers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse ciphers list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ciphers

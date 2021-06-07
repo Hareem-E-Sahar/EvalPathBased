@@ -1,0 +1,20 @@
+channel listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+listener SimpleName MethodInvocation SimpleName channel initialized
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName signal channel initialized
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel listener
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName signal channel initialized
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+signal channel initialized SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel listener
+signal channel initialized SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName signal channel initialized
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName signal channel initialized
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

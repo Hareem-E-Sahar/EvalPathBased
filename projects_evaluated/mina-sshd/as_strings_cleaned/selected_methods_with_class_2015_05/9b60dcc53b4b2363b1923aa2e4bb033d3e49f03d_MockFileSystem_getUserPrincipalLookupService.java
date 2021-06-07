@@ -1,0 +1,16 @@
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral get user principal lookup service na
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName user principal lookup service
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get user principal lookup service
+public Modifier MethodDeclaration SimpleType SimpleName user principal lookup service
+public Modifier MethodDeclaration SimpleName get user principal lookup service
+user principal lookup service SimpleName SimpleType MethodDeclaration SimpleName get user principal lookup service
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user principal lookup service
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user principal lookup service
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user principal lookup service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user principal lookup service

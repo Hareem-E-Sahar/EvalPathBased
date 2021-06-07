@@ -1,0 +1,99 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host config entry
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host config entry
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+host config entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+host config entry SimpleName SimpleType SingleVariableDeclaration SimpleName cur entry
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hosts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hosts
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName host config entry
+duplicate configuration SimpleName MethodInvocation SimpleName cur entry
+duplicate configuration SimpleName MethodInvocation SimpleName hosts
+cur entry SimpleName MethodInvocation SimpleName hosts
+dups SimpleName VariableDeclarationFragment MethodInvocation SimpleName duplicate configuration
+dups SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur entry
+dups SimpleName VariableDeclarationFragment MethodInvocation SimpleName hosts
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName dups
+size SimpleName MethodInvocation SimpleName dups
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation NumberLiteral empty
+math SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+math SimpleName MethodInvocation MethodInvocation SimpleName dups
+max SimpleName MethodInvocation NumberLiteral empty
+max SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+max SimpleName MethodInvocation MethodInvocation SimpleName size
+max SimpleName MethodInvocation MethodInvocation SimpleName dups
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName generic utils
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName dups
+extra hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+extra hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName max
+extra hosts SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+extra hosts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName generic utils
+extra hosts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName size
+extra hosts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dups
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName extra hosts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression SimpleName extra hosts
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression SimpleName extra hosts
+math SimpleName MethodInvocation QualifiedName bytesize
+max SimpleName MethodInvocation InfixExpression NumberLiteral empty
+max SimpleName MethodInvocation InfixExpression SimpleName extra hosts
+max SimpleName MethodInvocation QualifiedName bytesize
+empty NumberLiteral InfixExpression MethodInvocation QualifiedName bytesize
+extra hosts SimpleName InfixExpression MethodInvocation QualifiedName bytesize
+entries SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName math
+entries SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName max
+entries SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName bytesize
+entries SimpleName MethodInvocation SimpleName add
+entries SimpleName MethodInvocation SimpleName cur entry
+add SimpleName MethodInvocation SimpleName cur entry
+extra hosts SimpleName InfixExpression NumberLiteral empty
+entries SimpleName MethodInvocation SimpleName add all
+entries SimpleName MethodInvocation SimpleName dups
+add all SimpleName MethodInvocation SimpleName dups
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName entries
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SimpleName update entries list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName host config entry
+static Modifier MethodDeclaration SimpleName update entries list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName hosts
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update entries list
+host config entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update entries list
+update entries list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+update entries list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+update entries list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+update entries list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hosts
+update entries list SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+update entries list SimpleName MethodDeclaration Block ReturnStatement SimpleName entries
+entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts
+cur entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entries list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entries list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts

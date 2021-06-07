@@ -1,0 +1,70 @@
+key pair provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+provider SimpleName MethodInvocation SimpleName get key types
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key types
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+key type SimpleName MethodInvocation SimpleName equals
+key type SimpleName MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+provider SimpleName MethodInvocation SimpleName load key
+provider SimpleName MethodInvocation SimpleName key type
+load key SimpleName MethodInvocation SimpleName key type
+kp SimpleName Assignment MethodInvocation SimpleName provider
+kp SimpleName Assignment MethodInvocation SimpleName load key
+kp SimpleName Assignment MethodInvocation SimpleName key type
+failed to load key for StringLiteral InfixExpression SimpleName key type
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral failed to load key for
+assert not null SimpleName MethodInvocation InfixExpression SimpleName key type
+assert not null SimpleName MethodInvocation SimpleName kp
+failed to load key for StringLiteral InfixExpression MethodInvocation SimpleName kp
+key type SimpleName InfixExpression MethodInvocation SimpleName kp
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+expected key type not found StringLiteral InfixExpression SimpleName key type
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral expected key type not found
+assert not null SimpleName MethodInvocation InfixExpression SimpleName key type
+assert not null SimpleName MethodInvocation SimpleName kp
+expected key type not found StringLiteral InfixExpression MethodInvocation SimpleName kp
+key type SimpleName InfixExpression MethodInvocation SimpleName kp
+types SimpleName EnhancedForStatement Block ReturnStatement SimpleName kp
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName key pair
+private Modifier MethodDeclaration SimpleName validate key pair provider
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+static Modifier MethodDeclaration SimpleType SimpleName key pair
+static Modifier MethodDeclaration SimpleName validate key pair provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName types
+static Modifier MethodDeclaration Block ReturnStatement SimpleName kp
+key pair SimpleName SimpleType MethodDeclaration SimpleName validate key pair provider
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provider
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key type
+validate key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+validate key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+validate key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+validate key pair provider SimpleName MethodDeclaration Block EnhancedForStatement SimpleName types
+validate key pair provider SimpleName MethodDeclaration Block ReturnStatement SimpleName kp
+provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate key pair provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate key pair provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type

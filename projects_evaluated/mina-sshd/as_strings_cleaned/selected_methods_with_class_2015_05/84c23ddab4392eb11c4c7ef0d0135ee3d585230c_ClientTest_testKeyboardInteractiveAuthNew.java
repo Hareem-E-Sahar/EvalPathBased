@@ -1,0 +1,69 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName user auth
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName named factory
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName user auth
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation QualifiedName user auth keyboard interactiveuser auth keyboard interactive factoryinstance
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+user auth SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+named factory SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName user auth keyboard interactiveuser auth keyboard interactive factoryinstance
+user auth SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName user auth keyboard interactiveuser auth keyboard interactive factoryinstance
+as list SimpleName MethodInvocation QualifiedName user auth keyboard interactiveuser auth keyboard interactive factoryinstance
+client SimpleName MethodInvocation SimpleName set user auth factories
+client SimpleName MethodInvocation MethodInvocation SimpleName arrays
+client SimpleName MethodInvocation MethodInvocation SimpleName as list
+client SimpleName MethodInvocation MethodInvocation QualifiedName user auth keyboard interactiveuser auth keyboard interactive factoryinstance
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+set user auth factories SimpleName MethodInvocation MethodInvocation QualifiedName user auth keyboard interactiveuser auth keyboard interactive factoryinstance
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation StringLiteral smx
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation StringLiteral smx
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+smx StringLiteral MethodInvocation StringLiteral localhost
+smx StringLiteral MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+smx StringLiteral MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+smx StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation StringLiteral smx
+add password identity SimpleName MethodInvocation StringLiteral smx
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test keyboard interactive auth new
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test keyboard interactive auth new
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test keyboard interactive auth new
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test keyboard interactive auth new SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test keyboard interactive auth new
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test keyboard interactive auth new
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

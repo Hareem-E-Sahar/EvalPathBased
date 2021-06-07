@@ -1,0 +1,74 @@
+props SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName closeable
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get inner closeable
+protected Modifier MethodDeclaration SimpleType SimpleName closeable
+protected Modifier MethodDeclaration SimpleName get inner closeable
+closeable SimpleName SimpleType MethodDeclaration SimpleName get inner closeable
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName abstract factory manager
+abstract factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+property resolver utils SimpleName MethodInvocation SimpleName to property resolver
+property resolver utils SimpleName MethodInvocation SimpleName props
+to property resolver SimpleName MethodInvocation SimpleName props
+ssh config file reader SimpleName MethodInvocation SimpleName configure
+ssh config file reader SimpleName MethodInvocation SimpleName expected
+ssh config file reader SimpleName MethodInvocation MethodInvocation SimpleName property resolver utils
+ssh config file reader SimpleName MethodInvocation MethodInvocation SimpleName to property resolver
+ssh config file reader SimpleName MethodInvocation MethodInvocation SimpleName props
+ssh config file reader SimpleName MethodInvocation BooleanLiteral true
+ssh config file reader SimpleName MethodInvocation BooleanLiteral true
+configure SimpleName MethodInvocation SimpleName expected
+configure SimpleName MethodInvocation MethodInvocation SimpleName property resolver utils
+configure SimpleName MethodInvocation MethodInvocation SimpleName to property resolver
+configure SimpleName MethodInvocation MethodInvocation SimpleName props
+configure SimpleName MethodInvocation BooleanLiteral true
+configure SimpleName MethodInvocation BooleanLiteral true
+expected SimpleName MethodInvocation MethodInvocation SimpleName property resolver utils
+expected SimpleName MethodInvocation MethodInvocation SimpleName to property resolver
+expected SimpleName MethodInvocation MethodInvocation SimpleName props
+expected SimpleName MethodInvocation BooleanLiteral true
+expected SimpleName MethodInvocation BooleanLiteral true
+property resolver utils SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to property resolver SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+props SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+property resolver utils SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to property resolver SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+props SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh config file reader
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName configure
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property resolver utils
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to property resolver
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName props
+actual SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+actual SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+abstract factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation StringLiteral mismatched configured result
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched configured result StringLiteral MethodInvocation SimpleName expected
+mismatched configured result StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+validate abstract factory manager configuration SimpleName MethodInvocation SimpleName expected
+validate abstract factory manager configuration SimpleName MethodInvocation SimpleName props
+validate abstract factory manager configuration SimpleName MethodInvocation BooleanLiteral true
+expected SimpleName MethodInvocation SimpleName props
+expected SimpleName MethodInvocation BooleanLiteral true
+props SimpleName MethodInvocation BooleanLiteral true
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test configure abstract factory manager with defaults
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test configure abstract factory manager with defaults
+void PrimitiveType MethodDeclaration SimpleName test configure abstract factory manager with defaults
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test configure abstract factory manager with defaults
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test configure abstract factory manager with defaults

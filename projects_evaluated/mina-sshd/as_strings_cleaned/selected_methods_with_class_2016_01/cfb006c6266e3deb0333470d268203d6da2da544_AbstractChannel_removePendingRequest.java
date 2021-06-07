@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName request
+pending requests SimpleName MethodInvocation SimpleName remove
+pending requests SimpleName MethodInvocation SimpleName request
+remove SimpleName MethodInvocation SimpleName request
+pending SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending requests
+pending SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+pending SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+date SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pending
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral remove pending request request pending
+log SimpleName MethodInvocation SimpleName request
+log SimpleName MethodInvocation SimpleName pending
+debug SimpleName MethodInvocation StringLiteral remove pending request request pending
+debug SimpleName MethodInvocation SimpleName request
+debug SimpleName MethodInvocation SimpleName pending
+remove pending request request pending StringLiteral MethodInvocation SimpleName request
+remove pending request request pending StringLiteral MethodInvocation SimpleName pending
+request SimpleName MethodInvocation SimpleName pending
+protected Modifier MethodDeclaration SimpleType SimpleName date
+protected Modifier MethodDeclaration SimpleName remove pending request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName pending
+date SimpleName SimpleType MethodDeclaration SimpleName remove pending request
+date SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+remove pending request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove pending request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+remove pending request SimpleName MethodDeclaration Block ReturnStatement SimpleName pending
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName date
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove pending request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName date
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove pending request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

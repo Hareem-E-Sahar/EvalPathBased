@@ -1,0 +1,44 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName that
+is equivalent SimpleName SuperMethodInvocation SimpleName that
+that SimpleName InstanceofExpression SimpleType SimpleName local forwarding entry
+local forwarding entry SimpleName SimpleType CastExpression SimpleName that
+entry SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName local forwarding entry
+entry SimpleName VariableDeclarationFragment CastExpression SimpleName that
+local forwarding entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+entry SimpleName MethodInvocation SimpleName get alias
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName get alias
+objects SimpleName MethodInvocation MethodInvocation SimpleName entry
+objects SimpleName MethodInvocation MethodInvocation SimpleName get alias
+equals SimpleName MethodInvocation MethodInvocation SimpleName get alias
+equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+equals SimpleName MethodInvocation MethodInvocation SimpleName get alias
+get alias SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get alias SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get alias
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is equivalent
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName that
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is equivalent
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName that
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is equivalent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName that
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is equivalent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+is equivalent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName that
+is equivalent SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is equivalent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is equivalent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that

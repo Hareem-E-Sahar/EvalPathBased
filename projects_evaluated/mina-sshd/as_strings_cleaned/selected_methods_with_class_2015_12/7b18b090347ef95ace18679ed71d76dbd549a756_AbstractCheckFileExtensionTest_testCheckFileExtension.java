@@ -1,0 +1,500 @@
+named factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factory
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+int PrimitiveType SingleVariableDeclaration SimpleName hash block size
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName expected hash
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName detect target folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation SimpleName target path
+utils SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation SimpleName target path
+resolve SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+resolve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target path SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+target path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+target path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp constantssftp subsystem name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get simple name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lcl sftp
+assert hierarchy target folder exists SimpleName MethodInvocation SimpleName lcl sftp
+factory SimpleName MethodInvocation SimpleName get name
+factory SimpleName MethodInvocation InfixExpression StringLiteral data
+get name SimpleName MethodInvocation InfixExpression StringLiteral data
+factory SimpleName MethodInvocation InfixExpression QualifiedName datalength
+get name SimpleName MethodInvocation InfixExpression QualifiedName datalength
+factory SimpleName MethodInvocation InfixExpression StringLiteral -
+get name SimpleName MethodInvocation InfixExpression StringLiteral -
+factory SimpleName MethodInvocation InfixExpression SimpleName hash block size
+get name SimpleName MethodInvocation InfixExpression SimpleName hash block size
+factory SimpleName MethodInvocation InfixExpression StringLiteral txt
+get name SimpleName MethodInvocation InfixExpression StringLiteral txt
+data StringLiteral InfixExpression QualifiedName datalength
+data StringLiteral InfixExpression StringLiteral -
+data StringLiteral InfixExpression SimpleName hash block size
+data StringLiteral InfixExpression StringLiteral txt
+datalength QualifiedName InfixExpression StringLiteral -
+datalength QualifiedName InfixExpression SimpleName hash block size
+datalength QualifiedName InfixExpression StringLiteral txt
+- StringLiteral InfixExpression SimpleName hash block size
+- StringLiteral InfixExpression StringLiteral txt
+hash block size SimpleName InfixExpression StringLiteral txt
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName resolve
+lcl sftp SimpleName MethodInvocation MethodInvocation SimpleName resolve
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral data
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName datalength
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName hash block size
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral txt
+lcl sftp SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral data
+lcl sftp SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName datalength
+lcl sftp SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+lcl sftp SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName hash block size
+lcl sftp SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral txt
+resolve SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName factory
+resolve SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+resolve SimpleName MethodInvocation InfixExpression StringLiteral data
+resolve SimpleName MethodInvocation InfixExpression QualifiedName datalength
+resolve SimpleName MethodInvocation InfixExpression StringLiteral -
+resolve SimpleName MethodInvocation InfixExpression SimpleName hash block size
+resolve SimpleName MethodInvocation InfixExpression StringLiteral txt
+src file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+src file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName lcl sftp
+src file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+src file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral data
+src file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName datalength
+src file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral -
+src file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName hash block size
+src file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral txt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src file
+files SimpleName MethodInvocation SimpleName write
+files SimpleName MethodInvocation SimpleName src file
+files SimpleName MethodInvocation SimpleName data
+files SimpleName MethodInvocation QualifiedName io utilsempty open options
+write SimpleName MethodInvocation SimpleName src file
+write SimpleName MethodInvocation SimpleName data
+write SimpleName MethodInvocation QualifiedName io utilsempty open options
+src file SimpleName MethodInvocation SimpleName data
+src file SimpleName MethodInvocation QualifiedName io utilsempty open options
+data SimpleName MethodInvocation QualifiedName io utilsempty open options
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+builtin digestsvalues QualifiedName MethodInvocation SimpleName size
+algorithms SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName builtin digestsvalues
+algorithms SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+factory SimpleName MethodInvocation SimpleName get name
+algorithms SimpleName MethodInvocation SimpleName add
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName factory
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName factory
+add SimpleName MethodInvocation MethodInvocation SimpleName get name
+named factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName f
+f SimpleName InfixExpression SimpleName factory
+f SimpleName MethodInvocation SimpleName get name
+algorithms SimpleName MethodInvocation SimpleName add
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName f
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName f
+add SimpleName MethodInvocation MethodInvocation SimpleName get name
+f SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin digestsvalues
+target path SimpleName MethodInvocation SimpleName get parent
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent path
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName parent path
+utils SimpleName MethodInvocation SimpleName src file
+resolve relative remote path SimpleName MethodInvocation SimpleName parent path
+resolve relative remote path SimpleName MethodInvocation SimpleName src file
+parent path SimpleName MethodInvocation SimpleName src file
+src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve relative remote path
+src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent path
+src path SimpleName VariableDeclarationFragment MethodInvocation SimpleName src file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src path
+src file SimpleName MethodInvocation SimpleName get parent
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName parent path
+utils SimpleName MethodInvocation MethodInvocation SimpleName src file
+utils SimpleName MethodInvocation MethodInvocation SimpleName get parent
+resolve relative remote path SimpleName MethodInvocation SimpleName parent path
+resolve relative remote path SimpleName MethodInvocation MethodInvocation SimpleName src file
+resolve relative remote path SimpleName MethodInvocation MethodInvocation SimpleName get parent
+parent path SimpleName MethodInvocation MethodInvocation SimpleName src file
+parent path SimpleName MethodInvocation MethodInvocation SimpleName get parent
+src folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+src folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve relative remote path
+src folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent path
+src folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName src file
+src folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parent
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src folder
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup test client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+session SimpleName MethodInvocation SimpleName create sftp client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create sftp client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+assert extension created SimpleName MethodInvocation SimpleName sftp
+assert extension created SimpleName MethodInvocation TypeLiteral SimpleType SimpleName check file name extension
+sftp SimpleName MethodInvocation TypeLiteral SimpleType SimpleName check file name extension
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert extension created
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+check file name extension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+file SimpleName MethodInvocation SimpleName check file name
+file SimpleName MethodInvocation SimpleName src folder
+file SimpleName MethodInvocation SimpleName algorithms
+file SimpleName MethodInvocation NumberLiteral l
+file SimpleName MethodInvocation NumberLiteral l
+check file name SimpleName MethodInvocation SimpleName src folder
+check file name SimpleName MethodInvocation SimpleName algorithms
+check file name SimpleName MethodInvocation NumberLiteral l
+check file name SimpleName MethodInvocation NumberLiteral l
+check file name SimpleName MethodInvocation SimpleName hash block size
+src folder SimpleName MethodInvocation SimpleName algorithms
+src folder SimpleName MethodInvocation NumberLiteral l
+src folder SimpleName MethodInvocation NumberLiteral l
+src folder SimpleName MethodInvocation SimpleName hash block size
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation NumberLiteral l
+l NumberLiteral MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation SimpleName hash block size
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName check file name
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName src folder
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName algorithms
+result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName hash block size
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get first
+unexpected success to hash folder StringLiteral InfixExpression SimpleName src folder
+unexpected success to hash folder StringLiteral InfixExpression StringLiteral :
+unexpected success to hash folder StringLiteral InfixExpression MethodInvocation SimpleName result
+unexpected success to hash folder StringLiteral InfixExpression MethodInvocation SimpleName get first
+src folder SimpleName InfixExpression StringLiteral :
+src folder SimpleName InfixExpression MethodInvocation SimpleName result
+src folder SimpleName InfixExpression MethodInvocation SimpleName get first
+: StringLiteral InfixExpression MethodInvocation SimpleName result
+: StringLiteral InfixExpression MethodInvocation SimpleName get first
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected success to hash folder
+fail SimpleName MethodInvocation InfixExpression SimpleName src folder
+fail SimpleName MethodInvocation InfixExpression StringLiteral :
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get first
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName sftp exception
+assert true SimpleName MethodInvocation StringLiteral not an sftp exception
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName e
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName sftp exception
+not an sftp exception StringLiteral MethodInvocation InstanceofExpression SimpleName e
+not an sftp exception StringLiteral MethodInvocation InstanceofExpression SimpleType SimpleName sftp exception
+assert extension created SimpleName MethodInvocation SimpleName sftp
+assert extension created SimpleName MethodInvocation TypeLiteral SimpleType SimpleName check file handle extension
+sftp SimpleName MethodInvocation TypeLiteral SimpleType SimpleName check file handle extension
+hndl SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert extension created
+hndl SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+check file handle extension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hndl
+sftp SimpleName MethodInvocation SimpleName open dir
+sftp SimpleName MethodInvocation SimpleName src folder
+open dir SimpleName MethodInvocation SimpleName src folder
+dir handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+dir handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName open dir
+dir handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName src folder
+closeable handle SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName dir handle
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+hndl SimpleName MethodInvocation SimpleName check file handle
+hndl SimpleName MethodInvocation SimpleName dir handle
+hndl SimpleName MethodInvocation SimpleName algorithms
+hndl SimpleName MethodInvocation NumberLiteral l
+hndl SimpleName MethodInvocation NumberLiteral l
+check file handle SimpleName MethodInvocation SimpleName dir handle
+check file handle SimpleName MethodInvocation SimpleName algorithms
+check file handle SimpleName MethodInvocation NumberLiteral l
+check file handle SimpleName MethodInvocation NumberLiteral l
+check file handle SimpleName MethodInvocation SimpleName hash block size
+dir handle SimpleName MethodInvocation SimpleName algorithms
+dir handle SimpleName MethodInvocation NumberLiteral l
+dir handle SimpleName MethodInvocation NumberLiteral l
+dir handle SimpleName MethodInvocation SimpleName hash block size
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation NumberLiteral l
+l NumberLiteral MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation SimpleName hash block size
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName hndl
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName check file handle
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName dir handle
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName algorithms
+result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName hash block size
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get first
+unexpected handle success on folder StringLiteral InfixExpression SimpleName src folder
+unexpected handle success on folder StringLiteral InfixExpression StringLiteral :
+unexpected handle success on folder StringLiteral InfixExpression MethodInvocation SimpleName result
+unexpected handle success on folder StringLiteral InfixExpression MethodInvocation SimpleName get first
+src folder SimpleName InfixExpression StringLiteral :
+src folder SimpleName InfixExpression MethodInvocation SimpleName result
+src folder SimpleName InfixExpression MethodInvocation SimpleName get first
+: StringLiteral InfixExpression MethodInvocation SimpleName result
+: StringLiteral InfixExpression MethodInvocation SimpleName get first
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected handle success on folder
+fail SimpleName MethodInvocation InfixExpression SimpleName src folder
+fail SimpleName MethodInvocation InfixExpression StringLiteral :
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get first
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName sftp exception
+assert true SimpleName MethodInvocation StringLiteral not an sftp exception
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName e
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName sftp exception
+not an sftp exception StringLiteral MethodInvocation InstanceofExpression SimpleName e
+not an sftp exception StringLiteral MethodInvocation InstanceofExpression SimpleType SimpleName sftp exception
+file SimpleName MethodInvocation SimpleName check file name
+file SimpleName MethodInvocation SimpleName src path
+file SimpleName MethodInvocation SimpleName algorithms
+file SimpleName MethodInvocation NumberLiteral l
+file SimpleName MethodInvocation NumberLiteral l
+check file name SimpleName MethodInvocation SimpleName src path
+check file name SimpleName MethodInvocation SimpleName algorithms
+check file name SimpleName MethodInvocation NumberLiteral l
+check file name SimpleName MethodInvocation NumberLiteral l
+check file name SimpleName MethodInvocation SimpleName hash block size
+src path SimpleName MethodInvocation SimpleName algorithms
+src path SimpleName MethodInvocation NumberLiteral l
+src path SimpleName MethodInvocation NumberLiteral l
+src path SimpleName MethodInvocation SimpleName hash block size
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation NumberLiteral l
+l NumberLiteral MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation SimpleName hash block size
+algorithms SimpleName MethodInvocation SimpleName get
+algorithms SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+validate hash result SimpleName MethodInvocation SimpleName file
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName file
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName check file name
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName src path
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+validate hash result SimpleName MethodInvocation MethodInvocation NumberLiteral l
+validate hash result SimpleName MethodInvocation MethodInvocation NumberLiteral l
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName hash block size
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName get
+validate hash result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+validate hash result SimpleName MethodInvocation SimpleName expected hash
+file SimpleName MethodInvocation MethodInvocation SimpleName file
+file SimpleName MethodInvocation MethodInvocation SimpleName check file name
+file SimpleName MethodInvocation MethodInvocation SimpleName src path
+file SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+file SimpleName MethodInvocation MethodInvocation NumberLiteral l
+file SimpleName MethodInvocation MethodInvocation NumberLiteral l
+file SimpleName MethodInvocation MethodInvocation SimpleName hash block size
+file SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+file SimpleName MethodInvocation MethodInvocation SimpleName get
+file SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+file SimpleName MethodInvocation SimpleName expected hash
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+file SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+check file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+check file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+check file name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+src path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+src path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+src path SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+algorithms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+algorithms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+algorithms SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+hash block size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+hash block size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+hash block size SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+file SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+check file name SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+src path SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+l NumberLiteral MethodInvocation MethodInvocation SimpleName expected hash
+l NumberLiteral MethodInvocation MethodInvocation SimpleName expected hash
+hash block size SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+get SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName expected hash
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName src path
+sftp SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+open SimpleName MethodInvocation SimpleName src path
+open SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+src path SimpleName MethodInvocation QualifiedName sftp clientopen moderead
+file handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+file handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+file handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName src path
+file handle SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp clientopen moderead
+closeable handle SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName file handle
+hndl SimpleName MethodInvocation SimpleName check file handle
+hndl SimpleName MethodInvocation SimpleName file handle
+hndl SimpleName MethodInvocation SimpleName algorithms
+hndl SimpleName MethodInvocation NumberLiteral l
+hndl SimpleName MethodInvocation NumberLiteral l
+check file handle SimpleName MethodInvocation SimpleName file handle
+check file handle SimpleName MethodInvocation SimpleName algorithms
+check file handle SimpleName MethodInvocation NumberLiteral l
+check file handle SimpleName MethodInvocation NumberLiteral l
+check file handle SimpleName MethodInvocation SimpleName hash block size
+file handle SimpleName MethodInvocation SimpleName algorithms
+file handle SimpleName MethodInvocation NumberLiteral l
+file handle SimpleName MethodInvocation NumberLiteral l
+file handle SimpleName MethodInvocation SimpleName hash block size
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation NumberLiteral l
+algorithms SimpleName MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation NumberLiteral l
+l NumberLiteral MethodInvocation SimpleName hash block size
+l NumberLiteral MethodInvocation SimpleName hash block size
+algorithms SimpleName MethodInvocation SimpleName get
+algorithms SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+validate hash result SimpleName MethodInvocation SimpleName hndl
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName hndl
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName check file handle
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName file handle
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+validate hash result SimpleName MethodInvocation MethodInvocation NumberLiteral l
+validate hash result SimpleName MethodInvocation MethodInvocation NumberLiteral l
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName hash block size
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+validate hash result SimpleName MethodInvocation MethodInvocation SimpleName get
+validate hash result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+validate hash result SimpleName MethodInvocation SimpleName expected hash
+hndl SimpleName MethodInvocation MethodInvocation SimpleName hndl
+hndl SimpleName MethodInvocation MethodInvocation SimpleName check file handle
+hndl SimpleName MethodInvocation MethodInvocation SimpleName file handle
+hndl SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+hndl SimpleName MethodInvocation MethodInvocation NumberLiteral l
+hndl SimpleName MethodInvocation MethodInvocation NumberLiteral l
+hndl SimpleName MethodInvocation MethodInvocation SimpleName hash block size
+hndl SimpleName MethodInvocation MethodInvocation SimpleName algorithms
+hndl SimpleName MethodInvocation MethodInvocation SimpleName get
+hndl SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+hndl SimpleName MethodInvocation SimpleName expected hash
+hndl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+hndl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+hndl SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+check file handle SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+check file handle SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+check file handle SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+file handle SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+file handle SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+file handle SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+algorithms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+algorithms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+algorithms SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+hash block size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName algorithms
+hash block size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+hash block size SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+hndl SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+check file handle SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+file handle SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+l NumberLiteral MethodInvocation MethodInvocation SimpleName expected hash
+l NumberLiteral MethodInvocation MethodInvocation SimpleName expected hash
+hash block size SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+algorithms SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+get SimpleName MethodInvocation MethodInvocation SimpleName expected hash
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName expected hash
+client SimpleName MethodInvocation SimpleName stop
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test check file extension
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hash block size
+void PrimitiveType MethodDeclaration SimpleName test check file extension
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data

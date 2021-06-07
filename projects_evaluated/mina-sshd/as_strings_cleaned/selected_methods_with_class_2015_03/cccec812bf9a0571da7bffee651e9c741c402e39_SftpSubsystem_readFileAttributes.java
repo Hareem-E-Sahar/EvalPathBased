@@ -1,0 +1,66 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName view
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName opts
+files SimpleName MethodInvocation SimpleName read attributes
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName view
+files SimpleName MethodInvocation SimpleName opts
+read attributes SimpleName MethodInvocation SimpleName file
+read attributes SimpleName MethodInvocation SimpleName view
+read attributes SimpleName MethodInvocation SimpleName opts
+file SimpleName MethodInvocation SimpleName view
+file SimpleName MethodInvocation SimpleName opts
+view SimpleName MethodInvocation SimpleName opts
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle read file attributes exception SimpleName MethodInvocation SimpleName file
+handle read file attributes exception SimpleName MethodInvocation SimpleName view
+handle read file attributes exception SimpleName MethodInvocation SimpleName opts
+handle read file attributes exception SimpleName MethodInvocation SimpleName e
+file SimpleName MethodInvocation SimpleName view
+file SimpleName MethodInvocation SimpleName opts
+file SimpleName MethodInvocation SimpleName e
+view SimpleName MethodInvocation SimpleName opts
+view SimpleName MethodInvocation SimpleName e
+opts SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName read file attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName view
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read file attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read file attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read file attributes
+read file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+read file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+read file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+read file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName view
+read file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+read file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+read file attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+view SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+view SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName read file attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read file attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

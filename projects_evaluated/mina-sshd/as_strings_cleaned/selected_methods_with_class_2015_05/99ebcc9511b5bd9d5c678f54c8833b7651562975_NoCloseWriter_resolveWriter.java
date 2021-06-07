@@ -1,0 +1,50 @@
+writer SimpleName SimpleType SingleVariableDeclaration SimpleName r
+boolean PrimitiveType SingleVariableDeclaration SimpleName ok to close
+r SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ok to close
+no close writer SimpleName SimpleType ClassInstanceCreation SimpleName r
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName writer
+public Modifier MethodDeclaration SimpleName resolve writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName writer
+static Modifier MethodDeclaration SimpleName resolve writer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+final Modifier MethodDeclaration SimpleType SimpleName writer
+final Modifier MethodDeclaration SimpleName resolve writer
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+writer SimpleName SimpleType MethodDeclaration SimpleName resolve writer
+writer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName r
+writer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+writer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+resolve writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer
+resolve writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+resolve writer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+resolve writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+r SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+r SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName writer
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve writer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok to close
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName writer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve writer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok to close

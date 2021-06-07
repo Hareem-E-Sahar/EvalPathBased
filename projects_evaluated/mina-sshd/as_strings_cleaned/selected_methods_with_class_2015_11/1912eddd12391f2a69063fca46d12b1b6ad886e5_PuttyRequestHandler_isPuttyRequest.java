@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName request
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName request
+length SimpleName MethodInvocation SimpleName request
+request suffix SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request suffix
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request suffix
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request suffix
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+request SimpleName MethodInvocation SimpleName ends with
+request SimpleName MethodInvocation SimpleName request suffix
+ends with SimpleName MethodInvocation SimpleName request suffix
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is putty request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is putty request
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+boolean PrimitiveType MethodDeclaration SimpleName is putty request
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request
+is putty request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is putty request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is putty request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is putty request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

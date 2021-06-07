@@ -1,0 +1,18 @@
+environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName env
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+start SimpleName MethodDeclaration SimpleType SimpleName io exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

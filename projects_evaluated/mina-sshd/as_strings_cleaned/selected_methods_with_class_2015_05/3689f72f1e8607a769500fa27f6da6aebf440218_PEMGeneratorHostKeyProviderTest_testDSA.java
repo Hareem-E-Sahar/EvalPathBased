@@ -1,0 +1,31 @@
+security utils SimpleName MethodInvocation SimpleName is bouncy castle registered
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral bouncy castle not registered
+assume SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+assume true SimpleName MethodInvocation StringLiteral bouncy castle not registered
+assume true SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+bouncy castle not registered StringLiteral MethodInvocation MethodInvocation SimpleName security utils
+bouncy castle not registered StringLiteral MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+test pem generator host key provider SimpleName MethodInvocation StringLiteral dsa
+test pem generator host key provider SimpleName MethodInvocation QualifiedName key pair providerssh dss
+test pem generator host key provider SimpleName MethodInvocation NumberLiteral empty
+dsa StringLiteral MethodInvocation QualifiedName key pair providerssh dss
+dsa StringLiteral MethodInvocation NumberLiteral empty
+key pair providerssh dss QualifiedName MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test dsa
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test dsa
+void PrimitiveType MethodDeclaration SimpleName test dsa
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test dsa
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test dsa

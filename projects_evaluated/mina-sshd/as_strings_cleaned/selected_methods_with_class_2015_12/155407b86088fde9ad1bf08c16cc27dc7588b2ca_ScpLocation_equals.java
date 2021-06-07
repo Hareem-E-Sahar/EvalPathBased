@@ -1,0 +1,83 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName obj
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+scp location SimpleName SimpleType CastExpression SimpleName obj
+other SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName scp location
+other SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+scp location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other
+other SimpleName MethodInvocation SimpleName is local
+is local SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName other
+is local SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is local
+os utils SimpleName MethodInvocation SimpleName get comparable path
+os utils SimpleName MethodInvocation MethodInvocation SimpleName get path
+get comparable path SimpleName MethodInvocation MethodInvocation SimpleName get path
+this path SimpleName VariableDeclarationFragment MethodInvocation SimpleName os utils
+this path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get comparable path
+this path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName this path
+other SimpleName MethodInvocation SimpleName get path
+os utils SimpleName MethodInvocation SimpleName get comparable path
+os utils SimpleName MethodInvocation MethodInvocation SimpleName other
+os utils SimpleName MethodInvocation MethodInvocation SimpleName get path
+get comparable path SimpleName MethodInvocation MethodInvocation SimpleName other
+get comparable path SimpleName MethodInvocation MethodInvocation SimpleName get path
+other path SimpleName VariableDeclarationFragment MethodInvocation SimpleName os utils
+other path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get comparable path
+other path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName other
+other path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other path
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName this path
+objects SimpleName MethodInvocation SimpleName other path
+equals SimpleName MethodInvocation SimpleName this path
+equals SimpleName MethodInvocation SimpleName other path
+this path SimpleName MethodInvocation SimpleName other path
+other SimpleName MethodInvocation SimpleName resolve username
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+objects SimpleName MethodInvocation MethodInvocation SimpleName other
+objects SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+equals SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+equals SimpleName MethodInvocation MethodInvocation SimpleName other
+equals SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+resolve username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+resolve username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resolve username
+other SimpleName MethodInvocation SimpleName get host
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName get host
+objects SimpleName MethodInvocation MethodInvocation SimpleName other
+objects SimpleName MethodInvocation MethodInvocation SimpleName get host
+equals SimpleName MethodInvocation MethodInvocation SimpleName get host
+equals SimpleName MethodInvocation MethodInvocation SimpleName other
+equals SimpleName MethodInvocation MethodInvocation SimpleName get host
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

@@ -1,0 +1,7 @@
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName integer
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName sshd socket address
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName sshd socket address
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get remote forwards bindings
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get remote forwards bindings
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get remote forwards bindings

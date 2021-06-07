@@ -1,0 +1,69 @@
+native file system view SimpleName MethodInvocation SimpleName get separator
+separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName native file system view
+separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get separator
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName separator
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName native file system view
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get separator
+full name SimpleName VariableDeclarationFragment SimpleName file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName full name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file name
+full name SimpleName MethodInvocation SimpleName length
+filelen SimpleName VariableDeclarationFragment MethodInvocation SimpleName full name
+filelen SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName filelen
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName full name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+file name SimpleName MethodInvocation SimpleName index of
+file name SimpleName MethodInvocation SimpleName separator
+index of SimpleName MethodInvocation SimpleName separator
+filelen SimpleName InfixExpression NumberLiteral empty
+file name SimpleName MethodInvocation InfixExpression InfixExpression SimpleName filelen
+file name SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression InfixExpression SimpleName filelen
+index of SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+separator SimpleName MethodInvocation InfixExpression InfixExpression SimpleName filelen
+separator SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+filelen SimpleName InfixExpression NumberLiteral empty
+full name SimpleName MethodInvocation SimpleName char at
+full name SimpleName MethodInvocation InfixExpression SimpleName filelen
+full name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression SimpleName filelen
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+full name SimpleName MethodInvocation InfixExpression SimpleName separator
+char at SimpleName MethodInvocation InfixExpression SimpleName separator
+filelen SimpleName InfixExpression MethodInvocation InfixExpression SimpleName separator
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName separator
+filelen SimpleName InfixExpression NumberLiteral empty
+full name SimpleName MethodInvocation SimpleName substring
+full name SimpleName MethodInvocation NumberLiteral empty
+full name SimpleName MethodInvocation InfixExpression SimpleName filelen
+full name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName filelen
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression SimpleName filelen
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+full name SimpleName Assignment MethodInvocation SimpleName full name
+full name SimpleName Assignment MethodInvocation SimpleName substring
+full name SimpleName Assignment MethodInvocation NumberLiteral empty
+full name SimpleName Assignment MethodInvocation InfixExpression SimpleName filelen
+full name SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+char PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName full name
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName full name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get absolute path
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName full name
+string SimpleName SimpleType MethodDeclaration SimpleName get absolute path
+get absolute path SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+get absolute path SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get absolute path SimpleName MethodDeclaration Block ReturnStatement SimpleName full name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get absolute path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get absolute path

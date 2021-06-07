@@ -1,0 +1,56 @@
+parse path SimpleName MethodInvocation StringLiteral foo
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse path
+path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobar
+assert resolved path equals SimpleName MethodInvocation SimpleName path
+assert resolved path equals SimpleName MethodInvocation StringLiteral bar
+foobar StringLiteral MethodInvocation SimpleName path
+foobar StringLiteral MethodInvocation StringLiteral bar
+path SimpleName MethodInvocation StringLiteral bar
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobarbaztest
+assert resolved path equals SimpleName MethodInvocation SimpleName path
+assert resolved path equals SimpleName MethodInvocation StringLiteral barbaztest
+foobarbaztest StringLiteral MethodInvocation SimpleName path
+foobarbaztest StringLiteral MethodInvocation StringLiteral barbaztest
+path SimpleName MethodInvocation StringLiteral barbaztest
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobarbaztest
+assert resolved path equals SimpleName MethodInvocation SimpleName path
+assert resolved path equals SimpleName MethodInvocation StringLiteral barbaz
+assert resolved path equals SimpleName MethodInvocation StringLiteral test
+foobarbaztest StringLiteral MethodInvocation SimpleName path
+foobarbaztest StringLiteral MethodInvocation StringLiteral barbaz
+foobarbaztest StringLiteral MethodInvocation StringLiteral test
+path SimpleName MethodInvocation StringLiteral barbaz
+path SimpleName MethodInvocation StringLiteral test
+barbaz StringLiteral MethodInvocation StringLiteral test
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobarbaztest
+assert resolved path equals SimpleName MethodInvocation SimpleName path
+assert resolved path equals SimpleName MethodInvocation StringLiteral bar
+assert resolved path equals SimpleName MethodInvocation StringLiteral baz
+assert resolved path equals SimpleName MethodInvocation StringLiteral test
+foobarbaztest StringLiteral MethodInvocation SimpleName path
+foobarbaztest StringLiteral MethodInvocation StringLiteral bar
+foobarbaztest StringLiteral MethodInvocation StringLiteral baz
+foobarbaztest StringLiteral MethodInvocation StringLiteral test
+path SimpleName MethodInvocation StringLiteral bar
+path SimpleName MethodInvocation StringLiteral baz
+path SimpleName MethodInvocation StringLiteral test
+bar StringLiteral MethodInvocation StringLiteral baz
+bar StringLiteral MethodInvocation StringLiteral test
+baz StringLiteral MethodInvocation StringLiteral test
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resolve from absolute
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resolve from absolute
+void PrimitiveType MethodDeclaration SimpleName test resolve from absolute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resolve from absolute
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resolve from absolute

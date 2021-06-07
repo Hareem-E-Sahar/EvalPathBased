@@ -1,0 +1,6 @@
+timeout status SimpleName SimpleType MethodDeclaration SimpleName get timeout status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName timeout status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get timeout status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName timeout status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get timeout status

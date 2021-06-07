@@ -1,0 +1,49 @@
+di SimpleName MethodInvocation SimpleName read int
+skip size SimpleName VariableDeclarationFragment MethodInvocation SimpleName di
+skip size SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName skip size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName di
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+di SimpleName MethodInvocation SimpleName skip bytes
+di SimpleName MethodInvocation SimpleName skip size
+skip bytes SimpleName MethodInvocation SimpleName skip size
+effective skip SimpleName VariableDeclarationFragment MethodInvocation SimpleName di
+effective skip SimpleName VariableDeclarationFragment MethodInvocation SimpleName skip bytes
+effective skip SimpleName VariableDeclarationFragment MethodInvocation SimpleName skip size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName effective skip
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName di
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName skip bytes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName skip size
+skip size SimpleName InfixExpression SimpleName effective skip
+mismatched skip size expected StringLiteral InfixExpression SimpleName skip size
+mismatched skip size expected StringLiteral InfixExpression StringLiteral actual
+mismatched skip size expected StringLiteral InfixExpression SimpleName effective skip
+skip size SimpleName InfixExpression StringLiteral actual
+skip size SimpleName InfixExpression SimpleName effective skip
+actual StringLiteral InfixExpression SimpleName effective skip
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mismatched skip size expected
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName skip size
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral actual
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName effective skip
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName skip
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName skip
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+skip SimpleName MethodDeclaration SimpleType SimpleName io exception
+skip SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+skip SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName skip
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName skip
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,156 @@
+host config entry SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+int PrimitiveType SingleVariableDeclaration SimpleName port
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+normal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host config entry
+host config entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName normal
+normal SimpleName MethodInvocation SimpleName set host
+normal SimpleName MethodInvocation SimpleName host
+set host SimpleName MethodInvocation SimpleName host
+entry SimpleName MethodInvocation SimpleName resolve host name
+entry SimpleName MethodInvocation SimpleName host
+resolve host name SimpleName MethodInvocation SimpleName host
+normal SimpleName MethodInvocation SimpleName set host name
+normal SimpleName MethodInvocation MethodInvocation SimpleName entry
+normal SimpleName MethodInvocation MethodInvocation SimpleName resolve host name
+normal SimpleName MethodInvocation MethodInvocation SimpleName host
+set host name SimpleName MethodInvocation MethodInvocation SimpleName entry
+set host name SimpleName MethodInvocation MethodInvocation SimpleName resolve host name
+set host name SimpleName MethodInvocation MethodInvocation SimpleName host
+entry SimpleName MethodInvocation SimpleName resolve port
+entry SimpleName MethodInvocation SimpleName port
+resolve port SimpleName MethodInvocation SimpleName port
+normal SimpleName MethodInvocation SimpleName set port
+normal SimpleName MethodInvocation MethodInvocation SimpleName entry
+normal SimpleName MethodInvocation MethodInvocation SimpleName resolve port
+normal SimpleName MethodInvocation MethodInvocation SimpleName port
+set port SimpleName MethodInvocation MethodInvocation SimpleName entry
+set port SimpleName MethodInvocation MethodInvocation SimpleName resolve port
+set port SimpleName MethodInvocation MethodInvocation SimpleName port
+entry SimpleName MethodInvocation SimpleName resolve username
+entry SimpleName MethodInvocation SimpleName username
+resolve username SimpleName MethodInvocation SimpleName username
+normal SimpleName MethodInvocation SimpleName set username
+normal SimpleName MethodInvocation MethodInvocation SimpleName entry
+normal SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+normal SimpleName MethodInvocation MethodInvocation SimpleName username
+set username SimpleName MethodInvocation MethodInvocation SimpleName entry
+set username SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+set username SimpleName MethodInvocation MethodInvocation SimpleName username
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName MethodInvocation SimpleName get properties
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName props
+size SimpleName MethodInvocation SimpleName props
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+props SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName props
+normal SimpleName MethodInvocation SimpleName set properties
+normal SimpleName MethodInvocation ClassInstanceCreation SimpleName props
+set properties SimpleName MethodInvocation ClassInstanceCreation SimpleName props
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName MethodInvocation SimpleName get identities
+ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identities
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ids
+is empty SimpleName MethodInvocation SimpleName ids
+collections SimpleName MethodInvocation SimpleName empty list
+normal SimpleName MethodInvocation SimpleName set identities
+normal SimpleName MethodInvocation MethodInvocation SimpleName collections
+normal SimpleName MethodInvocation MethodInvocation SimpleName empty list
+set identities SimpleName MethodInvocation MethodInvocation SimpleName collections
+set identities SimpleName MethodInvocation MethodInvocation SimpleName empty list
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+resolve identity file path SimpleName MethodInvocation SimpleName id
+resolve identity file path SimpleName MethodInvocation SimpleName host
+resolve identity file path SimpleName MethodInvocation SimpleName port
+resolve identity file path SimpleName MethodInvocation SimpleName username
+id SimpleName MethodInvocation SimpleName host
+id SimpleName MethodInvocation SimpleName port
+id SimpleName MethodInvocation SimpleName username
+host SimpleName MethodInvocation SimpleName port
+host SimpleName MethodInvocation SimpleName username
+port SimpleName MethodInvocation SimpleName username
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve identity file path
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName host
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName port
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+normal SimpleName MethodInvocation SimpleName add identity
+normal SimpleName MethodInvocation SimpleName path
+add identity SimpleName MethodInvocation SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ids
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ids
+ids SimpleName EnhancedForStatement Block ReturnStatement SimpleName normal
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SimpleName normalize entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+static Modifier MethodDeclaration SimpleType SimpleName host config entry
+static Modifier MethodDeclaration SimpleName normalize entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+host config entry SimpleName SimpleType MethodDeclaration SimpleName normalize entry
+host config entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entry
+host config entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host
+host config entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+host config entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName port
+host config entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName username
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entry
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+normalize entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+normalize entry SimpleName MethodDeclaration SimpleType SimpleName io exception
+entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+host SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+port SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+port SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+username SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName host config entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName host config entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

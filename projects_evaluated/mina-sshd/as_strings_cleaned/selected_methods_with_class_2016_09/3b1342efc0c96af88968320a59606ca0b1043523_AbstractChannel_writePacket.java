@@ -1,0 +1,36 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName write packet
+s SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral write packet discarding output packet because channel is being closed
+debug SimpleName MethodInvocation StringLiteral write packet discarding output packet because channel is being closed
+eof exception SimpleName SimpleType ClassInstanceCreation StringLiteral channel is being closed
+set value SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName eof exception
+set value SimpleName MethodInvocation ClassInstanceCreation StringLiteral channel is being closed
+protected Modifier MethodDeclaration SimpleType SimpleName io write future
+protected Modifier MethodDeclaration SimpleName write packet
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+io write future SimpleName SimpleType MethodDeclaration SimpleName write packet
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write packet SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName write packet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write packet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

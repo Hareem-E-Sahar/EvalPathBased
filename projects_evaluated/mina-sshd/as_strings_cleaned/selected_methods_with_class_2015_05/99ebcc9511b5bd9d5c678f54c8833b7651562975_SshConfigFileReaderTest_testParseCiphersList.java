@@ -1,0 +1,33 @@
+expected SimpleName VariableDeclarationFragment QualifiedName ssh builderbase builderdefault ciphers preference
+init properties SimpleName MethodInvocation QualifiedName ssh config file readerciphers config prop
+init properties SimpleName MethodInvocation SimpleName expected
+ssh config file readerciphers config prop QualifiedName MethodInvocation SimpleName expected
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName init properties
+props SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh config file readerciphers config prop
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+ssh config file reader SimpleName MethodInvocation SimpleName get ciphers
+ssh config file reader SimpleName MethodInvocation SimpleName props
+get ciphers SimpleName MethodInvocation SimpleName props
+test parsed factories list SimpleName MethodInvocation SimpleName expected
+test parsed factories list SimpleName MethodInvocation MethodInvocation SimpleName ssh config file reader
+test parsed factories list SimpleName MethodInvocation MethodInvocation SimpleName get ciphers
+test parsed factories list SimpleName MethodInvocation MethodInvocation SimpleName props
+expected SimpleName MethodInvocation MethodInvocation SimpleName ssh config file reader
+expected SimpleName MethodInvocation MethodInvocation SimpleName get ciphers
+expected SimpleName MethodInvocation MethodInvocation SimpleName props
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test parse ciphers list
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test parse ciphers list
+void PrimitiveType MethodDeclaration SimpleName test parse ciphers list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test parse ciphers list
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test parse ciphers list

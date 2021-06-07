@@ -1,0 +1,30 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+charset SimpleName SimpleType SingleVariableDeclaration SimpleName charset
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get string SimpleName MethodInvocation SimpleName charset
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName charset
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get available strings
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName charset
+public Modifier MethodDeclaration Block ReturnStatement SimpleName list
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get available strings
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get available strings
+get available strings SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+get available strings SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charset
+get available strings SimpleName MethodDeclaration Block ReturnStatement SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get available strings
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get available strings
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset

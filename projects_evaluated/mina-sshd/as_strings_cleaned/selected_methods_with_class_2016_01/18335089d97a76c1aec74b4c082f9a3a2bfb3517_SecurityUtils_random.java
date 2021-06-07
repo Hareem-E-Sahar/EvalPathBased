@@ -1,0 +1,77 @@
+int PrimitiveType SingleVariableDeclaration SimpleName n
+n SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName n
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral limit must be positive d
+validate utils SimpleName MethodInvocation SimpleName n
+check true SimpleName MethodInvocation InfixExpression SimpleName n
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral limit must be positive d
+check true SimpleName MethodInvocation SimpleName n
+n SimpleName InfixExpression MethodInvocation StringLiteral limit must be positive d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral limit must be positive d
+n SimpleName InfixExpression MethodInvocation SimpleName n
+empty NumberLiteral InfixExpression MethodInvocation SimpleName n
+limit must be positive d StringLiteral MethodInvocation SimpleName n
+n SimpleName InfixExpression PrefixExpression SimpleName n
+n SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName n
+next SimpleName MethodInvocation NumberLiteral empty
+long PrimitiveType CastExpression MethodInvocation SimpleName next
+long PrimitiveType CastExpression MethodInvocation NumberLiteral empty
+n SimpleName InfixExpression CastExpression PrimitiveType long
+n SimpleName InfixExpression CastExpression MethodInvocation SimpleName next
+n SimpleName InfixExpression CastExpression MethodInvocation NumberLiteral empty
+n SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bits
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+next SimpleName MethodInvocation NumberLiteral empty
+bits SimpleName Assignment MethodInvocation SimpleName next
+bits SimpleName Assignment MethodInvocation NumberLiteral empty
+bits SimpleName InfixExpression SimpleName n
+val SimpleName Assignment InfixExpression SimpleName bits
+val SimpleName Assignment InfixExpression SimpleName n
+bits SimpleName InfixExpression SimpleName val
+n SimpleName InfixExpression NumberLiteral empty
+bits SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName val
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName val
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName random
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName random
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName val
+int PrimitiveType MethodDeclaration SimpleName random
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName val
+random SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+random SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+random SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+random SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+random SimpleName MethodDeclaration Block ReturnStatement SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName random
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName random
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

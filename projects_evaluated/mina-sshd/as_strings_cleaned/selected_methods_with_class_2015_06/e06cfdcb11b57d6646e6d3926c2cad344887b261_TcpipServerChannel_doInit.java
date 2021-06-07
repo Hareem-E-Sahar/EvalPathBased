@@ -1,0 +1,500 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default open future
+final Modifier VariableDeclarationStatement SimpleType SimpleName open future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+open future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+buffer SimpleName MethodInvocation SimpleName get string
+host to connect SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+host to connect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host to connect
+buffer SimpleName MethodInvocation SimpleName get int
+port to connect SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+port to connect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port to connect
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get string
+originator ip address SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+originator ip address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName originator ip address
+buffer SimpleName MethodInvocation SimpleName get int
+originator port SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+originator port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName originator port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+log SimpleName MethodInvocation SimpleName is debug enabled
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName port to connect
+value of SimpleName MethodInvocation SimpleName port to connect
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName originator port
+value of SimpleName MethodInvocation SimpleName originator port
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral receiving request for direct tcpip host to connect port to connect originator ip address originator port
+log SimpleName MethodInvocation SimpleName host to connect
+log SimpleName MethodInvocation MethodInvocation SimpleName integer
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation SimpleName port to connect
+log SimpleName MethodInvocation SimpleName originator ip address
+debug SimpleName MethodInvocation StringLiteral receiving request for direct tcpip host to connect port to connect originator ip address originator port
+debug SimpleName MethodInvocation SimpleName host to connect
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName port to connect
+debug SimpleName MethodInvocation SimpleName originator ip address
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName originator port
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation SimpleName host to connect
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation MethodInvocation SimpleName integer
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation MethodInvocation SimpleName value of
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation MethodInvocation SimpleName port to connect
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation SimpleName originator ip address
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation MethodInvocation SimpleName integer
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation MethodInvocation SimpleName value of
+receiving request for direct tcpip host to connect port to connect originator ip address originator port StringLiteral MethodInvocation MethodInvocation SimpleName originator port
+host to connect SimpleName MethodInvocation MethodInvocation SimpleName integer
+host to connect SimpleName MethodInvocation MethodInvocation SimpleName value of
+host to connect SimpleName MethodInvocation MethodInvocation SimpleName port to connect
+host to connect SimpleName MethodInvocation SimpleName originator ip address
+host to connect SimpleName MethodInvocation MethodInvocation SimpleName integer
+host to connect SimpleName MethodInvocation MethodInvocation SimpleName value of
+host to connect SimpleName MethodInvocation MethodInvocation SimpleName originator port
+integer SimpleName MethodInvocation MethodInvocation SimpleName originator ip address
+value of SimpleName MethodInvocation MethodInvocation SimpleName originator ip address
+port to connect SimpleName MethodInvocation MethodInvocation SimpleName originator ip address
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName originator port
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName originator port
+port to connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+port to connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+port to connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName originator port
+originator ip address SimpleName MethodInvocation MethodInvocation SimpleName integer
+originator ip address SimpleName MethodInvocation MethodInvocation SimpleName value of
+originator ip address SimpleName MethodInvocation MethodInvocation SimpleName originator port
+final Modifier VariableDeclarationStatement SimpleType SimpleName sshd socket address
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName host to connect
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName port to connect
+host to connect SimpleName ClassInstanceCreation SimpleName port to connect
+address SimpleName Assignment ClassInstanceCreation SimpleType SimpleName sshd socket address
+address SimpleName Assignment ClassInstanceCreation SimpleName host to connect
+address SimpleName Assignment ClassInstanceCreation SimpleName port to connect
+service SimpleName MethodInvocation SimpleName get tcpip forwarder
+service SimpleName MethodInvocation MethodInvocation SimpleName get forwarded port
+get tcpip forwarder SimpleName MethodInvocation MethodInvocation SimpleName get forwarded port
+service SimpleName MethodInvocation MethodInvocation SimpleName port to connect
+get tcpip forwarder SimpleName MethodInvocation MethodInvocation SimpleName port to connect
+get forwarded port SimpleName MethodInvocation SimpleName port to connect
+address SimpleName Assignment MethodInvocation MethodInvocation SimpleName service
+address SimpleName Assignment MethodInvocation MethodInvocation SimpleName get tcpip forwarder
+address SimpleName Assignment MethodInvocation SimpleName get forwarded port
+address SimpleName Assignment MethodInvocation SimpleName port to connect
+unknown server channel type StringLiteral InfixExpression SimpleName type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown server channel type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+type SimpleName SwitchStatement SwitchCase SimpleName direct
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName address
+type SimpleName SwitchStatement SwitchCase SimpleName forwarded
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName address
+direct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName forwarded
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get tcpip forwarding filter
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tcpip forwarding filter
+forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+filter SimpleName MethodInvocation SimpleName can connect
+filter SimpleName MethodInvocation SimpleName type
+filter SimpleName MethodInvocation SimpleName address
+filter SimpleName MethodInvocation SimpleName session
+can connect SimpleName MethodInvocation SimpleName type
+can connect SimpleName MethodInvocation SimpleName address
+can connect SimpleName MethodInvocation SimpleName session
+type SimpleName MethodInvocation SimpleName address
+type SimpleName MethodInvocation SimpleName session
+address SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName is debug enabled
+do init StringLiteral InfixExpression SimpleName session
+do init StringLiteral InfixExpression StringLiteral )[
+do init StringLiteral InfixExpression SimpleName type
+do init StringLiteral InfixExpression StringLiteral have filter
+do init StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+session SimpleName InfixExpression StringLiteral )[
+session SimpleName InfixExpression SimpleName type
+session SimpleName InfixExpression StringLiteral have filter
+session SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+session SimpleName InfixExpression StringLiteral ] filtered out
+)[ StringLiteral InfixExpression SimpleName type
+)[ StringLiteral InfixExpression StringLiteral have filter
+)[ StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+)[ StringLiteral InfixExpression StringLiteral ] filtered out
+)[ StringLiteral InfixExpression SimpleName address
+type SimpleName InfixExpression StringLiteral have filter
+type SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+type SimpleName InfixExpression StringLiteral ] filtered out
+type SimpleName InfixExpression SimpleName address
+have filter StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+have filter StringLiteral InfixExpression StringLiteral ] filtered out
+have filter StringLiteral InfixExpression SimpleName address
+filter SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ] filtered out
+filter SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName address
+] filtered out StringLiteral InfixExpression SimpleName address
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral do init
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName type
+log SimpleName MethodInvocation InfixExpression StringLiteral have filter
+log SimpleName MethodInvocation InfixExpression StringLiteral ] filtered out
+log SimpleName MethodInvocation InfixExpression SimpleName address
+debug SimpleName MethodInvocation InfixExpression StringLiteral do init
+debug SimpleName MethodInvocation InfixExpression SimpleName session
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName type
+debug SimpleName MethodInvocation InfixExpression StringLiteral have filter
+debug SimpleName MethodInvocation InfixExpression StringLiteral ] filtered out
+debug SimpleName MethodInvocation InfixExpression SimpleName address
+close SimpleName SuperMethodInvocation BooleanLiteral true
+open channel exception SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh open administratively prohibited
+open channel exception SimpleName SimpleType ClassInstanceCreation StringLiteral connection denied
+ssh constantsssh open administratively prohibited QualifiedName ClassInstanceCreation StringLiteral connection denied
+f SimpleName MethodInvocation SimpleName set exception
+f SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName open channel exception
+f SimpleName MethodInvocation ClassInstanceCreation QualifiedName ssh constantsssh open administratively prohibited
+f SimpleName MethodInvocation ClassInstanceCreation StringLiteral connection denied
+set exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName open channel exception
+set exception SimpleName MethodInvocation ClassInstanceCreation QualifiedName ssh constantsssh open administratively prohibited
+set exception SimpleName MethodInvocation ClassInstanceCreation StringLiteral connection denied
+channel output stream SimpleName SimpleType ClassInstanceCreation SimpleName remote window
+channel output stream SimpleName SimpleType ClassInstanceCreation SimpleName log
+channel output stream SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+remote window SimpleName ClassInstanceCreation SimpleName log
+remote window SimpleName ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+log SimpleName ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+out SimpleName Assignment ClassInstanceCreation SimpleType SimpleName channel output stream
+out SimpleName Assignment ClassInstanceCreation SimpleName remote window
+out SimpleName Assignment ClassInstanceCreation SimpleName log
+out SimpleName Assignment ClassInstanceCreation QualifiedName ssh constantsssh msg channel data
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+readable SimpleName SimpleType SingleVariableDeclaration SimpleName message
+log SimpleName MethodInvocation SimpleName is debug enabled
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName id
+value of SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ignoring write to channel {} in closing state
+log SimpleName MethodInvocation MethodInvocation SimpleName integer
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation SimpleName id
+debug SimpleName MethodInvocation StringLiteral ignoring write to channel {} in closing state
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName id
+ignoring write to channel {} in closing state StringLiteral MethodInvocation MethodInvocation SimpleName integer
+ignoring write to channel {} in closing state StringLiteral MethodInvocation MethodInvocation SimpleName value of
+ignoring write to channel {} in closing state StringLiteral MethodInvocation MethodInvocation SimpleName id
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put buffer
+buffer SimpleName MethodInvocation SimpleName message
+put buffer SimpleName MethodInvocation SimpleName message
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName available
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out SimpleName MethodInvocation MethodInvocation SimpleName array
+out SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out SimpleName MethodInvocation MethodInvocation SimpleName rpos
+out SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out SimpleName MethodInvocation MethodInvocation SimpleName available
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName array
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName rpos
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+out SimpleName MethodInvocation SimpleName flush
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName message received
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName message received
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName message received
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName message received
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName readable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName message received
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName readable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+message received SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+message received SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+message received SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName readable
+message received SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+message received SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+message SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session created
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session created
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName session created
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session created SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+close SimpleName MethodInvocation BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session closed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session closed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session closed SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName cause
+close SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName exception caught
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName io session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cause
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName exception caught
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cause
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName exception caught
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cause
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+exception caught SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+exception caught SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+exception caught SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+exception caught SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cause
+exception caught SimpleName MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cause
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+cause SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session created
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session created
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session created
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+message received SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+session closed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+session closed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+session closed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName exception caught
+handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName io handler
+io handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handler
+manager SimpleName MethodInvocation SimpleName get io service factory
+manager SimpleName MethodInvocation MethodInvocation SimpleName create connector
+get io service factory SimpleName MethodInvocation MethodInvocation SimpleName create connector
+manager SimpleName MethodInvocation MethodInvocation SimpleName handler
+get io service factory SimpleName MethodInvocation MethodInvocation SimpleName handler
+create connector SimpleName MethodInvocation SimpleName handler
+connector SimpleName Assignment MethodInvocation MethodInvocation SimpleName manager
+connector SimpleName Assignment MethodInvocation MethodInvocation SimpleName get io service factory
+connector SimpleName Assignment MethodInvocation SimpleName create connector
+connector SimpleName Assignment MethodInvocation SimpleName handler
+address SimpleName MethodInvocation SimpleName to inet socket address
+connector SimpleName MethodInvocation SimpleName connect
+connector SimpleName MethodInvocation MethodInvocation SimpleName address
+connector SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+connect SimpleName MethodInvocation MethodInvocation SimpleName address
+connect SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName connect
+future SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName address
+future SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to inet socket address
+io connect future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName io connect future
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+io connect future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName is connected
+future SimpleName MethodInvocation SimpleName get session
+io session SimpleName Assignment MethodInvocation SimpleName future
+io session SimpleName Assignment MethodInvocation SimpleName get session
+f SimpleName MethodInvocation SimpleName set opened
+future SimpleName MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName connect exception
+get exception SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName connect exception
+future SimpleName MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation MethodInvocation SimpleName get message
+get exception SimpleName MethodInvocation MethodInvocation SimpleName get message
+future SimpleName MethodInvocation SimpleName get exception
+open channel exception SimpleName SimpleType ClassInstanceCreation QualifiedName ssh constantsssh open connect failed
+open channel exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+open channel exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName future
+open channel exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get exception
+ssh constantsssh open connect failed QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName future
+ssh constantsssh open connect failed QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get exception
+ssh constantsssh open connect failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get message
+ssh constantsssh open connect failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName future
+ssh constantsssh open connect failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get exception
+get message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName future
+get message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception
+f SimpleName MethodInvocation SimpleName set exception
+f SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName open channel exception
+f SimpleName MethodInvocation ClassInstanceCreation QualifiedName ssh constantsssh open connect failed
+f SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get message
+f SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName future
+f SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception
+set exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName open channel exception
+set exception SimpleName MethodInvocation ClassInstanceCreation QualifiedName ssh constantsssh open connect failed
+set exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get message
+set exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName future
+set exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName get exception
+f SimpleName MethodInvocation SimpleName set exception
+f SimpleName MethodInvocation MethodInvocation SimpleName future
+f SimpleName MethodInvocation MethodInvocation SimpleName get exception
+set exception SimpleName MethodInvocation MethodInvocation SimpleName future
+set exception SimpleName MethodInvocation MethodInvocation SimpleName get exception
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName operation complete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName add listener
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+final Modifier VariableDeclarationStatement Block SwitchStatement SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName open future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do init

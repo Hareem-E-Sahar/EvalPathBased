@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get protocol
+public Modifier MethodDeclaration Block ReturnStatement SimpleName protocol
+string SimpleName SimpleType MethodDeclaration SimpleName get protocol
+get protocol SimpleName MethodDeclaration Block ReturnStatement SimpleName protocol
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get protocol
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get protocol

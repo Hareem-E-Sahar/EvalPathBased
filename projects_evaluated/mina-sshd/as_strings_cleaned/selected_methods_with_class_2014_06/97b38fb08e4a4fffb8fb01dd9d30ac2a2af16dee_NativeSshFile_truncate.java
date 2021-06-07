@@ -1,0 +1,26 @@
+random access file SimpleName SimpleType ClassInstanceCreation SimpleName file
+random access file SimpleName SimpleType ClassInstanceCreation StringLiteral rw
+file SimpleName ClassInstanceCreation StringLiteral rw
+temp file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random access file
+temp file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+temp file SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral rw
+random access file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp file
+temp file SimpleName MethodInvocation SimpleName set length
+temp file SimpleName MethodInvocation NumberLiteral empty
+set length SimpleName MethodInvocation NumberLiteral empty
+temp file SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName truncate
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName truncate
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+truncate SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName truncate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName truncate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

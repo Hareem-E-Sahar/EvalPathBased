@@ -1,0 +1,35 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+collections SimpleName MethodInvocation SimpleName empty iterator
+iter SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName iter
+collections SimpleName MethodInvocation ConditionalExpression SimpleName iter
+empty iterator SimpleName MethodInvocation ConditionalExpression SimpleName iter
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName iterator of
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName iterator of
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+t SimpleName TypeParameter MethodDeclaration SimpleName iterator of
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iter
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator of
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator of
+iterator of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter

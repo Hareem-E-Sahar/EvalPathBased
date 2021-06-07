@@ -1,0 +1,28 @@
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+len SimpleName InfixExpression NumberLiteral empty
+bad item length StringLiteral InfixExpression SimpleName len
+buffer exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad item length
+buffer exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName len
+ensure available SimpleName MethodInvocation SimpleName len
+byte PrimitiveType ArrayType ArrayCreation SimpleName len
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation SimpleName len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+get raw bytes SimpleName MethodInvocation SimpleName b
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName b
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get bytes
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName b
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get bytes
+get bytes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get bytes SimpleName MethodDeclaration Block ReturnStatement SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bytes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bytes

@@ -1,0 +1,76 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName u
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+u SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+function SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mapper
+u SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mapper
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mapper
+iterator of SimpleName MethodInvocation SimpleName iter
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator of
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+iterator SimpleName MethodInvocation SimpleName has next
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has next
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has next
+boolean PrimitiveType MethodDeclaration SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+mapper SimpleName MethodInvocation SimpleName apply
+mapper SimpleName MethodInvocation MethodInvocation SimpleName iterator
+mapper SimpleName MethodInvocation MethodInvocation SimpleName next
+apply SimpleName MethodInvocation MethodInvocation SimpleName iterator
+apply SimpleName MethodInvocation MethodInvocation SimpleName next
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName v
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName next
+v SimpleName SimpleType MethodDeclaration SimpleName next
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName u
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName wrap iterator
+static Modifier MethodDeclaration TypeParameter SimpleName u
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+static Modifier MethodDeclaration SimpleName wrap iterator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+u SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName v
+u SimpleName TypeParameter MethodDeclaration SimpleName wrap iterator
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iter
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName mapper
+v SimpleName TypeParameter MethodDeclaration SimpleName wrap iterator
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iter
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName mapper
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wrap iterator
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wrap iterator
+wrap iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+wrap iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mapper
+iter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mapper
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mapper
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mapper

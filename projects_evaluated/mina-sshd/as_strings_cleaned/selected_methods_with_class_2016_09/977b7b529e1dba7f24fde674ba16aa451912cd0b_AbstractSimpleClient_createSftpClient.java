@@ -1,0 +1,203 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName client session
+final Modifier SingleVariableDeclaration SimpleName session
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+final Modifier SingleVariableDeclaration SimpleType SimpleName sftp client
+final Modifier SingleVariableDeclaration SimpleName client
+sftp client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+loader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName loader
+class SimpleName SimpleType ParameterizedType WildcardType ?
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+method SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName method
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+method SimpleName MethodInvocation SimpleName invoke
+method SimpleName MethodInvocation SimpleName client
+method SimpleName MethodInvocation SimpleName args
+invoke SimpleName MethodInvocation SimpleName client
+invoke SimpleName MethodInvocation SimpleName args
+client SimpleName MethodInvocation SimpleName args
+result SimpleName Assignment MethodInvocation SimpleName method
+result SimpleName Assignment MethodInvocation SimpleName invoke
+result SimpleName Assignment MethodInvocation SimpleName client
+result SimpleName Assignment MethodInvocation SimpleName args
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName is trace enabled
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral invokesftp client failed ({}) to execute {}
+log SimpleName MethodInvocation SimpleName name
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+trace SimpleName MethodInvocation StringLiteral invokesftp client failed ({}) to execute {}
+trace SimpleName MethodInvocation SimpleName name
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+trace SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+trace SimpleName MethodInvocation MethodInvocation SimpleName t
+trace SimpleName MethodInvocation MethodInvocation SimpleName get message
+invokesftp client failed ({}) to execute {} StringLiteral MethodInvocation SimpleName name
+invokesftp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName t
+invokesftp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+invokesftp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+invokesftp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName t
+invokesftp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+name SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+name SimpleName MethodInvocation MethodInvocation SimpleName t
+name SimpleName MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName t
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName t
+err SimpleName MethodInvocation SimpleName t
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName t
+close StringLiteral MethodInvocation SimpleName equals
+close StringLiteral MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName args
+is empty SimpleName MethodInvocation SimpleName args
+close StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+close StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+close StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName args
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName args
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName args
+session SimpleName MethodInvocation SimpleName close
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName is debug enabled
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral invokeclient session failed ({}) to execute {}
+log SimpleName MethodInvocation SimpleName name
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation StringLiteral invokeclient session failed ({}) to execute {}
+debug SimpleName MethodInvocation SimpleName name
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation MethodInvocation SimpleName t
+debug SimpleName MethodInvocation MethodInvocation SimpleName get message
+invokeclient session failed ({}) to execute {} StringLiteral MethodInvocation SimpleName name
+invokeclient session failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName t
+invokeclient session failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+invokeclient session failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+invokeclient session failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName t
+invokeclient session failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+name SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+name SimpleName MethodInvocation MethodInvocation SimpleName t
+name SimpleName MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName t
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName t
+err SimpleName MethodInvocation SimpleName t
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName t
+proxy SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName method
+proxy SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName args
+method SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName args
+proxy SimpleName MethodInvocation SimpleName new proxy instance
+proxy SimpleName MethodInvocation SimpleName loader
+proxy SimpleName MethodInvocation SimpleName interfaces
+proxy SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+proxy SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+proxy SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+new proxy instance SimpleName MethodInvocation SimpleName loader
+new proxy instance SimpleName MethodInvocation SimpleName interfaces
+new proxy instance SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+new proxy instance SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+new proxy instance SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+loader SimpleName MethodInvocation SimpleName interfaces
+loader SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+loader SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+loader SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+interfaces SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+interfaces SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+interfaces SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+sftp client SimpleName SimpleType CastExpression MethodInvocation SimpleName proxy
+sftp client SimpleName SimpleType CastExpression MethodInvocation SimpleName new proxy instance
+sftp client SimpleName SimpleType CastExpression MethodInvocation SimpleName loader
+sftp client SimpleName SimpleType CastExpression MethodInvocation SimpleName interfaces
+protected Modifier MethodDeclaration SimpleType SimpleName sftp client
+protected Modifier MethodDeclaration SimpleName create sftp client
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+sftp client SimpleName SimpleType MethodDeclaration SimpleName create sftp client
+sftp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+sftp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+sftp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+sftp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+sftp client SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+create sftp client SimpleName MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+public Modifier TypeDeclaration MethodDeclaration SimpleName create sftp client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create sftp client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

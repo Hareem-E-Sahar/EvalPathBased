@@ -1,0 +1,71 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+closing SimpleName MethodInvocation SimpleName compare and set
+closing SimpleName MethodInvocation BooleanLiteral false
+closing SimpleName MethodInvocation BooleanLiteral true
+compare and set SimpleName MethodInvocation BooleanLiteral false
+compare and set SimpleName MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral closing nio session
+debug SimpleName MethodInvocation StringLiteral closing nio session
+logged SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName logged
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+writes SimpleName MethodInvocation SimpleName is empty
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral waiting for writes to finish
+debug SimpleName MethodInvocation StringLiteral waiting for writes to finish
+logged SimpleName Assignment BooleanLiteral true
+writes SimpleName MethodInvocation SimpleName wait
+boolean PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName writes
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+writes SimpleName MethodInvocation SimpleName poll
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName writes
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName poll
+default io write future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName closed channel exception
+set exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName closed channel exception
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral closing socket
+debug SimpleName MethodInvocation StringLiteral closing socket
+socket SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+logger SimpleName MethodInvocation SimpleName info
+logger SimpleName MethodInvocation StringLiteral exception caught while closing session
+logger SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral exception caught while closing session
+info SimpleName MethodInvocation SimpleName e
+exception caught while closing session StringLiteral MethodInvocation SimpleName e
+service SimpleName MethodInvocation SimpleName session closed
+close future SimpleName MethodInvocation SimpleName set closed
+handler SimpleName MethodInvocation SimpleName session closed
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral exception caught while calling io handlersession closed
+logger SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral exception caught while calling io handlersession closed
+debug SimpleName MethodInvocation SimpleName e
+exception caught while calling io handlersession closed StringLiteral MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName io close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier MethodDeclaration Block ReturnStatement SimpleName close future
+io close future SimpleName SimpleType MethodDeclaration SimpleName close
+io close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+io close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration Block ReturnStatement SimpleName close future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

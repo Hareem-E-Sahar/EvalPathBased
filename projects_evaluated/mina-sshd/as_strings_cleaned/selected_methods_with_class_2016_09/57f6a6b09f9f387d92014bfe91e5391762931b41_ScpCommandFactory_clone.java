@@ -1,0 +1,47 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName cast
+get class SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName clone
+cast SimpleName MethodInvocation SuperMethodInvocation SimpleName clone
+other SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+other SimpleName VariableDeclarationFragment MethodInvocation SimpleName cast
+other SimpleName VariableDeclarationFragment MethodInvocation SuperMethodInvocation SimpleName clone
+scp command factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other
+event listener utils SimpleName MethodInvocation SimpleName synchronized listeners set
+event listener utils SimpleName MethodInvocation FieldAccess SimpleName listeners
+synchronized listeners set SimpleName MethodInvocation FieldAccess SimpleName listeners
+otherlisteners QualifiedName Assignment MethodInvocation SimpleName event listener utils
+otherlisteners QualifiedName Assignment MethodInvocation SimpleName synchronized listeners set
+otherlisteners QualifiedName Assignment MethodInvocation FieldAccess SimpleName listeners
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+event listener utils SimpleName MethodInvocation SimpleName proxy wrapper
+event listener utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scp transfer event listener
+event listener utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+event listener utils SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+event listener utils SimpleName MethodInvocation QualifiedName otherlisteners
+proxy wrapper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scp transfer event listener
+proxy wrapper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+proxy wrapper SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+proxy wrapper SimpleName MethodInvocation QualifiedName otherlisteners
+scp transfer event listener SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName otherlisteners
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName otherlisteners
+get class loader SimpleName MethodInvocation MethodInvocation QualifiedName otherlisteners
+otherlistener proxy QualifiedName Assignment MethodInvocation SimpleName event listener utils
+otherlistener proxy QualifiedName Assignment MethodInvocation SimpleName proxy wrapper
+otherlistener proxy QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get class loader
+otherlistener proxy QualifiedName Assignment MethodInvocation QualifiedName otherlisteners
+clone not supported exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName scp command factory
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration SimpleType SimpleName scp command factory
+public Modifier MethodDeclaration SimpleName clone
+scp command factory SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scp command factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scp command factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

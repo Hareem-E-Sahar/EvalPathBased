@@ -1,0 +1,18 @@
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleName init verifier
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+init verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+init verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+init verifier SimpleName MethodDeclaration SimpleType SimpleName exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init verifier
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init verifier
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

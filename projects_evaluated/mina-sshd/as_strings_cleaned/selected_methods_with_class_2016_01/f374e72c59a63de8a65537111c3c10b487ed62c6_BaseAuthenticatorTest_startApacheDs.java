@@ -1,0 +1,376 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName ldap server
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName directory service
+ldap server SimpleName SimpleType ParameterizedType SimpleType SimpleName directory service
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName anchor
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName anchor
+logger factory SimpleName MethodInvocation SimpleName get logger
+logger factory SimpleName MethodInvocation SimpleName anchor
+get logger SimpleName MethodInvocation SimpleName anchor
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName logger factory
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName get logger
+log SimpleName VariableDeclarationFragment MethodInvocation SimpleName anchor
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log
+utils SimpleName MethodInvocation SimpleName detect target folder
+utils SimpleName MethodInvocation SimpleName anchor
+detect target folder SimpleName MethodInvocation SimpleName anchor
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName utils
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName detect target folder
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName anchor
+validate utils SimpleName MethodInvocation StringLiteral failed to detect target folder
+check not null SimpleName MethodInvocation MethodInvocation SimpleName utils
+check not null SimpleName MethodInvocation MethodInvocation SimpleName detect target folder
+check not null SimpleName MethodInvocation MethodInvocation SimpleName anchor
+check not null SimpleName MethodInvocation StringLiteral failed to detect target folder
+utils SimpleName MethodInvocation MethodInvocation StringLiteral failed to detect target folder
+detect target folder SimpleName MethodInvocation MethodInvocation StringLiteral failed to detect target folder
+anchor SimpleName MethodInvocation MethodInvocation StringLiteral failed to detect target folder
+target folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+target folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+target folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utils
+target folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName detect target folder
+target folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName anchor
+target folder SimpleName VariableDeclarationFragment MethodInvocation StringLiteral failed to detect target folder
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target folder
+anchor SimpleName MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation SimpleName target folder
+utils SimpleName MethodInvocation MethodInvocation SimpleName anchor
+utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation StringLiteral apachedswork
+resolve SimpleName MethodInvocation SimpleName target folder
+resolve SimpleName MethodInvocation MethodInvocation SimpleName anchor
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation StringLiteral apachedswork
+target folder SimpleName MethodInvocation MethodInvocation SimpleName anchor
+target folder SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target folder SimpleName MethodInvocation StringLiteral apachedswork
+anchor SimpleName MethodInvocation MethodInvocation StringLiteral apachedswork
+get simple name SimpleName MethodInvocation MethodInvocation StringLiteral apachedswork
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation MethodInvocation SimpleName utils
+utils SimpleName MethodInvocation MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation MethodInvocation SimpleName target folder
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation MethodInvocation StringLiteral apachedswork
+delete recursive SimpleName MethodInvocation MethodInvocation SimpleName utils
+delete recursive SimpleName MethodInvocation MethodInvocation SimpleName resolve
+delete recursive SimpleName MethodInvocation MethodInvocation SimpleName target folder
+delete recursive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor
+delete recursive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+delete recursive SimpleName MethodInvocation MethodInvocation StringLiteral apachedswork
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName utils
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName delete recursive
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resolve
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName target folder
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral apachedswork
+working directory SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert hierarchy target folder exists
+working directory SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utils
+working directory SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName delete recursive
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName working directory
+directory service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default directory service
+directory service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName directory service
+directory service SimpleName MethodInvocation SimpleName set working directory
+directory service SimpleName MethodInvocation SimpleName working directory
+set working directory SimpleName MethodInvocation SimpleName working directory
+directory service SimpleName MethodInvocation SimpleName get schema service
+schema service SimpleName VariableDeclarationFragment MethodInvocation SimpleName directory service
+schema service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get schema service
+schema service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema service
+schema service SimpleName MethodInvocation SimpleName get schema partition
+schema partition SimpleName VariableDeclarationFragment MethodInvocation SimpleName schema service
+schema partition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get schema partition
+schema partition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema partition
+ldif partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ldif partition
+ldif partition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ldif partition
+file SimpleName SimpleType ClassInstanceCreation SimpleName working directory
+file SimpleName SimpleType ClassInstanceCreation StringLiteral schema
+working directory SimpleName ClassInstanceCreation StringLiteral schema
+assert hierarchy target folder exists SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+assert hierarchy target folder exists SimpleName MethodInvocation ClassInstanceCreation SimpleName working directory
+assert hierarchy target folder exists SimpleName MethodInvocation ClassInstanceCreation StringLiteral schema
+schema repository SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert hierarchy target folder exists
+schema repository SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName working directory
+schema repository SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral schema
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema repository
+schema repository SimpleName MethodInvocation SimpleName get absolute path
+ldif partition SimpleName MethodInvocation SimpleName set working directory
+ldif partition SimpleName MethodInvocation MethodInvocation SimpleName schema repository
+ldif partition SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+set working directory SimpleName MethodInvocation MethodInvocation SimpleName schema repository
+set working directory SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+default schema ldif extractor SimpleName SimpleType ClassInstanceCreation SimpleName working directory
+extractor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default schema ldif extractor
+extractor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName working directory
+schema ldif extractor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extractor
+extractor SimpleName MethodInvocation SimpleName extract or copy
+extractor SimpleName MethodInvocation BooleanLiteral true
+extract or copy SimpleName MethodInvocation BooleanLiteral true
+schema partition SimpleName MethodInvocation SimpleName set wrapped partition
+schema partition SimpleName MethodInvocation SimpleName ldif partition
+set wrapped partition SimpleName MethodInvocation SimpleName ldif partition
+ldif schema loader SimpleName SimpleType ClassInstanceCreation SimpleName schema repository
+loader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ldif schema loader
+loader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName schema repository
+schema loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName loader
+default schema manager SimpleName SimpleType ClassInstanceCreation SimpleName loader
+schema manager SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default schema manager
+schema manager SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName loader
+schema manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema manager
+directory service SimpleName MethodInvocation SimpleName set schema manager
+directory service SimpleName MethodInvocation SimpleName schema manager
+set schema manager SimpleName MethodInvocation SimpleName schema manager
+schema manager SimpleName MethodInvocation SimpleName load all enabled
+schema partition SimpleName MethodInvocation SimpleName set schema manager
+schema partition SimpleName MethodInvocation SimpleName schema manager
+set schema manager SimpleName MethodInvocation SimpleName schema manager
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName throwable
+schema manager SimpleName MethodInvocation SimpleName get errors
+errors SimpleName VariableDeclarationFragment MethodInvocation SimpleName schema manager
+errors SimpleName VariableDeclarationFragment MethodInvocation SimpleName get errors
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName errors
+size SimpleName MethodInvocation SimpleName errors
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+errors SimpleName MethodInvocation InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral schema management loading errors found
+error SimpleName MethodInvocation StringLiteral schema management loading errors found
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+t SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName t
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+: StringLiteral InfixExpression MethodInvocation SimpleName t
+t SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+throwable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName errors
+t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName errors
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral schema load failed
+system partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName jdbm partition
+jdbm partition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName system partition
+system partition SimpleName MethodInvocation SimpleName set id
+system partition SimpleName MethodInvocation StringLiteral system
+set id SimpleName MethodInvocation StringLiteral system
+system partition SimpleName MethodInvocation SimpleName get id
+file SimpleName SimpleType ClassInstanceCreation SimpleName working directory
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system partition
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id
+working directory SimpleName ClassInstanceCreation MethodInvocation SimpleName system partition
+working directory SimpleName ClassInstanceCreation MethodInvocation SimpleName get id
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleName working directory
+utils SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system partition
+utils SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id
+delete recursive SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+delete recursive SimpleName MethodInvocation ClassInstanceCreation SimpleName working directory
+delete recursive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system partition
+delete recursive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName utils
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName delete recursive
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName working directory
+system partition SimpleName MethodInvocation SimpleName set partition dir
+system partition SimpleName MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+system partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+system partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete recursive
+set partition dir SimpleName MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+set partition dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+set partition dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete recursive
+system partition SimpleName MethodInvocation SimpleName set suffix
+system partition SimpleName MethodInvocation QualifiedName server dn constantssystem dn
+set suffix SimpleName MethodInvocation QualifiedName server dn constantssystem dn
+system partition SimpleName MethodInvocation SimpleName set schema manager
+system partition SimpleName MethodInvocation SimpleName schema manager
+set schema manager SimpleName MethodInvocation SimpleName schema manager
+directory service SimpleName MethodInvocation SimpleName set system partition
+directory service SimpleName MethodInvocation SimpleName system partition
+set system partition SimpleName MethodInvocation SimpleName system partition
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName jdbm partition
+jdbm partition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+partition SimpleName MethodInvocation SimpleName set id
+partition SimpleName MethodInvocation StringLiteral users
+set id SimpleName MethodInvocation StringLiteral users
+partition SimpleName MethodInvocation SimpleName set suffix
+partition SimpleName MethodInvocation SimpleName base dn test
+set suffix SimpleName MethodInvocation SimpleName base dn test
+partition SimpleName MethodInvocation SimpleName get id
+file SimpleName SimpleType ClassInstanceCreation SimpleName working directory
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName partition
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id
+working directory SimpleName ClassInstanceCreation MethodInvocation SimpleName partition
+working directory SimpleName ClassInstanceCreation MethodInvocation SimpleName get id
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleName working directory
+utils SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName partition
+utils SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id
+delete recursive SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+delete recursive SimpleName MethodInvocation ClassInstanceCreation SimpleName working directory
+delete recursive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName partition
+delete recursive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName utils
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName delete recursive
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName working directory
+partition SimpleName MethodInvocation SimpleName set partition dir
+partition SimpleName MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete recursive
+set partition dir SimpleName MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+set partition dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+set partition dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete recursive
+directory service SimpleName MethodInvocation SimpleName add partition
+directory service SimpleName MethodInvocation SimpleName partition
+add partition SimpleName MethodInvocation SimpleName partition
+directory service SimpleName MethodInvocation SimpleName set shutdown hook enabled
+directory service SimpleName MethodInvocation BooleanLiteral true
+set shutdown hook enabled SimpleName MethodInvocation BooleanLiteral true
+directory service SimpleName MethodInvocation SimpleName get change log
+directory service SimpleName MethodInvocation MethodInvocation SimpleName set enabled
+get change log SimpleName MethodInvocation MethodInvocation SimpleName set enabled
+directory service SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get change log SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+set enabled SimpleName MethodInvocation BooleanLiteral false
+ldap server SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ldap server
+ldap server SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ldap server
+tcp transport SimpleName SimpleType ClassInstanceCreation SimpleName port
+ldap server SimpleName MethodInvocation SimpleName set transports
+ldap server SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tcp transport
+ldap server SimpleName MethodInvocation ClassInstanceCreation SimpleName port
+set transports SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tcp transport
+set transports SimpleName MethodInvocation ClassInstanceCreation SimpleName port
+ldap server SimpleName MethodInvocation SimpleName set directory service
+ldap server SimpleName MethodInvocation SimpleName directory service
+set directory service SimpleName MethodInvocation SimpleName directory service
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral starting directory service ...
+info SimpleName MethodInvocation StringLiteral starting directory service ...
+directory service SimpleName MethodInvocation SimpleName startup
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral directory service started
+info SimpleName MethodInvocation StringLiteral directory service started
+get port SimpleName MethodInvocation SimpleName ldap server
+starting ldap server on port StringLiteral InfixExpression MethodInvocation SimpleName get port
+starting ldap server on port StringLiteral InfixExpression MethodInvocation SimpleName ldap server
+starting ldap server on port StringLiteral InfixExpression StringLiteral ...
+get port SimpleName MethodInvocation InfixExpression StringLiteral ...
+ldap server SimpleName MethodInvocation InfixExpression StringLiteral ...
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral starting ldap server on port
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ldap server
+log SimpleName MethodInvocation InfixExpression StringLiteral ...
+info SimpleName MethodInvocation InfixExpression StringLiteral starting ldap server on port
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ldap server
+info SimpleName MethodInvocation InfixExpression StringLiteral ...
+ldap server SimpleName MethodInvocation SimpleName start
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral ldap server started
+info SimpleName MethodInvocation StringLiteral ldap server started
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+failed ( StringLiteral InfixExpression StringLiteral ) to start ldap server
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to start ldap server
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to start ldap server
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ) to start ldap server
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+) to start ldap server StringLiteral InfixExpression MethodInvocation SimpleName e
+) to start ldap server StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed (
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral ) to start ldap server
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral failed (
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+error SimpleName MethodInvocation InfixExpression StringLiteral ) to start ldap server
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName e
+failed ( StringLiteral InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+) to start ldap server StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+e SimpleName MethodInvocation QualifiedName systemerr
+print stack trace SimpleName MethodInvocation QualifiedName systemerr
+stop apache ds SimpleName MethodInvocation SimpleName directory service
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName ldap server
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName directory service
+ldap server SimpleName SimpleType ParameterizedType SimpleType SimpleName directory service
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ldap server
+ldap server SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ldap server
+directory service SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ldap server
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName directory service
+ldap server SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName directory service
+directory service SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName directory service
+ldap server SimpleName ClassInstanceCreation SimpleName directory service
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName ldap server
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName directory service
+public Modifier MethodDeclaration SimpleName start apache ds
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName ldap server
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName directory service
+static Modifier MethodDeclaration SimpleName start apache ds
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+static Modifier MethodDeclaration SimpleType SimpleName exception
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName start apache ds
+ldap server SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName start apache ds
+directory service SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName start apache ds
+start apache ds SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+start apache ds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor
+start apache ds SimpleName MethodDeclaration SimpleType SimpleName exception
+anchor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName start apache ds
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start apache ds
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

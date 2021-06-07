@@ -1,0 +1,43 @@
+handle SimpleName SimpleType SingleVariableDeclaration SimpleName handle
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation QualifiedName handleid
+put string SimpleName MethodInvocation QualifiedName handleid
+version SimpleName InfixExpression SimpleName sftp v
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation NumberLiteral empty
+put int SimpleName MethodInvocation NumberLiteral empty
+send SimpleName MethodInvocation SimpleName ssh fxp fstat
+send SimpleName MethodInvocation SimpleName buffer
+ssh fxp fstat SimpleName MethodInvocation SimpleName buffer
+receive SimpleName MethodInvocation MethodInvocation SimpleName send
+receive SimpleName MethodInvocation MethodInvocation SimpleName ssh fxp fstat
+receive SimpleName MethodInvocation MethodInvocation SimpleName buffer
+check attributes SimpleName MethodInvocation MethodInvocation SimpleName receive
+check attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName send
+check attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh fxp fstat
+check attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName stat
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName handle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName handle
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+attributes SimpleName SimpleType MethodDeclaration SimpleName stat
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName handle
+attributes SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName handle
+stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handle
+stat SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName stat
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handle
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stat
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handle
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName provider class name
+security provider choice SimpleName MethodInvocation SimpleName create provider instance
+security provider choice SimpleName MethodInvocation MethodInvocation SimpleName get class
+security provider choice SimpleName MethodInvocation SimpleName provider class name
+create provider instance SimpleName MethodInvocation MethodInvocation SimpleName get class
+create provider instance SimpleName MethodInvocation SimpleName provider class name
+get class SimpleName MethodInvocation MethodInvocation SimpleName provider class name
+protected Modifier MethodDeclaration SimpleType SimpleName provider
+protected Modifier MethodDeclaration SimpleName create provider instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+protected Modifier MethodDeclaration SimpleType SimpleName reflective operation exception
+provider SimpleName SimpleType MethodDeclaration SimpleName create provider instance
+provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+provider SimpleName SimpleType MethodDeclaration SimpleType SimpleName reflective operation exception
+create provider instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create provider instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+create provider instance SimpleName MethodDeclaration SimpleType SimpleName reflective operation exception
+provider class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName create provider instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create provider instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception

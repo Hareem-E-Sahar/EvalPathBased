@@ -1,0 +1,44 @@
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+cmd SimpleName SwitchStatement SwitchCase QualifiedName ssh constantsssh msg userauth request
+cmd SimpleName SwitchStatement ReturnStatement StringLiteral ssh msg userauth request
+cmd SimpleName SwitchStatement SwitchCase QualifiedName ssh constantsssh msg userauth info request
+cmd SimpleName SwitchStatement ReturnStatement StringLiteral ssh msg userauth info request
+ssh constantsssh msg userauth request QualifiedName SwitchCase SwitchStatement ReturnStatement StringLiteral ssh msg userauth request
+ssh constantsssh msg userauth request QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName ssh constantsssh msg userauth info request
+ssh constantsssh msg userauth request QualifiedName SwitchCase SwitchStatement ReturnStatement StringLiteral ssh msg userauth info request
+ssh msg userauth request StringLiteral ReturnStatement SwitchStatement SwitchCase QualifiedName ssh constantsssh msg userauth info request
+ssh msg userauth request StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral ssh msg userauth info request
+ssh constantsssh msg userauth info request QualifiedName SwitchCase SwitchStatement ReturnStatement StringLiteral ssh msg userauth info request
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get auth command name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier MethodDeclaration Block SwitchStatement SimpleName cmd
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get auth command name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+static Modifier MethodDeclaration Block SwitchStatement SimpleName cmd
+string SimpleName SimpleType MethodDeclaration SimpleName get auth command name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+get auth command name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get auth command name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+get auth command name SimpleName MethodDeclaration Block SwitchStatement SimpleName cmd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get auth command name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get auth command name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd

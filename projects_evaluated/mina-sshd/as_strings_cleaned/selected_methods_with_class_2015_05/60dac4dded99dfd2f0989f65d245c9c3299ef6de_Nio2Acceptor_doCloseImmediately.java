@@ -1,0 +1,32 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+channels SimpleName MethodInvocation SimpleName key set
+channels SimpleName MethodInvocation SimpleName get
+channels SimpleName MethodInvocation SimpleName address
+get SimpleName MethodInvocation SimpleName address
+channels SimpleName MethodInvocation MethodInvocation SimpleName close
+get SimpleName MethodInvocation MethodInvocation SimpleName close
+address SimpleName MethodInvocation MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral exception caught while closing channel
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral exception caught while closing channel
+debug SimpleName MethodInvocation SimpleName e
+exception caught while closing channel StringLiteral MethodInvocation SimpleName e
+address SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName channels
+address SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close immediately
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName do close immediately
+void PrimitiveType MethodDeclaration SimpleName do close immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close immediately

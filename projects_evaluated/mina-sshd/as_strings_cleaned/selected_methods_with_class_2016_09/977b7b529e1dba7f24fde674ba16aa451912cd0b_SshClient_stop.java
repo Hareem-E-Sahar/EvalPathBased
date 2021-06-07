@@ -1,0 +1,74 @@
+property resolver utils SimpleName MethodInvocation SimpleName get long property
+property resolver utils SimpleName MethodInvocation SimpleName stop wait time
+property resolver utils SimpleName MethodInvocation SimpleName default stop wait time
+get long property SimpleName MethodInvocation SimpleName stop wait time
+get long property SimpleName MethodInvocation SimpleName default stop wait time
+stop wait time SimpleName MethodInvocation SimpleName default stop wait time
+max wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+max wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long property
+max wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName stop wait time
+max wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName default stop wait time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max wait
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get long property
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName stop wait time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default stop wait time
+close SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation MethodInvocation SimpleName await
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName await
+close SimpleName MethodInvocation MethodInvocation SimpleName max wait
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName max wait
+await SimpleName MethodInvocation SimpleName max wait
+successful SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName close
+successful SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation BooleanLiteral true
+successful SimpleName VariableDeclarationFragment MethodInvocation SimpleName await
+successful SimpleName VariableDeclarationFragment MethodInvocation SimpleName max wait
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName successful
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName await
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max wait
+failed to receive closure confirmation within StringLiteral InfixExpression SimpleName max wait
+failed to receive closure confirmation within StringLiteral InfixExpression StringLiteral millis
+max wait SimpleName InfixExpression StringLiteral millis
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to receive closure confirmation within
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max wait
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral millis
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName is debug enabled
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while stopping client
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while stopping client
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral while stopping client
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+while stopping client StringLiteral InfixExpression MethodInvocation SimpleName e
+while stopping client StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral while stopping client
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation InfixExpression StringLiteral while stopping client
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral stop exception details
+log SimpleName MethodInvocation SimpleName e
+trace SimpleName MethodInvocation StringLiteral stop exception details
+trace SimpleName MethodInvocation SimpleName e
+stop exception details StringLiteral MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop
+void PrimitiveType MethodDeclaration SimpleName stop
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop

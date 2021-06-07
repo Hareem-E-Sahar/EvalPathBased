@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get current password candidate
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName current
+string SimpleName SimpleType MethodDeclaration SimpleName get current password candidate
+get current password candidate SimpleName MethodDeclaration Block ReturnStatement SimpleName current
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current password candidate
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current password candidate

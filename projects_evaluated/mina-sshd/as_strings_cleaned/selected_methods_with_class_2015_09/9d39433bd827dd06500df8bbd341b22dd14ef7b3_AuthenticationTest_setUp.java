@@ -1,0 +1,75 @@
+sshd SimpleName Assignment MethodInvocation SimpleName setup test server
+factory manager utils SimpleName MethodInvocation SimpleName update property
+factory manager utils SimpleName MethodInvocation SimpleName sshd
+factory manager utils SimpleName MethodInvocation QualifiedName server factory managerwelcome banner
+factory manager utils SimpleName MethodInvocation SimpleName welcome
+update property SimpleName MethodInvocation SimpleName sshd
+update property SimpleName MethodInvocation QualifiedName server factory managerwelcome banner
+update property SimpleName MethodInvocation SimpleName welcome
+sshd SimpleName MethodInvocation QualifiedName server factory managerwelcome banner
+sshd SimpleName MethodInvocation SimpleName welcome
+server factory managerwelcome banner QualifiedName MethodInvocation SimpleName welcome
+factory manager utils SimpleName MethodInvocation SimpleName update property
+factory manager utils SimpleName MethodInvocation SimpleName sshd
+factory manager utils SimpleName MethodInvocation QualifiedName server factory managerauth methods
+factory manager utils SimpleName MethodInvocation StringLiteral publickeypassword publickeykeyboardinteractive
+update property SimpleName MethodInvocation SimpleName sshd
+update property SimpleName MethodInvocation QualifiedName server factory managerauth methods
+update property SimpleName MethodInvocation StringLiteral publickeypassword publickeykeyboardinteractive
+sshd SimpleName MethodInvocation QualifiedName server factory managerauth methods
+sshd SimpleName MethodInvocation StringLiteral publickeypassword publickeykeyboardinteractive
+server factory managerauth methods QualifiedName MethodInvocation StringLiteral publickeypassword publickeykeyboardinteractive
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+test session SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get server
+test session SimpleName SimpleType ClassInstanceCreation SimpleName io session
+get server SimpleName MethodInvocation ClassInstanceCreation SimpleName io session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName server session impl
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do create session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName io session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName server session impl
+protected Modifier MethodDeclaration SimpleName do create session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+server session impl SimpleName SimpleType MethodDeclaration SimpleName do create session
+server session impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName io session
+server session impl SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+do create session SimpleName MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+session factory SimpleName SimpleType ClassInstanceCreation SimpleName sshd
+sshd SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+sshd SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName do create session
+sshd SimpleName MethodInvocation SimpleName set session factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName session factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleName sshd
+set session factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName session factory
+set session factory SimpleName MethodInvocation ClassInstanceCreation SimpleName sshd
+sshd SimpleName MethodInvocation SimpleName start
+sshd SimpleName MethodInvocation SimpleName get port
+port SimpleName Assignment MethodInvocation SimpleName sshd
+port SimpleName Assignment MethodInvocation SimpleName get port
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

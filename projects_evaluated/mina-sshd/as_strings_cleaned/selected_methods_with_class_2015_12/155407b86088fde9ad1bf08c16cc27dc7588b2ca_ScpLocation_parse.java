@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName loc spec
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName loc spec
+is empty SimpleName MethodInvocation SimpleName loc spec
+update SimpleName MethodInvocation SimpleName loc spec
+update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scp location
+loc spec SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scp location
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName update
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName loc spec
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName update
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName loc spec
+loc spec SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName update
+loc spec SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName loc spec
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName scp location
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName loc spec
+static Modifier MethodDeclaration SimpleType SimpleName scp location
+static Modifier MethodDeclaration SimpleName parse
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName loc spec
+scp location SimpleName SimpleType MethodDeclaration SimpleName parse
+scp location SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName loc spec
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName loc spec
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scp location
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loc spec
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scp location
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loc spec

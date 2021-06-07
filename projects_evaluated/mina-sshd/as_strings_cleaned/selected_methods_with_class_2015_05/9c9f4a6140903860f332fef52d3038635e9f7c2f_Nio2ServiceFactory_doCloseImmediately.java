@@ -1,0 +1,39 @@
+group SimpleName MethodInvocation SimpleName is shutdown
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral shutdown group
+debug SimpleName MethodInvocation StringLiteral shutdown group
+group SimpleName MethodInvocation SimpleName shutdown now
+group SimpleName MethodInvocation SimpleName await termination
+group SimpleName MethodInvocation NumberLiteral empty
+group SimpleName MethodInvocation QualifiedName time unitseconds
+await termination SimpleName MethodInvocation NumberLiteral empty
+await termination SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral group successfully shut down
+debug SimpleName MethodInvocation StringLiteral group successfully shut down
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral not all group tasks terminated
+debug SimpleName MethodInvocation StringLiteral not all group tasks terminated
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral exception caught while closing channel group
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral exception caught while closing channel group
+debug SimpleName MethodInvocation SimpleName e
+exception caught while closing channel group StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close immediately
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do close immediately
+void PrimitiveType MethodDeclaration SimpleName do close immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close immediately
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close immediately

@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName server factory manager
+public Modifier MethodDeclaration SimpleName get server
+final Modifier MethodDeclaration SimpleType SimpleName server factory manager
+final Modifier MethodDeclaration SimpleName get server
+server factory manager SimpleName SimpleType MethodDeclaration SimpleName get server
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName server factory manager
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName server factory manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server

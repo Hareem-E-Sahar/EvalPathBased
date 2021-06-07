@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+string SimpleName SimpleType MethodDeclaration SimpleName get password
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource key
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+get password SimpleName MethodDeclaration SimpleType SimpleName io exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

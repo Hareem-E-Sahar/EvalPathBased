@@ -1,0 +1,29 @@
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName get boolean property
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName kb interactive echo prompt prop
+property resolver utils SimpleName MethodInvocation SimpleName default kb interactive echo prompt
+get boolean property SimpleName MethodInvocation SimpleName session
+get boolean property SimpleName MethodInvocation SimpleName kb interactive echo prompt prop
+get boolean property SimpleName MethodInvocation SimpleName default kb interactive echo prompt
+session SimpleName MethodInvocation SimpleName kb interactive echo prompt prop
+session SimpleName MethodInvocation SimpleName default kb interactive echo prompt
+kb interactive echo prompt prop SimpleName MethodInvocation SimpleName default kb interactive echo prompt
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is interaction prompt echo enabled
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SimpleName is interaction prompt echo enabled
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+is interaction prompt echo enabled SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+is interaction prompt echo enabled SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is interaction prompt echo enabled
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is interaction prompt echo enabled
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

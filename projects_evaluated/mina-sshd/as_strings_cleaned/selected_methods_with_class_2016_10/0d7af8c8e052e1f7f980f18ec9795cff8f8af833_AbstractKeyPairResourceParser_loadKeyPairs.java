@@ -1,0 +1,219 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+file password provider SimpleName SimpleType SingleVariableDeclaration SimpleName password provider
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+collections SimpleName MethodInvocation SimpleName empty list
+key pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+key pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+begin markers SimpleName VariableDeclarationFragment MethodInvocation SimpleName get beginners
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+end markers SimpleName VariableDeclarationFragment MethodInvocation SimpleName get ending markers
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+key pair resource parser SimpleName MethodInvocation SimpleName find marker line
+key pair resource parser SimpleName MethodInvocation SimpleName lines
+key pair resource parser SimpleName MethodInvocation SimpleName begin markers
+find marker line SimpleName MethodInvocation SimpleName lines
+find marker line SimpleName MethodInvocation SimpleName begin markers
+lines SimpleName MethodInvocation SimpleName begin markers
+marker pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName key pair resource parser
+marker pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName find marker line
+marker pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName lines
+marker pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin markers
+marker pos SimpleName MethodInvocation SimpleName get key
+start index SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker pos
+start index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName marker pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get key
+lines SimpleName MethodInvocation SimpleName get
+lines SimpleName MethodInvocation SimpleName start index
+get SimpleName MethodInvocation SimpleName start index
+start line SimpleName VariableDeclarationFragment MethodInvocation SimpleName lines
+start line SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+start line SimpleName VariableDeclarationFragment MethodInvocation SimpleName start index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start line
+marker pos SimpleName MethodInvocation SimpleName get value
+marker index SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker pos
+marker index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName marker index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName marker pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+end markers SimpleName MethodInvocation SimpleName get
+end markers SimpleName MethodInvocation SimpleName marker index
+get SimpleName MethodInvocation SimpleName marker index
+ender SimpleName VariableDeclarationFragment MethodInvocation SimpleName end markers
+ender SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ender SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker index
+key pair resource parser SimpleName MethodInvocation SimpleName find marker line
+key pair resource parser SimpleName MethodInvocation SimpleName lines
+key pair resource parser SimpleName MethodInvocation SimpleName start index
+key pair resource parser SimpleName MethodInvocation SimpleName ender
+find marker line SimpleName MethodInvocation SimpleName lines
+find marker line SimpleName MethodInvocation SimpleName start index
+find marker line SimpleName MethodInvocation SimpleName ender
+lines SimpleName MethodInvocation SimpleName start index
+lines SimpleName MethodInvocation SimpleName ender
+start index SimpleName MethodInvocation SimpleName ender
+marker pos SimpleName Assignment MethodInvocation SimpleName key pair resource parser
+marker pos SimpleName Assignment MethodInvocation SimpleName find marker line
+marker pos SimpleName Assignment MethodInvocation SimpleName lines
+marker pos SimpleName Assignment MethodInvocation SimpleName start index
+marker pos SimpleName Assignment MethodInvocation SimpleName ender
+missing end marker ( StringLiteral InfixExpression SimpleName ender
+missing end marker ( StringLiteral InfixExpression StringLiteral ) after line #
+missing end marker ( StringLiteral InfixExpression SimpleName start index
+ender SimpleName InfixExpression StringLiteral ) after line #
+ender SimpleName InfixExpression SimpleName start index
+) after line # StringLiteral InfixExpression SimpleName start index
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral missing end marker (
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName ender
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) after line #
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName start index
+marker pos SimpleName MethodInvocation SimpleName get key
+end index SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker pos
+end index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName marker pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get key
+lines SimpleName MethodInvocation SimpleName get
+lines SimpleName MethodInvocation SimpleName end index
+get SimpleName MethodInvocation SimpleName end index
+end line SimpleName VariableDeclarationFragment MethodInvocation SimpleName lines
+end line SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+end line SimpleName VariableDeclarationFragment MethodInvocation SimpleName end index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end line
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+lines SimpleName MethodInvocation SimpleName sub list
+lines SimpleName MethodInvocation SimpleName start index
+lines SimpleName MethodInvocation SimpleName end index
+sub list SimpleName MethodInvocation SimpleName start index
+sub list SimpleName MethodInvocation SimpleName end index
+start index SimpleName MethodInvocation SimpleName end index
+extract key pairs SimpleName MethodInvocation SimpleName resource key
+extract key pairs SimpleName MethodInvocation SimpleName start line
+extract key pairs SimpleName MethodInvocation SimpleName end line
+extract key pairs SimpleName MethodInvocation SimpleName password provider
+extract key pairs SimpleName MethodInvocation MethodInvocation SimpleName lines
+extract key pairs SimpleName MethodInvocation MethodInvocation SimpleName sub list
+extract key pairs SimpleName MethodInvocation MethodInvocation SimpleName start index
+extract key pairs SimpleName MethodInvocation MethodInvocation SimpleName end index
+resource key SimpleName MethodInvocation SimpleName start line
+resource key SimpleName MethodInvocation SimpleName end line
+resource key SimpleName MethodInvocation SimpleName password provider
+resource key SimpleName MethodInvocation MethodInvocation SimpleName lines
+resource key SimpleName MethodInvocation MethodInvocation SimpleName sub list
+resource key SimpleName MethodInvocation MethodInvocation SimpleName start index
+resource key SimpleName MethodInvocation MethodInvocation SimpleName end index
+start line SimpleName MethodInvocation SimpleName end line
+start line SimpleName MethodInvocation SimpleName password provider
+start line SimpleName MethodInvocation MethodInvocation SimpleName lines
+start line SimpleName MethodInvocation MethodInvocation SimpleName sub list
+start line SimpleName MethodInvocation MethodInvocation SimpleName start index
+start line SimpleName MethodInvocation MethodInvocation SimpleName end index
+end line SimpleName MethodInvocation SimpleName password provider
+end line SimpleName MethodInvocation MethodInvocation SimpleName lines
+end line SimpleName MethodInvocation MethodInvocation SimpleName sub list
+end line SimpleName MethodInvocation MethodInvocation SimpleName start index
+end line SimpleName MethodInvocation MethodInvocation SimpleName end index
+password provider SimpleName MethodInvocation MethodInvocation SimpleName lines
+password provider SimpleName MethodInvocation MethodInvocation SimpleName sub list
+password provider SimpleName MethodInvocation MethodInvocation SimpleName start index
+password provider SimpleName MethodInvocation MethodInvocation SimpleName end index
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract key pairs
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource key
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName start line
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName end line
+kps SimpleName VariableDeclarationFragment MethodInvocation SimpleName password provider
+kps SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName lines
+kps SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sub list
+kps SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName start index
+kps SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName end index
+generic utils SimpleName MethodInvocation SimpleName is not empty
+generic utils SimpleName MethodInvocation SimpleName kps
+is not empty SimpleName MethodInvocation SimpleName kps
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName key pairs
+is empty SimpleName MethodInvocation SimpleName key pairs
+linked list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName kps
+key pairs SimpleName Assignment ClassInstanceCreation SimpleName kps
+key pairs SimpleName MethodInvocation SimpleName add all
+key pairs SimpleName MethodInvocation SimpleName kps
+add all SimpleName MethodInvocation SimpleName kps
+end index SimpleName InfixExpression NumberLiteral empty
+key pair resource parser SimpleName MethodInvocation SimpleName find marker line
+key pair resource parser SimpleName MethodInvocation SimpleName lines
+key pair resource parser SimpleName MethodInvocation InfixExpression SimpleName end index
+key pair resource parser SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key pair resource parser SimpleName MethodInvocation SimpleName begin markers
+find marker line SimpleName MethodInvocation SimpleName lines
+find marker line SimpleName MethodInvocation InfixExpression SimpleName end index
+find marker line SimpleName MethodInvocation InfixExpression NumberLiteral empty
+find marker line SimpleName MethodInvocation SimpleName begin markers
+lines SimpleName MethodInvocation InfixExpression SimpleName end index
+lines SimpleName MethodInvocation InfixExpression NumberLiteral empty
+lines SimpleName MethodInvocation SimpleName begin markers
+end index SimpleName InfixExpression MethodInvocation SimpleName begin markers
+empty NumberLiteral InfixExpression MethodInvocation SimpleName begin markers
+marker pos SimpleName Assignment MethodInvocation SimpleName key pair resource parser
+marker pos SimpleName Assignment MethodInvocation SimpleName find marker line
+marker pos SimpleName Assignment MethodInvocation SimpleName lines
+marker pos SimpleName Assignment MethodInvocation InfixExpression SimpleName end index
+marker pos SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+marker pos SimpleName Assignment MethodInvocation SimpleName begin markers
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load key pairs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load key pairs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lines
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load key pairs
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load key pairs
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password provider
+load key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lines
+load key pairs SimpleName MethodDeclaration SimpleType SimpleName io exception
+load key pairs SimpleName MethodDeclaration SimpleType SimpleName general security exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName load key pairs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load key pairs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName exit callback
+public Modifier MethodDeclaration SimpleName get exit callback
+public Modifier MethodDeclaration Block ReturnStatement SimpleName callback
+exit callback SimpleName SimpleType MethodDeclaration SimpleName get exit callback
+get exit callback SimpleName MethodDeclaration Block ReturnStatement SimpleName callback
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exit callback
+public Modifier TypeDeclaration MethodDeclaration SimpleName get exit callback
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exit callback
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get exit callback

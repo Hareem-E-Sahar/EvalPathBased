@@ -1,0 +1,29 @@
+int PrimitiveType SingleVariableDeclaration SimpleName v
+v SimpleName InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get boolean setting value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName get boolean setting value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SimpleName get boolean setting value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+get boolean setting value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get boolean setting value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get boolean setting value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get boolean setting value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

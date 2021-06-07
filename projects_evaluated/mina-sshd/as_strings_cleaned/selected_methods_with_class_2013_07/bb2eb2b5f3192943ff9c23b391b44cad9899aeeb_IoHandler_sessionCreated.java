@@ -1,0 +1,18 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName session created
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session created SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session created
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session created
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,135 @@
+count down latch SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+auth latch SimpleName Assignment ClassInstanceCreation SimpleType SimpleName count down latch
+auth latch SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+client session holder SimpleName MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation StringLiteral client session creation not signalled
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName client session holder
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+client session creation not signalled StringLiteral MethodInvocation MethodInvocation SimpleName client session holder
+client session creation not signalled StringLiteral MethodInvocation MethodInvocation SimpleName get
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth
+auth future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth future
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+close future SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+close future SimpleName VariableDeclarationFragment MethodInvocation SimpleName close
+close future SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+close future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName close future
+auth latch SimpleName MethodInvocation SimpleName count down
+auth future SimpleName MethodInvocation SimpleName await
+auth future SimpleName MethodInvocation NumberLiteral l
+auth future SimpleName MethodInvocation QualifiedName time unitseconds
+await SimpleName MethodInvocation NumberLiteral l
+await SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+assert true SimpleName MethodInvocation StringLiteral authentication writing not completed in time
+assert true SimpleName MethodInvocation MethodInvocation SimpleName auth future
+assert true SimpleName MethodInvocation MethodInvocation SimpleName await
+assert true SimpleName MethodInvocation MethodInvocation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+authentication writing not completed in time StringLiteral MethodInvocation MethodInvocation SimpleName auth future
+authentication writing not completed in time StringLiteral MethodInvocation MethodInvocation SimpleName await
+authentication writing not completed in time StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+authentication writing not completed in time StringLiteral MethodInvocation MethodInvocation QualifiedName time unitseconds
+close future SimpleName MethodInvocation SimpleName await
+close future SimpleName MethodInvocation NumberLiteral l
+close future SimpleName MethodInvocation QualifiedName time unitseconds
+await SimpleName MethodInvocation NumberLiteral l
+await SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+assert true SimpleName MethodInvocation StringLiteral session closing not complete in time
+assert true SimpleName MethodInvocation MethodInvocation SimpleName close future
+assert true SimpleName MethodInvocation MethodInvocation SimpleName await
+assert true SimpleName MethodInvocation MethodInvocation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+session closing not complete in time StringLiteral MethodInvocation MethodInvocation SimpleName close future
+session closing not complete in time StringLiteral MethodInvocation MethodInvocation SimpleName await
+session closing not complete in time StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+session closing not complete in time StringLiteral MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth future SimpleName MethodInvocation SimpleName get exception
+assert not null SimpleName MethodInvocation StringLiteral no authentication exception
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName auth future
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get exception
+no authentication exception StringLiteral MethodInvocation MethodInvocation SimpleName auth future
+no authentication exception StringLiteral MethodInvocation MethodInvocation SimpleName get exception
+close future SimpleName MethodInvocation SimpleName is closed
+assert true SimpleName MethodInvocation StringLiteral future not closed
+assert true SimpleName MethodInvocation MethodInvocation SimpleName close future
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is closed
+future not closed StringLiteral MethodInvocation MethodInvocation SimpleName close future
+future not closed StringLiteral MethodInvocation MethodInvocation SimpleName is closed
+client SimpleName MethodInvocation SimpleName stop
+client session holder SimpleName MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation StringLiteral session closure not signalled
+assert null SimpleName MethodInvocation MethodInvocation SimpleName client session holder
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+session closure not signalled StringLiteral MethodInvocation MethodInvocation SimpleName client session holder
+session closure not signalled StringLiteral MethodInvocation MethodInvocation SimpleName get
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test close before auth succeed
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test close before auth succeed
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test close before auth succeed
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test close before auth succeed SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test close before auth succeed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test close before auth succeed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

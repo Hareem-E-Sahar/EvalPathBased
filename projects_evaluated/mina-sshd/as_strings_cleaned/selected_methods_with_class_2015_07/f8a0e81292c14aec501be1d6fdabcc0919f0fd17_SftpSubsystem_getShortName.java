@@ -1,0 +1,60 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName f
+os utils SimpleName MethodInvocation SimpleName is unix
+f SimpleName MethodInvocation SimpleName get file name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+resolve file SimpleName MethodInvocation StringLiteral .
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+p SimpleName VariableDeclarationFragment MethodInvocation StringLiteral .
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get file name
+name SimpleName Assignment MethodInvocation SimpleName p
+name SimpleName Assignment MethodInvocation SimpleName get file name
+name SimpleName MethodInvocation SimpleName to string
+f SimpleName MethodInvocation SimpleName to absolute path
+f SimpleName MethodInvocation MethodInvocation SimpleName normalize
+to absolute path SimpleName MethodInvocation MethodInvocation SimpleName normalize
+abs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName f
+abs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to absolute path
+abs SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName abs
+abs SimpleName MethodInvocation SimpleName get name count
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName abs
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName abs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get name count
+count SimpleName InfixExpression NumberLiteral empty
+abs SimpleName MethodInvocation SimpleName get file name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName abs
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+name SimpleName MethodInvocation SimpleName to string
+abs SimpleName MethodInvocation SimpleName to string
+abs SimpleName MethodInvocation MethodInvocation SimpleName replace
+to string SimpleName MethodInvocation MethodInvocation SimpleName replace
+abs SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+to string SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+abs SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+to string SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral /
+fileseparator char QualifiedName MethodInvocation CharacterLiteral /
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get short name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+string SimpleName SimpleType MethodDeclaration SimpleName get short name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName f
+get short name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get short name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get short name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get short name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

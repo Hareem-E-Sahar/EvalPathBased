@@ -1,0 +1,208 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+get name SimpleName MethodInvocation MethodInvocation SimpleName replace
+get package SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral .
+get name SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+get package SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral /
+get name SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation CharacterLiteral .
+replace SimpleName MethodInvocation CharacterLiteral /
+. CharacterLiteral MethodInvocation CharacterLiteral /
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+arrays SimpleName MethodInvocation MethodInvocation SimpleName replace
+arrays SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+arrays SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+as list SimpleName MethodInvocation MethodInvocation SimpleName replace
+as list SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+as list SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+as list SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+as list SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+. CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+/ CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+. CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+/ CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+collections SimpleName MethodInvocation SimpleName unmodifiable list
+collections SimpleName MethodInvocation MethodInvocation SimpleName arrays
+collections SimpleName MethodInvocation MethodInvocation SimpleName as list
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral .
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral /
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+unmodifiable list SimpleName MethodInvocation MethodInvocation SimpleName arrays
+unmodifiable list SimpleName MethodInvocation MethodInvocation SimpleName as list
+unmodifiable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+unmodifiable list SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral .
+unmodifiable list SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral /
+unmodifiable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+unmodifiable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName unmodifiable list
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+char PrimitiveType SingleVariableDeclaration SimpleName ch
+empty CharacterLiteral ArrayInitializer CharacterLiteral .
+empty CharacterLiteral ArrayInitializer CharacterLiteral *
+empty CharacterLiteral ArrayInitializer CharacterLiteral ?
+. CharacterLiteral ArrayInitializer CharacterLiteral *
+. CharacterLiteral ArrayInitializer CharacterLiteral ?
+* CharacterLiteral ArrayInitializer CharacterLiteral ?
+char PrimitiveType ArrayType ArrayCreation ArrayInitializer CharacterLiteral empty
+char PrimitiveType ArrayType ArrayCreation ArrayInitializer CharacterLiteral .
+char PrimitiveType ArrayType ArrayCreation ArrayInitializer CharacterLiteral *
+char PrimitiveType ArrayType ArrayCreation ArrayInitializer CharacterLiteral ?
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName ch
+value of SimpleName MethodInvocation SimpleName ch
+sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName ch
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sep
+generic utils SimpleName MethodInvocation SimpleName join
+generic utils SimpleName MethodInvocation SimpleName expected
+generic utils SimpleName MethodInvocation SimpleName sep
+join SimpleName MethodInvocation SimpleName expected
+join SimpleName MethodInvocation SimpleName sep
+expected SimpleName MethodInvocation SimpleName sep
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName sep
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName s
+generic utils SimpleName MethodInvocation SimpleName ch
+split SimpleName MethodInvocation SimpleName s
+split SimpleName MethodInvocation SimpleName ch
+s SimpleName MethodInvocation SimpleName ch
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName ch
+mismatched split length for separator StringLiteral InfixExpression SimpleName sep
+expected SimpleName MethodInvocation SimpleName size
+object SimpleName SimpleType ArrayType CastExpression SimpleName actual
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation CastExpression SimpleName actual
+length SimpleName MethodInvocation CastExpression SimpleName actual
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression StringLiteral mismatched split length for separator
+assert SimpleName MethodInvocation InfixExpression SimpleName sep
+assert SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation MethodInvocation CastExpression SimpleName actual
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched split length for separator
+assert equals SimpleName MethodInvocation InfixExpression SimpleName sep
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation CastExpression SimpleName actual
+mismatched split length for separator StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+mismatched split length for separator StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+mismatched split length for separator StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+mismatched split length for separator StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName length
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName length
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generic utils
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generic utils
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression QualifiedName actuallength
+expected SimpleName MethodInvocation SimpleName get
+expected SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+actual SimpleName ArrayAccess SimpleName index
+a SimpleName VariableDeclarationFragment ArrayAccess SimpleName actual
+a SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+e SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+e SimpleName MethodInvocation SimpleName ends with
+e SimpleName MethodInvocation SimpleName a
+ends with SimpleName MethodInvocation SimpleName a
+mismatched value at index StringLiteral InfixExpression SimpleName index
+mismatched value at index StringLiteral InfixExpression StringLiteral for separator
+mismatched value at index StringLiteral InfixExpression SimpleName sep
+mismatched value at index StringLiteral InfixExpression StringLiteral : expected
+mismatched value at index StringLiteral InfixExpression SimpleName e
+index SimpleName InfixExpression StringLiteral for separator
+index SimpleName InfixExpression SimpleName sep
+index SimpleName InfixExpression StringLiteral : expected
+index SimpleName InfixExpression SimpleName e
+index SimpleName InfixExpression StringLiteral actual
+for separator StringLiteral InfixExpression SimpleName sep
+for separator StringLiteral InfixExpression StringLiteral : expected
+for separator StringLiteral InfixExpression SimpleName e
+for separator StringLiteral InfixExpression StringLiteral actual
+for separator StringLiteral InfixExpression SimpleName a
+sep SimpleName InfixExpression StringLiteral : expected
+sep SimpleName InfixExpression SimpleName e
+sep SimpleName InfixExpression StringLiteral actual
+sep SimpleName InfixExpression SimpleName a
+: expected StringLiteral InfixExpression SimpleName e
+: expected StringLiteral InfixExpression StringLiteral actual
+: expected StringLiteral InfixExpression SimpleName a
+e SimpleName InfixExpression StringLiteral actual
+e SimpleName InfixExpression SimpleName a
+actual StringLiteral InfixExpression SimpleName a
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral mismatched value at index
+assert SimpleName MethodInvocation InfixExpression SimpleName index
+assert SimpleName MethodInvocation InfixExpression StringLiteral for separator
+assert SimpleName MethodInvocation InfixExpression SimpleName sep
+assert SimpleName MethodInvocation InfixExpression StringLiteral : expected
+assert SimpleName MethodInvocation InfixExpression SimpleName e
+assert SimpleName MethodInvocation InfixExpression StringLiteral actual
+assert SimpleName MethodInvocation InfixExpression SimpleName a
+fail SimpleName MethodInvocation InfixExpression StringLiteral mismatched value at index
+fail SimpleName MethodInvocation InfixExpression SimpleName index
+fail SimpleName MethodInvocation InfixExpression StringLiteral for separator
+fail SimpleName MethodInvocation InfixExpression SimpleName sep
+fail SimpleName MethodInvocation InfixExpression StringLiteral : expected
+fail SimpleName MethodInvocation InfixExpression SimpleName e
+fail SimpleName MethodInvocation InfixExpression StringLiteral actual
+fail SimpleName MethodInvocation InfixExpression SimpleName a
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName actuallength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+actuallength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName index
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test split and join
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test split and join
+void PrimitiveType MethodDeclaration SimpleName test split and join
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test split and join
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test split and join

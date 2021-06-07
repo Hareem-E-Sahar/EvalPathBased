@@ -1,0 +1,34 @@
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server socket
+server socket SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName set reuse address
+s SimpleName MethodInvocation BooleanLiteral true
+set reuse address SimpleName MethodInvocation BooleanLiteral true
+inet socket address SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+inet address SimpleName SimpleType CastExpression ClassInstanceCreation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName bind
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName inet socket address
+s SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+bind SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName inet socket address
+bind SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName get local port
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get free port
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get free port
+static Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName get free port
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+get free port SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get free port
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get free port
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

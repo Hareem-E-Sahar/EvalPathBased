@@ -1,0 +1,32 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buf
+io read future impl SimpleName SimpleType ClassInstanceCreation SimpleName buf
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName io read future impl
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName buf
+io read future impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral closed
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName io exception
+future SimpleName MethodInvocation ClassInstanceCreation StringLiteral closed
+set value SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName io exception
+set value SimpleName MethodInvocation ClassInstanceCreation StringLiteral closed
+pending SimpleName Assignment SimpleName future
+do read SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration SimpleType SimpleName io read future
+public Modifier MethodDeclaration SimpleName read
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+io read future SimpleName SimpleType MethodDeclaration SimpleName read
+io read future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buf
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buf
+read SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io read future
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io read future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf

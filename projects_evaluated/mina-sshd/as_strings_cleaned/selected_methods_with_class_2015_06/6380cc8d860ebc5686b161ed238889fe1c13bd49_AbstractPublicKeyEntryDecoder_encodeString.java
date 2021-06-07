@@ -1,0 +1,74 @@
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration SimpleName v
+charset SimpleName SimpleType SingleVariableDeclaration SimpleName cs
+v SimpleName MethodInvocation SimpleName get bytes
+v SimpleName MethodInvocation SimpleName cs
+get bytes SimpleName MethodInvocation SimpleName cs
+write rle bytes SimpleName MethodInvocation SimpleName s
+write rle bytes SimpleName MethodInvocation MethodInvocation SimpleName v
+write rle bytes SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write rle bytes SimpleName MethodInvocation MethodInvocation SimpleName cs
+s SimpleName MethodInvocation MethodInvocation SimpleName v
+s SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+s SimpleName MethodInvocation MethodInvocation SimpleName cs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName encode string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName encode string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName encode string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName cs
+int PrimitiveType MethodDeclaration SimpleName encode string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cs
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+encode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+encode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+encode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+encode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+encode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+encode string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cs
+encode string SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+cs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

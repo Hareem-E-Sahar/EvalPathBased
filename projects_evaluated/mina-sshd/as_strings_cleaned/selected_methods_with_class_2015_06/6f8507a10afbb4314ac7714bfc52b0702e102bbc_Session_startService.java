@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleName start service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+start service SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+start service SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+start service SimpleName MethodDeclaration SimpleType SimpleName exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

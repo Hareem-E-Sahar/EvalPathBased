@@ -1,0 +1,59 @@
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+number utils SimpleName MethodInvocation SimpleName length
+number utils SimpleName MethodInvocation SimpleName bytes
+length SimpleName MethodInvocation SimpleName bytes
+num bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName number utils
+num bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+num bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName bytes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num bytes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName number utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName bytes
+num bytes SimpleName InfixExpression SimpleName available
+available SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation SimpleName available
+pure SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+pure SimpleName VariableDeclarationFragment ArrayCreation SimpleName available
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pure
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName bytes
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName pure
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName bytes
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName pure
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName available
+bytes SimpleName MethodInvocation NumberLiteral empty
+bytes SimpleName MethodInvocation SimpleName pure
+bytes SimpleName MethodInvocation NumberLiteral empty
+bytes SimpleName MethodInvocation SimpleName available
+empty NumberLiteral MethodInvocation SimpleName pure
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName available
+pure SimpleName MethodInvocation NumberLiteral empty
+pure SimpleName MethodInvocation SimpleName available
+empty NumberLiteral MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName pure
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get pure value bytes
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName pure
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get pure value bytes
+get pure value bytes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get pure value bytes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get pure value bytes SimpleName MethodDeclaration Block ReturnStatement SimpleName pure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get pure value bytes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get pure value bytes

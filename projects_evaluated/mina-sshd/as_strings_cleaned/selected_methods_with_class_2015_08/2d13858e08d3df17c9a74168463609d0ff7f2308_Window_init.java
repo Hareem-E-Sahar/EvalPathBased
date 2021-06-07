@@ -1,0 +1,123 @@
+int PrimitiveType SingleVariableDeclaration SimpleName size
+int PrimitiveType SingleVariableDeclaration SimpleName packet size
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName props
+size SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName size
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral illegal initial size d
+validate utils SimpleName MethodInvocation SimpleName size
+check true SimpleName MethodInvocation InfixExpression SimpleName size
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral illegal initial size d
+check true SimpleName MethodInvocation SimpleName size
+size SimpleName InfixExpression MethodInvocation StringLiteral illegal initial size d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral illegal initial size d
+size SimpleName InfixExpression MethodInvocation SimpleName size
+empty NumberLiteral InfixExpression MethodInvocation SimpleName size
+illegal initial size d StringLiteral MethodInvocation SimpleName size
+packet size SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName packet size
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral illegal packet size d
+validate utils SimpleName MethodInvocation SimpleName packet size
+check true SimpleName MethodInvocation InfixExpression SimpleName packet size
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral illegal packet size d
+check true SimpleName MethodInvocation SimpleName packet size
+packet size SimpleName InfixExpression MethodInvocation StringLiteral illegal packet size d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral illegal packet size d
+packet size SimpleName InfixExpression MethodInvocation SimpleName packet size
+empty NumberLiteral InfixExpression MethodInvocation SimpleName packet size
+illegal packet size d StringLiteral MethodInvocation SimpleName packet size
+size SimpleName FieldAccess Assignment SimpleName size
+max size SimpleName FieldAccess Assignment SimpleName size
+packet size SimpleName FieldAccess Assignment SimpleName packet size
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+props SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName props
+collections SimpleName MethodInvocation ConditionalExpression SimpleName props
+string SimpleName SimpleType MethodInvocation ConditionalExpression SimpleName props
+object SimpleName SimpleType MethodInvocation ConditionalExpression SimpleName props
+empty map SimpleName MethodInvocation ConditionalExpression SimpleName props
+props SimpleName FieldAccess Assignment ConditionalExpression SimpleName props
+lock SimpleName MethodInvocation SimpleName notify all
+initialized SimpleName MethodInvocation SimpleName get and set
+initialized SimpleName MethodInvocation BooleanLiteral true
+get and set SimpleName MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral init reinitializing
+debug SimpleName MethodInvocation StringLiteral init reinitializing
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral init size max packet
+log SimpleName MethodInvocation MethodInvocation SimpleName get size
+log SimpleName MethodInvocation MethodInvocation SimpleName get max size
+debug SimpleName MethodInvocation StringLiteral init size max packet
+debug SimpleName MethodInvocation MethodInvocation SimpleName get size
+debug SimpleName MethodInvocation MethodInvocation SimpleName get max size
+debug SimpleName MethodInvocation MethodInvocation SimpleName get packet size
+init size max packet StringLiteral MethodInvocation MethodInvocation SimpleName get size
+init size max packet StringLiteral MethodInvocation MethodInvocation SimpleName get max size
+init size max packet StringLiteral MethodInvocation MethodInvocation SimpleName get packet size
+get size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max size
+get size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get packet size
+get max size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get packet size
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName packet size
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName packet size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName packet size
+init SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+init SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+packet size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

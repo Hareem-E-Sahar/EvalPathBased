@@ -1,0 +1,18 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation SimpleName sessions
+unmodifiable map SimpleName MethodInvocation SimpleName sessions
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName io session
+public Modifier MethodDeclaration SimpleName get managed sessions
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+io session SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get managed sessions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get managed sessions

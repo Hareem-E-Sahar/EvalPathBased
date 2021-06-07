@@ -1,0 +1,68 @@
+open future SimpleName SimpleType SingleVariableDeclaration SimpleName f
+io connect future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName is connected
+future SimpleName MethodInvocation SimpleName get session
+handle channel open success SimpleName MethodInvocation SimpleName f
+handle channel open success SimpleName MethodInvocation MethodInvocation SimpleName future
+handle channel open success SimpleName MethodInvocation MethodInvocation SimpleName get session
+f SimpleName MethodInvocation MethodInvocation SimpleName future
+f SimpleName MethodInvocation MethodInvocation SimpleName get session
+future SimpleName MethodInvocation SimpleName get exception
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName future
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get exception
+peel exception SimpleName MethodInvocation MethodInvocation SimpleName future
+peel exception SimpleName MethodInvocation MethodInvocation SimpleName get exception
+problem SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+problem SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+problem SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName future
+problem SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName problem
+handle channel open failure SimpleName MethodInvocation SimpleName f
+handle channel open failure SimpleName MethodInvocation SimpleName problem
+f SimpleName MethodInvocation SimpleName problem
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName t
+peel exception SimpleName MethodInvocation SimpleName t
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+signal channel open failure SimpleName MethodInvocation SimpleName e
+f SimpleName MethodInvocation SimpleName set exception
+f SimpleName MethodInvocation SimpleName e
+set exception SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+notify state changed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+notify state changed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+notify state changed SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle channel connect result
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName handle channel connect result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+handle channel connect result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+handle channel connect result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+handle channel connect result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+handle channel connect result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+f SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle channel connect result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle channel connect result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future

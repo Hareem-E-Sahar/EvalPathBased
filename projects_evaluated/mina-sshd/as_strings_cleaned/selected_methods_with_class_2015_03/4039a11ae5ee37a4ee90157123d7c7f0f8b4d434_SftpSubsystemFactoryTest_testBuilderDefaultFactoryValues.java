@@ -1,0 +1,53 @@
+sftp subsystem factorybuilder QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName build
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+sftp subsystem factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+factory SimpleName MethodInvocation SimpleName get executor service
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation StringLiteral mismatched executor
+assert SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert null SimpleName MethodInvocation StringLiteral mismatched executor
+assert null SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+mismatched executor StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched executor StringLiteral MethodInvocation MethodInvocation SimpleName get executor service
+factory SimpleName MethodInvocation SimpleName is shutdown on exit
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation StringLiteral mismatched shutdown state
+assert SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+assert false SimpleName MethodInvocation StringLiteral mismatched shutdown state
+assert false SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+mismatched shutdown state StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched shutdown state StringLiteral MethodInvocation MethodInvocation SimpleName is shutdown on exit
+factory SimpleName MethodInvocation SimpleName get unsupported attribute policy
+assert SimpleName MethodInvocation SimpleName assert same
+assert SimpleName MethodInvocation StringLiteral mismatched unsupported attribute policy
+assert SimpleName MethodInvocation QualifiedName sftp subsystem factorydefault policy
+assert SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert SimpleName MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+assert same SimpleName MethodInvocation StringLiteral mismatched unsupported attribute policy
+assert same SimpleName MethodInvocation QualifiedName sftp subsystem factorydefault policy
+assert same SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+mismatched unsupported attribute policy StringLiteral MethodInvocation QualifiedName sftp subsystem factorydefault policy
+mismatched unsupported attribute policy StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched unsupported attribute policy StringLiteral MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+sftp subsystem factorydefault policy QualifiedName MethodInvocation MethodInvocation SimpleName factory
+sftp subsystem factorydefault policy QualifiedName MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test builder default factory values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test builder default factory values
+void PrimitiveType MethodDeclaration SimpleName test builder default factory values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test builder default factory values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test builder default factory values

@@ -1,0 +1,33 @@
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+modified time SimpleName VariableDeclarationFragment MethodInvocation SimpleName last modified
+file time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName modified time
+size SimpleName InfixExpression NumberLiteral l
+last existed SimpleName MethodInvocation SimpleName set
+last existed SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+last size SimpleName MethodInvocation SimpleName set
+last size SimpleName MethodInvocation SimpleName size
+set SimpleName MethodInvocation SimpleName size
+modified time SimpleName MethodInvocation SimpleName to millis
+last modified SimpleName MethodInvocation SimpleName set
+last modified SimpleName MethodInvocation MethodInvocation SimpleName modified time
+last modified SimpleName MethodInvocation MethodInvocation SimpleName to millis
+set SimpleName MethodInvocation MethodInvocation SimpleName modified time
+set SimpleName MethodInvocation MethodInvocation SimpleName to millis
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update reload attributes
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName update reload attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+update reload attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update reload attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update reload attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

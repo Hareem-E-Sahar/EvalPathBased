@@ -1,0 +1,107 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+log SimpleName MethodInvocation SimpleName is debug enabled
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName id
+value of SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp init version
+log SimpleName MethodInvocation MethodInvocation SimpleName integer
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation SimpleName id
+debug SimpleName MethodInvocation StringLiteral received ssh fxp init version
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName id
+received ssh fxp init version StringLiteral MethodInvocation MethodInvocation SimpleName integer
+received ssh fxp init version StringLiteral MethodInvocation MethodInvocation SimpleName value of
+received ssh fxp init version StringLiteral MethodInvocation MethodInvocation SimpleName id
+check version compatibility SimpleName MethodInvocation SimpleName buffer
+check version compatibility SimpleName MethodInvocation SimpleName id
+check version compatibility SimpleName MethodInvocation SimpleName id
+check version compatibility SimpleName MethodInvocation QualifiedName sftp constantsssh fx op unsupported
+buffer SimpleName MethodInvocation SimpleName id
+buffer SimpleName MethodInvocation SimpleName id
+buffer SimpleName MethodInvocation QualifiedName sftp constantsssh fx op unsupported
+id SimpleName MethodInvocation SimpleName id
+id SimpleName MethodInvocation QualifiedName sftp constantsssh fx op unsupported
+id SimpleName MethodInvocation QualifiedName sftp constantsssh fx op unsupported
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName check version compatibility
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+all SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp constantsssh fx op unsupported
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName all
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName all
+is empty SimpleName MethodInvocation SimpleName all
+version SimpleName Assignment SimpleName id
+buffer SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get string
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+buffer SimpleName MethodInvocation SimpleName get bytes
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+extensions SimpleName MethodInvocation SimpleName put
+extensions SimpleName MethodInvocation SimpleName name
+extensions SimpleName MethodInvocation SimpleName data
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName data
+name SimpleName MethodInvocation SimpleName data
+buffer SimpleName MethodInvocation SimpleName clear
+byte PrimitiveType CastExpression QualifiedName sftp constantsssh fxp version
+buffer SimpleName MethodInvocation SimpleName put byte
+buffer SimpleName MethodInvocation CastExpression PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression QualifiedName sftp constantsssh fxp version
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression QualifiedName sftp constantsssh fxp version
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName version
+put int SimpleName MethodInvocation SimpleName version
+append extensions SimpleName MethodInvocation SimpleName buffer
+append extensions SimpleName MethodInvocation SimpleName all
+buffer SimpleName MethodInvocation SimpleName all
+send SimpleName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do init
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do init SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

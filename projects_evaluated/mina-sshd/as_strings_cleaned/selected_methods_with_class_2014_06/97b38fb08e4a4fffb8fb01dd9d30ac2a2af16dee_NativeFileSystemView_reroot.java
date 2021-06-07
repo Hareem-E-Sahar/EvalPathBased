@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+append slash SimpleName MethodInvocation SimpleName file
+file SimpleName Assignment MethodInvocation SimpleName append slash
+file SimpleName Assignment MethodInvocation SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName r
+roots SimpleName MethodInvocation SimpleName key set
+file SimpleName MethodInvocation SimpleName starts with
+file SimpleName MethodInvocation SimpleName r
+starts with SimpleName MethodInvocation SimpleName r
+normalize root SimpleName MethodInvocation SimpleName r
+r SimpleName MethodInvocation SimpleName length
+file SimpleName MethodInvocation SimpleName substring
+file SimpleName MethodInvocation MethodInvocation SimpleName r
+file SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName r
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+/ StringLiteral InfixExpression MethodInvocation SimpleName normalize root
+/ StringLiteral InfixExpression MethodInvocation SimpleName r
+/ StringLiteral InfixExpression MethodInvocation SimpleName file
+/ StringLiteral InfixExpression MethodInvocation SimpleName substring
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName r
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName length
+normalize root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+normalize root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName roots
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName reroot
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType MethodDeclaration SimpleName reroot
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+reroot SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reroot SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName reroot
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reroot
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file

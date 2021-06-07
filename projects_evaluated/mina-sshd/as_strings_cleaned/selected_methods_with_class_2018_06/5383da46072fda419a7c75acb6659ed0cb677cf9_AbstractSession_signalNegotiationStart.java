@@ -1,0 +1,50 @@
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c s options
+kex proposal option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c s options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c s options
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName s c options
+kex proposal option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName s c options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName s c options
+listener SimpleName MethodInvocation SimpleName session negotiation start
+listener SimpleName MethodInvocation SimpleName c s options
+listener SimpleName MethodInvocation SimpleName s c options
+session negotiation start SimpleName MethodInvocation SimpleName c s options
+session negotiation start SimpleName MethodInvocation SimpleName s c options
+c s options SimpleName MethodInvocation SimpleName s c options
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName signal negotiation start
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName c s options
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s c options
+void PrimitiveType MethodDeclaration SimpleName signal negotiation start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c s options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s c options
+signal negotiation start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+signal negotiation start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+signal negotiation start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c s options
+signal negotiation start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s c options
+listener SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c s options
+listener SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s c options
+c s options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s c options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName signal negotiation start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c s options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s c options
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName signal negotiation start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c s options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s c options

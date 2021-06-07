@@ -1,0 +1,25 @@
+long PrimitiveType SingleVariableDeclaration SimpleName delta
+write count SimpleName Assignment SimpleName delta
+protected Modifier MethodDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SimpleName update write count
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName delta
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName write count
+long PrimitiveType MethodDeclaration SimpleName update write count
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName delta
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName write count
+update write count SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+update write count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delta
+update write count SimpleName MethodDeclaration Block ReturnStatement SimpleName write count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName update write count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update write count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta

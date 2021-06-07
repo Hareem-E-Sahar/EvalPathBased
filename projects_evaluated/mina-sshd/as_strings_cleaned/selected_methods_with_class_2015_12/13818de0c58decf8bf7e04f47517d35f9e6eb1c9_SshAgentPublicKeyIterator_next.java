@@ -1,0 +1,36 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName public key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public key SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+keys SimpleName MethodInvocation SimpleName next
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName keys
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+kp SimpleName MethodInvocation SimpleName get first
+kp SimpleName MethodInvocation SimpleName get second
+key agent identity SimpleName SimpleType ClassInstanceCreation SimpleName agent
+key agent identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName kp
+key agent identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get first
+key agent identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName kp
+key agent identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get second
+agent SimpleName ClassInstanceCreation MethodInvocation SimpleName kp
+agent SimpleName ClassInstanceCreation MethodInvocation SimpleName get first
+agent SimpleName ClassInstanceCreation MethodInvocation SimpleName kp
+agent SimpleName ClassInstanceCreation MethodInvocation SimpleName get second
+kp SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName kp
+kp SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get second
+get first SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName kp
+get first SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get second
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key agent identity
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName key agent identity
+public Modifier MethodDeclaration SimpleName next
+key agent identity SimpleName SimpleType MethodDeclaration SimpleName next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key agent identity
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key agent identity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

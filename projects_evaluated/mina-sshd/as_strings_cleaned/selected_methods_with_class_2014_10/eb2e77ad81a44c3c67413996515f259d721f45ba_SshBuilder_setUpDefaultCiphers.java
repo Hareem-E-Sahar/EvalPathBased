@@ -1,0 +1,106 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes ctrfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes ctrfactory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes ctrfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes ctrfactory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes ctrfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes ctrfactory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName arcfour factory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName arcfour factory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName arcfour factory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName arcfour factory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes cbcfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes cbcfactory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName triple descbcfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName triple descbcfactory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName blowfish cbcfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName blowfish cbcfactory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes cbcfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes cbcfactory
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes cbcfactory
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aes cbcfactory
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+avail SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName avail
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+i SimpleName MethodInvocation SimpleName has next
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+i SimpleName MethodInvocation SimpleName next
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName named factory
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName cipher
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next
+f SimpleName MethodInvocation SimpleName create
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+final Modifier VariableDeclarationStatement SimpleType SimpleName cipher
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName f
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create
+cipher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get block size
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName c
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName get block size
+key SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+key SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName c
+key SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName get block size
+final Modifier VariableDeclarationStatement ArrayType PrimitiveType byte
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+c SimpleName MethodInvocation SimpleName get iv size
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName c
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName get iv size
+iv SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+iv SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName c
+iv SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName get iv size
+final Modifier VariableDeclarationStatement ArrayType PrimitiveType byte
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName iv
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName iv
+c SimpleName MethodInvocation SimpleName init
+c SimpleName MethodInvocation QualifiedName ciphermodeencrypt
+c SimpleName MethodInvocation SimpleName key
+c SimpleName MethodInvocation SimpleName iv
+init SimpleName MethodInvocation QualifiedName ciphermodeencrypt
+init SimpleName MethodInvocation SimpleName key
+init SimpleName MethodInvocation SimpleName iv
+ciphermodeencrypt QualifiedName MethodInvocation SimpleName key
+ciphermodeencrypt QualifiedName MethodInvocation SimpleName iv
+key SimpleName MethodInvocation SimpleName iv
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+invalid key exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+i SimpleName MethodInvocation SimpleName remove
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+i SimpleName MethodInvocation SimpleName remove
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration SimpleName set up default ciphers
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName avail
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName set up default ciphers
+static Modifier MethodDeclaration Block ReturnStatement SimpleName avail
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName set up default ciphers
+set up default ciphers SimpleName MethodDeclaration Block ReturnStatement SimpleName avail
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up default ciphers
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up default ciphers

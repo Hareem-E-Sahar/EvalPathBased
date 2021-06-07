@@ -1,0 +1,31 @@
+pending SimpleName MethodInvocation SimpleName peek
+pending SimpleName MethodInvocation SimpleName peek
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName peek
+final Modifier VariableDeclarationStatement SimpleType SimpleName buffer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName peek
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+write with pending detection SimpleName MethodInvocation SimpleName msg
+write with pending detection SimpleName MethodInvocation BooleanLiteral true
+msg SimpleName MethodInvocation BooleanLiteral true
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write pending if any
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName write pending if any
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName write pending if any
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+write pending if any SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write pending if any
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write pending if any

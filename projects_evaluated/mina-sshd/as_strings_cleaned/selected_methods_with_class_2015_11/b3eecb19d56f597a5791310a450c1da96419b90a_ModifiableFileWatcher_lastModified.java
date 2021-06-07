@@ -1,0 +1,36 @@
+files SimpleName MethodInvocation SimpleName read attributes
+files SimpleName MethodInvocation MethodInvocation SimpleName get path
+files SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attributes
+files SimpleName MethodInvocation SimpleName options
+read attributes SimpleName MethodInvocation MethodInvocation SimpleName get path
+read attributes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attributes
+read attributes SimpleName MethodInvocation SimpleName options
+get path SimpleName MethodInvocation MethodInvocation SimpleName options
+basic file attributes SimpleName SimpleType TypeLiteral MethodInvocation SimpleName options
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+basic file attributes SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+attrs SimpleName MethodInvocation SimpleName last modified time
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName file time
+public Modifier MethodDeclaration SimpleName last modified
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration SimpleType SimpleName file time
+final Modifier MethodDeclaration SimpleName last modified
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+file time SimpleName SimpleType MethodDeclaration SimpleName last modified
+file time SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+last modified SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file time
+public Modifier TypeDeclaration MethodDeclaration SimpleName last modified
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file time
+test SimpleName TypeDeclaration MethodDeclaration SimpleName last modified
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

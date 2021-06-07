@@ -1,0 +1,148 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+boolean PrimitiveType SingleVariableDeclaration SimpleName expected
+session SimpleName MethodInvocation SimpleName get factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+manager SimpleName MethodInvocation SimpleName get properties
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+props SimpleName MethodInvocation SimpleName get
+props SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+class SimpleName SimpleType ParameterizedType WildcardType ?
+value SimpleName MethodInvocation SimpleName get class
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName get simple name
+storage SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+storage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName storage
+factory manager utils SimpleName MethodInvocation SimpleName get boolean
+factory manager utils SimpleName MethodInvocation SimpleName session
+factory manager utils SimpleName MethodInvocation SimpleName name
+get boolean SimpleName MethodInvocation SimpleName session
+get boolean SimpleName MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName name
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+no actual long value found for storage as StringLiteral InfixExpression SimpleName storage
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral no actual long value found for storage as
+assert not null SimpleName MethodInvocation InfixExpression SimpleName storage
+assert not null SimpleName MethodInvocation SimpleName actual
+no actual long value found for storage as StringLiteral InfixExpression MethodInvocation SimpleName actual
+storage SimpleName InfixExpression MethodInvocation SimpleName actual
+mismatched values on long retrieval for storage as StringLiteral InfixExpression SimpleName storage
+actual SimpleName MethodInvocation SimpleName boolean value
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched values on long retrieval for storage as
+assert equals SimpleName MethodInvocation InfixExpression SimpleName storage
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName boolean value
+mismatched values on long retrieval for storage as StringLiteral InfixExpression MethodInvocation SimpleName expected
+storage SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched values on long retrieval for storage as StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+mismatched values on long retrieval for storage as StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName boolean value
+storage SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+storage SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName boolean value
+expected SimpleName MethodInvocation MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation MethodInvocation SimpleName boolean value
+factory manager utils SimpleName MethodInvocation SimpleName get string
+factory manager utils SimpleName MethodInvocation SimpleName session
+factory manager utils SimpleName MethodInvocation SimpleName name
+get string SimpleName MethodInvocation SimpleName session
+get string SimpleName MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName name
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+no actual string value found for storage as StringLiteral InfixExpression SimpleName storage
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral no actual string value found for storage as
+assert not null SimpleName MethodInvocation InfixExpression SimpleName storage
+assert not null SimpleName MethodInvocation SimpleName actual
+no actual string value found for storage as StringLiteral InfixExpression MethodInvocation SimpleName actual
+storage SimpleName InfixExpression MethodInvocation SimpleName actual
+mismatched values on string retrieval for storage as StringLiteral InfixExpression SimpleName storage
+boolean SimpleName MethodInvocation SimpleName to string
+boolean SimpleName MethodInvocation SimpleName expected
+to string SimpleName MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched values on string retrieval for storage as
+assert equals SimpleName MethodInvocation InfixExpression SimpleName storage
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName boolean
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+mismatched values on string retrieval for storage as StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName boolean
+mismatched values on string retrieval for storage as StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+mismatched values on string retrieval for storage as StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+storage SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName boolean
+storage SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+storage SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+mismatched values on string retrieval for storage as StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+mismatched values on string retrieval for storage as StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+storage SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+storage SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test boolean property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SimpleName test boolean property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+test boolean property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+test boolean property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+test boolean property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test boolean property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+test boolean property SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test boolean property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test boolean property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test boolean property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected

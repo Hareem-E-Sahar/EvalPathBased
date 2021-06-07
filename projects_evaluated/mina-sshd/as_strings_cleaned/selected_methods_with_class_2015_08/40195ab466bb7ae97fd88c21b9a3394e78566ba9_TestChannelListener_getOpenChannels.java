@@ -1,0 +1,13 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName channel
+public Modifier MethodDeclaration SimpleName get open channels
+public Modifier MethodDeclaration Block ReturnStatement SimpleName open channels
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get open channels
+channel SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get open channels
+get open channels SimpleName MethodDeclaration Block ReturnStatement SimpleName open channels
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get open channels
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get open channels

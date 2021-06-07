@@ -1,0 +1,42 @@
+t SimpleName TypeParameter SimpleType SimpleName ssh future
+ssh future SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName iterable
+final Modifier SingleVariableDeclaration SimpleName futures
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName futures
+futures closeable SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+futures closeable SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName lock
+t SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName lock
+futures closeable SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName futures
+t SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName futures
+lock SimpleName ClassInstanceCreation SimpleName futures
+close SimpleName MethodInvocation ClassInstanceCreation SimpleName lock
+close SimpleName MethodInvocation ClassInstanceCreation SimpleName futures
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName ssh future
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName when
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName futures
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName builder
+t SimpleName TypeParameter MethodDeclaration SimpleName when
+ssh future SimpleName SimpleType TypeParameter MethodDeclaration SimpleName when
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration Modifier final
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName futures
+builder SimpleName SimpleType MethodDeclaration SimpleName when
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName futures
+when SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+when SimpleName MethodDeclaration SingleVariableDeclaration SimpleName futures
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName when
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName futures
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName when
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName futures

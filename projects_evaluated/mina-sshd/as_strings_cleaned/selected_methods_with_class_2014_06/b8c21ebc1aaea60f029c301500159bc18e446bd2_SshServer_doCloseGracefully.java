@@ -1,0 +1,48 @@
+close future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+closeable utils SimpleName MethodInvocation SimpleName sequential
+closeable utils SimpleName MethodInvocation SimpleName acceptor
+closeable utils SimpleName MethodInvocation SimpleName io service factory
+sequential SimpleName MethodInvocation SimpleName acceptor
+sequential SimpleName MethodInvocation SimpleName io service factory
+acceptor SimpleName MethodInvocation SimpleName io service factory
+closeable utils SimpleName MethodInvocation MethodInvocation SimpleName close
+sequential SimpleName MethodInvocation MethodInvocation SimpleName close
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName close
+io service factory SimpleName MethodInvocation MethodInvocation SimpleName close
+closeable utils SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+sequential SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+acceptor SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+io service factory SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+future SimpleName Assignment MethodInvocation MethodInvocation SimpleName closeable utils
+future SimpleName Assignment MethodInvocation MethodInvocation SimpleName sequential
+future SimpleName Assignment MethodInvocation MethodInvocation SimpleName acceptor
+future SimpleName Assignment MethodInvocation MethodInvocation SimpleName io service factory
+future SimpleName Assignment MethodInvocation SimpleName close
+future SimpleName Assignment MethodInvocation BooleanLiteral false
+io service factory SimpleName MethodInvocation SimpleName close
+io service factory SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+future SimpleName Assignment MethodInvocation SimpleName io service factory
+future SimpleName Assignment MethodInvocation SimpleName close
+future SimpleName Assignment MethodInvocation BooleanLiteral false
+closeable utils SimpleName MethodInvocation SimpleName closed
+future SimpleName Assignment MethodInvocation SimpleName closeable utils
+future SimpleName Assignment MethodInvocation SimpleName closed
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName close future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do close gracefully
+protected Modifier MethodDeclaration SimpleType SimpleName close future
+protected Modifier MethodDeclaration SimpleName do close gracefully
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName future
+close future SimpleName SimpleType MethodDeclaration SimpleName do close gracefully
+do close gracefully SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName do close gracefully
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do close gracefully

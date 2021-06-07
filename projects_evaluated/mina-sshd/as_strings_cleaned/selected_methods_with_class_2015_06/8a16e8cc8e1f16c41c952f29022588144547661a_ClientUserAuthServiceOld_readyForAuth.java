@@ -1,0 +1,65 @@
+user auth SimpleName SimpleType SingleVariableDeclaration SimpleName user auth
+auth future SimpleName FieldAccess MethodInvocation SimpleName is done
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral waiting to send authentication
+debug SimpleName MethodInvocation StringLiteral waiting to send authentication
+auth future SimpleName FieldAccess MethodInvocation SimpleName await
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unexpected exception
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral unexpected exception
+debug SimpleName MethodInvocation SimpleName e
+unexpected exception StringLiteral MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+auth future SimpleName FieldAccess MethodInvocation SimpleName is success
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral already authenticated
+debug SimpleName MethodInvocation StringLiteral already authenticated
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral already authenticated
+auth future SimpleName FieldAccess MethodInvocation SimpleName get exception
+err SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName auth future
+err SimpleName VariableDeclarationFragment MethodInvocation SimpleName get exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral probably closed
+log SimpleName MethodInvocation SimpleName err
+debug SimpleName MethodInvocation StringLiteral probably closed
+debug SimpleName MethodInvocation SimpleName err
+probably closed StringLiteral MethodInvocation SimpleName err
+auth future SimpleName FieldAccess MethodInvocation SimpleName is failure
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unexpected state
+debug SimpleName MethodInvocation StringLiteral unexpected state
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral unexpected authentication state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral authentication already in progress
+debug SimpleName MethodInvocation StringLiteral authentication already in progress
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral authentication already in progress
+user auth SimpleName FieldAccess Assignment SimpleName user auth
+default auth future SimpleName SimpleType ClassInstanceCreation SimpleName lock
+auth future SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName lock
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ready to try authentication with new lock
+debug SimpleName MethodInvocation StringLiteral ready to try authentication with new lock
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName ready for auth
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user auth
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user auth
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName ready for auth
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user auth
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user auth
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+ready for auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user auth
+ready for auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user auth
+ready for auth SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName ready for auth
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user auth
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ready for auth
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user auth

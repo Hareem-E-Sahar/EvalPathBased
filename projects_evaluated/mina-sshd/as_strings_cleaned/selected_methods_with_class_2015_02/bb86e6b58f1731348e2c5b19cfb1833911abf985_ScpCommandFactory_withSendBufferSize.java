@@ -1,0 +1,24 @@
+int PrimitiveType SingleVariableDeclaration SimpleName send size
+factory SimpleName MethodInvocation SimpleName set send buffer size
+factory SimpleName MethodInvocation SimpleName send size
+set send buffer size SimpleName MethodInvocation SimpleName send size
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName with send buffer size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName send size
+builder SimpleName SimpleType MethodDeclaration SimpleName with send buffer size
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName send size
+with send buffer size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+with send buffer size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName send size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName with send buffer size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName send size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with send buffer size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName send size

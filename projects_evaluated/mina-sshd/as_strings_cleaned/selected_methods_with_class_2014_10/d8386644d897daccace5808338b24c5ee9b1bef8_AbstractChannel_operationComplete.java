@@ -1,0 +1,42 @@
+io write future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName is written
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral message ssh msg channel close written on channel {}
+log SimpleName MethodInvocation ThisExpression SimpleName abstract channel
+debug SimpleName MethodInvocation StringLiteral message ssh msg channel close written on channel {}
+debug SimpleName MethodInvocation ThisExpression SimpleName abstract channel
+message ssh msg channel close written on channel {} StringLiteral MethodInvocation ThisExpression SimpleName abstract channel
+graceful state SimpleName MethodInvocation SimpleName compare and set
+graceful state SimpleName MethodInvocation QualifiedName graceful stateopened
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclose sent
+compare and set SimpleName MethodInvocation QualifiedName graceful stateopened
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclose sent
+graceful stateopened QualifiedName MethodInvocation QualifiedName graceful stateclose sent
+graceful state SimpleName MethodInvocation SimpleName compare and set
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclose received
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclosed
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclose received
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclosed
+graceful stateclose received QualifiedName MethodInvocation QualifiedName graceful stateclosed
+graceful future SimpleName MethodInvocation SimpleName set closed
+abstract channel SimpleName ThisExpression MethodInvocation SimpleName close
+abstract channel SimpleName ThisExpression MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName operation complete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName operation complete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future

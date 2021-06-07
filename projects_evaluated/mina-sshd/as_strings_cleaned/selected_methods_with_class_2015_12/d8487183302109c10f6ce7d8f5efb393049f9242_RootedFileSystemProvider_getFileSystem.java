@@ -1,0 +1,80 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+unroot SimpleName MethodInvocation SimpleName path
+real SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+real SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName real
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root instance
+rooted file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs instance
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName path
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName rooted file system
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName rooted file system
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName fse
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName fse
+rooted file system SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName fse
+file systems SimpleName MethodInvocation SimpleName entry set
+fse SimpleName MethodInvocation SimpleName get key
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName fse
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+fse SimpleName MethodInvocation SimpleName get value
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName fse
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+rooted file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+real SimpleName MethodInvocation SimpleName equals
+real SimpleName MethodInvocation SimpleName root
+equals SimpleName MethodInvocation SimpleName root
+real SimpleName MethodInvocation SimpleName starts with
+real SimpleName MethodInvocation SimpleName root
+starts with SimpleName MethodInvocation SimpleName root
+root instance SimpleName MethodInvocation SimpleName get name count
+root SimpleName MethodInvocation SimpleName get name count
+root instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root
+root instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name count
+get name count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root
+get name count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name count
+root instance SimpleName Assignment SimpleName root
+fs instance SimpleName Assignment SimpleName fs
+fse SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName file systems
+fse SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+path SimpleName MethodInvocation SimpleName to string
+file system not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName path
+file system not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral get file system {}
+log SimpleName MethodInvocation SimpleName path
+log SimpleName MethodInvocation SimpleName fs instance
+trace SimpleName MethodInvocation StringLiteral get file system {}
+trace SimpleName MethodInvocation SimpleName path
+trace SimpleName MethodInvocation SimpleName fs instance
+get file system {} StringLiteral MethodInvocation SimpleName path
+get file system {} StringLiteral MethodInvocation SimpleName fs instance
+path SimpleName MethodInvocation SimpleName fs instance
+file systems SimpleName SynchronizedStatement Block ReturnStatement SimpleName fs instance
+protected Modifier MethodDeclaration SimpleType SimpleName rooted file system
+protected Modifier MethodDeclaration SimpleName get file system
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SimpleType SimpleName file system not found exception
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName file systems
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName fs instance
+rooted file system SimpleName SimpleType MethodDeclaration SimpleName get file system
+rooted file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+rooted file system SimpleName SimpleType MethodDeclaration SimpleType SimpleName file system not found exception
+get file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+get file system SimpleName MethodDeclaration SimpleType SimpleName file system not found exception
+get file system SimpleName MethodDeclaration Block SynchronizedStatement SimpleName file systems
+get file system SimpleName MethodDeclaration Block ReturnStatement SimpleName fs instance
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file system not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rooted file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rooted file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system not found exception

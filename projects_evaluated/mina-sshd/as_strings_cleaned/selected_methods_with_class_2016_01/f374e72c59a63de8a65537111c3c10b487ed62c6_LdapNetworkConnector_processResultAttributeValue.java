@@ -1,0 +1,225 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName query context
+map SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ldap config
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName ldap config
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName ldap config
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dn
+int PrimitiveType SingleVariableDeclaration SimpleName result index
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs map
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs map
+attribute SimpleName SimpleType SingleVariableDeclaration SimpleName a
+a SimpleName MethodInvocation SimpleName get id
+attr id SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+attr id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr id
+a SimpleName MethodInvocation SimpleName size
+num values SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+num values SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num values
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName a
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression SimpleName num values
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr val
+accumulate attribute value SimpleName MethodInvocation SimpleName query context
+accumulate attribute value SimpleName MethodInvocation SimpleName attrs map
+accumulate attribute value SimpleName MethodInvocation SimpleName attr id
+accumulate attribute value SimpleName MethodInvocation SimpleName attr val
+query context SimpleName MethodInvocation SimpleName attrs map
+query context SimpleName MethodInvocation SimpleName attr id
+query context SimpleName MethodInvocation SimpleName attr val
+attrs map SimpleName MethodInvocation SimpleName attr id
+attrs map SimpleName MethodInvocation SimpleName attr val
+attr id SimpleName MethodInvocation SimpleName attr val
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulate attribute value
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName query context
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrs map
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr id
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr val
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+log SimpleName MethodInvocation SimpleName is trace enabled
+to string SimpleName MethodInvocation SimpleName prev
+to string SimpleName MethodInvocation SimpleName attr val
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral process result attribute value multiple values {} / {}
+log SimpleName MethodInvocation SimpleName dn
+log SimpleName MethodInvocation SimpleName attr id
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation SimpleName prev
+trace SimpleName MethodInvocation StringLiteral process result attribute value multiple values {} / {}
+trace SimpleName MethodInvocation SimpleName dn
+trace SimpleName MethodInvocation SimpleName attr id
+trace SimpleName MethodInvocation MethodInvocation SimpleName to string
+trace SimpleName MethodInvocation MethodInvocation SimpleName prev
+trace SimpleName MethodInvocation MethodInvocation SimpleName to string
+trace SimpleName MethodInvocation MethodInvocation SimpleName attr val
+process result attribute value multiple values {} / {} StringLiteral MethodInvocation SimpleName dn
+process result attribute value multiple values {} / {} StringLiteral MethodInvocation SimpleName attr id
+process result attribute value multiple values {} / {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+process result attribute value multiple values {} / {} StringLiteral MethodInvocation MethodInvocation SimpleName prev
+process result attribute value multiple values {} / {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+process result attribute value multiple values {} / {} StringLiteral MethodInvocation MethodInvocation SimpleName attr val
+dn SimpleName MethodInvocation SimpleName attr id
+dn SimpleName MethodInvocation MethodInvocation SimpleName to string
+dn SimpleName MethodInvocation MethodInvocation SimpleName prev
+dn SimpleName MethodInvocation MethodInvocation SimpleName to string
+dn SimpleName MethodInvocation MethodInvocation SimpleName attr val
+attr id SimpleName MethodInvocation MethodInvocation SimpleName to string
+attr id SimpleName MethodInvocation MethodInvocation SimpleName prev
+attr id SimpleName MethodInvocation MethodInvocation SimpleName to string
+attr id SimpleName MethodInvocation MethodInvocation SimpleName attr val
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr val
+prev SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+prev SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr val
+to string SimpleName MethodInvocation SimpleName attr val
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral process result attribute value {} = {}
+log SimpleName MethodInvocation SimpleName dn
+log SimpleName MethodInvocation SimpleName attr id
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation SimpleName attr val
+trace SimpleName MethodInvocation StringLiteral process result attribute value {} = {}
+trace SimpleName MethodInvocation SimpleName dn
+trace SimpleName MethodInvocation SimpleName attr id
+trace SimpleName MethodInvocation MethodInvocation SimpleName to string
+trace SimpleName MethodInvocation MethodInvocation SimpleName attr val
+process result attribute value {} = {} StringLiteral MethodInvocation SimpleName dn
+process result attribute value {} = {} StringLiteral MethodInvocation SimpleName attr id
+process result attribute value {} = {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+process result attribute value {} = {} StringLiteral MethodInvocation MethodInvocation SimpleName attr val
+dn SimpleName MethodInvocation SimpleName attr id
+dn SimpleName MethodInvocation MethodInvocation SimpleName to string
+dn SimpleName MethodInvocation MethodInvocation SimpleName attr val
+attr id SimpleName MethodInvocation MethodInvocation SimpleName to string
+attr id SimpleName MethodInvocation MethodInvocation SimpleName attr val
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral process result attribute value skip null attribute {}
+log SimpleName MethodInvocation SimpleName dn
+log SimpleName MethodInvocation SimpleName attr id
+trace SimpleName MethodInvocation StringLiteral process result attribute value skip null attribute {}
+trace SimpleName MethodInvocation SimpleName dn
+trace SimpleName MethodInvocation SimpleName attr id
+process result attribute value skip null attribute {} StringLiteral MethodInvocation SimpleName dn
+process result attribute value skip null attribute {} StringLiteral MethodInvocation SimpleName attr id
+dn SimpleName MethodInvocation SimpleName attr id
+num values SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is trace enabled
+num values SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral process result attribute value skip remaining {} values
+log SimpleName MethodInvocation SimpleName dn
+log SimpleName MethodInvocation SimpleName attr id
+log SimpleName MethodInvocation InfixExpression SimpleName num values
+log SimpleName MethodInvocation InfixExpression NumberLiteral empty
+trace SimpleName MethodInvocation StringLiteral process result attribute value skip remaining {} values
+trace SimpleName MethodInvocation SimpleName dn
+trace SimpleName MethodInvocation SimpleName attr id
+trace SimpleName MethodInvocation InfixExpression SimpleName num values
+trace SimpleName MethodInvocation InfixExpression NumberLiteral empty
+process result attribute value skip remaining {} values StringLiteral MethodInvocation SimpleName dn
+process result attribute value skip remaining {} values StringLiteral MethodInvocation SimpleName attr id
+process result attribute value skip remaining {} values StringLiteral MethodInvocation InfixExpression SimpleName num values
+process result attribute value skip remaining {} values StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+dn SimpleName MethodInvocation SimpleName attr id
+dn SimpleName MethodInvocation InfixExpression SimpleName num values
+dn SimpleName MethodInvocation InfixExpression NumberLiteral empty
+attr id SimpleName MethodInvocation InfixExpression SimpleName num values
+attr id SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num values
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+num values SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+attrs map SimpleName MethodInvocation SimpleName get
+attrs map SimpleName MethodInvocation SimpleName attr id
+get SimpleName MethodInvocation SimpleName attr id
+protected Modifier MethodDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName process result attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName query context
+protected Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dn
+object SimpleName SimpleType MethodDeclaration SimpleName process result attribute value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query context
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dn
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result index
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query context
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dn
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result index
+process result attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dn
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result index
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dn
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result index
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+dn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result index
+dn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+dn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+dn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+result index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+result index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+result index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+attrs map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+attrs map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+a SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName process result attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName naming exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process result attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName naming exception

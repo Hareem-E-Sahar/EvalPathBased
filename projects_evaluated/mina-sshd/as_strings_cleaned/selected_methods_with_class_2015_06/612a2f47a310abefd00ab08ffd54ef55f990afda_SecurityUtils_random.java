@@ -1,0 +1,56 @@
+int PrimitiveType SingleVariableDeclaration SimpleName n
+n SimpleName InfixExpression NumberLiteral empty
+n SimpleName InfixExpression PrefixExpression SimpleName n
+n SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName n
+next SimpleName MethodInvocation NumberLiteral empty
+long PrimitiveType CastExpression MethodInvocation SimpleName next
+long PrimitiveType CastExpression MethodInvocation NumberLiteral empty
+n SimpleName InfixExpression CastExpression PrimitiveType long
+n SimpleName InfixExpression CastExpression MethodInvocation SimpleName next
+n SimpleName InfixExpression CastExpression MethodInvocation NumberLiteral empty
+n SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bits
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+bits SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+next SimpleName MethodInvocation NumberLiteral empty
+bits SimpleName Assignment MethodInvocation SimpleName next
+bits SimpleName Assignment MethodInvocation NumberLiteral empty
+bits SimpleName InfixExpression SimpleName n
+val SimpleName Assignment InfixExpression SimpleName bits
+val SimpleName Assignment InfixExpression SimpleName n
+bits SimpleName InfixExpression SimpleName val
+n SimpleName InfixExpression NumberLiteral empty
+bits SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName val
+limit must be positive StringLiteral InfixExpression SimpleName n
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral limit must be positive
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName n
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName random
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName random
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+int PrimitiveType MethodDeclaration SimpleName random
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+random SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+random SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName random
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName random
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

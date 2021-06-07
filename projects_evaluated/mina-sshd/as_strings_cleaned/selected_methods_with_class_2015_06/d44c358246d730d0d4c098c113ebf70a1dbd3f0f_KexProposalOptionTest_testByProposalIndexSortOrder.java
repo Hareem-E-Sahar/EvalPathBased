@@ -1,0 +1,116 @@
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+kex proposal optionvalues QualifiedName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation QualifiedName kex proposal optionvalues
+index SimpleName InfixExpression MethodInvocation SimpleName size
+index SimpleName InfixExpression NumberLiteral empty
+index SimpleName InfixExpression NumberLiteral empty
+kex proposal optionvalues QualifiedName MethodInvocation SimpleName get
+kex proposal optionvalues QualifiedName MethodInvocation InfixExpression SimpleName index
+kex proposal optionvalues QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName index
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+o SimpleName VariableDeclarationFragment MethodInvocation QualifiedName kex proposal optionvalues
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+o SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName index
+o SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+kex proposal option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+kex proposal optionvalues QualifiedName MethodInvocation SimpleName get
+kex proposal optionvalues QualifiedName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+o SimpleName VariableDeclarationFragment MethodInvocation QualifiedName kex proposal optionvalues
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+kex proposal option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName MethodInvocation SimpleName get proposal index
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName o
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get proposal index
+o SimpleName MethodInvocation SimpleName get proposal index
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName o
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get proposal index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName o
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get proposal index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName o
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get proposal index
+i SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+non increasing index for StringLiteral InfixExpression SimpleName o
+non increasing index for StringLiteral InfixExpression StringLiteral [
+non increasing index for StringLiteral InfixExpression SimpleName i
+non increasing index for StringLiteral InfixExpression StringLiteral ] vs
+non increasing index for StringLiteral InfixExpression SimpleName o
+o SimpleName InfixExpression StringLiteral [
+o SimpleName InfixExpression SimpleName i
+o SimpleName InfixExpression StringLiteral ] vs
+o SimpleName InfixExpression SimpleName o
+o SimpleName InfixExpression StringLiteral [
+[ StringLiteral InfixExpression SimpleName i
+[ StringLiteral InfixExpression StringLiteral ] vs
+[ StringLiteral InfixExpression SimpleName o
+[ StringLiteral InfixExpression StringLiteral [
+[ StringLiteral InfixExpression SimpleName i
+i SimpleName InfixExpression StringLiteral ] vs
+i SimpleName InfixExpression SimpleName o
+i SimpleName InfixExpression StringLiteral [
+i SimpleName InfixExpression SimpleName i
+i SimpleName InfixExpression StringLiteral ]
+] vs StringLiteral InfixExpression SimpleName o
+] vs StringLiteral InfixExpression StringLiteral [
+] vs StringLiteral InfixExpression SimpleName i
+] vs StringLiteral InfixExpression StringLiteral ]
+o SimpleName InfixExpression StringLiteral [
+o SimpleName InfixExpression SimpleName i
+o SimpleName InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName i
+[ StringLiteral InfixExpression StringLiteral ]
+i SimpleName InfixExpression StringLiteral ]
+i SimpleName InfixExpression SimpleName i
+assert true SimpleName MethodInvocation InfixExpression StringLiteral non increasing index for
+assert true SimpleName MethodInvocation InfixExpression SimpleName o
+assert true SimpleName MethodInvocation InfixExpression StringLiteral [
+assert true SimpleName MethodInvocation InfixExpression SimpleName i
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ] vs
+assert true SimpleName MethodInvocation InfixExpression SimpleName o
+assert true SimpleName MethodInvocation InfixExpression StringLiteral [
+assert true SimpleName MethodInvocation InfixExpression SimpleName i
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ]
+assert true SimpleName MethodInvocation InfixExpression SimpleName i
+assert true SimpleName MethodInvocation InfixExpression SimpleName i
+non increasing index for StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+non increasing index for StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+o SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+o SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+[ StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+[ StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+] vs StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+] vs StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+o SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+o SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+[ StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+[ StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+] StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+] StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test by proposal index sort order
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test by proposal index sort order
+void PrimitiveType MethodDeclaration SimpleName test by proposal index sort order
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test by proposal index sort order
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test by proposal index sort order

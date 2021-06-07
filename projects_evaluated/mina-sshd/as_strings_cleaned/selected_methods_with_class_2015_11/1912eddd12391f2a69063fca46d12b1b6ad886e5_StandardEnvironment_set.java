@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName key
+validate utils SimpleName MethodInvocation StringLiteral empty environment variable name
+check not null and not empty SimpleName MethodInvocation SimpleName key
+check not null and not empty SimpleName MethodInvocation StringLiteral empty environment variable name
+key SimpleName MethodInvocation StringLiteral empty environment variable name
+get env SimpleName MethodInvocation MethodInvocation SimpleName put
+get env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName validate utils
+get env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName check not null and not empty
+get env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get env SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty environment variable name
+get env SimpleName MethodInvocation MethodInvocation SimpleName value
+put SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+put SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+put SimpleName MethodInvocation MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation StringLiteral empty environment variable name
+put SimpleName MethodInvocation SimpleName value
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName value
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName value
+key SimpleName MethodInvocation MethodInvocation SimpleName value
+empty environment variable name StringLiteral MethodInvocation MethodInvocation SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

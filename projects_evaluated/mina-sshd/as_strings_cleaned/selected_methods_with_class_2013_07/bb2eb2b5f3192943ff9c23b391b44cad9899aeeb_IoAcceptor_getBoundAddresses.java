@@ -1,0 +1,6 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName socket address
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bound addresses
+socket address SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bound addresses
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bound addresses
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bound addresses

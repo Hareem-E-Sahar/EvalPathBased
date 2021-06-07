@@ -1,0 +1,37 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName msg
+file SimpleName MethodInvocation SimpleName delete
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName msg
+log SimpleName MethodInvocation SimpleName file
+debug SimpleName MethodInvocation SimpleName msg
+debug SimpleName MethodInvocation SimpleName file
+msg SimpleName MethodInvocation SimpleName file
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg
+void PrimitiveType MethodDeclaration SimpleName delete file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName msg
+delete file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+delete file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+delete file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName msg
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg

@@ -1,0 +1,18 @@
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName available
+available SimpleName MethodInvocation SimpleName has next
+available SimpleName MethodInvocation SimpleName next
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName has next
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+protected Modifier MethodDeclaration SimpleName next iterator
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName available
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName next iterator
+next iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName available
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName next iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available

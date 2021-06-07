@@ -1,0 +1,116 @@
+j sch logger SimpleName MethodInvocation SimpleName init
+j sch SimpleName MethodInvocation SimpleName set config
+j sch SimpleName MethodInvocation StringLiteral kex
+j sch SimpleName MethodInvocation StringLiteral diffiehellmangroupexchangesha
+set config SimpleName MethodInvocation StringLiteral kex
+set config SimpleName MethodInvocation StringLiteral diffiehellmangroupexchangesha
+kex StringLiteral MethodInvocation StringLiteral diffiehellmangroupexchangesha
+sch SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j sch
+j sch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sch
+sch SimpleName MethodInvocation SimpleName get session
+sch SimpleName MethodInvocation StringLiteral smx
+sch SimpleName MethodInvocation StringLiteral localhost
+sch SimpleName MethodInvocation SimpleName port
+get session SimpleName MethodInvocation StringLiteral smx
+get session SimpleName MethodInvocation StringLiteral localhost
+get session SimpleName MethodInvocation SimpleName port
+smx StringLiteral MethodInvocation StringLiteral localhost
+smx StringLiteral MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName sch
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral smx
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral localhost
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName port
+comjcraftjschsession QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+simple user info SimpleName SimpleType ClassInstanceCreation StringLiteral smx
+s SimpleName MethodInvocation SimpleName set user info
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple user info
+s SimpleName MethodInvocation ClassInstanceCreation StringLiteral smx
+set user info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple user info
+set user info SimpleName MethodInvocation ClassInstanceCreation StringLiteral smx
+s SimpleName MethodInvocation SimpleName connect
+s SimpleName MethodInvocation SimpleName open channel
+s SimpleName MethodInvocation StringLiteral shell
+open channel SimpleName MethodInvocation StringLiteral shell
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral shell
+comjcraftjschchannel QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName connect
+c SimpleName MethodInvocation SimpleName get output stream
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output stream
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName os
+c SimpleName MethodInvocation SimpleName get input stream
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get input stream
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+this is my command StringLiteral MethodInvocation SimpleName get bytes
+os SimpleName MethodInvocation SimpleName write
+os SimpleName MethodInvocation MethodInvocation StringLiteral this is my command
+os SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation StringLiteral this is my command
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+os SimpleName MethodInvocation SimpleName flush
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+data SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+data SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+is SimpleName MethodInvocation SimpleName read
+is SimpleName MethodInvocation SimpleName data
+read SimpleName MethodInvocation SimpleName data
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName is
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName len
+data SimpleName ClassInstanceCreation NumberLiteral empty
+data SimpleName ClassInstanceCreation SimpleName len
+empty NumberLiteral ClassInstanceCreation SimpleName len
+str SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+str SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName data
+str SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+str SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName len
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+assert equals SimpleName MethodInvocation StringLiteral this is my command
+assert equals SimpleName MethodInvocation SimpleName str
+this is my command StringLiteral MethodInvocation SimpleName str
+s SimpleName MethodInvocation SimpleName rekey
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+c SimpleName MethodInvocation SimpleName disconnect
+s SimpleName MethodInvocation SimpleName disconnect
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test re exchange from client
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test re exchange from client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test re exchange from client
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test re exchange from client SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test re exchange from client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test re exchange from client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

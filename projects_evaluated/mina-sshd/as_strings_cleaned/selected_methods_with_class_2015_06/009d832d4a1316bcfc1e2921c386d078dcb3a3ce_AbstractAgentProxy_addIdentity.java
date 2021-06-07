@@ -1,0 +1,118 @@
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName comment
+create buffer SimpleName MethodInvocation SimpleName ssh agentc add identity
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh agentc add identity
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put key pair
+buffer SimpleName MethodInvocation SimpleName key
+put key pair SimpleName MethodInvocation SimpleName key
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName comment
+put string SimpleName MethodInvocation SimpleName comment
+log SimpleName MethodInvocation SimpleName is debug enabled
+key SimpleName MethodInvocation SimpleName get public
+key SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+get public SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+add identity StringLiteral InfixExpression SimpleName comment
+add identity StringLiteral InfixExpression StringLiteral ):
+add identity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName key
+add identity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get public
+add identity StringLiteral InfixExpression MethodInvocation SimpleName get algorithm
+comment SimpleName InfixExpression StringLiteral ):
+comment SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName key
+comment SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get public
+comment SimpleName InfixExpression MethodInvocation SimpleName get algorithm
+): StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName key
+): StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get public
+): StringLiteral InfixExpression MethodInvocation SimpleName get algorithm
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral add identity
+log SimpleName MethodInvocation InfixExpression SimpleName comment
+log SimpleName MethodInvocation InfixExpression StringLiteral ):
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get algorithm
+debug SimpleName MethodInvocation InfixExpression StringLiteral add identity
+debug SimpleName MethodInvocation InfixExpression SimpleName comment
+debug SimpleName MethodInvocation InfixExpression StringLiteral ):
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get algorithm
+prepare SimpleName MethodInvocation SimpleName buffer
+request SimpleName MethodInvocation MethodInvocation SimpleName prepare
+request SimpleName MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName request
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName prepare
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName available
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+available SimpleName InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get byte
+buffer SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+get byte SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+response SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName buffer
+response SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get byte
+response SimpleName VariableDeclarationFragment ConditionalExpression PrefixExpression NumberLiteral empty
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+available SimpleName InfixExpression NumberLiteral empty
+response SimpleName InfixExpression SimpleName ssh agent success
+response SimpleName InfixExpression NumberLiteral x ff
+bad add identity response ( StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName response
+bad add identity response ( StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+bad add identity response ( StringLiteral InfixExpression StringLiteral ) - available
+bad add identity response ( StringLiteral InfixExpression SimpleName available
+response SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ) - available
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral ) - available
+response SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName available
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName available
+) - available StringLiteral InfixExpression SimpleName available
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad add identity response (
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) - available
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName available
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add identity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName comment
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add identity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName comment
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName add identity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName comment
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+add identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+add identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+add identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comment
+add identity SimpleName MethodDeclaration SimpleType SimpleName io exception
+add identity SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+add identity SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+comment SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,25 @@
+factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve available signatures proposal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+abstract Modifier MethodDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SimpleName resolve available signatures proposal
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+string SimpleName SimpleType MethodDeclaration SimpleName resolve available signatures proposal
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName manager
+resolve available signatures proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+resolve available signatures proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve available signatures proposal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve available signatures proposal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager

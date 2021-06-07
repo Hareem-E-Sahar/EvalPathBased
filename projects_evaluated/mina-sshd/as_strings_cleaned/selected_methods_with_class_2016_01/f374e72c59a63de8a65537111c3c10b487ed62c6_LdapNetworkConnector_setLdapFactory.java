@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName factory
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName factory
+validate utils SimpleName MethodInvocation StringLiteral no ldap factory
+check not null and not empty SimpleName MethodInvocation SimpleName factory
+check not null and not empty SimpleName MethodInvocation StringLiteral no ldap factory
+factory SimpleName MethodInvocation StringLiteral no ldap factory
+ldap env SimpleName MethodInvocation SimpleName put
+ldap env SimpleName MethodInvocation QualifiedName contextinitial context factory
+ldap env SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+ldap env SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+ldap env SimpleName MethodInvocation MethodInvocation SimpleName factory
+ldap env SimpleName MethodInvocation MethodInvocation StringLiteral no ldap factory
+put SimpleName MethodInvocation QualifiedName contextinitial context factory
+put SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+put SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+put SimpleName MethodInvocation MethodInvocation SimpleName factory
+put SimpleName MethodInvocation MethodInvocation StringLiteral no ldap factory
+contextinitial context factory QualifiedName MethodInvocation MethodInvocation SimpleName validate utils
+contextinitial context factory QualifiedName MethodInvocation MethodInvocation SimpleName check not null and not empty
+contextinitial context factory QualifiedName MethodInvocation MethodInvocation SimpleName factory
+contextinitial context factory QualifiedName MethodInvocation MethodInvocation StringLiteral no ldap factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set ldap factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+void PrimitiveType MethodDeclaration SimpleName set ldap factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factory
+set ldap factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set ldap factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set ldap factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set ldap factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory

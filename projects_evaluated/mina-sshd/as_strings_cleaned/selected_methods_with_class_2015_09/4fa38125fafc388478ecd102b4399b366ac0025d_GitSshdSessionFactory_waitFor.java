@@ -1,0 +1,46 @@
+collection SimpleName SimpleType ParameterizedType SimpleType QualifiedName client channelclient channel event
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName client channelclient channel eventclosed
+of SimpleName MethodInvocation QualifiedName client channelclient channel eventclosed
+channel SimpleName MethodInvocation SimpleName wait for
+channel SimpleName MethodInvocation MethodInvocation SimpleName enum set
+channel SimpleName MethodInvocation MethodInvocation SimpleName of
+channel SimpleName MethodInvocation MethodInvocation QualifiedName client channelclient channel eventclosed
+channel SimpleName MethodInvocation QualifiedName longmax value
+wait for SimpleName MethodInvocation MethodInvocation SimpleName enum set
+wait for SimpleName MethodInvocation MethodInvocation SimpleName of
+wait for SimpleName MethodInvocation MethodInvocation QualifiedName client channelclient channel eventclosed
+wait for SimpleName MethodInvocation QualifiedName longmax value
+enum set SimpleName MethodInvocation MethodInvocation QualifiedName longmax value
+of SimpleName MethodInvocation MethodInvocation QualifiedName longmax value
+client channelclient channel eventclosed QualifiedName MethodInvocation MethodInvocation QualifiedName longmax value
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enum set
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName client channelclient channel eventclosed
+res SimpleName VariableDeclarationFragment MethodInvocation QualifiedName longmax value
+res SimpleName MethodInvocation SimpleName contains
+res SimpleName MethodInvocation QualifiedName client channelclient channel eventclosed
+contains SimpleName MethodInvocation QualifiedName client channelclient channel eventclosed
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName wait for
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName wait for
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType MethodDeclaration SimpleName wait for
+int PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+wait for SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

@@ -1,0 +1,33 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote address
+remote address SimpleName InstanceofExpression SimpleType SimpleName inet socket address
+inet socket address SimpleName SimpleType CastExpression SimpleName remote address
+remote address SimpleName InstanceofExpression SimpleType SimpleName sshd socket address
+sshd socket address SimpleName SimpleType CastExpression SimpleName remote address
+remote address SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName to inet socket address
+unknown remote address type StringLiteral InfixExpression SimpleName remote address
+class cast exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown remote address type
+class cast exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName remote address
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName inet socket address
+public Modifier MethodDeclaration SimpleName to inet socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote address
+static Modifier MethodDeclaration SimpleType SimpleName inet socket address
+static Modifier MethodDeclaration SimpleName to inet socket address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote address
+inet socket address SimpleName SimpleType MethodDeclaration SimpleName to inet socket address
+inet socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName remote address
+to inet socket address SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+to inet socket address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName inet socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName to inet socket address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName inet socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to inet socket address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address

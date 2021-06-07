@@ -1,0 +1,77 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+env StringLiteral MethodInvocation SimpleName equals
+env StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle env SimpleName MethodInvocation SimpleName buffer
+ptyreq StringLiteral MethodInvocation SimpleName equals
+ptyreq StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle pty req SimpleName MethodInvocation SimpleName buffer
+windowchange StringLiteral MethodInvocation SimpleName equals
+windowchange StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle window change SimpleName MethodInvocation SimpleName buffer
+signal StringLiteral MethodInvocation SimpleName equals
+signal StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle signal SimpleName MethodInvocation SimpleName buffer
+break StringLiteral MethodInvocation SimpleName equals
+break StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle break SimpleName MethodInvocation SimpleName buffer
+shell StringLiteral MethodInvocation SimpleName equals
+shell StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle shell SimpleName MethodInvocation SimpleName buffer
+type SimpleName FieldAccess Assignment SimpleName type
+exec StringLiteral MethodInvocation SimpleName equals
+exec StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle exec SimpleName MethodInvocation SimpleName buffer
+type SimpleName FieldAccess Assignment SimpleName type
+subsystem StringLiteral MethodInvocation SimpleName equals
+subsystem StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle subsystem SimpleName MethodInvocation SimpleName buffer
+type SimpleName FieldAccess Assignment SimpleName type
+authagentreqopensshcom StringLiteral MethodInvocation SimpleName equals
+authagentreqopensshcom StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle agent forwarding SimpleName MethodInvocation SimpleName buffer
+x req StringLiteral MethodInvocation SimpleName equals
+x req StringLiteral MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+handle x forwarding SimpleName MethodInvocation SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName handle request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean SimpleName SimpleType MethodDeclaration SimpleName handle request
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle request SimpleName MethodDeclaration SimpleType SimpleName io exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

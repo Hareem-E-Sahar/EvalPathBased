@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName config prop name
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get string
+manager SimpleName MethodInvocation SimpleName config prop name
+get string SimpleName MethodInvocation SimpleName config prop name
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName config prop name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ident
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ident
+is empty SimpleName MethodInvocation SimpleName ident
+manager SimpleName MethodInvocation SimpleName get version
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName manager
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get version
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName manager
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get version
+ident SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName manager
+ident SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get version
+generic utils SimpleName MethodInvocation ConditionalExpression SimpleName ident
+is empty SimpleName MethodInvocation ConditionalExpression SimpleName ident
+ident SimpleName MethodInvocation ConditionalExpression SimpleName ident
+manager SimpleName MethodInvocation ConditionalExpression SimpleName ident
+get version SimpleName MethodInvocation ConditionalExpression SimpleName ident
+default ssh version prefix SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName ident
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve identification string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName config prop name
+string SimpleName SimpleType MethodDeclaration SimpleName resolve identification string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config prop name
+resolve identification string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve identification string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config prop name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve identification string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config prop name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve identification string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config prop name

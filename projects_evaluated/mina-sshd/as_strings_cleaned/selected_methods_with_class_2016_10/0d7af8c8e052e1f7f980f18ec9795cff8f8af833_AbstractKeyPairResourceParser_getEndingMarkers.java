@@ -1,0 +1,11 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get ending markers
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ending markers
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ending markers
+get ending markers SimpleName MethodDeclaration Block ReturnStatement SimpleName ending markers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ending markers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ending markers

@@ -1,0 +1,130 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral osname
+get property SimpleName MethodInvocation StringLiteral osname
+system SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get property SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+osname StringLiteral MethodInvocation MethodInvocation SimpleName to lower case
+system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+get property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+osname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName contains
+system SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral win
+get property SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral win
+osname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral win
+to lower case SimpleName MethodInvocation MethodInvocation StringLiteral win
+contains SimpleName MethodInvocation StringLiteral win
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetsftp
+root SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+root SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral targetsftp
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+unix path SimpleName VariableDeclarationFragment StringLiteral targetsftpouttxt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName unix path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral targetsftpouttxt
+link unix path SimpleName VariableDeclarationFragment StringLiteral targetsftplinktxt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName link unix path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral targetsftplinktxt
+file SimpleName SimpleType ClassInstanceCreation SimpleName unix path
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName unix path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+file SimpleName SimpleType ClassInstanceCreation SimpleName link unix path
+link SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+link SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName link unix path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName link
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName root
+delete recursive SimpleName MethodInvocation SimpleName root
+root SimpleName MethodInvocation SimpleName mkdirs
+root SimpleName MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName root
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+session SimpleName MethodInvocation SimpleName open channel
+session SimpleName MethodInvocation StringLiteral sftp
+open channel SimpleName MethodInvocation StringLiteral sftp
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName open channel
+channel sftp SimpleName SimpleType CastExpression MethodInvocation StringLiteral sftp
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName channel sftp
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral sftp
+channel sftp SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName connect
+empty StringLiteral MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+c SimpleName MethodInvocation SimpleName put
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array input stream
+c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+c SimpleName MethodInvocation SimpleName unix path
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array input stream
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation SimpleName unix path
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName unix path
+empty StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName unix path
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName unix path
+target SimpleName MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName target
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+read file SimpleName MethodInvocation SimpleName unix path
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName read file
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName unix path
+empty StringLiteral MethodInvocation MethodInvocation SimpleName read file
+empty StringLiteral MethodInvocation MethodInvocation SimpleName unix path
+c SimpleName MethodInvocation SimpleName symlink
+c SimpleName MethodInvocation SimpleName unix path
+c SimpleName MethodInvocation SimpleName link unix path
+symlink SimpleName MethodInvocation SimpleName unix path
+symlink SimpleName MethodInvocation SimpleName link unix path
+unix path SimpleName MethodInvocation SimpleName link unix path
+link SimpleName MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName link
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+read file SimpleName MethodInvocation SimpleName link unix path
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName read file
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName link unix path
+empty StringLiteral MethodInvocation MethodInvocation SimpleName read file
+empty StringLiteral MethodInvocation MethodInvocation SimpleName link unix path
+c SimpleName MethodInvocation SimpleName readlink
+c SimpleName MethodInvocation SimpleName link unix path
+readlink SimpleName MethodInvocation SimpleName link unix path
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName readlink
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName link unix path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+c SimpleName MethodInvocation SimpleName realpath
+c SimpleName MethodInvocation SimpleName unix path
+realpath SimpleName MethodInvocation SimpleName unix path
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName realpath
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName unix path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+assert equals SimpleName MethodInvocation SimpleName str
+assert equals SimpleName MethodInvocation SimpleName str
+str SimpleName MethodInvocation SimpleName str
+c SimpleName MethodInvocation SimpleName disconnect
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create symbolic link
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create symbolic link
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create symbolic link
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create symbolic link SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create symbolic link
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create symbolic link
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

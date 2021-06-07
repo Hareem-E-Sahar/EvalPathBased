@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+void PrimitiveType MethodDeclaration SimpleName set username
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+set username SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set username SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username

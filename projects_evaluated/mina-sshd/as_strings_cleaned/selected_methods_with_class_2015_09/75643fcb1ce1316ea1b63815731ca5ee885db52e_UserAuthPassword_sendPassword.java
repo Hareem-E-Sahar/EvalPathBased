@@ -1,0 +1,144 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old password
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new password
+session SimpleName MethodInvocation SimpleName get username
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName get username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName old password
+objects SimpleName MethodInvocation SimpleName new password
+equals SimpleName MethodInvocation SimpleName old password
+equals SimpleName MethodInvocation SimpleName new password
+old password SimpleName MethodInvocation SimpleName new password
+modified SimpleName VariableDeclarationFragment PrefixExpression MethodInvocation SimpleName objects
+modified SimpleName VariableDeclarationFragment PrefixExpression MethodInvocation SimpleName equals
+modified SimpleName VariableDeclarationFragment PrefixExpression MethodInvocation SimpleName old password
+modified SimpleName VariableDeclarationFragment PrefixExpression MethodInvocation SimpleName new password
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName modified
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral send password send ssh msg userauth request for {} - modified
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation StringLiteral send password send ssh msg userauth request for {} - modified
+debug SimpleName MethodInvocation SimpleName username
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation SimpleName name
+send password send ssh msg userauth request for {} - modified StringLiteral MethodInvocation SimpleName username
+send password send ssh msg userauth request for {} - modified StringLiteral MethodInvocation SimpleName session
+send password send ssh msg userauth request for {} - modified StringLiteral MethodInvocation SimpleName service
+send password send ssh msg userauth request for {} - modified StringLiteral MethodInvocation SimpleName name
+send password send ssh msg userauth request for {} - modified StringLiteral MethodInvocation SimpleName modified
+username SimpleName MethodInvocation SimpleName session
+username SimpleName MethodInvocation SimpleName service
+username SimpleName MethodInvocation SimpleName name
+username SimpleName MethodInvocation SimpleName modified
+session SimpleName MethodInvocation SimpleName service
+session SimpleName MethodInvocation SimpleName name
+session SimpleName MethodInvocation SimpleName modified
+service SimpleName MethodInvocation SimpleName name
+service SimpleName MethodInvocation SimpleName modified
+name SimpleName MethodInvocation SimpleName modified
+buffer utils SimpleName MethodInvocation SimpleName clear
+buffer utils SimpleName MethodInvocation SimpleName buffer
+clear SimpleName MethodInvocation SimpleName buffer
+session SimpleName MethodInvocation SimpleName prepare buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+session SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+session SimpleName MethodInvocation MethodInvocation SimpleName clear
+session SimpleName MethodInvocation MethodInvocation SimpleName buffer
+prepare buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName clear
+prepare buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+ssh constantsssh msg userauth request QualifiedName MethodInvocation MethodInvocation SimpleName buffer utils
+ssh constantsssh msg userauth request QualifiedName MethodInvocation MethodInvocation SimpleName clear
+ssh constantsssh msg userauth request QualifiedName MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName session
+buffer SimpleName Assignment MethodInvocation SimpleName prepare buffer
+buffer SimpleName Assignment MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer utils
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName clear
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName username
+put string SimpleName MethodInvocation SimpleName username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName service
+put string SimpleName MethodInvocation SimpleName service
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName name
+put string SimpleName MethodInvocation SimpleName name
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation SimpleName modified
+put boolean SimpleName MethodInvocation SimpleName modified
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName old password
+put string SimpleName MethodInvocation SimpleName old password
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName new password
+put string SimpleName MethodInvocation SimpleName new password
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send password
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName old password
+void PrimitiveType MethodDeclaration SimpleName send password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new password
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old password
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new password
+send password SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old password
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new password
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old password
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new password
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+old password SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new password
+old password SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new password SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new password
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new password
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

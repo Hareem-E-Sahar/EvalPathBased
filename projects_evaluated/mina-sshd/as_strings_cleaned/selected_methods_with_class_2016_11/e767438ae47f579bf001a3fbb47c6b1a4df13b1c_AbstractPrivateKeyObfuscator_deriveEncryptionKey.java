@@ -1,0 +1,247 @@
+private key encryption context SimpleName SimpleType SingleVariableDeclaration SimpleName enc context
+int PrimitiveType SingleVariableDeclaration SimpleName output key length
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName enc context
+objects SimpleName MethodInvocation StringLiteral no encryption context
+require non null SimpleName MethodInvocation SimpleName enc context
+require non null SimpleName MethodInvocation StringLiteral no encryption context
+enc context SimpleName MethodInvocation StringLiteral no encryption context
+enc context SimpleName MethodInvocation SimpleName get cipher name
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName enc context
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+validate utils SimpleName MethodInvocation StringLiteral no cipher name
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName enc context
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+check not null and not empty SimpleName MethodInvocation StringLiteral no cipher name
+enc context SimpleName MethodInvocation MethodInvocation StringLiteral no cipher name
+get cipher name SimpleName MethodInvocation MethodInvocation StringLiteral no cipher name
+enc context SimpleName MethodInvocation SimpleName get cipher type
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName enc context
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher type
+validate utils SimpleName MethodInvocation StringLiteral no cipher type
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName enc context
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get cipher type
+check not null and not empty SimpleName MethodInvocation StringLiteral no cipher type
+enc context SimpleName MethodInvocation MethodInvocation StringLiteral no cipher type
+get cipher type SimpleName MethodInvocation MethodInvocation StringLiteral no cipher type
+enc context SimpleName MethodInvocation SimpleName get cipher mode
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName enc context
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher mode
+validate utils SimpleName MethodInvocation StringLiteral no cipher mode
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName enc context
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get cipher mode
+check not null and not empty SimpleName MethodInvocation StringLiteral no cipher mode
+enc context SimpleName MethodInvocation MethodInvocation StringLiteral no cipher mode
+get cipher mode SimpleName MethodInvocation MethodInvocation StringLiteral no cipher mode
+enc context SimpleName MethodInvocation SimpleName get init vector
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName enc context
+objects SimpleName MethodInvocation MethodInvocation SimpleName get init vector
+objects SimpleName MethodInvocation StringLiteral no encryption init vector
+require non null SimpleName MethodInvocation MethodInvocation SimpleName enc context
+require non null SimpleName MethodInvocation MethodInvocation SimpleName get init vector
+require non null SimpleName MethodInvocation StringLiteral no encryption init vector
+enc context SimpleName MethodInvocation MethodInvocation StringLiteral no encryption init vector
+get init vector SimpleName MethodInvocation MethodInvocation StringLiteral no encryption init vector
+init vector SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+init vector SimpleName VariableDeclarationFragment MethodInvocation SimpleName require non null
+init vector SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enc context
+init vector SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get init vector
+init vector SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no encryption init vector
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName init vector
+init vectorlength QualifiedName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression QualifiedName init vectorlength
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral empty encryption init vector
+check true SimpleName MethodInvocation InfixExpression QualifiedName init vectorlength
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral empty encryption init vector
+init vectorlength QualifiedName InfixExpression MethodInvocation StringLiteral empty encryption init vector
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral empty encryption init vector
+enc context SimpleName MethodInvocation SimpleName get password
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName enc context
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get password
+validate utils SimpleName MethodInvocation StringLiteral no encryption password
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName enc context
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get password
+check not null and not empty SimpleName MethodInvocation StringLiteral no encryption password
+enc context SimpleName MethodInvocation MethodInvocation StringLiteral no encryption password
+get password SimpleName MethodInvocation MethodInvocation StringLiteral no encryption password
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enc context
+password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get password
+password SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no encryption password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+password SimpleName MethodInvocation SimpleName get bytes
+password SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+pass bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName password
+pass bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+pass bytes SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass bytes
+byte PrimitiveType ArrayType ArrayCreation SimpleName output key length
+key value SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+key value SimpleName VariableDeclarationFragment ArrayCreation SimpleName output key length
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName key value
+security utils SimpleName MethodInvocation SimpleName get message digest
+security utils SimpleName MethodInvocation QualifiedName builtin digestsconstantsmd
+get message digest SimpleName MethodInvocation QualifiedName builtin digestsconstantsmd
+hash SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+hash SimpleName VariableDeclarationFragment MethodInvocation SimpleName get message digest
+hash SimpleName VariableDeclarationFragment MethodInvocation QualifiedName builtin digestsconstantsmd
+message digest SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hash
+prev hash SimpleName VariableDeclarationFragment QualifiedName generic utilsempty byte array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev hash
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment QualifiedName generic utilsempty byte array
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+rem len SimpleName VariableDeclarationFragment QualifiedName key valuelength
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName rem len
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName key valuelength
+index SimpleName VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment SimpleName rem len
+index SimpleName VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment QualifiedName key valuelength
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment SimpleName rem len
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment QualifiedName key valuelength
+index SimpleName InfixExpression QualifiedName key valuelength
+hash SimpleName MethodInvocation SimpleName reset
+hash SimpleName MethodInvocation SimpleName update
+hash SimpleName MethodInvocation SimpleName prev hash
+hash SimpleName MethodInvocation NumberLiteral empty
+hash SimpleName MethodInvocation QualifiedName prev hashlength
+update SimpleName MethodInvocation SimpleName prev hash
+update SimpleName MethodInvocation NumberLiteral empty
+update SimpleName MethodInvocation QualifiedName prev hashlength
+prev hash SimpleName MethodInvocation NumberLiteral empty
+prev hash SimpleName MethodInvocation QualifiedName prev hashlength
+empty NumberLiteral MethodInvocation QualifiedName prev hashlength
+hash SimpleName MethodInvocation SimpleName update
+hash SimpleName MethodInvocation SimpleName pass bytes
+hash SimpleName MethodInvocation NumberLiteral empty
+hash SimpleName MethodInvocation QualifiedName pass byteslength
+update SimpleName MethodInvocation SimpleName pass bytes
+update SimpleName MethodInvocation NumberLiteral empty
+update SimpleName MethodInvocation QualifiedName pass byteslength
+pass bytes SimpleName MethodInvocation NumberLiteral empty
+pass bytes SimpleName MethodInvocation QualifiedName pass byteslength
+empty NumberLiteral MethodInvocation QualifiedName pass byteslength
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation QualifiedName init vectorlength
+math SimpleName MethodInvocation NumberLiteral empty
+min SimpleName MethodInvocation QualifiedName init vectorlength
+min SimpleName MethodInvocation NumberLiteral empty
+init vectorlength QualifiedName MethodInvocation NumberLiteral empty
+hash SimpleName MethodInvocation SimpleName update
+hash SimpleName MethodInvocation SimpleName init vector
+hash SimpleName MethodInvocation NumberLiteral empty
+hash SimpleName MethodInvocation MethodInvocation SimpleName math
+hash SimpleName MethodInvocation MethodInvocation SimpleName min
+hash SimpleName MethodInvocation MethodInvocation QualifiedName init vectorlength
+hash SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+update SimpleName MethodInvocation SimpleName init vector
+update SimpleName MethodInvocation NumberLiteral empty
+update SimpleName MethodInvocation MethodInvocation SimpleName math
+update SimpleName MethodInvocation MethodInvocation SimpleName min
+update SimpleName MethodInvocation MethodInvocation QualifiedName init vectorlength
+update SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+init vector SimpleName MethodInvocation NumberLiteral empty
+init vector SimpleName MethodInvocation MethodInvocation SimpleName math
+init vector SimpleName MethodInvocation MethodInvocation SimpleName min
+init vector SimpleName MethodInvocation MethodInvocation QualifiedName init vectorlength
+init vector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName math
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName min
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName init vectorlength
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+hash SimpleName MethodInvocation SimpleName digest
+prev hash SimpleName Assignment MethodInvocation SimpleName hash
+prev hash SimpleName Assignment MethodInvocation SimpleName digest
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName rem len
+math SimpleName MethodInvocation QualifiedName prev hashlength
+min SimpleName MethodInvocation SimpleName rem len
+min SimpleName MethodInvocation QualifiedName prev hashlength
+rem len SimpleName MethodInvocation QualifiedName prev hashlength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName prev hash
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName key value
+system SimpleName MethodInvocation SimpleName index
+arraycopy SimpleName MethodInvocation SimpleName prev hash
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName key value
+arraycopy SimpleName MethodInvocation SimpleName index
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName math
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName min
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName rem len
+arraycopy SimpleName MethodInvocation MethodInvocation QualifiedName prev hashlength
+prev hash SimpleName MethodInvocation NumberLiteral empty
+prev hash SimpleName MethodInvocation SimpleName key value
+prev hash SimpleName MethodInvocation SimpleName index
+prev hash SimpleName MethodInvocation MethodInvocation SimpleName math
+prev hash SimpleName MethodInvocation MethodInvocation SimpleName min
+prev hash SimpleName MethodInvocation MethodInvocation SimpleName rem len
+prev hash SimpleName MethodInvocation MethodInvocation QualifiedName prev hashlength
+empty NumberLiteral MethodInvocation SimpleName key value
+empty NumberLiteral MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName math
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName min
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName rem len
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName prev hashlength
+key value SimpleName MethodInvocation SimpleName index
+key value SimpleName MethodInvocation MethodInvocation SimpleName math
+key value SimpleName MethodInvocation MethodInvocation SimpleName min
+key value SimpleName MethodInvocation MethodInvocation SimpleName rem len
+key value SimpleName MethodInvocation MethodInvocation QualifiedName prev hashlength
+index SimpleName MethodInvocation MethodInvocation SimpleName math
+index SimpleName MethodInvocation MethodInvocation SimpleName min
+index SimpleName MethodInvocation MethodInvocation SimpleName rem len
+index SimpleName MethodInvocation MethodInvocation QualifiedName prev hashlength
+index SimpleName Assignment QualifiedName prev hashlength
+rem len SimpleName Assignment QualifiedName prev hashlength
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName key valuelength
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName derive encryption key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key encryption context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc context
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName output key length
+protected Modifier MethodDeclaration SimpleType SimpleName general security exception
+byte PrimitiveType ArrayType MethodDeclaration SimpleName derive encryption key
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName enc context
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName output key length
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName general security exception
+derive encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key encryption context
+derive encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enc context
+derive encryption key SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+derive encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName output key length
+derive encryption key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+derive encryption key SimpleName MethodDeclaration Block ReturnStatement SimpleName key value
+enc context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+enc context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output key length
+enc context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+output key length SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName derive encryption key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output key length
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName derive encryption key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output key length
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

@@ -1,0 +1,21 @@
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName abstract dh
+protected Modifier MethodDeclaration SimpleName get dh
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+abstract Modifier MethodDeclaration SimpleType SimpleName abstract dh
+abstract Modifier MethodDeclaration SimpleName get dh
+abstract Modifier MethodDeclaration SimpleType SimpleName exception
+abstract dh SimpleName SimpleType MethodDeclaration SimpleName get dh
+abstract dh SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get dh SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract dh
+public Modifier TypeDeclaration MethodDeclaration SimpleName get dh
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract dh
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get dh
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

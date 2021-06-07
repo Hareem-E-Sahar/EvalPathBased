@@ -1,0 +1,42 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+request result SimpleName MethodInvocation SimpleName wait
+request result SimpleName MethodInvocation SimpleName get
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+init cause SimpleName MethodInvocation SimpleName e
+interrupted io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+interrupted io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName request lock
+buffer SimpleName SimpleType MethodDeclaration SimpleName request
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+buffer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+request SimpleName MethodDeclaration SimpleType SimpleName io exception
+request SimpleName MethodDeclaration Block SynchronizedStatement SimpleName request lock
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

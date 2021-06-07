@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+get base property name SimpleName MethodInvocation InfixExpression StringLiteral .
+get base property name SimpleName MethodInvocation InfixExpression SimpleName name
+. StringLiteral InfixExpression SimpleName name
+default Modifier MethodDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SimpleName get configuration property name
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType MethodDeclaration SimpleName get configuration property name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get configuration property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get configuration property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configuration property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configuration property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

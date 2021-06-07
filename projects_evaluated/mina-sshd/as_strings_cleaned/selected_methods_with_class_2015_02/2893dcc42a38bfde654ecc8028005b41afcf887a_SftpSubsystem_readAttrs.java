@@ -1,0 +1,116 @@
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName ssh fileattribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+ssh fileattribute QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName ssh fileattribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+ssh fileattribute QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+hash map SimpleName SimpleType ParameterizedType SimpleType QualifiedName ssh fileattribute
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+ssh fileattribute QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+buffer SimpleName MethodInvocation SimpleName get int
+flags SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+flags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flags
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+flags SimpleName InfixExpression SimpleName ssh filexfer attr size
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh filexfer attr size SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get long
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributesize
+attrs SimpleName MethodInvocation MethodInvocation SimpleName buffer
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get long
+put SimpleName MethodInvocation QualifiedName ssh fileattributesize
+put SimpleName MethodInvocation MethodInvocation SimpleName buffer
+put SimpleName MethodInvocation MethodInvocation SimpleName get long
+ssh fileattributesize QualifiedName MethodInvocation MethodInvocation SimpleName buffer
+ssh fileattributesize QualifiedName MethodInvocation MethodInvocation SimpleName get long
+flags SimpleName InfixExpression SimpleName ssh filexfer attr uidgid
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh filexfer attr uidgid SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get int
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributeuid
+attrs SimpleName MethodInvocation MethodInvocation SimpleName buffer
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get int
+put SimpleName MethodInvocation QualifiedName ssh fileattributeuid
+put SimpleName MethodInvocation MethodInvocation SimpleName buffer
+put SimpleName MethodInvocation MethodInvocation SimpleName get int
+ssh fileattributeuid QualifiedName MethodInvocation MethodInvocation SimpleName buffer
+ssh fileattributeuid QualifiedName MethodInvocation MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributegid
+attrs SimpleName MethodInvocation MethodInvocation SimpleName buffer
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get int
+put SimpleName MethodInvocation QualifiedName ssh fileattributegid
+put SimpleName MethodInvocation MethodInvocation SimpleName buffer
+put SimpleName MethodInvocation MethodInvocation SimpleName get int
+ssh fileattributegid QualifiedName MethodInvocation MethodInvocation SimpleName buffer
+ssh fileattributegid QualifiedName MethodInvocation MethodInvocation SimpleName get int
+flags SimpleName InfixExpression SimpleName ssh filexfer attr permissions
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh filexfer attr permissions SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get int
+get permissions SimpleName MethodInvocation MethodInvocation SimpleName buffer
+get permissions SimpleName MethodInvocation MethodInvocation SimpleName get int
+attrs SimpleName MethodInvocation SimpleName put all
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get permissions
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get int
+put all SimpleName MethodInvocation MethodInvocation SimpleName get permissions
+put all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+put all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get int
+flags SimpleName InfixExpression SimpleName ssh filexfer attr acmodtime
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh filexfer attr acmodtime SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get int
+long PrimitiveType CastExpression MethodInvocation SimpleName buffer
+long PrimitiveType CastExpression MethodInvocation SimpleName get int
+long PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributelast access time
+attrs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+put SimpleName MethodInvocation QualifiedName ssh fileattributelast access time
+put SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ssh fileattributelast access time QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get int
+long PrimitiveType CastExpression MethodInvocation SimpleName buffer
+long PrimitiveType CastExpression MethodInvocation SimpleName get int
+long PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributelast modified time
+attrs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+put SimpleName MethodInvocation QualifiedName ssh fileattributelast modified time
+put SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ssh fileattributelast modified time QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName attrs
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName ssh fileattribute
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName read attrs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName attrs
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read attrs
+ssh fileattribute QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName read attrs
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read attrs
+read attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+read attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+read attrs SimpleName MethodDeclaration SimpleType SimpleName io exception
+read attrs SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read attrs SimpleName MethodDeclaration Block ReturnStatement SimpleName attrs
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName read attrs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read attrs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,118 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName keys
+is empty SimpleName MethodInvocation SimpleName keys
+log SimpleName MethodInvocation SimpleName is debug enabled
+authenticate StringLiteral InfixExpression SimpleName username
+authenticate StringLiteral InfixExpression StringLiteral )[
+authenticate StringLiteral InfixExpression SimpleName session
+authenticate StringLiteral InfixExpression StringLiteral ] no keys
+username SimpleName InfixExpression StringLiteral )[
+username SimpleName InfixExpression SimpleName session
+username SimpleName InfixExpression StringLiteral ] no keys
+)[ StringLiteral InfixExpression SimpleName session
+)[ StringLiteral InfixExpression StringLiteral ] no keys
+session SimpleName InfixExpression StringLiteral ] no keys
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral authenticate
+log SimpleName MethodInvocation InfixExpression SimpleName username
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral ] no keys
+debug SimpleName MethodInvocation InfixExpression StringLiteral authenticate
+debug SimpleName MethodInvocation InfixExpression SimpleName username
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName session
+debug SimpleName MethodInvocation InfixExpression StringLiteral ] no keys
+key utils SimpleName MethodInvocation SimpleName find matching key
+key utils SimpleName MethodInvocation SimpleName key
+key utils SimpleName MethodInvocation SimpleName keys
+find matching key SimpleName MethodInvocation SimpleName key
+find matching key SimpleName MethodInvocation SimpleName keys
+key SimpleName MethodInvocation SimpleName keys
+match key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+match key SimpleName VariableDeclarationFragment MethodInvocation SimpleName find matching key
+match key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+match key SimpleName VariableDeclarationFragment MethodInvocation SimpleName keys
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName match key
+match found SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName match key
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName match found
+log SimpleName MethodInvocation SimpleName is debug enabled
+authenticate StringLiteral InfixExpression SimpleName username
+authenticate StringLiteral InfixExpression StringLiteral )[
+authenticate StringLiteral InfixExpression SimpleName session
+authenticate StringLiteral InfixExpression StringLiteral ] match found
+authenticate StringLiteral InfixExpression SimpleName match found
+username SimpleName InfixExpression StringLiteral )[
+username SimpleName InfixExpression SimpleName session
+username SimpleName InfixExpression StringLiteral ] match found
+username SimpleName InfixExpression SimpleName match found
+)[ StringLiteral InfixExpression SimpleName session
+)[ StringLiteral InfixExpression StringLiteral ] match found
+)[ StringLiteral InfixExpression SimpleName match found
+session SimpleName InfixExpression StringLiteral ] match found
+session SimpleName InfixExpression SimpleName match found
+] match found StringLiteral InfixExpression SimpleName match found
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral authenticate
+log SimpleName MethodInvocation InfixExpression SimpleName username
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral ] match found
+log SimpleName MethodInvocation InfixExpression SimpleName match found
+debug SimpleName MethodInvocation InfixExpression StringLiteral authenticate
+debug SimpleName MethodInvocation InfixExpression SimpleName username
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName session
+debug SimpleName MethodInvocation InfixExpression StringLiteral ] match found
+debug SimpleName MethodInvocation InfixExpression SimpleName match found
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName match found
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName authenticate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SimpleName authenticate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName keys
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName keys
+authenticate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+authenticate SimpleName MethodDeclaration Block ReturnStatement SimpleName match found
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName authenticate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName authenticate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys

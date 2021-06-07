@@ -1,0 +1,57 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName excluded
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName excluded
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName perms
+is empty SimpleName MethodInvocation SimpleName perms
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName excluded
+is empty SimpleName MethodInvocation SimpleName excluded
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName excluded
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName excluded
+perms SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+perms SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+perms SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName excluded
+posix file permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+perms SimpleName MethodInvocation SimpleName contains
+perms SimpleName MethodInvocation SimpleName p
+contains SimpleName MethodInvocation SimpleName p
+posix file permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName excluded
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName excluded
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName posix file permission
+public Modifier MethodDeclaration SimpleName validate excluded permissions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName excluded
+static Modifier MethodDeclaration SimpleType SimpleName posix file permission
+static Modifier MethodDeclaration SimpleName validate excluded permissions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName excluded
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName excluded
+posix file permission SimpleName SimpleType MethodDeclaration SimpleName validate excluded permissions
+posix file permission SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName excluded
+validate excluded permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+validate excluded permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName excluded
+validate excluded permissions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName excluded
+perms SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName excluded
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName posix file permission
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate excluded permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName excluded
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName posix file permission
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate excluded permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName excluded

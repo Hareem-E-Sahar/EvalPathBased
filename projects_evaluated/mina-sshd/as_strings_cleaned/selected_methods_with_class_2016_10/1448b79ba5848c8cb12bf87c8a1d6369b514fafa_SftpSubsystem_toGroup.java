@@ -1,0 +1,57 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+group principal SimpleName SimpleType SingleVariableDeclaration SimpleName name
+name SimpleName MethodInvocation SimpleName to string
+group name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+group name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group name
+file SimpleName MethodInvocation SimpleName get file system
+file system SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+file system SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file system
+file system SimpleName MethodInvocation SimpleName get user principal lookup service
+lookup service SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+lookup service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user principal lookup service
+user principal lookup service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup service
+user principal not found exception SimpleName SimpleType ClassInstanceCreation SimpleName group name
+lookup service SimpleName MethodInvocation SimpleName lookup principal by group name
+lookup service SimpleName MethodInvocation SimpleName group name
+lookup principal by group name SimpleName MethodInvocation SimpleName group name
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle user principal lookup service exception SimpleName MethodInvocation TypeLiteral SimpleType SimpleName group principal
+handle user principal lookup service exception SimpleName MethodInvocation SimpleName group name
+handle user principal lookup service exception SimpleName MethodInvocation SimpleName e
+group principal SimpleName SimpleType TypeLiteral MethodInvocation SimpleName group name
+group principal SimpleName SimpleType TypeLiteral MethodInvocation SimpleName e
+group name SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName group principal
+protected Modifier MethodDeclaration SimpleName to group
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName group principal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+group principal SimpleName SimpleType MethodDeclaration SimpleName to group
+group principal SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+group principal SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+group principal SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+to group SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+to group SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+to group SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName group principal
+to group SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+to group SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName group principal
+public Modifier TypeDeclaration MethodDeclaration SimpleName to group
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName group principal
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to group
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

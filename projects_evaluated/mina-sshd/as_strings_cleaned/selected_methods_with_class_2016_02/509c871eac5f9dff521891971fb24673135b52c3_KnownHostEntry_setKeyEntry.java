@@ -1,0 +1,20 @@
+authorized key entry SimpleName SimpleType SingleVariableDeclaration SimpleName key entry
+key entry SimpleName FieldAccess Assignment SimpleName key entry
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set key entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorized key entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key entry
+void PrimitiveType MethodDeclaration SimpleName set key entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorized key entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key entry
+set key entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorized key entry
+set key entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key entry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set key entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key entry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set key entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key entry

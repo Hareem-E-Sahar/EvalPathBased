@@ -1,0 +1,27 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName x certificate
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+iter SimpleName MethodInvocation SimpleName next
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName x certificate
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+collections SimpleName MethodInvocation SimpleName empty list
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName kp
+key pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName kp
+kp SimpleName ClassInstanceCreation MethodInvocation SimpleName collections
+kp SimpleName ClassInstanceCreation MethodInvocation SimpleName empty list
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName next
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName next
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

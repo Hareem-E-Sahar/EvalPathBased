@@ -1,0 +1,97 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral rawtypes
+current service SimpleName InstanceofExpression SimpleType SimpleName abstract connection service
+abstract connection service SimpleName SimpleType CastExpression SimpleName current service
+current service SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get channels
+get channels SimpleName MethodInvocation MethodInvocation SimpleName is empty
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral the switch to the none cipher must be done immediately after authentication
+kex state SimpleName MethodInvocation SimpleName compare and set
+kex state SimpleName MethodInvocation SimpleName kex state done
+kex state SimpleName MethodInvocation SimpleName kex state init
+compare and set SimpleName MethodInvocation SimpleName kex state done
+compare and set SimpleName MethodInvocation SimpleName kex state init
+kex state done SimpleName MethodInvocation SimpleName kex state init
+reexchange future SimpleName Assignment ClassInstanceCreation SimpleType SimpleName default ssh future
+server proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal enc algs ctos
+server proposal SimpleName ArrayAccess MethodInvocation SimpleName matches
+ssh constantsproposal enc algs ctos QualifiedName ArrayAccess MethodInvocation SimpleName matches
+server proposal SimpleName ArrayAccess MethodInvocation StringLiteral none
+ssh constantsproposal enc algs ctos QualifiedName ArrayAccess MethodInvocation StringLiteral none
+matches SimpleName MethodInvocation StringLiteral none
+server proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal enc algs stoc
+server proposal SimpleName ArrayAccess MethodInvocation SimpleName matches
+ssh constantsproposal enc algs stoc QualifiedName ArrayAccess MethodInvocation SimpleName matches
+server proposal SimpleName ArrayAccess MethodInvocation StringLiteral none
+ssh constantsproposal enc algs stoc QualifiedName ArrayAccess MethodInvocation StringLiteral none
+matches SimpleName MethodInvocation StringLiteral none
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral server does not support none cipher
+reexchange future SimpleName MethodInvocation SimpleName set value
+reexchange future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+reexchange future SimpleName MethodInvocation ClassInstanceCreation StringLiteral server does not support none cipher
+set value SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+set value SimpleName MethodInvocation ClassInstanceCreation StringLiteral server does not support none cipher
+client proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal enc algs ctos
+client proposal SimpleName ArrayAccess MethodInvocation SimpleName matches
+ssh constantsproposal enc algs ctos QualifiedName ArrayAccess MethodInvocation SimpleName matches
+client proposal SimpleName ArrayAccess MethodInvocation StringLiteral none
+ssh constantsproposal enc algs ctos QualifiedName ArrayAccess MethodInvocation StringLiteral none
+matches SimpleName MethodInvocation StringLiteral none
+client proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal enc algs stoc
+client proposal SimpleName ArrayAccess MethodInvocation SimpleName matches
+ssh constantsproposal enc algs stoc QualifiedName ArrayAccess MethodInvocation SimpleName matches
+client proposal SimpleName ArrayAccess MethodInvocation StringLiteral none
+ssh constantsproposal enc algs stoc QualifiedName ArrayAccess MethodInvocation StringLiteral none
+matches SimpleName MethodInvocation StringLiteral none
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral client does not support none cipher
+reexchange future SimpleName MethodInvocation SimpleName set value
+reexchange future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+reexchange future SimpleName MethodInvocation ClassInstanceCreation StringLiteral client does not support none cipher
+set value SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+set value SimpleName MethodInvocation ClassInstanceCreation StringLiteral client does not support none cipher
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral switching to none cipher
+info SimpleName MethodInvocation StringLiteral switching to none cipher
+client proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal enc algs ctos
+client proposal SimpleName ArrayAccess Assignment StringLiteral none
+ssh constantsproposal enc algs ctos QualifiedName ArrayAccess Assignment StringLiteral none
+client proposal SimpleName ArrayAccess QualifiedName ssh constantsproposal enc algs stoc
+client proposal SimpleName ArrayAccess Assignment StringLiteral none
+ssh constantsproposal enc algs stoc QualifiedName ArrayAccess Assignment StringLiteral none
+send kex init SimpleName MethodInvocation SimpleName client proposal
+i c SimpleName Assignment MethodInvocation SimpleName send kex init
+i c SimpleName Assignment MethodInvocation SimpleName client proposal
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral in flight key exchange
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral rawtypes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ssh future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName switch to none cipher
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+rawtypes StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName ssh future
+rawtypes StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName ssh future
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName switch to none cipher
+rawtypes StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName switch to none cipher
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+rawtypes StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName ssh future
+public Modifier MethodDeclaration SimpleName switch to none cipher
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+ssh future SimpleName SimpleType MethodDeclaration SimpleName switch to none cipher
+ssh future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+switch to none cipher SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral rawtypes
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh future
+public Modifier TypeDeclaration MethodDeclaration SimpleName switch to none cipher
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral rawtypes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName switch to none cipher
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

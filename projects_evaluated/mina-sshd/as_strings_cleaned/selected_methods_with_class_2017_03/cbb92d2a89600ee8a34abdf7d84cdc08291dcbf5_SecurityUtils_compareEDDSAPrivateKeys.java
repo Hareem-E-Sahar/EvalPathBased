@@ -1,0 +1,53 @@
+private key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+private key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+ed dsa security provider utils SimpleName MethodInvocation SimpleName compare eddsa private keys
+ed dsa security provider utils SimpleName MethodInvocation SimpleName k
+ed dsa security provider utils SimpleName MethodInvocation SimpleName k
+compare eddsa private keys SimpleName MethodInvocation SimpleName k
+compare eddsa private keys SimpleName MethodInvocation SimpleName k
+k SimpleName MethodInvocation SimpleName k
+is eddsa curve supported SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName ed dsa security provider utils
+is eddsa curve supported SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName compare eddsa private keys
+is eddsa curve supported SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName k
+is eddsa curve supported SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName k
+is eddsa curve supported SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+ed dsa security provider utils SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+compare eddsa private keys SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+k SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+k SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName compare eddsa private keys
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName compare eddsa private keys
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+boolean PrimitiveType MethodDeclaration SimpleName compare eddsa private keys
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+compare eddsa private keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+compare eddsa private keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+compare eddsa private keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+compare eddsa private keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare eddsa private keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare eddsa private keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k

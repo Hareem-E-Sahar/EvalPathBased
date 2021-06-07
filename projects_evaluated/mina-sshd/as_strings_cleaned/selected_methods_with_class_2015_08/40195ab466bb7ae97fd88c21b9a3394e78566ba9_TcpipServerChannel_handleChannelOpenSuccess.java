@@ -1,0 +1,34 @@
+open future SimpleName SimpleType SingleVariableDeclaration SimpleName f
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+io session SimpleName Assignment SimpleName session
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel listener proxy
+channel listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+listener SimpleName MethodInvocation SimpleName channel open success
+f SimpleName MethodInvocation SimpleName set opened
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle channel open success
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName handle channel open success
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+f SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle channel open success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle channel open success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

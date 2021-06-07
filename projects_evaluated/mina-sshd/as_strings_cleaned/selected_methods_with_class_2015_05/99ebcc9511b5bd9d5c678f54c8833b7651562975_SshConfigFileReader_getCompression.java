@@ -1,0 +1,45 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName compression
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation SimpleName compression prop
+get property SimpleName MethodInvocation SimpleName compression prop
+compression config value SimpleName MethodInvocation SimpleName from name
+compression config value SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+compression config value SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get property
+compression config value SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName compression prop
+from name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+from name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get property
+from name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName compression prop
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName compression
+public Modifier MethodDeclaration SimpleName get compression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName compression
+static Modifier MethodDeclaration SimpleName get compression
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName compression
+final Modifier MethodDeclaration SimpleName get compression
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+named factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get compression
+compression SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get compression
+get compression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+get compression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get compression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get compression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

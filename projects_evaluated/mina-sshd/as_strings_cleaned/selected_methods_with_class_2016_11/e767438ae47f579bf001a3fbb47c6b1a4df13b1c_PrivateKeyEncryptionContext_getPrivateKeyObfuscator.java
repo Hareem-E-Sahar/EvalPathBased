@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier MethodDeclaration SimpleName get private key obfuscator
+public Modifier MethodDeclaration Block ReturnStatement SimpleName obfuscator
+private key obfuscator SimpleName SimpleType MethodDeclaration SimpleName get private key obfuscator
+get private key obfuscator SimpleName MethodDeclaration Block ReturnStatement SimpleName obfuscator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get private key obfuscator

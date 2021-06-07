@@ -1,0 +1,85 @@
+check initialized SimpleName MethodInvocation StringLiteral wait for space
+size holder SimpleName MethodInvocation SimpleName get
+size holder SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+waiting count SimpleName MethodInvocation SimpleName increment and get
+waiters SimpleName VariableDeclarationFragment MethodInvocation SimpleName waiting count
+waiters SimpleName VariableDeclarationFragment MethodInvocation SimpleName increment and get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName waiters
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName waiting count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName increment and get
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait for space - waiters
+log SimpleName MethodInvocation SimpleName waiters
+debug SimpleName MethodInvocation StringLiteral wait for space - waiters
+debug SimpleName MethodInvocation SimpleName waiters
+wait for space - waiters StringLiteral MethodInvocation SimpleName waiters
+system SimpleName MethodInvocation SimpleName nano time
+nano start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+nano start SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+lock SimpleName MethodInvocation SimpleName wait
+system SimpleName MethodInvocation SimpleName nano time
+nano end SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+nano end SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano end
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+nano end SimpleName InfixExpression SimpleName nano start
+nano duration SimpleName VariableDeclarationFragment InfixExpression SimpleName nano end
+nano duration SimpleName VariableDeclarationFragment InfixExpression SimpleName nano start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano duration
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName nano end
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName nano start
+waiting count SimpleName MethodInvocation SimpleName decrement and get
+waiters SimpleName Assignment MethodInvocation SimpleName waiting count
+waiters SimpleName Assignment MethodInvocation SimpleName decrement and get
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait for space - waiters - ended after {} nanos
+log SimpleName MethodInvocation SimpleName waiters
+log SimpleName MethodInvocation SimpleName nano duration
+debug SimpleName MethodInvocation StringLiteral wait for space - waiters - ended after {} nanos
+debug SimpleName MethodInvocation SimpleName waiters
+debug SimpleName MethodInvocation SimpleName nano duration
+wait for space - waiters - ended after {} nanos StringLiteral MethodInvocation SimpleName waiters
+wait for space - waiters - ended after {} nanos StringLiteral MethodInvocation SimpleName nano duration
+waiters SimpleName MethodInvocation SimpleName nano duration
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+window closed exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait for space available {}
+log SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation StringLiteral wait for space available {}
+debug SimpleName MethodInvocation SimpleName size holder
+wait for space available {} StringLiteral MethodInvocation SimpleName size holder
+size holder SimpleName MethodInvocation SimpleName get
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName wait for space
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration SimpleType SimpleName window closed exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType MethodDeclaration SimpleName wait for space
+int PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName window closed exception
+int PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+wait for space SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+wait for space SimpleName MethodDeclaration SimpleType SimpleName window closed exception
+wait for space SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName window closed exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for space
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for space
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception

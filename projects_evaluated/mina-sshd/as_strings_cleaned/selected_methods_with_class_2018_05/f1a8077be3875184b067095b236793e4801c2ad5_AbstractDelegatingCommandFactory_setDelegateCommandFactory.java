@@ -1,0 +1,26 @@
+command factory SimpleName SimpleType SingleVariableDeclaration SimpleName factory
+delegate SimpleName Assignment SimpleName factory
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set delegate command factory
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set delegate command factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+void PrimitiveType MethodDeclaration SimpleName set delegate command factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factory
+set delegate command factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command factory
+set delegate command factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set delegate command factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set delegate command factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory

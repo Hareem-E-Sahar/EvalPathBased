@@ -1,0 +1,82 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+path SimpleName SimpleType SingleVariableDeclaration SimpleName param path
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName param path
+validate utils SimpleName MethodInvocation StringLiteral missing path argument
+check not null SimpleName MethodInvocation SimpleName param path
+check not null SimpleName MethodInvocation StringLiteral missing path argument
+param path SimpleName MethodInvocation StringLiteral missing path argument
+param path SimpleName MethodInvocation SimpleName get class
+param path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+param path SimpleName MethodInvocation SimpleName get class
+param path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+path is not of this class StringLiteral InfixExpression SimpleName param path
+path is not of this class StringLiteral InfixExpression StringLiteral [
+path is not of this class StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName param path
+path is not of this class StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+path is not of this class StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+path is not of this class StringLiteral InfixExpression StringLiteral ]
+param path SimpleName InfixExpression StringLiteral [
+param path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName param path
+param path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get class
+param path SimpleName InfixExpression MethodInvocation SimpleName get simple name
+param path SimpleName InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName param path
+[ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+[ StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+[ StringLiteral InfixExpression StringLiteral ]
+param path SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral path is not of this class
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName param path
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral [
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+t SimpleName SimpleType CastExpression SimpleName param path
+t SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName t
+t SimpleName VariableDeclarationFragment CastExpression SimpleName param path
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName provider
+file system SimpleName FieldAccess MethodInvocation SimpleName provider
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName provider
+provider SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName provider
+mismatched providers for StringLiteral InfixExpression SimpleName t
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mismatched providers for
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName t
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName t
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName t
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName check path
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName check path
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName param path
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName param path
+protected Modifier MethodDeclaration SimpleType SimpleName t
+protected Modifier MethodDeclaration SimpleName check path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName param path
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName t
+t SimpleName SimpleType MethodDeclaration SimpleName check path
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName param path
+check path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+check path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param path
+check path SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName check path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param path

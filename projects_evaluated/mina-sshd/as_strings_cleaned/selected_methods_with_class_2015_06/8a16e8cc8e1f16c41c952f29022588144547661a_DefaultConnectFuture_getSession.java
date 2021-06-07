@@ -1,0 +1,32 @@
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName runtime exception
+runtime exception SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName error
+error SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName throwable
+runtime ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to get the session
+throwable SimpleName SimpleType CastExpression SimpleName v
+runtime ssh exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+failed to get the session StringLiteral ClassInstanceCreation MethodInvocation SimpleName init cause
+failed to get the session StringLiteral ClassInstanceCreation MethodInvocation CastExpression SimpleName v
+init cause SimpleName MethodInvocation CastExpression SimpleType SimpleName throwable
+init cause SimpleName MethodInvocation CastExpression SimpleName v
+runtime ssh exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+v SimpleName InstanceofExpression SimpleType SimpleName client session
+client session SimpleName SimpleType CastExpression SimpleName v
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName client session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get session
+public Modifier MethodDeclaration SimpleType SimpleName client session
+public Modifier MethodDeclaration SimpleName get session
+client session SimpleName SimpleType MethodDeclaration SimpleName get session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client session
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session

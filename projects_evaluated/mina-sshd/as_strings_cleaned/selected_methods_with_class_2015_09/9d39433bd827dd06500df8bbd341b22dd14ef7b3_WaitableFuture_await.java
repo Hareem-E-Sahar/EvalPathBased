@@ -1,0 +1,21 @@
+long PrimitiveType SingleVariableDeclaration SimpleName timeout millis
+boolean PrimitiveType MethodDeclaration SimpleName await
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName timeout millis
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+await SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+await SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timeout millis
+await SimpleName MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+timeout millis SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName await
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout millis
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName await
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout millis
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

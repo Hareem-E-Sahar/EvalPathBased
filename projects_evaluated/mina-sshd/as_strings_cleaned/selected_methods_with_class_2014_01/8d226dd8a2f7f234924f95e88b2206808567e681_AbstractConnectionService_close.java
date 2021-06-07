@@ -1,0 +1,89 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+tcpip forwarder SimpleName MethodInvocation SimpleName close
+agent forward SimpleName MethodInvocation SimpleName close
+x forward SimpleName MethodInvocation SimpleName close
+get session SimpleName MethodInvocation MethodInvocation SimpleName get lock
+closing SimpleName Assignment BooleanLiteral true
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing session
+debug SimpleName MethodInvocation StringLiteral closing session
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+channels SimpleName MethodInvocation SimpleName values
+channel to close SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName channels
+channel to close SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName values
+channel to close SimpleName MethodInvocation SimpleName size
+channel to close SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+channel to close SimpleName MethodInvocation SimpleName size
+atomic integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName channel to close
+atomic integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+latch SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+latch SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName channel to close
+latch SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName latch
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName latch
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+channel SimpleName MethodInvocation SimpleName get id
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing channel {}
+log SimpleName MethodInvocation MethodInvocation SimpleName channel
+log SimpleName MethodInvocation MethodInvocation SimpleName get id
+debug SimpleName MethodInvocation StringLiteral closing channel {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation MethodInvocation SimpleName get id
+closing channel {} StringLiteral MethodInvocation MethodInvocation SimpleName channel
+closing channel {} StringLiteral MethodInvocation MethodInvocation SimpleName get id
+channel SimpleName MethodInvocation SimpleName close
+channel SimpleName MethodInvocation SimpleName immediately
+close SimpleName MethodInvocation SimpleName immediately
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+latch SimpleName MethodInvocation SimpleName decrement and get
+latch SimpleName MethodInvocation InfixExpression NumberLiteral empty
+decrement and get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+close future SimpleName MethodInvocation SimpleName set closed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+channel SimpleName MethodInvocation MethodInvocation SimpleName add listener
+close SimpleName MethodInvocation MethodInvocation SimpleName add listener
+immediately SimpleName MethodInvocation MethodInvocation SimpleName add listener
+channel SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName channel to close
+channel SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName channel to close
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName channel to close
+close future SimpleName MethodInvocation SimpleName set closed
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error closing session
+log SimpleName MethodInvocation SimpleName t
+warn SimpleName MethodInvocation StringLiteral error closing session
+warn SimpleName MethodInvocation SimpleName t
+error closing session StringLiteral MethodInvocation SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close future SimpleName SimpleType MethodDeclaration SimpleName close
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

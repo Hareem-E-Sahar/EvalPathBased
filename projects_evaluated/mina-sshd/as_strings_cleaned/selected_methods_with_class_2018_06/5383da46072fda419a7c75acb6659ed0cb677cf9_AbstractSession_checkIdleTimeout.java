@@ -1,0 +1,54 @@
+simple immutable entry SimpleName SimpleType ParameterizedType SimpleType SimpleName timeout status
+simple immutable entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+timeout status SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+long PrimitiveType SingleVariableDeclaration SimpleName now
+long PrimitiveType SingleVariableDeclaration SimpleName idle timeout ms
+now SimpleName InfixExpression SimpleName idle timeout start
+idle diff SimpleName VariableDeclarationFragment InfixExpression SimpleName now
+idle diff SimpleName VariableDeclarationFragment InfixExpression SimpleName idle timeout start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idle diff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName idle timeout start
+idle timeout ms SimpleName InfixExpression NumberLiteral l
+idle diff SimpleName InfixExpression SimpleName idle timeout ms
+user session has timed out idling after StringLiteral InfixExpression SimpleName idle timeout ms
+user session has timed out idling after StringLiteral InfixExpression StringLiteral ms
+idle timeout ms SimpleName InfixExpression StringLiteral ms
+simple immutable entry SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName timeout statusidle timeout
+timeout statusidle timeout QualifiedName ClassInstanceCreation InfixExpression StringLiteral user session has timed out idling after
+timeout statusidle timeout QualifiedName ClassInstanceCreation InfixExpression SimpleName idle timeout ms
+timeout statusidle timeout QualifiedName ClassInstanceCreation InfixExpression StringLiteral ms
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName simple immutable entry
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName timeout status
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName check idle timeout
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName now
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName idle timeout ms
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+simple immutable entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check idle timeout
+timeout status SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check idle timeout
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check idle timeout
+check idle timeout SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+check idle timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName now
+check idle timeout SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+check idle timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName idle timeout ms
+check idle timeout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idle timeout ms
+now SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+now SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idle timeout ms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName check idle timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName now
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idle timeout ms
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check idle timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName now
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idle timeout ms

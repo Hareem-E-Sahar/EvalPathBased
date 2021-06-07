@@ -1,0 +1,18 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation SimpleName map
+unmodifiable map SimpleName MethodInvocation SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName immutable
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName immutable
+k SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName immutable
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName immutable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName immutable
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName immutable

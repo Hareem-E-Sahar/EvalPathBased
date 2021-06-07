@@ -1,0 +1,36 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+io session SimpleName MethodInvocation SimpleName get class
+io session SimpleName MethodInvocation MethodInvocation SimpleName get method
+get class SimpleName MethodInvocation MethodInvocation SimpleName get method
+io session SimpleName MethodInvocation MethodInvocation StringLiteral suspend
+get class SimpleName MethodInvocation MethodInvocation StringLiteral suspend
+get method SimpleName MethodInvocation StringLiteral suspend
+io session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName invoke
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName invoke
+get method SimpleName MethodInvocation MethodInvocation SimpleName invoke
+suspend StringLiteral MethodInvocation MethodInvocation SimpleName invoke
+io session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName io session
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName io session
+get method SimpleName MethodInvocation MethodInvocation SimpleName io session
+suspend StringLiteral MethodInvocation MethodInvocation SimpleName io session
+invoke SimpleName MethodInvocation SimpleName io session
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName suspend
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+void PrimitiveType MethodDeclaration SimpleName suspend
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName io session
+suspend SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+suspend SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName suspend
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName suspend
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session

@@ -1,0 +1,119 @@
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current test name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sftp client
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sftp client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+sftp client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+answer SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+invocation on mock SimpleName SimpleType SingleVariableDeclaration SimpleName invocation
+invocation SimpleName MethodInvocation SimpleName get arguments
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName invocation
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName get arguments
+args SimpleName ArrayAccess NumberLiteral empty
+handle SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+handle SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+handle SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName handle
+handle SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+handle SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+assert equals SimpleName MethodInvocation StringLiteral mismatched closing handle
+assert equals SimpleName MethodInvocation SimpleName id
+assert equals SimpleName MethodInvocation QualifiedName handleid
+mismatched closing handle StringLiteral MethodInvocation SimpleName id
+mismatched closing handle StringLiteral MethodInvocation QualifiedName handleid
+id SimpleName MethodInvocation QualifiedName handleid
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName invocation
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName invocation on mock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName invocation
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+void SimpleName SimpleType MethodDeclaration SimpleName answer
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName invocation
+void SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+answer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName invocation on mock
+answer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invocation
+answer SimpleName MethodDeclaration SimpleType SimpleName throwable
+invocation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+mockito SimpleName MethodInvocation SimpleName do answer
+mockito SimpleName MethodInvocation MethodInvocation SimpleName when
+do answer SimpleName MethodInvocation MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName client
+do answer SimpleName MethodInvocation MethodInvocation SimpleName client
+when SimpleName MethodInvocation SimpleName client
+matchers SimpleName MethodInvocation SimpleName any
+matchers SimpleName MethodInvocation TypeLiteral SimpleType SimpleName handle
+any SimpleName MethodInvocation TypeLiteral SimpleType SimpleName handle
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName close
+do answer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName close
+when SimpleName MethodInvocation MethodInvocation SimpleName close
+client SimpleName MethodInvocation MethodInvocation SimpleName close
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+close SimpleName MethodInvocation MethodInvocation SimpleName matchers
+close SimpleName MethodInvocation MethodInvocation SimpleName any
+default closeable handle SimpleName SimpleType ClassInstanceCreation SimpleName client
+default closeable handle SimpleName SimpleType ClassInstanceCreation SimpleName id
+client SimpleName ClassInstanceCreation SimpleName id
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default closeable handle
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName client
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName id
+closeable handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+handle SimpleName MethodInvocation SimpleName is open
+assert true SimpleName MethodInvocation StringLiteral handle not initially open
+assert true SimpleName MethodInvocation MethodInvocation SimpleName handle
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is open
+handle not initially open StringLiteral MethodInvocation MethodInvocation SimpleName handle
+handle not initially open StringLiteral MethodInvocation MethodInvocation SimpleName is open
+handle SimpleName MethodInvocation SimpleName close
+handle SimpleName MethodInvocation SimpleName is open
+assert false SimpleName MethodInvocation StringLiteral handle not marked as closed
+assert false SimpleName MethodInvocation MethodInvocation SimpleName handle
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is open
+handle not marked as closed StringLiteral MethodInvocation MethodInvocation SimpleName handle
+handle not marked as closed StringLiteral MethodInvocation MethodInvocation SimpleName is open
+mockito SimpleName MethodInvocation SimpleName verify
+mockito SimpleName MethodInvocation SimpleName client
+verify SimpleName MethodInvocation SimpleName client
+mockito SimpleName MethodInvocation MethodInvocation SimpleName close
+verify SimpleName MethodInvocation MethodInvocation SimpleName close
+client SimpleName MethodInvocation MethodInvocation SimpleName close
+mockito SimpleName MethodInvocation MethodInvocation SimpleName handle
+verify SimpleName MethodInvocation MethodInvocation SimpleName handle
+client SimpleName MethodInvocation MethodInvocation SimpleName handle
+close SimpleName MethodInvocation SimpleName handle
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test channel behavior
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test channel behavior
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test channel behavior
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test channel behavior SimpleName MethodDeclaration SimpleType SimpleName io exception
+test channel behavior SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test channel behavior
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test channel behavior
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

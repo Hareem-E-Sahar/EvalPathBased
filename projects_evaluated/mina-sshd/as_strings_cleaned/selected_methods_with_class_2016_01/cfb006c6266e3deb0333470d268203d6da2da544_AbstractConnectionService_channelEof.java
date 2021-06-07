@@ -1,0 +1,30 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+get channel SimpleName MethodInvocation SimpleName buffer
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName handle eof
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName channel eof
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName channel eof
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+channel eof SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+channel eof SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+channel eof SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName channel eof
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName channel eof
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

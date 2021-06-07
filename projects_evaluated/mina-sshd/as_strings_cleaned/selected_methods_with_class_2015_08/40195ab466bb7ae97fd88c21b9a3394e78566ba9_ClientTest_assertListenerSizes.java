@@ -1,0 +1,198 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName phase
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName listeners
+int PrimitiveType SingleVariableDeclaration SimpleName active size
+int PrimitiveType SingleVariableDeclaration SimpleName open size
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName listeners
+is empty SimpleName MethodInvocation SimpleName listeners
+test channel listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+active size SimpleName InfixExpression NumberLiteral empty
+l SimpleName MethodInvocation SimpleName get name
+phase SimpleName InfixExpression StringLiteral : mismatched active channels size for
+phase SimpleName InfixExpression MethodInvocation SimpleName l
+phase SimpleName InfixExpression MethodInvocation SimpleName get name
+phase SimpleName InfixExpression StringLiteral listener
+: mismatched active channels size for StringLiteral InfixExpression MethodInvocation SimpleName l
+: mismatched active channels size for StringLiteral InfixExpression MethodInvocation SimpleName get name
+: mismatched active channels size for StringLiteral InfixExpression StringLiteral listener
+l SimpleName MethodInvocation InfixExpression StringLiteral listener
+get name SimpleName MethodInvocation InfixExpression StringLiteral listener
+l SimpleName MethodInvocation SimpleName get active channels
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName l
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get active channels
+size SimpleName MethodInvocation MethodInvocation SimpleName l
+size SimpleName MethodInvocation MethodInvocation SimpleName get active channels
+assert equals SimpleName MethodInvocation InfixExpression SimpleName phase
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral : mismatched active channels size for
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName l
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral listener
+assert equals SimpleName MethodInvocation SimpleName active size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName l
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get active channels
+phase SimpleName InfixExpression MethodInvocation SimpleName active size
+: mismatched active channels size for StringLiteral InfixExpression MethodInvocation SimpleName active size
+l SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName active size
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName active size
+listener StringLiteral InfixExpression MethodInvocation SimpleName active size
+phase SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+phase SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+: mismatched active channels size for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+: mismatched active channels size for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+listener StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+listener StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+active size SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+active size SimpleName MethodInvocation MethodInvocation SimpleName size
+active size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName l
+active size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get active channels
+open size SimpleName InfixExpression NumberLiteral empty
+l SimpleName MethodInvocation SimpleName get name
+phase SimpleName InfixExpression StringLiteral : mismatched open channels size for
+phase SimpleName InfixExpression MethodInvocation SimpleName l
+phase SimpleName InfixExpression MethodInvocation SimpleName get name
+phase SimpleName InfixExpression StringLiteral listener
+: mismatched open channels size for StringLiteral InfixExpression MethodInvocation SimpleName l
+: mismatched open channels size for StringLiteral InfixExpression MethodInvocation SimpleName get name
+: mismatched open channels size for StringLiteral InfixExpression StringLiteral listener
+l SimpleName MethodInvocation InfixExpression StringLiteral listener
+get name SimpleName MethodInvocation InfixExpression StringLiteral listener
+l SimpleName MethodInvocation SimpleName get open channels
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName l
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get open channels
+size SimpleName MethodInvocation MethodInvocation SimpleName l
+size SimpleName MethodInvocation MethodInvocation SimpleName get open channels
+assert equals SimpleName MethodInvocation InfixExpression SimpleName phase
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral : mismatched open channels size for
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName l
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral listener
+assert equals SimpleName MethodInvocation SimpleName open size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName l
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get open channels
+phase SimpleName InfixExpression MethodInvocation SimpleName open size
+: mismatched open channels size for StringLiteral InfixExpression MethodInvocation SimpleName open size
+l SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName open size
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName open size
+listener StringLiteral InfixExpression MethodInvocation SimpleName open size
+phase SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+phase SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+: mismatched open channels size for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+: mismatched open channels size for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+listener StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+listener StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+open size SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+open size SimpleName MethodInvocation MethodInvocation SimpleName size
+open size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName l
+open size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get open channels
+l SimpleName MethodInvocation SimpleName get name
+phase SimpleName InfixExpression StringLiteral : unexpected failed channels size for
+phase SimpleName InfixExpression MethodInvocation SimpleName l
+phase SimpleName InfixExpression MethodInvocation SimpleName get name
+phase SimpleName InfixExpression StringLiteral listener
+: unexpected failed channels size for StringLiteral InfixExpression MethodInvocation SimpleName l
+: unexpected failed channels size for StringLiteral InfixExpression MethodInvocation SimpleName get name
+: unexpected failed channels size for StringLiteral InfixExpression StringLiteral listener
+l SimpleName MethodInvocation InfixExpression StringLiteral listener
+get name SimpleName MethodInvocation InfixExpression StringLiteral listener
+l SimpleName MethodInvocation SimpleName get failed channels
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName l
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get failed channels
+size SimpleName MethodInvocation MethodInvocation SimpleName l
+size SimpleName MethodInvocation MethodInvocation SimpleName get failed channels
+assert equals SimpleName MethodInvocation InfixExpression SimpleName phase
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral : unexpected failed channels size for
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName l
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral listener
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName l
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get failed channels
+phase SimpleName InfixExpression MethodInvocation NumberLiteral empty
+: unexpected failed channels size for StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+l SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+get name SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+listener StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+phase SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+phase SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+: unexpected failed channels size for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+: unexpected failed channels size for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+listener StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+listener StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName generic utils
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName l
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get failed channels
+test channel listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert listener sizes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName phase
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName listeners
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert listener sizes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName phase
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName listeners
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName active size
+void PrimitiveType MethodDeclaration SimpleName assert listener sizes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName phase
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listeners
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName active size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName open size
+assert listener sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert listener sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName phase
+assert listener sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listeners
+assert listener sizes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert listener sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName active size
+assert listener sizes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert listener sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName open size
+assert listener sizes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName listeners
+phase SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listeners
+phase SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+phase SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active size
+phase SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+phase SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open size
+listeners SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+listeners SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active size
+listeners SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+listeners SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open size
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open size
+active size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+active size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert listener sizes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName phase
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open size
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert listener sizes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName phase
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open size

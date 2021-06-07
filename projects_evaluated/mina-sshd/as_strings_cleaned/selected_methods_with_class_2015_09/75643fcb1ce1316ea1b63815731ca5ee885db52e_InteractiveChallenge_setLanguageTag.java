@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName language tag
+language tag SimpleName FieldAccess Assignment SimpleName language tag
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set language tag
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName language tag
+void PrimitiveType MethodDeclaration SimpleName set language tag
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName language tag
+set language tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set language tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName language tag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set language tag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName language tag
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set language tag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName language tag

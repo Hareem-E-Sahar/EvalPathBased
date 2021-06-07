@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName provider
+objects SimpleName MethodInvocation StringLiteral no provider name specified
+require non null SimpleName MethodInvocation SimpleName provider
+require non null SimpleName MethodInvocation StringLiteral no provider name specified
+provider SimpleName MethodInvocation StringLiteral no provider name specified
+registered providers SimpleName MethodInvocation SimpleName contains key
+registered providers SimpleName MethodInvocation SimpleName provider
+contains key SimpleName MethodInvocation SimpleName provider
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is provider registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+private Modifier MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is provider registered
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+boolean PrimitiveType MethodDeclaration SimpleName is provider registered
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName provider
+boolean PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+is provider registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is provider registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+is provider registered SimpleName MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is provider registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is provider registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider

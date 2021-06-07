@@ -1,0 +1,50 @@
+private key obfuscator SimpleName SimpleType SingleVariableDeclaration SimpleName o
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+initialize obfuscator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName private key encryption context
+initialize obfuscator SimpleName MethodInvocation SimpleName o
+initialize obfuscator SimpleName MethodInvocation SimpleName password
+private key encryption context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName o
+private key encryption context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName password
+o SimpleName MethodInvocation SimpleName password
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName private key encryption context
+public Modifier MethodDeclaration SimpleName new private key encryption context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName private key encryption context
+static Modifier MethodDeclaration SimpleName new private key encryption context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName password
+final Modifier MethodDeclaration SimpleType SimpleName private key encryption context
+final Modifier MethodDeclaration SimpleName new private key encryption context
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName password
+private key encryption context SimpleName SimpleType MethodDeclaration SimpleName new private key encryption context
+private key encryption context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName o
+private key encryption context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName password
+new private key encryption context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+new private key encryption context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+new private key encryption context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new private key encryption context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key encryption context
+public Modifier TypeDeclaration MethodDeclaration SimpleName new private key encryption context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key encryption context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new private key encryption context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password

@@ -1,0 +1,52 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+object SimpleName SimpleType SingleVariableDeclaration SimpleName target
+target SimpleName InstanceofExpression SimpleType SimpleName char sequence
+target SimpleName MethodInvocation SimpleName to string
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName target
+buffer SimpleName MethodInvocation MethodInvocation SimpleName to string
+put string SimpleName MethodInvocation MethodInvocation SimpleName target
+put string SimpleName MethodInvocation MethodInvocation SimpleName to string
+target SimpleName InstanceofExpression ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType CastExpression SimpleName target
+buffer SimpleName MethodInvocation SimpleName put bytes
+buffer SimpleName MethodInvocation CastExpression ArrayType PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression SimpleName target
+put bytes SimpleName MethodInvocation CastExpression ArrayType PrimitiveType byte
+put bytes SimpleName MethodInvocation CastExpression SimpleName target
+target SimpleName InstanceofExpression SimpleType SimpleName handle
+handle SimpleName SimpleType CastExpression SimpleName target
+target SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get identifier
+buffer SimpleName MethodInvocation SimpleName put bytes
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get identifier
+put bytes SimpleName MethodInvocation MethodInvocation SimpleName get identifier
+unknown target type StringLiteral InfixExpression SimpleName target
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown target type
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName target
+public Modifier MethodDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleName put target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration Block ReturnStatement SimpleName buffer
+buffer SimpleName SimpleType MethodDeclaration SimpleName put target
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+put target SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+put target SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+put target SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+put target SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+put target SimpleName MethodDeclaration Block ReturnStatement SimpleName buffer
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName put target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

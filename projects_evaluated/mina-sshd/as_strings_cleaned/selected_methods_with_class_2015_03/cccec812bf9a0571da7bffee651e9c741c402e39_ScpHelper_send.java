@@ -1,0 +1,334 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths
+boolean PrimitiveType SingleVariableDeclaration SimpleName recursive
+boolean PrimitiveType SingleVariableDeclaration SimpleName preserve
+int PrimitiveType SingleVariableDeclaration SimpleName buffer size
+read ack SimpleName MethodInvocation BooleanLiteral false
+io utils SimpleName MethodInvocation SimpleName get link options
+io utils SimpleName MethodInvocation BooleanLiteral false
+get link options SimpleName MethodInvocation BooleanLiteral false
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get link options
+options SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pattern
+pattern SimpleName MethodInvocation SimpleName replace
+pattern SimpleName MethodInvocation CharacterLiteral /
+pattern SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+/ CharacterLiteral MethodInvocation QualifiedName fileseparator char
+pattern SimpleName Assignment MethodInvocation SimpleName pattern
+pattern SimpleName Assignment MethodInvocation SimpleName replace
+pattern SimpleName Assignment MethodInvocation CharacterLiteral /
+pattern SimpleName Assignment MethodInvocation QualifiedName fileseparator char
+pattern SimpleName MethodInvocation SimpleName index of
+pattern SimpleName MethodInvocation CharacterLiteral *
+index of SimpleName MethodInvocation CharacterLiteral *
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+idx SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral *
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pattern
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral *
+idx SimpleName InfixExpression NumberLiteral empty
+basedir SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName basedir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+pattern SimpleName MethodInvocation SimpleName substring
+pattern SimpleName MethodInvocation NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName idx
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName idx
+empty NumberLiteral MethodInvocation SimpleName idx
+pattern SimpleName MethodInvocation MethodInvocation SimpleName last index of
+substring SimpleName MethodInvocation MethodInvocation SimpleName last index of
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName last index of
+idx SimpleName MethodInvocation MethodInvocation SimpleName last index of
+pattern SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+substring SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName fileseparator char
+idx SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+last index of SimpleName MethodInvocation QualifiedName fileseparator char
+last sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName pattern
+last sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName substring
+last sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+last sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName idx
+last sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName last index of
+last sep SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last sep
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName last index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName fileseparator char
+last sep SimpleName InfixExpression NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName substring
+pattern SimpleName MethodInvocation NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName last sep
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName last sep
+empty NumberLiteral MethodInvocation SimpleName last sep
+basedir SimpleName Assignment MethodInvocation SimpleName pattern
+basedir SimpleName Assignment MethodInvocation SimpleName substring
+basedir SimpleName Assignment MethodInvocation NumberLiteral empty
+basedir SimpleName Assignment MethodInvocation SimpleName last sep
+last sep SimpleName InfixExpression NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName substring
+pattern SimpleName MethodInvocation InfixExpression SimpleName last sep
+pattern SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName last sep
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pattern SimpleName Assignment MethodInvocation SimpleName pattern
+pattern SimpleName Assignment MethodInvocation SimpleName substring
+pattern SimpleName Assignment MethodInvocation InfixExpression SimpleName last sep
+pattern SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+directory scanner SimpleName SimpleType ClassInstanceCreation SimpleName basedir
+directory scanner SimpleName SimpleType ClassInstanceCreation SimpleName pattern
+basedir SimpleName ClassInstanceCreation SimpleName pattern
+directory scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scan
+basedir SimpleName ClassInstanceCreation MethodInvocation SimpleName scan
+pattern SimpleName ClassInstanceCreation MethodInvocation SimpleName scan
+included SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName basedir
+included SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName pattern
+included SimpleName VariableDeclarationFragment MethodInvocation SimpleName scan
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+resolve local path SimpleName MethodInvocation SimpleName basedir
+resolve local path SimpleName MethodInvocation SimpleName path
+basedir SimpleName MethodInvocation SimpleName path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve local path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName basedir
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+files SimpleName MethodInvocation SimpleName is regular file
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName options
+is regular file SimpleName MethodInvocation SimpleName file
+is regular file SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName options
+send file SimpleName MethodInvocation SimpleName file
+send file SimpleName MethodInvocation SimpleName preserve
+send file SimpleName MethodInvocation SimpleName buffer size
+file SimpleName MethodInvocation SimpleName preserve
+file SimpleName MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName buffer size
+files SimpleName MethodInvocation SimpleName is directory
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName options
+is directory SimpleName MethodInvocation SimpleName file
+is directory SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName options
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation QualifiedName scp helperwarning
+write SimpleName MethodInvocation QualifiedName scp helperwarning
+path SimpleName MethodInvocation SimpleName to string
+path SimpleName MethodInvocation MethodInvocation SimpleName replace
+to string SimpleName MethodInvocation MethodInvocation SimpleName replace
+path SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+to string SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+path SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+to string SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral /
+fileseparator char QualifiedName MethodInvocation CharacterLiteral /
+path SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral not a regular file
+to string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral not a regular file
+replace SimpleName MethodInvocation InfixExpression StringLiteral not a regular file
+fileseparator char QualifiedName MethodInvocation InfixExpression StringLiteral not a regular file
+/ CharacterLiteral MethodInvocation InfixExpression StringLiteral not a regular file
+not a regular file StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+send dir SimpleName MethodInvocation SimpleName file
+send dir SimpleName MethodInvocation SimpleName preserve
+send dir SimpleName MethodInvocation SimpleName buffer size
+file SimpleName MethodInvocation SimpleName preserve
+file SimpleName MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName buffer size
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation QualifiedName scp helperwarning
+write SimpleName MethodInvocation QualifiedName scp helperwarning
+path SimpleName MethodInvocation SimpleName to string
+path SimpleName MethodInvocation MethodInvocation SimpleName replace
+to string SimpleName MethodInvocation MethodInvocation SimpleName replace
+path SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+to string SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+path SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+to string SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral /
+fileseparator char QualifiedName MethodInvocation CharacterLiteral /
+path SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral unknown file type
+to string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral unknown file type
+replace SimpleName MethodInvocation InfixExpression StringLiteral unknown file type
+fileseparator char QualifiedName MethodInvocation InfixExpression StringLiteral unknown file type
+/ CharacterLiteral MethodInvocation InfixExpression StringLiteral unknown file type
+unknown file type StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName included
+path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName included
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName included
+basedir SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName basedir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+pattern SimpleName MethodInvocation SimpleName last index of
+pattern SimpleName MethodInvocation QualifiedName fileseparator char
+last index of SimpleName MethodInvocation QualifiedName fileseparator char
+last sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+last sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName last index of
+last sep SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last sep
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pattern
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName last index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName fileseparator char
+last sep SimpleName InfixExpression NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName substring
+pattern SimpleName MethodInvocation NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName last sep
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName last sep
+empty NumberLiteral MethodInvocation SimpleName last sep
+basedir SimpleName Assignment MethodInvocation SimpleName pattern
+basedir SimpleName Assignment MethodInvocation SimpleName substring
+basedir SimpleName Assignment MethodInvocation NumberLiteral empty
+basedir SimpleName Assignment MethodInvocation SimpleName last sep
+last sep SimpleName InfixExpression NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName substring
+pattern SimpleName MethodInvocation InfixExpression SimpleName last sep
+pattern SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName last sep
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pattern SimpleName Assignment MethodInvocation SimpleName pattern
+pattern SimpleName Assignment MethodInvocation SimpleName substring
+pattern SimpleName Assignment MethodInvocation InfixExpression SimpleName last sep
+pattern SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+resolve local path SimpleName MethodInvocation SimpleName basedir
+resolve local path SimpleName MethodInvocation SimpleName pattern
+basedir SimpleName MethodInvocation SimpleName pattern
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve local path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName basedir
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+io utils SimpleName MethodInvocation SimpleName check file exists
+io utils SimpleName MethodInvocation SimpleName file
+io utils SimpleName MethodInvocation SimpleName options
+check file exists SimpleName MethodInvocation SimpleName file
+check file exists SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName options
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName check file exists
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+send file existence status cannot be determined StringLiteral InfixExpression SimpleName file
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral send file existence status cannot be determined
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+status SimpleName MethodInvocation SimpleName boolean value
+file SimpleName InfixExpression StringLiteral : no such file or directory
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : no such file or directory
+files SimpleName MethodInvocation SimpleName is regular file
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName options
+is regular file SimpleName MethodInvocation SimpleName file
+is regular file SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName options
+send file SimpleName MethodInvocation SimpleName file
+send file SimpleName MethodInvocation SimpleName preserve
+send file SimpleName MethodInvocation SimpleName buffer size
+file SimpleName MethodInvocation SimpleName preserve
+file SimpleName MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName buffer size
+files SimpleName MethodInvocation SimpleName is directory
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName options
+is directory SimpleName MethodInvocation SimpleName file
+is directory SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation SimpleName options
+file SimpleName InfixExpression StringLiteral not a regular file
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not a regular file
+send dir SimpleName MethodInvocation SimpleName file
+send dir SimpleName MethodInvocation SimpleName preserve
+send dir SimpleName MethodInvocation SimpleName buffer size
+file SimpleName MethodInvocation SimpleName preserve
+file SimpleName MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName buffer size
+file SimpleName InfixExpression StringLiteral : unknown file type
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : unknown file type
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName paths
+pattern SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName paths
+paths SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName send
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName paths
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName recursive
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName preserve
+void PrimitiveType MethodDeclaration SimpleName send
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName paths
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName recursive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName preserve
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paths
+send SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleName recursive
+send SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleName preserve
+send SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+send SimpleName MethodDeclaration SimpleType SimpleName io exception
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName recursive
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+paths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+recursive SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+recursive SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+recursive SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+recursive SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+recursive SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName recursive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName recursive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

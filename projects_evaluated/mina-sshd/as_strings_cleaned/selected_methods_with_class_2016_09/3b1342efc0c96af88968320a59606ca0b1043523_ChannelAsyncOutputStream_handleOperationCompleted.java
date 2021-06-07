@@ -1,0 +1,68 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+total SimpleName InfixExpression SimpleName length
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possible completed write of {} out of {}
+log SimpleName MethodInvocation SimpleName stream
+log SimpleName MethodInvocation SimpleName length
+log SimpleName MethodInvocation SimpleName total
+trace SimpleName MethodInvocation StringLiteral do write if possible completed write of {} out of {}
+trace SimpleName MethodInvocation SimpleName stream
+trace SimpleName MethodInvocation SimpleName length
+trace SimpleName MethodInvocation SimpleName total
+do write if possible completed write of {} out of {} StringLiteral MethodInvocation SimpleName stream
+do write if possible completed write of {} out of {} StringLiteral MethodInvocation SimpleName length
+do write if possible completed write of {} out of {} StringLiteral MethodInvocation SimpleName total
+stream SimpleName MethodInvocation SimpleName length
+stream SimpleName MethodInvocation SimpleName total
+length SimpleName MethodInvocation SimpleName total
+do write if possible SimpleName MethodInvocation BooleanLiteral false
+pending write SimpleName MethodInvocation SimpleName compare and set
+pending write SimpleName MethodInvocation SimpleName future
+compare and set SimpleName MethodInvocation SimpleName future
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending write
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare and set
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName future
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nullified
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending write
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare and set
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName future
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possible completed write len more
+log SimpleName MethodInvocation SimpleName stream
+log SimpleName MethodInvocation SimpleName total
+log SimpleName MethodInvocation PrefixExpression SimpleName nullified
+trace SimpleName MethodInvocation StringLiteral do write if possible completed write len more
+trace SimpleName MethodInvocation SimpleName stream
+trace SimpleName MethodInvocation SimpleName total
+trace SimpleName MethodInvocation PrefixExpression SimpleName nullified
+do write if possible completed write len more StringLiteral MethodInvocation SimpleName stream
+do write if possible completed write len more StringLiteral MethodInvocation SimpleName total
+do write if possible completed write len more StringLiteral MethodInvocation PrefixExpression SimpleName nullified
+stream SimpleName MethodInvocation SimpleName total
+stream SimpleName MethodInvocation PrefixExpression SimpleName nullified
+total SimpleName MethodInvocation PrefixExpression SimpleName nullified
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation QualifiedName booleantrue
+set value SimpleName MethodInvocation QualifiedName booleantrue
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName handle operation completed
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName handle operation completed
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName handle operation completed
+void PrimitiveType MethodDeclaration SimpleName handle operation completed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle operation completed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle operation completed

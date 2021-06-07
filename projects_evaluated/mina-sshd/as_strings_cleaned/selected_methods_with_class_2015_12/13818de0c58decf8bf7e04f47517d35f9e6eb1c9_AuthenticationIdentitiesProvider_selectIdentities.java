@@ -1,0 +1,63 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterator SimpleName SimpleType ParameterizedType WildcardType ?
+generic utils SimpleName MethodInvocation SimpleName iterator of
+generic utils SimpleName MethodInvocation SimpleName identities
+iterator of SimpleName MethodInvocation SimpleName identities
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator of
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName identities
+? WildcardType ParameterizedType VariableDeclarationExpression VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+class SimpleName SimpleType ParameterizedType WildcardType ?
+o SimpleName MethodInvocation SimpleName get class
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName o
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+type SimpleName MethodInvocation SimpleName is assignable from
+type SimpleName MethodInvocation SimpleName t
+is assignable from SimpleName MethodInvocation SimpleName t
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+type SimpleName MethodInvocation SimpleName cast
+type SimpleName MethodInvocation SimpleName o
+cast SimpleName MethodInvocation SimpleName o
+matches SimpleName MethodInvocation SimpleName add
+matches SimpleName MethodInvocation MethodInvocation SimpleName type
+matches SimpleName MethodInvocation MethodInvocation SimpleName cast
+matches SimpleName MethodInvocation MethodInvocation SimpleName o
+add SimpleName MethodInvocation MethodInvocation SimpleName type
+add SimpleName MethodInvocation MethodInvocation SimpleName cast
+add SimpleName MethodInvocation MethodInvocation SimpleName o
+collections SimpleName MethodInvocation SimpleType SimpleName t
+collections SimpleName MethodInvocation SimpleName empty list
+t SimpleName SimpleType MethodInvocation SimpleName empty list
+matches SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName matches
+collections SimpleName MethodInvocation ConditionalExpression SimpleName matches
+t SimpleName SimpleType MethodInvocation ConditionalExpression SimpleName matches
+empty list SimpleName MethodInvocation ConditionalExpression SimpleName matches
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName select identities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+t SimpleName TypeParameter MethodDeclaration SimpleName select identities
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName type
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName select identities
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName select identities
+select identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName select identities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName select identities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

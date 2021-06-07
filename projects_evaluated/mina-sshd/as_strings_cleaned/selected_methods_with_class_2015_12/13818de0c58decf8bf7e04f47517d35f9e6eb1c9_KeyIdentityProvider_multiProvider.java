@@ -1,0 +1,25 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName providers
+iterable of SimpleName MethodInvocation SimpleName providers
+wrap SimpleName MethodInvocation MethodInvocation SimpleName iterable of
+wrap SimpleName MethodInvocation MethodInvocation SimpleName providers
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key identity provider
+public Modifier MethodDeclaration SimpleName multi provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName providers
+static Modifier MethodDeclaration SimpleType SimpleName key identity provider
+static Modifier MethodDeclaration SimpleName multi provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName providers
+key identity provider SimpleName SimpleType MethodDeclaration SimpleName multi provider
+key identity provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName providers
+multi provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName multi provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName providers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName multi provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName providers

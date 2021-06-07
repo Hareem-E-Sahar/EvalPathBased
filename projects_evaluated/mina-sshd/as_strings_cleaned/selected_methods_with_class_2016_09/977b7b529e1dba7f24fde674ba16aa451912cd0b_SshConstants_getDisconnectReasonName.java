@@ -1,0 +1,46 @@
+int PrimitiveType SingleVariableDeclaration SimpleName reason
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+lazy reasons map holderreasons map QualifiedName MethodInvocation SimpleName get
+lazy reasons map holderreasons map QualifiedName MethodInvocation SimpleName reason
+get SimpleName MethodInvocation SimpleName reason
+name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lazy reasons map holderreasons map
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName reason
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+syntheticaccess StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+syntheticaccess StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName reason
+to string SimpleName MethodInvocation SimpleName reason
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get disconnect reason name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get disconnect reason name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+string SimpleName SimpleType MethodDeclaration SimpleName get disconnect reason name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName reason
+get disconnect reason name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get disconnect reason name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get disconnect reason name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get disconnect reason name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

@@ -1,0 +1,118 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName extensions
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName extensions
+is empty SimpleName MethodInvocation SimpleName extensions
+collections SimpleName MethodInvocation SimpleName empty map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+map SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ee
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ee
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName ee
+extensions SimpleName MethodInvocation SimpleName entry set
+ee SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName ee
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+ee SimpleName MethodInvocation SimpleName get value
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName ee
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get value
+validate utils SimpleName MethodInvocation StringLiteral no value for extensions
+validate utils SimpleName MethodInvocation SimpleName key
+check not null SimpleName MethodInvocation MethodInvocation SimpleName ee
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get value
+check not null SimpleName MethodInvocation StringLiteral no value for extensions
+check not null SimpleName MethodInvocation SimpleName key
+ee SimpleName MethodInvocation MethodInvocation StringLiteral no value for extensions
+get value SimpleName MethodInvocation MethodInvocation StringLiteral no value for extensions
+ee SimpleName MethodInvocation MethodInvocation SimpleName key
+get value SimpleName MethodInvocation MethodInvocation SimpleName key
+no value for extensions StringLiteral MethodInvocation SimpleName key
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ee
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no value for extensions
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName InstanceofExpression ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType CastExpression SimpleName value
+string SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName value
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType CastExpression ClassInstanceCreation QualifiedName standard charsetsutf
+value SimpleName CastExpression ClassInstanceCreation QualifiedName standard charsetsutf
+value SimpleName MethodInvocation SimpleName to string
+standard charsetsutf QualifiedName ClassInstanceCreation ConditionalExpression MethodInvocation SimpleName value
+standard charsetsutf QualifiedName ClassInstanceCreation ConditionalExpression MethodInvocation SimpleName to string
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName key
+map SimpleName MethodInvocation ConditionalExpression ClassInstanceCreation QualifiedName standard charsetsutf
+map SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName value
+map SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation ConditionalExpression ClassInstanceCreation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName value
+put SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+key SimpleName MethodInvocation ConditionalExpression ClassInstanceCreation QualifiedName standard charsetsutf
+key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName value
+key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName prev
+validate utils SimpleName MethodInvocation StringLiteral multiple values for extensions
+validate utils SimpleName MethodInvocation SimpleName key
+check true SimpleName MethodInvocation InfixExpression SimpleName prev
+check true SimpleName MethodInvocation StringLiteral multiple values for extensions
+check true SimpleName MethodInvocation SimpleName key
+prev SimpleName InfixExpression MethodInvocation StringLiteral multiple values for extensions
+prev SimpleName InfixExpression MethodInvocation SimpleName key
+multiple values for extensions StringLiteral MethodInvocation SimpleName key
+ee SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName extensions
+ee SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string extensions
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extensions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string extensions
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extensions
+static Modifier MethodDeclaration Block ReturnStatement SimpleName map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to string extensions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to string extensions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to string extensions
+to string extensions SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+to string extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extensions
+to string extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions

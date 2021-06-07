@@ -1,0 +1,36 @@
+field SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation StringLiteral ssh msg
+starts with SimpleName MethodInvocation StringLiteral ssh msg
+f SimpleName MethodInvocation SimpleName get byte
+is ambigouos opcode SimpleName MethodInvocation MethodInvocation SimpleName f
+is ambigouos opcode SimpleName MethodInvocation MethodInvocation SimpleName get byte
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+boolean PrimitiveType MethodDeclaration SimpleName evaluate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName evaluate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName evaluate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

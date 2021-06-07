@@ -1,0 +1,59 @@
+predicate SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acceptor
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+select matching members SimpleName MethodInvocation SimpleName acceptor
+select matching members SimpleName MethodInvocation SimpleName values
+acceptor SimpleName MethodInvocation SimpleName values
+matches SimpleName VariableDeclarationFragment MethodInvocation SimpleName select matching members
+matches SimpleName VariableDeclarationFragment MethodInvocation SimpleName acceptor
+matches SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName matches
+is empty SimpleName MethodInvocation SimpleName matches
+matches SimpleName MethodInvocation SimpleName get
+matches SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName matches
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation NumberLiteral empty
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName matches
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation NumberLiteral empty
+matches SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName matches
+matches SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+matches SimpleName MethodInvocation ConditionalExpression MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName find first matching member
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName find first matching member
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName find first matching member
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName values
+t SimpleName SimpleType MethodDeclaration SimpleName find first matching member
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName values
+find first matching member SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+find first matching member SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+acceptor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName find first matching member
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find first matching member
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

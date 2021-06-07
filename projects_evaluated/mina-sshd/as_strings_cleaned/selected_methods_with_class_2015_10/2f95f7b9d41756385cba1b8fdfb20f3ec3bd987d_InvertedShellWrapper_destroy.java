@@ -1,0 +1,26 @@
+shell SimpleName MethodInvocation SimpleName destroy
+executor SimpleName InstanceofExpression SimpleType SimpleName executor service
+shutdown executor SimpleName InfixExpression ParenthesizedExpression InstanceofExpression SimpleName executor
+executor service SimpleName SimpleType CastExpression SimpleName executor
+executor SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName shutdown
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName destroy
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName destroy
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName destroy
+void PrimitiveType MethodDeclaration SimpleName destroy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName destroy
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName destroy

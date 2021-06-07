@@ -1,0 +1,28 @@
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get byte
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get byte
+ssh constantsmessage QualifiedName MethodInvocation SimpleName from byte
+ssh constantsmessage QualifiedName MethodInvocation SimpleName b
+from byte SimpleName MethodInvocation SimpleName b
+cmd SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh constantsmessage
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName from byte
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName b
+ssh constantsmessage QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+unknown command code StringLiteral InfixExpression SimpleName b
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown command code
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName b
+byte PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cmd
+public Modifier MethodDeclaration SimpleType QualifiedName ssh constantsmessage
+public Modifier MethodDeclaration SimpleName get command
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cmd
+ssh constantsmessage QualifiedName SimpleType MethodDeclaration SimpleName get command
+get command SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+get command SimpleName MethodDeclaration Block ReturnStatement SimpleName cmd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName ssh constantsmessage
+public Modifier TypeDeclaration MethodDeclaration SimpleName get command
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName ssh constantsmessage
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get command

@@ -1,0 +1,38 @@
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get executor service
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+get executor service SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+get executor service SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+is shutdown on exit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sftp subsystem
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get executor service
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+sftp subsystem SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName subsystem
+subsystem SimpleName ExpressionMethodReference SimpleName add sftp event listener
+generic utils SimpleName MethodInvocation SimpleName for each
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get registered listeners
+generic utils SimpleName MethodInvocation ExpressionMethodReference SimpleName subsystem
+generic utils SimpleName MethodInvocation ExpressionMethodReference SimpleName add sftp event listener
+for each SimpleName MethodInvocation MethodInvocation SimpleName get registered listeners
+for each SimpleName MethodInvocation ExpressionMethodReference SimpleName subsystem
+for each SimpleName MethodInvocation ExpressionMethodReference SimpleName add sftp event listener
+get registered listeners SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName subsystem
+get registered listeners SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName add sftp event listener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName command
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SimpleType SimpleName command
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration Block ReturnStatement SimpleName subsystem
+command SimpleName SimpleType MethodDeclaration SimpleName create
+create SimpleName MethodDeclaration Block ReturnStatement SimpleName subsystem
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create

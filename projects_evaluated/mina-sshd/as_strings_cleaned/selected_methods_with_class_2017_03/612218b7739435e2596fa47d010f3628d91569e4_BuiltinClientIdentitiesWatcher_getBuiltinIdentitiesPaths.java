@@ -1,0 +1,74 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType SingleVariableDeclaration SimpleName keys folder
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ids
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName keys folder
+objects SimpleName MethodInvocation StringLiteral no keys folder
+require non null SimpleName MethodInvocation SimpleName keys folder
+require non null SimpleName MethodInvocation StringLiteral no keys folder
+keys folder SimpleName MethodInvocation StringLiteral no keys folder
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ids
+is empty SimpleName MethodInvocation SimpleName ids
+collections SimpleName MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+ids SimpleName MethodInvocation SimpleName size
+paths SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ids
+paths SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+client identity SimpleName MethodInvocation SimpleName get identity file name
+client identity SimpleName MethodInvocation SimpleName id
+get identity file name SimpleName MethodInvocation SimpleName id
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName client identity
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identity file name
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file name
+keys folder SimpleName MethodInvocation SimpleName resolve
+keys folder SimpleName MethodInvocation SimpleName file name
+resolve SimpleName MethodInvocation SimpleName file name
+paths SimpleName MethodInvocation SimpleName add
+paths SimpleName MethodInvocation MethodInvocation SimpleName keys folder
+paths SimpleName MethodInvocation MethodInvocation SimpleName resolve
+paths SimpleName MethodInvocation MethodInvocation SimpleName file name
+add SimpleName MethodInvocation MethodInvocation SimpleName keys folder
+add SimpleName MethodInvocation MethodInvocation SimpleName resolve
+add SimpleName MethodInvocation MethodInvocation SimpleName file name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ids
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ids
+ids SimpleName EnhancedForStatement Block ReturnStatement SimpleName paths
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get builtin identities paths
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys folder
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ids
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName get builtin identities paths
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys folder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ids
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName ids
+static Modifier MethodDeclaration Block ReturnStatement SimpleName paths
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get builtin identities paths
+path SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get builtin identities paths
+get builtin identities paths SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get builtin identities paths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName keys folder
+get builtin identities paths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ids
+get builtin identities paths SimpleName MethodDeclaration Block EnhancedForStatement SimpleName ids
+get builtin identities paths SimpleName MethodDeclaration Block ReturnStatement SimpleName paths
+keys folder SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get builtin identities paths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys folder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get builtin identities paths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys folder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ids

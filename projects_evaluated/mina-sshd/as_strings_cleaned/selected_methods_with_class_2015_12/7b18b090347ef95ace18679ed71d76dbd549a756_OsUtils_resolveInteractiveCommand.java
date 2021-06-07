@@ -1,0 +1,33 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+boolean PrimitiveType SingleVariableDeclaration SimpleName is win
+is win SimpleName IfStatement Block ReturnStatement SimpleName windows command
+is win SimpleName IfStatement Block ReturnStatement SimpleName linux command
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName resolve interactive command
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is win
+public Modifier MethodDeclaration Block IfStatement SimpleName is win
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName resolve interactive command
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is win
+static Modifier MethodDeclaration Block IfStatement SimpleName is win
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve interactive command
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve interactive command
+resolve interactive command SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+resolve interactive command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is win
+resolve interactive command SimpleName MethodDeclaration Block IfStatement SimpleName is win
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve interactive command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is win
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve interactive command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is win

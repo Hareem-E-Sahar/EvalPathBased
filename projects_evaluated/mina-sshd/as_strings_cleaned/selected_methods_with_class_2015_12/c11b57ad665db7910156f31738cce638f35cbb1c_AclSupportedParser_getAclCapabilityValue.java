@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+name SimpleName MethodInvocation SimpleName to upper case
+name SimpleName Assignment MethodInvocation SimpleName name
+name SimpleName Assignment MethodInvocation SimpleName to upper case
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation QualifiedName lazy acl capability name holderacl cap name prefix
+starts with SimpleName MethodInvocation QualifiedName lazy acl capability name holderacl cap name prefix
+name SimpleName Assignment QualifiedName lazy acl capability name holderacl cap name prefix
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get acl capability names map
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get acl capability value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get acl capability value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+integer SimpleName SimpleType MethodDeclaration SimpleName get acl capability value
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get acl capability value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get acl capability value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get acl capability value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get acl capability value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

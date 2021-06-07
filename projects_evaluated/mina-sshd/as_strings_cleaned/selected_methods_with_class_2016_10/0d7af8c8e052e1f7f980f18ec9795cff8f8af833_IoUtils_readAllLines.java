@@ -1,0 +1,69 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+buffered reader SimpleName SimpleType SingleVariableDeclaration SimpleName reader
+int PrimitiveType SingleVariableDeclaration SimpleName line count hint
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName line count hint
+math SimpleName MethodInvocation QualifiedName shortsize
+max SimpleName MethodInvocation SimpleName line count hint
+max SimpleName MethodInvocation QualifiedName shortsize
+line count hint SimpleName MethodInvocation QualifiedName shortsize
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName math
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName max
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName line count hint
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName shortsize
+reader SimpleName MethodInvocation SimpleName read line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName reader
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName line
+reader SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName reader
+line SimpleName Assignment MethodInvocation SimpleName read line
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName line
+add SimpleName MethodInvocation SimpleName line
+line SimpleName InfixExpression ForStatement Assignment SimpleName line
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName read all lines
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reader
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName line count hint
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName read all lines
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName reader
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName line count hint
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read all lines
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read all lines
+read all lines SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+read all lines SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reader
+read all lines SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+read all lines SimpleName MethodDeclaration SingleVariableDeclaration SimpleName line count hint
+read all lines SimpleName MethodDeclaration SimpleType SimpleName io exception
+read all lines SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+reader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+reader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line count hint
+reader SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+line count hint SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName read all lines
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line count hint
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read all lines
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line count hint
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,41 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+stream SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+stream SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+collectors SimpleName MethodInvocation SimpleName to list
+values SimpleName MethodInvocation SimpleName collect
+values SimpleName MethodInvocation MethodInvocation SimpleName collectors
+values SimpleName MethodInvocation MethodInvocation SimpleName to list
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to list
+unmodifiable list SimpleName MethodInvocation MethodInvocation SimpleName values
+unmodifiable list SimpleName MethodInvocation MethodInvocation SimpleName collect
+unmodifiable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+unmodifiable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName unmodifiable list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName unmodifiable list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+t SimpleName TypeParameter MethodDeclaration SimpleName unmodifiable list
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName values
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName unmodifiable list
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName unmodifiable list
+unmodifiable list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName unmodifiable list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unmodifiable list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

@@ -1,0 +1,42 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName file
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+file SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName files
+is empty SimpleName MethodInvocation SimpleName files
+collections SimpleName MethodInvocation SimpleType SimpleName path
+collections SimpleName MethodInvocation SimpleName empty list
+path SimpleName SimpleType MethodInvocation SimpleName empty list
+set paths SimpleName MethodInvocation MethodInvocation SimpleName collections
+set paths SimpleName MethodInvocation MethodInvocation SimpleType SimpleName path
+set paths SimpleName MethodInvocation MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+files SimpleName MethodInvocation SimpleName size
+paths SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName files
+paths SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+file SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName to path
+paths SimpleName MethodInvocation SimpleName add
+paths SimpleName MethodInvocation MethodInvocation SimpleName f
+paths SimpleName MethodInvocation MethodInvocation SimpleName to path
+add SimpleName MethodInvocation MethodInvocation SimpleName f
+add SimpleName MethodInvocation MethodInvocation SimpleName to path
+file SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files
+set paths SimpleName MethodInvocation SimpleName paths
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set files
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+void PrimitiveType MethodDeclaration SimpleName set files
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName files
+set files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files

@@ -1,0 +1,109 @@
+socket session config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+get boolean SimpleName MethodInvocation QualifiedName factory managersocket keepalive
+bool val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+bool val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName factory managersocket keepalive
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bool val
+config SimpleName MethodInvocation SimpleName set keep alive
+config SimpleName MethodInvocation SimpleName bool val
+set keep alive SimpleName MethodInvocation SimpleName bool val
+runtime io exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+handle configuration error SimpleName MethodInvocation SimpleName config
+handle configuration error SimpleName MethodInvocation QualifiedName factory managersocket keepalive
+handle configuration error SimpleName MethodInvocation SimpleName bool val
+handle configuration error SimpleName MethodInvocation SimpleName t
+config SimpleName MethodInvocation QualifiedName factory managersocket keepalive
+config SimpleName MethodInvocation SimpleName bool val
+config SimpleName MethodInvocation SimpleName t
+factory managersocket keepalive QualifiedName MethodInvocation SimpleName bool val
+factory managersocket keepalive QualifiedName MethodInvocation SimpleName t
+bool val SimpleName MethodInvocation SimpleName t
+get integer SimpleName MethodInvocation QualifiedName factory managersocket sndbuf
+int val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get integer
+int val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName factory managersocket sndbuf
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName int val
+config SimpleName MethodInvocation SimpleName set send buffer size
+config SimpleName MethodInvocation SimpleName int val
+set send buffer size SimpleName MethodInvocation SimpleName int val
+runtime io exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+handle configuration error SimpleName MethodInvocation SimpleName config
+handle configuration error SimpleName MethodInvocation QualifiedName factory managersocket sndbuf
+handle configuration error SimpleName MethodInvocation SimpleName int val
+handle configuration error SimpleName MethodInvocation SimpleName t
+config SimpleName MethodInvocation QualifiedName factory managersocket sndbuf
+config SimpleName MethodInvocation SimpleName int val
+config SimpleName MethodInvocation SimpleName t
+factory managersocket sndbuf QualifiedName MethodInvocation SimpleName int val
+factory managersocket sndbuf QualifiedName MethodInvocation SimpleName t
+int val SimpleName MethodInvocation SimpleName t
+get integer SimpleName MethodInvocation QualifiedName factory managersocket rcvbuf
+int val SimpleName Assignment MethodInvocation SimpleName get integer
+int val SimpleName Assignment MethodInvocation QualifiedName factory managersocket rcvbuf
+config SimpleName MethodInvocation SimpleName set receive buffer size
+config SimpleName MethodInvocation SimpleName int val
+set receive buffer size SimpleName MethodInvocation SimpleName int val
+runtime io exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+handle configuration error SimpleName MethodInvocation SimpleName config
+handle configuration error SimpleName MethodInvocation QualifiedName factory managersocket rcvbuf
+handle configuration error SimpleName MethodInvocation SimpleName int val
+handle configuration error SimpleName MethodInvocation SimpleName t
+config SimpleName MethodInvocation QualifiedName factory managersocket rcvbuf
+config SimpleName MethodInvocation SimpleName int val
+config SimpleName MethodInvocation SimpleName t
+factory managersocket rcvbuf QualifiedName MethodInvocation SimpleName int val
+factory managersocket rcvbuf QualifiedName MethodInvocation SimpleName t
+int val SimpleName MethodInvocation SimpleName t
+get integer SimpleName MethodInvocation QualifiedName factory managersocket linger
+int val SimpleName Assignment MethodInvocation SimpleName get integer
+int val SimpleName Assignment MethodInvocation QualifiedName factory managersocket linger
+config SimpleName MethodInvocation SimpleName set so linger
+config SimpleName MethodInvocation SimpleName int val
+set so linger SimpleName MethodInvocation SimpleName int val
+runtime io exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+handle configuration error SimpleName MethodInvocation SimpleName config
+handle configuration error SimpleName MethodInvocation QualifiedName factory managersocket linger
+handle configuration error SimpleName MethodInvocation SimpleName int val
+handle configuration error SimpleName MethodInvocation SimpleName t
+config SimpleName MethodInvocation QualifiedName factory managersocket linger
+config SimpleName MethodInvocation SimpleName int val
+config SimpleName MethodInvocation SimpleName t
+factory managersocket linger QualifiedName MethodInvocation SimpleName int val
+factory managersocket linger QualifiedName MethodInvocation SimpleName t
+int val SimpleName MethodInvocation SimpleName t
+get boolean SimpleName MethodInvocation QualifiedName factory managertcp nodelay
+bool val SimpleName Assignment MethodInvocation SimpleName get boolean
+bool val SimpleName Assignment MethodInvocation QualifiedName factory managertcp nodelay
+config SimpleName MethodInvocation SimpleName set tcp no delay
+config SimpleName MethodInvocation SimpleName bool val
+set tcp no delay SimpleName MethodInvocation SimpleName bool val
+runtime io exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+handle configuration error SimpleName MethodInvocation SimpleName config
+handle configuration error SimpleName MethodInvocation QualifiedName factory managertcp nodelay
+handle configuration error SimpleName MethodInvocation SimpleName bool val
+handle configuration error SimpleName MethodInvocation SimpleName t
+config SimpleName MethodInvocation QualifiedName factory managertcp nodelay
+config SimpleName MethodInvocation SimpleName bool val
+config SimpleName MethodInvocation SimpleName t
+factory managertcp nodelay QualifiedName MethodInvocation SimpleName bool val
+factory managertcp nodelay QualifiedName MethodInvocation SimpleName t
+bool val SimpleName MethodInvocation SimpleName t
+config SimpleName MethodInvocation SimpleName set all
+config SimpleName MethodInvocation SimpleName session config
+set all SimpleName MethodInvocation SimpleName session config
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket session config
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket session config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket session config
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

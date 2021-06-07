@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pty type
+pty type SimpleName FieldAccess Assignment SimpleName pty type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set pty type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pty type
+void PrimitiveType MethodDeclaration SimpleName set pty type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pty type
+set pty type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set pty type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pty type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set pty type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pty type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set pty type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pty type

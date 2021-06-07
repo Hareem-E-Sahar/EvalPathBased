@@ -1,0 +1,182 @@
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+known ambiguities SimpleName VariableDeclarationFragment ArrayInitializer NumberLiteral empty
+known ambiguities SimpleName VariableDeclarationFragment ArrayInitializer NumberLiteral empty
+known ambiguities SimpleName VariableDeclarationFragment ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName known ambiguities
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+ssh constants SimpleName MethodInvocation SimpleName get ambiguous opcodes
+opcodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh constants
+opcodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get ambiguous opcodes
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName opcodes
+size SimpleName MethodInvocation SimpleName opcodes
+generic utils SimpleName MethodInvocation InfixExpression QualifiedName known ambiguitieslength
+size SimpleName MethodInvocation InfixExpression QualifiedName known ambiguitieslength
+opcodes SimpleName MethodInvocation InfixExpression QualifiedName known ambiguitieslength
+assert true SimpleName MethodInvocation StringLiteral not enough ambiguities found
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opcodes
+assert true SimpleName MethodInvocation InfixExpression QualifiedName known ambiguitieslength
+not enough ambiguities found StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+not enough ambiguities found StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName size
+not enough ambiguities found StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName opcodes
+not enough ambiguities found StringLiteral MethodInvocation InfixExpression QualifiedName known ambiguitieslength
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+mismatched mnemonic for known ambiguity StringLiteral InfixExpression SimpleName cmd
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName cmd
+to string SimpleName MethodInvocation SimpleName cmd
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched mnemonic for known ambiguity
+assert equals SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName integer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cmd
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cmd
+mismatched mnemonic for known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName integer
+mismatched mnemonic for known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+mismatched mnemonic for known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName integer
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+mismatched mnemonic for known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+mismatched mnemonic for known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get command message name
+mismatched mnemonic for known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get command message name
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh constants
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get command message name
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cmd
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh constants
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get command message name
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get command message name
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cmd
+known ambiguity not reported as such StringLiteral InfixExpression SimpleName cmd
+ssh constants SimpleName MethodInvocation SimpleName is ambiguous opcode
+ssh constants SimpleName MethodInvocation SimpleName cmd
+is ambiguous opcode SimpleName MethodInvocation SimpleName cmd
+assert true SimpleName MethodInvocation InfixExpression StringLiteral known ambiguity not reported as such
+assert true SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is ambiguous opcode
+assert true SimpleName MethodInvocation MethodInvocation SimpleName cmd
+known ambiguity not reported as such StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+known ambiguity not reported as such StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is ambiguous opcode
+known ambiguity not reported as such StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is ambiguous opcode
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+known ambiguity StringLiteral InfixExpression SimpleName cmd
+known ambiguity StringLiteral InfixExpression StringLiteral not listed
+known ambiguity StringLiteral InfixExpression SimpleName opcodes
+cmd SimpleName InfixExpression StringLiteral not listed
+cmd SimpleName InfixExpression SimpleName opcodes
+not listed StringLiteral InfixExpression SimpleName opcodes
+opcodes SimpleName MethodInvocation SimpleName contains
+opcodes SimpleName MethodInvocation SimpleName cmd
+contains SimpleName MethodInvocation SimpleName cmd
+assert true SimpleName MethodInvocation InfixExpression StringLiteral known ambiguity
+assert true SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert true SimpleName MethodInvocation InfixExpression StringLiteral not listed
+assert true SimpleName MethodInvocation InfixExpression SimpleName opcodes
+assert true SimpleName MethodInvocation MethodInvocation SimpleName opcodes
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName cmd
+known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName opcodes
+known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+known ambiguity StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName opcodes
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+not listed StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName opcodes
+not listed StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+not listed StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+opcodes SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName opcodes
+opcodes SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+opcodes SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName known ambiguities
+cmd SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName known ambiguities
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+mismatched mnemonic for StringLiteral InfixExpression SimpleName cmd
+cmd SimpleName MethodInvocation SimpleName to string
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched mnemonic for
+assert equals SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cmd
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cmd
+mismatched mnemonic for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+mismatched mnemonic for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+mismatched mnemonic for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+mismatched mnemonic for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get command message name
+mismatched mnemonic for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get command message name
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get command message name
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cmd
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh constants
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get command message name
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cmd
+opcode not detected as ambiguous StringLiteral InfixExpression SimpleName cmd
+ssh constants SimpleName MethodInvocation SimpleName is ambiguous opcode
+ssh constants SimpleName MethodInvocation SimpleName cmd
+is ambiguous opcode SimpleName MethodInvocation SimpleName cmd
+assert true SimpleName MethodInvocation InfixExpression StringLiteral opcode not detected as ambiguous
+assert true SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is ambiguous opcode
+assert true SimpleName MethodInvocation MethodInvocation SimpleName cmd
+opcode not detected as ambiguous StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+opcode not detected as ambiguous StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is ambiguous opcode
+opcode not detected as ambiguous StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is ambiguous opcode
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+integer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName opcodes
+cmd SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName opcodes
+known ambiguities SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName opcodes
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test ambiguous opcodes
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test ambiguous opcodes
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName known ambiguities
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName opcodes
+void PrimitiveType MethodDeclaration SimpleName test ambiguous opcodes
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName known ambiguities
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName opcodes
+test ambiguous opcodes SimpleName MethodDeclaration SimpleType SimpleName exception
+test ambiguous opcodes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName known ambiguities
+test ambiguous opcodes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName opcodes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test ambiguous opcodes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test ambiguous opcodes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

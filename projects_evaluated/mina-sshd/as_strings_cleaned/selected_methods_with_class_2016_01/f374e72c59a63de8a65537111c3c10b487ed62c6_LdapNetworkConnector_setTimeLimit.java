@@ -1,0 +1,42 @@
+long PrimitiveType SingleVariableDeclaration SimpleName limit
+limit SimpleName InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName limit
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+validate utils SimpleName MethodInvocation StringLiteral negative time limit d
+validate utils SimpleName MethodInvocation SimpleName limit
+check true SimpleName MethodInvocation InfixExpression SimpleName limit
+check true SimpleName MethodInvocation InfixExpression NumberLiteral l
+check true SimpleName MethodInvocation StringLiteral negative time limit d
+check true SimpleName MethodInvocation SimpleName limit
+limit SimpleName InfixExpression MethodInvocation StringLiteral negative time limit d
+l NumberLiteral InfixExpression MethodInvocation StringLiteral negative time limit d
+limit SimpleName InfixExpression MethodInvocation SimpleName limit
+l NumberLiteral InfixExpression MethodInvocation SimpleName limit
+negative time limit d StringLiteral MethodInvocation SimpleName limit
+int PrimitiveType CastExpression SimpleName limit
+search controls SimpleName MethodInvocation SimpleName set time limit
+search controls SimpleName MethodInvocation CastExpression PrimitiveType int
+search controls SimpleName MethodInvocation CastExpression SimpleName limit
+set time limit SimpleName MethodInvocation CastExpression PrimitiveType int
+set time limit SimpleName MethodInvocation CastExpression SimpleName limit
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set time limit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit
+void PrimitiveType MethodDeclaration SimpleName set time limit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName limit
+set time limit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set time limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set time limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set time limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit

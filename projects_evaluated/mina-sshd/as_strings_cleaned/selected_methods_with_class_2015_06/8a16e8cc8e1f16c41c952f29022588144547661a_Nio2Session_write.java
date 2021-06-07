@@ -1,0 +1,104 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+buffer SimpleName MethodInvocation SimpleName available
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+integer SimpleName MethodInvocation MethodInvocation SimpleName available
+value of SimpleName MethodInvocation MethodInvocation SimpleName buffer
+value of SimpleName MethodInvocation MethodInvocation SimpleName available
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral writing {} bytes
+log SimpleName MethodInvocation MethodInvocation SimpleName integer
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+debug SimpleName MethodInvocation StringLiteral writing {} bytes
+debug SimpleName MethodInvocation MethodInvocation SimpleName integer
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+writing {} bytes StringLiteral MethodInvocation MethodInvocation SimpleName integer
+writing {} bytes StringLiteral MethodInvocation MethodInvocation SimpleName value of
+writing {} bytes StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+writing {} bytes StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName available
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName array
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName rpos
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName available
+wrap SimpleName MethodInvocation MethodInvocation SimpleName buffer
+wrap SimpleName MethodInvocation MethodInvocation SimpleName array
+wrap SimpleName MethodInvocation MethodInvocation SimpleName buffer
+wrap SimpleName MethodInvocation MethodInvocation SimpleName rpos
+wrap SimpleName MethodInvocation MethodInvocation SimpleName buffer
+wrap SimpleName MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buf SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer
+buf SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrap
+buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName buffer
+buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName array
+buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName buffer
+buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rpos
+buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName buffer
+buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName available
+byte buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+nio default io write future SimpleName SimpleType ClassInstanceCreation SimpleName buf
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName nio default io write future
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName buf
+final Modifier VariableDeclarationStatement SimpleType SimpleName nio default io write future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName buf
+nio default io write future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+exc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName closed channel exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exc
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation SimpleName exc
+set exception SimpleName MethodInvocation SimpleName exc
+exception caught SimpleName MethodInvocation SimpleName exc
+writes SimpleName MethodInvocation SimpleName add
+writes SimpleName MethodInvocation SimpleName future
+add SimpleName MethodInvocation SimpleName future
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName future
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io write future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+io write future SimpleName SimpleType MethodDeclaration SimpleName write
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+write SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

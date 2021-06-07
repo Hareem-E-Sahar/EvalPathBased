@@ -1,0 +1,98 @@
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName rooted file system provider
+rooted file system provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName get temp target folder
+temp folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert hierarchy target folder exists
+temp folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get temp target folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp folder
+files SimpleName MethodInvocation SimpleName create temp file
+files SimpleName MethodInvocation SimpleName temp folder
+files SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+files SimpleName MethodInvocation StringLiteral txt
+create temp file SimpleName MethodInvocation SimpleName temp folder
+create temp file SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+create temp file SimpleName MethodInvocation StringLiteral txt
+temp folder SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+temp folder SimpleName MethodInvocation StringLiteral txt
+get current test name SimpleName MethodInvocation MethodInvocation StringLiteral txt
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create temp file
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName temp folder
+file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral txt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+collections SimpleName MethodInvocation SimpleName empty map
+provider SimpleName MethodInvocation SimpleName new file system
+provider SimpleName MethodInvocation SimpleName temp folder
+provider SimpleName MethodInvocation MethodInvocation SimpleName collections
+provider SimpleName MethodInvocation MethodInvocation SimpleName empty map
+new file system SimpleName MethodInvocation SimpleName temp folder
+new file system SimpleName MethodInvocation MethodInvocation SimpleName collections
+new file system SimpleName MethodInvocation MethodInvocation SimpleName empty map
+temp folder SimpleName MethodInvocation MethodInvocation SimpleName collections
+temp folder SimpleName MethodInvocation MethodInvocation SimpleName empty map
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName temp folder
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty map
+file system SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName fs
+file SimpleName MethodInvocation SimpleName get file name
+file SimpleName MethodInvocation MethodInvocation SimpleName to string
+get file name SimpleName MethodInvocation MethodInvocation SimpleName to string
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file name
+fs SimpleName MethodInvocation MethodInvocation SimpleName to string
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file name
+get path SimpleName MethodInvocation MethodInvocation SimpleName to string
+collections SimpleName MethodInvocation SimpleName empty set
+provider SimpleName MethodInvocation SimpleName new byte channel
+provider SimpleName MethodInvocation MethodInvocation SimpleName fs
+provider SimpleName MethodInvocation MethodInvocation SimpleName get path
+provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+provider SimpleName MethodInvocation MethodInvocation SimpleName collections
+provider SimpleName MethodInvocation MethodInvocation SimpleName empty set
+new byte channel SimpleName MethodInvocation MethodInvocation SimpleName fs
+new byte channel SimpleName MethodInvocation MethodInvocation SimpleName get path
+new byte channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+new byte channel SimpleName MethodInvocation MethodInvocation SimpleName collections
+new byte channel SimpleName MethodInvocation MethodInvocation SimpleName empty set
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty set
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty set
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName new byte channel
+channel SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+channel SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+channel SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+channel SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+channel SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName is open
+assert true SimpleName MethodInvocation StringLiteral channel not open
+assert true SimpleName MethodInvocation MethodInvocation SimpleName channel
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is open
+channel not open StringLiteral MethodInvocation MethodInvocation SimpleName channel
+channel not open StringLiteral MethodInvocation MethodInvocation SimpleName is open
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test new byte channel provider mismatch exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test new byte channel provider mismatch exception
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test new byte channel provider mismatch exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test new byte channel provider mismatch exception SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test new byte channel provider mismatch exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test new byte channel provider mismatch exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

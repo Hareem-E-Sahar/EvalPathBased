@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get client hostname
+public Modifier MethodDeclaration Block ReturnStatement SimpleName client hostname
+string SimpleName SimpleType MethodDeclaration SimpleName get client hostname
+get client hostname SimpleName MethodDeclaration Block ReturnStatement SimpleName client hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client hostname

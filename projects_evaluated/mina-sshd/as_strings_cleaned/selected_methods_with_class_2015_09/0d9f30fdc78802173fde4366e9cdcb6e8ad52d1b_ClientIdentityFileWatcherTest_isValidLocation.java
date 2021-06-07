@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName location
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName location
+objects SimpleName MethodInvocation MethodInvocation SimpleName to string
+equals SimpleName MethodInvocation SimpleName location
+equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+location SimpleName MethodInvocation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is valid location
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName location
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid location
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName location
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName is valid location
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName location
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+is valid location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName location
+is valid location SimpleName MethodDeclaration SimpleType SimpleName io exception
+location SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

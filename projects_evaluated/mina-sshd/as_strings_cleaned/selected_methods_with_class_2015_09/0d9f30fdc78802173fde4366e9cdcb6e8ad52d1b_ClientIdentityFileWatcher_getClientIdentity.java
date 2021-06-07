@@ -1,0 +1,66 @@
+identity holder SimpleName MethodInvocation SimpleName get and set
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName identity holder
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and set
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+reload client identity SimpleName MethodInvocation SimpleName path
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName reload client identity
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+key utils SimpleName MethodInvocation SimpleName compare key pairs
+key utils SimpleName MethodInvocation SimpleName kp
+key utils SimpleName MethodInvocation SimpleName id
+compare key pairs SimpleName MethodInvocation SimpleName kp
+compare key pairs SimpleName MethodInvocation SimpleName id
+kp SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName is debug enabled
+kp SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral loaded
+kp SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral reloaded
+loaded StringLiteral ConditionalExpression StringLiteral reloaded
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral get client identity identity {}
+log SimpleName MethodInvocation SimpleName path
+log SimpleName MethodInvocation ConditionalExpression StringLiteral loaded
+log SimpleName MethodInvocation ConditionalExpression StringLiteral reloaded
+debug SimpleName MethodInvocation StringLiteral get client identity identity {}
+debug SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation ConditionalExpression StringLiteral loaded
+debug SimpleName MethodInvocation ConditionalExpression StringLiteral reloaded
+get client identity identity {} StringLiteral MethodInvocation SimpleName path
+get client identity identity {} StringLiteral MethodInvocation ConditionalExpression StringLiteral loaded
+get client identity identity {} StringLiteral MethodInvocation ConditionalExpression StringLiteral reloaded
+path SimpleName MethodInvocation ConditionalExpression StringLiteral loaded
+path SimpleName MethodInvocation ConditionalExpression StringLiteral reloaded
+identity holder SimpleName MethodInvocation SimpleName set
+identity holder SimpleName MethodInvocation SimpleName id
+set SimpleName MethodInvocation SimpleName id
+identity holder SimpleName MethodInvocation SimpleName get
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get client identity
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName get client identity
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName get client identity
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+get client identity SimpleName MethodDeclaration SimpleType SimpleName io exception
+get client identity SimpleName MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client identity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client identity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

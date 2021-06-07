@@ -1,0 +1,20 @@
+class loader SimpleName SimpleType SingleVariableDeclaration SimpleName class loader
+class loader SimpleName FieldAccess Assignment SimpleName class loader
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set resource loader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class loader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class loader
+void PrimitiveType MethodDeclaration SimpleName set resource loader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class loader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName class loader
+set resource loader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class loader
+set resource loader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class loader
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set resource loader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class loader
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set resource loader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class loader

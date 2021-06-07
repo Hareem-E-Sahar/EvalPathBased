@@ -1,0 +1,19 @@
+git location resolver SimpleName SimpleType SingleVariableDeclaration SimpleName root dir resolver
+root dir resolver SimpleName FieldAccess Assignment SimpleName root dir resolver
+public Modifier MethodDeclaration SimpleType SimpleName abstract git command factory
+public Modifier MethodDeclaration SimpleName with git location resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName git location resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+abstract git command factory SimpleName SimpleType MethodDeclaration SimpleName with git location resolver
+abstract git command factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+with git location resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName git location resolver
+with git location resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract git command factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName with git location resolver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract git command factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with git location resolver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver

@@ -1,0 +1,93 @@
+dsa private key SimpleName SimpleType SingleVariableDeclaration SimpleName private key
+private key SimpleName MethodInvocation SimpleName get params
+key params SimpleName VariableDeclarationFragment MethodInvocation SimpleName private key
+key params SimpleName VariableDeclarationFragment MethodInvocation SimpleName get params
+dsa params SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key params
+key params SimpleName MethodInvocation SimpleName get p
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName key params
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get p
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+private key SimpleName MethodInvocation SimpleName get x
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName private key
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+key params SimpleName MethodInvocation SimpleName get q
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName key params
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName get q
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+key params SimpleName MethodInvocation SimpleName get g
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName key params
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName get g
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+g SimpleName MethodInvocation SimpleName mod pow
+g SimpleName MethodInvocation SimpleName x
+g SimpleName MethodInvocation SimpleName p
+mod pow SimpleName MethodInvocation SimpleName x
+mod pow SimpleName MethodInvocation SimpleName p
+x SimpleName MethodInvocation SimpleName p
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName g
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName mod pow
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName x
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+security utils SimpleName MethodInvocation SimpleName get key factory
+security utils SimpleName MethodInvocation SimpleName dss algorithm
+get key factory SimpleName MethodInvocation SimpleName dss algorithm
+kf SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+kf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key factory
+kf SimpleName VariableDeclarationFragment MethodInvocation SimpleName dss algorithm
+key factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kf
+dsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName y
+dsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName p
+dsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName q
+dsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName g
+y SimpleName ClassInstanceCreation SimpleName p
+y SimpleName ClassInstanceCreation SimpleName q
+y SimpleName ClassInstanceCreation SimpleName g
+p SimpleName ClassInstanceCreation SimpleName q
+p SimpleName ClassInstanceCreation SimpleName g
+q SimpleName ClassInstanceCreation SimpleName g
+kf SimpleName MethodInvocation SimpleName generate public
+kf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dsa public key spec
+kf SimpleName MethodInvocation ClassInstanceCreation SimpleName y
+kf SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+kf SimpleName MethodInvocation ClassInstanceCreation SimpleName q
+kf SimpleName MethodInvocation ClassInstanceCreation SimpleName g
+generate public SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dsa public key spec
+generate public SimpleName MethodInvocation ClassInstanceCreation SimpleName y
+generate public SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+generate public SimpleName MethodInvocation ClassInstanceCreation SimpleName q
+generate public SimpleName MethodInvocation ClassInstanceCreation SimpleName g
+dsa public key SimpleName SimpleType CastExpression MethodInvocation SimpleName kf
+dsa public key SimpleName SimpleType CastExpression MethodInvocation SimpleName generate public
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName dsa public key
+public Modifier MethodDeclaration SimpleName recover dsa public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName private key
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+static Modifier MethodDeclaration SimpleType SimpleName dsa public key
+static Modifier MethodDeclaration SimpleName recover dsa public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa private key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName private key
+static Modifier MethodDeclaration SimpleType SimpleName general security exception
+dsa public key SimpleName SimpleType MethodDeclaration SimpleName recover dsa public key
+dsa public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName private key
+dsa public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+recover dsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa private key
+recover dsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName private key
+recover dsa public key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+private key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dsa public key
+public Modifier TypeDeclaration MethodDeclaration SimpleName recover dsa public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName private key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dsa public key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName recover dsa public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName private key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

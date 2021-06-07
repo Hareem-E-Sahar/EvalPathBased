@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName xform
+int PrimitiveType SingleVariableDeclaration SimpleName key length
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName xform
+validate utils SimpleName MethodInvocation StringLiteral no transformation
+check not null and not empty SimpleName MethodInvocation SimpleName xform
+check not null and not empty SimpleName MethodInvocation StringLiteral no transformation
+xform SimpleName MethodInvocation StringLiteral no transformation
+key length SimpleName InfixExpression NumberLiteral empty
+bad key length ( StringLiteral InfixExpression SimpleName key length
+bad key length ( StringLiteral InfixExpression StringLiteral ) for cipher
+bad key length ( StringLiteral InfixExpression SimpleName xform
+key length SimpleName InfixExpression StringLiteral ) for cipher
+key length SimpleName InfixExpression SimpleName xform
+) for cipher StringLiteral InfixExpression SimpleName xform
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad key length (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) for cipher
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName xform
+javaxcryptocipher QualifiedName MethodInvocation SimpleName get max allowed key length
+javaxcryptocipher QualifiedName MethodInvocation SimpleName xform
+get max allowed key length SimpleName MethodInvocation SimpleName xform
+max key length SimpleName VariableDeclarationFragment MethodInvocation QualifiedName javaxcryptocipher
+max key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get max allowed key length
+max key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName xform
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName javaxcryptocipher
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get max allowed key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName xform
+max key length SimpleName InfixExpression SimpleName key length
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName check supported
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName xform
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key length
+boolean PrimitiveType MethodDeclaration SimpleName check supported
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xform
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key length
+check supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xform
+check supported SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+check supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key length
+xform SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+xform SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key length
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check supported
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key length
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check supported
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key length

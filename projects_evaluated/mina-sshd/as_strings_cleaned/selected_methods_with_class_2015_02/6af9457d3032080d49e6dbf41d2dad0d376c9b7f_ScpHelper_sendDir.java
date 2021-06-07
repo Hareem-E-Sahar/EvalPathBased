@@ -1,0 +1,208 @@
+ssh file SimpleName SimpleType SingleVariableDeclaration SimpleName path
+boolean PrimitiveType SingleVariableDeclaration SimpleName preserve
+int PrimitiveType SingleVariableDeclaration SimpleName buffer size
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sending directory {}
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral sending directory {}
+debug SimpleName MethodInvocation SimpleName path
+sending directory {} StringLiteral MethodInvocation SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName ssh fileattribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+ssh fileattribute QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName MethodInvocation SimpleName get attributes
+path SimpleName MethodInvocation BooleanLiteral true
+get attributes SimpleName MethodInvocation BooleanLiteral true
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral t
+append SimpleName MethodInvocation StringLiteral t
+attrs SimpleName MethodInvocation SimpleName get
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributelast modified time
+get SimpleName MethodInvocation QualifiedName ssh fileattributelast modified time
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName attrs
+buf SimpleName MethodInvocation MethodInvocation SimpleName get
+buf SimpleName MethodInvocation MethodInvocation QualifiedName ssh fileattributelast modified time
+append SimpleName MethodInvocation MethodInvocation SimpleName attrs
+append SimpleName MethodInvocation MethodInvocation SimpleName get
+append SimpleName MethodInvocation MethodInvocation QualifiedName ssh fileattributelast modified time
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+attrs SimpleName MethodInvocation SimpleName get
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributelast access time
+get SimpleName MethodInvocation QualifiedName ssh fileattributelast access time
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName attrs
+buf SimpleName MethodInvocation MethodInvocation SimpleName get
+buf SimpleName MethodInvocation MethodInvocation QualifiedName ssh fileattributelast access time
+append SimpleName MethodInvocation MethodInvocation SimpleName attrs
+append SimpleName MethodInvocation MethodInvocation SimpleName get
+append SimpleName MethodInvocation MethodInvocation QualifiedName ssh fileattributelast access time
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName to string
+buf SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buf
+out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buf
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName flush
+read ack SimpleName MethodInvocation BooleanLiteral false
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral d
+append SimpleName MethodInvocation StringLiteral d
+enum set SimpleName SimpleType ParameterizedType SimpleType QualifiedName ssh filepermission
+attrs SimpleName MethodInvocation SimpleName get
+attrs SimpleName MethodInvocation QualifiedName ssh fileattributepermissions
+get SimpleName MethodInvocation QualifiedName ssh fileattributepermissions
+to octal perms SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrs
+to octal perms SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+to octal perms SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName ssh fileattributepermissions
+preserve SimpleName ConditionalExpression MethodInvocation SimpleName to octal perms
+preserve SimpleName ConditionalExpression StringLiteral empty
+to octal perms SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation ConditionalExpression SimpleName preserve
+buf SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to octal perms
+buf SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+append SimpleName MethodInvocation ConditionalExpression SimpleName preserve
+append SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to octal perms
+append SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+path SimpleName MethodInvocation SimpleName get name
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName path
+buf SimpleName MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation SimpleName path
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation SimpleName to string
+buf SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buf
+out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buf
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName flush
+read ack SimpleName MethodInvocation BooleanLiteral false
+ssh file SimpleName SimpleType SingleVariableDeclaration SimpleName child
+path SimpleName MethodInvocation SimpleName list ssh files
+child SimpleName MethodInvocation SimpleName is file
+send file SimpleName MethodInvocation SimpleName child
+send file SimpleName MethodInvocation SimpleName preserve
+send file SimpleName MethodInvocation SimpleName buffer size
+child SimpleName MethodInvocation SimpleName preserve
+child SimpleName MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName buffer size
+child SimpleName MethodInvocation SimpleName is directory
+send dir SimpleName MethodInvocation SimpleName child
+send dir SimpleName MethodInvocation SimpleName preserve
+send dir SimpleName MethodInvocation SimpleName buffer size
+child SimpleName MethodInvocation SimpleName preserve
+child SimpleName MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName buffer size
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName path
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list ssh files
+e StringLiteral MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation StringLiteral e
+out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation StringLiteral e
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName flush
+read ack SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName send dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName preserve
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+void PrimitiveType MethodDeclaration SimpleName send dir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName preserve
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+send dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh file
+send dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+send dir SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+send dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName preserve
+send dir SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+send dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+send dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+send dir SimpleName MethodDeclaration Block IfStatement SimpleName preserve
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,313 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName client session
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote address
+host entry pair SimpleName SimpleType SingleVariableDeclaration SimpleName match
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName actual
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName host entry pair
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName known hosts
+host entry pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName known hosts
+match SimpleName MethodInvocation SimpleName get host entry
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName match
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host entry
+known host entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+entry SimpleName MethodInvocation SimpleName get config line
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName entry
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get config line
+validate utils SimpleName MethodInvocation StringLiteral no entry config line
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName entry
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get config line
+check not null and not empty SimpleName MethodInvocation StringLiteral no entry config line
+entry SimpleName MethodInvocation MethodInvocation StringLiteral no entry config line
+get config line SimpleName MethodInvocation MethodInvocation StringLiteral no entry config line
+match line SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+match line SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+match line SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+match line SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get config line
+match line SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no entry config line
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName match line
+match SimpleName MethodInvocation SimpleName get server key
+prepare modified server key line SimpleName MethodInvocation SimpleName client session
+prepare modified server key line SimpleName MethodInvocation SimpleName remote address
+prepare modified server key line SimpleName MethodInvocation SimpleName entry
+prepare modified server key line SimpleName MethodInvocation SimpleName match line
+prepare modified server key line SimpleName MethodInvocation MethodInvocation SimpleName match
+prepare modified server key line SimpleName MethodInvocation MethodInvocation SimpleName get server key
+client session SimpleName MethodInvocation SimpleName remote address
+client session SimpleName MethodInvocation SimpleName entry
+client session SimpleName MethodInvocation SimpleName match line
+client session SimpleName MethodInvocation MethodInvocation SimpleName match
+client session SimpleName MethodInvocation MethodInvocation SimpleName get server key
+client session SimpleName MethodInvocation SimpleName actual
+remote address SimpleName MethodInvocation SimpleName entry
+remote address SimpleName MethodInvocation SimpleName match line
+remote address SimpleName MethodInvocation MethodInvocation SimpleName match
+remote address SimpleName MethodInvocation MethodInvocation SimpleName get server key
+remote address SimpleName MethodInvocation SimpleName actual
+entry SimpleName MethodInvocation SimpleName match line
+entry SimpleName MethodInvocation MethodInvocation SimpleName match
+entry SimpleName MethodInvocation MethodInvocation SimpleName get server key
+entry SimpleName MethodInvocation SimpleName actual
+match line SimpleName MethodInvocation MethodInvocation SimpleName match
+match line SimpleName MethodInvocation MethodInvocation SimpleName get server key
+match line SimpleName MethodInvocation SimpleName actual
+match SimpleName MethodInvocation MethodInvocation SimpleName actual
+get server key SimpleName MethodInvocation MethodInvocation SimpleName actual
+new line SimpleName VariableDeclarationFragment MethodInvocation SimpleName prepare modified server key line
+new line SimpleName VariableDeclarationFragment MethodInvocation SimpleName client session
+new line SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote address
+new line SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+new line SimpleName VariableDeclarationFragment MethodInvocation SimpleName match line
+new line SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName match
+new line SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get server key
+new line SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new line
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName new line
+is empty SimpleName MethodInvocation SimpleName new line
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral update modified server key no replacement generated for {}
+log SimpleName MethodInvocation SimpleName client session
+log SimpleName MethodInvocation SimpleName remote address
+log SimpleName MethodInvocation SimpleName match line
+debug SimpleName MethodInvocation StringLiteral update modified server key no replacement generated for {}
+debug SimpleName MethodInvocation SimpleName client session
+debug SimpleName MethodInvocation SimpleName remote address
+debug SimpleName MethodInvocation SimpleName match line
+update modified server key no replacement generated for {} StringLiteral MethodInvocation SimpleName client session
+update modified server key no replacement generated for {} StringLiteral MethodInvocation SimpleName remote address
+update modified server key no replacement generated for {} StringLiteral MethodInvocation SimpleName match line
+client session SimpleName MethodInvocation SimpleName remote address
+client session SimpleName MethodInvocation SimpleName match line
+remote address SimpleName MethodInvocation SimpleName match line
+match line SimpleName MethodInvocation SimpleName equals
+match line SimpleName MethodInvocation SimpleName new line
+equals SimpleName MethodInvocation SimpleName new line
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral update modified server key unmodified upodated lline for {}
+log SimpleName MethodInvocation SimpleName client session
+log SimpleName MethodInvocation SimpleName remote address
+log SimpleName MethodInvocation SimpleName match line
+debug SimpleName MethodInvocation StringLiteral update modified server key unmodified upodated lline for {}
+debug SimpleName MethodInvocation SimpleName client session
+debug SimpleName MethodInvocation SimpleName remote address
+debug SimpleName MethodInvocation SimpleName match line
+update modified server key unmodified upodated lline for {} StringLiteral MethodInvocation SimpleName client session
+update modified server key unmodified upodated lline for {} StringLiteral MethodInvocation SimpleName remote address
+update modified server key unmodified upodated lline for {} StringLiteral MethodInvocation SimpleName match line
+client session SimpleName MethodInvocation SimpleName remote address
+client session SimpleName MethodInvocation SimpleName match line
+remote address SimpleName MethodInvocation SimpleName match line
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+matching index SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName matching index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+files SimpleName MethodInvocation SimpleName new buffered reader
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation QualifiedName standard charsetsutf
+new buffered reader SimpleName MethodInvocation SimpleName file
+new buffered reader SimpleName MethodInvocation QualifiedName standard charsetsutf
+file SimpleName MethodInvocation QualifiedName standard charsetsutf
+rdr SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+rdr SimpleName VariableDeclarationFragment MethodInvocation SimpleName new buffered reader
+rdr SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+rdr SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+buffered reader SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName rdr
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName rdr
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName line
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName rdr
+line SimpleName Assignment MethodInvocation SimpleName read line
+matching index SimpleName InfixExpression NumberLiteral empty
+lines SimpleName MethodInvocation SimpleName add
+lines SimpleName MethodInvocation SimpleName line
+add SimpleName MethodInvocation SimpleName line
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation SimpleName line
+trim to empty SimpleName MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName generic utils
+line SimpleName Assignment MethodInvocation SimpleName trim to empty
+line SimpleName Assignment MethodInvocation SimpleName line
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName line
+is empty SimpleName MethodInvocation SimpleName line
+lines SimpleName MethodInvocation SimpleName add
+lines SimpleName MethodInvocation SimpleName line
+add SimpleName MethodInvocation SimpleName line
+line SimpleName MethodInvocation SimpleName index of
+line SimpleName MethodInvocation QualifiedName ssh config file readercomment char
+index of SimpleName MethodInvocation QualifiedName ssh config file readercomment char
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh config file readercomment char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName line
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName ssh config file readercomment char
+pos SimpleName InfixExpression NumberLiteral empty
+lines SimpleName MethodInvocation SimpleName add
+lines SimpleName MethodInvocation SimpleName line
+add SimpleName MethodInvocation SimpleName line
+pos SimpleName InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation NumberLiteral empty
+line SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+line SimpleName Assignment MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName substring
+line SimpleName Assignment MethodInvocation NumberLiteral empty
+line SimpleName Assignment MethodInvocation SimpleName pos
+line SimpleName MethodInvocation SimpleName trim
+line SimpleName Assignment MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName trim
+match line SimpleName MethodInvocation SimpleName equals
+match line SimpleName MethodInvocation SimpleName line
+equals SimpleName MethodInvocation SimpleName line
+lines SimpleName MethodInvocation SimpleName add
+lines SimpleName MethodInvocation SimpleName line
+add SimpleName MethodInvocation SimpleName line
+lines SimpleName MethodInvocation SimpleName add
+lines SimpleName MethodInvocation SimpleName new line
+add SimpleName MethodInvocation SimpleName new line
+lines SimpleName MethodInvocation SimpleName size
+matching index SimpleName Assignment MethodInvocation SimpleName lines
+matching index SimpleName Assignment MethodInvocation SimpleName size
+line SimpleName InfixExpression ForStatement Assignment SimpleName line
+matching index SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName matching index
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral no match found for lines
+validate utils SimpleName MethodInvocation SimpleName match line
+check true SimpleName MethodInvocation InfixExpression SimpleName matching index
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral no match found for lines
+check true SimpleName MethodInvocation SimpleName match line
+matching index SimpleName InfixExpression MethodInvocation StringLiteral no match found for lines
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral no match found for lines
+matching index SimpleName InfixExpression MethodInvocation SimpleName match line
+empty NumberLiteral InfixExpression MethodInvocation SimpleName match line
+no match found for lines StringLiteral MethodInvocation SimpleName match line
+files SimpleName MethodInvocation SimpleName new buffered writer
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation QualifiedName standard charsetsutf
+new buffered writer SimpleName MethodInvocation SimpleName file
+new buffered writer SimpleName MethodInvocation QualifiedName standard charsetsutf
+file SimpleName MethodInvocation QualifiedName standard charsetsutf
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName new buffered writer
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+w SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+writer SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName w
+string SimpleName SimpleType SingleVariableDeclaration SimpleName l
+w SimpleName MethodInvocation SimpleName append
+w SimpleName MethodInvocation SimpleName l
+append SimpleName MethodInvocation SimpleName l
+w SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+l SimpleName MethodInvocation MethodInvocation SimpleName append
+w SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+l SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation QualifiedName io utilseol
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName lines
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName lines
+match SimpleName MethodInvocation SimpleName set server key
+match SimpleName MethodInvocation SimpleName actual
+set server key SimpleName MethodInvocation SimpleName actual
+entry SimpleName MethodInvocation SimpleName set config line
+entry SimpleName MethodInvocation SimpleName new line
+set config line SimpleName MethodInvocation SimpleName new line
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName match
+update lock SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType int
+update lock SimpleName SynchronizedStatement Block SynchronizedStatement SimpleName match
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral update modified server key replaced {} with {}
+log SimpleName MethodInvocation SimpleName file
+log SimpleName MethodInvocation SimpleName match line
+log SimpleName MethodInvocation SimpleName new line
+debug SimpleName MethodInvocation StringLiteral update modified server key replaced {} with {}
+debug SimpleName MethodInvocation SimpleName file
+debug SimpleName MethodInvocation SimpleName match line
+debug SimpleName MethodInvocation SimpleName new line
+update modified server key replaced {} with {} StringLiteral MethodInvocation SimpleName file
+update modified server key replaced {} with {} StringLiteral MethodInvocation SimpleName match line
+update modified server key replaced {} with {} StringLiteral MethodInvocation SimpleName new line
+file SimpleName MethodInvocation SimpleName match line
+file SimpleName MethodInvocation SimpleName new line
+match line SimpleName MethodInvocation SimpleName new line
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update modified server key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host entry pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName match
+void PrimitiveType MethodDeclaration SimpleName update modified server key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName client session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host entry pair
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName match
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName actual
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client session
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote address
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host entry pair
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName match
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+update modified server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName match
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName known hosts
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName match
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName known hosts
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+match SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+match SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+match SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName known hosts
+match SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+actual SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+actual SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName known hosts
+actual SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName known hosts
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+known hosts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update modified server key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName known hosts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update modified server key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName known hosts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

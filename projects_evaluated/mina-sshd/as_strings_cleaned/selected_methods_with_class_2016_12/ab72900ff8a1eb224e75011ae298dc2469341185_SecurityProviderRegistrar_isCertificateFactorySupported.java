@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+is security entity supported SimpleName MethodInvocation TypeLiteral SimpleType SimpleName certificate factory
+is security entity supported SimpleName MethodInvocation SimpleName type
+certificate factory SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type
+default Modifier MethodDeclaration PrimitiveType boolean
+default Modifier MethodDeclaration SimpleName is certificate factory supported
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration SimpleName is certificate factory supported
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+is certificate factory supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is certificate factory supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is certificate factory supported
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is certificate factory supported
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

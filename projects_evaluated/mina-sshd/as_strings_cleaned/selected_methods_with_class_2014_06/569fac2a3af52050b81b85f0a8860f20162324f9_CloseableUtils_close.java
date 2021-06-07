@@ -1,0 +1,145 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+state SimpleName MethodInvocation SimpleName compare and set
+state SimpleName MethodInvocation SimpleName opened
+state SimpleName MethodInvocation SimpleName immediate
+compare and set SimpleName MethodInvocation SimpleName opened
+compare and set SimpleName MethodInvocation SimpleName immediate
+opened SimpleName MethodInvocation SimpleName immediate
+state SimpleName MethodInvocation SimpleName compare and set
+state SimpleName MethodInvocation SimpleName graceful
+state SimpleName MethodInvocation SimpleName immediate
+compare and set SimpleName MethodInvocation SimpleName graceful
+compare and set SimpleName MethodInvocation SimpleName immediate
+graceful SimpleName MethodInvocation SimpleName immediate
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare and set
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName graceful
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName immediate
+compare and set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+compare and set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare and set
+compare and set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName graceful
+compare and set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName immediate
+opened SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+opened SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare and set
+opened SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName graceful
+opened SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName immediate
+immediate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+immediate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare and set
+immediate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName graceful
+immediate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName immediate
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing {} immediately
+debug SimpleName MethodInvocation StringLiteral closing {} immediately
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} closed
+debug SimpleName MethodInvocation StringLiteral {} closed
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation InfixExpression SimpleName closed
+get SimpleName MethodInvocation InfixExpression SimpleName closed
+state SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closed
+get SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closed
+closed SimpleName InfixExpression ConditionalExpression StringLiteral closed
+state SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closing
+get SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closing
+closed SimpleName InfixExpression ConditionalExpression StringLiteral closing
+closed StringLiteral ConditionalExpression StringLiteral closing
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} is already {}
+log SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName closed
+log SimpleName MethodInvocation ConditionalExpression StringLiteral closed
+log SimpleName MethodInvocation ConditionalExpression StringLiteral closing
+debug SimpleName MethodInvocation StringLiteral {} is already {}
+debug SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName closed
+debug SimpleName MethodInvocation ConditionalExpression StringLiteral closed
+debug SimpleName MethodInvocation ConditionalExpression StringLiteral closing
+{} is already {} StringLiteral MethodInvocation ConditionalExpression InfixExpression SimpleName closed
+{} is already {} StringLiteral MethodInvocation ConditionalExpression StringLiteral closed
+{} is already {} StringLiteral MethodInvocation ConditionalExpression StringLiteral closing
+state SimpleName MethodInvocation SimpleName compare and set
+state SimpleName MethodInvocation SimpleName opened
+state SimpleName MethodInvocation SimpleName graceful
+compare and set SimpleName MethodInvocation SimpleName opened
+compare and set SimpleName MethodInvocation SimpleName graceful
+opened SimpleName MethodInvocation SimpleName graceful
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing {} gracefully
+debug SimpleName MethodInvocation StringLiteral closing {} gracefully
+ssh future SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+grace SimpleName VariableDeclarationFragment MethodInvocation SimpleName do close gracefully
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+state SimpleName MethodInvocation SimpleName compare and set
+state SimpleName MethodInvocation SimpleName graceful
+state SimpleName MethodInvocation SimpleName immediate
+compare and set SimpleName MethodInvocation SimpleName graceful
+compare and set SimpleName MethodInvocation SimpleName immediate
+graceful SimpleName MethodInvocation SimpleName immediate
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} closed
+debug SimpleName MethodInvocation StringLiteral {} closed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+grace SimpleName MethodInvocation SimpleName add listener
+state SimpleName MethodInvocation SimpleName compare and set
+state SimpleName MethodInvocation SimpleName graceful
+state SimpleName MethodInvocation SimpleName immediate
+compare and set SimpleName MethodInvocation SimpleName graceful
+compare and set SimpleName MethodInvocation SimpleName immediate
+graceful SimpleName MethodInvocation SimpleName immediate
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} closed
+debug SimpleName MethodInvocation StringLiteral {} closed
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation InfixExpression SimpleName closed
+get SimpleName MethodInvocation InfixExpression SimpleName closed
+state SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closed
+get SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closed
+closed SimpleName InfixExpression ConditionalExpression StringLiteral closed
+state SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closing
+get SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral closing
+closed SimpleName InfixExpression ConditionalExpression StringLiteral closing
+closed StringLiteral ConditionalExpression StringLiteral closing
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} is already {}
+log SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName closed
+log SimpleName MethodInvocation ConditionalExpression StringLiteral closed
+log SimpleName MethodInvocation ConditionalExpression StringLiteral closing
+debug SimpleName MethodInvocation StringLiteral {} is already {}
+debug SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName closed
+debug SimpleName MethodInvocation ConditionalExpression StringLiteral closed
+debug SimpleName MethodInvocation ConditionalExpression StringLiteral closing
+{} is already {} StringLiteral MethodInvocation ConditionalExpression InfixExpression SimpleName closed
+{} is already {} StringLiteral MethodInvocation ConditionalExpression StringLiteral closed
+{} is already {} StringLiteral MethodInvocation ConditionalExpression StringLiteral closing
+immediately SimpleName IfStatement Block ReturnStatement SimpleName close future
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier MethodDeclaration Block IfStatement SimpleName immediately
+public Modifier MethodDeclaration Block ReturnStatement SimpleName close future
+close future SimpleName SimpleType MethodDeclaration SimpleName close
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration Block IfStatement SimpleName immediately
+close SimpleName MethodDeclaration Block ReturnStatement SimpleName close future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

@@ -1,0 +1,6 @@
+property resolver SimpleName SimpleType MethodDeclaration SimpleName get parent property resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property resolver
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent property resolver
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property resolver
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent property resolver

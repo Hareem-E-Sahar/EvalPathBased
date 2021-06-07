@@ -1,0 +1,38 @@
+abstract session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName check for timeouts
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+an error occurred while checking session StringLiteral InfixExpression SimpleName session
+an error occurred while checking session StringLiteral InfixExpression StringLiteral timeouts
+session SimpleName InfixExpression StringLiteral timeouts
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral an error occurred while checking session
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral timeouts
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral an error occurred while checking session
+warn SimpleName MethodInvocation InfixExpression SimpleName session
+warn SimpleName MethodInvocation InfixExpression StringLiteral timeouts
+warn SimpleName MethodInvocation SimpleName e
+an error occurred while checking session StringLiteral InfixExpression MethodInvocation SimpleName e
+session SimpleName InfixExpression MethodInvocation SimpleName e
+timeouts StringLiteral InfixExpression MethodInvocation SimpleName e
+abstract session SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sessions
+session SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sessions
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName sessions
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName sessions
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName sessions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

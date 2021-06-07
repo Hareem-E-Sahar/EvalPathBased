@@ -1,0 +1,24 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName client channel event
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName client channel event
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client channel event
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client channel event
+cond SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+cond SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+update current channel state SimpleName MethodInvocation SimpleName cond
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get channel state
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName client channel event
+public Modifier MethodDeclaration SimpleName get channel state
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get channel state
+client channel event SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get channel state
+get channel state SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get channel state
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get channel state

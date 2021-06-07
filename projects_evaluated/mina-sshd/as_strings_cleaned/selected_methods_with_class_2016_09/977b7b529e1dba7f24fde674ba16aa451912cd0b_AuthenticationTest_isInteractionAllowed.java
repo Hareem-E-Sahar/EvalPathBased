@@ -1,0 +1,28 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is interaction allowed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is interaction allowed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is interaction allowed
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is interaction allowed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+is interaction allowed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+is interaction allowed SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is interaction allowed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is interaction allowed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

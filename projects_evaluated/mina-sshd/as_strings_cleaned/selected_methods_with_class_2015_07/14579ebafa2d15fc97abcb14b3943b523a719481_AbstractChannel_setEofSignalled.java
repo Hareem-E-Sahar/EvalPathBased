@@ -1,0 +1,24 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName on
+eof SimpleName MethodInvocation SimpleName set
+eof SimpleName MethodInvocation SimpleName on
+set SimpleName MethodInvocation SimpleName on
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set eof signalled
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName on
+void PrimitiveType MethodDeclaration SimpleName set eof signalled
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName on
+set eof signalled SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set eof signalled SimpleName MethodDeclaration SingleVariableDeclaration SimpleName on
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set eof signalled
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName on
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set eof signalled
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName on

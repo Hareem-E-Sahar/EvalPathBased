@@ -1,0 +1,50 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+resolve agent forwarding filter SimpleName MethodInvocation SimpleName options
+agent filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve agent forwarding filter
+agent filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+agent forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName agent filter
+resolve tcp forwarding filter SimpleName MethodInvocation SimpleName options
+tcp filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve tcp forwarding filter
+tcp filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+tcp forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tcp filter
+resolve x forwarding filter SimpleName MethodInvocation SimpleName options
+x filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve x forwarding filter
+x filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+x forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x filter
+forwarding filter SimpleName MethodInvocation SimpleName as forwarding filter
+forwarding filter SimpleName MethodInvocation SimpleName agent filter
+forwarding filter SimpleName MethodInvocation SimpleName x filter
+forwarding filter SimpleName MethodInvocation SimpleName tcp filter
+as forwarding filter SimpleName MethodInvocation SimpleName agent filter
+as forwarding filter SimpleName MethodInvocation SimpleName x filter
+as forwarding filter SimpleName MethodInvocation SimpleName tcp filter
+agent filter SimpleName MethodInvocation SimpleName x filter
+agent filter SimpleName MethodInvocation SimpleName tcp filter
+x filter SimpleName MethodInvocation SimpleName tcp filter
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName forwarding filter
+public Modifier MethodDeclaration SimpleName resolve server forwarding
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName forwarding filter
+static Modifier MethodDeclaration SimpleName resolve server forwarding
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+forwarding filter SimpleName SimpleType MethodDeclaration SimpleName resolve server forwarding
+forwarding filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+resolve server forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+resolve server forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve server forwarding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve server forwarding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

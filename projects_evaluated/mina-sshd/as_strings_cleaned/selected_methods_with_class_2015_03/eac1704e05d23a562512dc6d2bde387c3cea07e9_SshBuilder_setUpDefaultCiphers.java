@@ -1,0 +1,49 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore unsupported
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName cipher
+default ciphers preference SimpleName MethodInvocation SimpleName size
+avail SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName default ciphers preference
+avail SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName is supported
+ignore unsupported SimpleName InfixExpression MethodInvocation SimpleName c
+ignore unsupported SimpleName InfixExpression MethodInvocation SimpleName is supported
+c SimpleName MethodInvocation SimpleName create
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation MethodInvocation SimpleName c
+avail SimpleName MethodInvocation MethodInvocation SimpleName create
+add SimpleName MethodInvocation MethodInvocation SimpleName c
+add SimpleName MethodInvocation MethodInvocation SimpleName create
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName default ciphers preference
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName default ciphers preference
+default ciphers preference SimpleName EnhancedForStatement Block ReturnStatement SimpleName avail
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration SimpleName set up default ciphers
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName default ciphers preference
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName avail
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName set up default ciphers
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName default ciphers preference
+static Modifier MethodDeclaration Block ReturnStatement SimpleName avail
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName set up default ciphers
+set up default ciphers SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set up default ciphers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+set up default ciphers SimpleName MethodDeclaration Block EnhancedForStatement SimpleName default ciphers preference
+set up default ciphers SimpleName MethodDeclaration Block ReturnStatement SimpleName avail
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up default ciphers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up default ciphers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported

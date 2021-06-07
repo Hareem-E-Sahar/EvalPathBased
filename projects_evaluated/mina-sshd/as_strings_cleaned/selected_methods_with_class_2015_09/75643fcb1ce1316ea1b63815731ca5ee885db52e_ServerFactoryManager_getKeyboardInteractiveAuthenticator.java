@@ -1,0 +1,6 @@
+keyboard interactive authenticator SimpleName SimpleType MethodDeclaration SimpleName get keyboard interactive authenticator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keyboard interactive authenticator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get keyboard interactive authenticator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keyboard interactive authenticator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get keyboard interactive authenticator

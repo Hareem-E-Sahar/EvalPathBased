@@ -1,0 +1,22 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file SimpleName MethodInvocation SimpleName to path
+set path SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName file
+set path SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SimpleName set file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+set file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+set file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file

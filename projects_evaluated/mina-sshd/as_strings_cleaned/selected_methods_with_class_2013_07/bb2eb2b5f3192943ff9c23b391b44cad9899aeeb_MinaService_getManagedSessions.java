@@ -1,0 +1,56 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+long SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+get io service SimpleName MethodInvocation MethodInvocation SimpleName get managed sessions
+mina SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get managed sessions
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+long SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+long SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+long SimpleName SimpleType SingleVariableDeclaration SimpleName id
+mina SimpleName MethodInvocation SimpleName key set
+mina SimpleName MethodInvocation SimpleName get
+mina SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+get session SimpleName MethodInvocation MethodInvocation SimpleName mina
+get session SimpleName MethodInvocation MethodInvocation SimpleName get
+get session SimpleName MethodInvocation MethodInvocation SimpleName id
+sessions SimpleName MethodInvocation SimpleName put
+sessions SimpleName MethodInvocation SimpleName id
+sessions SimpleName MethodInvocation MethodInvocation SimpleName get session
+sessions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mina
+sessions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+sessions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation MethodInvocation SimpleName get session
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mina
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+id SimpleName MethodInvocation MethodInvocation SimpleName get session
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mina
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName mina
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+public Modifier MethodDeclaration SimpleName get managed sessions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sessions
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+orgapachesshdcommonioio session QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+get managed sessions SimpleName MethodDeclaration Block ReturnStatement SimpleName sessions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get managed sessions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get managed sessions

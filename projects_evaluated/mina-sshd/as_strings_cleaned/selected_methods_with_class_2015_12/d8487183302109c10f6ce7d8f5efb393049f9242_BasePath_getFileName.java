@@ -1,0 +1,29 @@
+names SimpleName MethodInvocation SimpleName is empty
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName get
+names SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName names
+names SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName names
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create SimpleName MethodInvocation MethodInvocation SimpleName names
+create SimpleName MethodInvocation MethodInvocation SimpleName get
+create SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get file name
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get file name
+t SimpleName SimpleType MethodDeclaration SimpleName get file name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file name

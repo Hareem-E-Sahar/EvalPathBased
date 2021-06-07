@@ -1,0 +1,24 @@
+scp client creator SimpleName SimpleType SingleVariableDeclaration SimpleName scp client creator
+scp client creator SimpleName MethodInvocation SimpleName instance
+scp client creator SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName scp client creator
+scp client creator SimpleName MethodInvocation ConditionalExpression SimpleName scp client creator
+instance SimpleName MethodInvocation ConditionalExpression SimpleName scp client creator
+scp client creator SimpleName FieldAccess Assignment ConditionalExpression SimpleName scp client creator
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set scp client creator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp client creator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scp client creator
+void PrimitiveType MethodDeclaration SimpleName set scp client creator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp client creator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scp client creator
+set scp client creator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp client creator
+set scp client creator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scp client creator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set scp client creator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scp client creator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set scp client creator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scp client creator

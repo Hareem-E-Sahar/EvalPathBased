@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algorithm
+security utils SimpleName MethodInvocation SimpleName get key factory
+security utils SimpleName MethodInvocation SimpleName algorithm
+get key factory SimpleName MethodInvocation SimpleName algorithm
+protected Modifier MethodDeclaration SimpleType SimpleName key factory
+protected Modifier MethodDeclaration SimpleName get key factory
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+protected Modifier MethodDeclaration SimpleType SimpleName general security exception
+key factory SimpleName SimpleType MethodDeclaration SimpleName get key factory
+key factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+key factory SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+get key factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get key factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+get key factory SimpleName MethodDeclaration SimpleType SimpleName general security exception
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

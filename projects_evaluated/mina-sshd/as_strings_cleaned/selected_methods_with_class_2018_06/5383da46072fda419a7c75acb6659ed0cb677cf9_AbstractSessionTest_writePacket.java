@@ -1,0 +1,53 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+eof exception SimpleName SimpleType ClassInstanceCreation StringLiteral not open
+outgoing SimpleName MethodInvocation SimpleName offer
+outgoing SimpleName MethodInvocation SimpleName buffer
+offer SimpleName MethodInvocation SimpleName buffer
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral offer failure
+write aborted exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to offer outgoing buffer
+write aborted exception SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral offer failure
+failed to offer outgoing buffer StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName illegal state exception
+failed to offer outgoing buffer StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral offer failure
+test SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+io write future impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get simple name
+io write future impl SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+get simple name SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName io write future impl
+future SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get simple name
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName buffer
+io write future impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation QualifiedName booleantrue
+set value SimpleName MethodInvocation QualifiedName booleantrue
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io write future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write packet
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SimpleName write packet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+io write future SimpleName SimpleType MethodDeclaration SimpleName write packet
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write packet SimpleName MethodDeclaration SimpleType SimpleName io exception
+write packet SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName write packet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write packet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

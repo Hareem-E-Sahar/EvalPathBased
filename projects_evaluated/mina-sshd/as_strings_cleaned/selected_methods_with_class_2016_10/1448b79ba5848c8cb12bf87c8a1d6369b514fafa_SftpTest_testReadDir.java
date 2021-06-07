@@ -1,0 +1,221 @@
+session SimpleName MethodInvocation SimpleName open channel
+session SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+open channel SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName open channel
+channel sftp SimpleName SimpleType CastExpression MethodInvocation QualifiedName sftp constantssftp subsystem name
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName channel sftp
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName sftp constantssftp subsystem name
+channel sftp SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName connect
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+ssh client SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation SimpleName replace
+get name SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+get name SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation CharacterLiteral .
+replace SimpleName MethodInvocation CharacterLiteral /
+. CharacterLiteral MethodInvocation CharacterLiteral /
+get name SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral class
+replace SimpleName MethodInvocation InfixExpression StringLiteral class
+. CharacterLiteral MethodInvocation InfixExpression StringLiteral class
+/ CharacterLiteral MethodInvocation InfixExpression StringLiteral class
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class loader SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral class
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName replace
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral .
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral /
+get resource SimpleName MethodInvocation InfixExpression StringLiteral class
+get class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+get resource SimpleName MethodInvocation MethodInvocation SimpleName to uri
+class StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+url SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get resource
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName to uri
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get property
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral userdir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute file
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get absolute file
+get property SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get absolute file
+userdir StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get absolute file
+get absolute file SimpleName MethodInvocation MethodInvocation SimpleName to uri
+base SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get absolute file
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName to uri
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base
+base SimpleName MethodInvocation SimpleName relativize
+base SimpleName MethodInvocation SimpleName url
+relativize SimpleName MethodInvocation SimpleName url
+base SimpleName MethodInvocation MethodInvocation SimpleName get path
+relativize SimpleName MethodInvocation MethodInvocation SimpleName get path
+url SimpleName MethodInvocation MethodInvocation SimpleName get path
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get path
+base dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+base dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base dir
+base dir SimpleName MethodInvocation SimpleName get parent
+base dir SimpleName MethodInvocation InfixExpression StringLiteral /
+get parent SimpleName MethodInvocation InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName base dir
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get parent
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName replace
+path SimpleName MethodInvocation CharacterLiteral \\
+path SimpleName MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation CharacterLiteral \\
+replace SimpleName MethodInvocation CharacterLiteral /
+\\ CharacterLiteral MethodInvocation CharacterLiteral /
+path SimpleName Assignment MethodInvocation SimpleName path
+path SimpleName Assignment MethodInvocation SimpleName replace
+path SimpleName Assignment MethodInvocation CharacterLiteral \\
+path SimpleName Assignment MethodInvocation CharacterLiteral /
+vector SimpleName SimpleType ParameterizedType WildcardType ?
+c SimpleName MethodInvocation SimpleName ls
+c SimpleName MethodInvocation SimpleName path
+ls SimpleName MethodInvocation SimpleName path
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName ls
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName res
+base dir SimpleName MethodInvocation SimpleName get parent file
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName base dir
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+os utils SimpleName MethodInvocation SimpleName is unix
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+os utils SimpleName MethodInvocation ConditionalExpression ClassInstanceCreation QualifiedName stringcase insensitive order
+is unix SimpleName MethodInvocation ConditionalExpression ClassInstanceCreation QualifiedName stringcase insensitive order
+exp names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName os utils
+exp names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is unix
+exp names SimpleName VariableDeclarationFragment ConditionalExpression ClassInstanceCreation QualifiedName stringcase insensitive order
+dir SimpleName MethodInvocation SimpleName list
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName dir
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName names
+length SimpleName MethodInvocation SimpleName names
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName n
+. StringLiteral MethodInvocation SimpleName equals
+. StringLiteral MethodInvocation SimpleName n
+equals SimpleName MethodInvocation SimpleName n
+.. StringLiteral MethodInvocation SimpleName equals
+.. StringLiteral MethodInvocation SimpleName n
+equals SimpleName MethodInvocation SimpleName n
+. StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral ..
+. StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+. StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName n
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral ..
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+n SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral ..
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+failed to accumulate StringLiteral InfixExpression SimpleName n
+exp names SimpleName MethodInvocation SimpleName add
+exp names SimpleName MethodInvocation SimpleName n
+add SimpleName MethodInvocation SimpleName n
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to accumulate
+assert true SimpleName MethodInvocation InfixExpression SimpleName n
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exp names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName add
+assert true SimpleName MethodInvocation MethodInvocation SimpleName n
+failed to accumulate StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exp names
+failed to accumulate StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName add
+failed to accumulate StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName n
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exp names
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName add
+n SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName n
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName names
+n SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName names
+object SimpleName SimpleType SingleVariableDeclaration SimpleName f
+output debug message SimpleName MethodInvocation StringLiteral ls entry s
+output debug message SimpleName MethodInvocation SimpleName f
+ls entry s StringLiteral MethodInvocation SimpleName f
+channel sftpls entry QualifiedName SimpleType CastExpression SimpleName f
+entry SimpleName VariableDeclarationFragment CastExpression SimpleType QualifiedName channel sftpls entry
+entry SimpleName VariableDeclarationFragment CastExpression SimpleName f
+channel sftpls entry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+entry SimpleName MethodInvocation SimpleName get filename
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get filename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+. StringLiteral MethodInvocation SimpleName equals
+. StringLiteral MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+.. StringLiteral MethodInvocation SimpleName equals
+.. StringLiteral MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+. StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral ..
+. StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+. StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral ..
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral ..
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+entry not found StringLiteral InfixExpression SimpleName name
+exp names SimpleName MethodInvocation SimpleName remove
+exp names SimpleName MethodInvocation SimpleName name
+remove SimpleName MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral entry not found
+assert true SimpleName MethodInvocation InfixExpression SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exp names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName remove
+assert true SimpleName MethodInvocation MethodInvocation SimpleName name
+entry not found StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exp names
+entry not found StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName remove
+entry not found StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exp names
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName remove
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName res
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName res
+unlisted names StringLiteral InfixExpression SimpleName exp names
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName exp names
+is empty SimpleName MethodInvocation SimpleName exp names
+assert true SimpleName MethodInvocation InfixExpression StringLiteral unlisted names
+assert true SimpleName MethodInvocation InfixExpression SimpleName exp names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exp names
+unlisted names StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+unlisted names StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is empty
+unlisted names StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exp names
+exp names SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+exp names SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is empty
+exp names SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exp names
+c SimpleName MethodInvocation SimpleName disconnect
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test read dir
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test read dir
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test read dir
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test read dir SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test read dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test read dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

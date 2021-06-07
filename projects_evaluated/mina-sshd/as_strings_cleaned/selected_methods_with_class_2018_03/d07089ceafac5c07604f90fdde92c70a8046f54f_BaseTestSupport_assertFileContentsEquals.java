@@ -1,0 +1,188 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+path SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+path SimpleName SimpleType SingleVariableDeclaration SimpleName actual
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation SimpleName expected
+size SimpleName MethodInvocation SimpleName expected
+cmp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+cmp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+cmp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmp size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName files
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName expected
+prefix SimpleName InfixExpression StringLiteral : mismatched file size
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation SimpleName expected
+size SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral : mismatched file size
+assert equals SimpleName MethodInvocation SimpleName cmp size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName files
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+prefix SimpleName InfixExpression MethodInvocation SimpleName cmp size
+: mismatched file size StringLiteral InfixExpression MethodInvocation SimpleName cmp size
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName files
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+: mismatched file size StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName files
+: mismatched file size StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+: mismatched file size StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+cmp size SimpleName MethodInvocation MethodInvocation SimpleName files
+cmp size SimpleName MethodInvocation MethodInvocation SimpleName size
+cmp size SimpleName MethodInvocation MethodInvocation SimpleName expected
+files SimpleName MethodInvocation SimpleName new input stream
+files SimpleName MethodInvocation SimpleName expected
+new input stream SimpleName MethodInvocation SimpleName expected
+exp stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+exp stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName new input stream
+exp stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName exp stream
+files SimpleName MethodInvocation SimpleName new input stream
+files SimpleName MethodInvocation SimpleName actual
+new input stream SimpleName MethodInvocation SimpleName actual
+act stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+act stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName new input stream
+act stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName act stream
+byte PrimitiveType ArrayType ArrayCreation QualifiedName io utilsdefault copy size
+exp data SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+exp data SimpleName VariableDeclarationFragment ArrayCreation QualifiedName io utilsdefault copy size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp data
+byte PrimitiveType ArrayType ArrayCreation QualifiedName exp datalength
+act data SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+act data SimpleName VariableDeclarationFragment ArrayCreation QualifiedName exp datalength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName act data
+offset SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName offset
+long PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral l
+offset SimpleName InfixExpression SimpleName cmp size
+byte PrimitiveType CastExpression NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName fill
+arrays SimpleName MethodInvocation SimpleName exp data
+arrays SimpleName MethodInvocation CastExpression PrimitiveType byte
+arrays SimpleName MethodInvocation CastExpression NumberLiteral empty
+fill SimpleName MethodInvocation SimpleName exp data
+fill SimpleName MethodInvocation CastExpression PrimitiveType byte
+fill SimpleName MethodInvocation CastExpression NumberLiteral empty
+exp data SimpleName MethodInvocation CastExpression PrimitiveType byte
+exp data SimpleName MethodInvocation CastExpression NumberLiteral empty
+exp stream SimpleName MethodInvocation SimpleName read
+exp stream SimpleName MethodInvocation SimpleName exp data
+read SimpleName MethodInvocation SimpleName exp data
+exp len SimpleName VariableDeclarationFragment MethodInvocation SimpleName exp stream
+exp len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+exp len SimpleName VariableDeclarationFragment MethodInvocation SimpleName exp data
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName exp stream
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName exp data
+byte PrimitiveType CastExpression NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName fill
+arrays SimpleName MethodInvocation SimpleName act data
+arrays SimpleName MethodInvocation CastExpression PrimitiveType byte
+arrays SimpleName MethodInvocation CastExpression NumberLiteral empty
+fill SimpleName MethodInvocation SimpleName act data
+fill SimpleName MethodInvocation CastExpression PrimitiveType byte
+fill SimpleName MethodInvocation CastExpression NumberLiteral empty
+act data SimpleName MethodInvocation CastExpression PrimitiveType byte
+act data SimpleName MethodInvocation CastExpression NumberLiteral empty
+act stream SimpleName MethodInvocation SimpleName read
+act stream SimpleName MethodInvocation SimpleName act data
+read SimpleName MethodInvocation SimpleName act data
+act len SimpleName VariableDeclarationFragment MethodInvocation SimpleName act stream
+act len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+act len SimpleName VariableDeclarationFragment MethodInvocation SimpleName act data
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName act len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName act stream
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName act data
+prefix SimpleName InfixExpression StringLiteral : mismatched read size at offset
+prefix SimpleName InfixExpression SimpleName offset
+: mismatched read size at offset StringLiteral InfixExpression SimpleName offset
+assert equals SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral : mismatched read size at offset
+assert equals SimpleName MethodInvocation InfixExpression SimpleName offset
+assert equals SimpleName MethodInvocation SimpleName exp len
+assert equals SimpleName MethodInvocation SimpleName act len
+prefix SimpleName InfixExpression MethodInvocation SimpleName exp len
+: mismatched read size at offset StringLiteral InfixExpression MethodInvocation SimpleName exp len
+offset SimpleName InfixExpression MethodInvocation SimpleName exp len
+prefix SimpleName InfixExpression MethodInvocation SimpleName act len
+: mismatched read size at offset StringLiteral InfixExpression MethodInvocation SimpleName act len
+offset SimpleName InfixExpression MethodInvocation SimpleName act len
+exp len SimpleName MethodInvocation SimpleName act len
+prefix SimpleName InfixExpression StringLiteral : mismatched data at offset
+prefix SimpleName InfixExpression SimpleName offset
+: mismatched data at offset StringLiteral InfixExpression SimpleName offset
+assert array equals SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert array equals SimpleName MethodInvocation InfixExpression StringLiteral : mismatched data at offset
+assert array equals SimpleName MethodInvocation InfixExpression SimpleName offset
+assert array equals SimpleName MethodInvocation SimpleName exp data
+assert array equals SimpleName MethodInvocation SimpleName act data
+prefix SimpleName InfixExpression MethodInvocation SimpleName exp data
+: mismatched data at offset StringLiteral InfixExpression MethodInvocation SimpleName exp data
+offset SimpleName InfixExpression MethodInvocation SimpleName exp data
+prefix SimpleName InfixExpression MethodInvocation SimpleName act data
+: mismatched data at offset StringLiteral InfixExpression MethodInvocation SimpleName act data
+offset SimpleName InfixExpression MethodInvocation SimpleName act data
+exp data SimpleName MethodInvocation SimpleName act data
+offset SimpleName Assignment SimpleName exp len
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName offset
+long PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cmp size
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert file contents equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert file contents equals
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName actual
+void PrimitiveType MethodDeclaration SimpleName assert file contents equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName actual
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+assert file contents equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert file contents equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+assert file contents equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+assert file contents equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert file contents equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+assert file contents equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual
+assert file contents equals SimpleName MethodDeclaration SimpleType SimpleName io exception
+assert file contents equals SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+expected SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+actual SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert file contents equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert file contents equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

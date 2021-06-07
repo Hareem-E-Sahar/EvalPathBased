@@ -1,0 +1,128 @@
+builtin identities SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+expected SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+expected SimpleName MethodInvocation SimpleName is supported
+skip unsupported builtin identity StringLiteral InfixExpression SimpleName name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral skip unsupported builtin identity
+systemout QualifiedName MethodInvocation InfixExpression SimpleName name
+println SimpleName MethodInvocation InfixExpression StringLiteral skip unsupported builtin identity
+println SimpleName MethodInvocation InfixExpression SimpleName name
+expected SimpleName MethodInvocation SimpleName get algorithm
+security utils SimpleName MethodInvocation SimpleName get key pair generator
+security utils SimpleName MethodInvocation MethodInvocation SimpleName expected
+security utils SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+get key pair generator SimpleName MethodInvocation MethodInvocation SimpleName expected
+get key pair generator SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+gen SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+gen SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key pair generator
+gen SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName expected
+gen SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get algorithm
+key pair generator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gen
+gen SimpleName MethodInvocation SimpleName generate key pair
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName gen
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate key pair
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+checking builtin identity StringLiteral InfixExpression SimpleName name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral checking builtin identity
+systemout QualifiedName MethodInvocation InfixExpression SimpleName name
+println SimpleName MethodInvocation InfixExpression StringLiteral checking builtin identity
+println SimpleName MethodInvocation InfixExpression SimpleName name
+name SimpleName InfixExpression StringLiteral pair
+builtin identities SimpleName MethodInvocation SimpleName from key pair
+builtin identities SimpleName MethodInvocation SimpleName kp
+from key pair SimpleName MethodInvocation SimpleName kp
+assert same SimpleName MethodInvocation InfixExpression SimpleName name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral pair
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName builtin identities
+assert same SimpleName MethodInvocation MethodInvocation SimpleName from key pair
+assert same SimpleName MethodInvocation MethodInvocation SimpleName kp
+name SimpleName InfixExpression MethodInvocation SimpleName expected
+pair StringLiteral InfixExpression MethodInvocation SimpleName expected
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName builtin identities
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName from key pair
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName kp
+pair StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName builtin identities
+pair StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from key pair
+pair StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName kp
+expected SimpleName MethodInvocation MethodInvocation SimpleName builtin identities
+expected SimpleName MethodInvocation MethodInvocation SimpleName from key pair
+expected SimpleName MethodInvocation MethodInvocation SimpleName kp
+name SimpleName InfixExpression StringLiteral public
+kp SimpleName MethodInvocation SimpleName get public
+builtin identities SimpleName MethodInvocation SimpleName from key
+builtin identities SimpleName MethodInvocation MethodInvocation SimpleName kp
+builtin identities SimpleName MethodInvocation MethodInvocation SimpleName get public
+from key SimpleName MethodInvocation MethodInvocation SimpleName kp
+from key SimpleName MethodInvocation MethodInvocation SimpleName get public
+assert same SimpleName MethodInvocation InfixExpression SimpleName name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral public
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName builtin identities
+assert same SimpleName MethodInvocation MethodInvocation SimpleName from key
+assert same SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+assert same SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public
+name SimpleName InfixExpression MethodInvocation SimpleName expected
+public StringLiteral InfixExpression MethodInvocation SimpleName expected
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName builtin identities
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName from key
+public StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName builtin identities
+public StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from key
+expected SimpleName MethodInvocation MethodInvocation SimpleName builtin identities
+expected SimpleName MethodInvocation MethodInvocation SimpleName from key
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public
+name SimpleName InfixExpression StringLiteral private
+kp SimpleName MethodInvocation SimpleName get private
+builtin identities SimpleName MethodInvocation SimpleName from key
+builtin identities SimpleName MethodInvocation MethodInvocation SimpleName kp
+builtin identities SimpleName MethodInvocation MethodInvocation SimpleName get private
+from key SimpleName MethodInvocation MethodInvocation SimpleName kp
+from key SimpleName MethodInvocation MethodInvocation SimpleName get private
+assert same SimpleName MethodInvocation InfixExpression SimpleName name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral private
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName builtin identities
+assert same SimpleName MethodInvocation MethodInvocation SimpleName from key
+assert same SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+assert same SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get private
+name SimpleName InfixExpression MethodInvocation SimpleName expected
+private StringLiteral InfixExpression MethodInvocation SimpleName expected
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName builtin identities
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName from key
+private StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName builtin identities
+private StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from key
+expected SimpleName MethodInvocation MethodInvocation SimpleName builtin identities
+expected SimpleName MethodInvocation MethodInvocation SimpleName from key
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get private
+builtin identities SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin identitiesvalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin identitiesvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from key
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from key
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin identitiesvalues
+void PrimitiveType MethodDeclaration SimpleName test from key
+void PrimitiveType MethodDeclaration SimpleType SimpleName general security exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin identitiesvalues
+test from key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+test from key SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin identitiesvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

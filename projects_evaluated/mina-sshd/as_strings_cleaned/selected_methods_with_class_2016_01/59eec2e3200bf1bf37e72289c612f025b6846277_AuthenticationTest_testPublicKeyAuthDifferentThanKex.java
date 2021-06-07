@@ -1,0 +1,455 @@
+utils SimpleName MethodInvocation SimpleName generate key pair
+utils SimpleName MethodInvocation StringLiteral rsa
+utils SimpleName MethodInvocation NumberLiteral empty
+generate key pair SimpleName MethodInvocation StringLiteral rsa
+generate key pair SimpleName MethodInvocation NumberLiteral empty
+rsa StringLiteral MethodInvocation NumberLiteral empty
+utils SimpleName MethodInvocation SimpleName generate key pair
+utils SimpleName MethodInvocation StringLiteral dsa
+utils SimpleName MethodInvocation NumberLiteral empty
+generate key pair SimpleName MethodInvocation StringLiteral dsa
+generate key pair SimpleName MethodInvocation NumberLiteral empty
+dsa StringLiteral MethodInvocation NumberLiteral empty
+utils SimpleName MethodInvocation SimpleName generate key pair
+utils SimpleName MethodInvocation StringLiteral ec
+utils SimpleName MethodInvocation NumberLiteral empty
+generate key pair SimpleName MethodInvocation StringLiteral ec
+generate key pair SimpleName MethodInvocation NumberLiteral empty
+ec StringLiteral MethodInvocation NumberLiteral empty
+key pair providerutils QualifiedName MethodInvocation SimpleName wrap
+key pair providerutils QualifiedName MethodInvocation MethodInvocation SimpleName utils
+key pair providerutils QualifiedName MethodInvocation MethodInvocation SimpleName generate key pair
+key pair providerutils QualifiedName MethodInvocation MethodInvocation StringLiteral rsa
+key pair providerutils QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+key pair providerutils QualifiedName MethodInvocation MethodInvocation SimpleName utils
+key pair providerutils QualifiedName MethodInvocation MethodInvocation SimpleName generate key pair
+key pair providerutils QualifiedName MethodInvocation MethodInvocation StringLiteral dsa
+key pair providerutils QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+key pair providerutils QualifiedName MethodInvocation MethodInvocation SimpleName utils
+key pair providerutils QualifiedName MethodInvocation MethodInvocation SimpleName generate key pair
+key pair providerutils QualifiedName MethodInvocation MethodInvocation StringLiteral ec
+key pair providerutils QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+wrap SimpleName MethodInvocation MethodInvocation SimpleName utils
+wrap SimpleName MethodInvocation MethodInvocation SimpleName generate key pair
+wrap SimpleName MethodInvocation MethodInvocation StringLiteral rsa
+wrap SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+wrap SimpleName MethodInvocation MethodInvocation SimpleName utils
+wrap SimpleName MethodInvocation MethodInvocation SimpleName generate key pair
+wrap SimpleName MethodInvocation MethodInvocation StringLiteral dsa
+wrap SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+wrap SimpleName MethodInvocation MethodInvocation SimpleName utils
+wrap SimpleName MethodInvocation MethodInvocation SimpleName generate key pair
+wrap SimpleName MethodInvocation MethodInvocation StringLiteral ec
+wrap SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dsa
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dsa
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dsa
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dsa
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+rsa StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+generate key pair SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+dsa StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+dsa StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+dsa StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+dsa StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName utils
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName generate key pair
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral ec
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+server keys SimpleName VariableDeclarationFragment MethodInvocation QualifiedName key pair providerutils
+server keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrap
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utils
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName generate key pair
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral rsa
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utils
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName generate key pair
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral dsa
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utils
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName generate key pair
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral ec
+server keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName key pair provider
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName server keys
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName key pair providerutils
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wrap
+key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server keys
+sshd SimpleName MethodInvocation SimpleName set key pair provider
+sshd SimpleName MethodInvocation SimpleName server keys
+set key pair provider SimpleName MethodInvocation SimpleName server keys
+sshd SimpleName MethodInvocation SimpleName set keyboard interactive authenticator
+sshd SimpleName MethodInvocation QualifiedName keyboard interactive authenticatornone
+set keyboard interactive authenticator SimpleName MethodInvocation QualifiedName keyboard interactive authenticatornone
+sshd SimpleName MethodInvocation SimpleName set password authenticator
+sshd SimpleName MethodInvocation QualifiedName reject all password authenticatorinstance
+set password authenticator SimpleName MethodInvocation QualifiedName reject all password authenticatorinstance
+utils SimpleName MethodInvocation SimpleName generate key pair
+utils SimpleName MethodInvocation StringLiteral ec
+utils SimpleName MethodInvocation NumberLiteral empty
+generate key pair SimpleName MethodInvocation StringLiteral ec
+generate key pair SimpleName MethodInvocation NumberLiteral empty
+ec StringLiteral MethodInvocation NumberLiteral empty
+client identity SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+client identity SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate key pair
+client identity SimpleName VariableDeclarationFragment MethodInvocation StringLiteral ec
+client identity SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName key pair
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName client identity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName utils
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generate key pair
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral ec
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client identity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName key
+get key type SimpleName MethodInvocation SimpleName key
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName client identity
+get key type SimpleName MethodInvocation SimpleName client identity
+exp type SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+exp type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+exp type SimpleName VariableDeclarationFragment MethodInvocation SimpleName client identity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp type
+assert equals SimpleName MethodInvocation StringLiteral mismatched client key types
+assert equals SimpleName MethodInvocation SimpleName exp type
+assert equals SimpleName MethodInvocation SimpleName key type
+mismatched client key types StringLiteral MethodInvocation SimpleName exp type
+mismatched client key types StringLiteral MethodInvocation SimpleName key type
+exp type SimpleName MethodInvocation SimpleName key type
+client identity SimpleName MethodInvocation SimpleName get public
+assert key equals SimpleName MethodInvocation StringLiteral mismatched authentication public keys
+assert key equals SimpleName MethodInvocation MethodInvocation SimpleName client identity
+assert key equals SimpleName MethodInvocation MethodInvocation SimpleName get public
+assert key equals SimpleName MethodInvocation SimpleName key
+mismatched authentication public keys StringLiteral MethodInvocation MethodInvocation SimpleName client identity
+mismatched authentication public keys StringLiteral MethodInvocation MethodInvocation SimpleName get public
+mismatched authentication public keys StringLiteral MethodInvocation SimpleName key
+client identity SimpleName MethodInvocation MethodInvocation SimpleName key
+get public SimpleName MethodInvocation MethodInvocation SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName authenticate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName username
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName authenticate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SimpleName authenticate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+authenticate SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+sshd SimpleName MethodInvocation SimpleName set publickey authenticator
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName publickey authenticator
+set publickey authenticator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName publickey authenticator
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup test client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+kex signature SimpleName VariableDeclarationFragment QualifiedName builtin signaturesrsa
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName named factory
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName signature
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName kex signature
+final Modifier VariableDeclarationStatement VariableDeclarationFragment QualifiedName builtin signaturesrsa
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+collections SimpleName MethodInvocation ParameterizedType SimpleType SimpleName named factory
+collections SimpleName MethodInvocation ParameterizedType SimpleType SimpleName signature
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName kex signature
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName singleton list
+signature SimpleName SimpleType ParameterizedType MethodInvocation SimpleName singleton list
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName kex signature
+signature SimpleName SimpleType ParameterizedType MethodInvocation SimpleName kex signature
+singleton list SimpleName MethodInvocation SimpleName kex signature
+client SimpleName MethodInvocation SimpleName set signature factories
+client SimpleName MethodInvocation MethodInvocation SimpleName collections
+client SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+client SimpleName MethodInvocation MethodInvocation SimpleName kex signature
+set signature factories SimpleName MethodInvocation MethodInvocation SimpleName collections
+set signature factories SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set signature factories SimpleName MethodInvocation MethodInvocation SimpleName kex signature
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName ssh client session
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote address
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName server key
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName server key
+get key type SimpleName MethodInvocation SimpleName server key
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName server key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+kex signature SimpleName MethodInvocation SimpleName get name
+exp type SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex signature
+exp type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp type
+assert equals SimpleName MethodInvocation StringLiteral mismatched server key type
+assert equals SimpleName MethodInvocation SimpleName exp type
+assert equals SimpleName MethodInvocation SimpleName key type
+mismatched server key type StringLiteral MethodInvocation SimpleName exp type
+mismatched server key type StringLiteral MethodInvocation SimpleName key type
+exp type SimpleName MethodInvocation SimpleName key type
+server keys SimpleName MethodInvocation SimpleName load key
+server keys SimpleName MethodInvocation SimpleName key type
+load key SimpleName MethodInvocation SimpleName key type
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName server keys
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName load key
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName key type
+validate utils SimpleName MethodInvocation StringLiteral no server key for types
+validate utils SimpleName MethodInvocation SimpleName key type
+check not null SimpleName MethodInvocation MethodInvocation SimpleName server keys
+check not null SimpleName MethodInvocation MethodInvocation SimpleName load key
+check not null SimpleName MethodInvocation MethodInvocation SimpleName key type
+check not null SimpleName MethodInvocation StringLiteral no server key for types
+check not null SimpleName MethodInvocation SimpleName key type
+server keys SimpleName MethodInvocation MethodInvocation StringLiteral no server key for types
+load key SimpleName MethodInvocation MethodInvocation StringLiteral no server key for types
+key type SimpleName MethodInvocation MethodInvocation StringLiteral no server key for types
+server keys SimpleName MethodInvocation MethodInvocation SimpleName key type
+load key SimpleName MethodInvocation MethodInvocation SimpleName key type
+key type SimpleName MethodInvocation MethodInvocation SimpleName key type
+no server key for types StringLiteral MethodInvocation SimpleName key type
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+kp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server keys
+kp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName load key
+kp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key type
+kp SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no server key for types
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName key type
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+kp SimpleName MethodInvocation SimpleName get public
+assert key equals SimpleName MethodInvocation StringLiteral mismatched server public keys
+assert key equals SimpleName MethodInvocation MethodInvocation SimpleName kp
+assert key equals SimpleName MethodInvocation MethodInvocation SimpleName get public
+assert key equals SimpleName MethodInvocation SimpleName server key
+mismatched server public keys StringLiteral MethodInvocation MethodInvocation SimpleName kp
+mismatched server public keys StringLiteral MethodInvocation MethodInvocation SimpleName get public
+mismatched server public keys StringLiteral MethodInvocation SimpleName server key
+kp SimpleName MethodInvocation MethodInvocation SimpleName server key
+get public SimpleName MethodInvocation MethodInvocation SimpleName server key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName verify server key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName verify server key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server key
+boolean PrimitiveType MethodDeclaration SimpleName verify server key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server key
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ssh client session
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote address
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+verify server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server key
+verify server key SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+ssh client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+ssh client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+client SimpleName MethodInvocation SimpleName set server key verifier
+client SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName server key verifier
+set server key verifier SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName server key verifier
+factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName orgapachesshdclientauthuser auth public key factory
+orgapachesshdclientauthuser auth public key factory QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName named factory
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName signature
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation QualifiedName builtin signaturesnistp
+arrays SimpleName MethodInvocation QualifiedName builtin signaturesnistp
+arrays SimpleName MethodInvocation QualifiedName builtin signaturesnistp
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+signature SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+named factory SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName builtin signaturesnistp
+signature SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName builtin signaturesnistp
+named factory SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName builtin signaturesnistp
+signature SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName builtin signaturesnistp
+named factory SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName builtin signaturesnistp
+signature SimpleName SimpleType ParameterizedType MethodInvocation QualifiedName builtin signaturesnistp
+as list SimpleName MethodInvocation QualifiedName builtin signaturesnistp
+as list SimpleName MethodInvocation QualifiedName builtin signaturesnistp
+as list SimpleName MethodInvocation QualifiedName builtin signaturesnistp
+builtin signaturesnistp QualifiedName MethodInvocation QualifiedName builtin signaturesnistp
+builtin signaturesnistp QualifiedName MethodInvocation QualifiedName builtin signaturesnistp
+builtin signaturesnistp QualifiedName MethodInvocation QualifiedName builtin signaturesnistp
+factory SimpleName MethodInvocation SimpleName set signature factories
+factory SimpleName MethodInvocation MethodInvocation SimpleName arrays
+factory SimpleName MethodInvocation MethodInvocation SimpleName as list
+factory SimpleName MethodInvocation MethodInvocation QualifiedName builtin signaturesnistp
+factory SimpleName MethodInvocation MethodInvocation QualifiedName builtin signaturesnistp
+factory SimpleName MethodInvocation MethodInvocation QualifiedName builtin signaturesnistp
+set signature factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set signature factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+set signature factories SimpleName MethodInvocation MethodInvocation QualifiedName builtin signaturesnistp
+set signature factories SimpleName MethodInvocation MethodInvocation QualifiedName builtin signaturesnistp
+set signature factories SimpleName MethodInvocation MethodInvocation QualifiedName builtin signaturesnistp
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName user auth
+collections SimpleName MethodInvocation ParameterizedType SimpleType SimpleName named factory
+collections SimpleName MethodInvocation ParameterizedType SimpleType SimpleName user auth
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName factory
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName singleton list
+user auth SimpleName SimpleType ParameterizedType MethodInvocation SimpleName singleton list
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName factory
+user auth SimpleName SimpleType ParameterizedType MethodInvocation SimpleName factory
+singleton list SimpleName MethodInvocation SimpleName factory
+client SimpleName MethodInvocation SimpleName set user auth factories
+client SimpleName MethodInvocation MethodInvocation SimpleName collections
+client SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+client SimpleName MethodInvocation MethodInvocation SimpleName factory
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName collections
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName factory
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName add public key identity
+s SimpleName MethodInvocation SimpleName client identity
+add public key identity SimpleName MethodInvocation SimpleName client identity
+s SimpleName MethodInvocation SimpleName auth
+s SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+s SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+s SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation SimpleName stop
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test public key auth different than kex
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test public key auth different than kex
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test public key auth different than kex
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test public key auth different than kex SimpleName MethodDeclaration SimpleType SimpleName exception
+test public key auth different than kex SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test public key auth different than kex SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test public key auth different than kex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test public key auth different than kex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

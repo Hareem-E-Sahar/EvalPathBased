@@ -1,0 +1,79 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+io write future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName is written
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closeimmediately ssh msg channel close written on channel
+log SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName immediately
+debug SimpleName MethodInvocation StringLiteral closeimmediately ssh msg channel close written on channel
+debug SimpleName MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation SimpleName immediately
+closeimmediately ssh msg channel close written on channel StringLiteral MethodInvocation SimpleName channel
+closeimmediately ssh msg channel close written on channel StringLiteral MethodInvocation SimpleName immediately
+channel SimpleName MethodInvocation SimpleName immediately
+graceful state SimpleName MethodInvocation SimpleName compare and set
+graceful state SimpleName MethodInvocation QualifiedName graceful stateopened
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclose sent
+compare and set SimpleName MethodInvocation QualifiedName graceful stateopened
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclose sent
+graceful stateopened QualifiedName MethodInvocation QualifiedName graceful stateclose sent
+graceful state SimpleName MethodInvocation SimpleName compare and set
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclose received
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclosed
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclose received
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclosed
+graceful stateclose received QualifiedName MethodInvocation QualifiedName graceful stateclosed
+graceful future SimpleName MethodInvocation SimpleName set closed
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closeimmediately failed to write ssh msg channel close on channel
+log SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName immediately
+debug SimpleName MethodInvocation StringLiteral closeimmediately failed to write ssh msg channel close on channel
+debug SimpleName MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation SimpleName immediately
+closeimmediately failed to write ssh msg channel close on channel StringLiteral MethodInvocation SimpleName channel
+closeimmediately failed to write ssh msg channel close on channel StringLiteral MethodInvocation SimpleName immediately
+channel SimpleName MethodInvocation SimpleName immediately
+channel SimpleName MethodInvocation SimpleName close
+channel SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName operation complete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName operation complete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName operation complete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future

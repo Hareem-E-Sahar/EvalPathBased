@@ -1,0 +1,70 @@
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel listener proxy
+channel listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+listener SimpleName MethodInvocation SimpleName channel closed
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName t
+peel exception SimpleName MethodInvocation SimpleName t
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while signal channel
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while signal channel
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral while signal channel
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral closed
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral closed
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral closed
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+while signal channel StringLiteral InfixExpression MethodInvocation SimpleName to string
+while signal channel StringLiteral InfixExpression StringLiteral closed
+while signal channel StringLiteral InfixExpression MethodInvocation SimpleName e
+while signal channel StringLiteral InfixExpression MethodInvocation SimpleName get message
+to string SimpleName MethodInvocation InfixExpression StringLiteral closed
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+closed StringLiteral InfixExpression MethodInvocation SimpleName e
+closed StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral while signal channel
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral closed
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation InfixExpression StringLiteral while signal channel
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+warn SimpleName MethodInvocation InfixExpression StringLiteral closed
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+while signal channel StringLiteral InfixExpression MethodInvocation SimpleName e
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+closed StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+channel listeners SimpleName FieldAccess MethodInvocation SimpleName clear
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName pre close
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName pre close
+void PrimitiveType MethodDeclaration SimpleName pre close
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName pre close
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pre close

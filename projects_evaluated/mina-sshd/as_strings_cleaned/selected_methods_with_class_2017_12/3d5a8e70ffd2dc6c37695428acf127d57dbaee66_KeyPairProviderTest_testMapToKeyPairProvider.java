@@ -1,0 +1,140 @@
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pub key
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName private key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName private key
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv key
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get current test name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get simple name
+test keys SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation SimpleName get current test name
+test keys SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation SimpleName get simple name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName test keys
+as list SimpleName MethodInvocation SimpleName test keys
+function SimpleName MethodInvocation SimpleName identity
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName pub key
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName prv key
+pub key SimpleName ClassInstanceCreation SimpleName prv key
+k SimpleName VariableDeclarationFragment LambdaExpression ClassInstanceCreation SimpleName pub key
+k SimpleName VariableDeclarationFragment LambdaExpression ClassInstanceCreation SimpleName prv key
+generic utils SimpleName MethodInvocation SimpleName to sorted map
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName arrays
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName as list
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName test keys
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName function
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName identity
+generic utils SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName k
+generic utils SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName pub key
+generic utils SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName prv key
+generic utils SimpleName MethodInvocation QualifiedName stringcase insensitive order
+to sorted map SimpleName MethodInvocation MethodInvocation SimpleName arrays
+to sorted map SimpleName MethodInvocation MethodInvocation SimpleName as list
+to sorted map SimpleName MethodInvocation MethodInvocation SimpleName test keys
+to sorted map SimpleName MethodInvocation MethodInvocation SimpleName function
+to sorted map SimpleName MethodInvocation MethodInvocation SimpleName identity
+to sorted map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName k
+to sorted map SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName pub key
+to sorted map SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName prv key
+to sorted map SimpleName MethodInvocation QualifiedName stringcase insensitive order
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName function
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName function
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity
+test keys SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName function
+test keys SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity
+arrays SimpleName MethodInvocation MethodInvocation QualifiedName stringcase insensitive order
+as list SimpleName MethodInvocation MethodInvocation QualifiedName stringcase insensitive order
+test keys SimpleName MethodInvocation MethodInvocation QualifiedName stringcase insensitive order
+function SimpleName MethodInvocation MethodInvocation QualifiedName stringcase insensitive order
+identity SimpleName MethodInvocation MethodInvocation QualifiedName stringcase insensitive order
+k SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation QualifiedName stringcase insensitive order
+pub key SimpleName ClassInstanceCreation LambdaExpression MethodInvocation QualifiedName stringcase insensitive order
+prv key SimpleName ClassInstanceCreation LambdaExpression MethodInvocation QualifiedName stringcase insensitive order
+pairs map SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+pairs map SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sorted map
+pairs map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+pairs map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+pairs map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName test keys
+pairs map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName function
+pairs map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName identity
+pairs map SimpleName VariableDeclarationFragment MethodInvocation QualifiedName stringcase insensitive order
+mapped key pair providermap to key pair provider QualifiedName MethodInvocation SimpleName apply
+mapped key pair providermap to key pair provider QualifiedName MethodInvocation SimpleName pairs map
+apply SimpleName MethodInvocation SimpleName pairs map
+provider SimpleName VariableDeclarationFragment MethodInvocation QualifiedName mapped key pair providermap to key pair provider
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName apply
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName pairs map
+key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+pairs map SimpleName MethodInvocation SimpleName key set
+provider SimpleName MethodInvocation SimpleName get key types
+assert equals SimpleName MethodInvocation StringLiteral key types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName pairs map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName key set
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get key types
+key types StringLiteral MethodInvocation MethodInvocation SimpleName pairs map
+key types StringLiteral MethodInvocation MethodInvocation SimpleName key set
+key types StringLiteral MethodInvocation MethodInvocation SimpleName provider
+key types StringLiteral MethodInvocation MethodInvocation SimpleName get key types
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key types
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key types
+pairs map SimpleName MethodInvocation SimpleName values
+provider SimpleName MethodInvocation SimpleName load keys
+assert equals SimpleName MethodInvocation StringLiteral key pairs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName pairs map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName values
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName load keys
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName pairs map
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName values
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName provider
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName load keys
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName load keys
+values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName load keys
+provider SimpleName MethodInvocation SimpleName load key
+provider SimpleName MethodInvocation SimpleName key type
+load key SimpleName MethodInvocation SimpleName key type
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName load key
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName key type
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation SimpleName key type
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+key type SimpleName MethodInvocation SimpleName expected
+key type SimpleName MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+key type SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName expected
+pairs map SimpleName MethodInvocation SimpleName for each
+pairs map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key type
+pairs map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName expected
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key type
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName expected
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test map to key pair provider
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test map to key pair provider
+void PrimitiveType MethodDeclaration SimpleName test map to key pair provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test map to key pair provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test map to key pair provider

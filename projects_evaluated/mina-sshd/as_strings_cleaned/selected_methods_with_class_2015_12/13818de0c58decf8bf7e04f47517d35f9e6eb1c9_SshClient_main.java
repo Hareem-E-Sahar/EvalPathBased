@@ -1,0 +1,462 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+fh SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName console handler
+handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fh
+fh SimpleName MethodInvocation SimpleName set level
+fh SimpleName MethodInvocation QualifiedName levelfinest
+set level SimpleName MethodInvocation QualifiedName levelfinest
+log record SimpleName SimpleType SingleVariableDeclaration SimpleName record
+format message SimpleName MethodInvocation SimpleName record
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName format message
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName record
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+throwable SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName throwable
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+record SimpleName MethodInvocation SimpleName get thrown
+sw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string writer
+string writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sw
+print writer SimpleName SimpleType ClassInstanceCreation SimpleName sw
+pw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName print writer
+pw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sw
+print writer SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName pw
+pw SimpleName MethodInvocation SimpleName println
+record SimpleName MethodInvocation SimpleName get thrown
+record SimpleName MethodInvocation MethodInvocation SimpleName print stack trace
+get thrown SimpleName MethodInvocation MethodInvocation SimpleName print stack trace
+record SimpleName MethodInvocation MethodInvocation SimpleName pw
+get thrown SimpleName MethodInvocation MethodInvocation SimpleName pw
+print stack trace SimpleName MethodInvocation SimpleName pw
+sw SimpleName MethodInvocation SimpleName to string
+throwable SimpleName Assignment MethodInvocation SimpleName sw
+throwable SimpleName Assignment MethodInvocation SimpleName to string
+record SimpleName MethodInvocation SimpleName get millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName record
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get millis
+record SimpleName MethodInvocation SimpleName get level
+record SimpleName MethodInvocation MethodInvocation SimpleName get name
+get level SimpleName MethodInvocation MethodInvocation SimpleName get name
+record SimpleName MethodInvocation SimpleName get logger name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % t y tm td % $- . s % $- . s % s sn
+string SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName record
+string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get millis
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName record
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get level
+string SimpleName MethodInvocation MethodInvocation SimpleName get name
+string SimpleName MethodInvocation MethodInvocation SimpleName record
+string SimpleName MethodInvocation MethodInvocation SimpleName get logger name
+format SimpleName MethodInvocation StringLiteral % t y tm td % $- . s % $- . s % s sn
+format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName record
+format SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get millis
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName record
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get level
+format SimpleName MethodInvocation MethodInvocation SimpleName get name
+format SimpleName MethodInvocation MethodInvocation SimpleName record
+format SimpleName MethodInvocation MethodInvocation SimpleName get logger name
+format SimpleName MethodInvocation SimpleName message
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName record
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get millis
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName record
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get level
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation SimpleName get name
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation SimpleName record
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation MethodInvocation SimpleName get logger name
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation SimpleName message
+% t y tm td % $- . s % $- . s % s sn StringLiteral MethodInvocation SimpleName throwable
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName message
+record SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName message
+get millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName message
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName throwable
+record SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName throwable
+get millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName throwable
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName record
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get logger name
+record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName message
+get level SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName message
+get name SimpleName MethodInvocation MethodInvocation SimpleName message
+record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName throwable
+get level SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName throwable
+get name SimpleName MethodInvocation MethodInvocation SimpleName throwable
+record SimpleName MethodInvocation MethodInvocation SimpleName message
+get logger name SimpleName MethodInvocation MethodInvocation SimpleName message
+record SimpleName MethodInvocation MethodInvocation SimpleName throwable
+get logger name SimpleName MethodInvocation MethodInvocation SimpleName throwable
+message SimpleName MethodInvocation SimpleName throwable
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName format
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName record
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log record
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName record
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName record
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log record
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName record
+fh SimpleName MethodInvocation SimpleName set formatter
+fh SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName formatter
+set formatter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName formatter
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation StringLiteral empty
+get logger SimpleName MethodInvocation StringLiteral empty
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName logger
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get logger
+root SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+root SimpleName MethodInvocation SimpleName get handlers
+root SimpleName MethodInvocation SimpleName remove handler
+root SimpleName MethodInvocation SimpleName handler
+remove handler SimpleName MethodInvocation SimpleName handler
+handler SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName root
+handler SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get handlers
+root SimpleName MethodInvocation SimpleName add handler
+root SimpleName MethodInvocation SimpleName fh
+add handler SimpleName MethodInvocation SimpleName fh
+stdout SimpleName VariableDeclarationFragment QualifiedName systemout
+print stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stdout
+print stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName systemout
+stderr SimpleName VariableDeclarationFragment QualifiedName systemerr
+print stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stderr
+print stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName systemerr
+agent forward SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName agent forward
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+log level SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName log level
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+socks port SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName socks port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName args
+length SimpleName MethodInvocation SimpleName args
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName args
+error SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName error
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num args
+args SimpleName ArrayAccess SimpleName i
+arg name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+arg name SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arg name
+d StringLiteral MethodInvocation SimpleName equals
+d StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+command SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral d
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName arg name
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression SimpleName num args
+empty NumberLiteral InfixExpression InfixExpression SimpleName num args
+option requires an argument StringLiteral InfixExpression SimpleName arg name
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral option requires an argument
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName arg name
+println SimpleName MethodInvocation InfixExpression StringLiteral option requires an argument
+println SimpleName MethodInvocation InfixExpression SimpleName arg name
+error SimpleName Assignment BooleanLiteral true
+socks port SimpleName InfixExpression NumberLiteral empty
+arg name SimpleName InfixExpression StringLiteral option value respecified
+arg name SimpleName InfixExpression SimpleName socks port
+option value respecified StringLiteral InfixExpression SimpleName socks port
+stderr SimpleName MethodInvocation SimpleName println
+stderr SimpleName MethodInvocation InfixExpression SimpleName arg name
+stderr SimpleName MethodInvocation InfixExpression StringLiteral option value respecified
+stderr SimpleName MethodInvocation InfixExpression SimpleName socks port
+println SimpleName MethodInvocation InfixExpression SimpleName arg name
+println SimpleName MethodInvocation InfixExpression StringLiteral option value respecified
+println SimpleName MethodInvocation InfixExpression SimpleName socks port
+error SimpleName Assignment BooleanLiteral true
+args SimpleName ArrayAccess PrefixExpression SimpleName i
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess PrefixExpression SimpleName i
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess PrefixExpression SimpleName i
+socks port SimpleName Assignment MethodInvocation SimpleName integer
+socks port SimpleName Assignment MethodInvocation SimpleName parse int
+socks port SimpleName Assignment MethodInvocation ArrayAccess SimpleName args
+socks port SimpleName InfixExpression NumberLiteral empty
+bad option value for StringLiteral InfixExpression SimpleName arg name
+bad option value for StringLiteral InfixExpression StringLiteral :
+bad option value for StringLiteral InfixExpression SimpleName socks port
+arg name SimpleName InfixExpression StringLiteral :
+arg name SimpleName InfixExpression SimpleName socks port
+: StringLiteral InfixExpression SimpleName socks port
+stderr SimpleName MethodInvocation SimpleName println
+stderr SimpleName MethodInvocation InfixExpression StringLiteral bad option value for
+stderr SimpleName MethodInvocation InfixExpression SimpleName arg name
+stderr SimpleName MethodInvocation InfixExpression StringLiteral :
+stderr SimpleName MethodInvocation InfixExpression SimpleName socks port
+println SimpleName MethodInvocation InfixExpression StringLiteral bad option value for
+println SimpleName MethodInvocation InfixExpression SimpleName arg name
+println SimpleName MethodInvocation InfixExpression StringLiteral :
+println SimpleName MethodInvocation InfixExpression SimpleName socks port
+error SimpleName Assignment BooleanLiteral true
+v StringLiteral MethodInvocation SimpleName equals
+v StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+command SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral v
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName arg name
+log level SimpleName Assignment NumberLiteral empty
+vv StringLiteral MethodInvocation SimpleName equals
+vv StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+command SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral vv
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName arg name
+log level SimpleName Assignment NumberLiteral empty
+vvv StringLiteral MethodInvocation SimpleName equals
+vvv StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+command SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral vvv
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName arg name
+log level SimpleName Assignment NumberLiteral empty
+a StringLiteral MethodInvocation SimpleName equals
+a StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+command SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral a
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName arg name
+agent forward SimpleName Assignment BooleanLiteral true
+a StringLiteral MethodInvocation SimpleName equals
+a StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+command SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral a
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+command SimpleName InfixExpression InfixExpression MethodInvocation SimpleName arg name
+agent forward SimpleName Assignment BooleanLiteral false
+command SimpleName InfixExpression InfixExpression InfixExpression SimpleName target
+target SimpleName Assignment SimpleName arg name
+command SimpleName MethodInvocation SimpleName add
+command SimpleName MethodInvocation SimpleName arg name
+add SimpleName MethodInvocation SimpleName arg name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num args
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num args SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+log level SimpleName InfixExpression NumberLiteral empty
+root SimpleName MethodInvocation SimpleName set level
+root SimpleName MethodInvocation QualifiedName levelwarning
+set level SimpleName MethodInvocation QualifiedName levelwarning
+log level SimpleName InfixExpression NumberLiteral empty
+root SimpleName MethodInvocation SimpleName set level
+root SimpleName MethodInvocation QualifiedName levelinfo
+set level SimpleName MethodInvocation QualifiedName levelinfo
+log level SimpleName InfixExpression NumberLiteral empty
+root SimpleName MethodInvocation SimpleName set level
+root SimpleName MethodInvocation QualifiedName levelfine
+set level SimpleName MethodInvocation QualifiedName levelfine
+root SimpleName MethodInvocation SimpleName set level
+root SimpleName MethodInvocation QualifiedName levelfinest
+set level SimpleName MethodInvocation QualifiedName levelfinest
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+no close input stream SimpleName SimpleType ClassInstanceCreation QualifiedName systemin
+input stream reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+stdin SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+buffered reader SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName stdin
+setup client session SimpleName MethodInvocation StringLiteral p
+setup client session SimpleName MethodInvocation SimpleName stdin
+setup client session SimpleName MethodInvocation SimpleName stdout
+setup client session SimpleName MethodInvocation SimpleName stderr
+setup client session SimpleName MethodInvocation SimpleName args
+p StringLiteral MethodInvocation SimpleName stdin
+p StringLiteral MethodInvocation SimpleName stdout
+p StringLiteral MethodInvocation SimpleName stderr
+p StringLiteral MethodInvocation SimpleName args
+stdin SimpleName MethodInvocation SimpleName stdout
+stdin SimpleName MethodInvocation SimpleName stderr
+stdin SimpleName MethodInvocation SimpleName args
+stdout SimpleName MethodInvocation SimpleName stderr
+stdout SimpleName MethodInvocation SimpleName args
+stderr SimpleName MethodInvocation SimpleName args
+session SimpleName Assignment MethodInvocation SimpleName setup client session
+session SimpleName Assignment MethodInvocation StringLiteral p
+session SimpleName Assignment MethodInvocation SimpleName stdin
+session SimpleName Assignment MethodInvocation SimpleName stdout
+session SimpleName Assignment MethodInvocation SimpleName stderr
+session SimpleName Assignment MethodInvocation SimpleName args
+error SimpleName Assignment BooleanLiteral true
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral usage ssh aa vvv d socks port l login p port o optionvalue hostnameuserhost command
+println SimpleName MethodInvocation StringLiteral usage ssh aa vvv d socks port l login p port o optionvalue hostnameuserhost command
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+session SimpleName MethodInvocation SimpleName get factory manager
+ssh client SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+ssh client SimpleName SimpleType CastExpression MethodInvocation SimpleName get factory manager
+client SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName ssh client
+client SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+client SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get factory manager
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+socks port SimpleName InfixExpression NumberLiteral empty
+sshd socket address SimpleName SimpleType ClassInstanceCreation StringLiteral localhost
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName socks port
+localhost StringLiteral ClassInstanceCreation SimpleName socks port
+session SimpleName MethodInvocation SimpleName start dynamic port forwarding
+session SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sshd socket address
+session SimpleName MethodInvocation ClassInstanceCreation StringLiteral localhost
+session SimpleName MethodInvocation ClassInstanceCreation SimpleName socks port
+start dynamic port forwarding SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sshd socket address
+start dynamic port forwarding SimpleName MethodInvocation ClassInstanceCreation StringLiteral localhost
+start dynamic port forwarding SimpleName MethodInvocation ClassInstanceCreation SimpleName socks port
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation QualifiedName longmax value
+sleep SimpleName MethodInvocation QualifiedName longmax value
+client channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+session SimpleName MethodInvocation SimpleName create channel
+session SimpleName MethodInvocation QualifiedName client channelchannel shell
+create channel SimpleName MethodInvocation QualifiedName client channelchannel shell
+channel SimpleName Assignment MethodInvocation SimpleName session
+channel SimpleName Assignment MethodInvocation SimpleName create channel
+channel SimpleName Assignment MethodInvocation QualifiedName client channelchannel shell
+channel shell SimpleName SimpleType CastExpression SimpleName channel
+channel SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set agent forwarding
+channel SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName agent forward
+set agent forwarding SimpleName MethodInvocation SimpleName agent forward
+no close input stream SimpleName SimpleType ClassInstanceCreation QualifiedName systemin
+channel SimpleName MethodInvocation SimpleName set in
+channel SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close input stream
+channel SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemin
+set in SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close input stream
+set in SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemin
+w SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string writer
+string writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+w SimpleName MethodInvocation SimpleName append
+w SimpleName MethodInvocation SimpleName cmd
+append SimpleName MethodInvocation SimpleName cmd
+w SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+cmd SimpleName MethodInvocation MethodInvocation SimpleName append
+w SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+cmd SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName command
+cmd SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName command
+w SimpleName MethodInvocation SimpleName close
+w SimpleName MethodInvocation SimpleName to string
+session SimpleName MethodInvocation SimpleName create channel
+session SimpleName MethodInvocation QualifiedName client channelchannel exec
+session SimpleName MethodInvocation MethodInvocation SimpleName w
+session SimpleName MethodInvocation MethodInvocation SimpleName to string
+create channel SimpleName MethodInvocation QualifiedName client channelchannel exec
+create channel SimpleName MethodInvocation MethodInvocation SimpleName w
+create channel SimpleName MethodInvocation MethodInvocation SimpleName to string
+client channelchannel exec QualifiedName MethodInvocation MethodInvocation SimpleName w
+client channelchannel exec QualifiedName MethodInvocation MethodInvocation SimpleName to string
+channel SimpleName Assignment MethodInvocation SimpleName session
+channel SimpleName Assignment MethodInvocation SimpleName create channel
+channel SimpleName Assignment MethodInvocation QualifiedName client channelchannel exec
+channel SimpleName Assignment MethodInvocation MethodInvocation SimpleName w
+channel SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+no close output stream SimpleName SimpleType ClassInstanceCreation QualifiedName systemout
+channel SimpleName MethodInvocation SimpleName set out
+channel SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close output stream
+channel SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemout
+set out SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close output stream
+set out SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemout
+no close output stream SimpleName SimpleType ClassInstanceCreation QualifiedName systemerr
+channel SimpleName MethodInvocation SimpleName set err
+channel SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close output stream
+channel SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemerr
+set err SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName no close output stream
+set err SimpleName MethodInvocation ClassInstanceCreation QualifiedName systemerr
+channel SimpleName MethodInvocation SimpleName open
+channel SimpleName MethodInvocation MethodInvocation SimpleName await
+open SimpleName MethodInvocation MethodInvocation SimpleName await
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName client channelclient channel eventclosed
+of SimpleName MethodInvocation QualifiedName client channelclient channel eventclosed
+channel SimpleName MethodInvocation SimpleName wait for
+channel SimpleName MethodInvocation MethodInvocation SimpleName enum set
+channel SimpleName MethodInvocation MethodInvocation SimpleName of
+channel SimpleName MethodInvocation MethodInvocation QualifiedName client channelclient channel eventclosed
+channel SimpleName MethodInvocation NumberLiteral empty
+wait for SimpleName MethodInvocation MethodInvocation SimpleName enum set
+wait for SimpleName MethodInvocation MethodInvocation SimpleName of
+wait for SimpleName MethodInvocation MethodInvocation QualifiedName client channelclient channel eventclosed
+wait for SimpleName MethodInvocation NumberLiteral empty
+enum set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+client channelclient channel eventclosed QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+channel SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+client SimpleName MethodInvocation SimpleName stop
+session SimpleName MethodInvocation SimpleName close
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

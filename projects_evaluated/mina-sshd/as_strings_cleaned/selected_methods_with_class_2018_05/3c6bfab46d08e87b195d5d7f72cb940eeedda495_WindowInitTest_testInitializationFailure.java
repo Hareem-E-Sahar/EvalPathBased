@@ -1,0 +1,57 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+window SimpleName SimpleType ClassInstanceCreation SimpleName mock channel
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+mock channel SimpleName ClassInstanceCreation BooleanLiteral true
+mock channel SimpleName ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+w SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName window
+w SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName mock channel
+w SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+w SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName w
+w SimpleName MethodInvocation SimpleName init
+w SimpleName MethodInvocation SimpleName initial size
+w SimpleName MethodInvocation SimpleName packet size
+w SimpleName MethodInvocation QualifiedName property resolverempty
+init SimpleName MethodInvocation SimpleName initial size
+init SimpleName MethodInvocation SimpleName packet size
+init SimpleName MethodInvocation QualifiedName property resolverempty
+initial size SimpleName MethodInvocation SimpleName packet size
+initial size SimpleName MethodInvocation QualifiedName property resolverempty
+packet size SimpleName MethodInvocation QualifiedName property resolverempty
+unexpected success for initial size StringLiteral InfixExpression SimpleName initial size
+unexpected success for initial size StringLiteral InfixExpression StringLiteral packet size
+unexpected success for initial size StringLiteral InfixExpression SimpleName packet size
+initial size SimpleName InfixExpression StringLiteral packet size
+initial size SimpleName InfixExpression SimpleName packet size
+packet size StringLiteral InfixExpression SimpleName packet size
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected success for initial size
+fail SimpleName MethodInvocation InfixExpression SimpleName initial size
+fail SimpleName MethodInvocation InfixExpression StringLiteral packet size
+fail SimpleName MethodInvocation InfixExpression SimpleName packet size
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test initialization failure
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test initialization failure
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test initialization failure
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test initialization failure
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test initialization failure SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test initialization failure
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test initialization failure
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

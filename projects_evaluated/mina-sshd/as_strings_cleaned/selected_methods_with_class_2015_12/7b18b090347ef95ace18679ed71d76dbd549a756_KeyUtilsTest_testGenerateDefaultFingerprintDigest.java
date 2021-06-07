@@ -1,0 +1,115 @@
+key utils SimpleName MethodInvocation SimpleName get default finger print factory
+default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default finger print factory
+final Modifier VariableDeclarationStatement SimpleType SimpleName digest factory
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName key utils
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get default finger print factory
+digest factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+assert not null SimpleName MethodInvocation StringLiteral no current default fingerprint digest factory
+assert not null SimpleName MethodInvocation SimpleName default value
+no current default fingerprint digest factory StringLiteral MethodInvocation SimpleName default value
+digest factory SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is supported
+f SimpleName MethodInvocation SimpleName get algorithm
+skip unsupported digest StringLiteral InfixExpression MethodInvocation SimpleName f
+skip unsupported digest StringLiteral InfixExpression MethodInvocation SimpleName get algorithm
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral skip unsupported digest
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName f
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get algorithm
+println SimpleName MethodInvocation InfixExpression StringLiteral skip unsupported digest
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get algorithm
+key utils SimpleName MethodInvocation SimpleName set default finger print factory
+key utils SimpleName MethodInvocation SimpleName f
+set default finger print factory SimpleName MethodInvocation SimpleName f
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+f SimpleName MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral (
+get name SimpleName MethodInvocation InfixExpression StringLiteral (
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get name SimpleName MethodInvocation InfixExpression StringLiteral )
+# StringLiteral InfixExpression MethodInvocation SimpleName get current test name
+# StringLiteral InfixExpression StringLiteral (
+# StringLiteral InfixExpression MethodInvocation SimpleName f
+# StringLiteral InfixExpression MethodInvocation SimpleName get name
+# StringLiteral InfixExpression StringLiteral )
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral (
+get current test name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+get current test name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral )
+( StringLiteral InfixExpression MethodInvocation SimpleName f
+( StringLiteral InfixExpression MethodInvocation SimpleName get name
+( StringLiteral InfixExpression StringLiteral )
+f SimpleName MethodInvocation InfixExpression StringLiteral )
+get name SimpleName MethodInvocation InfixExpression StringLiteral )
+data SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get name
+data SimpleName VariableDeclarationFragment InfixExpression StringLiteral #
+data SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get current test name
+data SimpleName VariableDeclarationFragment InfixExpression StringLiteral (
+data SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName f
+data SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get name
+data SimpleName VariableDeclarationFragment InfixExpression StringLiteral )
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+key utils SimpleName MethodInvocation SimpleName get finger print
+key utils SimpleName MethodInvocation SimpleName f
+key utils SimpleName MethodInvocation SimpleName data
+get finger print SimpleName MethodInvocation SimpleName f
+get finger print SimpleName MethodInvocation SimpleName data
+f SimpleName MethodInvocation SimpleName data
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get finger print
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+key utils SimpleName MethodInvocation SimpleName get finger print
+key utils SimpleName MethodInvocation SimpleName data
+get finger print SimpleName MethodInvocation SimpleName data
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get finger print
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+f SimpleName MethodInvocation SimpleName get name
+mismatched fingerprint for digest StringLiteral InfixExpression MethodInvocation SimpleName f
+mismatched fingerprint for digest StringLiteral InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched fingerprint for digest
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched fingerprint for digest StringLiteral InfixExpression MethodInvocation SimpleName expected
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+mismatched fingerprint for digest StringLiteral InfixExpression MethodInvocation SimpleName actual
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+digest factory SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin digestsvalues
+f SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin digestsvalues
+key utils SimpleName MethodInvocation SimpleName set default finger print factory
+key utils SimpleName MethodInvocation SimpleName default value
+set default finger print factory SimpleName MethodInvocation SimpleName default value
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test generate default fingerprint digest
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test generate default fingerprint digest
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test generate default fingerprint digest
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test generate default fingerprint digest SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test generate default fingerprint digest
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test generate default fingerprint digest

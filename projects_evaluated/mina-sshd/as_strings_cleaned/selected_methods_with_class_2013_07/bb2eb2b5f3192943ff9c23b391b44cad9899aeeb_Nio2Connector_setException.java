@@ -1,0 +1,20 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exception
+set value SimpleName MethodInvocation SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exception
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception

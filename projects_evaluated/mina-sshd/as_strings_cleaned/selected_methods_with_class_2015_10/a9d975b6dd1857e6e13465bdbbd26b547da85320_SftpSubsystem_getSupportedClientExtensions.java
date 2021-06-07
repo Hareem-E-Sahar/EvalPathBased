@@ -1,0 +1,39 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property resolver utils SimpleName MethodInvocation SimpleName get string
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName client extensions prop
+get string SimpleName MethodInvocation SimpleName session
+get string SimpleName MethodInvocation SimpleName client extensions prop
+session SimpleName MethodInvocation SimpleName client extensions prop
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName client extensions prop
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName empty list
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName value
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName value
+split SimpleName MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation CharacterLiteral empty
+comps SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+comps SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+comps SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+comps SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName comps
+as list SimpleName MethodInvocation SimpleName comps
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get supported client extensions
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported client extensions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported client extensions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get supported client extensions
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get supported client extensions

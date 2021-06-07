@@ -1,0 +1,62 @@
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration SimpleName curve name
+ec point SimpleName SimpleType SingleVariableDeclaration SimpleName p
+eof exception SimpleName SimpleType ClassInstanceCreation StringLiteral no output stream
+write ec point StringLiteral InfixExpression MethodInvocation SimpleName name
+write ec point StringLiteral InfixExpression StringLiteral )[
+write ec point StringLiteral InfixExpression SimpleName p
+write ec point StringLiteral InfixExpression StringLiteral ] na
+name SimpleName MethodInvocation InfixExpression StringLiteral )[
+name SimpleName MethodInvocation InfixExpression SimpleName p
+name SimpleName MethodInvocation InfixExpression StringLiteral ] na
+)[ StringLiteral InfixExpression SimpleName p
+)[ StringLiteral InfixExpression StringLiteral ] na
+p SimpleName InfixExpression StringLiteral ] na
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral write ec point
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )[
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName p
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ] na
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write ec point
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName curve name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec point
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+void PrimitiveType MethodDeclaration SimpleName write ec point
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName curve name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec point
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName p
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write ec point SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+write ec point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+write ec point SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+write ec point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curve name
+write ec point SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec point
+write ec point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+write ec point SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curve name
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+curve name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+curve name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+p SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write ec point
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curve name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write ec point
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curve name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,231 @@
+command SimpleName VariableDeclarationFragment MethodInvocation SimpleName get command
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName command
+err SimpleName VariableDeclarationFragment MethodInvocation SimpleName get error stream
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+parse delimited string SimpleName MethodInvocation SimpleName command
+parse delimited string SimpleName MethodInvocation StringLiteral empty
+parse delimited string SimpleName MethodInvocation BooleanLiteral true
+command SimpleName MethodInvocation StringLiteral empty
+command SimpleName MethodInvocation BooleanLiteral true
+empty StringLiteral MethodInvocation BooleanLiteral true
+strs SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse delimited string
+strs SimpleName VariableDeclarationFragment MethodInvocation SimpleName command
+strs SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+strs SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+strs SimpleName MethodInvocation SimpleName size
+strs SimpleName MethodInvocation SimpleName to array
+strs SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName strs
+strs SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName strs
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName strs
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName to array
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName argslength
+args SimpleName ArrayAccess SimpleName i
+arg val SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+arg val SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arg val
+arg val SimpleName MethodInvocation SimpleName starts with
+arg val SimpleName MethodInvocation StringLiteral empty
+starts with SimpleName MethodInvocation StringLiteral empty
+arg val SimpleName MethodInvocation SimpleName ends with
+arg val SimpleName MethodInvocation StringLiteral empty
+ends with SimpleName MethodInvocation StringLiteral empty
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+args SimpleName ArrayAccess SimpleName i
+arg val SimpleName MethodInvocation SimpleName length
+arg val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+arg val SimpleName MethodInvocation SimpleName substring
+arg val SimpleName MethodInvocation NumberLiteral empty
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+arg val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName arg val
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+args SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName arg val
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+i SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess SimpleName i
+arg val SimpleName Assignment ArrayAccess SimpleName args
+arg val SimpleName Assignment ArrayAccess SimpleName i
+arg val SimpleName MethodInvocation SimpleName starts with
+arg val SimpleName MethodInvocation StringLiteral \
+starts with SimpleName MethodInvocation StringLiteral \
+arg val SimpleName MethodInvocation SimpleName ends with
+arg val SimpleName MethodInvocation StringLiteral \
+ends with SimpleName MethodInvocation StringLiteral \
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral \
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral \
+\ StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+\ StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+\ StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral \
+args SimpleName ArrayAccess SimpleName i
+arg val SimpleName MethodInvocation SimpleName length
+arg val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+arg val SimpleName MethodInvocation SimpleName substring
+arg val SimpleName MethodInvocation NumberLiteral empty
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+arg val SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+arg val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg val
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName arg val
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+args SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName arg val
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+i SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess SimpleName i
+arg val SimpleName Assignment ArrayAccess SimpleName args
+arg val SimpleName Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName argslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+argslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+resolver SimpleName VariableDeclarationFragment MethodInvocation SimpleName get git location resolver
+git location resolver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolver
+resolver SimpleName MethodInvocation SimpleName resolve root directory
+resolver SimpleName MethodInvocation SimpleName command
+resolver SimpleName MethodInvocation MethodInvocation SimpleName get server session
+resolver SimpleName MethodInvocation MethodInvocation SimpleName get file system
+resolve root directory SimpleName MethodInvocation SimpleName command
+resolve root directory SimpleName MethodInvocation MethodInvocation SimpleName get server session
+resolve root directory SimpleName MethodInvocation MethodInvocation SimpleName get file system
+command SimpleName MethodInvocation MethodInvocation SimpleName get server session
+command SimpleName MethodInvocation MethodInvocation SimpleName get file system
+get server session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file system
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolver
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve root directory
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName command
+root dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get server session
+root dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get file system
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root dir
+validate utils SimpleName MethodInvocation SimpleName check state
+validate utils SimpleName MethodInvocation InfixExpression SimpleName root dir
+validate utils SimpleName MethodInvocation StringLiteral no root directory provided for s command
+validate utils SimpleName MethodInvocation SimpleName command
+check state SimpleName MethodInvocation InfixExpression SimpleName root dir
+check state SimpleName MethodInvocation StringLiteral no root directory provided for s command
+check state SimpleName MethodInvocation SimpleName command
+root dir SimpleName InfixExpression MethodInvocation StringLiteral no root directory provided for s command
+root dir SimpleName InfixExpression MethodInvocation SimpleName command
+no root directory provided for s command StringLiteral MethodInvocation SimpleName command
+embedded command runner SimpleName SimpleType ClassInstanceCreation SimpleName root dir
+embedded command runner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName execute
+root dir SimpleName ClassInstanceCreation MethodInvocation SimpleName execute
+embedded command runner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName args
+root dir SimpleName ClassInstanceCreation MethodInvocation SimpleName args
+root dir SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get input stream
+root dir SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get output stream
+embedded command runner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName err
+root dir SimpleName ClassInstanceCreation MethodInvocation SimpleName err
+execute SimpleName MethodInvocation SimpleName args
+execute SimpleName MethodInvocation MethodInvocation SimpleName get input stream
+execute SimpleName MethodInvocation MethodInvocation SimpleName get output stream
+execute SimpleName MethodInvocation SimpleName err
+args SimpleName MethodInvocation MethodInvocation SimpleName get input stream
+args SimpleName MethodInvocation MethodInvocation SimpleName get output stream
+args SimpleName MethodInvocation SimpleName err
+get input stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get output stream
+get input stream SimpleName MethodInvocation MethodInvocation SimpleName err
+get output stream SimpleName MethodInvocation MethodInvocation SimpleName err
+on exit SimpleName MethodInvocation NumberLiteral empty
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get message
+t SimpleName MethodInvocation InfixExpression StringLiteral empty
+get message SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+err SimpleName MethodInvocation SimpleName write
+err SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+err SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+err SimpleName MethodInvocation SimpleName flush
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed {} to flush command failure {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation SimpleName command
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation StringLiteral failed {} to flush command failure {}
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation SimpleName command
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+failed {} to flush command failure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e
+failed {} to flush command failure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+failed {} to flush command failure {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+failed {} to flush command failure {} StringLiteral MethodInvocation SimpleName command
+failed {} to flush command failure {} StringLiteral MethodInvocation MethodInvocation SimpleName e
+failed {} to flush command failure {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName command
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName command
+get simple name SimpleName MethodInvocation MethodInvocation SimpleName command
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+command SimpleName MethodInvocation MethodInvocation SimpleName e
+command SimpleName MethodInvocation MethodInvocation SimpleName get message
+t SimpleName MethodInvocation SimpleName get message
+on exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+on exit SimpleName MethodInvocation MethodInvocation SimpleName t
+on exit SimpleName MethodInvocation MethodInvocation SimpleName get message
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName t
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName get message
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

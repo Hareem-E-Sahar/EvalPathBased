@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+canonical path StringLiteral InfixExpression SimpleName path
+canonical path StringLiteral InfixExpression StringLiteral ) client is closed
+path SimpleName InfixExpression StringLiteral ) client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral canonical path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) client is closed
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName path
+put string SimpleName MethodInvocation SimpleName path
+check one name SimpleName MethodInvocation SimpleName ssh fxp realpath
+check one name SimpleName MethodInvocation SimpleName buffer
+ssh fxp realpath SimpleName MethodInvocation SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName canonical path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName canonical path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName canonical path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+canonical path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+canonical path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+canonical path SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName canonical path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName canonical path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

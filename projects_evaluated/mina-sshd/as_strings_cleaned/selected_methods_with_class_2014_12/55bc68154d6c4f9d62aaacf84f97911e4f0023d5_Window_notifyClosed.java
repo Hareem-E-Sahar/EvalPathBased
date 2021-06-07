@@ -1,0 +1,16 @@
+closed SimpleName Assignment BooleanLiteral true
+lock SimpleName MethodInvocation SimpleName notify all
+lock SimpleName SynchronizedStatement Block IfStatement SimpleName waiting
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName notify closed
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+void PrimitiveType MethodDeclaration SimpleName notify closed
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+notify closed SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify closed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify closed

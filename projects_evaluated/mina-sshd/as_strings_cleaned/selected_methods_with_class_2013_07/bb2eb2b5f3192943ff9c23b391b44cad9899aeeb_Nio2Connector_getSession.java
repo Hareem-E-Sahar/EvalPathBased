@@ -1,0 +1,15 @@
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName io session
+io session SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression ConditionalExpression CastExpression SimpleName v
+public Modifier MethodDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SimpleName get session
+io session SimpleName SimpleType MethodDeclaration SimpleName get session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io session
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session

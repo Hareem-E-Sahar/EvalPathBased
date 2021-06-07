@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation SimpleName key
+env SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set env
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set env
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set env SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set env SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+set env SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set env SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set env
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set env
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

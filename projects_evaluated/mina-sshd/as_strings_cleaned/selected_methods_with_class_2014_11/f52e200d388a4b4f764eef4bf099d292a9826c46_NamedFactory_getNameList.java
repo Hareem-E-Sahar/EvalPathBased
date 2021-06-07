@@ -1,0 +1,52 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factories
+factories SimpleName MethodInvocation SimpleName is empty
+collections SimpleName MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+factories SimpleName MethodInvocation SimpleName size
+names SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName factories
+names SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+named factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName f
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName get name
+names SimpleName MethodInvocation SimpleName add
+names SimpleName MethodInvocation MethodInvocation SimpleName f
+names SimpleName MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName f
+add SimpleName MethodInvocation MethodInvocation SimpleName get name
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName factories
+factories SimpleName EnhancedForStatement Block ReturnStatement SimpleName names
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get name list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get name list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName factories
+static Modifier MethodDeclaration Block ReturnStatement SimpleName names
+t SimpleName TypeParameter MethodDeclaration SimpleName get name list
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName factories
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get name list
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get name list
+get name list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factories
+get name list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName factories
+get name list SimpleName MethodDeclaration Block ReturnStatement SimpleName names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get name list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get name list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories

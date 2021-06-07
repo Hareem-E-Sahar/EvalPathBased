@@ -1,0 +1,25 @@
+factory SimpleName SimpleType ParameterizedType SimpleType SimpleName closeable executor service
+factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factory
+closeable executor service SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factory
+executor service factory SimpleName Assignment SimpleName factory
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set executor service factory
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set executor service factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+void PrimitiveType MethodDeclaration SimpleName set executor service factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factory
+set executor service factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set executor service factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set executor service factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory

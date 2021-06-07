@@ -1,0 +1,61 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+long SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+io service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get io service
+io service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName io service
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+io service SimpleName MethodInvocation SimpleName get managed sessions
+managed map SimpleName VariableDeclarationFragment MethodInvocation SimpleName io service
+managed map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get managed sessions
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName io session
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName managed map
+mina SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName managed map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+long SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+comparator SimpleName MethodInvocation SimpleName natural order
+sessions SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName comparator
+sessions SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName natural order
+long SimpleName SimpleType SingleVariableDeclaration SimpleName id
+mina SimpleName MethodInvocation SimpleName key set
+mina SimpleName MethodInvocation SimpleName get
+mina SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+mina session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mina
+mina session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+mina session SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+io session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mina session
+get session SimpleName MethodInvocation SimpleName mina session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mina session
+orgapachesshdcommonioio session QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+sessions SimpleName MethodInvocation SimpleName put
+sessions SimpleName MethodInvocation SimpleName id
+sessions SimpleName MethodInvocation SimpleName session
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation SimpleName session
+id SimpleName MethodInvocation SimpleName session
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName mina
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get managed sessions
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName orgapachesshdcommonioio session
+public Modifier MethodDeclaration SimpleName get managed sessions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sessions
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+orgapachesshdcommonioio session QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get managed sessions
+get managed sessions SimpleName MethodDeclaration Block ReturnStatement SimpleName sessions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get managed sessions
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get managed sessions

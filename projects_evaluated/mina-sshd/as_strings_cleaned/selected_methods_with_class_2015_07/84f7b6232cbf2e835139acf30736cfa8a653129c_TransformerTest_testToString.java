@@ -1,0 +1,50 @@
+transformertostring QualifiedName MethodInvocation SimpleName transform
+assert null SimpleName MethodInvocation StringLiteral invalid null result
+assert null SimpleName MethodInvocation MethodInvocation QualifiedName transformertostring
+assert null SimpleName MethodInvocation MethodInvocation SimpleName transform
+invalid null result StringLiteral MethodInvocation MethodInvocation QualifiedName transformertostring
+invalid null result StringLiteral MethodInvocation MethodInvocation SimpleName transform
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+empty StringLiteral ArrayInitializer MethodInvocation SimpleName get class
+empty StringLiteral ArrayInitializer ClassInstanceCreation SimpleType SimpleName date
+o SimpleName MethodInvocation SimpleName to string
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName o
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+transformertostring QualifiedName MethodInvocation SimpleName transform
+transformertostring QualifiedName MethodInvocation SimpleName o
+transform SimpleName MethodInvocation SimpleName o
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName transformertostring
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName o
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+o SimpleName MethodInvocation SimpleName get class
+o SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+mismatched result for type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName o
+mismatched result for type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+mismatched result for type StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched result for type
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched result for type StringLiteral InfixExpression MethodInvocation SimpleName expected
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+mismatched result for type StringLiteral InfixExpression MethodInvocation SimpleName actual
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test to string
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test to string
+void PrimitiveType MethodDeclaration SimpleName test to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test to string

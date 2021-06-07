@@ -1,0 +1,53 @@
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName username part separator
+value of SimpleName MethodInvocation SimpleName username part separator
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName host part separator
+value of SimpleName MethodInvocation SimpleName host part separator
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName username part separator
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host part separator
+resolve username SimpleName MethodInvocation InfixExpression SimpleName p
+string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+value of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+username part separator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host part separator
+value of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+value of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+value of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host part separator
+username part separator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+username part separator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+username part separator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host part separator
+string SimpleName MethodInvocation InfixExpression SimpleName p
+value of SimpleName MethodInvocation InfixExpression SimpleName p
+username part separator SimpleName MethodInvocation InfixExpression SimpleName p
+get host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+get host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+get host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host part separator
+get host SimpleName MethodInvocation InfixExpression SimpleName p
+string SimpleName MethodInvocation InfixExpression SimpleName p
+value of SimpleName MethodInvocation InfixExpression SimpleName p
+host part separator SimpleName MethodInvocation InfixExpression SimpleName p
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

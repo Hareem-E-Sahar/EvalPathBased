@@ -1,0 +1,27 @@
+git location resolver SimpleName SimpleType SingleVariableDeclaration SimpleName root dir resolver
+with git location resolver SimpleName SuperMethodInvocation SimpleName root dir resolver
+git pgm command factory SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName with git location resolver
+git pgm command factory SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName root dir resolver
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName git pgm command factory
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName with git location resolver
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+public Modifier MethodDeclaration SimpleType SimpleName git pgm command factory
+public Modifier MethodDeclaration SimpleName with git location resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName git location resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+git pgm command factory SimpleName SimpleType MethodDeclaration SimpleName with git location resolver
+git pgm command factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+with git location resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName git location resolver
+with git location resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName git pgm command factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName with git location resolver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName git pgm command factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with git location resolver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir resolver

@@ -1,0 +1,24 @@
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral enter password for private key
+println SimpleName MethodInvocation StringLiteral enter password for private key
+input stream reader SimpleName SimpleType ClassInstanceCreation QualifiedName systemin
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+r SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+buffered reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName read line
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+password SimpleName MethodInvocation SimpleName to char array
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SimpleName get password
+char PrimitiveType ArrayType MethodDeclaration SimpleName get password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName get password
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get password

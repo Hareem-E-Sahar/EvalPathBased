@@ -1,0 +1,130 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName b
+int PrimitiveType SingleVariableDeclaration SimpleName off
+int PrimitiveType SingleVariableDeclaration SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+b SimpleName ArrayAccess SimpleName off
+b SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+off SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+write SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName b
+write SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName off
+write SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+last pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+off SimpleName InfixExpression SimpleName len
+max pos SimpleName VariableDeclarationFragment InfixExpression SimpleName off
+max pos SimpleName VariableDeclarationFragment InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName off
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName len
+cur pos SimpleName VariableDeclarationFragment SimpleName off
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName cur pos
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName off
+cur pos SimpleName InfixExpression SimpleName max pos
+b SimpleName ArrayAccess SimpleName cur pos
+b SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+cur pos SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+c SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName b
+c SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName cur pos
+c SimpleName VariableDeclarationFragment InfixExpression NumberLiteral x ff
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral x ff
+c SimpleName InfixExpression CharacterLiteral r
+c SimpleName InfixExpression CharacterLiteral empty
+last pos SimpleName InfixExpression SimpleName cur pos
+cur pos SimpleName InfixExpression SimpleName last pos
+write raw output SimpleName MethodInvocation SimpleName b
+write raw output SimpleName MethodInvocation SimpleName last pos
+write raw output SimpleName MethodInvocation InfixExpression SimpleName cur pos
+write raw output SimpleName MethodInvocation InfixExpression SimpleName last pos
+b SimpleName MethodInvocation SimpleName last pos
+b SimpleName MethodInvocation InfixExpression SimpleName cur pos
+b SimpleName MethodInvocation InfixExpression SimpleName last pos
+last pos SimpleName MethodInvocation InfixExpression SimpleName cur pos
+last pos SimpleName MethodInvocation InfixExpression SimpleName last pos
+cur pos SimpleName InfixExpression NumberLiteral empty
+last pos SimpleName Assignment InfixExpression SimpleName cur pos
+last pos SimpleName Assignment InfixExpression NumberLiteral empty
+write SimpleName MethodInvocation SimpleName c
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cur pos
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max pos
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName cur pos
+cur pos SimpleName InfixExpression ForStatement PostfixExpression SimpleName cur pos
+max pos SimpleName InfixExpression ForStatement PostfixExpression SimpleName cur pos
+last pos SimpleName InfixExpression SimpleName max pos
+max pos SimpleName InfixExpression SimpleName last pos
+write raw output SimpleName MethodInvocation SimpleName b
+write raw output SimpleName MethodInvocation SimpleName last pos
+write raw output SimpleName MethodInvocation InfixExpression SimpleName max pos
+write raw output SimpleName MethodInvocation InfixExpression SimpleName last pos
+b SimpleName MethodInvocation SimpleName last pos
+b SimpleName MethodInvocation InfixExpression SimpleName max pos
+b SimpleName MethodInvocation InfixExpression SimpleName last pos
+last pos SimpleName MethodInvocation InfixExpression SimpleName max pos
+last pos SimpleName MethodInvocation InfixExpression SimpleName last pos
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName b
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName off
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+write SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName off
+write SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+b SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+off SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

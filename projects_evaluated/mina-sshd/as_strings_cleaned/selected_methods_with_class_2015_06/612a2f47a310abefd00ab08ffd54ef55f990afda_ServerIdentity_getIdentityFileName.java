@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+identity utils SimpleName MethodInvocation SimpleName get identity file name
+identity utils SimpleName MethodInvocation SimpleName id file prefix
+identity utils SimpleName MethodInvocation SimpleName type
+identity utils SimpleName MethodInvocation SimpleName id file suffix
+get identity file name SimpleName MethodInvocation SimpleName id file prefix
+get identity file name SimpleName MethodInvocation SimpleName type
+get identity file name SimpleName MethodInvocation SimpleName id file suffix
+id file prefix SimpleName MethodInvocation SimpleName type
+id file prefix SimpleName MethodInvocation SimpleName id file suffix
+type SimpleName MethodInvocation SimpleName id file suffix
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get identity file name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get identity file name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType MethodDeclaration SimpleName get identity file name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get identity file name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get identity file name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get identity file name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get identity file name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

@@ -1,0 +1,161 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+get name SimpleName MethodInvocation MethodInvocation SimpleName replace
+get package SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral .
+get name SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+get package SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName fileseparator char
+get name SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral .
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+. CharacterLiteral MethodInvocation QualifiedName fileseparator char
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get name SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName fileseparator
+replace SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+. CharacterLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+fileseparator char QualifiedName MethodInvocation InfixExpression QualifiedName fileseparator
+replace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+. CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+fileseparator char QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get name SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName fileseparator
+replace SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+. CharacterLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+fileseparator char QualifiedName MethodInvocation InfixExpression QualifiedName fileseparator
+replace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+. CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+fileseparator char QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+fileseparator QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get class
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName get simple name
+fileseparator QualifiedName InfixExpression QualifiedName fileseparator
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName get current test name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName fileseparator
+get simple name SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName get current test name
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName replace
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation CharacterLiteral .
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName fileseparator char
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName fileseparator
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName fileseparator
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+empty StringLiteral ArrayInitializer SimpleName path
+selector utils SimpleName MethodInvocation SimpleName translate to file system path
+selector utils SimpleName MethodInvocation SimpleName expected
+selector utils SimpleName MethodInvocation QualifiedName fileseparator
+selector utils SimpleName MethodInvocation QualifiedName fileseparator
+translate to file system path SimpleName MethodInvocation SimpleName expected
+translate to file system path SimpleName MethodInvocation QualifiedName fileseparator
+translate to file system path SimpleName MethodInvocation QualifiedName fileseparator
+expected SimpleName MethodInvocation QualifiedName fileseparator
+expected SimpleName MethodInvocation QualifiedName fileseparator
+fileseparator QualifiedName MethodInvocation QualifiedName fileseparator
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName selector utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName translate to file system path
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation StringLiteral mismatched instance for translated result
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched instance for translated result StringLiteral MethodInvocation SimpleName expected
+mismatched instance for translated result StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+string SimpleName SimpleType SingleVariableDeclaration SimpleName fs separator
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation CharacterLiteral .
+value of SimpleName MethodInvocation CharacterLiteral .
+string SimpleName MethodInvocation ArrayInitializer StringLiteral ##
+value of SimpleName MethodInvocation ArrayInitializer StringLiteral ##
+. CharacterLiteral MethodInvocation ArrayInitializer StringLiteral ##
+path SimpleName MethodInvocation SimpleName replace
+path SimpleName MethodInvocation QualifiedName fileseparator
+path SimpleName MethodInvocation SimpleName fs separator
+replace SimpleName MethodInvocation QualifiedName fileseparator
+replace SimpleName MethodInvocation SimpleName fs separator
+fileseparator QualifiedName MethodInvocation SimpleName fs separator
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+expected SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs separator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+selector utils SimpleName MethodInvocation SimpleName translate to file system path
+selector utils SimpleName MethodInvocation SimpleName path
+selector utils SimpleName MethodInvocation QualifiedName fileseparator
+selector utils SimpleName MethodInvocation SimpleName fs separator
+translate to file system path SimpleName MethodInvocation SimpleName path
+translate to file system path SimpleName MethodInvocation QualifiedName fileseparator
+translate to file system path SimpleName MethodInvocation SimpleName fs separator
+path SimpleName MethodInvocation QualifiedName fileseparator
+path SimpleName MethodInvocation SimpleName fs separator
+fileseparator QualifiedName MethodInvocation SimpleName fs separator
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName selector utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName translate to file system path
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs separator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched translation result for separator StringLiteral InfixExpression SimpleName fs separator
+mismatched translation result for separator StringLiteral InfixExpression StringLiteral empty
+fs separator SimpleName InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched translation result for separator
+assert equals SimpleName MethodInvocation InfixExpression SimpleName fs separator
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched translation result for separator StringLiteral InfixExpression MethodInvocation SimpleName expected
+fs separator SimpleName InfixExpression MethodInvocation SimpleName expected
+empty StringLiteral InfixExpression MethodInvocation SimpleName expected
+mismatched translation result for separator StringLiteral InfixExpression MethodInvocation SimpleName actual
+fs separator SimpleName InfixExpression MethodInvocation SimpleName actual
+empty StringLiteral InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+selector utils SimpleName MethodInvocation SimpleName translate to file system path
+selector utils SimpleName MethodInvocation SimpleName actual
+selector utils SimpleName MethodInvocation SimpleName fs separator
+selector utils SimpleName MethodInvocation QualifiedName fileseparator
+translate to file system path SimpleName MethodInvocation SimpleName actual
+translate to file system path SimpleName MethodInvocation SimpleName fs separator
+translate to file system path SimpleName MethodInvocation QualifiedName fileseparator
+actual SimpleName MethodInvocation SimpleName fs separator
+actual SimpleName MethodInvocation QualifiedName fileseparator
+fs separator SimpleName MethodInvocation QualifiedName fileseparator
+actual SimpleName Assignment MethodInvocation SimpleName selector utils
+actual SimpleName Assignment MethodInvocation SimpleName translate to file system path
+actual SimpleName Assignment MethodInvocation SimpleName actual
+actual SimpleName Assignment MethodInvocation SimpleName fs separator
+actual SimpleName Assignment MethodInvocation QualifiedName fileseparator
+mismatched translation revert for separator StringLiteral InfixExpression SimpleName fs separator
+mismatched translation revert for separator StringLiteral InfixExpression StringLiteral empty
+fs separator SimpleName InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched translation revert for separator
+assert equals SimpleName MethodInvocation InfixExpression SimpleName fs separator
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched translation revert for separator StringLiteral InfixExpression MethodInvocation SimpleName path
+fs separator SimpleName InfixExpression MethodInvocation SimpleName path
+empty StringLiteral InfixExpression MethodInvocation SimpleName path
+mismatched translation revert for separator StringLiteral InfixExpression MethodInvocation SimpleName actual
+fs separator SimpleName InfixExpression MethodInvocation SimpleName actual
+empty StringLiteral InfixExpression MethodInvocation SimpleName actual
+path SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test translate to file system path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test translate to file system path
+void PrimitiveType MethodDeclaration SimpleName test translate to file system path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test translate to file system path
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test translate to file system path

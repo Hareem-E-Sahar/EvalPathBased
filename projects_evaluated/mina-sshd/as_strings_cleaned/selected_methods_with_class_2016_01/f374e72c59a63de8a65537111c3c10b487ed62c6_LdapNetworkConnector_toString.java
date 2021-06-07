@@ -1,0 +1,47 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attr val
+class SimpleName SimpleType ParameterizedType WildcardType ?
+attr val SimpleName MethodInvocation SimpleName get class
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr val
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attr type SimpleName MethodInvocation SimpleName is array
+attr val SimpleName InstanceofExpression ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType CastExpression SimpleName attr val
+buffer utils SimpleName MethodInvocation SimpleName print hex
+buffer utils SimpleName MethodInvocation CastExpression ArrayType PrimitiveType byte
+buffer utils SimpleName MethodInvocation CastExpression SimpleName attr val
+print hex SimpleName MethodInvocation CastExpression ArrayType PrimitiveType byte
+print hex SimpleName MethodInvocation CastExpression SimpleName attr val
+object SimpleName SimpleType ArrayType CastExpression SimpleName attr val
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation CastExpression SimpleName attr val
+to string SimpleName MethodInvocation CastExpression SimpleName attr val
+buffer utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arrays
+buffer utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+print hex SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arrays
+print hex SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to string
+attr val SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr val
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr val
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr val
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val

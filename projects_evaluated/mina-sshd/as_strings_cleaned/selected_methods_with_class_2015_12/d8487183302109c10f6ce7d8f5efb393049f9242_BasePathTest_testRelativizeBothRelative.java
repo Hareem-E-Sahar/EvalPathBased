@@ -1,0 +1,35 @@
+parse path SimpleName MethodInvocation StringLiteral a
+assert relativized path equals SimpleName MethodInvocation StringLiteral bc
+assert relativized path equals SimpleName MethodInvocation MethodInvocation SimpleName parse path
+assert relativized path equals SimpleName MethodInvocation MethodInvocation StringLiteral a
+assert relativized path equals SimpleName MethodInvocation StringLiteral abc
+bc StringLiteral MethodInvocation MethodInvocation SimpleName parse path
+bc StringLiteral MethodInvocation MethodInvocation StringLiteral a
+bc StringLiteral MethodInvocation StringLiteral abc
+parse path SimpleName MethodInvocation MethodInvocation StringLiteral abc
+a StringLiteral MethodInvocation MethodInvocation StringLiteral abc
+parse path SimpleName MethodInvocation StringLiteral abc
+assert relativized path equals SimpleName MethodInvocation StringLiteral d
+assert relativized path equals SimpleName MethodInvocation MethodInvocation SimpleName parse path
+assert relativized path equals SimpleName MethodInvocation MethodInvocation StringLiteral abc
+assert relativized path equals SimpleName MethodInvocation StringLiteral abcd
+d StringLiteral MethodInvocation MethodInvocation SimpleName parse path
+d StringLiteral MethodInvocation MethodInvocation StringLiteral abc
+d StringLiteral MethodInvocation StringLiteral abcd
+parse path SimpleName MethodInvocation MethodInvocation StringLiteral abcd
+abc StringLiteral MethodInvocation MethodInvocation StringLiteral abcd
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test relativize both relative
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test relativize both relative
+void PrimitiveType MethodDeclaration SimpleName test relativize both relative
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test relativize both relative
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test relativize both relative

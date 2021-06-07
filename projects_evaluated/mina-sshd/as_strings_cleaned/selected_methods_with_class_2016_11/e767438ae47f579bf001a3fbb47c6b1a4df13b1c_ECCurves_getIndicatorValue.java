@@ -1,0 +1,19 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get indicator value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName indicator value
+final Modifier MethodDeclaration PrimitiveType byte
+final Modifier MethodDeclaration SimpleName get indicator value
+final Modifier MethodDeclaration Block ReturnStatement SimpleName indicator value
+byte PrimitiveType MethodDeclaration SimpleName get indicator value
+byte PrimitiveType MethodDeclaration Block ReturnStatement SimpleName indicator value
+get indicator value SimpleName MethodDeclaration Block ReturnStatement SimpleName indicator value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get indicator value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get indicator value

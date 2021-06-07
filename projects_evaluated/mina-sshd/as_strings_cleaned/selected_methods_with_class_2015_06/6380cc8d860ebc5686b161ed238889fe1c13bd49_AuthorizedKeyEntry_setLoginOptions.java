@@ -1,0 +1,30 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName value
+login options SimpleName FieldAccess Assignment SimpleName value
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName string
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+login options SimpleName FieldAccess Assignment MethodInvocation SimpleName collections
+login options SimpleName FieldAccess Assignment MethodInvocation SimpleName empty map
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set login options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set login options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set login options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set login options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set login options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

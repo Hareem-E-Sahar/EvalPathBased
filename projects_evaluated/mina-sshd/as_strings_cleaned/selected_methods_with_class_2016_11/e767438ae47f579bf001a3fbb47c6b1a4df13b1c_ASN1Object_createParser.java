@@ -1,0 +1,16 @@
+der parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+der parser SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+der parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get length
+get value SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get length
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get length
+public Modifier MethodDeclaration SimpleType SimpleName der parser
+public Modifier MethodDeclaration SimpleName create parser
+der parser SimpleName SimpleType MethodDeclaration SimpleName create parser
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName der parser
+public Modifier TypeDeclaration MethodDeclaration SimpleName create parser
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName der parser
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create parser

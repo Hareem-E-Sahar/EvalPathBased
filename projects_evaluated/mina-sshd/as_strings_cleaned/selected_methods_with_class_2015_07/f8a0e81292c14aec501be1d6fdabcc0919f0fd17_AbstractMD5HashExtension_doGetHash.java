@@ -1,0 +1,373 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName target
+long PrimitiveType SingleVariableDeclaration SimpleName offset
+long PrimitiveType SingleVariableDeclaration SimpleName length
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName quick hash
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+opcode SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opcode
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName opcode
+put string SimpleName MethodInvocation SimpleName opcode
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName target
+put string SimpleName MethodInvocation SimpleName target
+buffer SimpleName MethodInvocation SimpleName put long
+buffer SimpleName MethodInvocation SimpleName offset
+put long SimpleName MethodInvocation SimpleName offset
+buffer SimpleName MethodInvocation SimpleName put long
+buffer SimpleName MethodInvocation SimpleName length
+put long SimpleName MethodInvocation SimpleName length
+quick hash SimpleName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName generic utilsempty byte array
+quick hash SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName quick hash
+generic utilsempty byte array QualifiedName ConditionalExpression SimpleName quick hash
+buffer SimpleName MethodInvocation SimpleName put bytes
+buffer SimpleName MethodInvocation ConditionalExpression QualifiedName generic utilsempty byte array
+buffer SimpleName MethodInvocation ConditionalExpression SimpleName quick hash
+put bytes SimpleName MethodInvocation ConditionalExpression QualifiedName generic utilsempty byte array
+put bytes SimpleName MethodInvocation ConditionalExpression SimpleName quick hash
+log SimpleName MethodInvocation SimpleName is debug enabled
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName offset
+value of SimpleName MethodInvocation SimpleName offset
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName length
+value of SimpleName MethodInvocation SimpleName length
+buffer utils SimpleName MethodInvocation SimpleName print hex
+buffer utils SimpleName MethodInvocation CharacterLiteral :
+buffer utils SimpleName MethodInvocation SimpleName quick hash
+print hex SimpleName MethodInvocation CharacterLiteral :
+print hex SimpleName MethodInvocation SimpleName quick hash
+: CharacterLiteral MethodInvocation SimpleName quick hash
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do get hash - offset length quickhash
+log SimpleName MethodInvocation SimpleName opcode
+log SimpleName MethodInvocation SimpleName target
+log SimpleName MethodInvocation MethodInvocation SimpleName long
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation StringLiteral do get hash - offset length quickhash
+debug SimpleName MethodInvocation SimpleName opcode
+debug SimpleName MethodInvocation SimpleName target
+debug SimpleName MethodInvocation MethodInvocation SimpleName long
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation MethodInvocation SimpleName long
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName length
+do get hash - offset length quickhash StringLiteral MethodInvocation SimpleName opcode
+do get hash - offset length quickhash StringLiteral MethodInvocation SimpleName target
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName long
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName value of
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName offset
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName long
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName value of
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName length
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName buffer utils
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName print hex
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation CharacterLiteral :
+do get hash - offset length quickhash StringLiteral MethodInvocation MethodInvocation SimpleName quick hash
+opcode SimpleName MethodInvocation SimpleName target
+opcode SimpleName MethodInvocation MethodInvocation SimpleName long
+opcode SimpleName MethodInvocation MethodInvocation SimpleName value of
+opcode SimpleName MethodInvocation MethodInvocation SimpleName offset
+opcode SimpleName MethodInvocation MethodInvocation SimpleName long
+opcode SimpleName MethodInvocation MethodInvocation SimpleName value of
+opcode SimpleName MethodInvocation MethodInvocation SimpleName length
+opcode SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+opcode SimpleName MethodInvocation MethodInvocation SimpleName print hex
+opcode SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+opcode SimpleName MethodInvocation MethodInvocation SimpleName quick hash
+target SimpleName MethodInvocation MethodInvocation SimpleName long
+target SimpleName MethodInvocation MethodInvocation SimpleName value of
+target SimpleName MethodInvocation MethodInvocation SimpleName offset
+target SimpleName MethodInvocation MethodInvocation SimpleName long
+target SimpleName MethodInvocation MethodInvocation SimpleName value of
+target SimpleName MethodInvocation MethodInvocation SimpleName length
+target SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+target SimpleName MethodInvocation MethodInvocation SimpleName print hex
+target SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+target SimpleName MethodInvocation MethodInvocation SimpleName quick hash
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+long SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+long SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+length SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+send extended command SimpleName MethodInvocation SimpleName buffer
+receive SimpleName MethodInvocation MethodInvocation SimpleName send extended command
+receive SimpleName MethodInvocation MethodInvocation SimpleName buffer
+check extended reply buffer SimpleName MethodInvocation MethodInvocation SimpleName receive
+check extended reply buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName send extended command
+check extended reply buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName check extended reply buffer
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName receive
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation StringLiteral missing extended reply data
+buffer SimpleName MethodInvocation SimpleName get string
+target type SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+target type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target type
+stringcase insensitive order QualifiedName MethodInvocation SimpleName compare
+stringcase insensitive order QualifiedName MethodInvocation SimpleName target type
+stringcase insensitive order QualifiedName MethodInvocation SimpleName opcode
+compare SimpleName MethodInvocation SimpleName target type
+compare SimpleName MethodInvocation SimpleName opcode
+target type SimpleName MethodInvocation SimpleName opcode
+stringcase insensitive order QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+target type SimpleName MethodInvocation InfixExpression NumberLiteral empty
+opcode SimpleName MethodInvocation InfixExpression NumberLiteral empty
+mismatched reply target type expected StringLiteral InfixExpression SimpleName opcode
+mismatched reply target type expected StringLiteral InfixExpression StringLiteral actual
+mismatched reply target type expected StringLiteral InfixExpression SimpleName target type
+opcode SimpleName InfixExpression StringLiteral actual
+opcode SimpleName InfixExpression SimpleName target type
+actual StringLiteral InfixExpression SimpleName target type
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mismatched reply target type expected
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName opcode
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral actual
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName target type
+buffer SimpleName MethodInvocation SimpleName get bytes
+hash value SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+hash value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName hash value
+log SimpleName MethodInvocation SimpleName is debug enabled
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName offset
+value of SimpleName MethodInvocation SimpleName offset
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName length
+value of SimpleName MethodInvocation SimpleName length
+buffer utils SimpleName MethodInvocation SimpleName print hex
+buffer utils SimpleName MethodInvocation CharacterLiteral :
+buffer utils SimpleName MethodInvocation SimpleName quick hash
+print hex SimpleName MethodInvocation CharacterLiteral :
+print hex SimpleName MethodInvocation SimpleName quick hash
+: CharacterLiteral MethodInvocation SimpleName quick hash
+buffer utils SimpleName MethodInvocation SimpleName print hex
+buffer utils SimpleName MethodInvocation CharacterLiteral :
+buffer utils SimpleName MethodInvocation SimpleName hash value
+print hex SimpleName MethodInvocation CharacterLiteral :
+print hex SimpleName MethodInvocation SimpleName hash value
+: CharacterLiteral MethodInvocation SimpleName hash value
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do get hash - offset length quickhash - result
+log SimpleName MethodInvocation SimpleName opcode
+log SimpleName MethodInvocation SimpleName target
+log SimpleName MethodInvocation MethodInvocation SimpleName long
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation StringLiteral do get hash - offset length quickhash - result
+debug SimpleName MethodInvocation SimpleName opcode
+debug SimpleName MethodInvocation SimpleName target
+debug SimpleName MethodInvocation MethodInvocation SimpleName long
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation MethodInvocation SimpleName long
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName length
+do get hash - offset length quickhash - result StringLiteral MethodInvocation SimpleName opcode
+do get hash - offset length quickhash - result StringLiteral MethodInvocation SimpleName target
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName long
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName value of
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName offset
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName long
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName value of
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName length
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName buffer utils
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName print hex
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation CharacterLiteral :
+do get hash - offset length quickhash - result StringLiteral MethodInvocation MethodInvocation SimpleName quick hash
+opcode SimpleName MethodInvocation SimpleName target
+opcode SimpleName MethodInvocation MethodInvocation SimpleName long
+opcode SimpleName MethodInvocation MethodInvocation SimpleName value of
+opcode SimpleName MethodInvocation MethodInvocation SimpleName offset
+opcode SimpleName MethodInvocation MethodInvocation SimpleName long
+opcode SimpleName MethodInvocation MethodInvocation SimpleName value of
+opcode SimpleName MethodInvocation MethodInvocation SimpleName length
+opcode SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+opcode SimpleName MethodInvocation MethodInvocation SimpleName print hex
+opcode SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+opcode SimpleName MethodInvocation MethodInvocation SimpleName quick hash
+opcode SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+opcode SimpleName MethodInvocation MethodInvocation SimpleName print hex
+opcode SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+opcode SimpleName MethodInvocation MethodInvocation SimpleName hash value
+target SimpleName MethodInvocation MethodInvocation SimpleName long
+target SimpleName MethodInvocation MethodInvocation SimpleName value of
+target SimpleName MethodInvocation MethodInvocation SimpleName offset
+target SimpleName MethodInvocation MethodInvocation SimpleName long
+target SimpleName MethodInvocation MethodInvocation SimpleName value of
+target SimpleName MethodInvocation MethodInvocation SimpleName length
+target SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+target SimpleName MethodInvocation MethodInvocation SimpleName print hex
+target SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+target SimpleName MethodInvocation MethodInvocation SimpleName quick hash
+target SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+target SimpleName MethodInvocation MethodInvocation SimpleName print hex
+target SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+target SimpleName MethodInvocation MethodInvocation SimpleName hash value
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+long SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+long SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+long SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+length SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quick hash
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+long SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+length SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+buffer utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+buffer utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+buffer utils SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+buffer utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+print hex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+print hex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+print hex SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+print hex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+: CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+: CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+: CharacterLiteral MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+: CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+quick hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+quick hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+quick hash SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+quick hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash value
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName do get hash
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName length
+byte PrimitiveType ArrayType MethodDeclaration SimpleName do get hash
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName target
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName offset
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName length
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration SimpleName length
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+do get hash SimpleName MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+do get hash SimpleName MethodDeclaration SimpleType SimpleName io exception
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+target SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+length SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+length SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+quick hash SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName do get hash
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do get hash
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName quick hash
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

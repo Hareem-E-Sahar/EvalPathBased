@@ -1,0 +1,88 @@
+detect target folder SimpleName MethodInvocation MethodInvocation SimpleName to path
+target path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName detect target folder
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName to path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+target path SimpleName MethodInvocation SimpleName resolve
+target path SimpleName MethodInvocation StringLiteral root
+resolve SimpleName MethodInvocation StringLiteral root
+target path SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+resolve SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+root StringLiteral MethodInvocation MethodInvocation SimpleName to absolute path
+root native SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName target path
+root native SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resolve
+root native SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral root
+root native SimpleName VariableDeclarationFragment MethodInvocation SimpleName to absolute path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root native
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName root native
+delete recursive SimpleName MethodInvocation SimpleName root native
+assert hierarchy target folder exists SimpleName MethodInvocation SimpleName root native
+root native SimpleName MethodInvocation SimpleName to uri
+root native SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+root StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName root native
+root StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+root StringLiteral InfixExpression MethodInvocation SimpleName to string
+root StringLiteral InfixExpression StringLiteral !/
+root native SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral !/
+to uri SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral !/
+to string SimpleName MethodInvocation InfixExpression StringLiteral !/
+uri SimpleName MethodInvocation SimpleName create
+uri SimpleName MethodInvocation InfixExpression StringLiteral root
+uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+uri SimpleName MethodInvocation InfixExpression StringLiteral !/
+create SimpleName MethodInvocation InfixExpression StringLiteral root
+create SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+create SimpleName MethodInvocation InfixExpression StringLiteral !/
+file systems SimpleName MethodInvocation SimpleName new file system
+file systems SimpleName MethodInvocation MethodInvocation SimpleName uri
+file systems SimpleName MethodInvocation MethodInvocation SimpleName create
+file systems SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral root
+file systems SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral !/
+new file system SimpleName MethodInvocation MethodInvocation SimpleName uri
+new file system SimpleName MethodInvocation MethodInvocation SimpleName create
+new file system SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral root
+new file system SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral !/
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file systems
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uri
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create
+file system SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation StringLiteral testfoo
+get path SimpleName MethodInvocation StringLiteral testfoo
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName fs
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName get path
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation StringLiteral testfoo
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert hierarchy target folder exists
+dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral testfoo
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+created StringLiteral InfixExpression SimpleName dir
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral created
+systemout QualifiedName MethodInvocation InfixExpression SimpleName dir
+println SimpleName MethodInvocation InfixExpression StringLiteral created
+println SimpleName MethodInvocation InfixExpression SimpleName dir
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test root file system
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test root file system
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test root file system
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test root file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test root file system
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test root file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

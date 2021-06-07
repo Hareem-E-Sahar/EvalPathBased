@@ -1,0 +1,236 @@
+detect target folder SimpleName MethodInvocation MethodInvocation SimpleName get parent
+target parent SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName detect target folder
+target parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target parent
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get temp target relative file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+get temp target relative file SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+server dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get temp target relative file
+server dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get simple name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server dir
+sshd SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup test server
+ssh server SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sshd
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName command
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName named factory
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName command
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sftp subsystem factory
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+command SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sftp subsystem factory
+sshd SimpleName MethodInvocation SimpleName set subsystem factories
+sshd SimpleName MethodInvocation MethodInvocation SimpleName arrays
+sshd SimpleName MethodInvocation MethodInvocation SimpleName as list
+set subsystem factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set subsystem factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName target parent
+utils SimpleName MethodInvocation SimpleName server dir
+resolve relative remote path SimpleName MethodInvocation SimpleName target parent
+resolve relative remote path SimpleName MethodInvocation SimpleName server dir
+target parent SimpleName MethodInvocation SimpleName server dir
+git pgm command factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName utils
+git pgm command factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName resolve relative remote path
+git pgm command factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName target parent
+git pgm command factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server dir
+sshd SimpleName MethodInvocation SimpleName set command factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName git pgm command factory
+sshd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utils
+sshd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resolve relative remote path
+sshd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName target parent
+sshd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName server dir
+set command factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName git pgm command factory
+set command factory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utils
+set command factory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resolve relative remote path
+set command factory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName target parent
+set command factory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName server dir
+sshd SimpleName MethodInvocation SimpleName start
+sshd SimpleName MethodInvocation SimpleName get port
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName sshd
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sshd
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get port
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName server dir
+delete recursive SimpleName MethodInvocation SimpleName server dir
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup test client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation StringLiteral localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+localhost StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+localhost StringLiteral MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+server dir SimpleName MethodInvocation SimpleName resolve
+server dir SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+repo SimpleName VariableDeclarationFragment MethodInvocation SimpleName server dir
+repo SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+repo SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repo
+git SimpleName MethodInvocation SimpleName init
+repo SimpleName MethodInvocation SimpleName to file
+git SimpleName MethodInvocation MethodInvocation SimpleName set directory
+init SimpleName MethodInvocation MethodInvocation SimpleName set directory
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName repo
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to file
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName repo
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to file
+set directory SimpleName MethodInvocation MethodInvocation SimpleName repo
+set directory SimpleName MethodInvocation MethodInvocation SimpleName to file
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+set directory SimpleName MethodInvocation MethodInvocation SimpleName call
+repo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+to file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+repo SimpleName MethodInvocation SimpleName to file
+git SimpleName MethodInvocation SimpleName open
+git SimpleName MethodInvocation MethodInvocation SimpleName repo
+git SimpleName MethodInvocation MethodInvocation SimpleName to file
+open SimpleName MethodInvocation MethodInvocation SimpleName repo
+open SimpleName MethodInvocation MethodInvocation SimpleName to file
+git SimpleName VariableDeclarationFragment MethodInvocation SimpleName git
+git SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+git SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName repo
+git SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to file
+git SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName git
+git SimpleName MethodInvocation SimpleName commit
+git SimpleName MethodInvocation MethodInvocation SimpleName set message
+commit SimpleName MethodInvocation MethodInvocation SimpleName set message
+git SimpleName MethodInvocation MethodInvocation StringLiteral first commit
+commit SimpleName MethodInvocation MethodInvocation StringLiteral first commit
+set message SimpleName MethodInvocation StringLiteral first commit
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set committer
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set committer
+set message SimpleName MethodInvocation MethodInvocation SimpleName set committer
+first commit StringLiteral MethodInvocation MethodInvocation SimpleName set committer
+set message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+first commit StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+git SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+set message SimpleName MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+first commit StringLiteral MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+set committer SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+set committer SimpleName MethodInvocation StringLiteral sshdapacheorg
+get current test name SimpleName MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+set message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+first commit StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName call
+set committer SimpleName MethodInvocation MethodInvocation SimpleName call
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+sshdapacheorg StringLiteral MethodInvocation MethodInvocation SimpleName call
+repo SimpleName MethodInvocation SimpleName resolve
+repo SimpleName MethodInvocation StringLiteral readmetxt
+resolve SimpleName MethodInvocation StringLiteral readmetxt
+files SimpleName MethodInvocation SimpleName create file
+files SimpleName MethodInvocation MethodInvocation SimpleName repo
+files SimpleName MethodInvocation MethodInvocation SimpleName resolve
+files SimpleName MethodInvocation MethodInvocation StringLiteral readmetxt
+create file SimpleName MethodInvocation MethodInvocation SimpleName repo
+create file SimpleName MethodInvocation MethodInvocation SimpleName resolve
+create file SimpleName MethodInvocation MethodInvocation StringLiteral readmetxt
+readme file SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+readme file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create file
+readme file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName repo
+readme file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resolve
+readme file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral readmetxt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName readme file
+repo SimpleName MethodInvocation SimpleName get file name
+git gitdir StringLiteral InfixExpression MethodInvocation SimpleName repo
+git gitdir StringLiteral InfixExpression MethodInvocation SimpleName get file name
+command prefix SimpleName VariableDeclarationFragment InfixExpression StringLiteral git gitdir
+command prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName repo
+command prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName command prefix
+readme file SimpleName MethodInvocation SimpleName get file name
+command prefix SimpleName InfixExpression StringLiteral add
+command prefix SimpleName InfixExpression MethodInvocation SimpleName readme file
+command prefix SimpleName InfixExpression MethodInvocation SimpleName get file name
+add StringLiteral InfixExpression MethodInvocation SimpleName readme file
+add StringLiteral InfixExpression MethodInvocation SimpleName get file name
+execute SimpleName MethodInvocation SimpleName session
+execute SimpleName MethodInvocation InfixExpression SimpleName command prefix
+execute SimpleName MethodInvocation InfixExpression StringLiteral add
+execute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName readme file
+execute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file name
+session SimpleName MethodInvocation InfixExpression SimpleName command prefix
+session SimpleName MethodInvocation InfixExpression StringLiteral add
+session SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName readme file
+session SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file name
+command prefix SimpleName InfixExpression StringLiteral commit m readme
+execute SimpleName MethodInvocation SimpleName session
+execute SimpleName MethodInvocation InfixExpression SimpleName command prefix
+execute SimpleName MethodInvocation InfixExpression StringLiteral commit m readme
+session SimpleName MethodInvocation InfixExpression SimpleName command prefix
+session SimpleName MethodInvocation InfixExpression StringLiteral commit m readme
+client SimpleName MethodInvocation SimpleName stop
+sshd SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test gitpgm
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test gitpgm
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test gitpgm
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test gitpgm SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test gitpgm
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test gitpgm
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

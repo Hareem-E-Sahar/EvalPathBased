@@ -1,0 +1,188 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName options
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName options
+split SimpleName MethodInvocation CharacterLiteral empty
+options SimpleName MethodInvocation CharacterLiteral empty
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+pairs SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName pairs
+is empty SimpleName MethodInvocation SimpleName pairs
+collections SimpleName MethodInvocation SimpleName empty map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+opts map SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType SingleVariableDeclaration SimpleName p
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation SimpleName p
+trim to empty SimpleName MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName generic utils
+p SimpleName Assignment MethodInvocation SimpleName trim to empty
+p SimpleName Assignment MethodInvocation SimpleName p
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName p
+is empty SimpleName MethodInvocation SimpleName p
+p SimpleName MethodInvocation SimpleName index of
+p SimpleName MethodInvocation CharacterLiteral =
+index of SimpleName MethodInvocation CharacterLiteral =
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral =
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName p
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral =
+pos SimpleName InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName substring
+p SimpleName MethodInvocation NumberLiteral empty
+p SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName p
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName substring
+generic utils SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName pos
+trim to empty SimpleName MethodInvocation MethodInvocation SimpleName p
+trim to empty SimpleName MethodInvocation MethodInvocation SimpleName substring
+trim to empty SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trim to empty SimpleName MethodInvocation MethodInvocation SimpleName pos
+pos SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName p
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName p
+p SimpleName ConditionalExpression MethodInvocation SimpleName generic utils
+p SimpleName ConditionalExpression MethodInvocation SimpleName trim to empty
+p SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName p
+p SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName substring
+p SimpleName ConditionalExpression MethodInvocation MethodInvocation NumberLiteral empty
+p SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName pos
+name SimpleName VariableDeclarationFragment ConditionalExpression SimpleName p
+name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName generic utils
+name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName trim to empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+pos SimpleName InfixExpression NumberLiteral empty
+pos SimpleName InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName substring
+p SimpleName MethodInvocation InfixExpression SimpleName pos
+p SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName pos
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName p
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName substring
+generic utils SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName pos
+generic utils SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+trim to empty SimpleName MethodInvocation MethodInvocation SimpleName p
+trim to empty SimpleName MethodInvocation MethodInvocation SimpleName substring
+trim to empty SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName pos
+trim to empty SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName generic utils
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName trim to empty
+char sequence SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+generic utils SimpleName MethodInvocation SimpleName strip quotes
+generic utils SimpleName MethodInvocation SimpleName value
+strip quotes SimpleName MethodInvocation SimpleName value
+value SimpleName Assignment MethodInvocation SimpleName generic utils
+value SimpleName Assignment MethodInvocation SimpleName strip quotes
+value SimpleName Assignment MethodInvocation SimpleName value
+booleantrue QualifiedName MethodInvocation SimpleName to string
+value SimpleName Assignment MethodInvocation QualifiedName booleantrue
+value SimpleName Assignment MethodInvocation SimpleName to string
+value SimpleName MethodInvocation SimpleName to string
+opts map SimpleName MethodInvocation SimpleName put
+opts map SimpleName MethodInvocation SimpleName name
+opts map SimpleName MethodInvocation MethodInvocation SimpleName value
+opts map SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation MethodInvocation SimpleName value
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+name SimpleName MethodInvocation MethodInvocation SimpleName value
+name SimpleName MethodInvocation MethodInvocation SimpleName to string
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts map
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+prev SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value
+prev SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+multiple values for key StringLiteral InfixExpression SimpleName name
+multiple values for key StringLiteral InfixExpression StringLiteral : old
+multiple values for key StringLiteral InfixExpression SimpleName prev
+multiple values for key StringLiteral InfixExpression StringLiteral new
+multiple values for key StringLiteral InfixExpression SimpleName value
+name SimpleName InfixExpression StringLiteral : old
+name SimpleName InfixExpression SimpleName prev
+name SimpleName InfixExpression StringLiteral new
+name SimpleName InfixExpression SimpleName value
+: old StringLiteral InfixExpression SimpleName prev
+: old StringLiteral InfixExpression StringLiteral new
+: old StringLiteral InfixExpression SimpleName value
+prev SimpleName InfixExpression StringLiteral new
+prev SimpleName InfixExpression SimpleName value
+new StringLiteral InfixExpression SimpleName value
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral multiple values for key
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : old
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prev
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral new
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+pairs SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+pairs SimpleName EnhancedForStatement Block ReturnStatement SimpleName opts map
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName parse login options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName parse login options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName pairs
+static Modifier MethodDeclaration Block ReturnStatement SimpleName opts map
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName parse login options
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+final Modifier MethodDeclaration Block EnhancedForStatement SimpleName pairs
+final Modifier MethodDeclaration Block ReturnStatement SimpleName opts map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse login options
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse login options
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse login options
+parse login options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse login options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+parse login options SimpleName MethodDeclaration Block EnhancedForStatement SimpleName pairs
+parse login options SimpleName MethodDeclaration Block ReturnStatement SimpleName opts map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse login options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse login options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

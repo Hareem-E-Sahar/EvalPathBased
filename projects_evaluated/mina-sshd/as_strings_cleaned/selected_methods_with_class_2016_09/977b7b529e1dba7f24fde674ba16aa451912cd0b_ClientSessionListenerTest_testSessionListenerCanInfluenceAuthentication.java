@@ -1,0 +1,140 @@
+verification count SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName verification count
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName verification count
+verification count SimpleName MethodInvocation SimpleName increment and get
+ssh client session SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName remote address
+ssh client session SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName server key
+remote address SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName server key
+verifier SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName ssh client session
+verifier SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName remote address
+verifier SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName server key
+final Modifier VariableDeclarationStatement SimpleType SimpleName server key verifier
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName verifier
+server key verifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName verifier
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+session SimpleName MethodInvocation SimpleName is authenticated
+session SimpleName InstanceofExpression SimpleType SimpleName client session
+eventkex completed QualifiedName MethodInvocation SimpleName equals
+eventkex completed QualifiedName MethodInvocation SimpleName event
+equals SimpleName MethodInvocation SimpleName event
+client session SimpleName SimpleType CastExpression SimpleName session
+client session SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName client session
+client session SimpleName VariableDeclarationFragment CastExpression SimpleName session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client session
+client session SimpleName MethodInvocation SimpleName set server key verifier
+client session SimpleName MethodInvocation SimpleName verifier
+set server key verifier SimpleName MethodInvocation SimpleName verifier
+client session SimpleName MethodInvocation SimpleName set user interaction
+client session SimpleName MethodInvocation QualifiedName user interactionnone
+set user interaction SimpleName MethodInvocation QualifiedName user interactionnone
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session event
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName session event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName session listener
+session listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+client SimpleName MethodInvocation SimpleName add session listener
+client SimpleName MethodInvocation SimpleName listener
+add session listener SimpleName MethodInvocation SimpleName listener
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test client session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+client SimpleName MethodInvocation SimpleName get user interaction
+assert not same SimpleName MethodInvocation StringLiteral invalid default user interaction
+assert not same SimpleName MethodInvocation QualifiedName user interactionnone
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName client
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName get user interaction
+invalid default user interaction StringLiteral MethodInvocation QualifiedName user interactionnone
+invalid default user interaction StringLiteral MethodInvocation MethodInvocation SimpleName client
+invalid default user interaction StringLiteral MethodInvocation MethodInvocation SimpleName get user interaction
+user interactionnone QualifiedName MethodInvocation MethodInvocation SimpleName client
+user interactionnone QualifiedName MethodInvocation MethodInvocation SimpleName get user interaction
+client SimpleName MethodInvocation SimpleName get server key verifier
+assert not same SimpleName MethodInvocation StringLiteral invalid default server key verifier
+assert not same SimpleName MethodInvocation SimpleName verifier
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName client
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName get server key verifier
+invalid default server key verifier StringLiteral MethodInvocation SimpleName verifier
+invalid default server key verifier StringLiteral MethodInvocation MethodInvocation SimpleName client
+invalid default server key verifier StringLiteral MethodInvocation MethodInvocation SimpleName get server key verifier
+verifier SimpleName MethodInvocation MethodInvocation SimpleName client
+verifier SimpleName MethodInvocation MethodInvocation SimpleName get server key verifier
+session SimpleName MethodInvocation SimpleName get user interaction
+assert same SimpleName MethodInvocation StringLiteral mismatched session user interaction
+assert same SimpleName MethodInvocation QualifiedName user interactionnone
+assert same SimpleName MethodInvocation MethodInvocation SimpleName session
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get user interaction
+mismatched session user interaction StringLiteral MethodInvocation QualifiedName user interactionnone
+mismatched session user interaction StringLiteral MethodInvocation MethodInvocation SimpleName session
+mismatched session user interaction StringLiteral MethodInvocation MethodInvocation SimpleName get user interaction
+user interactionnone QualifiedName MethodInvocation MethodInvocation SimpleName session
+user interactionnone QualifiedName MethodInvocation MethodInvocation SimpleName get user interaction
+session SimpleName MethodInvocation SimpleName get server key verifier
+assert same SimpleName MethodInvocation StringLiteral mismatched session server key verifier
+assert same SimpleName MethodInvocation SimpleName verifier
+assert same SimpleName MethodInvocation MethodInvocation SimpleName session
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get server key verifier
+mismatched session server key verifier StringLiteral MethodInvocation SimpleName verifier
+mismatched session server key verifier StringLiteral MethodInvocation MethodInvocation SimpleName session
+mismatched session server key verifier StringLiteral MethodInvocation MethodInvocation SimpleName get server key verifier
+verifier SimpleName MethodInvocation MethodInvocation SimpleName session
+verifier SimpleName MethodInvocation MethodInvocation SimpleName get server key verifier
+verification count SimpleName MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation StringLiteral mismatched verification count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName verification count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+mismatched verification count StringLiteral MethodInvocation NumberLiteral empty
+mismatched verification count StringLiteral MethodInvocation MethodInvocation SimpleName verification count
+mismatched verification count StringLiteral MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName verification count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get
+client SimpleName MethodInvocation SimpleName remove session listener
+client SimpleName MethodInvocation SimpleName listener
+remove session listener SimpleName MethodInvocation SimpleName listener
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test session listener can influence authentication
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test session listener can influence authentication
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test session listener can influence authentication
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test session listener can influence authentication SimpleName MethodDeclaration SimpleType SimpleName io exception
+test session listener can influence authentication SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test session listener can influence authentication SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test session listener can influence authentication
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test session listener can influence authentication
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

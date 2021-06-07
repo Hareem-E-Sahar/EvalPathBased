@@ -1,0 +1,56 @@
+io exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+agent SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+err SimpleName Assignment SimpleName e
+socket SimpleName MethodInvocation SimpleName close
+socket SimpleName MethodInvocation SimpleName handle
+close SimpleName MethodInvocation SimpleName handle
+agent thread SimpleName MethodInvocation SimpleName is done
+agent thread SimpleName MethodInvocation SimpleName cancel
+agent thread SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+executor SimpleName VariableDeclarationFragment MethodInvocation SimpleName get executor service
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName executor
+executor SimpleName MethodInvocation SimpleName is shutdown
+collection SimpleName SimpleType ParameterizedType WildcardType ?
+executor SimpleName MethodInvocation SimpleName shutdown now
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName executor
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName shutdown now
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName runners
+log SimpleName MethodInvocation SimpleName is debug enabled
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName runners
+size SimpleName MethodInvocation SimpleName runners
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName generic utils
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName size
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName runners
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral shut down runners count
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+debug SimpleName MethodInvocation InfixExpression StringLiteral shut down runners count
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

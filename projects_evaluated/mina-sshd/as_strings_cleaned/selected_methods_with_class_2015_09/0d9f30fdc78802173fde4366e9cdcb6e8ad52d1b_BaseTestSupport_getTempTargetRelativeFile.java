@@ -1,0 +1,24 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName comps
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName comps
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation MethodInvocation SimpleName get temp target folder
+utils SimpleName MethodInvocation SimpleName comps
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get temp target folder
+resolve SimpleName MethodInvocation SimpleName comps
+get temp target folder SimpleName MethodInvocation MethodInvocation SimpleName comps
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName get temp target relative file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName comps
+path SimpleName SimpleType MethodDeclaration SimpleName get temp target relative file
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName comps
+get temp target relative file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comps
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get temp target relative file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comps
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get temp target relative file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comps

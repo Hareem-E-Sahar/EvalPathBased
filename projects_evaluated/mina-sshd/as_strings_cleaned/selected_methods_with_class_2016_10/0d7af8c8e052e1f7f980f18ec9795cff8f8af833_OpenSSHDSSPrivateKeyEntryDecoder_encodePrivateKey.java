@@ -1,0 +1,121 @@
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+dsa private key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName key
+objects SimpleName MethodInvocation StringLiteral no private key provided
+require non null SimpleName MethodInvocation SimpleName key
+require non null SimpleName MethodInvocation StringLiteral no private key provided
+key SimpleName MethodInvocation StringLiteral no private key provided
+key SimpleName MethodInvocation SimpleName get params
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName key
+objects SimpleName MethodInvocation MethodInvocation SimpleName get params
+objects SimpleName MethodInvocation StringLiteral no dsa params available
+require non null SimpleName MethodInvocation MethodInvocation SimpleName key
+require non null SimpleName MethodInvocation MethodInvocation SimpleName get params
+require non null SimpleName MethodInvocation StringLiteral no dsa params available
+key SimpleName MethodInvocation MethodInvocation StringLiteral no dsa params available
+get params SimpleName MethodInvocation MethodInvocation StringLiteral no dsa params available
+key params SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+key params SimpleName VariableDeclarationFragment MethodInvocation SimpleName require non null
+key params SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key
+key params SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get params
+key params SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no dsa params available
+dsa params SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key params
+key params SimpleName MethodInvocation SimpleName get p
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName key params
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get p
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+key entry resolver SimpleName MethodInvocation SimpleName encode big int
+key entry resolver SimpleName MethodInvocation SimpleName s
+key entry resolver SimpleName MethodInvocation SimpleName p
+encode big int SimpleName MethodInvocation SimpleName s
+encode big int SimpleName MethodInvocation SimpleName p
+s SimpleName MethodInvocation SimpleName p
+key params SimpleName MethodInvocation SimpleName get q
+key entry resolver SimpleName MethodInvocation SimpleName encode big int
+key entry resolver SimpleName MethodInvocation SimpleName s
+key entry resolver SimpleName MethodInvocation MethodInvocation SimpleName key params
+key entry resolver SimpleName MethodInvocation MethodInvocation SimpleName get q
+encode big int SimpleName MethodInvocation SimpleName s
+encode big int SimpleName MethodInvocation MethodInvocation SimpleName key params
+encode big int SimpleName MethodInvocation MethodInvocation SimpleName get q
+s SimpleName MethodInvocation MethodInvocation SimpleName key params
+s SimpleName MethodInvocation MethodInvocation SimpleName get q
+key params SimpleName MethodInvocation SimpleName get g
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName key params
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName get g
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+key entry resolver SimpleName MethodInvocation SimpleName encode big int
+key entry resolver SimpleName MethodInvocation SimpleName s
+key entry resolver SimpleName MethodInvocation SimpleName g
+encode big int SimpleName MethodInvocation SimpleName s
+encode big int SimpleName MethodInvocation SimpleName g
+s SimpleName MethodInvocation SimpleName g
+key SimpleName MethodInvocation SimpleName get x
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+g SimpleName MethodInvocation SimpleName mod pow
+g SimpleName MethodInvocation SimpleName x
+g SimpleName MethodInvocation SimpleName p
+mod pow SimpleName MethodInvocation SimpleName x
+mod pow SimpleName MethodInvocation SimpleName p
+x SimpleName MethodInvocation SimpleName p
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName g
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName mod pow
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName x
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+key entry resolver SimpleName MethodInvocation SimpleName encode big int
+key entry resolver SimpleName MethodInvocation SimpleName s
+key entry resolver SimpleName MethodInvocation SimpleName y
+encode big int SimpleName MethodInvocation SimpleName s
+encode big int SimpleName MethodInvocation SimpleName y
+s SimpleName MethodInvocation SimpleName y
+key entry resolver SimpleName MethodInvocation SimpleName encode big int
+key entry resolver SimpleName MethodInvocation SimpleName s
+key entry resolver SimpleName MethodInvocation SimpleName x
+encode big int SimpleName MethodInvocation SimpleName s
+encode big int SimpleName MethodInvocation SimpleName x
+s SimpleName MethodInvocation SimpleName x
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName encode private key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName encode private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName encode private key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa private key
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+encode private key SimpleName MethodDeclaration SimpleType SimpleName io exception
+encode private key SimpleName MethodDeclaration Block ReturnStatement QualifiedName key pair providerssh dss
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode private key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode private key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

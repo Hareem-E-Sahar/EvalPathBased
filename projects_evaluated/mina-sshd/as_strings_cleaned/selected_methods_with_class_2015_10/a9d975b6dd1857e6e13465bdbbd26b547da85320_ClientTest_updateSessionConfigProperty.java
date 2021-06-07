@@ -1,0 +1,42 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+property resolver utils SimpleName MethodInvocation SimpleName update property
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName session prop name
+property resolver utils SimpleName MethodInvocation SimpleName value
+update property SimpleName MethodInvocation SimpleName session
+update property SimpleName MethodInvocation SimpleName session prop name
+update property SimpleName MethodInvocation SimpleName value
+session SimpleName MethodInvocation SimpleName session prop name
+session SimpleName MethodInvocation SimpleName value
+session prop name SimpleName MethodInvocation SimpleName value
+session config value holder SimpleName MethodInvocation SimpleName set
+session config value holder SimpleName MethodInvocation SimpleName value
+set SimpleName MethodInvocation SimpleName value
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update session config property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName update session config property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+update session config property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+update session config property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+update session config property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+update session config property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update session config property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update session config property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

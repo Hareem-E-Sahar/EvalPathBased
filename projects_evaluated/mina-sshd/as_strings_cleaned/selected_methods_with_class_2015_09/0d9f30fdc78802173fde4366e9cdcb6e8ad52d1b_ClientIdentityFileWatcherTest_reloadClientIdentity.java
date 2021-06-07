@@ -1,0 +1,46 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+assert equals SimpleName MethodInvocation StringLiteral mismatched client identity path
+assert equals SimpleName MethodInvocation SimpleName id file
+assert equals SimpleName MethodInvocation SimpleName path
+mismatched client identity path StringLiteral MethodInvocation SimpleName id file
+mismatched client identity path StringLiteral MethodInvocation SimpleName path
+id file SimpleName MethodInvocation SimpleName path
+reload count SimpleName MethodInvocation SimpleName increment and get
+reload client identity SimpleName SuperMethodInvocation SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName reload client identity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SimpleName reload client identity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName general security exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName reload client identity
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+reload client identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+reload client identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+reload client identity SimpleName MethodDeclaration SimpleType SimpleName io exception
+reload client identity SimpleName MethodDeclaration SimpleType SimpleName general security exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName reload client identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reload client identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

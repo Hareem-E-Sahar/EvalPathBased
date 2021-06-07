@@ -1,0 +1,27 @@
+boolean SimpleName SimpleType SingleVariableDeclaration SimpleName bool
+bool SimpleName InfixExpression InfixExpression SimpleName bool
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName get bool
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName bool
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName get bool
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName bool
+boolean PrimitiveType MethodDeclaration SimpleName get bool
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bool
+get bool SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+get bool SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bool
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bool
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bool
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bool
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bool

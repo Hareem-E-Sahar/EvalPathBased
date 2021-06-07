@@ -1,0 +1,32 @@
+dir entries SimpleName MethodInvocation SimpleName get
+dir entries SimpleName MethodInvocation PostfixExpression SimpleName index
+get SimpleName MethodInvocation PostfixExpression SimpleName index
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName dir entries
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+entry SimpleName VariableDeclarationFragment MethodInvocation PostfixExpression SimpleName index
+dir entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+dir entries SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName dir entries
+index SimpleName InfixExpression MethodInvocation SimpleName size
+index SimpleName Assignment NumberLiteral empty
+load SimpleName MethodInvocation SimpleName dir handle
+dir entries SimpleName Assignment MethodInvocation SimpleName load
+dir entries SimpleName Assignment MethodInvocation SimpleName dir handle
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName dir entry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName dir entry
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entry
+dir entry SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName entry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dir entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dir entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

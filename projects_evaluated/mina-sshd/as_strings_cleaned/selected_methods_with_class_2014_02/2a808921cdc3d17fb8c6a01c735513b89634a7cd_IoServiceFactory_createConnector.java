@@ -1,0 +1,12 @@
+io handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+io connector SimpleName SimpleType MethodDeclaration SimpleName create connector
+io connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName handler
+create connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io handler
+create connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName create connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler

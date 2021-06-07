@@ -1,0 +1,88 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new path
+copy mode SimpleName SimpleType SingleVariableDeclaration SimpleName options
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName old path
+put string SimpleName MethodInvocation SimpleName old path
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName new path
+put string SimpleName MethodInvocation SimpleName new path
+version SimpleName InfixExpression SimpleName sftp v
+opts SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+copy mode SimpleName SimpleType SingleVariableDeclaration SimpleName opt
+opts SimpleName Assignment SimpleName ssh fxp rename atomic
+opts SimpleName Assignment SimpleName ssh fxp rename overwrite
+opt SimpleName SwitchStatement SwitchCase SimpleName atomic
+opt SimpleName SwitchStatement ExpressionStatement Assignment SimpleName opts
+opt SimpleName SwitchStatement ExpressionStatement Assignment SimpleName ssh fxp rename atomic
+opt SimpleName SwitchStatement SwitchCase SimpleName overwrite
+opt SimpleName SwitchStatement ExpressionStatement Assignment SimpleName opts
+opt SimpleName SwitchStatement ExpressionStatement Assignment SimpleName ssh fxp rename overwrite
+atomic SimpleName SwitchCase SwitchStatement SwitchCase SimpleName overwrite
+copy mode SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName options
+opt SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName options
+options SimpleName EnhancedForStatement Block SwitchStatement SimpleName opt
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName opts
+put int SimpleName MethodInvocation SimpleName opts
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName options
+optionslength QualifiedName InfixExpression NumberLiteral empty
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral copy options can not be used with this sftp version
+send SimpleName MethodInvocation SimpleName ssh fxp rename
+send SimpleName MethodInvocation SimpleName buffer
+ssh fxp rename SimpleName MethodInvocation SimpleName buffer
+receive SimpleName MethodInvocation MethodInvocation SimpleName send
+receive SimpleName MethodInvocation MethodInvocation SimpleName ssh fxp rename
+receive SimpleName MethodInvocation MethodInvocation SimpleName buffer
+check status SimpleName MethodInvocation MethodInvocation SimpleName receive
+check status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName send
+check status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh fxp rename
+check status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName rename
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName copy mode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName rename
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName copy mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old path
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new path
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName copy mode
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+rename SimpleName MethodDeclaration SimpleType SimpleName io exception
+old path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+old path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+old path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+new path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rename
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rename
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

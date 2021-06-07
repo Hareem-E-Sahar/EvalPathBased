@@ -1,0 +1,26 @@
+password identity provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+password identity provider SimpleName Assignment SimpleName provider
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set password identity provider
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set password identity provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName password identity provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+void PrimitiveType MethodDeclaration SimpleName set password identity provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName password identity provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName provider
+set password identity provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName password identity provider
+set password identity provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set password identity provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set password identity provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider

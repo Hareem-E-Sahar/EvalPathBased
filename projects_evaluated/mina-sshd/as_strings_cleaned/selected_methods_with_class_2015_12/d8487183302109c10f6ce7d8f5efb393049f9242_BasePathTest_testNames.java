@@ -1,0 +1,155 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+names SimpleName MethodInvocation SimpleName size
+path SimpleName MethodInvocation SimpleName get name count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name count
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name count
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name count
+names SimpleName MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation SimpleName names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName path
+names SimpleName MethodInvocation MethodInvocation SimpleName names
+names SimpleName MethodInvocation MethodInvocation SimpleName path
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+names SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName names
+i SimpleName InfixExpression MethodInvocation SimpleName size
+names SimpleName MethodInvocation SimpleName get
+names SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+path SimpleName MethodInvocation SimpleName get name
+path SimpleName MethodInvocation SimpleName i
+get name SimpleName MethodInvocation SimpleName i
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+get name SimpleName MethodInvocation MethodInvocation SimpleName to string
+i SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName get
+names SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+path tester SimpleName SimpleType ClassInstanceCreation SimpleName file system
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName get
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName i
+names SimpleName MethodInvocation SimpleName get
+names SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+names SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+i SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName i
+names SimpleName MethodInvocation MethodInvocation SimpleName names
+names SimpleName MethodInvocation MethodInvocation SimpleName get
+names SimpleName MethodInvocation MethodInvocation SimpleName i
+path SimpleName MethodInvocation SimpleName get name
+path SimpleName MethodInvocation SimpleName i
+get name SimpleName MethodInvocation SimpleName i
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+test SimpleName MethodInvocation MethodInvocation SimpleName path
+test SimpleName MethodInvocation MethodInvocation SimpleName get name
+test SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName get
+names SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName names
+names SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName names
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName names
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+file name SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file name
+path SimpleName MethodInvocation SimpleName get file name
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+get file name SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation SimpleName file name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file name
+file name SimpleName MethodInvocation MethodInvocation SimpleName to string
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path tester SimpleName SimpleType ClassInstanceCreation SimpleName file system
+path tester SimpleName SimpleType ClassInstanceCreation SimpleName file name
+file system SimpleName ClassInstanceCreation SimpleName file name
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+file name SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file name
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName file name
+file name SimpleName ClassInstanceCreation MethodInvocation SimpleName file name
+names SimpleName MethodInvocation SimpleName file name
+path SimpleName MethodInvocation SimpleName get file name
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+file name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation SimpleName test
+file name SimpleName MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file name
+file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file name
+test SimpleName MethodInvocation MethodInvocation SimpleName path
+test SimpleName MethodInvocation MethodInvocation SimpleName get file name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test names
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName test names
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+test names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+test names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

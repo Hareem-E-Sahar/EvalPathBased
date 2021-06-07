@@ -1,0 +1,24 @@
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName detect target folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+target SimpleName MethodInvocation SimpleName get parent
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+parent SimpleName MethodInvocation SimpleName resolve
+parent SimpleName MethodInvocation StringLiteral src
+resolve SimpleName MethodInvocation StringLiteral src
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName detect sources folder
+protected Modifier MethodDeclaration SimpleType SimpleName illegal state exception
+path SimpleName SimpleType MethodDeclaration SimpleName detect sources folder
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal state exception
+detect sources folder SimpleName MethodDeclaration SimpleType SimpleName illegal state exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName detect sources folder
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal state exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName detect sources folder
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal state exception

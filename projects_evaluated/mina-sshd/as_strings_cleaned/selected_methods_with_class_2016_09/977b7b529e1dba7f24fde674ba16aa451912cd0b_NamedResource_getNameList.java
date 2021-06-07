@@ -1,0 +1,26 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resources
+named resource SimpleName ExpressionMethodReference SimpleName get name
+generic utils SimpleName MethodInvocation SimpleName map
+generic utils SimpleName MethodInvocation SimpleName resources
+generic utils SimpleName MethodInvocation ExpressionMethodReference SimpleName named resource
+generic utils SimpleName MethodInvocation ExpressionMethodReference SimpleName get name
+map SimpleName MethodInvocation SimpleName resources
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName named resource
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName get name
+resources SimpleName MethodInvocation ExpressionMethodReference SimpleName named resource
+resources SimpleName MethodInvocation ExpressionMethodReference SimpleName get name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get name list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName resources
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get name list
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get name list
+get name list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resources
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get name list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get name list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources

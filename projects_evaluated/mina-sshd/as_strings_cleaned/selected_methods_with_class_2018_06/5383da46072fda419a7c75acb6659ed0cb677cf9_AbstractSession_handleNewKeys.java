@@ -1,0 +1,129 @@
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName log
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName log
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral handle new keys ssh msg newkeys command
+log SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+log SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+log SimpleName MethodInvocation MethodInvocation SimpleName cmd
+debug SimpleName MethodInvocation StringLiteral handle new keys ssh msg newkeys command
+debug SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+debug SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+debug SimpleName MethodInvocation MethodInvocation SimpleName cmd
+handle new keys ssh msg newkeys command StringLiteral MethodInvocation MethodInvocation SimpleName ssh constants
+handle new keys ssh msg newkeys command StringLiteral MethodInvocation MethodInvocation SimpleName get command message name
+handle new keys ssh msg newkeys command StringLiteral MethodInvocation MethodInvocation SimpleName cmd
+validate kex state SimpleName MethodInvocation SimpleName cmd
+validate kex state SimpleName MethodInvocation QualifiedName kex statekeys
+cmd SimpleName MethodInvocation QualifiedName kex statekeys
+kex future holder SimpleName MethodInvocation SimpleName get
+kex future SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex future holder
+kex future SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+default key exchange future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kex future
+kex future SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex future
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+kex future SimpleName MethodInvocation SimpleName set value
+kex future SimpleName MethodInvocation QualifiedName booleantrue
+set value SimpleName MethodInvocation QualifiedName booleantrue
+signal session event SimpleName MethodInvocation QualifiedName session listenereventkey established
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName io write future
+send pending packets SimpleName MethodInvocation SimpleName pending packets
+pending writes SimpleName Assignment MethodInvocation SimpleName send pending packets
+pending writes SimpleName Assignment MethodInvocation SimpleName pending packets
+kex state SimpleName MethodInvocation SimpleName set
+kex state SimpleName MethodInvocation QualifiedName kex statedone
+set SimpleName MethodInvocation QualifiedName kex statedone
+pending writes SimpleName MethodInvocation SimpleName size
+pending count SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending writes
+pending count SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pending count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending writes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+pending count SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral handle new keys sent {} pending packets
+log SimpleName MethodInvocation SimpleName pending count
+debug SimpleName MethodInvocation StringLiteral handle new keys sent {} pending packets
+debug SimpleName MethodInvocation SimpleName pending count
+handle new keys sent {} pending packets StringLiteral MethodInvocation SimpleName pending count
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName io write future
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+io write future SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+pe SimpleName MethodInvocation SimpleName get key
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName pe
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+pe SimpleName MethodInvocation SimpleName get value
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName pe
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+io write future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName MethodInvocation SimpleName add listener
+future SimpleName MethodInvocation SimpleName listener
+add listener SimpleName MethodInvocation SimpleName listener
+pe SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName pending writes
+debug enabled SimpleName IfStatement Block EnhancedForStatement SimpleName pending writes
+lock SimpleName MethodInvocation SimpleName notify all
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName debug enabled
+pending packets SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType int
+pending packets SimpleName SynchronizedStatement Block SynchronizedStatement SimpleName lock
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName lock
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle new keys
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName handle new keys
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug enabled
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName pending packets
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+handle new keys SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+handle new keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+handle new keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle new keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle new keys SimpleName MethodDeclaration SimpleType SimpleName exception
+handle new keys SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+handle new keys SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+handle new keys SimpleName MethodDeclaration Block SynchronizedStatement SimpleName pending packets
+handle new keys SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+handle new keys SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle new keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle new keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

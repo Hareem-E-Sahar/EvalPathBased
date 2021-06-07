@@ -1,0 +1,93 @@
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName sftp subsystem factorybuilder
+sftp subsystem factorybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName with executor service
+builder SimpleName MethodInvocation MethodInvocation SimpleName dummy executor
+with executor service SimpleName MethodInvocation MethodInvocation SimpleName dummy executor
+builder SimpleName MethodInvocation MethodInvocation SimpleName build
+with executor service SimpleName MethodInvocation MethodInvocation SimpleName build
+dummy executor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName builder
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName with executor service
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+sftp subsystem factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+builder SimpleName MethodInvocation SimpleName build
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+sftp subsystem factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+assert SimpleName MethodInvocation SimpleName assert not same
+assert SimpleName MethodInvocation StringLiteral no new instance built
+assert SimpleName MethodInvocation SimpleName f
+assert SimpleName MethodInvocation SimpleName f
+assert not same SimpleName MethodInvocation StringLiteral no new instance built
+assert not same SimpleName MethodInvocation SimpleName f
+assert not same SimpleName MethodInvocation SimpleName f
+no new instance built StringLiteral MethodInvocation SimpleName f
+no new instance built StringLiteral MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName get executor service
+f SimpleName MethodInvocation SimpleName get executor service
+assert SimpleName MethodInvocation SimpleName assert same
+assert SimpleName MethodInvocation StringLiteral mismatched executors
+assert SimpleName MethodInvocation MethodInvocation SimpleName f
+assert SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert SimpleName MethodInvocation MethodInvocation SimpleName f
+assert SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert same SimpleName MethodInvocation StringLiteral mismatched executors
+assert same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+mismatched executors StringLiteral MethodInvocation MethodInvocation SimpleName f
+mismatched executors StringLiteral MethodInvocation MethodInvocation SimpleName get executor service
+mismatched executors StringLiteral MethodInvocation MethodInvocation SimpleName f
+mismatched executors StringLiteral MethodInvocation MethodInvocation SimpleName get executor service
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor service
+get executor service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+get executor service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor service
+builder SimpleName MethodInvocation SimpleName with executor service
+builder SimpleName MethodInvocation MethodInvocation SimpleName dummy executor
+with executor service SimpleName MethodInvocation MethodInvocation SimpleName dummy executor
+builder SimpleName MethodInvocation MethodInvocation SimpleName build
+with executor service SimpleName MethodInvocation MethodInvocation SimpleName build
+dummy executor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName builder
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName with executor service
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+sftp subsystem factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName get executor service
+f SimpleName MethodInvocation SimpleName get executor service
+assert SimpleName MethodInvocation SimpleName assert not same
+assert SimpleName MethodInvocation StringLiteral executor service not changed
+assert SimpleName MethodInvocation MethodInvocation SimpleName f
+assert SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert SimpleName MethodInvocation MethodInvocation SimpleName f
+assert SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert not same SimpleName MethodInvocation StringLiteral executor service not changed
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+executor service not changed StringLiteral MethodInvocation MethodInvocation SimpleName f
+executor service not changed StringLiteral MethodInvocation MethodInvocation SimpleName get executor service
+executor service not changed StringLiteral MethodInvocation MethodInvocation SimpleName f
+executor service not changed StringLiteral MethodInvocation MethodInvocation SimpleName get executor service
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor service
+get executor service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+get executor service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor service
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test builder unique instance
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test builder unique instance
+void PrimitiveType MethodDeclaration SimpleName test builder unique instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test builder unique instance
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test builder unique instance

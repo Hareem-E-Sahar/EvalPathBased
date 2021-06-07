@@ -1,0 +1,67 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clazz
+get class container location uri SimpleName MethodInvocation SimpleName clazz
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class container location uri
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+to file source SimpleName MethodInvocation SimpleName uri
+uri syntax exception SimpleName SimpleType UnionType SimpleType SimpleName malformed url exception
+uri syntax exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+malformed url exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName e
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+: StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SimpleName get class container location file
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName get class container location file
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+final Modifier MethodDeclaration SimpleType SimpleName file
+final Modifier MethodDeclaration SimpleName get class container location file
+final Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+final Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+file SimpleName SimpleType MethodDeclaration SimpleName get class container location file
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+file SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal argument exception
+get class container location file SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get class container location file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get class container location file SimpleName MethodDeclaration SimpleType SimpleName illegal argument exception
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class container location file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class container location file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception

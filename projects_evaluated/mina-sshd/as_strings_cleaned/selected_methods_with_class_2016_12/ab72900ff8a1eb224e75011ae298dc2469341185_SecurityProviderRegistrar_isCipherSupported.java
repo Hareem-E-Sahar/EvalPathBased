@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName transformation
+is security entity supported SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cipher
+is security entity supported SimpleName MethodInvocation SimpleName transformation
+cipher SimpleName SimpleType TypeLiteral MethodInvocation SimpleName transformation
+default Modifier MethodDeclaration PrimitiveType boolean
+default Modifier MethodDeclaration SimpleName is cipher supported
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName transformation
+boolean PrimitiveType MethodDeclaration SimpleName is cipher supported
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName transformation
+is cipher supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is cipher supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transformation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is cipher supported
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformation
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is cipher supported
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformation

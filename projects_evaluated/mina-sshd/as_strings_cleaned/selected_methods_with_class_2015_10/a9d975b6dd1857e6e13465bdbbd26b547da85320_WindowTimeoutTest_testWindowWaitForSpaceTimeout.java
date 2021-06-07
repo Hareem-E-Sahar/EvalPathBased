@@ -1,0 +1,117 @@
+channel SimpleName MethodInvocation SimpleName get local window
+window SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+window SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local window
+window SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName window
+window SimpleName MethodInvocation SimpleName init
+window SimpleName MethodInvocation QualifiedName factory managerdefault window size
+window SimpleName MethodInvocation QualifiedName factory managerdefault max packet size
+init SimpleName MethodInvocation QualifiedName factory managerdefault window size
+init SimpleName MethodInvocation QualifiedName factory managerdefault max packet size
+factory managerdefault window size QualifiedName MethodInvocation QualifiedName factory managerdefault max packet size
+window SimpleName MethodInvocation SimpleName get size
+window SimpleName MethodInvocation SimpleName consume
+window SimpleName MethodInvocation MethodInvocation SimpleName window
+window SimpleName MethodInvocation MethodInvocation SimpleName get size
+consume SimpleName MethodInvocation MethodInvocation SimpleName window
+consume SimpleName MethodInvocation MethodInvocation SimpleName get size
+window SimpleName MethodInvocation SimpleName get size
+assert equals SimpleName MethodInvocation StringLiteral window not empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName window
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get size
+window not empty StringLiteral MethodInvocation NumberLiteral empty
+window not empty StringLiteral MethodInvocation MethodInvocation SimpleName window
+window not empty StringLiteral MethodInvocation MethodInvocation SimpleName get size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName window
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get size
+system SimpleName MethodInvocation SimpleName nano time
+wait start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+wait start SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+window SimpleName MethodInvocation SimpleName wait for space
+window SimpleName MethodInvocation SimpleName max wait time
+wait for space SimpleName MethodInvocation SimpleName max wait time
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName window
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for space
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName max wait time
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName window
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wait for space
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max wait time
+unexpected timed wait success - len StringLiteral InfixExpression SimpleName len
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected timed wait success - len
+fail SimpleName MethodInvocation InfixExpression SimpleName len
+socket timeout exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+system SimpleName MethodInvocation SimpleName nano time
+wait end SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+wait end SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait end
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+wait end SimpleName InfixExpression SimpleName wait start
+time unitnanoseconds QualifiedName MethodInvocation SimpleName to millis
+time unitnanoseconds QualifiedName MethodInvocation InfixExpression SimpleName wait end
+time unitnanoseconds QualifiedName MethodInvocation InfixExpression SimpleName wait start
+to millis SimpleName MethodInvocation InfixExpression SimpleName wait end
+to millis SimpleName MethodInvocation InfixExpression SimpleName wait start
+wait duration SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitnanoseconds
+wait duration SimpleName VariableDeclarationFragment MethodInvocation SimpleName to millis
+wait duration SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName wait end
+wait duration SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName wait start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait duration
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName time unitnanoseconds
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to millis
+timeout too soon StringLiteral InfixExpression SimpleName wait duration
+max wait time SimpleName InfixExpression NumberLiteral l
+wait duration SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName max wait time
+wait duration SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral l
+assert true SimpleName MethodInvocation InfixExpression StringLiteral timeout too soon
+assert true SimpleName MethodInvocation InfixExpression SimpleName wait duration
+assert true SimpleName MethodInvocation InfixExpression SimpleName wait duration
+timeout too soon StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName wait duration
+wait duration SimpleName InfixExpression MethodInvocation InfixExpression SimpleName wait duration
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+window SimpleName MethodInvocation SimpleName close
+window SimpleName MethodInvocation SimpleName is open
+assert false SimpleName MethodInvocation StringLiteral window not closed
+assert false SimpleName MethodInvocation MethodInvocation SimpleName window
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is open
+window not closed StringLiteral MethodInvocation MethodInvocation SimpleName window
+window not closed StringLiteral MethodInvocation MethodInvocation SimpleName is open
+window SimpleName MethodInvocation SimpleName wait for space
+window SimpleName MethodInvocation SimpleName max wait time
+wait for space SimpleName MethodInvocation SimpleName max wait time
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName window
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for space
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName max wait time
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName window
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wait for space
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max wait time
+unexpected closed wait success - len StringLiteral InfixExpression SimpleName len
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected closed wait success - len
+fail SimpleName MethodInvocation InfixExpression SimpleName len
+window closed exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test window wait for space timeout
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test window wait for space timeout
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test window wait for space timeout
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test window wait for space timeout SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test window wait for space timeout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test window wait for space timeout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,69 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName get class
+session SimpleName MethodInvocation MethodInvocation SimpleName get declared field
+get class SimpleName MethodInvocation MethodInvocation SimpleName get declared field
+session SimpleName MethodInvocation MethodInvocation StringLiteral socket
+get class SimpleName MethodInvocation MethodInvocation StringLiteral socket
+get declared field SimpleName MethodInvocation StringLiteral socket
+f socket SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName session
+f socket SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+f socket SimpleName VariableDeclarationFragment MethodInvocation SimpleName get declared field
+f socket SimpleName VariableDeclarationFragment MethodInvocation StringLiteral socket
+field SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f socket
+f socket SimpleName MethodInvocation SimpleName set accessible
+f socket SimpleName MethodInvocation BooleanLiteral true
+set accessible SimpleName MethodInvocation BooleanLiteral true
+f socket SimpleName MethodInvocation SimpleName get
+f socket SimpleName MethodInvocation SimpleName session
+get SimpleName MethodInvocation SimpleName session
+socket SimpleName SimpleType CastExpression MethodInvocation SimpleName f socket
+socket SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+socket SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+socket SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName socket
+socket SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName f socket
+socket SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+socket SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+socket SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName socket
+socket SimpleName MethodInvocation SimpleName is connected
+assert true SimpleName MethodInvocation StringLiteral socket is not connected
+assert true SimpleName MethodInvocation MethodInvocation SimpleName socket
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is connected
+socket is not connected StringLiteral MethodInvocation MethodInvocation SimpleName socket
+socket is not connected StringLiteral MethodInvocation MethodInvocation SimpleName is connected
+socket SimpleName MethodInvocation SimpleName is closed
+assert false SimpleName MethodInvocation StringLiteral socket should not be closed
+assert false SimpleName MethodInvocation MethodInvocation SimpleName socket
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is closed
+socket should not be closed StringLiteral MethodInvocation MethodInvocation SimpleName socket
+socket should not be closed StringLiteral MethodInvocation MethodInvocation SimpleName is closed
+socket SimpleName MethodInvocation SimpleName close
+socket SimpleName MethodInvocation SimpleName is closed
+assert true SimpleName MethodInvocation StringLiteral socket has not closed
+assert true SimpleName MethodInvocation MethodInvocation SimpleName socket
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is closed
+socket has not closed StringLiteral MethodInvocation MethodInvocation SimpleName socket
+socket has not closed StringLiteral MethodInvocation MethodInvocation SimpleName is closed
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName rudely disconnect jsch session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName rudely disconnect jsch session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+rudely disconnect jsch session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+rudely disconnect jsch session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+rudely disconnect jsch session SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rudely disconnect jsch session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rudely disconnect jsch session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,130 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+scp timestamp SimpleName SimpleType SingleVariableDeclaration SimpleName time
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral update file properties {} permissions time
+log SimpleName MethodInvocation SimpleName file
+log SimpleName MethodInvocation SimpleName perms
+trace SimpleName MethodInvocation StringLiteral update file properties {} permissions time
+trace SimpleName MethodInvocation SimpleName file
+trace SimpleName MethodInvocation SimpleName perms
+trace SimpleName MethodInvocation SimpleName time
+update file properties {} permissions time StringLiteral MethodInvocation SimpleName file
+update file properties {} permissions time StringLiteral MethodInvocation SimpleName perms
+update file properties {} permissions time StringLiteral MethodInvocation SimpleName time
+file SimpleName MethodInvocation SimpleName perms
+file SimpleName MethodInvocation SimpleName time
+perms SimpleName MethodInvocation SimpleName time
+io utils SimpleName MethodInvocation SimpleName set permissions
+io utils SimpleName MethodInvocation SimpleName file
+io utils SimpleName MethodInvocation SimpleName perms
+set permissions SimpleName MethodInvocation SimpleName file
+set permissions SimpleName MethodInvocation SimpleName perms
+file SimpleName MethodInvocation SimpleName perms
+files SimpleName MethodInvocation SimpleName get file attribute view
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attribute view
+get file attribute view SimpleName MethodInvocation SimpleName file
+get file attribute view SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attribute view
+file SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attribute view
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file attribute view
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+basic file attribute view SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+time SimpleName MethodInvocation SimpleName get last modified time
+file time SimpleName MethodInvocation SimpleName from
+file time SimpleName MethodInvocation MethodInvocation SimpleName time
+file time SimpleName MethodInvocation MethodInvocation SimpleName get last modified time
+file time SimpleName MethodInvocation QualifiedName time unitmilliseconds
+from SimpleName MethodInvocation MethodInvocation SimpleName time
+from SimpleName MethodInvocation MethodInvocation SimpleName get last modified time
+from SimpleName MethodInvocation QualifiedName time unitmilliseconds
+time SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+get last modified time SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+last modified SimpleName VariableDeclarationFragment MethodInvocation SimpleName file time
+last modified SimpleName VariableDeclarationFragment MethodInvocation SimpleName from
+last modified SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName time
+last modified SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get last modified time
+last modified SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+file time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last modified
+time SimpleName MethodInvocation SimpleName get last access time
+file time SimpleName MethodInvocation SimpleName from
+file time SimpleName MethodInvocation MethodInvocation SimpleName time
+file time SimpleName MethodInvocation MethodInvocation SimpleName get last access time
+file time SimpleName MethodInvocation QualifiedName time unitmilliseconds
+from SimpleName MethodInvocation MethodInvocation SimpleName time
+from SimpleName MethodInvocation MethodInvocation SimpleName get last access time
+from SimpleName MethodInvocation QualifiedName time unitmilliseconds
+time SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+get last access time SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+last access SimpleName VariableDeclarationFragment MethodInvocation SimpleName file time
+last access SimpleName VariableDeclarationFragment MethodInvocation SimpleName from
+last access SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName time
+last access SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get last access time
+last access SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+file time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last access
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral update file properties {} lastmodified lastaccess
+log SimpleName MethodInvocation SimpleName file
+log SimpleName MethodInvocation SimpleName last modified
+trace SimpleName MethodInvocation StringLiteral update file properties {} lastmodified lastaccess
+trace SimpleName MethodInvocation SimpleName file
+trace SimpleName MethodInvocation SimpleName last modified
+trace SimpleName MethodInvocation SimpleName last access
+update file properties {} lastmodified lastaccess StringLiteral MethodInvocation SimpleName file
+update file properties {} lastmodified lastaccess StringLiteral MethodInvocation SimpleName last modified
+update file properties {} lastmodified lastaccess StringLiteral MethodInvocation SimpleName last access
+file SimpleName MethodInvocation SimpleName last modified
+file SimpleName MethodInvocation SimpleName last access
+last modified SimpleName MethodInvocation SimpleName last access
+view SimpleName MethodInvocation SimpleName set times
+view SimpleName MethodInvocation SimpleName last modified
+view SimpleName MethodInvocation SimpleName last access
+set times SimpleName MethodInvocation SimpleName last modified
+set times SimpleName MethodInvocation SimpleName last access
+last modified SimpleName MethodInvocation SimpleName last access
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update file properties
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp timestamp
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+void PrimitiveType MethodDeclaration SimpleName update file properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perms
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp timestamp
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+update file properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+update file properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+update file properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+update file properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp timestamp
+update file properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+update file properties SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+perms SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update file properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update file properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

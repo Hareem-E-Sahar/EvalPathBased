@@ -1,0 +1,92 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName buf
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+block size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get block size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName block size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get block size
+default size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default block size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName default size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get default block size
+block size SimpleName InfixExpression SimpleName default size
+mac SimpleName MethodInvocation SimpleName do final
+mac SimpleName MethodInvocation SimpleName tmp
+mac SimpleName MethodInvocation NumberLiteral empty
+do final SimpleName MethodInvocation SimpleName tmp
+do final SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName tmp
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName buf
+system SimpleName MethodInvocation SimpleName offset
+arraycopy SimpleName MethodInvocation SimpleName tmp
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buf
+arraycopy SimpleName MethodInvocation SimpleName offset
+arraycopy SimpleName MethodInvocation SimpleName block size
+tmp SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation SimpleName buf
+tmp SimpleName MethodInvocation SimpleName offset
+tmp SimpleName MethodInvocation SimpleName block size
+empty NumberLiteral MethodInvocation SimpleName buf
+empty NumberLiteral MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation SimpleName block size
+buf SimpleName MethodInvocation SimpleName offset
+buf SimpleName MethodInvocation SimpleName block size
+offset SimpleName MethodInvocation SimpleName block size
+mac SimpleName MethodInvocation SimpleName do final
+mac SimpleName MethodInvocation SimpleName buf
+mac SimpleName MethodInvocation SimpleName offset
+do final SimpleName MethodInvocation SimpleName buf
+do final SimpleName MethodInvocation SimpleName offset
+buf SimpleName MethodInvocation SimpleName offset
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buf
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName do final
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName do final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do final SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+do final SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buf
+do final SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do final SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+do final SimpleName MethodDeclaration SimpleType SimpleName exception
+do final SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do final SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+buf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

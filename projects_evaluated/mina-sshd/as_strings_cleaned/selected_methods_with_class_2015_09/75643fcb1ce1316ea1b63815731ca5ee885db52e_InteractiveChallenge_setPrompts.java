@@ -1,0 +1,25 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prompts
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName prompts
+size SimpleName MethodInvocation SimpleName prompts
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+prompts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+prompts SimpleName FieldAccess MethodInvocation SimpleName add all
+prompts SimpleName FieldAccess MethodInvocation SimpleName prompts
+add all SimpleName MethodInvocation SimpleName prompts
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set prompts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prompts
+void PrimitiveType MethodDeclaration SimpleName set prompts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prompts
+set prompts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prompts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set prompts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prompts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set prompts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prompts

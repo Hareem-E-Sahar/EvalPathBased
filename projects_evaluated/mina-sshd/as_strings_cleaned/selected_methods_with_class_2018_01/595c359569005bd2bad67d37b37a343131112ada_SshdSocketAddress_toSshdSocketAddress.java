@@ -1,0 +1,73 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName addr
+addr SimpleName InstanceofExpression SimpleType SimpleName sshd socket address
+sshd socket address SimpleName SimpleType CastExpression SimpleName addr
+addr SimpleName InstanceofExpression SimpleType SimpleName inet socket address
+inet socket address SimpleName SimpleType CastExpression SimpleName addr
+isock address SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName inet socket address
+isock address SimpleName VariableDeclarationFragment CastExpression SimpleName addr
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName isock address
+isock address SimpleName MethodInvocation SimpleName get host name
+isock address SimpleName MethodInvocation SimpleName get port
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName isock address
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get host name
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName isock address
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get port
+isock address SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName isock address
+isock address SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName isock address
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+addr SimpleName MethodInvocation SimpleName get class
+addr SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+sshd socket address SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+cannot convert StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName addr
+cannot convert StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+cannot convert StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+cannot convert StringLiteral InfixExpression StringLiteral =
+cannot convert StringLiteral InfixExpression SimpleName addr
+cannot convert StringLiteral InfixExpression StringLiteral to
+cannot convert StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+addr SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral =
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral =
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral =
+addr SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName addr
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName addr
+get simple name SimpleName MethodInvocation InfixExpression SimpleName addr
+addr SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral to
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral to
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral to
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+= StringLiteral InfixExpression SimpleName addr
+= StringLiteral InfixExpression StringLiteral to
+= StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+addr SimpleName InfixExpression StringLiteral to
+addr SimpleName InfixExpression MethodInvocation SimpleName get simple name
+to StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot convert
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral =
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName addr
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral to
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SimpleName to sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+static Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+static Modifier MethodDeclaration SimpleName to sshd socket address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName to sshd socket address
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName addr
+to sshd socket address SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+to sshd socket address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName addr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName to sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr

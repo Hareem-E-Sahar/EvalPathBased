@@ -1,0 +1,53 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName available
+io buffer SimpleName MethodInvocation SimpleName wrap
+io buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+io buffer SimpleName MethodInvocation MethodInvocation SimpleName array
+io buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+io buffer SimpleName MethodInvocation MethodInvocation SimpleName rpos
+io buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+io buffer SimpleName MethodInvocation MethodInvocation SimpleName available
+wrap SimpleName MethodInvocation MethodInvocation SimpleName buffer
+wrap SimpleName MethodInvocation MethodInvocation SimpleName array
+wrap SimpleName MethodInvocation MethodInvocation SimpleName buffer
+wrap SimpleName MethodInvocation MethodInvocation SimpleName rpos
+wrap SimpleName MethodInvocation MethodInvocation SimpleName buffer
+wrap SimpleName MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName io buffer
+public Modifier MethodDeclaration SimpleName as io buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SimpleType SimpleName io buffer
+static Modifier MethodDeclaration SimpleName as io buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+io buffer SimpleName SimpleType MethodDeclaration SimpleName as io buffer
+io buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+as io buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+as io buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName as io buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as io buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

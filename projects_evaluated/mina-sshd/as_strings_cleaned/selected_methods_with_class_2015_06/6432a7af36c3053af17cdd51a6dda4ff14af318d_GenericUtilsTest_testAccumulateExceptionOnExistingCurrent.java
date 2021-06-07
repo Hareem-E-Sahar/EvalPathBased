@@ -1,0 +1,58 @@
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current test name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+class cast exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+no such element exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral top
+current SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName unsupported operation exception
+current SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral top
+runtime exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName extra
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName current
+generic utils SimpleName MethodInvocation SimpleName extra
+accumulate exception SimpleName MethodInvocation SimpleName current
+accumulate exception SimpleName MethodInvocation SimpleName extra
+current SimpleName MethodInvocation SimpleName extra
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulate exception
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName extra
+runtime exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation StringLiteral mismatched returned actual exception
+assert same SimpleName MethodInvocation SimpleName current
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched returned actual exception StringLiteral MethodInvocation SimpleName current
+mismatched returned actual exception StringLiteral MethodInvocation SimpleName actual
+current SimpleName MethodInvocation SimpleName actual
+runtime exception SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName expected
+extra SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName expected
+current SimpleName MethodInvocation SimpleName get suppressed
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get suppressed
+assert array equals SimpleName MethodInvocation StringLiteral suppressed
+assert array equals SimpleName MethodInvocation SimpleName expected
+assert array equals SimpleName MethodInvocation SimpleName actual
+suppressed StringLiteral MethodInvocation SimpleName expected
+suppressed StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test accumulate exception on existing current
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test accumulate exception on existing current
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName expected
+void PrimitiveType MethodDeclaration SimpleName test accumulate exception on existing current
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName expected
+test accumulate exception on existing current SimpleName MethodDeclaration Block EnhancedForStatement SimpleName expected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test accumulate exception on existing current
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test accumulate exception on existing current

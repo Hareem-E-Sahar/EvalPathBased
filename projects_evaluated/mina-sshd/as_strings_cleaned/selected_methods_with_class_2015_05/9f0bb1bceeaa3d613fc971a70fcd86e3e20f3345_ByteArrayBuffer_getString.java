@@ -1,0 +1,54 @@
+charset SimpleName SimpleType SingleVariableDeclaration SimpleName charset
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+len SimpleName InfixExpression NumberLiteral empty
+bad item length StringLiteral InfixExpression SimpleName len
+buffer exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad item length
+buffer exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName len
+ensure available SimpleName MethodInvocation SimpleName len
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName rpos
+string SimpleName SimpleType ClassInstanceCreation SimpleName len
+string SimpleName SimpleType ClassInstanceCreation SimpleName charset
+data SimpleName ClassInstanceCreation SimpleName rpos
+data SimpleName ClassInstanceCreation SimpleName len
+data SimpleName ClassInstanceCreation SimpleName charset
+rpos SimpleName ClassInstanceCreation SimpleName len
+rpos SimpleName ClassInstanceCreation SimpleName charset
+len SimpleName ClassInstanceCreation SimpleName charset
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName data
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName rpos
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName len
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName charset
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+rpos SimpleName Assignment SimpleName len
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get string
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName charset
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName charset
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName get string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName charset
+get string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+get string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charset
+get string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get string SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset

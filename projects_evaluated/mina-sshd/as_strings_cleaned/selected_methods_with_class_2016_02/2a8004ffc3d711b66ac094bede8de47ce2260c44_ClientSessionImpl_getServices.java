@@ -1,0 +1,21 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName service
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName current service
+arrays SimpleName MethodInvocation SimpleName next service
+as list SimpleName MethodInvocation SimpleName current service
+as list SimpleName MethodInvocation SimpleName next service
+current service SimpleName MethodInvocation SimpleName next service
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get services
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName service
+protected Modifier MethodDeclaration SimpleName get services
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get services
+service SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get services
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get services
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get services

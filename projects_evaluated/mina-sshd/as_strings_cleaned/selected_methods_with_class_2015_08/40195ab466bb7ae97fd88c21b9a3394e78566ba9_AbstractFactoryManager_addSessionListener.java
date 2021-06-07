@@ -1,0 +1,52 @@
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName listener
+validate utils SimpleName MethodInvocation StringLiteral add session listeners null instance
+check not null SimpleName MethodInvocation SimpleName listener
+check not null SimpleName MethodInvocation StringLiteral add session listeners null instance
+listener SimpleName MethodInvocation StringLiteral add session listeners null instance
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral add session listener ignore registration while manager is closing
+log SimpleName MethodInvocation SimpleName listener
+warn SimpleName MethodInvocation StringLiteral add session listener ignore registration while manager is closing
+warn SimpleName MethodInvocation SimpleName listener
+add session listener ignore registration while manager is closing StringLiteral MethodInvocation SimpleName listener
+session listeners SimpleName FieldAccess MethodInvocation SimpleName add
+session listeners SimpleName FieldAccess MethodInvocation SimpleName listener
+add SimpleName MethodInvocation SimpleName listener
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral add session listener registered
+log SimpleName MethodInvocation SimpleName listener
+trace SimpleName MethodInvocation StringLiteral add session listener registered
+trace SimpleName MethodInvocation SimpleName listener
+add session listener registered StringLiteral MethodInvocation SimpleName listener
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral add session listener ignored duplicate
+log SimpleName MethodInvocation SimpleName listener
+trace SimpleName MethodInvocation StringLiteral add session listener ignored duplicate
+trace SimpleName MethodInvocation SimpleName listener
+add session listener ignored duplicate StringLiteral MethodInvocation SimpleName listener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add session listener
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add session listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName add session listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+add session listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+add session listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add session listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add session listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

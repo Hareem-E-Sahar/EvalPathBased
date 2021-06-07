@@ -1,0 +1,38 @@
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral send ssh msg channel request exec
+debug SimpleName MethodInvocation StringLiteral send ssh msg channel request exec
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg channel request
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg channel request
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh constantsssh msg channel request
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName recipient
+put int SimpleName MethodInvocation SimpleName recipient
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation StringLiteral exec
+put string SimpleName MethodInvocation StringLiteral exec
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation BooleanLiteral false
+put boolean SimpleName MethodInvocation BooleanLiteral false
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName command
+put string SimpleName MethodInvocation SimpleName command
+write packet SimpleName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do open
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do open
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do open SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do open
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do open
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+file SimpleName SimpleType SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+de normalize separate char SimpleName MethodInvocation SimpleName name
+name SimpleName Assignment MethodInvocation SimpleName de normalize separate char
+name SimpleName Assignment MethodInvocation SimpleName name
+native ssh file nio SimpleName SimpleType ClassInstanceCreation SimpleName name
+native ssh file nio SimpleName SimpleType ClassInstanceCreation SimpleName file
+native ssh file nio SimpleName SimpleType ClassInstanceCreation SimpleName user name
+name SimpleName ClassInstanceCreation SimpleName file
+name SimpleName ClassInstanceCreation SimpleName user name
+file SimpleName ClassInstanceCreation SimpleName user name
+native ssh file SimpleName SimpleType ClassInstanceCreation SimpleName name
+native ssh file SimpleName SimpleType ClassInstanceCreation SimpleName file
+native ssh file SimpleName SimpleType ClassInstanceCreation SimpleName user name
+name SimpleName ClassInstanceCreation SimpleName file
+name SimpleName ClassInstanceCreation SimpleName user name
+file SimpleName ClassInstanceCreation SimpleName user name
+public Modifier MethodDeclaration SimpleType SimpleName native ssh file
+public Modifier MethodDeclaration SimpleName create native ssh file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+native ssh file SimpleName SimpleType MethodDeclaration SimpleName create native ssh file
+native ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+native ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+native ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user name
+create native ssh file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create native ssh file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create native ssh file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+create native ssh file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+create native ssh file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create native ssh file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+create native ssh file SimpleName MethodDeclaration Block IfStatement SimpleName is java
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName native ssh file
+public Modifier TypeDeclaration MethodDeclaration SimpleName create native ssh file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName native ssh file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create native ssh file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name

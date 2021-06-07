@@ -1,0 +1,72 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get current test name
+system SimpleName MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName password identity provider
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName va
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName va
+as list SimpleName MethodInvocation SimpleName va
+passwords SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+passwords SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+passwords SimpleName VariableDeclarationFragment MethodInvocation SimpleName va
+expected SimpleName MethodInvocation SimpleName add all
+expected SimpleName MethodInvocation SimpleName passwords
+add all SimpleName MethodInvocation SimpleName passwords
+password identity provider SimpleName MethodInvocation SimpleName wrap
+password identity provider SimpleName MethodInvocation SimpleName passwords
+wrap SimpleName MethodInvocation SimpleName passwords
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName password identity provider
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrap
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName passwords
+password identity provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+assert provider contents SimpleName MethodInvocation StringLiteral wrapped
+assert provider contents SimpleName MethodInvocation SimpleName p
+assert provider contents SimpleName MethodInvocation SimpleName passwords
+wrapped StringLiteral MethodInvocation SimpleName p
+wrapped StringLiteral MethodInvocation SimpleName passwords
+p SimpleName MethodInvocation SimpleName passwords
+providers SimpleName MethodInvocation SimpleName add
+providers SimpleName MethodInvocation SimpleName p
+add SimpleName MethodInvocation SimpleName p
+va SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+password identity provider SimpleName MethodInvocation SimpleName multi provider
+password identity provider SimpleName MethodInvocation SimpleName providers
+multi provider SimpleName MethodInvocation SimpleName providers
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName password identity provider
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName multi provider
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName providers
+password identity provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+assert provider contents SimpleName MethodInvocation StringLiteral multi
+assert provider contents SimpleName MethodInvocation SimpleName p
+assert provider contents SimpleName MethodInvocation SimpleName expected
+multi StringLiteral MethodInvocation SimpleName p
+multi StringLiteral MethodInvocation SimpleName expected
+p SimpleName MethodInvocation SimpleName expected
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test multi provider
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test multi provider
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+void PrimitiveType MethodDeclaration SimpleName test multi provider
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName values
+test multi provider SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test multi provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test multi provider

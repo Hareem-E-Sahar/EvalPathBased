@@ -1,0 +1,82 @@
+disposing SimpleName MethodInvocation SimpleName get and set
+disposing SimpleName MethodInvocation BooleanLiteral true
+get and set SimpleName MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral dispose already disposing
+warn SimpleName MethodInvocation StringLiteral dispose already disposing
+closeable SimpleName MethodInvocation SimpleName get max close wait time
+closeable SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+get max close wait time SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+max wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName closeable
+max wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName get max close wait time
+max wait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get factory manager
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max wait
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName closeable
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get max close wait time
+close SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation MethodInvocation SimpleName await
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName await
+close SimpleName MethodInvocation MethodInvocation SimpleName max wait
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName max wait
+await SimpleName MethodInvocation SimpleName max wait
+successful SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName close
+successful SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation BooleanLiteral true
+successful SimpleName VariableDeclarationFragment MethodInvocation SimpleName await
+successful SimpleName VariableDeclarationFragment MethodInvocation SimpleName max wait
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName successful
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName await
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max wait
+failed to receive closure confirmation within StringLiteral InfixExpression SimpleName max wait
+failed to receive closure confirmation within StringLiteral InfixExpression StringLiteral millis
+max wait SimpleName InfixExpression StringLiteral millis
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to receive closure confirmation within
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max wait
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral millis
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName is debug enabled
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral dispose {} while stopping service {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation StringLiteral dispose {} while stopping service {}
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation MethodInvocation SimpleName e
+debug SimpleName MethodInvocation MethodInvocation SimpleName get message
+dispose {} while stopping service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e
+dispose {} while stopping service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+dispose {} while stopping service {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+dispose {} while stopping service {} StringLiteral MethodInvocation MethodInvocation SimpleName e
+dispose {} while stopping service {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is trace enabled
+dispose StringLiteral InfixExpression StringLiteral ) stop exception details
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral dispose
+log SimpleName MethodInvocation InfixExpression StringLiteral ) stop exception details
+log SimpleName MethodInvocation SimpleName e
+trace SimpleName MethodInvocation InfixExpression StringLiteral dispose
+trace SimpleName MethodInvocation InfixExpression StringLiteral ) stop exception details
+trace SimpleName MethodInvocation SimpleName e
+dispose StringLiteral InfixExpression MethodInvocation SimpleName e
+) stop exception details StringLiteral InfixExpression MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

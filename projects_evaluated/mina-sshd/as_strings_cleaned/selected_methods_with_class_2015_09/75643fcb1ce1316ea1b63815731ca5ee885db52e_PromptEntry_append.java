@@ -1,0 +1,35 @@
+b SimpleName TypeParameter SimpleType SimpleName buffer
+b SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get prompt
+put string SimpleName MethodInvocation MethodInvocation SimpleName get prompt
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation MethodInvocation SimpleName is echo
+put boolean SimpleName MethodInvocation MethodInvocation SimpleName is echo
+public Modifier MethodDeclaration TypeParameter SimpleName b
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SimpleName append
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration Block ReturnStatement SimpleName buffer
+b SimpleName TypeParameter MethodDeclaration SimpleType SimpleName b
+b SimpleName TypeParameter MethodDeclaration SimpleName append
+buffer SimpleName SimpleType TypeParameter MethodDeclaration SimpleName append
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName SimpleType MethodDeclaration SimpleName append
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+append SimpleName MethodDeclaration Block ReturnStatement SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleName append
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

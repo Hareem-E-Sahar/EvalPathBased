@@ -1,0 +1,80 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+class SimpleName SimpleType ParameterizedType WildcardType ?
+obj SimpleName MethodInvocation SimpleName get class
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName get declared field
+clazz SimpleName MethodInvocation SimpleName name
+get declared field SimpleName MethodInvocation SimpleName name
+field SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+field SimpleName VariableDeclarationFragment MethodInvocation SimpleName get declared field
+field SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+field SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName field
+field SimpleName MethodInvocation SimpleName set accessible
+field SimpleName MethodInvocation BooleanLiteral true
+set accessible SimpleName MethodInvocation BooleanLiteral true
+field SimpleName MethodInvocation SimpleName set
+field SimpleName MethodInvocation SimpleName obj
+field SimpleName MethodInvocation SimpleName val
+set SimpleName MethodInvocation SimpleName obj
+set SimpleName MethodInvocation SimpleName val
+obj SimpleName MethodInvocation SimpleName val
+no such field exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+clazz SimpleName MethodInvocation SimpleName get superclass
+clazz SimpleName Assignment MethodInvocation SimpleName clazz
+clazz SimpleName Assignment MethodInvocation SimpleName get superclass
+no such field exception SimpleName SimpleType ClassInstanceCreation SimpleName name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName illegal access exception
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+set SimpleName MethodDeclaration SimpleType SimpleName illegal access exception
+set SimpleName MethodDeclaration SimpleType SimpleName no such field exception
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such field exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such field exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such field exception
+illegal access exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName no such field exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no such field exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no such field exception

@@ -1,0 +1,56 @@
+char sequence SimpleName SimpleType SingleVariableDeclaration SimpleName cs
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName cs
+length SimpleName MethodInvocation SimpleName cs
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cs SimpleName MethodInvocation SimpleName char at
+cs SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+cs SimpleName MethodInvocation InfixExpression CharacterLiteral :
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral :
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral :
+cs SimpleName MethodInvocation SimpleName char at
+cs SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+drive SimpleName VariableDeclarationFragment MethodInvocation SimpleName cs
+drive SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+drive SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName drive
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cs
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+drive SimpleName InfixExpression CharacterLiteral a
+drive SimpleName InfixExpression CharacterLiteral z
+drive SimpleName InfixExpression CharacterLiteral a
+drive SimpleName InfixExpression CharacterLiteral z
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is windows drive specified
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cs
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is windows drive specified
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cs
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+boolean PrimitiveType MethodDeclaration SimpleName is windows drive specified
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cs
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+is windows drive specified SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+is windows drive specified SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cs
+is windows drive specified SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is windows drive specified
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is windows drive specified
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cs

@@ -1,0 +1,29 @@
+expected SimpleName MethodInvocation SimpleName get class value
+expected SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get class value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+asn class SimpleName MethodInvocation SimpleName from der value
+asn class SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+from der value SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName asn class
+assert same SimpleName MethodInvocation MethodInvocation SimpleName from der value
+assert same SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral x ff
+expected SimpleName MethodInvocation MethodInvocation SimpleName asn class
+expected SimpleName MethodInvocation MethodInvocation SimpleName from der value
+expected SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral x ff
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from der value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from der value
+void PrimitiveType MethodDeclaration SimpleName test from der value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from der value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from der value

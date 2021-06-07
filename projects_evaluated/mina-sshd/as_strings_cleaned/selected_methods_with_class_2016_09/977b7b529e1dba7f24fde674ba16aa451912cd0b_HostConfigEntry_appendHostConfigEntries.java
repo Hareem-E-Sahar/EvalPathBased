@@ -1,0 +1,63 @@
+a SimpleName TypeParameter SimpleType SimpleName appendable
+a SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName entries
+is empty SimpleName MethodInvocation SimpleName entries
+host config entry SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName append
+entry SimpleName MethodInvocation SimpleName sb
+append SimpleName MethodInvocation SimpleName sb
+host config entry SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entries
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entries
+entries SimpleName EnhancedForStatement Block ReturnStatement SimpleName sb
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName a
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName appendable
+public Modifier MethodDeclaration SimpleType SimpleName a
+public Modifier MethodDeclaration SimpleName append host config entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration TypeParameter SimpleName a
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName appendable
+static Modifier MethodDeclaration SimpleType SimpleName a
+static Modifier MethodDeclaration SimpleName append host config entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+a SimpleName TypeParameter MethodDeclaration SimpleType SimpleName a
+a SimpleName TypeParameter MethodDeclaration SimpleName append host config entries
+appendable SimpleName SimpleType TypeParameter MethodDeclaration SimpleName append host config entries
+a SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName sb
+a SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName entries
+a SimpleName TypeParameter MethodDeclaration SimpleType SimpleName io exception
+a SimpleName SimpleType MethodDeclaration SimpleName append host config entries
+a SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+a SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entries
+a SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+append host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a
+append host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+append host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+append host config entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+append host config entries SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entries
+append host config entries SimpleName MethodDeclaration Block ReturnStatement SimpleName sb
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+entries SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SimpleName append host config entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append host config entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

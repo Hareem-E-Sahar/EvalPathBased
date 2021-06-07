@@ -1,0 +1,20 @@
+buffer utils SimpleName MethodInvocation SimpleName to hex
+buffer utils SimpleName MethodInvocation MethodInvocation SimpleName array
+buffer utils SimpleName MethodInvocation MethodInvocation SimpleName rpos
+buffer utils SimpleName MethodInvocation MethodInvocation SimpleName available
+to hex SimpleName MethodInvocation MethodInvocation SimpleName array
+to hex SimpleName MethodInvocation MethodInvocation SimpleName rpos
+to hex SimpleName MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to hex
+string SimpleName SimpleType MethodDeclaration SimpleName to hex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to hex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to hex

@@ -1,0 +1,57 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+bytes SimpleName VariableDeclarationFragment ArrayInitializer NumberLiteral empty
+bytes SimpleName VariableDeclarationFragment ArrayInitializer NumberLiteral empty
+bytes SimpleName VariableDeclarationFragment ArrayInitializer NumberLiteral empty
+bytes SimpleName VariableDeclarationFragment ArrayInitializer NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+io utils SimpleName MethodInvocation SimpleName read fully
+io utils SimpleName MethodInvocation SimpleName s
+io utils SimpleName MethodInvocation SimpleName bytes
+read fully SimpleName MethodInvocation SimpleName s
+read fully SimpleName MethodInvocation SimpleName bytes
+s SimpleName MethodInvocation SimpleName bytes
+bytes SimpleName ArrayAccess NumberLiteral empty
+bytes SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+bytes SimpleName ArrayAccess NumberLiteral empty
+bytes SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+bytes SimpleName ArrayAccess NumberLiteral empty
+bytes SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+bytes SimpleName ArrayAccess NumberLiteral empty
+bytes SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName decode int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName decode int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+decode int SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+decode int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+decode int SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

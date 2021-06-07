@@ -1,0 +1,15 @@
+open dir SimpleName MethodInvocation SimpleName path
+handle SimpleName Assignment MethodInvocation SimpleName open dir
+handle SimpleName Assignment MethodInvocation SimpleName path
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName open
+void PrimitiveType MethodDeclaration SimpleName open
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName open
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open

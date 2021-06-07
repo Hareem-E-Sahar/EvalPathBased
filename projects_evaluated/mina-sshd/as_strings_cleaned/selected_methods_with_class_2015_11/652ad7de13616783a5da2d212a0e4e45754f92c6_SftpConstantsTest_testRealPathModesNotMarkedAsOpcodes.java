@@ -1,0 +1,59 @@
+cmd SimpleName VariableDeclarationFragment QualifiedName sftp constantsssh fxp realpath no check
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName cmd
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName sftp constantsssh fxp realpath no check
+cmd SimpleName InfixExpression QualifiedName sftp constantsssh fxp realpath stat if
+sftp constants SimpleName MethodInvocation SimpleName get command message name
+sftp constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp constants
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get command message name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+mismatched name for StringLiteral InfixExpression SimpleName cmd
+mismatched name for StringLiteral InfixExpression StringLiteral :
+mismatched name for StringLiteral InfixExpression SimpleName name
+cmd SimpleName InfixExpression StringLiteral :
+cmd SimpleName InfixExpression SimpleName name
+: StringLiteral InfixExpression SimpleName name
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation StringLiteral ssh fxp realpath
+starts with SimpleName MethodInvocation StringLiteral ssh fxp realpath
+assert false SimpleName MethodInvocation InfixExpression StringLiteral mismatched name for
+assert false SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert false SimpleName MethodInvocation InfixExpression StringLiteral :
+assert false SimpleName MethodInvocation InfixExpression SimpleName name
+assert false SimpleName MethodInvocation MethodInvocation SimpleName name
+assert false SimpleName MethodInvocation MethodInvocation SimpleName starts with
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral ssh fxp realpath
+mismatched name for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+mismatched name for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+mismatched name for StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fxp realpath
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fxp realpath
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+: StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fxp realpath
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+name SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fxp realpath
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cmd
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName sftp constantsssh fxp realpath stat if
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName cmd
+cmd SimpleName InfixExpression ForStatement PostfixExpression SimpleName cmd
+sftp constantsssh fxp realpath stat if QualifiedName InfixExpression ForStatement PostfixExpression SimpleName cmd
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test real path modes not marked as opcodes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test real path modes not marked as opcodes
+void PrimitiveType MethodDeclaration SimpleName test real path modes not marked as opcodes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test real path modes not marked as opcodes
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test real path modes not marked as opcodes

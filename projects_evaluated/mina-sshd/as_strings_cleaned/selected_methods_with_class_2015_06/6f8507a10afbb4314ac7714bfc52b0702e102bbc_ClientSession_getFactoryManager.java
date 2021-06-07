@@ -1,0 +1,10 @@
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName client factory manager
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get factory manager
+client factory manager SimpleName SimpleType MethodDeclaration SimpleName get factory manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client factory manager
+public Modifier TypeDeclaration MethodDeclaration SimpleName get factory manager
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client factory manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get factory manager

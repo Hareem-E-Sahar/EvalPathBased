@@ -1,0 +1,101 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName expected
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+message SimpleName InfixExpression StringLiteral - no actual object
+assert not null SimpleName MethodInvocation InfixExpression SimpleName message
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral - no actual object
+assert not null SimpleName MethodInvocation SimpleName obj
+message SimpleName InfixExpression MethodInvocation SimpleName obj
+- no actual object StringLiteral InfixExpression MethodInvocation SimpleName obj
+class SimpleName SimpleType ParameterizedType WildcardType ?
+obj SimpleName MethodInvocation SimpleName get class
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+expected SimpleName MethodInvocation SimpleName is assignable from
+expected SimpleName MethodInvocation SimpleName actual
+is assignable from SimpleName MethodInvocation SimpleName actual
+actual SimpleName MethodInvocation SimpleName get name
+expected SimpleName MethodInvocation SimpleName get name
+message SimpleName InfixExpression StringLiteral - actual object type (
+message SimpleName InfixExpression MethodInvocation SimpleName actual
+message SimpleName InfixExpression MethodInvocation SimpleName get name
+message SimpleName InfixExpression StringLiteral ) incompatible with expected (
+message SimpleName InfixExpression MethodInvocation SimpleName expected
+message SimpleName InfixExpression MethodInvocation SimpleName get name
+message SimpleName InfixExpression StringLiteral )
+- actual object type ( StringLiteral InfixExpression MethodInvocation SimpleName actual
+- actual object type ( StringLiteral InfixExpression MethodInvocation SimpleName get name
+- actual object type ( StringLiteral InfixExpression StringLiteral ) incompatible with expected (
+- actual object type ( StringLiteral InfixExpression MethodInvocation SimpleName expected
+- actual object type ( StringLiteral InfixExpression MethodInvocation SimpleName get name
+- actual object type ( StringLiteral InfixExpression StringLiteral )
+actual SimpleName MethodInvocation InfixExpression StringLiteral ) incompatible with expected (
+get name SimpleName MethodInvocation InfixExpression StringLiteral ) incompatible with expected (
+actual SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+actual SimpleName MethodInvocation InfixExpression StringLiteral )
+get name SimpleName MethodInvocation InfixExpression StringLiteral )
+) incompatible with expected ( StringLiteral InfixExpression MethodInvocation SimpleName expected
+) incompatible with expected ( StringLiteral InfixExpression MethodInvocation SimpleName get name
+) incompatible with expected ( StringLiteral InfixExpression StringLiteral )
+expected SimpleName MethodInvocation InfixExpression StringLiteral )
+get name SimpleName MethodInvocation InfixExpression StringLiteral )
+fail SimpleName MethodInvocation InfixExpression SimpleName message
+fail SimpleName MethodInvocation InfixExpression StringLiteral - actual object type (
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+fail SimpleName MethodInvocation InfixExpression StringLiteral ) incompatible with expected (
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+fail SimpleName MethodInvocation InfixExpression StringLiteral )
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert object instance of
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert object instance of
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SimpleName assert object instance of
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+assert object instance of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert object instance of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+assert object instance of SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+assert object instance of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert object instance of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+assert object instance of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert object instance of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert object instance of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

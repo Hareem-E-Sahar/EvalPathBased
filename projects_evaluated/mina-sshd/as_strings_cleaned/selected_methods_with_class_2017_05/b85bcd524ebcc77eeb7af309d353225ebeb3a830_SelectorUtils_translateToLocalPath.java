@@ -1,0 +1,106 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName path
+is empty SimpleName MethodInvocation SimpleName path
+fileseparator char QualifiedName InfixExpression CharacterLiteral /
+path SimpleName MethodInvocation SimpleName replace
+path SimpleName MethodInvocation CharacterLiteral /
+path SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+/ CharacterLiteral MethodInvocation QualifiedName fileseparator char
+local path SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+local path SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+local path SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral /
+local path SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator char
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local path
+local path SimpleName MethodInvocation SimpleName char at
+local path SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+local path SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+char at SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName fileseparator char
+local path SimpleName MethodInvocation SimpleName length
+local path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+is windows drive specified SimpleName MethodInvocation SimpleName local path
+is windows drive specified SimpleName MethodInvocation NumberLiteral empty
+is windows drive specified SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local path
+is windows drive specified SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+is windows drive specified SimpleName MethodInvocation InfixExpression NumberLiteral empty
+local path SimpleName MethodInvocation NumberLiteral empty
+local path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local path
+local path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+local path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName local path
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+local path SimpleName MethodInvocation SimpleName substring
+local path SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+local path SimpleName Assignment MethodInvocation SimpleName local path
+local path SimpleName Assignment MethodInvocation SimpleName substring
+local path SimpleName Assignment MethodInvocation NumberLiteral empty
+is windows drive specified SimpleName MethodInvocation SimpleName local path
+local path SimpleName MethodInvocation SimpleName length
+local path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+local path SimpleName InfixExpression QualifiedName fileseparator
+local path SimpleName MethodInvocation SimpleName char at
+local path SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+local path SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+char at SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName fileseparator char
+local path SimpleName MethodInvocation SimpleName substring
+local path SimpleName MethodInvocation NumberLiteral empty
+local path SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+local path SimpleName MethodInvocation SimpleName substring
+local path SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+local path SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+substring SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+local path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local path
+local path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+local path SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local path
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+substring SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName local path
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName substring
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName local path
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName substring
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName local path
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName substring
+fileseparator QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName translate to local path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName translate to local path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SimpleName translate to local path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+translate to local path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+translate to local path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName translate to local path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName translate to local path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

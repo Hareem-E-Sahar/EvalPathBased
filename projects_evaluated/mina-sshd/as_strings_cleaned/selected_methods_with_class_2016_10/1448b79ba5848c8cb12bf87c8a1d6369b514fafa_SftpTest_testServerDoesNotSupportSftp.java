@@ -1,0 +1,139 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName command
+sshd SimpleName MethodInvocation SimpleName get subsystem factories
+factories SimpleName VariableDeclarationFragment MethodInvocation SimpleName sshd
+factories SimpleName VariableDeclarationFragment MethodInvocation SimpleName get subsystem factories
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName factories
+size SimpleName MethodInvocation SimpleName factories
+assert equals SimpleName MethodInvocation StringLiteral mismatched subsystem factories count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName factories
+mismatched subsystem factories count StringLiteral MethodInvocation NumberLiteral empty
+mismatched subsystem factories count StringLiteral MethodInvocation MethodInvocation SimpleName generic utils
+mismatched subsystem factories count StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched subsystem factories count StringLiteral MethodInvocation MethodInvocation SimpleName factories
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName generic utils
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName factories
+sshd SimpleName MethodInvocation SimpleName set subsystem factories
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+time unitseconds QualifiedName MethodInvocation SimpleName to millis
+time unitseconds QualifiedName MethodInvocation NumberLiteral l
+to millis SimpleName MethodInvocation NumberLiteral l
+property resolver utils SimpleName MethodInvocation SimpleName update property
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation QualifiedName sftp clientsftp channel open timeout
+property resolver utils SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleName to millis
+property resolver utils SimpleName MethodInvocation MethodInvocation NumberLiteral l
+update property SimpleName MethodInvocation SimpleName session
+update property SimpleName MethodInvocation QualifiedName sftp clientsftp channel open timeout
+update property SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+update property SimpleName MethodInvocation MethodInvocation SimpleName to millis
+update property SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation QualifiedName sftp clientsftp channel open timeout
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName MethodInvocation MethodInvocation SimpleName to millis
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+sftp clientsftp channel open timeout QualifiedName MethodInvocation MethodInvocation QualifiedName time unitseconds
+sftp clientsftp channel open timeout QualifiedName MethodInvocation MethodInvocation SimpleName to millis
+sftp clientsftp channel open timeout QualifiedName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation SimpleName create sftp client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create sftp client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+fail SimpleName MethodInvocation StringLiteral unexpected sftp client creation success
+socket timeout exception SimpleName SimpleType UnionType SimpleType SimpleName eof exception
+socket timeout exception SimpleName SimpleType UnionType SimpleType SimpleName window closed exception
+eof exception SimpleName SimpleType UnionType SimpleType SimpleName window closed exception
+socket timeout exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+eof exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+window closed exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+property resolver utils SimpleName MethodInvocation SimpleName update property
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation QualifiedName sftp clientsftp channel open timeout
+property resolver utils SimpleName MethodInvocation QualifiedName sftp clientdefault channel open timeout
+update property SimpleName MethodInvocation SimpleName session
+update property SimpleName MethodInvocation QualifiedName sftp clientsftp channel open timeout
+update property SimpleName MethodInvocation QualifiedName sftp clientdefault channel open timeout
+session SimpleName MethodInvocation QualifiedName sftp clientsftp channel open timeout
+session SimpleName MethodInvocation QualifiedName sftp clientdefault channel open timeout
+sftp clientsftp channel open timeout QualifiedName MethodInvocation QualifiedName sftp clientdefault channel open timeout
+sshd SimpleName MethodInvocation SimpleName set subsystem factories
+sshd SimpleName MethodInvocation SimpleName factories
+set subsystem factories SimpleName MethodInvocation SimpleName factories
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test server does not support sftp
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test server does not support sftp
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test server does not support sftp
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test server does not support sftp SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test server does not support sftp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test server does not support sftp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

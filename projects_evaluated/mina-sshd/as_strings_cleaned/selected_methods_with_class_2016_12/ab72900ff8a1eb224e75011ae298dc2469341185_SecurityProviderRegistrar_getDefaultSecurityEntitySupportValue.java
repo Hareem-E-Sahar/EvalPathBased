@@ -1,0 +1,22 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity type
+default Modifier MethodDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SimpleName get default security entity support value
+default Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+default Modifier MethodDeclaration Block ReturnStatement StringLiteral empty
+string SimpleName SimpleType MethodDeclaration SimpleName get default security entity support value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get default security entity support value SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get default security entity support value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get default security entity support value SimpleName MethodDeclaration Block ReturnStatement StringLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default security entity support value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default security entity support value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type

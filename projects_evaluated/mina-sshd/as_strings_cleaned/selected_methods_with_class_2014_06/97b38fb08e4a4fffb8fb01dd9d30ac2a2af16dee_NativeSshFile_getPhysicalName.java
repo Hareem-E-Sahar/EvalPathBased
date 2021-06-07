@@ -1,0 +1,350 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName root dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName root dir
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName curr dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName curr dir
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+final Modifier SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration SimpleName case insensitive
+boolean PrimitiveType SingleVariableDeclaration SimpleName case insensitive
+normalize separate char SimpleName MethodInvocation SimpleName root dir
+normalized root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize separate char
+normalized root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName root dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName normalized root dir
+normalized root dir SimpleName MethodInvocation SimpleName length
+normalized root dir SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+normalized root dir SimpleName MethodInvocation SimpleName char at
+normalized root dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName normalized root dir
+normalized root dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+normalized root dir SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName normalized root dir
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+normalized root dir SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression CharacterLiteral /
+normalized root dir SimpleName Assignment CharacterLiteral /
+normalize separate char SimpleName MethodInvocation SimpleName file name
+normalized file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize separate char
+normalized file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName normalized file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName res arg
+normalized curr dir SimpleName VariableDeclarationFragment SimpleName curr dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName normalized curr dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr dir
+normalized file name SimpleName MethodInvocation SimpleName char at
+normalized file name SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+normalized file name SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral /
+normalized curr dir SimpleName Assignment StringLiteral /
+normalized curr dir SimpleName MethodInvocation SimpleName length
+normalized curr dir SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+normalized curr dir SimpleName Assignment StringLiteral /
+normalize separate char SimpleName MethodInvocation SimpleName normalized curr dir
+normalized curr dir SimpleName Assignment MethodInvocation SimpleName normalize separate char
+normalized curr dir SimpleName Assignment MethodInvocation SimpleName normalized curr dir
+normalized curr dir SimpleName MethodInvocation SimpleName char at
+normalized curr dir SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+normalized curr dir SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral /
+/ CharacterLiteral InfixExpression SimpleName normalized curr dir
+normalized curr dir SimpleName Assignment InfixExpression CharacterLiteral /
+normalized curr dir SimpleName Assignment InfixExpression SimpleName normalized curr dir
+normalized curr dir SimpleName MethodInvocation SimpleName length
+normalized curr dir SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+normalized curr dir SimpleName MethodInvocation SimpleName char at
+normalized curr dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName normalized curr dir
+normalized curr dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+normalized curr dir SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName normalized curr dir
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+normalized curr dir SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression CharacterLiteral /
+normalized curr dir SimpleName Assignment CharacterLiteral /
+normalized curr dir SimpleName MethodInvocation SimpleName substring
+normalized curr dir SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+normalized root dir SimpleName InfixExpression MethodInvocation SimpleName normalized curr dir
+normalized root dir SimpleName InfixExpression MethodInvocation SimpleName substring
+normalized root dir SimpleName InfixExpression MethodInvocation NumberLiteral empty
+res arg SimpleName Assignment InfixExpression SimpleName normalized root dir
+res arg SimpleName Assignment InfixExpression MethodInvocation SimpleName normalized curr dir
+res arg SimpleName Assignment InfixExpression MethodInvocation SimpleName substring
+res arg SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+res arg SimpleName Assignment SimpleName normalized root dir
+res arg SimpleName MethodInvocation SimpleName length
+res arg SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+res arg SimpleName MethodInvocation SimpleName char at
+res arg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName res arg
+res arg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+res arg SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName res arg
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+res arg SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression CharacterLiteral /
+res arg SimpleName MethodInvocation SimpleName length
+res arg SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+res arg SimpleName MethodInvocation SimpleName substring
+res arg SimpleName MethodInvocation NumberLiteral empty
+res arg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName res arg
+res arg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+res arg SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName res arg
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName res arg
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+res arg SimpleName Assignment MethodInvocation SimpleName res arg
+res arg SimpleName Assignment MethodInvocation SimpleName substring
+res arg SimpleName Assignment MethodInvocation NumberLiteral empty
+res arg SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName normalized file name
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral /
+normalized file name SimpleName ClassInstanceCreation StringLiteral /
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName normalized file name
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral /
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+tok SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+tok SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tok
+tok SimpleName MethodInvocation SimpleName equals
+tok SimpleName MethodInvocation StringLiteral .
+equals SimpleName MethodInvocation StringLiteral .
+tok SimpleName MethodInvocation SimpleName equals
+tok SimpleName MethodInvocation StringLiteral ..
+equals SimpleName MethodInvocation StringLiteral ..
+res arg SimpleName MethodInvocation SimpleName starts with
+res arg SimpleName MethodInvocation SimpleName normalized root dir
+starts with SimpleName MethodInvocation SimpleName normalized root dir
+res arg SimpleName MethodInvocation SimpleName last index of
+res arg SimpleName MethodInvocation CharacterLiteral /
+last index of SimpleName MethodInvocation CharacterLiteral /
+slash index SimpleName VariableDeclarationFragment MethodInvocation SimpleName res arg
+slash index SimpleName VariableDeclarationFragment MethodInvocation SimpleName last index of
+slash index SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral /
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName slash index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName res arg
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName last index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral /
+slash index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+res arg SimpleName MethodInvocation SimpleName substring
+res arg SimpleName MethodInvocation NumberLiteral empty
+res arg SimpleName MethodInvocation SimpleName slash index
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName slash index
+empty NumberLiteral MethodInvocation SimpleName slash index
+res arg SimpleName Assignment MethodInvocation SimpleName res arg
+res arg SimpleName Assignment MethodInvocation SimpleName substring
+res arg SimpleName Assignment MethodInvocation NumberLiteral empty
+res arg SimpleName Assignment MethodInvocation SimpleName slash index
+tok SimpleName MethodInvocation SimpleName equals
+tok SimpleName MethodInvocation StringLiteral ~
+equals SimpleName MethodInvocation StringLiteral ~
+normalized root dir SimpleName MethodInvocation SimpleName length
+normalized root dir SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+normalized root dir SimpleName MethodInvocation SimpleName substring
+normalized root dir SimpleName MethodInvocation NumberLiteral empty
+normalized root dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName normalized root dir
+normalized root dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+normalized root dir SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName normalized root dir
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName normalized root dir
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+res arg SimpleName Assignment MethodInvocation SimpleName normalized root dir
+res arg SimpleName Assignment MethodInvocation SimpleName substring
+res arg SimpleName Assignment MethodInvocation NumberLiteral empty
+res arg SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+file SimpleName SimpleType ClassInstanceCreation SimpleName res arg
+name equals file filter SimpleName SimpleType ClassInstanceCreation SimpleName tok
+name equals file filter SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+tok SimpleName ClassInstanceCreation BooleanLiteral true
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName list files
+res arg SimpleName ClassInstanceCreation MethodInvocation SimpleName list files
+res arg SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation SimpleName tok
+res arg SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral true
+list files SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName name equals file filter
+list files SimpleName MethodInvocation ClassInstanceCreation SimpleName tok
+list files SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+matches SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName res arg
+matches SimpleName VariableDeclarationFragment MethodInvocation SimpleName list files
+matches SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName tok
+matches SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral true
+matcheslength QualifiedName InfixExpression NumberLiteral empty
+matches SimpleName InfixExpression InfixExpression InfixExpression QualifiedName matcheslength
+matches SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+matches SimpleName ArrayAccess NumberLiteral empty
+matches SimpleName ArrayAccess MethodInvocation SimpleName get name
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get name
+tok SimpleName Assignment MethodInvocation ArrayAccess SimpleName matches
+tok SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+tok SimpleName Assignment MethodInvocation SimpleName get name
+res arg SimpleName InfixExpression CharacterLiteral /
+res arg SimpleName InfixExpression SimpleName tok
+/ CharacterLiteral InfixExpression SimpleName tok
+res arg SimpleName Assignment InfixExpression SimpleName res arg
+res arg SimpleName Assignment InfixExpression CharacterLiteral /
+res arg SimpleName Assignment InfixExpression SimpleName tok
+res arg SimpleName MethodInvocation SimpleName length
+res arg SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+normalized root dir SimpleName MethodInvocation SimpleName length
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName normalized root dir
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName length
+res arg SimpleName Assignment CharacterLiteral /
+normalized root dir SimpleName MethodInvocation SimpleName length
+res arg SimpleName MethodInvocation SimpleName region matches
+res arg SimpleName MethodInvocation NumberLiteral empty
+res arg SimpleName MethodInvocation SimpleName normalized root dir
+res arg SimpleName MethodInvocation NumberLiteral empty
+res arg SimpleName MethodInvocation MethodInvocation SimpleName normalized root dir
+res arg SimpleName MethodInvocation MethodInvocation SimpleName length
+region matches SimpleName MethodInvocation NumberLiteral empty
+region matches SimpleName MethodInvocation SimpleName normalized root dir
+region matches SimpleName MethodInvocation NumberLiteral empty
+region matches SimpleName MethodInvocation MethodInvocation SimpleName normalized root dir
+region matches SimpleName MethodInvocation MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation SimpleName normalized root dir
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName normalized root dir
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName length
+normalized root dir SimpleName MethodInvocation NumberLiteral empty
+normalized root dir SimpleName MethodInvocation MethodInvocation SimpleName normalized root dir
+normalized root dir SimpleName MethodInvocation MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName normalized root dir
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName length
+res arg SimpleName Assignment SimpleName normalized root dir
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get physical name
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName root dir
+final Modifier MethodDeclaration Modifier static
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName get physical name
+final Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName root dir
+final Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get physical name
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName root dir
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType MethodDeclaration SimpleName get physical name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName root dir
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root dir
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get physical name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+get physical name SimpleName MethodDeclaration Block ReturnStatement SimpleName res arg
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+root dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+root dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+root dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+root dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+root dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+root dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+root dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+curr dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+curr dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+curr dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+curr dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+curr dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get physical name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get physical name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName case insensitive

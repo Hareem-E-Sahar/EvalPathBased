@@ -1,0 +1,93 @@
+navigable map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+string SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName extensions
+is empty SimpleName MethodInvocation SimpleName extensions
+collections SimpleName MethodInvocation SimpleName empty navigable map
+navigable map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+string SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+map SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName value
+validate utils SimpleName MethodInvocation StringLiteral no value for extensions
+validate utils SimpleName MethodInvocation SimpleName key
+check not null SimpleName MethodInvocation SimpleName value
+check not null SimpleName MethodInvocation StringLiteral no value for extensions
+check not null SimpleName MethodInvocation SimpleName key
+value SimpleName MethodInvocation StringLiteral no value for extensions
+value SimpleName MethodInvocation SimpleName key
+no value for extensions StringLiteral MethodInvocation SimpleName key
+value SimpleName MethodInvocation SimpleName get bytes
+value SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName key
+map SimpleName MethodInvocation MethodInvocation SimpleName value
+map SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+map SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation SimpleName value
+put SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+key SimpleName MethodInvocation MethodInvocation SimpleName value
+key SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+key SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+prev SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value
+prev SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bytes
+prev SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName prev
+validate utils SimpleName MethodInvocation StringLiteral multiple values for extensions
+validate utils SimpleName MethodInvocation SimpleName key
+check true SimpleName MethodInvocation InfixExpression SimpleName prev
+check true SimpleName MethodInvocation StringLiteral multiple values for extensions
+check true SimpleName MethodInvocation SimpleName key
+prev SimpleName InfixExpression MethodInvocation StringLiteral multiple values for extensions
+prev SimpleName InfixExpression MethodInvocation SimpleName key
+multiple values for extensions StringLiteral MethodInvocation SimpleName key
+key SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName value
+extensions SimpleName MethodInvocation SimpleName for each
+extensions SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key
+extensions SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName value
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName navigable map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName to binary extensions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extensions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName navigable map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName to binary extensions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extensions
+static Modifier MethodDeclaration Block ReturnStatement SimpleName map
+navigable map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to binary extensions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to binary extensions
+byte PrimitiveType ArrayType ParameterizedType MethodDeclaration SimpleName to binary extensions
+to binary extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extensions
+to binary extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName to binary extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to binary extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions

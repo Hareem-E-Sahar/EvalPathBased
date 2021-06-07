@@ -1,0 +1,34 @@
+session listenerevent QualifiedName SimpleType SingleVariableDeclaration SimpleName event
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName sl
+sl SimpleName MethodInvocation SimpleName session event
+sl SimpleName MethodInvocation SimpleName event
+session event SimpleName MethodInvocation SimpleName event
+session listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+sl SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName session listenerevent
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName listeners
+void PrimitiveType MethodDeclaration SimpleName send event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName session listenerevent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName listeners
+send event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName session listenerevent
+send event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+send event SimpleName MethodDeclaration SimpleType SimpleName io exception
+send event SimpleName MethodDeclaration Block EnhancedForStatement SimpleName listeners
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

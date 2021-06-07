@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName number
+public Modifier MethodDeclaration SimpleName get number value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName num value
+number SimpleName SimpleType MethodDeclaration SimpleName get number value
+get number value SimpleName MethodDeclaration Block ReturnStatement SimpleName num value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName number
+public Modifier TypeDeclaration MethodDeclaration SimpleName get number value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName number
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get number value

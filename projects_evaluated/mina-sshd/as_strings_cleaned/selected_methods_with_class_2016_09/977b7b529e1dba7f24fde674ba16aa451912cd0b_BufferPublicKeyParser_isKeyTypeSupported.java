@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+buffer public key parser SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName p
+p SimpleName MethodInvocation SimpleName is key type supported
+p SimpleName MethodInvocation SimpleName key type
+is key type supported SimpleName MethodInvocation SimpleName key type
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName parsers
+parsers SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is key type supported
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is key type supported
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName parsers
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is key type supported
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key type
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName parsers
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is key type supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is key type supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+is key type supported SimpleName MethodDeclaration Block EnhancedForStatement SimpleName parsers
+is key type supported SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is key type supported
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is key type supported
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type

@@ -1,0 +1,500 @@
+acl entry type SimpleName MethodInvocation SimpleName values
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName acl entry type
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName typeslength
+acl expected SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName typeslength
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName acl entry
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName acl expected
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation QualifiedName typeslength
+acl entry type SimpleName SimpleType SingleVariableDeclaration SimpleName t
+acl entry SimpleName MethodInvocation SimpleName new builder
+acl entry SimpleName MethodInvocation MethodInvocation SimpleName set type
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set type
+acl entry SimpleName MethodInvocation MethodInvocation SimpleName t
+new builder SimpleName MethodInvocation MethodInvocation SimpleName t
+set type SimpleName MethodInvocation SimpleName t
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry flag
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry flag
+acl entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set flags
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set flags
+set type SimpleName MethodInvocation MethodInvocation SimpleName set flags
+t SimpleName MethodInvocation MethodInvocation SimpleName set flags
+set type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+set type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all of
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all of
+set flags SimpleName MethodInvocation MethodInvocation SimpleName enum set
+set flags SimpleName MethodInvocation MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry permission
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry permission
+set type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set permissions
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set permissions
+set flags SimpleName MethodInvocation MethodInvocation SimpleName set permissions
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set permissions
+all of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set permissions
+set flags SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+set flags SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all of
+set permissions SimpleName MethodInvocation MethodInvocation SimpleName enum set
+set permissions SimpleName MethodInvocation MethodInvocation SimpleName all of
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral @
+get current test name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+@ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get package
+@ StringLiteral InfixExpression MethodInvocation SimpleName get name
+default group principal SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral @
+set flags SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set principal
+set permissions SimpleName MethodInvocation MethodInvocation SimpleName set principal
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set principal
+all of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set principal
+set principal SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default group principal
+set principal SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral @
+set permissions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+set principal SimpleName MethodInvocation MethodInvocation SimpleName build
+acl expected SimpleName MethodInvocation SimpleName add
+acl expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set principal
+acl expected SimpleName MethodInvocation MethodInvocation SimpleName build
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set principal
+add SimpleName MethodInvocation MethodInvocation SimpleName build
+acl entry type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+atomic integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+num invocations SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+num invocations SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName num invocations
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName num invocations
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+int PrimitiveType SingleVariableDeclaration SimpleName flags
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+resolve file attributes SimpleName SuperMethodInvocation SimpleName file
+resolve file attributes SimpleName SuperMethodInvocation SimpleName flags
+resolve file attributes SimpleName SuperMethodInvocation SimpleName options
+file SimpleName SuperMethodInvocation SimpleName flags
+file SimpleName SuperMethodInvocation SimpleName options
+flags SimpleName SuperMethodInvocation SimpleName options
+attrs SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName resolve file attributes
+attrs SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName file
+attrs SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName flags
+attrs SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName attrs
+is empty SimpleName MethodInvocation SimpleName attrs
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+attrs SimpleName Assignment ClassInstanceCreation QualifiedName stringcase insensitive order
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation StringLiteral acl
+attrs SimpleName MethodInvocation SimpleName acl expected
+put SimpleName MethodInvocation StringLiteral acl
+put SimpleName MethodInvocation SimpleName acl expected
+acl StringLiteral MethodInvocation SimpleName acl expected
+acl actual SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attrs
+acl actual SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName put
+acl actual SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral acl
+acl actual SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName acl expected
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acl actual
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acl actual
+resolve file attributes StringLiteral InfixExpression SimpleName file
+resolve file attributes StringLiteral InfixExpression StringLiteral ) replaced acl
+resolve file attributes StringLiteral InfixExpression SimpleName acl actual
+file SimpleName InfixExpression StringLiteral ) replaced acl
+file SimpleName InfixExpression SimpleName acl actual
+) replaced acl StringLiteral InfixExpression SimpleName acl actual
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral resolve file attributes
+log SimpleName MethodInvocation InfixExpression SimpleName file
+log SimpleName MethodInvocation InfixExpression StringLiteral ) replaced acl
+log SimpleName MethodInvocation InfixExpression SimpleName acl actual
+info SimpleName MethodInvocation InfixExpression StringLiteral resolve file attributes
+info SimpleName MethodInvocation InfixExpression SimpleName file
+info SimpleName MethodInvocation InfixExpression StringLiteral ) replaced acl
+info SimpleName MethodInvocation InfixExpression SimpleName acl actual
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve file attributes
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName flags
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName resolve file attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName flags
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve file attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve file attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve file attributes
+resolve file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+resolve file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+resolve file attributes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+resolve file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flags
+resolve file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+resolve file attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+resolve file attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+resolve file attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName attrs
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+flags SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+flags SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acl actual
+acl entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acl actual
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+mismatched acl set for file StringLiteral InfixExpression SimpleName file
+assert list equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched acl set for file
+assert list equals SimpleName MethodInvocation InfixExpression SimpleName file
+assert list equals SimpleName MethodInvocation SimpleName acl expected
+assert list equals SimpleName MethodInvocation SimpleName acl actual
+mismatched acl set for file StringLiteral InfixExpression MethodInvocation SimpleName acl expected
+file SimpleName InfixExpression MethodInvocation SimpleName acl expected
+mismatched acl set for file StringLiteral InfixExpression MethodInvocation SimpleName acl actual
+file SimpleName InfixExpression MethodInvocation SimpleName acl actual
+acl expected SimpleName MethodInvocation SimpleName acl actual
+num invocations SimpleName MethodInvocation SimpleName increment and get
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set file access control
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set file access control
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName set file access control
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+set file access control SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+acl actual SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+acl actual SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set file access control
+resolve file attributes SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+resolve file attributes SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+resolve file attributes SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set file access control
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get executor service
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get file system accessor
+get executor service SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+get executor service SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+get executor service SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get file system accessor
+is shutdown on exit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+is shutdown on exit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get file system accessor
+get unsupported attribute policy SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get file system accessor
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sftp subsystem
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get executor service
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get unsupported attribute policy
+subsystem SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get file system accessor
+sftp subsystem SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName subsystem
+listeners SimpleName VariableDeclarationFragment MethodInvocation SimpleName get registered listeners
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName listeners
+size SimpleName MethodInvocation SimpleName listeners
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+listeners SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sftp event listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+subsystem SimpleName MethodInvocation SimpleName add sftp event listener
+subsystem SimpleName MethodInvocation SimpleName l
+add sftp event listener SimpleName MethodInvocation SimpleName l
+sftp event listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName command
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SimpleType SimpleName command
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration Block ReturnStatement SimpleName subsystem
+command SimpleName SimpleType MethodDeclaration SimpleName create
+create SimpleName MethodDeclaration Block ReturnStatement SimpleName subsystem
+factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sftp subsystem factory
+sftp subsystem factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName attrs
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName attrs
+is empty SimpleName MethodInvocation SimpleName attrs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+attrs SimpleName MethodInvocation SimpleName get
+attrs SimpleName MethodInvocation StringLiteral acl
+get SimpleName MethodInvocation StringLiteral acl
+acl actual SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName generic utils
+acl actual SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is empty
+acl actual SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName attrs
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acl actual
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acl actual
+get tested version SimpleName MethodInvocation InfixExpression QualifiedName sftp constantssftp v
+mismatched modifying acl for file StringLiteral InfixExpression SimpleName path
+assert list equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched modifying acl for file
+assert list equals SimpleName MethodInvocation InfixExpression SimpleName path
+assert list equals SimpleName MethodInvocation SimpleName acl expected
+assert list equals SimpleName MethodInvocation SimpleName acl actual
+mismatched modifying acl for file StringLiteral InfixExpression MethodInvocation SimpleName acl expected
+path SimpleName InfixExpression MethodInvocation SimpleName acl expected
+mismatched modifying acl for file StringLiteral InfixExpression MethodInvocation SimpleName acl actual
+path SimpleName InfixExpression MethodInvocation SimpleName acl actual
+acl expected SimpleName MethodInvocation SimpleName acl actual
+unexpected modifying acl for file StringLiteral InfixExpression SimpleName path
+assert null SimpleName MethodInvocation InfixExpression StringLiteral unexpected modifying acl for file
+assert null SimpleName MethodInvocation InfixExpression SimpleName path
+assert null SimpleName MethodInvocation SimpleName acl actual
+unexpected modifying acl for file StringLiteral InfixExpression MethodInvocation SimpleName acl actual
+path SimpleName InfixExpression MethodInvocation SimpleName acl actual
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName modifying attributes
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName modifying attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+void PrimitiveType MethodDeclaration SimpleName modifying attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+modifying attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+modifying attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+modifying attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+modifying attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+modifying attributes SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+modifying attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName attrs
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName thrown
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName attrs
+is empty SimpleName MethodInvocation SimpleName attrs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+attrs SimpleName MethodInvocation SimpleName get
+attrs SimpleName MethodInvocation StringLiteral acl
+get SimpleName MethodInvocation StringLiteral acl
+acl actual SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName generic utils
+acl actual SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is empty
+acl actual SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName attrs
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acl actual
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acl actual
+get tested version SimpleName MethodInvocation InfixExpression QualifiedName sftp constantssftp v
+mismatched modified acl for file StringLiteral InfixExpression SimpleName path
+assert list equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched modified acl for file
+assert list equals SimpleName MethodInvocation InfixExpression SimpleName path
+assert list equals SimpleName MethodInvocation SimpleName acl expected
+assert list equals SimpleName MethodInvocation SimpleName acl actual
+mismatched modified acl for file StringLiteral InfixExpression MethodInvocation SimpleName acl expected
+path SimpleName InfixExpression MethodInvocation SimpleName acl expected
+mismatched modified acl for file StringLiteral InfixExpression MethodInvocation SimpleName acl actual
+path SimpleName InfixExpression MethodInvocation SimpleName acl actual
+acl expected SimpleName MethodInvocation SimpleName acl actual
+unexpected modified acl for file StringLiteral InfixExpression SimpleName path
+assert null SimpleName MethodInvocation InfixExpression StringLiteral unexpected modified acl for file
+assert null SimpleName MethodInvocation InfixExpression SimpleName path
+assert null SimpleName MethodInvocation SimpleName acl actual
+unexpected modified acl for file StringLiteral InfixExpression MethodInvocation SimpleName acl actual
+path SimpleName InfixExpression MethodInvocation SimpleName acl actual
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName modified attributes
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName modified attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+void PrimitiveType MethodDeclaration SimpleName modified attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName thrown
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+modified attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName thrown
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName thrown
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName thrown
+attrs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName thrown
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName modified attributes
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName modified attributes
+modifying attributes SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+modifying attributes SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+modifying attributes SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName modified attributes
+factory SimpleName MethodInvocation SimpleName add sftp event listener
+factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract sftp event listener adapter
+add sftp event listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract sftp event listener adapter
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName detect target folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation SimpleName target path
+utils SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation SimpleName target path
+resolve SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+resolve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target path SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+target path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+target path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp constantssftp subsystem name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get simple name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lcl sftp
+lcl sftp SimpleName MethodInvocation SimpleName resolve
+lcl sftp SimpleName MethodInvocation StringLiteral subfolder
+resolve SimpleName MethodInvocation StringLiteral subfolder
+files SimpleName MethodInvocation SimpleName create directories
+files SimpleName MethodInvocation MethodInvocation SimpleName lcl sftp
+files SimpleName MethodInvocation MethodInvocation SimpleName resolve
+files SimpleName MethodInvocation MethodInvocation StringLiteral subfolder
+create directories SimpleName MethodInvocation MethodInvocation SimpleName lcl sftp
+create directories SimpleName MethodInvocation MethodInvocation SimpleName resolve
+create directories SimpleName MethodInvocation MethodInvocation StringLiteral subfolder
+assert hierarchy target folder exists SimpleName MethodInvocation SimpleName lcl sftp
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral -
+get current test name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get tested version
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral txt
+- StringLiteral InfixExpression MethodInvocation SimpleName get tested version
+- StringLiteral InfixExpression StringLiteral txt
+get tested version SimpleName MethodInvocation InfixExpression StringLiteral txt
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName resolve
+lcl sftp SimpleName MethodInvocation MethodInvocation SimpleName resolve
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral txt
+lcl sftp SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+lcl sftp SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral txt
+resolve SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+resolve SimpleName MethodInvocation InfixExpression StringLiteral -
+resolve SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get tested version
+resolve SimpleName MethodInvocation InfixExpression StringLiteral txt
+lcl file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assert hierarchy target folder exists
+lcl file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName lcl sftp
+lcl file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+lcl file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral -
+lcl file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral txt
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lcl file
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+get name SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+files SimpleName MethodInvocation SimpleName write
+files SimpleName MethodInvocation SimpleName lcl file
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+files SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+files SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+write SimpleName MethodInvocation SimpleName lcl file
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+lcl file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+lcl file SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+lcl file SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+target path SimpleName MethodInvocation SimpleName get parent
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+parent path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent path
+utils SimpleName MethodInvocation SimpleName resolve relative remote path
+utils SimpleName MethodInvocation SimpleName parent path
+utils SimpleName MethodInvocation SimpleName lcl sftp
+resolve relative remote path SimpleName MethodInvocation SimpleName parent path
+resolve relative remote path SimpleName MethodInvocation SimpleName lcl sftp
+parent path SimpleName MethodInvocation SimpleName lcl sftp
+remote path SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+remote path SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve relative remote path
+remote path SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent path
+remote path SimpleName VariableDeclarationFragment MethodInvocation SimpleName lcl sftp
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote path
+num invoked SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num invoked

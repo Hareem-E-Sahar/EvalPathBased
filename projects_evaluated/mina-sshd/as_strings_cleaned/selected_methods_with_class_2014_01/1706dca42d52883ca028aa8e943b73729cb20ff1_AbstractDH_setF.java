@@ -1,0 +1,26 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set f
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName set f
+abstract Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName set f
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+set f SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set f SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set f
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set f
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

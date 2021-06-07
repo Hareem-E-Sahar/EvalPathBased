@@ -1,0 +1,38 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ids
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ids
+is empty SimpleName MethodInvocation SimpleName ids
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get identities
+size SimpleName MethodInvocation MethodInvocation SimpleName get identities
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get identities SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+add identity SimpleName MethodInvocation SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ids
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ids
+ids SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName update global identities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ids
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName ids
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName update global identities
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ids
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName ids
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+update global identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ids
+update global identities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName ids
+update global identities SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update global identities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update global identities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ids

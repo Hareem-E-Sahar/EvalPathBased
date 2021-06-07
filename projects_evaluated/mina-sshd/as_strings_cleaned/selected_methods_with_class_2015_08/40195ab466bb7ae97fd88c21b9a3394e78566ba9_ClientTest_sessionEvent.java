@@ -1,0 +1,59 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+non client session event notification StringLiteral InfixExpression SimpleName event
+assert object instance of SimpleName MethodInvocation InfixExpression StringLiteral non client session event notification
+assert object instance of SimpleName MethodInvocation InfixExpression SimpleName event
+assert object instance of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client session
+assert object instance of SimpleName MethodInvocation SimpleName session
+non client session event notification StringLiteral InfixExpression MethodInvocation SimpleName session
+event SimpleName InfixExpression MethodInvocation SimpleName session
+client session SimpleName SimpleType TypeLiteral MethodInvocation SimpleName session
+mismatched client session event instance StringLiteral InfixExpression SimpleName event
+client session holder SimpleName MethodInvocation SimpleName get
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched client session event instance
+assert same SimpleName MethodInvocation InfixExpression SimpleName event
+assert same SimpleName MethodInvocation MethodInvocation SimpleName client session holder
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get
+assert same SimpleName MethodInvocation SimpleName session
+mismatched client session event instance StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName client session holder
+mismatched client session event instance StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+event SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName client session holder
+event SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get
+mismatched client session event instance StringLiteral InfixExpression MethodInvocation SimpleName session
+event SimpleName InfixExpression MethodInvocation SimpleName session
+client session holder SimpleName MethodInvocation MethodInvocation SimpleName session
+get SimpleName MethodInvocation MethodInvocation SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session event
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName session event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

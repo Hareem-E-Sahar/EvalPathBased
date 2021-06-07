@@ -1,0 +1,33 @@
+version info SimpleName SimpleType SingleVariableDeclaration SimpleName version
+java version holder SimpleName MethodInvocation SimpleName set
+java version holder SimpleName MethodInvocation SimpleName version
+set SimpleName MethodInvocation SimpleName version
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set java version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName version info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName java version holder
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set java version
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName version info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName java version holder
+void PrimitiveType MethodDeclaration SimpleName set java version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName version info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName version
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName java version holder
+set java version SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName version info
+set java version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version
+set java version SimpleName MethodDeclaration Block SynchronizedStatement SimpleName java version holder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set java version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set java version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version

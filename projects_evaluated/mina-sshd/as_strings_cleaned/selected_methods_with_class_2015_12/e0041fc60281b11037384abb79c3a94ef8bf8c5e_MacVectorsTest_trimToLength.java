@@ -1,0 +1,56 @@
+char sequence SimpleName SimpleType SingleVariableDeclaration SimpleName csq
+int PrimitiveType SingleVariableDeclaration SimpleName max len
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName csq
+length SimpleName MethodInvocation SimpleName csq
+generic utils SimpleName MethodInvocation InfixExpression SimpleName max len
+length SimpleName MethodInvocation InfixExpression SimpleName max len
+csq SimpleName MethodInvocation InfixExpression SimpleName max len
+csq SimpleName MethodInvocation SimpleName sub sequence
+csq SimpleName MethodInvocation NumberLiteral empty
+csq SimpleName MethodInvocation SimpleName max len
+sub sequence SimpleName MethodInvocation NumberLiteral empty
+sub sequence SimpleName MethodInvocation SimpleName max len
+empty NumberLiteral MethodInvocation SimpleName max len
+csq SimpleName MethodInvocation InfixExpression StringLiteral ...
+sub sequence SimpleName MethodInvocation InfixExpression StringLiteral ...
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral ...
+max len SimpleName MethodInvocation InfixExpression StringLiteral ...
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName char sequence
+private Modifier MethodDeclaration SimpleName trim to length
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName csq
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName max len
+static Modifier MethodDeclaration SimpleType SimpleName char sequence
+static Modifier MethodDeclaration SimpleName trim to length
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName csq
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName max len
+char sequence SimpleName SimpleType MethodDeclaration SimpleName trim to length
+char sequence SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName csq
+char sequence SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+char sequence SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName max len
+trim to length SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+trim to length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName csq
+trim to length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+trim to length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max len
+csq SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+csq SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max len
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName char sequence
+public Modifier TypeDeclaration MethodDeclaration SimpleName trim to length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName csq
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max len
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName char sequence
+test SimpleName TypeDeclaration MethodDeclaration SimpleName trim to length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName csq
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max len

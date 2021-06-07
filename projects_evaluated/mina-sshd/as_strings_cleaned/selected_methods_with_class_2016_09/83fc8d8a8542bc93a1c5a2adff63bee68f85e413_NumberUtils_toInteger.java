@@ -1,0 +1,28 @@
+number SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName InstanceofExpression SimpleType SimpleName integer
+integer SimpleName SimpleType CastExpression SimpleName n
+n SimpleName MethodInvocation SimpleName int value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName to integer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName number
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName to integer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName number
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+integer SimpleName SimpleType MethodDeclaration SimpleName to integer
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+to integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName number
+to integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName to integer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to integer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,16 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+public Modifier MethodDeclaration SimpleName get type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+final Modifier MethodDeclaration SimpleName get type
+final Modifier MethodDeclaration Block ReturnStatement SimpleName type
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type
+get type SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type

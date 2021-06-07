@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName user
+is empty SimpleName MethodInvocation SimpleName user
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get username
+length SimpleName MethodInvocation MethodInvocation SimpleName get username
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get username SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+set username SimpleName MethodInvocation SimpleName user
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName update global user name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName update global user name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+update global user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update global user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+update global user name SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update global user name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update global user name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user

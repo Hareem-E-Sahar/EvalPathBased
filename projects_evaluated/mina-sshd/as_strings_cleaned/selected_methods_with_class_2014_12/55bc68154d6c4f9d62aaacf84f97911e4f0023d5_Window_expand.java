@@ -1,0 +1,55 @@
+int PrimitiveType SingleVariableDeclaration SimpleName window
+size SimpleName Assignment SimpleName window
+log SimpleName MethodInvocation SimpleName is debug enabled
+increase StringLiteral InfixExpression SimpleName name
+increase StringLiteral InfixExpression StringLiteral by
+increase StringLiteral InfixExpression SimpleName window
+increase StringLiteral InfixExpression StringLiteral up to
+increase StringLiteral InfixExpression SimpleName size
+name SimpleName InfixExpression StringLiteral by
+name SimpleName InfixExpression SimpleName window
+name SimpleName InfixExpression StringLiteral up to
+name SimpleName InfixExpression SimpleName size
+by StringLiteral InfixExpression SimpleName window
+by StringLiteral InfixExpression StringLiteral up to
+by StringLiteral InfixExpression SimpleName size
+window SimpleName InfixExpression StringLiteral up to
+window SimpleName InfixExpression SimpleName size
+up to StringLiteral InfixExpression SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral increase
+log SimpleName MethodInvocation InfixExpression SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral by
+log SimpleName MethodInvocation InfixExpression SimpleName window
+log SimpleName MethodInvocation InfixExpression StringLiteral up to
+log SimpleName MethodInvocation InfixExpression SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral increase
+debug SimpleName MethodInvocation InfixExpression SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral by
+debug SimpleName MethodInvocation InfixExpression SimpleName window
+debug SimpleName MethodInvocation InfixExpression StringLiteral up to
+debug SimpleName MethodInvocation InfixExpression SimpleName size
+lock SimpleName MethodInvocation SimpleName notify all
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName expand
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName window
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+void PrimitiveType MethodDeclaration SimpleName expand
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName window
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+expand SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+expand SimpleName MethodDeclaration SingleVariableDeclaration SimpleName window
+expand SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName expand
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName window
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName expand
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName window

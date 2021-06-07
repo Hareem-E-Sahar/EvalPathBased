@@ -1,0 +1,406 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName dir entry
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName dir entry
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName dir entry
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName dir entry
+private Modifier FieldDeclaration SimpleType SimpleName closeable handle
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName handle
+closeable handle SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName handle
+private Modifier FieldDeclaration ArrayType SimpleType SimpleName dir entry
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName entries
+private Modifier FieldDeclaration PrimitiveType int
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName index
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName index
+index SimpleName InfixExpression QualifiedName entrieslength
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has next
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has next
+boolean PrimitiveType MethodDeclaration SimpleName has next
+entries SimpleName ArrayAccess PostfixExpression SimpleName index
+entry SimpleName VariableDeclarationFragment ArrayAccess SimpleName entries
+entry SimpleName VariableDeclarationFragment ArrayAccess PostfixExpression SimpleName index
+dir entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+index SimpleName InfixExpression QualifiedName entrieslength
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName dir entry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName dir entry
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entry
+dir entry SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName entry
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+open dir SimpleName MethodInvocation SimpleName path
+handle SimpleName Assignment MethodInvocation SimpleName open dir
+handle SimpleName Assignment MethodInvocation SimpleName path
+log SimpleName MethodInvocation SimpleName is debug enabled
+read dir StringLiteral InfixExpression SimpleName path
+read dir StringLiteral InfixExpression StringLiteral ) handle
+read dir StringLiteral InfixExpression SimpleName handle
+path SimpleName InfixExpression StringLiteral ) handle
+path SimpleName InfixExpression SimpleName handle
+) handle StringLiteral InfixExpression SimpleName handle
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral read dir
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral ) handle
+log SimpleName MethodInvocation InfixExpression SimpleName handle
+debug SimpleName MethodInvocation InfixExpression StringLiteral read dir
+debug SimpleName MethodInvocation InfixExpression SimpleName path
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) handle
+debug SimpleName MethodInvocation InfixExpression SimpleName handle
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName is debug enabled
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+read dir StringLiteral InfixExpression SimpleName path
+read dir StringLiteral InfixExpression StringLiteral ) failed (
+read dir StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+read dir StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+read dir StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+read dir StringLiteral InfixExpression StringLiteral ) to open dir
+read dir StringLiteral InfixExpression MethodInvocation SimpleName e
+read dir StringLiteral InfixExpression MethodInvocation SimpleName get message
+path SimpleName InfixExpression StringLiteral ) failed (
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName e
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get class
+path SimpleName InfixExpression MethodInvocation SimpleName get simple name
+path SimpleName InfixExpression StringLiteral ) to open dir
+path SimpleName InfixExpression MethodInvocation SimpleName e
+path SimpleName InfixExpression MethodInvocation SimpleName get message
+) failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+) failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+) failed ( StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+) failed ( StringLiteral InfixExpression StringLiteral ) to open dir
+) failed ( StringLiteral InfixExpression MethodInvocation SimpleName e
+) failed ( StringLiteral InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to open dir
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to open dir
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ) to open dir
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+) to open dir StringLiteral InfixExpression MethodInvocation SimpleName e
+) to open dir StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral read dir
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral ) failed (
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral ) to open dir
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation InfixExpression StringLiteral read dir
+debug SimpleName MethodInvocation InfixExpression SimpleName path
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) failed (
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) to open dir
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName open
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName open
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName open
+void PrimitiveType MethodDeclaration SimpleName open
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+read dir SimpleName MethodInvocation SimpleName handle
+entries SimpleName Assignment MethodInvocation SimpleName read dir
+entries SimpleName Assignment MethodInvocation SimpleName handle
+index SimpleName Assignment NumberLiteral empty
+handle SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName is trace enabled
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+t SimpleName MethodInvocation SimpleName get message
+t SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while close handle
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while close handle
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral while close handle
+t SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName handle
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName handle
+get simple name SimpleName MethodInvocation InfixExpression SimpleName handle
+t SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral due to
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral due to
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral due to
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral [
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+while close handle StringLiteral InfixExpression SimpleName handle
+while close handle StringLiteral InfixExpression StringLiteral due to
+while close handle StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+while close handle StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+while close handle StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+while close handle StringLiteral InfixExpression StringLiteral [
+while close handle StringLiteral InfixExpression MethodInvocation SimpleName e
+while close handle StringLiteral InfixExpression MethodInvocation SimpleName get message
+handle SimpleName InfixExpression StringLiteral due to
+handle SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName e
+handle SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get class
+handle SimpleName InfixExpression MethodInvocation SimpleName get simple name
+handle SimpleName InfixExpression StringLiteral [
+handle SimpleName InfixExpression MethodInvocation SimpleName e
+handle SimpleName InfixExpression MethodInvocation SimpleName get message
+handle SimpleName InfixExpression StringLiteral ]
+due to StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+due to StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+due to StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+due to StringLiteral InfixExpression StringLiteral [
+due to StringLiteral InfixExpression MethodInvocation SimpleName e
+due to StringLiteral InfixExpression MethodInvocation SimpleName get message
+due to StringLiteral InfixExpression StringLiteral ]
+due to StringLiteral InfixExpression StringLiteral :
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral [
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+[ StringLiteral InfixExpression MethodInvocation SimpleName e
+[ StringLiteral InfixExpression MethodInvocation SimpleName get message
+[ StringLiteral InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression StringLiteral :
+[ StringLiteral InfixExpression MethodInvocation SimpleName t
+[ StringLiteral InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation InfixExpression StringLiteral ]
+get message SimpleName MethodInvocation InfixExpression StringLiteral ]
+e SimpleName MethodInvocation InfixExpression StringLiteral :
+get message SimpleName MethodInvocation InfixExpression StringLiteral :
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+] StringLiteral InfixExpression StringLiteral :
+] StringLiteral InfixExpression MethodInvocation SimpleName t
+] StringLiteral InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName t
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral while close handle
+log SimpleName MethodInvocation InfixExpression SimpleName handle
+log SimpleName MethodInvocation InfixExpression StringLiteral due to
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral [
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation InfixExpression StringLiteral ]
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+trace SimpleName MethodInvocation InfixExpression StringLiteral while close handle
+trace SimpleName MethodInvocation InfixExpression SimpleName handle
+trace SimpleName MethodInvocation InfixExpression StringLiteral due to
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+trace SimpleName MethodInvocation InfixExpression StringLiteral [
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+trace SimpleName MethodInvocation InfixExpression StringLiteral ]
+trace SimpleName MethodInvocation InfixExpression StringLiteral :
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName load
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName load
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName load
+void PrimitiveType MethodDeclaration SimpleName load
+read dir StringLiteral InfixExpression SimpleName path
+read dir StringLiteral InfixExpression StringLiteral ) iteratorremove na
+path SimpleName InfixExpression StringLiteral ) iteratorremove na
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral read dir
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) iteratorremove na
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration SimpleName remove
+private Modifier FieldDeclaration AnonymousClassDeclaration FieldDeclaration Modifier private
+private Modifier FieldDeclaration AnonymousClassDeclaration FieldDeclaration Modifier private
+private Modifier FieldDeclaration AnonymousClassDeclaration FieldDeclaration PrimitiveType int
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName has next
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+private Modifier FieldDeclaration AnonymousClassDeclaration FieldDeclaration Modifier private
+private Modifier FieldDeclaration AnonymousClassDeclaration FieldDeclaration PrimitiveType int
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName has next
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName has next
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName has next
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName open
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+open SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+open SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+open SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName load
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+open SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+open SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+open SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+load SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+load SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+load SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dir entry
+public Modifier MethodDeclaration SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+dir entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read dir
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dir entry
+public Modifier MethodDeclaration SimpleName read dir
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read dir
+dir entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read dir
+read dir SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+read dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+read dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+read dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName read dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

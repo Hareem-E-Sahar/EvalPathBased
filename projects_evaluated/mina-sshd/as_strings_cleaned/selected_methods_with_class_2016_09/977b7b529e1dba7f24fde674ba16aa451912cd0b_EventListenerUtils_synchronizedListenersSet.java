@@ -1,0 +1,30 @@
+l SimpleName TypeParameter SimpleType SimpleName event listener
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName l
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName listener instance comparator
+collections SimpleName MethodInvocation SimpleName synchronized set
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName listener instance comparator
+synchronized set SimpleName MethodInvocation ClassInstanceCreation SimpleName listener instance comparator
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName l
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName event listener
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName l
+public Modifier MethodDeclaration SimpleName synchronized listeners set
+static Modifier MethodDeclaration TypeParameter SimpleName l
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName event listener
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName l
+static Modifier MethodDeclaration SimpleName synchronized listeners set
+l SimpleName TypeParameter MethodDeclaration SimpleName synchronized listeners set
+event listener SimpleName SimpleType TypeParameter MethodDeclaration SimpleName synchronized listeners set
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName synchronized listeners set
+l SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName synchronized listeners set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName l
+public Modifier TypeDeclaration MethodDeclaration SimpleName synchronized listeners set
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration SimpleName synchronized listeners set

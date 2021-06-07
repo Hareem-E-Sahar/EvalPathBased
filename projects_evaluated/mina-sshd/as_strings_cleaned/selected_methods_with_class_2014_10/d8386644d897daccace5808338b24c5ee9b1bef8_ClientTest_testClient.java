@@ -1,0 +1,151 @@
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName auth password
+session SimpleName MethodInvocation StringLiteral smx
+session SimpleName MethodInvocation StringLiteral smx
+auth password SimpleName MethodInvocation StringLiteral smx
+auth password SimpleName MethodInvocation StringLiteral smx
+smx StringLiteral MethodInvocation StringLiteral smx
+session SimpleName MethodInvocation MethodInvocation SimpleName await
+auth password SimpleName MethodInvocation MethodInvocation SimpleName await
+smx StringLiteral MethodInvocation MethodInvocation SimpleName await
+smx StringLiteral MethodInvocation MethodInvocation SimpleName await
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is success
+auth password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is success
+smx StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName is success
+smx StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName is success
+await SimpleName MethodInvocation MethodInvocation SimpleName is success
+session SimpleName MethodInvocation SimpleName create channel
+session SimpleName MethodInvocation QualifiedName client channelchannel shell
+create channel SimpleName MethodInvocation QualifiedName client channelchannel shell
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName create channel
+channel SimpleName VariableDeclarationFragment MethodInvocation QualifiedName client channelchannel shell
+client channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+sent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sent
+piped in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName piped output stream
+piped output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName piped in
+piped input stream SimpleName SimpleType ClassInstanceCreation SimpleName piped in
+channel SimpleName MethodInvocation SimpleName set in
+channel SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName piped input stream
+channel SimpleName MethodInvocation ClassInstanceCreation SimpleName piped in
+set in SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName piped input stream
+set in SimpleName MethodInvocation ClassInstanceCreation SimpleName piped in
+tee output stream SimpleName SimpleType ClassInstanceCreation SimpleName sent
+tee output stream SimpleName SimpleType ClassInstanceCreation SimpleName piped in
+sent SimpleName ClassInstanceCreation SimpleName piped in
+tee out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tee output stream
+tee out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sent
+tee out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName piped in
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tee out
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+err SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+channel SimpleName MethodInvocation SimpleName set out
+channel SimpleName MethodInvocation SimpleName out
+set out SimpleName MethodInvocation SimpleName out
+channel SimpleName MethodInvocation SimpleName set err
+channel SimpleName MethodInvocation SimpleName err
+set err SimpleName MethodInvocation SimpleName err
+channel SimpleName MethodInvocation SimpleName open
+this is my command StringLiteral MethodInvocation SimpleName get bytes
+tee out SimpleName MethodInvocation SimpleName write
+tee out SimpleName MethodInvocation MethodInvocation StringLiteral this is my command
+tee out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation StringLiteral this is my command
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+tee out SimpleName MethodInvocation SimpleName flush
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName to string
+sb SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+tee out SimpleName MethodInvocation SimpleName write
+tee out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+tee out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+tee out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+exit StringLiteral MethodInvocation SimpleName get bytes
+tee out SimpleName MethodInvocation SimpleName write
+tee out SimpleName MethodInvocation MethodInvocation StringLiteral exit
+tee out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation StringLiteral exit
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+tee out SimpleName MethodInvocation SimpleName flush
+channel SimpleName MethodInvocation SimpleName wait for
+channel SimpleName MethodInvocation QualifiedName client channelclosed
+channel SimpleName MethodInvocation NumberLiteral empty
+wait for SimpleName MethodInvocation QualifiedName client channelclosed
+wait for SimpleName MethodInvocation NumberLiteral empty
+client channelclosed QualifiedName MethodInvocation NumberLiteral empty
+channel SimpleName MethodInvocation SimpleName close
+channel SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+client SimpleName MethodInvocation SimpleName stop
+sent SimpleName MethodInvocation SimpleName to byte array
+out SimpleName MethodInvocation SimpleName to byte array
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName sent
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName out
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+sent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out
+sent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to byte array
+to byte array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out
+to byte array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to byte array
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test client
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test client
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test client SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

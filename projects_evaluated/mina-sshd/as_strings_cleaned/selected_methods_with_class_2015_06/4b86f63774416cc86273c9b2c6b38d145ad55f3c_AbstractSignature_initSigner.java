@@ -1,0 +1,59 @@
+private key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+security utils SimpleName MethodInvocation SimpleName get signature
+security utils SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+get signature SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+signature SimpleName Assignment MethodInvocation SimpleName security utils
+signature SimpleName Assignment MethodInvocation SimpleName get signature
+signature SimpleName Assignment MethodInvocation MethodInvocation SimpleName get algorithm
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName key
+validate utils SimpleName MethodInvocation StringLiteral no private key provided
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName key
+check not null SimpleName MethodInvocation StringLiteral no private key provided
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+key SimpleName MethodInvocation StringLiteral no private key provided
+key SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no private key provided StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+signature SimpleName MethodInvocation SimpleName init sign
+signature SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+signature SimpleName MethodInvocation MethodInvocation SimpleName check not null
+signature SimpleName MethodInvocation MethodInvocation SimpleName key
+signature SimpleName MethodInvocation MethodInvocation StringLiteral no private key provided
+signature SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+init sign SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+init sign SimpleName MethodInvocation MethodInvocation SimpleName check not null
+init sign SimpleName MethodInvocation MethodInvocation SimpleName key
+init sign SimpleName MethodInvocation MethodInvocation StringLiteral no private key provided
+init sign SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName init signer
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init signer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName init signer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+init signer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+init signer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+init signer SimpleName MethodDeclaration SimpleType SimpleName exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init signer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init signer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

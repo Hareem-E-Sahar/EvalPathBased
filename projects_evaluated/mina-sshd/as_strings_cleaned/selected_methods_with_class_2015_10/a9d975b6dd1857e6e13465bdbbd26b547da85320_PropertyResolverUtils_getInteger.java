@@ -1,0 +1,47 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+resolve property value SimpleName MethodInvocation SimpleName props
+resolve property value SimpleName MethodInvocation SimpleName name
+props SimpleName MethodInvocation SimpleName name
+to integer SimpleName MethodInvocation MethodInvocation SimpleName resolve property value
+to integer SimpleName MethodInvocation MethodInvocation SimpleName props
+to integer SimpleName MethodInvocation MethodInvocation SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get integer
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get integer
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+integer SimpleName SimpleType MethodDeclaration SimpleName get integer
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get integer SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+get integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+props SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get integer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get integer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

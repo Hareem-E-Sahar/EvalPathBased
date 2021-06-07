@@ -1,0 +1,33 @@
+write future SimpleName SimpleType SingleVariableDeclaration SimpleName cf
+cf SimpleName MethodInvocation SimpleName get exception
+cf SimpleName MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation MethodInvocation SimpleName cf
+future SimpleName MethodInvocation MethodInvocation SimpleName get exception
+set exception SimpleName MethodInvocation MethodInvocation SimpleName cf
+set exception SimpleName MethodInvocation MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName set written
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName operation complete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cf
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName write future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cf
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName write future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cf
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName write future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName operation complete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName operation complete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf

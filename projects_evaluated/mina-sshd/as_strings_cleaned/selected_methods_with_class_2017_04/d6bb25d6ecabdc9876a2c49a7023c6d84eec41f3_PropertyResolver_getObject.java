@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+property resolver utils SimpleName MethodInvocation SimpleName get object
+property resolver utils SimpleName MethodInvocation SimpleName name
+get object SimpleName MethodInvocation SimpleName name
+default Modifier MethodDeclaration SimpleType SimpleName object
+default Modifier MethodDeclaration SimpleName get object
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType MethodDeclaration SimpleName get object
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

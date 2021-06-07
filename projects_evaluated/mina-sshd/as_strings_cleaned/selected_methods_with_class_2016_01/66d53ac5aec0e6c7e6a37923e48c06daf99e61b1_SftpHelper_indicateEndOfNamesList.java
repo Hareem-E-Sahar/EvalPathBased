@@ -1,0 +1,79 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName version
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName resolver
+boolean SimpleName SimpleType SingleVariableDeclaration SimpleName indicator value
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+property resolver utils SimpleName MethodInvocation SimpleName get boolean property
+property resolver utils SimpleName MethodInvocation SimpleName resolver
+property resolver utils SimpleName MethodInvocation SimpleName append end of list indicator
+property resolver utils SimpleName MethodInvocation SimpleName default append end of list indicator
+get boolean property SimpleName MethodInvocation SimpleName resolver
+get boolean property SimpleName MethodInvocation SimpleName append end of list indicator
+get boolean property SimpleName MethodInvocation SimpleName default append end of list indicator
+resolver SimpleName MethodInvocation SimpleName append end of list indicator
+resolver SimpleName MethodInvocation SimpleName default append end of list indicator
+append end of list indicator SimpleName MethodInvocation SimpleName default append end of list indicator
+indicator value SimpleName MethodInvocation SimpleName boolean value
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation MethodInvocation SimpleName indicator value
+buffer SimpleName MethodInvocation MethodInvocation SimpleName boolean value
+put boolean SimpleName MethodInvocation MethodInvocation SimpleName indicator value
+put boolean SimpleName MethodInvocation MethodInvocation SimpleName boolean value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName indicate end of names list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SimpleName indicate end of names list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolver
+boolean SimpleName SimpleType MethodDeclaration SimpleName indicate end of names list
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName version
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resolver
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName indicator value
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resolver
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+indicate end of names list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName indicator value
+indicate end of names list SimpleName MethodDeclaration Block ReturnStatement SimpleName indicator value
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName indicator value
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName indicator value
+version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName indicator value
+resolver SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName indicator value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName indicate end of names list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName indicator value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName indicate end of names list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName indicator value

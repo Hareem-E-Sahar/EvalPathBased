@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cipher name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName cipher name
+is empty SimpleName MethodInvocation SimpleName cipher name
+obfuscators SimpleName MethodInvocation SimpleName get
+obfuscators SimpleName MethodInvocation SimpleName cipher name
+get SimpleName MethodInvocation SimpleName cipher name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier MethodDeclaration SimpleName get registered private key obfuscator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName private key obfuscator
+static Modifier MethodDeclaration SimpleName get registered private key obfuscator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+final Modifier MethodDeclaration SimpleType SimpleName private key obfuscator
+final Modifier MethodDeclaration SimpleName get registered private key obfuscator
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+final Modifier MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+private key obfuscator SimpleName SimpleType MethodDeclaration SimpleName get registered private key obfuscator
+private key obfuscator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+get registered private key obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get registered private key obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+get registered private key obfuscator SimpleName MethodDeclaration Block SynchronizedStatement SimpleName obfuscators
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered private key obfuscator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cipher name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cipher name

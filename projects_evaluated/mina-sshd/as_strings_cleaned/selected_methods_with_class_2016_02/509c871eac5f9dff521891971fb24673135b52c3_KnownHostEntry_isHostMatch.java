@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+is host match SimpleName SuperMethodInvocation SimpleName host
+hash SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hashed entry
+known host hash value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hash
+hash SimpleName MethodInvocation SimpleName is host match
+hash SimpleName MethodInvocation SimpleName host
+is host match SimpleName MethodInvocation SimpleName host
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is host match
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is host match
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+boolean PrimitiveType MethodDeclaration SimpleName is host match
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+is host match SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is host match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is host match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is host match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host

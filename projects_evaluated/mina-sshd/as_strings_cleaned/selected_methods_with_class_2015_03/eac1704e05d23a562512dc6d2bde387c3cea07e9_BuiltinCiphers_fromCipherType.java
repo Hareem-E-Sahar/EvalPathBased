@@ -1,0 +1,44 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName type
+cipher SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+cipher SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type
+is assignable from SimpleName MethodInvocation SimpleName type
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration SimpleName c
+class SimpleName SimpleType ParameterizedType WildcardType ?
+c SimpleName MethodInvocation SimpleName get cipher type
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cipher type
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName is assignable from
+t SimpleName MethodInvocation SimpleName type
+is assignable from SimpleName MethodInvocation SimpleName type
+builtin ciphers SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName builtin ciphers
+public Modifier MethodDeclaration SimpleName from cipher type
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+static Modifier MethodDeclaration SimpleType SimpleName builtin ciphers
+static Modifier MethodDeclaration SimpleName from cipher type
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+builtin ciphers SimpleName SimpleType MethodDeclaration SimpleName from cipher type
+builtin ciphers SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+from cipher type SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+from cipher type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+from cipher type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin ciphers
+public Modifier TypeDeclaration MethodDeclaration SimpleName from cipher type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin ciphers
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from cipher type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

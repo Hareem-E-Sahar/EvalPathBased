@@ -1,0 +1,57 @@
+forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName forwarder
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+s SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+forwarder holder SimpleName MethodInvocation SimpleName get
+forwarder SimpleName Assignment MethodInvocation SimpleName forwarder holder
+forwarder SimpleName Assignment MethodInvocation SimpleName get
+create forwarding filter SimpleName MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName create forwarding filter
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation StringLiteral no forwarder created for s
+validate utils SimpleName MethodInvocation SimpleName session
+check not null SimpleName MethodInvocation MethodInvocation SimpleName create forwarding filter
+check not null SimpleName MethodInvocation MethodInvocation SimpleName session
+check not null SimpleName MethodInvocation StringLiteral no forwarder created for s
+check not null SimpleName MethodInvocation SimpleName session
+create forwarding filter SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder created for s
+session SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder created for s
+create forwarding filter SimpleName MethodInvocation MethodInvocation SimpleName session
+session SimpleName MethodInvocation MethodInvocation SimpleName session
+no forwarder created for s StringLiteral MethodInvocation SimpleName session
+forwarder SimpleName Assignment MethodInvocation SimpleName validate utils
+forwarder SimpleName Assignment MethodInvocation SimpleName check not null
+forwarder SimpleName Assignment MethodInvocation MethodInvocation SimpleName create forwarding filter
+forwarder SimpleName Assignment MethodInvocation MethodInvocation SimpleName session
+forwarder SimpleName Assignment MethodInvocation StringLiteral no forwarder created for s
+forwarder SimpleName Assignment MethodInvocation SimpleName session
+forwarder holder SimpleName MethodInvocation SimpleName set
+forwarder holder SimpleName MethodInvocation SimpleName forwarder
+set SimpleName MethodInvocation SimpleName forwarder
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral get forwarding filter created instance
+log SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation StringLiteral get forwarding filter created instance
+debug SimpleName MethodInvocation SimpleName session
+get forwarding filter created instance StringLiteral MethodInvocation SimpleName session
+forwarder holder SimpleName SynchronizedStatement Block ReturnStatement SimpleName forwarder
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName forwarding filter
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get forwarding filter
+public Modifier MethodDeclaration SimpleType SimpleName forwarding filter
+public Modifier MethodDeclaration SimpleName get forwarding filter
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName forwarder holder
+public Modifier MethodDeclaration Block ReturnStatement SimpleName forwarder
+forwarding filter SimpleName SimpleType MethodDeclaration SimpleName get forwarding filter
+get forwarding filter SimpleName MethodDeclaration Block SynchronizedStatement SimpleName forwarder holder
+get forwarding filter SimpleName MethodDeclaration Block ReturnStatement SimpleName forwarder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get forwarding filter

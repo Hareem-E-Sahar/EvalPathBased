@@ -1,0 +1,27 @@
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory class
+clazz SimpleName MethodInvocation SimpleName new instance
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName runtime exception
+runtime exception SimpleName SimpleType CastExpression SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io service factory factory
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName io service factory factory
+public Modifier MethodDeclaration SimpleName create
+final Modifier MethodDeclaration SimpleType SimpleName io service factory factory
+final Modifier MethodDeclaration SimpleName create
+io service factory factory SimpleName SimpleType MethodDeclaration SimpleName create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io service factory factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io service factory factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create

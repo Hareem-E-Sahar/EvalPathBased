@@ -1,0 +1,39 @@
+kex future holder SimpleName MethodInvocation SimpleName get
+kex future SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex future holder
+kex future SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+default key exchange future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kex future
+kex future SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex future
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral session closing while kex in progress
+kex future SimpleName MethodInvocation SimpleName set value
+kex future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+kex future SimpleName MethodInvocation ClassInstanceCreation StringLiteral session closing while kex in progress
+set value SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+set value SimpleName MethodInvocation ClassInstanceCreation StringLiteral session closing while kex in progress
+request result SimpleName MethodInvocation SimpleName set
+request result SimpleName MethodInvocation QualifiedName generic utilsnull
+set SimpleName MethodInvocation QualifiedName generic utilsnull
+request result SimpleName MethodInvocation SimpleName notify all
+session listeners SimpleName FieldAccess MethodInvocation SimpleName clear
+channel listeners SimpleName FieldAccess MethodInvocation SimpleName clear
+tunnel listeners SimpleName FieldAccess MethodInvocation SimpleName clear
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName pre close
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName pre close
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName request result
+void PrimitiveType MethodDeclaration SimpleName pre close
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName request result
+pre close SimpleName MethodDeclaration Block SynchronizedStatement SimpleName request result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName pre close
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pre close

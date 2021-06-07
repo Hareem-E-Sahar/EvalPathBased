@@ -1,0 +1,24 @@
+int PrimitiveType SingleVariableDeclaration SimpleName receive size
+factory SimpleName MethodInvocation SimpleName set receive buffer size
+factory SimpleName MethodInvocation SimpleName receive size
+set receive buffer size SimpleName MethodInvocation SimpleName receive size
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName with receive buffer size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName receive size
+builder SimpleName SimpleType MethodDeclaration SimpleName with receive buffer size
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName receive size
+with receive buffer size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+with receive buffer size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName receive size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName with receive buffer size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName receive size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with receive buffer size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName receive size

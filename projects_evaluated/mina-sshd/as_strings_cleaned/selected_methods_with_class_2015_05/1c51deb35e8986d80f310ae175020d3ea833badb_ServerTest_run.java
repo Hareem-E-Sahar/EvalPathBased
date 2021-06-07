@@ -1,0 +1,38 @@
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+empty StringLiteral MethodInvocation SimpleName get bytes
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation StringLiteral empty
+out SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation StringLiteral empty
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+out SimpleName MethodInvocation SimpleName flush
+window closed exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+latch SimpleName MethodInvocation SimpleName count down
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

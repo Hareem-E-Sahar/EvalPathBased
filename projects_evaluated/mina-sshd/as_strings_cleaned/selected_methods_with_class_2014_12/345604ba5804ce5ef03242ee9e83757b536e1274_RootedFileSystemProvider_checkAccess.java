@@ -1,0 +1,57 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+access mode SimpleName SimpleType SingleVariableDeclaration SimpleName modes
+unroot SimpleName MethodInvocation SimpleName path
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+provider SimpleName MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName check access
+r SimpleName MethodInvocation MethodInvocation SimpleName check access
+provider SimpleName MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName modes
+r SimpleName MethodInvocation MethodInvocation SimpleName modes
+check access SimpleName MethodInvocation SimpleName r
+check access SimpleName MethodInvocation SimpleName modes
+r SimpleName MethodInvocation SimpleName modes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName check access
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName modes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check access
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access mode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName modes
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName check access
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName modes
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access mode
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName modes
+check access SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modes
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+modes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check access
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check access
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

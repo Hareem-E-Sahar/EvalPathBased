@@ -1,0 +1,48 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral session is being closed
+channel id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next channel id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get next channel id
+channel SimpleName MethodInvocation SimpleName init
+channel SimpleName MethodInvocation SimpleName session
+channel SimpleName MethodInvocation SimpleName channel id
+init SimpleName MethodInvocation SimpleName session
+init SimpleName MethodInvocation SimpleName channel id
+session SimpleName MethodInvocation SimpleName channel id
+channels SimpleName MethodInvocation SimpleName put
+channels SimpleName MethodInvocation SimpleName channel id
+channels SimpleName MethodInvocation SimpleName channel
+put SimpleName MethodInvocation SimpleName channel id
+put SimpleName MethodInvocation SimpleName channel
+channel id SimpleName MethodInvocation SimpleName channel
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName channel id
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName register channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName channel id
+int PrimitiveType MethodDeclaration SimpleName register channel
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName channel id
+register channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+register channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+register channel SimpleName MethodDeclaration SimpleType SimpleName io exception
+register channel SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+register channel SimpleName MethodDeclaration Block ReturnStatement SimpleName channel id
+channel SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName register channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

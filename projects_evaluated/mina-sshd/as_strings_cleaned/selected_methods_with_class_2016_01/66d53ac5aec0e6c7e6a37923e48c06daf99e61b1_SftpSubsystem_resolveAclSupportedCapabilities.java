@@ -1,0 +1,99 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName get string
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName acl supported mask prop
+get string SimpleName MethodInvocation SimpleName session
+get string SimpleName MethodInvocation SimpleName acl supported mask prop
+session SimpleName MethodInvocation SimpleName acl supported mask prop
+override SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+override SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+override SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+override SimpleName VariableDeclarationFragment MethodInvocation SimpleName acl supported mask prop
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName override
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral resolve acl supported capabilities override
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName override
+debug SimpleName MethodInvocation StringLiteral resolve acl supported capabilities override
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName override
+resolve acl supported capabilities override StringLiteral MethodInvocation SimpleName session
+resolve acl supported capabilities override StringLiteral MethodInvocation SimpleName override
+session SimpleName MethodInvocation SimpleName override
+override SimpleName MethodInvocation SimpleName length
+override SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName empty set
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName override
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName override
+split SimpleName MethodInvocation CharacterLiteral empty
+override SimpleName MethodInvocation CharacterLiteral empty
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName override
+names SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName nameslength
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName nameslength
+mask values SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName nameslength
+string SimpleName SimpleType SingleVariableDeclaration SimpleName n
+acl supported parseracl capabilities QualifiedName MethodInvocation SimpleName get acl capability value
+acl supported parseracl capabilities QualifiedName MethodInvocation SimpleName n
+get acl capability value SimpleName MethodInvocation SimpleName n
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation QualifiedName acl supported parseracl capabilities
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get acl capability value
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName n
+validate utils SimpleName MethodInvocation StringLiteral unknown acl capability s
+validate utils SimpleName MethodInvocation SimpleName n
+check not null SimpleName MethodInvocation MethodInvocation QualifiedName acl supported parseracl capabilities
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get acl capability value
+check not null SimpleName MethodInvocation MethodInvocation SimpleName n
+check not null SimpleName MethodInvocation StringLiteral unknown acl capability s
+check not null SimpleName MethodInvocation SimpleName n
+acl supported parseracl capabilities QualifiedName MethodInvocation MethodInvocation StringLiteral unknown acl capability s
+get acl capability value SimpleName MethodInvocation MethodInvocation StringLiteral unknown acl capability s
+n SimpleName MethodInvocation MethodInvocation StringLiteral unknown acl capability s
+acl supported parseracl capabilities QualifiedName MethodInvocation MethodInvocation SimpleName n
+get acl capability value SimpleName MethodInvocation MethodInvocation SimpleName n
+n SimpleName MethodInvocation MethodInvocation SimpleName n
+unknown acl capability s StringLiteral MethodInvocation SimpleName n
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName acl supported parseracl capabilities
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get acl capability value
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName n
+v SimpleName VariableDeclarationFragment MethodInvocation StringLiteral unknown acl capability s
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+mask values SimpleName MethodInvocation SimpleName add
+mask values SimpleName MethodInvocation SimpleName v
+add SimpleName MethodInvocation SimpleName v
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName names
+n SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName names
+names SimpleName EnhancedForStatement Block ReturnStatement SimpleName mask values
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+protected Modifier MethodDeclaration SimpleName resolve acl supported capabilities
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName names
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName mask values
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve acl supported capabilities
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve acl supported capabilities
+resolve acl supported capabilities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+resolve acl supported capabilities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+resolve acl supported capabilities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName names
+resolve acl supported capabilities SimpleName MethodDeclaration Block ReturnStatement SimpleName mask values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve acl supported capabilities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve acl supported capabilities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

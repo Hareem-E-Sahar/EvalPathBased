@@ -1,0 +1,37 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName get attribute
+session SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel forwarded x
+get attribute SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel forwarded x
+channel forwarded x SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+channel forwarded x SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+channel SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName channel forwarded x
+channel SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+channel SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+channel forwarded x SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName close
+channel SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session closed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session closed SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session closed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session closed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

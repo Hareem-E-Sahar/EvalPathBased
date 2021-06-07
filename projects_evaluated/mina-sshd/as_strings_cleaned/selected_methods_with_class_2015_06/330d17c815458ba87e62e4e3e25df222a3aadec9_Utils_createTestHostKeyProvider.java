@@ -1,0 +1,71 @@
+key pair provider holder SimpleName MethodInvocation SimpleName get
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName key pair provider holder
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+detect target folder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName utils
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName detect target folder
+validate utils SimpleName MethodInvocation StringLiteral failed to detect target folder
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation MethodInvocation SimpleName detect target folder
+check not null SimpleName MethodInvocation StringLiteral failed to detect target folder
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+detect target folder SimpleName MethodInvocation MethodInvocation StringLiteral failed to detect target folder
+detect target folder SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+failed to detect target folder StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+target folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+target folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+target folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName detect target folder
+target folder SimpleName VariableDeclarationFragment MethodInvocation StringLiteral failed to detect target folder
+target folder SimpleName VariableDeclarationFragment MethodInvocation QualifiedName generic utilsempty object array
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target folder
+default test host key provider algorithm SimpleName MethodInvocation SimpleName to lower case
+hostkey StringLiteral InfixExpression MethodInvocation SimpleName default test host key provider algorithm
+hostkey StringLiteral InfixExpression MethodInvocation SimpleName to lower case
+file SimpleName SimpleType ClassInstanceCreation SimpleName target folder
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral hostkey
+target folder SimpleName ClassInstanceCreation InfixExpression StringLiteral hostkey
+target folder SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName default test host key provider algorithm
+target folder SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName to lower case
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName target folder
+file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral hostkey
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName get absolute path
+default test host key provider algorithm SimpleName MethodInvocation SimpleName to upper case
+simple generator host key provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file
+simple generator host key provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute path
+simple generator host key provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName default test host key provider algorithm
+simple generator host key provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to upper case
+file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default test host key provider algorithm
+file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to upper case
+get absolute path SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default test host key provider algorithm
+get absolute path SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to upper case
+validate key pair provider SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple generator host key provider
+validate key pair provider SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName file
+validate key pair provider SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get absolute path
+validate key pair provider SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default test host key provider algorithm
+validate key pair provider SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to upper case
+provider SimpleName Assignment MethodInvocation SimpleName validate key pair provider
+key pair provider holder SimpleName MethodInvocation SimpleName get and set
+key pair provider holder SimpleName MethodInvocation SimpleName provider
+get and set SimpleName MethodInvocation SimpleName provider
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName key pair provider holder
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and set
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key pair provider
+public Modifier MethodDeclaration SimpleName create test host key provider
+static Modifier MethodDeclaration SimpleType SimpleName key pair provider
+static Modifier MethodDeclaration SimpleName create test host key provider
+key pair provider SimpleName SimpleType MethodDeclaration SimpleName create test host key provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName create test host key provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create test host key provider

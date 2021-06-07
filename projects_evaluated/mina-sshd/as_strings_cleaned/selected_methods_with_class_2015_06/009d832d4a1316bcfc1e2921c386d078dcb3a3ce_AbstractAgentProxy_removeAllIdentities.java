@@ -1,0 +1,71 @@
+create buffer SimpleName MethodInvocation SimpleName ssh agentc remove all identities
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh agentc remove all identities
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral remove all identities
+debug SimpleName MethodInvocation StringLiteral remove all identities
+prepare SimpleName MethodInvocation SimpleName buffer
+request SimpleName MethodInvocation MethodInvocation SimpleName prepare
+request SimpleName MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName request
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName prepare
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName available
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+available SimpleName InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get byte
+buffer SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+get byte SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+response SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName buffer
+response SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get byte
+response SimpleName VariableDeclarationFragment ConditionalExpression PrefixExpression NumberLiteral empty
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+available SimpleName InfixExpression NumberLiteral empty
+response SimpleName InfixExpression SimpleName ssh agent success
+response SimpleName InfixExpression NumberLiteral x ff
+bad remove all identities response ( StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName response
+bad remove all identities response ( StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+bad remove all identities response ( StringLiteral InfixExpression StringLiteral ) - available
+bad remove all identities response ( StringLiteral InfixExpression SimpleName available
+response SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ) - available
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral ) - available
+response SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName available
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName available
+) - available StringLiteral InfixExpression SimpleName available
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad remove all identities response (
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) - available
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName available
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove all identities
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove all identities
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+void PrimitiveType MethodDeclaration SimpleName remove all identities
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+remove all identities SimpleName MethodDeclaration SimpleType SimpleName io exception
+remove all identities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+remove all identities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove all identities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove all identities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

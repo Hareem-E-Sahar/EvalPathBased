@@ -1,0 +1,36 @@
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+factory manager utils SimpleName MethodInvocation SimpleName get string
+factory manager utils SimpleName MethodInvocation SimpleName manager
+factory manager utils SimpleName MethodInvocation QualifiedName server factory managerserver identification
+get string SimpleName MethodInvocation SimpleName manager
+get string SimpleName MethodInvocation QualifiedName server factory managerserver identification
+manager SimpleName MethodInvocation QualifiedName server factory managerserver identification
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+ident SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+ident SimpleName VariableDeclarationFragment MethodInvocation QualifiedName server factory managerserver identification
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ident
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ident
+is empty SimpleName MethodInvocation SimpleName ident
+manager SimpleName MethodInvocation SimpleName get version
+default ssh version prefix SimpleName InfixExpression MethodInvocation SimpleName manager
+default ssh version prefix SimpleName InfixExpression MethodInvocation SimpleName get version
+server version SimpleName Assignment InfixExpression SimpleName default ssh version prefix
+server version SimpleName Assignment InfixExpression MethodInvocation SimpleName manager
+server version SimpleName Assignment InfixExpression MethodInvocation SimpleName get version
+default ssh version prefix SimpleName InfixExpression SimpleName ident
+server version SimpleName Assignment InfixExpression SimpleName default ssh version prefix
+server version SimpleName Assignment InfixExpression SimpleName ident
+send identification SimpleName MethodInvocation SimpleName server version
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send server identification
+void PrimitiveType MethodDeclaration SimpleName send server identification
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send server identification
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send server identification

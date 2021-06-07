@@ -1,0 +1,26 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+username SimpleName FieldAccess Assignment SimpleName username
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set username
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set username
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+void PrimitiveType MethodDeclaration SimpleName set username
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+set username SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set username SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username

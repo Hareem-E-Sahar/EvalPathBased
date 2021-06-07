@@ -1,0 +1,70 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+string SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extensions
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName extensions
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName extensions
+is empty SimpleName MethodInvocation SimpleName extensions
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral set file extensions {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName file
+log SimpleName MethodInvocation SimpleName extensions
+debug SimpleName MethodInvocation StringLiteral set file extensions {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation SimpleName file
+debug SimpleName MethodInvocation SimpleName extensions
+set file extensions {} StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+set file extensions {} StringLiteral MethodInvocation SimpleName file
+set file extensions {} StringLiteral MethodInvocation SimpleName extensions
+get server session SimpleName MethodInvocation MethodInvocation SimpleName file
+get server session SimpleName MethodInvocation MethodInvocation SimpleName extensions
+file SimpleName MethodInvocation SimpleName extensions
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral file extensions not supported
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set file extensions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName extensions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName set file extensions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extensions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set file extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set file extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+set file extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extensions
+set file extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+set file extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+set file extensions SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+extensions SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+extensions SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,49 @@
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation SimpleName to array
+files SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName files
+files SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName files
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral enter password for private key
+println SimpleName MethodInvocation StringLiteral enter password for private key
+input stream reader SimpleName SimpleType ClassInstanceCreation QualifiedName systemin
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+r SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+buffered reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName read line
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+password SimpleName MethodInvocation SimpleName to char array
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ArrayType PrimitiveType char
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get password
+public Modifier MethodDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SimpleName get password
+char PrimitiveType ArrayType MethodDeclaration SimpleName get password
+file key pair provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName files
+file key pair provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair provider
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName key pair provider
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+key pair provider SimpleName SimpleType MethodDeclaration SimpleName call
+key pair provider SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

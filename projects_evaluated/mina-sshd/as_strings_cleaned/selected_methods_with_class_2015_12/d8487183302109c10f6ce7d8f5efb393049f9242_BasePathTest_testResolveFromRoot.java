@@ -1,0 +1,62 @@
+parse path SimpleName MethodInvocation StringLiteral /
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse path
+root SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+assert resolved path equals SimpleName MethodInvocation StringLiteral foo
+assert resolved path equals SimpleName MethodInvocation SimpleName root
+assert resolved path equals SimpleName MethodInvocation StringLiteral foo
+foo StringLiteral MethodInvocation SimpleName root
+foo StringLiteral MethodInvocation StringLiteral foo
+root SimpleName MethodInvocation StringLiteral foo
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobar
+assert resolved path equals SimpleName MethodInvocation SimpleName root
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobar
+foobar StringLiteral MethodInvocation SimpleName root
+foobar StringLiteral MethodInvocation StringLiteral foobar
+root SimpleName MethodInvocation StringLiteral foobar
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobar
+assert resolved path equals SimpleName MethodInvocation SimpleName root
+assert resolved path equals SimpleName MethodInvocation StringLiteral foo
+assert resolved path equals SimpleName MethodInvocation StringLiteral bar
+foobar StringLiteral MethodInvocation SimpleName root
+foobar StringLiteral MethodInvocation StringLiteral foo
+foobar StringLiteral MethodInvocation StringLiteral bar
+root SimpleName MethodInvocation StringLiteral foo
+root SimpleName MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral bar
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobarbaztest
+assert resolved path equals SimpleName MethodInvocation SimpleName root
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobarbaztest
+foobarbaztest StringLiteral MethodInvocation SimpleName root
+foobarbaztest StringLiteral MethodInvocation StringLiteral foobarbaztest
+root SimpleName MethodInvocation StringLiteral foobarbaztest
+assert resolved path equals SimpleName MethodInvocation StringLiteral foobarbaztest
+assert resolved path equals SimpleName MethodInvocation SimpleName root
+assert resolved path equals SimpleName MethodInvocation StringLiteral foo
+assert resolved path equals SimpleName MethodInvocation StringLiteral barbaz
+assert resolved path equals SimpleName MethodInvocation StringLiteral test
+foobarbaztest StringLiteral MethodInvocation SimpleName root
+foobarbaztest StringLiteral MethodInvocation StringLiteral foo
+foobarbaztest StringLiteral MethodInvocation StringLiteral barbaz
+foobarbaztest StringLiteral MethodInvocation StringLiteral test
+root SimpleName MethodInvocation StringLiteral foo
+root SimpleName MethodInvocation StringLiteral barbaz
+root SimpleName MethodInvocation StringLiteral test
+foo StringLiteral MethodInvocation StringLiteral barbaz
+foo StringLiteral MethodInvocation StringLiteral test
+barbaz StringLiteral MethodInvocation StringLiteral test
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resolve from root
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resolve from root
+void PrimitiveType MethodDeclaration SimpleName test resolve from root
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resolve from root
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resolve from root

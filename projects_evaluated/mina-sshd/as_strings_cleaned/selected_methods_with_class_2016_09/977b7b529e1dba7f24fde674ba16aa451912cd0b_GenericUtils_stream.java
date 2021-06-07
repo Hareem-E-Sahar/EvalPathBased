@@ -1,0 +1,48 @@
+stream SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+is empty SimpleName MethodInvocation SimpleName values
+stream SimpleName MethodInvocation SimpleName empty
+values SimpleName InstanceofExpression SimpleType SimpleName collection
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collection SimpleName SimpleType ParameterizedType CastExpression SimpleName values
+t SimpleName SimpleType ParameterizedType CastExpression SimpleName values
+values SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName stream
+values SimpleName MethodInvocation SimpleName spliterator
+stream support SimpleName MethodInvocation SimpleName stream
+stream support SimpleName MethodInvocation MethodInvocation SimpleName values
+stream support SimpleName MethodInvocation MethodInvocation SimpleName spliterator
+stream support SimpleName MethodInvocation BooleanLiteral false
+stream SimpleName MethodInvocation MethodInvocation SimpleName values
+stream SimpleName MethodInvocation MethodInvocation SimpleName spliterator
+stream SimpleName MethodInvocation BooleanLiteral false
+values SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+spliterator SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName stream
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName stream
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+t SimpleName TypeParameter MethodDeclaration SimpleName stream
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName values
+stream SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName stream
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName stream
+stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

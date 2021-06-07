@@ -1,0 +1,28 @@
+nio socket acceptor SimpleName SimpleType ClassInstanceCreation SimpleName io processor
+acceptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName nio socket acceptor
+acceptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName io processor
+nio socket acceptor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acceptor
+acceptor SimpleName MethodInvocation SimpleName set close on deactivation
+acceptor SimpleName MethodInvocation BooleanLiteral false
+set close on deactivation SimpleName MethodInvocation BooleanLiteral false
+acceptor SimpleName MethodInvocation SimpleName set reuse address
+acceptor SimpleName MethodInvocation SimpleName reuse address
+set reuse address SimpleName MethodInvocation SimpleName reuse address
+acceptor SimpleName MethodInvocation SimpleName set backlog
+acceptor SimpleName MethodInvocation SimpleName backlog
+set backlog SimpleName MethodInvocation SimpleName backlog
+acceptor SimpleName MethodInvocation SimpleName get session config
+configure SimpleName MethodInvocation MethodInvocation SimpleName acceptor
+configure SimpleName MethodInvocation MethodInvocation SimpleName get session config
+protected Modifier MethodDeclaration SimpleType SimpleName io acceptor
+protected Modifier MethodDeclaration SimpleName create acceptor
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName acceptor
+io acceptor SimpleName SimpleType MethodDeclaration SimpleName create acceptor
+create acceptor SimpleName MethodDeclaration Block ReturnStatement SimpleName acceptor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+public Modifier TypeDeclaration MethodDeclaration SimpleName create acceptor
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create acceptor

@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName syntax and pattern
+get path matcher StringLiteral InfixExpression SimpleName syntax and pattern
+get path matcher StringLiteral InfixExpression StringLiteral )
+syntax and pattern SimpleName InfixExpression StringLiteral )
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral get path matcher
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName syntax and pattern
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path matcher
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get path matcher
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+public Modifier MethodDeclaration SimpleType SimpleName path matcher
+public Modifier MethodDeclaration SimpleName get path matcher
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+path matcher SimpleName SimpleType MethodDeclaration SimpleName get path matcher
+path matcher SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+get path matcher SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get path matcher SimpleName MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path matcher
+public Modifier TypeDeclaration MethodDeclaration SimpleName get path matcher
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path matcher
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get path matcher
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern

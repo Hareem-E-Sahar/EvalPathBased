@@ -1,0 +1,34 @@
+inet address SimpleName SimpleType SingleVariableDeclaration SimpleName addr
+addr SimpleName MethodInvocation SimpleName is link local address
+addr SimpleName MethodInvocation SimpleName is multicast address
+addr SimpleName InstanceofExpression SimpleType SimpleName inet address
+is loopback SimpleName MethodInvocation SimpleName addr
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid host address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is valid host address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is valid host address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName addr
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is valid host address SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+is valid host address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName addr
+is valid host address SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid host address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid host address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr

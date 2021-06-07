@@ -1,0 +1,50 @@
+listeners SimpleName InstanceofExpression SimpleType SimpleName ssh future listener
+as listener SimpleName MethodInvocation SimpleName listeners
+notify listener SimpleName MethodInvocation MethodInvocation SimpleName as listener
+notify listener SimpleName MethodInvocation MethodInvocation SimpleName listeners
+array SimpleName MethodInvocation SimpleName get length
+array SimpleName MethodInvocation SimpleName listeners
+get length SimpleName MethodInvocation SimpleName listeners
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName listeners
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName array
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName listeners
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName l
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+array SimpleName MethodInvocation SimpleName get
+array SimpleName MethodInvocation SimpleName listeners
+array SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName listeners
+get SimpleName MethodInvocation SimpleName i
+listeners SimpleName MethodInvocation SimpleName i
+as listener SimpleName MethodInvocation MethodInvocation SimpleName array
+as listener SimpleName MethodInvocation MethodInvocation SimpleName get
+as listener SimpleName MethodInvocation MethodInvocation SimpleName listeners
+as listener SimpleName MethodInvocation MethodInvocation SimpleName i
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName as listener
+listener SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName array
+listener SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+listener SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName listeners
+listener SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+notify listener SimpleName MethodInvocation SimpleName listener
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName l
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+l SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName notify listeners
+void PrimitiveType MethodDeclaration SimpleName notify listeners
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify listeners
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify listeners

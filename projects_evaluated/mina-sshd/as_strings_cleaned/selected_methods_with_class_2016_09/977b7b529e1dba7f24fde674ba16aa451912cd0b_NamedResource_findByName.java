@@ -1,0 +1,79 @@
+r SimpleName TypeParameter SimpleType SimpleName named resource
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+comparator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resources
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+generic utils SimpleName MethodInvocation SimpleName stream
+generic utils SimpleName MethodInvocation SimpleName resources
+stream SimpleName MethodInvocation SimpleName resources
+r SimpleName MethodInvocation SimpleName get name
+c SimpleName MethodInvocation SimpleName compare
+c SimpleName MethodInvocation SimpleName name
+c SimpleName MethodInvocation MethodInvocation SimpleName r
+c SimpleName MethodInvocation MethodInvocation SimpleName get name
+compare SimpleName MethodInvocation SimpleName name
+compare SimpleName MethodInvocation MethodInvocation SimpleName r
+compare SimpleName MethodInvocation MethodInvocation SimpleName get name
+name SimpleName MethodInvocation MethodInvocation SimpleName r
+name SimpleName MethodInvocation MethodInvocation SimpleName get name
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+r SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get name SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+r SimpleName VariableDeclarationFragment LambdaExpression InfixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation MethodInvocation SimpleName filter
+resources SimpleName MethodInvocation MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName r
+filter SimpleName MethodInvocation LambdaExpression InfixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName find first
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName find first
+resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName find first
+filter SimpleName MethodInvocation MethodInvocation SimpleName find first
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName or else
+find first SimpleName MethodInvocation MethodInvocation SimpleName or else
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName or else
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName or else
+name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName or else
+static Modifier MethodDeclaration TypeParameter SimpleName r
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName named resource
+static Modifier MethodDeclaration SimpleType SimpleName r
+static Modifier MethodDeclaration SimpleName find by name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName TypeParameter MethodDeclaration SimpleType SimpleName r
+r SimpleName TypeParameter MethodDeclaration SimpleName find by name
+named resource SimpleName SimpleType TypeParameter MethodDeclaration SimpleName find by name
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName name
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName resources
+r SimpleName SimpleType MethodDeclaration SimpleName find by name
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resources
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resources
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources

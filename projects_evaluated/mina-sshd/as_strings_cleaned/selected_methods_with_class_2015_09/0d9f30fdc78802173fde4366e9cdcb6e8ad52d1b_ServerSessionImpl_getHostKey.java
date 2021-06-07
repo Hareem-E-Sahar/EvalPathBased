@@ -1,0 +1,40 @@
+get negotiated kex parameter SimpleName MethodInvocation QualifiedName kex proposal optionserverkeys
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get negotiated kex parameter
+value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName kex proposal optionserverkeys
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+server factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get key pair provider
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName manager
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get key pair provider
+validate utils SimpleName MethodInvocation StringLiteral no host keys provider
+check not null SimpleName MethodInvocation MethodInvocation SimpleName manager
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get key pair provider
+check not null SimpleName MethodInvocation StringLiteral no host keys provider
+manager SimpleName MethodInvocation MethodInvocation StringLiteral no host keys provider
+get key pair provider SimpleName MethodInvocation MethodInvocation StringLiteral no host keys provider
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+provider SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName manager
+provider SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key pair provider
+provider SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no host keys provider
+key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+provider SimpleName MethodInvocation SimpleName load key
+provider SimpleName MethodInvocation SimpleName value
+load key SimpleName MethodInvocation SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get host key
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName get host key
+key pair SimpleName SimpleType MethodDeclaration SimpleName get host key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName get host key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get host key

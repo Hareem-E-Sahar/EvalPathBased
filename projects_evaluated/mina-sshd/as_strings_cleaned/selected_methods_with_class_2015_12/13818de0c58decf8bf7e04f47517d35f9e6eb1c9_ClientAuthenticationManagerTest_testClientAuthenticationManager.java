@@ -1,0 +1,123 @@
+m SimpleName TypeParameter SimpleType SimpleName client authentication manager
+m SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+manager SimpleName MethodInvocation SimpleName remove password identity
+manager SimpleName MethodInvocation SimpleName expected
+remove password identity SimpleName MethodInvocation SimpleName expected
+assert null SimpleName MethodInvocation StringLiteral unexpected initial password identity
+assert null SimpleName MethodInvocation MethodInvocation SimpleName manager
+assert null SimpleName MethodInvocation MethodInvocation SimpleName remove password identity
+assert null SimpleName MethodInvocation MethodInvocation SimpleName expected
+unexpected initial password identity StringLiteral MethodInvocation MethodInvocation SimpleName manager
+unexpected initial password identity StringLiteral MethodInvocation MethodInvocation SimpleName remove password identity
+unexpected initial password identity StringLiteral MethodInvocation MethodInvocation SimpleName expected
+manager SimpleName MethodInvocation SimpleName add password identity
+manager SimpleName MethodInvocation SimpleName expected
+add password identity SimpleName MethodInvocation SimpleName expected
+manager SimpleName MethodInvocation SimpleName remove password identity
+manager SimpleName MethodInvocation SimpleName expected
+remove password identity SimpleName MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove password identity
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation StringLiteral mismatched removed password identity
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched removed password identity StringLiteral MethodInvocation SimpleName expected
+mismatched removed password identity StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+manager SimpleName MethodInvocation SimpleName remove password identity
+manager SimpleName MethodInvocation SimpleName expected
+remove password identity SimpleName MethodInvocation SimpleName expected
+assert null SimpleName MethodInvocation StringLiteral password identity not removed
+assert null SimpleName MethodInvocation MethodInvocation SimpleName manager
+assert null SimpleName MethodInvocation MethodInvocation SimpleName remove password identity
+assert null SimpleName MethodInvocation MethodInvocation SimpleName expected
+password identity not removed StringLiteral MethodInvocation MethodInvocation SimpleName manager
+password identity not removed StringLiteral MethodInvocation MethodInvocation SimpleName remove password identity
+password identity not removed StringLiteral MethodInvocation MethodInvocation SimpleName expected
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName private key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName private key
+key pair SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mockito
+key pair SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mock
+key pair SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mockito
+key pair SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mockito
+mockito SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mock
+mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mockito
+mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mock
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key pair
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mockito
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mock
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mockito
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mock
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+manager SimpleName MethodInvocation SimpleName remove public key identity
+manager SimpleName MethodInvocation SimpleName expected
+remove public key identity SimpleName MethodInvocation SimpleName expected
+assert null SimpleName MethodInvocation StringLiteral unexpected initial pubket identity
+assert null SimpleName MethodInvocation MethodInvocation SimpleName manager
+assert null SimpleName MethodInvocation MethodInvocation SimpleName remove public key identity
+assert null SimpleName MethodInvocation MethodInvocation SimpleName expected
+unexpected initial pubket identity StringLiteral MethodInvocation MethodInvocation SimpleName manager
+unexpected initial pubket identity StringLiteral MethodInvocation MethodInvocation SimpleName remove public key identity
+unexpected initial pubket identity StringLiteral MethodInvocation MethodInvocation SimpleName expected
+manager SimpleName MethodInvocation SimpleName add public key identity
+manager SimpleName MethodInvocation SimpleName expected
+add public key identity SimpleName MethodInvocation SimpleName expected
+manager SimpleName MethodInvocation SimpleName remove public key identity
+manager SimpleName MethodInvocation SimpleName expected
+remove public key identity SimpleName MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove public key identity
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation StringLiteral mismatched removed pubkey identity
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched removed pubkey identity StringLiteral MethodInvocation SimpleName expected
+mismatched removed pubkey identity StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+manager SimpleName MethodInvocation SimpleName remove public key identity
+manager SimpleName MethodInvocation SimpleName expected
+remove public key identity SimpleName MethodInvocation SimpleName expected
+assert null SimpleName MethodInvocation StringLiteral pubkey identity not removed
+assert null SimpleName MethodInvocation MethodInvocation SimpleName manager
+assert null SimpleName MethodInvocation MethodInvocation SimpleName remove public key identity
+assert null SimpleName MethodInvocation MethodInvocation SimpleName expected
+pubkey identity not removed StringLiteral MethodInvocation MethodInvocation SimpleName manager
+pubkey identity not removed StringLiteral MethodInvocation MethodInvocation SimpleName remove public key identity
+pubkey identity not removed StringLiteral MethodInvocation MethodInvocation SimpleName expected
+private Modifier MethodDeclaration TypeParameter SimpleName m
+private Modifier MethodDeclaration TypeParameter SimpleType SimpleName client authentication manager
+private Modifier MethodDeclaration SimpleType SimpleName m
+private Modifier MethodDeclaration SimpleName test client authentication manager
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName m
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+private Modifier MethodDeclaration Block ReturnStatement SimpleName manager
+m SimpleName TypeParameter MethodDeclaration SimpleType SimpleName m
+m SimpleName TypeParameter MethodDeclaration SimpleName test client authentication manager
+client authentication manager SimpleName SimpleType TypeParameter MethodDeclaration SimpleName test client authentication manager
+m SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName manager
+m SimpleName SimpleType MethodDeclaration SimpleName test client authentication manager
+m SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName manager
+test client authentication manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName m
+test client authentication manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+test client authentication manager SimpleName MethodDeclaration Block ReturnStatement SimpleName manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client authentication manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client authentication manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager

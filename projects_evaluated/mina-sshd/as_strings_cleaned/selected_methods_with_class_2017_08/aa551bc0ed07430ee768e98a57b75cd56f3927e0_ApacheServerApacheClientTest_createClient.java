@@ -1,0 +1,78 @@
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName set up default client
+ssh client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName set forwarding filter
+client SimpleName MethodInvocation QualifiedName accept all forwarding filterinstance
+set forwarding filter SimpleName MethodInvocation QualifiedName accept all forwarding filterinstance
+client SimpleName MethodInvocation SimpleName start
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral connecting
+info SimpleName MethodInvocation StringLiteral connecting
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation StringLiteral user
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName ssh server port
+connect SimpleName MethodInvocation StringLiteral user
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName ssh server port
+user StringLiteral MethodInvocation SimpleName test localhost
+user StringLiteral MethodInvocation SimpleName ssh server port
+test localhost SimpleName MethodInvocation SimpleName ssh server port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+user StringLiteral MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+ssh server port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation SimpleName timeout
+connect SimpleName MethodInvocation MethodInvocation SimpleName timeout
+user StringLiteral MethodInvocation MethodInvocation SimpleName timeout
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName timeout
+ssh server port SimpleName MethodInvocation MethodInvocation SimpleName timeout
+verify SimpleName MethodInvocation SimpleName timeout
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+user StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+ssh server port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+timeout SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName Assignment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName Assignment MethodInvocation MethodInvocation SimpleName timeout
+session SimpleName Assignment MethodInvocation SimpleName get session
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral authenticating
+info SimpleName MethodInvocation StringLiteral authenticating
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation StringLiteral foo
+add password identity SimpleName MethodInvocation StringLiteral foo
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation SimpleName timeout
+auth SimpleName MethodInvocation MethodInvocation SimpleName timeout
+verify SimpleName MethodInvocation SimpleName timeout
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral authenticated
+info SimpleName MethodInvocation StringLiteral authenticated
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName create client
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create client
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName create client
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+create client SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

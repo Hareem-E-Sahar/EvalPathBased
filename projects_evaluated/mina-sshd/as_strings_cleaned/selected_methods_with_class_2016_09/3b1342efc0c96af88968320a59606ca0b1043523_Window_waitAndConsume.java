@@ -1,0 +1,92 @@
+long PrimitiveType SingleVariableDeclaration SimpleName len
+long PrimitiveType SingleVariableDeclaration SimpleName max wait time
+buffer utils SimpleName MethodInvocation SimpleName validate uint value
+buffer utils SimpleName MethodInvocation SimpleName len
+buffer utils SimpleName MethodInvocation StringLiteral invalid wait consume length d
+buffer utils SimpleName MethodInvocation SimpleName len
+validate uint value SimpleName MethodInvocation SimpleName len
+validate uint value SimpleName MethodInvocation StringLiteral invalid wait consume length d
+validate uint value SimpleName MethodInvocation SimpleName len
+len SimpleName MethodInvocation StringLiteral invalid wait consume length d
+len SimpleName MethodInvocation SimpleName len
+invalid wait consume length d StringLiteral MethodInvocation SimpleName len
+check initialized SimpleName MethodInvocation StringLiteral wait and consume
+inputsize holder QualifiedName MethodInvocation SimpleName get
+inputsize holder QualifiedName MethodInvocation InfixExpression SimpleName len
+get SimpleName MethodInvocation InfixExpression SimpleName len
+wait for condition SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName input
+wait for condition SimpleName MethodInvocation SimpleName max wait time
+input SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName max wait time
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait and consume - requested available
+log SimpleName MethodInvocation SimpleName len
+log SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation StringLiteral wait and consume - requested available
+debug SimpleName MethodInvocation SimpleName len
+debug SimpleName MethodInvocation SimpleName size holder
+wait and consume - requested available StringLiteral MethodInvocation SimpleName len
+wait and consume - requested available StringLiteral MethodInvocation SimpleName size holder
+len SimpleName MethodInvocation SimpleName size holder
+consume SimpleName MethodInvocation SimpleName len
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName wait and consume
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName wait and consume
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName window closed exception
+wait and consume SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wait and consume SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+wait and consume SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wait and consume SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+wait and consume SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+wait and consume SimpleName MethodDeclaration SimpleType SimpleName window closed exception
+wait and consume SimpleName MethodDeclaration SimpleType SimpleName socket timeout exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName window closed exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName socket timeout exception
+window closed exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName socket timeout exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait and consume
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait and consume
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception

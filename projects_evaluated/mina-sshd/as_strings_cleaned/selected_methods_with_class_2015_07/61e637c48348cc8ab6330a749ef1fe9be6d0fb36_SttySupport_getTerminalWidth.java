@@ -1,0 +1,25 @@
+get terminal property SimpleName MethodInvocation StringLiteral columns
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get terminal property
+val SimpleName VariableDeclarationFragment MethodInvocation StringLiteral columns
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get terminal property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral columns
+val SimpleName InfixExpression PrefixExpression NumberLiteral empty
+val SimpleName Assignment SimpleName default terminal width
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName val
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get terminal width
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get terminal width
+int PrimitiveType MethodDeclaration SimpleName get terminal width
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get terminal width
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get terminal width

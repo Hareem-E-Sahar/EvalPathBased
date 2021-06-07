@@ -1,0 +1,57 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName inet address
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName inet address
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName inet address
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName network interface
+network interface SimpleName MethodInvocation SimpleName get network interfaces
+nets SimpleName VariableDeclarationFragment MethodInvocation SimpleName network interface
+nets SimpleName VariableDeclarationFragment MethodInvocation SimpleName get network interfaces
+nets SimpleName MethodInvocation SimpleName has more elements
+nets SimpleName MethodInvocation SimpleName next element
+netint SimpleName VariableDeclarationFragment MethodInvocation SimpleName nets
+netint SimpleName VariableDeclarationFragment MethodInvocation SimpleName next element
+network interface SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName netint
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName inet address
+netint SimpleName MethodInvocation SimpleName get inet addresses
+inet addresses SimpleName VariableDeclarationFragment MethodInvocation SimpleName netint
+inet addresses SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inet addresses
+inet addresses SimpleName MethodInvocation SimpleName has more elements
+inet addresses SimpleName MethodInvocation SimpleName next element
+inet address SimpleName VariableDeclarationFragment MethodInvocation SimpleName inet addresses
+inet address SimpleName VariableDeclarationFragment MethodInvocation SimpleName next element
+inet address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inet address
+is valid host address SimpleName MethodInvocation SimpleName inet address
+addresses SimpleName MethodInvocation SimpleName add
+addresses SimpleName MethodInvocation SimpleName inet address
+add SimpleName MethodInvocation SimpleName inet address
+socket exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName addresses
+size SimpleName MethodInvocation SimpleName addresses
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+addresses SimpleName MethodInvocation InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName addresses
+collections SimpleName MethodInvocation SimpleName by host address
+sort SimpleName MethodInvocation SimpleName addresses
+sort SimpleName MethodInvocation SimpleName by host address
+addresses SimpleName MethodInvocation SimpleName by host address
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName inet address
+public Modifier MethodDeclaration SimpleName get external network addresses
+public Modifier MethodDeclaration Block ReturnStatement SimpleName addresses
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName inet address
+static Modifier MethodDeclaration SimpleName get external network addresses
+static Modifier MethodDeclaration Block ReturnStatement SimpleName addresses
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external network addresses
+inet address SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external network addresses
+get external network addresses SimpleName MethodDeclaration Block ReturnStatement SimpleName addresses
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get external network addresses
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get external network addresses

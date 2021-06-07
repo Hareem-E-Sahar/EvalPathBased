@@ -1,0 +1,165 @@
+sftp client SimpleName SimpleType SingleVariableDeclaration SimpleName sftp
+int PrimitiveType SingleVariableDeclaration SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filename
+targetsftpclient StringLiteral InfixExpression SimpleName filename
+file path SimpleName VariableDeclarationFragment InfixExpression StringLiteral targetsftpclient
+file path SimpleName VariableDeclarationFragment InfixExpression SimpleName filename
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName file path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral targetsftpclient
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName filename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file path
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+enum set SimpleName MethodInvocation QualifiedName sftp clientopen modecreate
+of SimpleName MethodInvocation QualifiedName sftp clientopen modewrite
+of SimpleName MethodInvocation QualifiedName sftp clientopen modecreate
+sftp clientopen modewrite QualifiedName MethodInvocation QualifiedName sftp clientopen modecreate
+sftp SimpleName MethodInvocation SimpleName open
+sftp SimpleName MethodInvocation SimpleName file path
+sftp SimpleName MethodInvocation MethodInvocation SimpleName enum set
+sftp SimpleName MethodInvocation MethodInvocation SimpleName of
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+sftp SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modecreate
+open SimpleName MethodInvocation SimpleName file path
+open SimpleName MethodInvocation MethodInvocation SimpleName enum set
+open SimpleName MethodInvocation MethodInvocation SimpleName of
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+open SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modecreate
+file path SimpleName MethodInvocation MethodInvocation SimpleName enum set
+file path SimpleName MethodInvocation MethodInvocation SimpleName of
+file path SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+file path SimpleName MethodInvocation MethodInvocation QualifiedName sftp clientopen modecreate
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName file path
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enum set
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName sftp clientopen modewrite
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName sftp clientopen modecreate
+sftp clienthandle QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+random string SimpleName MethodInvocation SimpleName size
+random data SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string
+random data SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName random data
+random data SimpleName MethodInvocation SimpleName get bytes
+random data SimpleName MethodInvocation SimpleName length
+sftp SimpleName MethodInvocation SimpleName write
+sftp SimpleName MethodInvocation SimpleName handle
+sftp SimpleName MethodInvocation NumberLiteral empty
+sftp SimpleName MethodInvocation MethodInvocation SimpleName random data
+sftp SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+sftp SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName handle
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation MethodInvocation SimpleName random data
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation MethodInvocation SimpleName random data
+write SimpleName MethodInvocation MethodInvocation SimpleName length
+handle SimpleName MethodInvocation NumberLiteral empty
+handle SimpleName MethodInvocation MethodInvocation SimpleName random data
+handle SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+handle SimpleName MethodInvocation NumberLiteral empty
+handle SimpleName MethodInvocation MethodInvocation SimpleName random data
+handle SimpleName MethodInvocation MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName random data
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get bytes
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName random data
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName length
+random data SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+random data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random data
+random data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random data
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName random data
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName length
+sftp SimpleName MethodInvocation SimpleName close
+sftp SimpleName MethodInvocation SimpleName handle
+close SimpleName MethodInvocation SimpleName handle
+file SimpleName SimpleType ClassInstanceCreation SimpleName file path
+result file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+result file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result file
+result file SimpleName MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation StringLiteral file should exist on disk
+assert true SimpleName MethodInvocation MethodInvocation SimpleName result file
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+file should exist on disk StringLiteral MethodInvocation MethodInvocation SimpleName result file
+file should exist on disk StringLiteral MethodInvocation MethodInvocation SimpleName exists
+read file SimpleName MethodInvocation SimpleName file path
+random data SimpleName MethodInvocation SimpleName equals
+random data SimpleName MethodInvocation MethodInvocation SimpleName read file
+random data SimpleName MethodInvocation MethodInvocation SimpleName file path
+equals SimpleName MethodInvocation MethodInvocation SimpleName read file
+equals SimpleName MethodInvocation MethodInvocation SimpleName file path
+assert true SimpleName MethodInvocation StringLiteral file contents should match
+assert true SimpleName MethodInvocation MethodInvocation SimpleName random data
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName read file
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file path
+file contents should match StringLiteral MethodInvocation MethodInvocation SimpleName random data
+file contents should match StringLiteral MethodInvocation MethodInvocation SimpleName equals
+file contents should match StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName read file
+file contents should match StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName file path
+sftp SimpleName MethodInvocation SimpleName remove
+sftp SimpleName MethodInvocation SimpleName file path
+remove SimpleName MethodInvocation SimpleName file path
+result file SimpleName MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation StringLiteral file should have been removed
+assert false SimpleName MethodInvocation MethodInvocation SimpleName result file
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+file should have been removed StringLiteral MethodInvocation MethodInvocation SimpleName result file
+file should have been removed StringLiteral MethodInvocation MethodInvocation SimpleName exists
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName upload and verify file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sftp
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName filename
+void PrimitiveType MethodDeclaration SimpleName upload and verify file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sftp
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filename
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+upload and verify file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+upload and verify file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sftp
+upload and verify file SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+upload and verify file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+upload and verify file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+upload and verify file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filename
+upload and verify file SimpleName MethodDeclaration SimpleType SimpleName exception
+upload and verify file SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+sftp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sftp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+sftp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filename
+sftp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filename
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filename
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+filename SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName upload and verify file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sftp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filename
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName upload and verify file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sftp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filename
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

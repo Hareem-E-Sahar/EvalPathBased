@@ -1,0 +1,94 @@
+http client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+url SimpleName SimpleType SingleVariableDeclaration SimpleName url
+client SimpleName MethodInvocation SimpleName set host configuration
+client SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host configuration
+set host configuration SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host configuration
+client SimpleName MethodInvocation SimpleName get host configuration
+url SimpleName MethodInvocation SimpleName get host
+url SimpleName MethodInvocation SimpleName get port
+client SimpleName MethodInvocation MethodInvocation SimpleName set host
+get host configuration SimpleName MethodInvocation MethodInvocation SimpleName set host
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+get host configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url
+get host configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+get host configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url
+get host configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+set host SimpleName MethodInvocation MethodInvocation SimpleName url
+set host SimpleName MethodInvocation MethodInvocation SimpleName get host
+set host SimpleName MethodInvocation MethodInvocation SimpleName url
+set host SimpleName MethodInvocation MethodInvocation SimpleName get port
+url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url
+url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+get method SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+get SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName get method
+get SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+get method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName get
+get SimpleName MethodInvocation SimpleName get params
+get SimpleName MethodInvocation MethodInvocation SimpleName set version
+get params SimpleName MethodInvocation MethodInvocation SimpleName set version
+get SimpleName MethodInvocation MethodInvocation QualifiedName http versionhttp
+get params SimpleName MethodInvocation MethodInvocation QualifiedName http versionhttp
+set version SimpleName MethodInvocation QualifiedName http versionhttp
+client SimpleName MethodInvocation SimpleName execute method
+client SimpleName MethodInvocation SimpleName get
+execute method SimpleName MethodInvocation SimpleName get
+get SimpleName MethodInvocation SimpleName get response body as string
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get response body as string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+str SimpleName MethodInvocation SimpleName index of
+str SimpleName MethodInvocation StringLiteral html
+index of SimpleName MethodInvocation StringLiteral html
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+html StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation SimpleName str
+println SimpleName MethodInvocation SimpleName str
+str SimpleName MethodInvocation SimpleName index of
+str SimpleName MethodInvocation StringLiteral html
+index of SimpleName MethodInvocation StringLiteral html
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+html StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation SimpleName release connection
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check html page
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http client
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName check html page
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http client
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName client
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName url
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check html page SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http client
+check html page SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+check html page SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+check html page SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url
+check html page SimpleName MethodDeclaration SimpleType SimpleName io exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+url SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check html page
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check html page
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

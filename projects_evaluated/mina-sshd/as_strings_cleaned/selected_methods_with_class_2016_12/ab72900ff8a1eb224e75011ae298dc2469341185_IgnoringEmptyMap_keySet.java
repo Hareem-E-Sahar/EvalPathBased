@@ -1,0 +1,16 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+collections SimpleName MethodInvocation SimpleName empty set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName key set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+public Modifier MethodDeclaration SimpleName key set
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName key set
+k SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName key set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName key set
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName key set

@@ -1,0 +1,21 @@
+command factory SimpleName SimpleType SingleVariableDeclaration SimpleName delegate
+factory SimpleName MethodInvocation SimpleName set delegate command factory
+factory SimpleName MethodInvocation SimpleName delegate
+set delegate command factory SimpleName MethodInvocation SimpleName delegate
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName with delegate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName delegate
+builder SimpleName SimpleType MethodDeclaration SimpleName with delegate
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName delegate
+with delegate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command factory
+with delegate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delegate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName with delegate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delegate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with delegate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delegate

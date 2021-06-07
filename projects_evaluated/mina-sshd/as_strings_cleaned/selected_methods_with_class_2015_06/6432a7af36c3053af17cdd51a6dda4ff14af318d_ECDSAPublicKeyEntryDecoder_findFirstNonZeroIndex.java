@@ -1,0 +1,43 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName octets
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName octets
+is empty SimpleName MethodInvocation SimpleName octets
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression QualifiedName octetslength
+octets SimpleName ArrayAccess SimpleName index
+octets SimpleName ArrayAccess InfixExpression NumberLiteral empty
+index SimpleName ArrayAccess InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName octetslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+octetslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName index
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName find first non zero index
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName octets
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName find first non zero index
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName octets
+int PrimitiveType MethodDeclaration SimpleName find first non zero index
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName octets
+find first non zero index SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+find first non zero index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName octets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName find first non zero index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName octets
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find first non zero index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName octets

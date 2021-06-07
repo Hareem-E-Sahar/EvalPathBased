@@ -1,0 +1,48 @@
+char PrimitiveType SingleVariableDeclaration SimpleName ch
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression NumberLiteral x e
+ch SimpleName InfixExpression CharacterLiteral a
+ch SimpleName InfixExpression CharacterLiteral z
+ch SimpleName InfixExpression CharacterLiteral a
+ch SimpleName InfixExpression CharacterLiteral z
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression CharacterLiteral empty
+- . StringLiteral MethodInvocation SimpleName index of
+- . StringLiteral MethodInvocation SimpleName ch
+index of SimpleName MethodInvocation SimpleName ch
+- . StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ch SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression SimpleName single char pattern
+ch SimpleName InfixExpression SimpleName wildcard pattern
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid pattern char
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ch
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is valid pattern char
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ch
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is valid pattern char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ch
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is valid pattern char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+is valid pattern char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ch
+is valid pattern char SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid pattern char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ch
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid pattern char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ch

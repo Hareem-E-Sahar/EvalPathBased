@@ -1,0 +1,36 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get acl capability names map
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get acl capability names map
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get acl capability names map
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName lazy acl capability name holderacl names map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get acl capability names map
+static Modifier MethodDeclaration Block ReturnStatement QualifiedName lazy acl capability name holderacl names map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get acl capability names map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get acl capability names map
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get acl capability names map
+get acl capability names map SimpleName MethodDeclaration Block ReturnStatement QualifiedName lazy acl capability name holderacl names map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get acl capability names map
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get acl capability names map

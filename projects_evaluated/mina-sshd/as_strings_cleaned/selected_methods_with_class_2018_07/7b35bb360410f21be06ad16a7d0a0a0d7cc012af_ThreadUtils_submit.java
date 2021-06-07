@@ -1,0 +1,30 @@
+future SimpleName SimpleType ParameterizedType WildcardType ?
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName task
+executor SimpleName MethodInvocation SimpleName submit
+executor SimpleName MethodInvocation SimpleName task
+submit SimpleName MethodInvocation SimpleName task
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ParameterizedType WildcardType ?
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName submit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName future
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName submit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+future SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName submit
+? WildcardType ParameterizedType MethodDeclaration SimpleName submit
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName task
+submit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+submit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName submit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName submit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

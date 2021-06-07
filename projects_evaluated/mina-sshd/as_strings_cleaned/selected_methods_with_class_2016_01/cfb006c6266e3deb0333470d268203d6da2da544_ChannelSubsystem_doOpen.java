@@ -1,0 +1,99 @@
+system name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get subsystem
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName system name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do open ssh msg channel request subsystem
+log SimpleName MethodInvocation SimpleName system name
+debug SimpleName MethodInvocation StringLiteral do open ssh msg channel request subsystem
+debug SimpleName MethodInvocation SimpleName system name
+do open ssh msg channel request subsystem StringLiteral MethodInvocation SimpleName system name
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName get boolean property
+property resolver utils SimpleName MethodInvocation SimpleName request subsystem reply
+property resolver utils SimpleName MethodInvocation SimpleName default request subsystem reply
+get boolean property SimpleName MethodInvocation SimpleName request subsystem reply
+get boolean property SimpleName MethodInvocation SimpleName default request subsystem reply
+request subsystem reply SimpleName MethodInvocation SimpleName default request subsystem reply
+want reply SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+want reply SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean property
+want reply SimpleName VariableDeclarationFragment MethodInvocation SimpleName request subsystem reply
+want reply SimpleName VariableDeclarationFragment MethodInvocation SimpleName default request subsystem reply
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName want reply
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean property
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName request subsystem reply
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default request subsystem reply
+channelchannel subsystem QualifiedName MethodInvocation SimpleName length
+system name SimpleName MethodInvocation SimpleName length
+channelchannel subsystem QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName system name
+channelchannel subsystem QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system name
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+channelchannel subsystem QualifiedName MethodInvocation InfixExpression QualifiedName integersize
+length SimpleName MethodInvocation InfixExpression QualifiedName integersize
+system name SimpleName MethodInvocation InfixExpression QualifiedName integersize
+length SimpleName MethodInvocation InfixExpression QualifiedName integersize
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg channel request
+session SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName channelchannel subsystem
+session SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+session SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system name
+session SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+session SimpleName MethodInvocation InfixExpression QualifiedName integersize
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg channel request
+create buffer SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName channelchannel subsystem
+create buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+create buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system name
+create buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+create buffer SimpleName MethodInvocation InfixExpression QualifiedName integersize
+ssh constantsssh msg channel request QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName channelchannel subsystem
+ssh constantsssh msg channel request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName length
+ssh constantsssh msg channel request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName system name
+ssh constantsssh msg channel request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName length
+ssh constantsssh msg channel request QualifiedName MethodInvocation InfixExpression QualifiedName integersize
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh constantsssh msg channel request
+buffer SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName integersize
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get recipient
+put int SimpleName MethodInvocation MethodInvocation SimpleName get recipient
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation QualifiedName channelchannel subsystem
+put string SimpleName MethodInvocation QualifiedName channelchannel subsystem
+buffer SimpleName MethodInvocation SimpleName put boolean
+buffer SimpleName MethodInvocation SimpleName want reply
+put boolean SimpleName MethodInvocation SimpleName want reply
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName system name
+put string SimpleName MethodInvocation SimpleName system name
+add pending request SimpleName MethodInvocation QualifiedName channelchannel subsystem
+add pending request SimpleName MethodInvocation SimpleName want reply
+channelchannel subsystem QualifiedName MethodInvocation SimpleName want reply
+write packet SimpleName MethodInvocation SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do open
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do open
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName do open
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+do open SimpleName MethodDeclaration SimpleType SimpleName io exception
+do open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do open
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do open
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,56 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral handle close packet writtenimmediately ssh msg channel close written on channel
+log SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName immediately
+debug SimpleName MethodInvocation StringLiteral handle close packet writtenimmediately ssh msg channel close written on channel
+debug SimpleName MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation SimpleName immediately
+handle close packet writtenimmediately ssh msg channel close written on channel StringLiteral MethodInvocation SimpleName channel
+handle close packet writtenimmediately ssh msg channel close written on channel StringLiteral MethodInvocation SimpleName immediately
+channel SimpleName MethodInvocation SimpleName immediately
+graceful state SimpleName MethodInvocation SimpleName compare and set
+graceful state SimpleName MethodInvocation QualifiedName graceful stateopened
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclose sent
+compare and set SimpleName MethodInvocation QualifiedName graceful stateopened
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclose sent
+graceful stateopened QualifiedName MethodInvocation QualifiedName graceful stateclose sent
+graceful state SimpleName MethodInvocation SimpleName compare and set
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclose received
+graceful state SimpleName MethodInvocation QualifiedName graceful stateclosed
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclose received
+compare and set SimpleName MethodInvocation QualifiedName graceful stateclosed
+graceful stateclose received QualifiedName MethodInvocation QualifiedName graceful stateclosed
+graceful future SimpleName MethodInvocation SimpleName set closed
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle close packet written
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+void PrimitiveType MethodDeclaration SimpleName handle close packet written
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+handle close packet written SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+handle close packet written SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+handle close packet written SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+handle close packet written SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle close packet written
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle close packet written
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

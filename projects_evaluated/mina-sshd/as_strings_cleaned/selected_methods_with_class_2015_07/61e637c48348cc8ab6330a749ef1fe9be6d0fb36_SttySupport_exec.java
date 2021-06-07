@@ -1,0 +1,82 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName cmd
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+bout SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName bout
+runtime SimpleName MethodInvocation SimpleName get runtime
+runtime SimpleName MethodInvocation MethodInvocation SimpleName exec
+get runtime SimpleName MethodInvocation MethodInvocation SimpleName exec
+runtime SimpleName MethodInvocation MethodInvocation SimpleName cmd
+get runtime SimpleName MethodInvocation MethodInvocation SimpleName cmd
+exec SimpleName MethodInvocation SimpleName cmd
+p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName runtime
+p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get runtime
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get input stream
+copy stream SimpleName MethodInvocation MethodInvocation SimpleName p
+copy stream SimpleName MethodInvocation MethodInvocation SimpleName get input stream
+copy stream SimpleName MethodInvocation SimpleName bout
+p SimpleName MethodInvocation MethodInvocation SimpleName bout
+get input stream SimpleName MethodInvocation MethodInvocation SimpleName bout
+p SimpleName MethodInvocation SimpleName get error stream
+copy stream SimpleName MethodInvocation MethodInvocation SimpleName p
+copy stream SimpleName MethodInvocation MethodInvocation SimpleName get error stream
+copy stream SimpleName MethodInvocation SimpleName bout
+p SimpleName MethodInvocation MethodInvocation SimpleName bout
+get error stream SimpleName MethodInvocation MethodInvocation SimpleName bout
+p SimpleName MethodInvocation SimpleName wait for
+bout SimpleName MethodInvocation SimpleName to byte array
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bout
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to byte array
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName bout
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to byte array
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName exec
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName exec
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+string SimpleName SimpleType MethodDeclaration SimpleName exec
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+exec SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+exec SimpleName MethodDeclaration SimpleType SimpleName io exception
+exec SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName exec
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exec
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

@@ -1,0 +1,103 @@
+s SimpleName TypeParameter SimpleType SimpleName input stream
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+s SimpleName SimpleType SingleVariableDeclaration SimpleName stream
+byte PrimitiveType ArrayType ArrayCreation QualifiedName auth magic byteslength
+actual SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+actual SimpleName VariableDeclarationFragment ArrayCreation QualifiedName auth magic byteslength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+io utils SimpleName MethodInvocation SimpleName read fully
+io utils SimpleName MethodInvocation SimpleName stream
+io utils SimpleName MethodInvocation SimpleName actual
+read fully SimpleName MethodInvocation SimpleName stream
+read fully SimpleName MethodInvocation SimpleName actual
+stream SimpleName MethodInvocation SimpleName actual
+arrays SimpleName MethodInvocation SimpleName equals
+arrays SimpleName MethodInvocation SimpleName auth magic bytes
+arrays SimpleName MethodInvocation SimpleName actual
+equals SimpleName MethodInvocation SimpleName auth magic bytes
+equals SimpleName MethodInvocation SimpleName actual
+auth magic bytes SimpleName MethodInvocation SimpleName actual
+buffer utils SimpleName MethodInvocation SimpleName to hex
+buffer utils SimpleName MethodInvocation CharacterLiteral :
+buffer utils SimpleName MethodInvocation SimpleName actual
+to hex SimpleName MethodInvocation CharacterLiteral :
+to hex SimpleName MethodInvocation SimpleName actual
+: CharacterLiteral MethodInvocation SimpleName actual
+resource key SimpleName InfixExpression StringLiteral : mismatched magic marker value
+resource key SimpleName InfixExpression MethodInvocation SimpleName buffer utils
+resource key SimpleName InfixExpression MethodInvocation SimpleName to hex
+resource key SimpleName InfixExpression MethodInvocation CharacterLiteral :
+resource key SimpleName InfixExpression MethodInvocation SimpleName actual
+: mismatched magic marker value StringLiteral InfixExpression MethodInvocation SimpleName buffer utils
+: mismatched magic marker value StringLiteral InfixExpression MethodInvocation SimpleName to hex
+: mismatched magic marker value StringLiteral InfixExpression MethodInvocation CharacterLiteral :
+: mismatched magic marker value StringLiteral InfixExpression MethodInvocation SimpleName actual
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName resource key
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : mismatched magic marker value
+stream SimpleName MethodInvocation SimpleName read
+eos SimpleName VariableDeclarationFragment MethodInvocation SimpleName stream
+eos SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName eos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName stream
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+eos SimpleName InfixExpression PrefixExpression NumberLiteral empty
+resource key SimpleName InfixExpression StringLiteral : premature eof after magic marker value
+eof exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName resource key
+eof exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : premature eof after magic marker value
+eos SimpleName InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName to hex string
+integer SimpleName MethodInvocation SimpleName eos
+to hex string SimpleName MethodInvocation SimpleName eos
+resource key SimpleName InfixExpression StringLiteral : missing eos after magic marker value x
+resource key SimpleName InfixExpression MethodInvocation SimpleName integer
+resource key SimpleName InfixExpression MethodInvocation SimpleName to hex string
+resource key SimpleName InfixExpression MethodInvocation SimpleName eos
+: missing eos after magic marker value x StringLiteral InfixExpression MethodInvocation SimpleName integer
+: missing eos after magic marker value x StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+: missing eos after magic marker value x StringLiteral InfixExpression MethodInvocation SimpleName eos
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName resource key
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : missing eos after magic marker value x
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName stream
+protected Modifier MethodDeclaration TypeParameter SimpleName s
+protected Modifier MethodDeclaration TypeParameter SimpleType SimpleName input stream
+protected Modifier MethodDeclaration SimpleType SimpleName s
+protected Modifier MethodDeclaration SimpleName validate stream magic marker
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName stream
+s SimpleName TypeParameter MethodDeclaration SimpleType SimpleName s
+s SimpleName TypeParameter MethodDeclaration SimpleName validate stream magic marker
+input stream SimpleName SimpleType TypeParameter MethodDeclaration SimpleName validate stream magic marker
+s SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName resource key
+s SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName stream
+s SimpleName TypeParameter MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SimpleType MethodDeclaration SimpleName validate stream magic marker
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource key
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stream
+s SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+validate stream magic marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate stream magic marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+validate stream magic marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+validate stream magic marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stream
+validate stream magic marker SimpleName MethodDeclaration SimpleType SimpleName io exception
+validate stream magic marker SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+validate stream magic marker SimpleName MethodDeclaration Block ReturnStatement SimpleName stream
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate stream magic marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate stream magic marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

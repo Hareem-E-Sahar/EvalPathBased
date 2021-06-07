@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get exit status
+public Modifier MethodDeclaration Block ReturnStatement SimpleName exit status
+integer SimpleName SimpleType MethodDeclaration SimpleName get exit status
+get exit status SimpleName MethodDeclaration Block ReturnStatement SimpleName exit status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get exit status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get exit status

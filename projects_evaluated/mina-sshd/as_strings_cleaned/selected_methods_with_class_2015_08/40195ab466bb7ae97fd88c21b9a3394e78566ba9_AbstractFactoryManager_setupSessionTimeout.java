@@ -1,0 +1,59 @@
+abstract session factory SimpleName SimpleType ParameterizedType WildcardType ?
+abstract session factory SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName abstract session factory
+final Modifier SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier SingleVariableDeclaration SimpleName session factory
+abstract session factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName session factory
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName session factory
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName session factory
+session timeout listener SimpleName Assignment MethodInvocation SimpleName create session timeout listener
+add session listener SimpleName MethodInvocation SimpleName session timeout listener
+get scheduled executor service SimpleName MethodInvocation MethodInvocation SimpleName schedule at fixed rate
+get scheduled executor service SimpleName MethodInvocation MethodInvocation SimpleName session timeout listener
+get scheduled executor service SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get scheduled executor service SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get scheduled executor service SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+schedule at fixed rate SimpleName MethodInvocation SimpleName session timeout listener
+schedule at fixed rate SimpleName MethodInvocation NumberLiteral empty
+schedule at fixed rate SimpleName MethodInvocation NumberLiteral empty
+schedule at fixed rate SimpleName MethodInvocation QualifiedName time unitseconds
+session timeout listener SimpleName MethodInvocation NumberLiteral empty
+session timeout listener SimpleName MethodInvocation NumberLiteral empty
+session timeout listener SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+timeout listener future SimpleName Assignment MethodInvocation MethodInvocation SimpleName get scheduled executor service
+timeout listener future SimpleName Assignment MethodInvocation SimpleName schedule at fixed rate
+timeout listener future SimpleName Assignment MethodInvocation SimpleName session timeout listener
+timeout listener future SimpleName Assignment MethodInvocation NumberLiteral empty
+timeout listener future SimpleName Assignment MethodInvocation NumberLiteral empty
+timeout listener future SimpleName Assignment MethodInvocation QualifiedName time unitseconds
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName setup session timeout
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session factory
+void PrimitiveType MethodDeclaration SimpleName setup session timeout
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session factory
+setup session timeout SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+setup session timeout SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+setup session timeout SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+setup session timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup session timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup session timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session factory

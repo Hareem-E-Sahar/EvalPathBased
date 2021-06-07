@@ -1,0 +1,43 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName runnable
+final Modifier SingleVariableDeclaration SimpleName run
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName run
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+run SimpleName MethodInvocation SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName operation complete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+close future SimpleName MethodInvocation SimpleName add listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on close
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName on close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName run
+on close SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+on close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+on close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName run

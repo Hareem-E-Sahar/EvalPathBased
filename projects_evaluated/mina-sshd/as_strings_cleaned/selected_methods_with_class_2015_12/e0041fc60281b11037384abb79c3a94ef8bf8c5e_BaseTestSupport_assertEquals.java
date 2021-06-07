@@ -1,0 +1,120 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName actual
+expected SimpleName InfixExpression SimpleName actual
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName has next
+message SimpleName InfixExpression StringLiteral next actual index
+message SimpleName InfixExpression SimpleName index
+message SimpleName InfixExpression StringLiteral ]
+next actual index StringLiteral InfixExpression SimpleName index
+next actual index StringLiteral InfixExpression StringLiteral ]
+index SimpleName InfixExpression StringLiteral ]
+actual SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation InfixExpression SimpleName message
+assert true SimpleName MethodInvocation InfixExpression StringLiteral next actual index
+assert true SimpleName MethodInvocation InfixExpression SimpleName index
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ]
+assert true SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName has next
+next actual index StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+next actual index StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName has next
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName has next
+] StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+] StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName has next
+expected SimpleName MethodInvocation SimpleName next
+exp value SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+exp value SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+actual SimpleName MethodInvocation SimpleName next
+act value SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual
+act value SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp value
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName act value
+exp value SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName act value
+message SimpleName InfixExpression StringLiteral iterator index
+message SimpleName InfixExpression SimpleName index
+message SimpleName InfixExpression StringLiteral ]
+iterator index StringLiteral InfixExpression SimpleName index
+iterator index StringLiteral InfixExpression StringLiteral ]
+index SimpleName InfixExpression StringLiteral ]
+assert equals SimpleName MethodInvocation InfixExpression SimpleName message
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral iterator index
+assert equals SimpleName MethodInvocation InfixExpression SimpleName index
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral ]
+assert equals SimpleName MethodInvocation SimpleName exp value
+assert equals SimpleName MethodInvocation SimpleName act value
+message SimpleName InfixExpression MethodInvocation SimpleName exp value
+iterator index StringLiteral InfixExpression MethodInvocation SimpleName exp value
+index SimpleName InfixExpression MethodInvocation SimpleName exp value
+] StringLiteral InfixExpression MethodInvocation SimpleName exp value
+message SimpleName InfixExpression MethodInvocation SimpleName act value
+iterator index StringLiteral InfixExpression MethodInvocation SimpleName act value
+index SimpleName InfixExpression MethodInvocation SimpleName act value
+] StringLiteral InfixExpression MethodInvocation SimpleName act value
+exp value SimpleName MethodInvocation SimpleName act value
+int PrimitiveType VariableDeclarationExpression ForStatement MethodInvocation SimpleName expected
+int PrimitiveType VariableDeclarationExpression ForStatement MethodInvocation SimpleName has next
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+expected SimpleName MethodInvocation ForStatement PostfixExpression SimpleName index
+has next SimpleName MethodInvocation ForStatement PostfixExpression SimpleName index
+message SimpleName InfixExpression StringLiteral nonemptyactual
+actual SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation InfixExpression SimpleName message
+assert false SimpleName MethodInvocation InfixExpression StringLiteral nonemptyactual
+assert false SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName actual
+message SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName has next
+nonemptyactual StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName actual
+nonemptyactual StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName has next
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert equals
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+t SimpleName TypeParameter MethodDeclaration PrimitiveType void
+t SimpleName TypeParameter MethodDeclaration SimpleName assert equals
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName message
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName expected
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName actual
+void PrimitiveType MethodDeclaration SimpleName assert equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName actual
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual

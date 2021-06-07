@@ -1,0 +1,20 @@
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName server key
+server key SimpleName FieldAccess Assignment SimpleName server key
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set server key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server key
+void PrimitiveType MethodDeclaration SimpleName set server key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server key
+set server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+set server key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set server key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set server key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key

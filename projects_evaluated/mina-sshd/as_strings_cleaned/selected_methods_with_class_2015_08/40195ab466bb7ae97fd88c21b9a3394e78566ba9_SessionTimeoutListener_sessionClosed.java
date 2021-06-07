@@ -1,0 +1,40 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName s
+sessions SimpleName MethodInvocation SimpleName remove
+sessions SimpleName MethodInvocation SimpleName s
+remove SimpleName MethodInvocation SimpleName s
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral session closed untracked
+log SimpleName MethodInvocation SimpleName s
+debug SimpleName MethodInvocation StringLiteral session closed untracked
+debug SimpleName MethodInvocation SimpleName s
+session closed untracked StringLiteral MethodInvocation SimpleName s
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral session closed not tracked
+log SimpleName MethodInvocation SimpleName s
+trace SimpleName MethodInvocation StringLiteral session closed not tracked
+trace SimpleName MethodInvocation SimpleName s
+session closed not tracked StringLiteral MethodInvocation SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session closed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session closed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session closed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session closed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

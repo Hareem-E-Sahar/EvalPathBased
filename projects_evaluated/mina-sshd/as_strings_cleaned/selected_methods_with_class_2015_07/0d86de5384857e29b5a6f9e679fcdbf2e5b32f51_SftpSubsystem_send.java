@@ -1,0 +1,76 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName available
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+buffer utils SimpleName MethodInvocation SimpleName write int
+buffer utils SimpleName MethodInvocation SimpleName out
+buffer utils SimpleName MethodInvocation SimpleName len
+buffer utils SimpleName MethodInvocation SimpleName work buf
+buffer utils SimpleName MethodInvocation NumberLiteral empty
+write int SimpleName MethodInvocation SimpleName out
+write int SimpleName MethodInvocation SimpleName len
+write int SimpleName MethodInvocation SimpleName work buf
+write int SimpleName MethodInvocation NumberLiteral empty
+write int SimpleName MethodInvocation QualifiedName work buflength
+out SimpleName MethodInvocation SimpleName len
+out SimpleName MethodInvocation SimpleName work buf
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation QualifiedName work buflength
+len SimpleName MethodInvocation SimpleName work buf
+len SimpleName MethodInvocation NumberLiteral empty
+len SimpleName MethodInvocation QualifiedName work buflength
+work buf SimpleName MethodInvocation NumberLiteral empty
+work buf SimpleName MethodInvocation QualifiedName work buflength
+empty NumberLiteral MethodInvocation QualifiedName work buflength
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out SimpleName MethodInvocation MethodInvocation SimpleName array
+out SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out SimpleName MethodInvocation MethodInvocation SimpleName rpos
+out SimpleName MethodInvocation SimpleName len
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName array
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName rpos
+write SimpleName MethodInvocation SimpleName len
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation SimpleName len
+array SimpleName MethodInvocation MethodInvocation SimpleName len
+buffer SimpleName MethodInvocation MethodInvocation SimpleName len
+rpos SimpleName MethodInvocation MethodInvocation SimpleName len
+out SimpleName MethodInvocation SimpleName flush
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName send
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+send SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+send SimpleName MethodDeclaration SimpleType SimpleName io exception
+send SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

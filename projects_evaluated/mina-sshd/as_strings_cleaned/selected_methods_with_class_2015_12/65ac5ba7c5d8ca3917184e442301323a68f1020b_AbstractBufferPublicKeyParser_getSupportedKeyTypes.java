@@ -1,0 +1,13 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get supported key types
+public Modifier MethodDeclaration Block ReturnStatement SimpleName supported
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported key types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported key types
+get supported key types SimpleName MethodDeclaration Block ReturnStatement SimpleName supported
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get supported key types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get supported key types

@@ -1,0 +1,30 @@
+get configuration property name SimpleName MethodInvocation SimpleName named provider property
+security provider choice SimpleName SuperMethodInvocation SimpleName is named provider used
+property resolver utils SimpleName MethodInvocation SimpleName get boolean property
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleName get configuration property name
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleName named provider property
+property resolver utils SimpleName MethodInvocation SuperMethodInvocation SimpleName security provider choice
+property resolver utils SimpleName MethodInvocation SuperMethodInvocation SimpleName is named provider used
+get boolean property SimpleName MethodInvocation MethodInvocation SimpleName get configuration property name
+get boolean property SimpleName MethodInvocation MethodInvocation SimpleName named provider property
+get boolean property SimpleName MethodInvocation SuperMethodInvocation SimpleName security provider choice
+get boolean property SimpleName MethodInvocation SuperMethodInvocation SimpleName is named provider used
+get configuration property name SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName security provider choice
+get configuration property name SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName is named provider used
+named provider property SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName security provider choice
+named provider property SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName is named provider used
+override SimpleName MarkerAnnotation MethodDeclaration Modifier default
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is named provider used
+default Modifier MethodDeclaration PrimitiveType boolean
+default Modifier MethodDeclaration SimpleName is named provider used
+boolean PrimitiveType MethodDeclaration SimpleName is named provider used
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is named provider used
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is named provider used

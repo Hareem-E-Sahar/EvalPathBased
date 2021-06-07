@@ -1,0 +1,46 @@
+int PrimitiveType SingleVariableDeclaration SimpleName code
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+lazy open codes map holderopen codes map QualifiedName MethodInvocation SimpleName get
+lazy open codes map holderopen codes map QualifiedName MethodInvocation SimpleName code
+get SimpleName MethodInvocation SimpleName code
+name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lazy open codes map holderopen codes map
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName code
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+syntheticaccess StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+syntheticaccess StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName code
+to string SimpleName MethodInvocation SimpleName code
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get open error code name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName code
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get open error code name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName code
+string SimpleName SimpleType MethodDeclaration SimpleName get open error code name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName code
+get open error code name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get open error code name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get open error code name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName code
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get open error code name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName code

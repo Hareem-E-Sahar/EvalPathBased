@@ -1,0 +1,122 @@
+open SimpleName MethodInvocation SimpleName get and set
+open SimpleName MethodInvocation BooleanLiteral false
+get and set SimpleName MethodInvocation BooleanLiteral false
+log SimpleName MethodInvocation SimpleName is debug enabled
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName log
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName log
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+handle SimpleName InfixExpression NumberLiteral empty
+inner finished SimpleName MethodInvocation SimpleName get
+apr library SimpleName MethodInvocation SimpleName get instance
+signal eos SimpleName MethodInvocation MethodInvocation SimpleName apr library
+signal eos SimpleName MethodInvocation MethodInvocation SimpleName get instance
+signal eos SimpleName MethodInvocation SimpleName debug enabled
+apr library SimpleName MethodInvocation MethodInvocation SimpleName debug enabled
+get instance SimpleName MethodInvocation MethodInvocation SimpleName debug enabled
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception signalling eos to the pipe socket StringLiteral InfixExpression SimpleName auth socket
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral exception signalling eos to the pipe socket
+log SimpleName MethodInvocation InfixExpression SimpleName auth socket
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral exception signalling eos to the pipe socket
+debug SimpleName MethodInvocation InfixExpression SimpleName auth socket
+debug SimpleName MethodInvocation SimpleName e
+exception signalling eos to the pipe socket StringLiteral InfixExpression MethodInvocation SimpleName e
+auth socket SimpleName InfixExpression MethodInvocation SimpleName e
+socket SimpleName MethodInvocation SimpleName close
+socket SimpleName MethodInvocation SimpleName handle
+close SimpleName MethodInvocation SimpleName handle
+close code SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+close code SimpleName VariableDeclarationFragment MethodInvocation SimpleName close
+close code SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName close code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName socket
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName close
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName handle
+close code SimpleName InfixExpression QualifiedName statusapr success
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral exceptions closing the pipe {}. apr error code {}
+log SimpleName MethodInvocation SimpleName auth socket
+log SimpleName MethodInvocation SimpleName close code
+warn SimpleName MethodInvocation StringLiteral exceptions closing the pipe {}. apr error code {}
+warn SimpleName MethodInvocation SimpleName auth socket
+warn SimpleName MethodInvocation SimpleName close code
+exceptions closing the pipe {}. apr error code {} StringLiteral MethodInvocation SimpleName auth socket
+exceptions closing the pipe {}. apr error code {} StringLiteral MethodInvocation SimpleName close code
+auth socket SimpleName MethodInvocation SimpleName close code
+remove socket file SimpleName MethodInvocation SimpleName auth socket
+remove socket file SimpleName MethodInvocation SimpleName debug enabled
+auth socket SimpleName MethodInvocation SimpleName debug enabled
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception deleting the pipe socket StringLiteral InfixExpression SimpleName auth socket
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral exception deleting the pipe socket
+log SimpleName MethodInvocation InfixExpression SimpleName auth socket
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral exception deleting the pipe socket
+debug SimpleName MethodInvocation InfixExpression SimpleName auth socket
+debug SimpleName MethodInvocation SimpleName e
+exception deleting the pipe socket StringLiteral InfixExpression MethodInvocation SimpleName e
+auth socket SimpleName InfixExpression MethodInvocation SimpleName e
+piper SimpleName MethodInvocation SimpleName is done
+piper SimpleName MethodInvocation SimpleName cancel
+piper SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+executor SimpleName VariableDeclarationFragment MethodInvocation SimpleName get executor service
+closeable executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName executor
+executor SimpleName MethodInvocation SimpleName is shutdown
+collection SimpleName SimpleType ParameterizedType WildcardType ?
+executor SimpleName MethodInvocation SimpleName shutdown now
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName executor
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName shutdown now
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName runners
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName runners
+size SimpleName MethodInvocation SimpleName runners
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName generic utils
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName size
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName runners
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral shut down runners count
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+debug SimpleName MethodInvocation InfixExpression StringLiteral shut down runners count
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName close
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

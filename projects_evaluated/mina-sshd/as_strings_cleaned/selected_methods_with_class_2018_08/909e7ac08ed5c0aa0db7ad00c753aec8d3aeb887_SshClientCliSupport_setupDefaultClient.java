@@ -1,0 +1,81 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName options
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stdout
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stderr
+string SimpleName SimpleType SingleVariableDeclaration SimpleName args
+ssh client SimpleName MethodInvocation SimpleName set up default client
+setup io service factory SimpleName MethodInvocation MethodInvocation SimpleName ssh client
+setup io service factory SimpleName MethodInvocation MethodInvocation SimpleName set up default client
+setup io service factory SimpleName MethodInvocation SimpleName options
+setup io service factory SimpleName MethodInvocation SimpleName stdout
+setup io service factory SimpleName MethodInvocation SimpleName stderr
+setup io service factory SimpleName MethodInvocation SimpleName args
+ssh client SimpleName MethodInvocation MethodInvocation SimpleName options
+set up default client SimpleName MethodInvocation MethodInvocation SimpleName options
+ssh client SimpleName MethodInvocation MethodInvocation SimpleName stdout
+set up default client SimpleName MethodInvocation MethodInvocation SimpleName stdout
+ssh client SimpleName MethodInvocation MethodInvocation SimpleName stderr
+set up default client SimpleName MethodInvocation MethodInvocation SimpleName stderr
+ssh client SimpleName MethodInvocation MethodInvocation SimpleName args
+set up default client SimpleName MethodInvocation MethodInvocation SimpleName args
+options SimpleName MethodInvocation SimpleName stdout
+options SimpleName MethodInvocation SimpleName stderr
+options SimpleName MethodInvocation SimpleName args
+stdout SimpleName MethodInvocation SimpleName stderr
+stdout SimpleName MethodInvocation SimpleName args
+stderr SimpleName MethodInvocation SimpleName args
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName ssh client
+public Modifier MethodDeclaration SimpleName setup default client
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdout
+static Modifier MethodDeclaration SimpleType SimpleName ssh client
+static Modifier MethodDeclaration SimpleName setup default client
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdout
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stderr
+ssh client SimpleName SimpleType MethodDeclaration SimpleName setup default client
+ssh client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+ssh client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stdout
+ssh client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stderr
+ssh client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stdout
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stderr
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+setup default client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+stderr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh client
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup default client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup default client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

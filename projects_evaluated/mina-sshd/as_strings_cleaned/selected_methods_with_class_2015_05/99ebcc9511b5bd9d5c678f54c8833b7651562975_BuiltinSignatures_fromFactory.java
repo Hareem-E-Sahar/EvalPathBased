@@ -1,0 +1,27 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName digest
+named factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factory
+digest SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factory
+factory SimpleName MethodInvocation SimpleName get name
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName factory
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName get name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName builtin signatures
+public Modifier MethodDeclaration SimpleName from factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+static Modifier MethodDeclaration SimpleType SimpleName builtin signatures
+static Modifier MethodDeclaration SimpleName from factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+builtin signatures SimpleName SimpleType MethodDeclaration SimpleName from factory
+builtin signatures SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName factory
+from factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin signatures
+public Modifier TypeDeclaration MethodDeclaration SimpleName from factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin signatures
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory

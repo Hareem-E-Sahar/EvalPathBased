@@ -1,0 +1,19 @@
+publickey authenticator SimpleName SimpleType SingleVariableDeclaration SimpleName auth
+pubkey authenticator SimpleName Assignment SimpleName auth
+public Modifier MethodDeclaration SimpleType SimpleName server builder
+public Modifier MethodDeclaration SimpleName publickey authenticator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName publickey authenticator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName auth
+server builder SimpleName SimpleType MethodDeclaration SimpleName publickey authenticator
+server builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName auth
+publickey authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName publickey authenticator
+publickey authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auth
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName server builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName publickey authenticator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName server builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName publickey authenticator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth

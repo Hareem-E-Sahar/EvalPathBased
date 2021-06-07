@@ -1,0 +1,20 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+file system SimpleName FieldAccess Assignment SimpleName fs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SimpleName set file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+set file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+set file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs

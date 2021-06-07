@@ -1,0 +1,31 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName foo
+foo SimpleName ArrayAccess NumberLiteral empty
+foo SimpleName ArrayAccess InfixExpression NumberLiteral x
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+foolength QualifiedName InfixExpression NumberLiteral empty
+put int SimpleName MethodInvocation InfixExpression QualifiedName foolength
+put int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression NumberLiteral empty
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression NumberLiteral empty
+put int SimpleName MethodInvocation QualifiedName foolength
+put raw bytes SimpleName MethodInvocation SimpleName foo
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put mp int
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName foo
+void PrimitiveType MethodDeclaration SimpleName put mp int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName foo
+put mp int SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+put mp int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName foo
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put mp int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName foo
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put mp int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName foo

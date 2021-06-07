@@ -1,0 +1,126 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName obj
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+private key encryption context SimpleName SimpleType CastExpression SimpleName obj
+other SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName private key encryption context
+other SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+private key encryption context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other
+other SimpleName MethodInvocation SimpleName get cipher name
+generic utils SimpleName MethodInvocation SimpleName safe compare
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName other
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+generic utils SimpleName MethodInvocation BooleanLiteral false
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName other
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+safe compare SimpleName MethodInvocation BooleanLiteral false
+get cipher name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get cipher name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cipher name
+get cipher name SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+other SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get cipher name SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+safe compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get cipher name SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get cipher name SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+false BooleanLiteral MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation SimpleName get cipher type
+generic utils SimpleName MethodInvocation SimpleName safe compare
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher type
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName other
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher type
+generic utils SimpleName MethodInvocation BooleanLiteral false
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get cipher type
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName other
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get cipher type
+safe compare SimpleName MethodInvocation BooleanLiteral false
+get cipher type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get cipher type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cipher type
+get cipher type SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+other SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get cipher type SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+safe compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get cipher type SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get cipher type SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+false BooleanLiteral MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation SimpleName get cipher mode
+generic utils SimpleName MethodInvocation SimpleName safe compare
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher mode
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName other
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher mode
+generic utils SimpleName MethodInvocation BooleanLiteral false
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get cipher mode
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName other
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get cipher mode
+safe compare SimpleName MethodInvocation BooleanLiteral false
+get cipher mode SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get cipher mode SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cipher mode
+get cipher mode SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+other SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get cipher mode SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+safe compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get cipher mode SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get cipher mode SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+false BooleanLiteral MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation SimpleName get password
+generic utils SimpleName MethodInvocation SimpleName safe compare
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get password
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName other
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get password
+generic utils SimpleName MethodInvocation BooleanLiteral true
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get password
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName other
+safe compare SimpleName MethodInvocation MethodInvocation SimpleName get password
+safe compare SimpleName MethodInvocation BooleanLiteral true
+get password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get password SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+other SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get password SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+safe compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get password SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get password SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+true BooleanLiteral MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation SimpleName get init vector
+arrays SimpleName MethodInvocation SimpleName equals
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get init vector
+arrays SimpleName MethodInvocation MethodInvocation SimpleName other
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get init vector
+equals SimpleName MethodInvocation MethodInvocation SimpleName get init vector
+equals SimpleName MethodInvocation MethodInvocation SimpleName other
+equals SimpleName MethodInvocation MethodInvocation SimpleName get init vector
+get init vector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get init vector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get init vector
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

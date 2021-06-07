@@ -1,0 +1,70 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName pattern
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+pattern SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName patterns
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName patterns
+is empty SimpleName MethodInvocation SimpleName patterns
+collections SimpleName MethodInvocation SimpleName empty list
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName pattern
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+pattern SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+patterns SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName patterns
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+char sequence SimpleName SimpleType SingleVariableDeclaration SimpleName p
+to pattern SimpleName MethodInvocation SimpleName p
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName to pattern
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName p
+validate utils SimpleName MethodInvocation StringLiteral no pattern for s
+validate utils SimpleName MethodInvocation SimpleName p
+check not null SimpleName MethodInvocation MethodInvocation SimpleName to pattern
+check not null SimpleName MethodInvocation MethodInvocation SimpleName p
+check not null SimpleName MethodInvocation StringLiteral no pattern for s
+check not null SimpleName MethodInvocation SimpleName p
+to pattern SimpleName MethodInvocation MethodInvocation StringLiteral no pattern for s
+p SimpleName MethodInvocation MethodInvocation StringLiteral no pattern for s
+to pattern SimpleName MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation SimpleName p
+no pattern for s StringLiteral MethodInvocation SimpleName p
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+result SimpleName MethodInvocation MethodInvocation SimpleName check not null
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to pattern
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+result SimpleName MethodInvocation MethodInvocation StringLiteral no pattern for s
+result SimpleName MethodInvocation MethodInvocation SimpleName p
+add SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+add SimpleName MethodInvocation MethodInvocation SimpleName check not null
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to pattern
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+add SimpleName MethodInvocation MethodInvocation StringLiteral no pattern for s
+add SimpleName MethodInvocation MethodInvocation SimpleName p
+char sequence SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName patterns
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName patterns
+patterns SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName parse patterns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName patterns
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName patterns
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName parse patterns
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName patterns
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName patterns
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse patterns
+parse patterns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName patterns
+parse patterns SimpleName MethodDeclaration Block EnhancedForStatement SimpleName patterns
+parse patterns SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse patterns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName patterns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse patterns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName patterns

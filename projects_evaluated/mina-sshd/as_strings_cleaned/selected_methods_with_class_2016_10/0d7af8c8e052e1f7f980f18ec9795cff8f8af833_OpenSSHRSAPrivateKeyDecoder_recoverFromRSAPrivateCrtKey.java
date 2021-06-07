@@ -1,0 +1,49 @@
+rsa private crt key SimpleName SimpleType SingleVariableDeclaration SimpleName rsa key
+rsa key SimpleName MethodInvocation SimpleName get prime p
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName rsa key
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prime p
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+rsa key SimpleName MethodInvocation SimpleName get prime q
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName rsa key
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prime q
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+p SimpleName MethodInvocation SimpleName multiply
+p SimpleName MethodInvocation SimpleName q
+multiply SimpleName MethodInvocation SimpleName q
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName multiply
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName q
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+rsa key SimpleName MethodInvocation SimpleName get public exponent
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName rsa key
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public exponent
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+rsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName n
+rsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName e
+n SimpleName ClassInstanceCreation SimpleName e
+generate public key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName rsa public key spec
+generate public key SimpleName MethodInvocation ClassInstanceCreation SimpleName n
+generate public key SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName rsa public key
+protected Modifier MethodDeclaration SimpleName recover from rsa private crt key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rsa private crt key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName rsa key
+protected Modifier MethodDeclaration SimpleType SimpleName general security exception
+rsa public key SimpleName SimpleType MethodDeclaration SimpleName recover from rsa private crt key
+rsa public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rsa key
+rsa public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+recover from rsa private crt key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rsa private crt key
+recover from rsa private crt key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rsa key
+recover from rsa private crt key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+rsa key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rsa public key
+public Modifier TypeDeclaration MethodDeclaration SimpleName recover from rsa private crt key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rsa key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rsa public key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName recover from rsa private crt key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rsa key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

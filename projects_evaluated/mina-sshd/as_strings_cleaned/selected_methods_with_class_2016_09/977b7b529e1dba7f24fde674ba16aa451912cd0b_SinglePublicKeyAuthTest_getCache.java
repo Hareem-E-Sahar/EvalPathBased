@@ -1,0 +1,16 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName public key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+public key SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName session
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName session
+public Modifier MethodDeclaration SimpleName get cache
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cache
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get cache
+session SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get cache
+get cache SimpleName MethodDeclaration Block ReturnStatement SimpleName cache
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cache
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cache

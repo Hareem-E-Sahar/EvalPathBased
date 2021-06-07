@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get language tag
+public Modifier MethodDeclaration Block ReturnStatement SimpleName language tag
+string SimpleName SimpleType MethodDeclaration SimpleName get language tag
+get language tag SimpleName MethodDeclaration Block ReturnStatement SimpleName language tag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get language tag
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get language tag

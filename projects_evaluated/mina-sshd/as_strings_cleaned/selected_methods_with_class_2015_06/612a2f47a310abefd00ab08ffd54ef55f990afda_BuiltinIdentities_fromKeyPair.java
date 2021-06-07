@@ -1,0 +1,53 @@
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+kp SimpleName MethodInvocation SimpleName get public
+from key SimpleName MethodInvocation MethodInvocation SimpleName kp
+from key SimpleName MethodInvocation MethodInvocation SimpleName get public
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName from key
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName kp
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get public
+builtin identities SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+kp SimpleName MethodInvocation SimpleName get private
+from key SimpleName MethodInvocation MethodInvocation SimpleName kp
+from key SimpleName MethodInvocation MethodInvocation SimpleName get private
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName from key
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName kp
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get private
+builtin identities SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName i
+objects SimpleName MethodInvocation SimpleName i
+equals SimpleName MethodInvocation SimpleName i
+equals SimpleName MethodInvocation SimpleName i
+i SimpleName MethodInvocation SimpleName i
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName builtin identities
+public Modifier MethodDeclaration SimpleName from key pair
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName kp
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName builtin identities
+static Modifier MethodDeclaration SimpleName from key pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName kp
+final Modifier MethodDeclaration SimpleType SimpleName builtin identities
+final Modifier MethodDeclaration SimpleName from key pair
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName kp
+builtin identities SimpleName SimpleType MethodDeclaration SimpleName from key pair
+builtin identities SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName kp
+from key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+from key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin identities
+public Modifier TypeDeclaration MethodDeclaration SimpleName from key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin identities
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp

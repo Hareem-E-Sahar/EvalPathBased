@@ -1,0 +1,61 @@
+closeable executor service SimpleName SimpleType SingleVariableDeclaration SimpleName executor service
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pool name
+int PrimitiveType SingleVariableDeclaration SimpleName n threads
+new fixed thread pool SimpleName MethodInvocation SimpleName pool name
+new fixed thread pool SimpleName MethodInvocation SimpleName n threads
+pool name SimpleName MethodInvocation SimpleName n threads
+executor service SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName new fixed thread pool
+executor service SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName pool name
+executor service SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName n threads
+executor service SimpleName InfixExpression ConditionalExpression SimpleName executor service
+new fixed thread pool SimpleName MethodInvocation ConditionalExpression SimpleName executor service
+pool name SimpleName MethodInvocation ConditionalExpression SimpleName executor service
+n threads SimpleName MethodInvocation ConditionalExpression SimpleName executor service
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName closeable executor service
+public Modifier MethodDeclaration SimpleName new fixed thread pool if
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable executor service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pool name
+static Modifier MethodDeclaration SimpleType SimpleName closeable executor service
+static Modifier MethodDeclaration SimpleName new fixed thread pool if
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable executor service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pool name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n threads
+closeable executor service SimpleName SimpleType MethodDeclaration SimpleName new fixed thread pool if
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName executor service
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pool name
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n threads
+new fixed thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable executor service
+new fixed thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleName executor service
+new fixed thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new fixed thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pool name
+new fixed thread pool if SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new fixed thread pool if SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n threads
+executor service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name
+executor service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+executor service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n threads
+pool name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+pool name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n threads
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable executor service
+public Modifier TypeDeclaration MethodDeclaration SimpleName new fixed thread pool if
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n threads
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable executor service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new fixed thread pool if
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n threads

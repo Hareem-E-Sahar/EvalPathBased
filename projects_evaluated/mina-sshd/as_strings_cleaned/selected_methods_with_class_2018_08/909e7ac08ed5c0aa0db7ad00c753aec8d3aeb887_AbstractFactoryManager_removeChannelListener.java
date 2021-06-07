@@ -1,0 +1,45 @@
+channel listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+channel listener SimpleName MethodInvocation SimpleName validate listener
+channel listener SimpleName MethodInvocation SimpleName listener
+validate listener SimpleName MethodInvocation SimpleName listener
+channel listeners SimpleName FieldAccess MethodInvocation SimpleName remove
+channel listeners SimpleName FieldAccess MethodInvocation SimpleName listener
+remove SimpleName MethodInvocation SimpleName listener
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral remove channel listener removed
+log SimpleName MethodInvocation SimpleName listener
+trace SimpleName MethodInvocation StringLiteral remove channel listener removed
+trace SimpleName MethodInvocation SimpleName listener
+remove channel listener removed StringLiteral MethodInvocation SimpleName listener
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral remove channel listener not registered
+log SimpleName MethodInvocation SimpleName listener
+trace SimpleName MethodInvocation StringLiteral remove channel listener not registered
+trace SimpleName MethodInvocation SimpleName listener
+remove channel listener not registered StringLiteral MethodInvocation SimpleName listener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove channel listener
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove channel listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName remove channel listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+remove channel listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel listener
+remove channel listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove channel listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove channel listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

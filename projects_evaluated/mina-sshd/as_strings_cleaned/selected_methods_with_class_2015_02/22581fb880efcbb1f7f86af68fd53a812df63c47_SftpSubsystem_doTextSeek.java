@@ -1,0 +1,68 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+buffer SimpleName MethodInvocation SimpleName get string
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+buffer SimpleName MethodInvocation SimpleName get long
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get long
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp extendedtextseek handle line
+log SimpleName MethodInvocation SimpleName handle
+log SimpleName MethodInvocation SimpleName line
+debug SimpleName MethodInvocation StringLiteral received ssh fxp extendedtextseek handle line
+debug SimpleName MethodInvocation SimpleName handle
+debug SimpleName MethodInvocation SimpleName line
+received ssh fxp extendedtextseek handle line StringLiteral MethodInvocation SimpleName handle
+received ssh fxp extendedtextseek handle line StringLiteral MethodInvocation SimpleName line
+handle SimpleName MethodInvocation SimpleName line
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx op unsupported
+send status SimpleName MethodInvocation StringLiteral command ssh fxp extendedtextseek is unsupported or not implemented
+id SimpleName MethodInvocation SimpleName ssh fx op unsupported
+id SimpleName MethodInvocation StringLiteral command ssh fxp extendedtextseek is unsupported or not implemented
+ssh fx op unsupported SimpleName MethodInvocation StringLiteral command ssh fxp extendedtextseek is unsupported or not implemented
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do text seek
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do text seek
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+do text seek SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do text seek SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do text seek SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do text seek SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do text seek SimpleName MethodDeclaration SimpleType SimpleName io exception
+do text seek SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do text seek
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do text seek
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

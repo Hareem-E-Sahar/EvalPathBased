@@ -1,0 +1,31 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName data
+validate utils SimpleName MethodInvocation StringLiteral no client kex seed
+check not null and not empty SimpleName MethodInvocation SimpleName data
+check not null and not empty SimpleName MethodInvocation StringLiteral no client kex seed
+data SimpleName MethodInvocation StringLiteral no client kex seed
+data SimpleName MethodInvocation SimpleName clone
+client kex data SimpleName Assignment MethodInvocation SimpleName data
+client kex data SimpleName Assignment MethodInvocation SimpleName clone
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set client kex data
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName kex state
+void PrimitiveType MethodDeclaration SimpleName set client kex data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName kex state
+set client kex data SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set client kex data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+set client kex data SimpleName MethodDeclaration Block SynchronizedStatement SimpleName kex state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set client kex data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set client kex data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

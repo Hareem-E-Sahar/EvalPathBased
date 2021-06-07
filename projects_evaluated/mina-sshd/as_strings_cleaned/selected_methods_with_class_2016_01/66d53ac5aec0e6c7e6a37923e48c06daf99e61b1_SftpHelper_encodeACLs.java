@@ -1,0 +1,82 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName version
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acl
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName acl
+validate utils SimpleName MethodInvocation StringLiteral no acl
+check not null SimpleName MethodInvocation SimpleName acl
+check not null SimpleName MethodInvocation StringLiteral no acl
+acl SimpleName MethodInvocation StringLiteral no acl
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation NumberLiteral empty
+put int SimpleName MethodInvocation NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName acl
+size SimpleName MethodInvocation SimpleName acl
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName acl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName acl
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName num entries
+put int SimpleName MethodInvocation SimpleName num entries
+num entries SimpleName InfixExpression NumberLiteral empty
+acl entry SimpleName SimpleType SingleVariableDeclaration SimpleName e
+write acl entry SimpleName MethodInvocation SimpleName buffer
+write acl entry SimpleName MethodInvocation SimpleName e
+buffer SimpleName MethodInvocation SimpleName e
+acl entry SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName acl
+e SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName acl
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName encode ac ls
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName encode ac ls
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl
+void PrimitiveType MethodDeclaration SimpleName encode ac ls
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName acl
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+encode ac ls SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+encode ac ls SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+encode ac ls SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+encode ac ls SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version
+encode ac ls SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl
+encode ac ls SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl
+version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode ac ls
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode ac ls
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl

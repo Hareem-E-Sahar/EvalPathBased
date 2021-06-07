@@ -1,0 +1,47 @@
+pending future SimpleName MethodInvocation SimpleName is done
+pending future SimpleName MethodInvocation SimpleName cancel
+pending future SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending future
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName cancel
+result SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending future
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cancel
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName is debug enabled
+destroy - cancel pending future StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral destroy - cancel pending future
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral destroy - cancel pending future
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+executors SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName shutdown executor
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+executors SimpleName MethodInvocation SimpleName shutdown now
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName shutdown now
+log SimpleName MethodInvocation SimpleName is debug enabled
+runners SimpleName MethodInvocation SimpleName size
+runners SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName runners
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName size
+destroy - shutdown executor service - runners count StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral destroy - shutdown executor service - runners count
+debug SimpleName MethodInvocation InfixExpression StringLiteral destroy - shutdown executor service - runners count
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral destroy - mark as closed
+debug SimpleName MethodInvocation StringLiteral destroy - mark as closed
+closed SimpleName Assignment BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName destroy
+void PrimitiveType MethodDeclaration SimpleName destroy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName destroy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName destroy

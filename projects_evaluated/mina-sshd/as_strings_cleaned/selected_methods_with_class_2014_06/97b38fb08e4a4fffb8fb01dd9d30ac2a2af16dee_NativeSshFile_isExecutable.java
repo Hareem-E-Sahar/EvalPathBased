@@ -1,0 +1,18 @@
+can execute method SimpleName MethodInvocation SimpleName invoke
+can execute method SimpleName MethodInvocation SimpleName file
+invoke SimpleName MethodInvocation SimpleName file
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName can execute method
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName invoke
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName file
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+file SimpleName MethodInvocation SimpleName is directory
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is executable
+boolean PrimitiveType MethodDeclaration SimpleName is executable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is executable
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is executable

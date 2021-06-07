@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+boolean PrimitiveType SingleVariableDeclaration SimpleName disabled
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral no provider name specified
+check not null and not empty SimpleName MethodInvocation SimpleName name
+check not null and not empty SimpleName MethodInvocation StringLiteral no provider name specified
+name SimpleName MethodInvocation StringLiteral no provider name specified
+apriori disabled providers SimpleName MethodInvocation SimpleName add
+apriori disabled providers SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+apriori disabled providers SimpleName MethodInvocation SimpleName remove
+apriori disabled providers SimpleName MethodInvocation SimpleName name
+remove SimpleName MethodInvocation SimpleName name
+apriori disabled providers SimpleName SynchronizedStatement Block IfStatement SimpleName disabled
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set a priori disabled provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName disabled
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set a priori disabled provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName disabled
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName apriori disabled providers
+void PrimitiveType MethodDeclaration SimpleName set a priori disabled provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName disabled
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName apriori disabled providers
+set a priori disabled provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set a priori disabled provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set a priori disabled provider SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set a priori disabled provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName disabled
+set a priori disabled provider SimpleName MethodDeclaration Block SynchronizedStatement SimpleName apriori disabled providers
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName disabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set a priori disabled provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName disabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set a priori disabled provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName disabled

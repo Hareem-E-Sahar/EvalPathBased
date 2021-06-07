@@ -1,0 +1,32 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName s
+protected Modifier MethodDeclaration SimpleName do create session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+abstract Modifier MethodDeclaration SimpleType SimpleName s
+abstract Modifier MethodDeclaration SimpleName do create session
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+abstract Modifier MethodDeclaration SimpleType SimpleName exception
+s SimpleName SimpleType MethodDeclaration SimpleName do create session
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName io session
+s SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+do create session SimpleName MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName do create session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do create session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

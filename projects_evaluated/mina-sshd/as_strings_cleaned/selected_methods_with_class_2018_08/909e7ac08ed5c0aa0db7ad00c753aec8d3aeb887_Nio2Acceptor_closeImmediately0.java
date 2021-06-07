@@ -1,0 +1,53 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName socket address
+bound addresses SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bound addresses
+log SimpleName MethodInvocation SimpleName is debug enabled
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName log
+debug enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName log
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is debug enabled
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+channels SimpleName MethodInvocation SimpleName remove
+channels SimpleName MethodInvocation SimpleName address
+remove SimpleName MethodInvocation SimpleName address
+async channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName channels
+async channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+async channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+asynchronous server socket channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName async channel
+async channel SimpleName MethodInvocation SimpleName close
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do close immediately closed channel
+log SimpleName MethodInvocation SimpleName address
+debug SimpleName MethodInvocation StringLiteral do close immediately closed channel
+debug SimpleName MethodInvocation SimpleName address
+do close immediately closed channel StringLiteral MethodInvocation SimpleName address
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception caught while closing channel of StringLiteral InfixExpression SimpleName address
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral exception caught while closing channel of
+log SimpleName MethodInvocation InfixExpression SimpleName address
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral exception caught while closing channel of
+debug SimpleName MethodInvocation InfixExpression SimpleName address
+debug SimpleName MethodInvocation SimpleName e
+exception caught while closing channel of StringLiteral InfixExpression MethodInvocation SimpleName e
+address SimpleName InfixExpression MethodInvocation SimpleName e
+socket address SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName bound addresses
+address SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bound addresses
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName bound addresses
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName close immediately
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName bound addresses
+void PrimitiveType MethodDeclaration SimpleName close immediately
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName bound addresses
+close immediately SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+close immediately SimpleName MethodDeclaration Block EnhancedForStatement SimpleName bound addresses
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close immediately

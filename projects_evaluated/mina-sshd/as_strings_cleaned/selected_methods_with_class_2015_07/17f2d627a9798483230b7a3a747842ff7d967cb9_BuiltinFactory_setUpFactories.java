@@ -1,0 +1,65 @@
+builtin factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName builtin factory
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName t
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore unsupported
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName preferred
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+preferred SimpleName MethodInvocation SimpleName size
+avail SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName preferred
+avail SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+e SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is supported
+ignore unsupported SimpleName InfixExpression MethodInvocation SimpleName f
+ignore unsupported SimpleName InfixExpression MethodInvocation SimpleName is supported
+avail SimpleName MethodInvocation SimpleName add
+avail SimpleName MethodInvocation SimpleName f
+add SimpleName MethodInvocation SimpleName f
+e SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName preferred
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName preferred
+preferred SimpleName EnhancedForStatement Block ReturnStatement SimpleName avail
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName set up factories
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName set up factories
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+t SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+t SimpleName TypeParameter MethodDeclaration SimpleName set up factories
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName preferred
+e SimpleName TypeParameter MethodDeclaration SimpleName set up factories
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName preferred
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName set up factories
+set up factories SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set up factories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+set up factories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName preferred
+set up factories SimpleName MethodDeclaration Block EnhancedForStatement SimpleName preferred
+set up factories SimpleName MethodDeclaration Block ReturnStatement SimpleName avail
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preferred
+ignore unsupported SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preferred
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up factories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preferred
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up factories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore unsupported
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preferred

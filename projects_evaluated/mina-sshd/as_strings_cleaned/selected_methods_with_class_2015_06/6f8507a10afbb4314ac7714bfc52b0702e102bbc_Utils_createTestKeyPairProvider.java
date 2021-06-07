@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+security utils SimpleName MethodInvocation SimpleName create file key pair provider
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName create file key pair provider
+abstract file key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+get file SimpleName MethodInvocation SimpleName resource
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation MethodInvocation SimpleName get file
+collections SimpleName MethodInvocation MethodInvocation SimpleName resource
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName get file
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName resource
+provider SimpleName MethodInvocation SimpleName set files
+provider SimpleName MethodInvocation MethodInvocation SimpleName collections
+provider SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file
+provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource
+set files SimpleName MethodInvocation MethodInvocation SimpleName collections
+set files SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file
+set files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName abstract file key pair provider
+public Modifier MethodDeclaration SimpleName create test key pair provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier MethodDeclaration Block ReturnStatement SimpleName provider
+static Modifier MethodDeclaration SimpleType SimpleName abstract file key pair provider
+static Modifier MethodDeclaration SimpleName create test key pair provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+static Modifier MethodDeclaration Block ReturnStatement SimpleName provider
+abstract file key pair provider SimpleName SimpleType MethodDeclaration SimpleName create test key pair provider
+abstract file key pair provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource
+create test key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create test key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+create test key pair provider SimpleName MethodDeclaration Block ReturnStatement SimpleName provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract file key pair provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName create test key pair provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract file key pair provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create test key pair provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource

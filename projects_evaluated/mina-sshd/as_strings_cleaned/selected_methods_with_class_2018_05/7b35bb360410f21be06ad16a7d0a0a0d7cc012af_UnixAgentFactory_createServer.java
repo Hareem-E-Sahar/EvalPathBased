@@ -1,0 +1,65 @@
+connection service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+service SimpleName MethodInvocation SimpleName get session
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName service
+objects SimpleName MethodInvocation MethodInvocation SimpleName get session
+objects SimpleName MethodInvocation StringLiteral no session
+require non null SimpleName MethodInvocation MethodInvocation SimpleName service
+require non null SimpleName MethodInvocation MethodInvocation SimpleName get session
+require non null SimpleName MethodInvocation StringLiteral no session
+service SimpleName MethodInvocation MethodInvocation StringLiteral no session
+get session SimpleName MethodInvocation MethodInvocation StringLiteral no session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName require non null
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName service
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+validate utils SimpleName MethodInvocation SimpleName check instance of
+validate utils SimpleName MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName server session
+validate utils SimpleName MethodInvocation StringLiteral the session used to create an agent server proxy must be a server session s
+validate utils SimpleName MethodInvocation SimpleName session
+check instance of SimpleName MethodInvocation SimpleName session
+check instance of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName server session
+check instance of SimpleName MethodInvocation StringLiteral the session used to create an agent server proxy must be a server session s
+check instance of SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation TypeLiteral SimpleType SimpleName server session
+session SimpleName MethodInvocation StringLiteral the session used to create an agent server proxy must be a server session s
+session SimpleName MethodInvocation SimpleName session
+server session SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral the session used to create an agent server proxy must be a server session s
+server session SimpleName SimpleType TypeLiteral MethodInvocation SimpleName session
+the session used to create an agent server proxy must be a server session s StringLiteral MethodInvocation SimpleName session
+agent server proxy SimpleName SimpleType ClassInstanceCreation SimpleName service
+agent server proxy SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new executor
+service SimpleName ClassInstanceCreation MethodInvocation SimpleName new executor
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ssh agent server
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create server
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName service
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName ssh agent server
+public Modifier MethodDeclaration SimpleName create server
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+ssh agent server SimpleName SimpleType MethodDeclaration SimpleName create server
+ssh agent server SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service
+ssh agent server SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection service
+create server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+create server SimpleName MethodDeclaration SimpleType SimpleName io exception
+service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent server
+public Modifier TypeDeclaration MethodDeclaration SimpleName create server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent server
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

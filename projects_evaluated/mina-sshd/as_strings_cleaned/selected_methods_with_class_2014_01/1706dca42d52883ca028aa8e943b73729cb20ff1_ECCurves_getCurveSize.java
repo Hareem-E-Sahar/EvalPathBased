@@ -1,0 +1,32 @@
+ec parameter spec SimpleName SimpleType SingleVariableDeclaration SimpleName params
+params SimpleName MethodInvocation SimpleName get curve
+params SimpleName MethodInvocation MethodInvocation SimpleName get field
+get curve SimpleName MethodInvocation MethodInvocation SimpleName get field
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get field size
+get curve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get field size
+get field SimpleName MethodInvocation MethodInvocation SimpleName get field size
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get curve size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get curve size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+int PrimitiveType MethodDeclaration SimpleName get curve size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName params
+get curve size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+get curve size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get curve size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get curve size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params

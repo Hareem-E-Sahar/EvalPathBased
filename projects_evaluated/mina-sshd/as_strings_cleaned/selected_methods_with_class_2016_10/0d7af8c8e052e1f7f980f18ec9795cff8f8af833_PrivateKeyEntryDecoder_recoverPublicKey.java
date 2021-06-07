@@ -1,0 +1,24 @@
+prv SimpleName SimpleType SingleVariableDeclaration SimpleName prv key
+default Modifier MethodDeclaration SimpleType SimpleName pub
+default Modifier MethodDeclaration SimpleName recover public key
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName prv
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName prv key
+default Modifier MethodDeclaration SimpleType SimpleName general security exception
+pub SimpleName SimpleType MethodDeclaration SimpleName recover public key
+pub SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prv key
+pub SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName prv
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prv key
+recover public key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+prv key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName pub
+public Modifier TypeDeclaration MethodDeclaration SimpleName recover public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prv key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName pub
+test SimpleName TypeDeclaration MethodDeclaration SimpleName recover public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prv key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

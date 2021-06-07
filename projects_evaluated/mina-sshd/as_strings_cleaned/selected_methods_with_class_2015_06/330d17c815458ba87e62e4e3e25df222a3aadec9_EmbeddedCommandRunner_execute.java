@@ -1,0 +1,372 @@
+final Modifier SingleVariableDeclaration ArrayType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName argv
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName argv
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName in
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName out
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName err
+clp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cmd line parser
+final Modifier VariableDeclarationStatement SimpleType SimpleName cmd line parser
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName clp
+cmd line parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clp
+err SimpleName InfixExpression ConditionalExpression SimpleName err
+err SimpleName InfixExpression ConditionalExpression QualifiedName systemerr
+err SimpleName ConditionalExpression QualifiedName systemerr
+print writer SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName err
+print writer SimpleName SimpleType ClassInstanceCreation ConditionalExpression QualifiedName systemerr
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName print writer
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation ConditionalExpression SimpleName err
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation ConditionalExpression QualifiedName systemerr
+print writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+clp SimpleName MethodInvocation SimpleName parse argument
+clp SimpleName MethodInvocation SimpleName argv
+parse argument SimpleName MethodInvocation SimpleName argv
+cmd line exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+argvlength QualifiedName InfixExpression NumberLiteral empty
+argvlength QualifiedName InfixExpression InfixExpression PrefixExpression SimpleName help
+empty NumberLiteral InfixExpression InfixExpression PrefixExpression SimpleName help
+cli text SimpleName MethodInvocation SimpleName get
+cli text SimpleName MethodInvocation FieldAccess SimpleName fatal error
+get SimpleName MethodInvocation FieldAccess SimpleName fatal error
+e SimpleName MethodInvocation SimpleName get message
+message format SimpleName MethodInvocation SimpleName format
+message format SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName cli text
+message format SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+message format SimpleName MethodInvocation FieldAccess SimpleName fatal error
+message format SimpleName MethodInvocation MethodInvocation SimpleName e
+message format SimpleName MethodInvocation MethodInvocation SimpleName get message
+format SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName cli text
+format SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+format SimpleName MethodInvocation FieldAccess SimpleName fatal error
+format SimpleName MethodInvocation MethodInvocation SimpleName e
+format SimpleName MethodInvocation MethodInvocation SimpleName get message
+fatal error SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName e
+fatal error SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get message
+writer SimpleName MethodInvocation SimpleName println
+writer SimpleName MethodInvocation MethodInvocation SimpleName message format
+writer SimpleName MethodInvocation MethodInvocation SimpleName format
+writer SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName fatal error
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+println SimpleName MethodInvocation MethodInvocation SimpleName message format
+println SimpleName MethodInvocation MethodInvocation SimpleName format
+println SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName fatal error
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+writer SimpleName MethodInvocation SimpleName flush
+die SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+argvlength QualifiedName InfixExpression NumberLiteral empty
+argvlength QualifiedName InfixExpression InfixExpression SimpleName help
+empty NumberLiteral InfixExpression InfixExpression SimpleName help
+cli text SimpleName MethodInvocation SimpleName get
+cli text SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+get SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+clp SimpleName MethodInvocation SimpleName print example
+clp SimpleName MethodInvocation QualifiedName example modeall
+clp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cli text
+clp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+clp SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+print example SimpleName MethodInvocation QualifiedName example modeall
+print example SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cli text
+print example SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+print example SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+example modeall QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cli text
+example modeall QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+example modeall QualifiedName MethodInvocation MethodInvocation SimpleName resource bundle
+ex SimpleName VariableDeclarationFragment MethodInvocation SimpleName clp
+ex SimpleName VariableDeclarationFragment MethodInvocation SimpleName print example
+ex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName example modeall
+ex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resource bundle
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clp
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName print example
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName example modeall
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ex
+jgit StringLiteral InfixExpression SimpleName ex
+jgit StringLiteral InfixExpression StringLiteral command arg ...]
+ex SimpleName InfixExpression StringLiteral command arg ...]
+writer SimpleName MethodInvocation SimpleName println
+writer SimpleName MethodInvocation InfixExpression StringLiteral jgit
+writer SimpleName MethodInvocation InfixExpression SimpleName ex
+writer SimpleName MethodInvocation InfixExpression StringLiteral command arg ...]
+println SimpleName MethodInvocation InfixExpression StringLiteral jgit
+println SimpleName MethodInvocation InfixExpression SimpleName ex
+println SimpleName MethodInvocation InfixExpression StringLiteral command arg ...]
+writer SimpleName MethodInvocation SimpleName println
+cli text SimpleName MethodInvocation SimpleName get
+cli text SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+get SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+clp SimpleName MethodInvocation SimpleName print usage
+clp SimpleName MethodInvocation SimpleName writer
+clp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cli text
+clp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+clp SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+print usage SimpleName MethodInvocation SimpleName writer
+print usage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cli text
+print usage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+print usage SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cli text
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+writer SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+writer SimpleName MethodInvocation SimpleName println
+writer SimpleName MethodInvocation SimpleName println
+cli text SimpleName MethodInvocation SimpleName get
+cli text SimpleName MethodInvocation FieldAccess SimpleName most commonly used commands are
+get SimpleName MethodInvocation FieldAccess SimpleName most commonly used commands are
+writer SimpleName MethodInvocation SimpleName println
+writer SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName cli text
+writer SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+writer SimpleName MethodInvocation FieldAccess SimpleName most commonly used commands are
+println SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName cli text
+println SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+println SimpleName MethodInvocation FieldAccess SimpleName most commonly used commands are
+command catalog SimpleName MethodInvocation SimpleName common
+common SimpleName VariableDeclarationFragment MethodInvocation SimpleName command catalog
+common SimpleName VariableDeclarationFragment MethodInvocation SimpleName common
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName command ref
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName common
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName command catalog
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName common
+width SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+final Modifier SingleVariableDeclaration SimpleType SimpleName command ref
+final Modifier SingleVariableDeclaration SimpleName c
+command ref SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get name
+c SimpleName MethodInvocation MethodInvocation SimpleName length
+get name SimpleName MethodInvocation MethodInvocation SimpleName length
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName width
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+math SimpleName MethodInvocation MethodInvocation SimpleName length
+max SimpleName MethodInvocation SimpleName width
+max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+max SimpleName MethodInvocation MethodInvocation SimpleName length
+width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+width SimpleName MethodInvocation MethodInvocation SimpleName length
+width SimpleName Assignment MethodInvocation SimpleName math
+width SimpleName Assignment MethodInvocation SimpleName max
+width SimpleName Assignment MethodInvocation SimpleName width
+width SimpleName Assignment MethodInvocation MethodInvocation SimpleName length
+final Modifier SingleVariableDeclaration EnhancedForStatement SimpleName common
+command ref SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName common
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName common
+common SimpleName EnhancedForStatement ExpressionStatement Assignment SimpleName width
+width SimpleName Assignment NumberLiteral empty
+final Modifier SingleVariableDeclaration SimpleType SimpleName command ref
+final Modifier SingleVariableDeclaration SimpleName c
+command ref SimpleName SimpleType SingleVariableDeclaration SimpleName c
+writer SimpleName MethodInvocation SimpleName print
+writer SimpleName MethodInvocation CharacterLiteral empty
+print SimpleName MethodInvocation CharacterLiteral empty
+c SimpleName MethodInvocation SimpleName get name
+writer SimpleName MethodInvocation SimpleName print
+writer SimpleName MethodInvocation MethodInvocation SimpleName c
+writer SimpleName MethodInvocation MethodInvocation SimpleName get name
+print SimpleName MethodInvocation MethodInvocation SimpleName c
+print SimpleName MethodInvocation MethodInvocation SimpleName get name
+c SimpleName MethodInvocation SimpleName get name
+c SimpleName MethodInvocation MethodInvocation SimpleName length
+get name SimpleName MethodInvocation MethodInvocation SimpleName length
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName c
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName length
+i SimpleName InfixExpression SimpleName width
+writer SimpleName MethodInvocation SimpleName print
+writer SimpleName MethodInvocation CharacterLiteral empty
+print SimpleName MethodInvocation CharacterLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName width
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+width SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+cli text SimpleName MethodInvocation SimpleName get
+cli text SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+get SimpleName MethodInvocation MethodInvocation SimpleName resource bundle
+c SimpleName MethodInvocation SimpleName get usage
+cli text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+resource bundle SimpleName MethodInvocation MethodInvocation SimpleName get string
+resource bundle SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+resource bundle SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get usage
+get string SimpleName MethodInvocation MethodInvocation SimpleName c
+get string SimpleName MethodInvocation MethodInvocation SimpleName get usage
+writer SimpleName MethodInvocation SimpleName print
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource bundle
+writer SimpleName MethodInvocation MethodInvocation SimpleName get string
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get usage
+print SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource bundle
+print SimpleName MethodInvocation MethodInvocation SimpleName get string
+print SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+print SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get usage
+writer SimpleName MethodInvocation SimpleName println
+final Modifier SingleVariableDeclaration EnhancedForStatement SimpleName common
+command ref SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName common
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName common
+writer SimpleName MethodInvocation SimpleName println
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName common
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName common
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName common
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName common
+common SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName common
+help SimpleName IfStatement IfStatement InfixExpression SimpleName subcommand
+writer SimpleName MethodInvocation SimpleName flush
+die SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName help
+file SimpleName SimpleType ClassInstanceCreation SimpleName root dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName gitdir
+root dir SimpleName ClassInstanceCreation SimpleName gitdir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get path
+root dir SimpleName ClassInstanceCreation MethodInvocation SimpleName get path
+gitdir SimpleName ClassInstanceCreation MethodInvocation SimpleName get path
+gitdir SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName root dir
+gitdir SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName gitdir
+gitdir SimpleName Assignment MethodInvocation SimpleName get path
+cmd SimpleName VariableDeclarationFragment SimpleName subcommand
+final Modifier VariableDeclarationStatement SimpleType SimpleName text builtin
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName subcommand
+text builtin SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+text builtin SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName subcommand
+set SimpleName MethodInvocation SimpleName cmd
+set SimpleName MethodInvocation StringLiteral ins
+set SimpleName MethodInvocation SimpleName in
+cmd SimpleName MethodInvocation StringLiteral ins
+cmd SimpleName MethodInvocation SimpleName in
+ins StringLiteral MethodInvocation SimpleName in
+set SimpleName MethodInvocation SimpleName cmd
+set SimpleName MethodInvocation StringLiteral outs
+set SimpleName MethodInvocation SimpleName out
+cmd SimpleName MethodInvocation StringLiteral outs
+cmd SimpleName MethodInvocation SimpleName out
+outs StringLiteral MethodInvocation SimpleName out
+set SimpleName MethodInvocation SimpleName cmd
+set SimpleName MethodInvocation StringLiteral errs
+set SimpleName MethodInvocation SimpleName err
+cmd SimpleName MethodInvocation StringLiteral errs
+cmd SimpleName MethodInvocation SimpleName err
+errs StringLiteral MethodInvocation SimpleName err
+call SimpleName MethodInvocation SimpleName cmd
+call SimpleName MethodInvocation StringLiteral requires repository
+cmd SimpleName MethodInvocation StringLiteral requires repository
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName call
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName cmd
+boolean SimpleName SimpleType CastExpression MethodInvocation StringLiteral requires repository
+success SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName boolean
+success SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName call
+success SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName cmd
+success SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral requires repository
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName success
+success SimpleName MethodInvocation SimpleName boolean value
+open git dir SimpleName MethodInvocation SimpleName gitdir
+open git dir SimpleName MethodInvocation ArrayInitializer SimpleName gitdir
+gitdir SimpleName MethodInvocation ArrayInitializer SimpleName gitdir
+call SimpleName MethodInvocation SimpleName cmd
+call SimpleName MethodInvocation StringLiteral init
+call SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName gitdir
+cmd SimpleName MethodInvocation StringLiteral init
+cmd SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName gitdir
+init StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName gitdir
+call SimpleName MethodInvocation SimpleName cmd
+call SimpleName MethodInvocation StringLiteral init
+call SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName gitdir
+cmd SimpleName MethodInvocation StringLiteral init
+cmd SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName gitdir
+init StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName gitdir
+arguments SimpleName MethodInvocation SimpleName size
+arguments SimpleName MethodInvocation SimpleName to array
+arguments SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName arguments
+arguments SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName arguments
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+cmd SimpleName MethodInvocation SimpleName execute
+cmd SimpleName MethodInvocation MethodInvocation SimpleName arguments
+cmd SimpleName MethodInvocation MethodInvocation SimpleName to array
+execute SimpleName MethodInvocation MethodInvocation SimpleName arguments
+execute SimpleName MethodInvocation MethodInvocation SimpleName to array
+get SimpleName MethodInvocation SimpleName cmd
+get SimpleName MethodInvocation StringLiteral outw
+cmd SimpleName MethodInvocation StringLiteral outw
+get SimpleName MethodInvocation SimpleName cmd
+get SimpleName MethodInvocation StringLiteral outw
+cmd SimpleName MethodInvocation StringLiteral outw
+throwing print writer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+throwing print writer SimpleName SimpleType CastExpression MethodInvocation SimpleName cmd
+throwing print writer SimpleName SimpleType CastExpression MethodInvocation StringLiteral outw
+get SimpleName MethodInvocation SimpleName cmd
+get SimpleName MethodInvocation StringLiteral errw
+cmd SimpleName MethodInvocation StringLiteral errw
+get SimpleName MethodInvocation SimpleName cmd
+get SimpleName MethodInvocation StringLiteral errw
+cmd SimpleName MethodInvocation StringLiteral errw
+throwing print writer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+throwing print writer SimpleName SimpleType CastExpression MethodInvocation SimpleName cmd
+throwing print writer SimpleName SimpleType CastExpression MethodInvocation StringLiteral errw
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName argv
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName argv
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName err
+execute SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName argv
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName err
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+argv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+argv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName err
+argv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName err
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+argv SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName err
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName err
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+err SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argv
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName err
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argv
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName err
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

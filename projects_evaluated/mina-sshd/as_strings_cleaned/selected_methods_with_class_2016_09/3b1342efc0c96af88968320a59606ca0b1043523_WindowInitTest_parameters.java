@@ -1,0 +1,106 @@
+name SimpleName MemberValuePair StringLiteral initialsize } packetsize }
+parameters SimpleName NormalAnnotation MemberValuePair SimpleName name
+parameters SimpleName NormalAnnotation MemberValuePair StringLiteral initialsize } packetsize }
+serial version uid SimpleName VariableDeclarationFragment NumberLiteral l
+private Modifier FieldDeclaration Modifier static
+private Modifier FieldDeclaration Modifier final
+private Modifier FieldDeclaration PrimitiveType long
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+private Modifier FieldDeclaration VariableDeclarationFragment NumberLiteral l
+static Modifier FieldDeclaration Modifier final
+static Modifier FieldDeclaration PrimitiveType long
+static Modifier FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+static Modifier FieldDeclaration VariableDeclarationFragment NumberLiteral l
+final Modifier FieldDeclaration PrimitiveType long
+final Modifier FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+final Modifier FieldDeclaration VariableDeclarationFragment NumberLiteral l
+long PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+long PrimitiveType FieldDeclaration VariableDeclarationFragment NumberLiteral l
+add test case SimpleName MethodInvocation QualifiedName bytemin value
+add test case SimpleName MethodInvocation QualifiedName factory managerdefault max packet size
+bytemin value QualifiedName MethodInvocation QualifiedName factory managerdefault max packet size
+buffer utilsmax uint value QualifiedName InfixExpression NumberLiteral l
+add test case SimpleName MethodInvocation InfixExpression QualifiedName buffer utilsmax uint value
+add test case SimpleName MethodInvocation InfixExpression NumberLiteral l
+add test case SimpleName MethodInvocation QualifiedName factory managerdefault max packet size
+buffer utilsmax uint value QualifiedName InfixExpression MethodInvocation QualifiedName factory managerdefault max packet size
+l NumberLiteral InfixExpression MethodInvocation QualifiedName factory managerdefault max packet size
+add test case SimpleName MethodInvocation QualifiedName factory managerdefault window size
+add test case SimpleName MethodInvocation NumberLiteral l
+factory managerdefault window size QualifiedName MethodInvocation NumberLiteral l
+add test case SimpleName MethodInvocation QualifiedName factory managerdefault window size
+add test case SimpleName MethodInvocation QualifiedName bytemin value
+factory managerdefault window size QualifiedName MethodInvocation QualifiedName bytemin value
+buffer utilsmax uint value QualifiedName InfixExpression NumberLiteral l
+add test case SimpleName MethodInvocation QualifiedName factory managerdefault window size
+add test case SimpleName MethodInvocation InfixExpression QualifiedName buffer utilsmax uint value
+add test case SimpleName MethodInvocation InfixExpression NumberLiteral l
+factory managerdefault window size QualifiedName MethodInvocation InfixExpression QualifiedName buffer utilsmax uint value
+factory managerdefault window size QualifiedName MethodInvocation InfixExpression NumberLiteral l
+factory managerdefault limit packet size QualifiedName InfixExpression NumberLiteral l
+add test case SimpleName MethodInvocation QualifiedName factory managerdefault window size
+add test case SimpleName MethodInvocation InfixExpression QualifiedName factory managerdefault limit packet size
+add test case SimpleName MethodInvocation InfixExpression NumberLiteral l
+factory managerdefault window size QualifiedName MethodInvocation InfixExpression QualifiedName factory managerdefault limit packet size
+factory managerdefault window size QualifiedName MethodInvocation InfixExpression NumberLiteral l
+long PrimitiveType SingleVariableDeclaration SimpleName initial size
+long PrimitiveType SingleVariableDeclaration SimpleName packet size
+initial size SimpleName ArrayInitializer SimpleName packet size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName initial size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName packet size
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add test case
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName initial size
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName packet size
+void PrimitiveType MethodDeclaration SimpleName add test case
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName initial size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName packet size
+add test case SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+add test case SimpleName MethodDeclaration SingleVariableDeclaration SimpleName initial size
+add test case SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+add test case SimpleName MethodDeclaration SingleVariableDeclaration SimpleName packet size
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+initial size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+initial size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName add test case
+static Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+static Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+static Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName add test case
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName add test case
+long PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+long PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+long PrimitiveType FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName add test case
+collections SimpleName MethodInvocation SimpleName unmodifiable list
+parameters SimpleName NormalAnnotation MethodDeclaration Modifier public
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+initialsize } packetsize } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+parameters SimpleName NormalAnnotation MethodDeclaration Modifier static
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier static
+initialsize } packetsize } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier static
+parameters SimpleName NormalAnnotation MethodDeclaration SimpleName parameters
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName parameters
+initialsize } packetsize } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName parameters
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName parameters
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName parameters
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parameters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName parameters
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parameters

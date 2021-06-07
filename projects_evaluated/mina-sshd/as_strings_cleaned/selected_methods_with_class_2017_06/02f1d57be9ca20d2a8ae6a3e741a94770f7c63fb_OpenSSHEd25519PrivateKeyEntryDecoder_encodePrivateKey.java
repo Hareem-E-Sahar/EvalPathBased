@@ -1,0 +1,118 @@
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+ed dsa private key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName key
+objects SimpleName MethodInvocation StringLiteral no private key provided
+require non null SimpleName MethodInvocation SimpleName key
+require non null SimpleName MethodInvocation StringLiteral no private key provided
+key SimpleName MethodInvocation StringLiteral no private key provided
+key SimpleName MethodInvocation SimpleName get seed
+sk SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+sk SimpleName VariableDeclarationFragment MethodInvocation SimpleName get seed
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName sk
+key SimpleName MethodInvocation SimpleName get abyte
+pk SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+pk SimpleName VariableDeclarationFragment MethodInvocation SimpleName get abyte
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pk
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName sk
+objects SimpleName MethodInvocation StringLiteral no seed
+require non null SimpleName MethodInvocation SimpleName sk
+require non null SimpleName MethodInvocation StringLiteral no seed
+sk SimpleName MethodInvocation StringLiteral no seed
+byte PrimitiveType ArrayType ArrayCreation SimpleName keypair size
+keypair SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+keypair SimpleName VariableDeclarationFragment ArrayCreation SimpleName keypair size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName keypair
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName sk
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName keypair
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName sk
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName keypair
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName sk size
+sk SimpleName MethodInvocation NumberLiteral empty
+sk SimpleName MethodInvocation SimpleName keypair
+sk SimpleName MethodInvocation NumberLiteral empty
+sk SimpleName MethodInvocation SimpleName sk size
+empty NumberLiteral MethodInvocation SimpleName keypair
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName sk size
+keypair SimpleName MethodInvocation NumberLiteral empty
+keypair SimpleName MethodInvocation SimpleName sk size
+empty NumberLiteral MethodInvocation SimpleName sk size
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName pk
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName keypair
+system SimpleName MethodInvocation SimpleName sk size
+arraycopy SimpleName MethodInvocation SimpleName pk
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName keypair
+arraycopy SimpleName MethodInvocation SimpleName sk size
+arraycopy SimpleName MethodInvocation SimpleName pk size
+pk SimpleName MethodInvocation NumberLiteral empty
+pk SimpleName MethodInvocation SimpleName keypair
+pk SimpleName MethodInvocation SimpleName sk size
+pk SimpleName MethodInvocation SimpleName pk size
+empty NumberLiteral MethodInvocation SimpleName keypair
+empty NumberLiteral MethodInvocation SimpleName sk size
+empty NumberLiteral MethodInvocation SimpleName pk size
+keypair SimpleName MethodInvocation SimpleName sk size
+keypair SimpleName MethodInvocation SimpleName pk size
+sk size SimpleName MethodInvocation SimpleName pk size
+key entry resolver SimpleName MethodInvocation SimpleName write rle bytes
+key entry resolver SimpleName MethodInvocation SimpleName s
+key entry resolver SimpleName MethodInvocation SimpleName pk
+write rle bytes SimpleName MethodInvocation SimpleName s
+write rle bytes SimpleName MethodInvocation SimpleName pk
+s SimpleName MethodInvocation SimpleName pk
+key entry resolver SimpleName MethodInvocation SimpleName write rle bytes
+key entry resolver SimpleName MethodInvocation SimpleName s
+key entry resolver SimpleName MethodInvocation SimpleName keypair
+write rle bytes SimpleName MethodInvocation SimpleName s
+write rle bytes SimpleName MethodInvocation SimpleName keypair
+s SimpleName MethodInvocation SimpleName keypair
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName encode private key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName encode private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ed dsa private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName encode private key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ed dsa private key
+encode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+encode private key SimpleName MethodDeclaration SimpleType SimpleName io exception
+encode private key SimpleName MethodDeclaration Block ReturnStatement QualifiedName key pair providerssh ed
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode private key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode private key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,36 @@
+map builder SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+map builder SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType SingleVariableDeclaration SimpleName k
+v SimpleName SimpleType SingleVariableDeclaration SimpleName v
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName k
+map SimpleName MethodInvocation SimpleName v
+put SimpleName MethodInvocation SimpleName k
+put SimpleName MethodInvocation SimpleName v
+k SimpleName MethodInvocation SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map builder
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName put
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+map builder SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName put
+k SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName put
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName put
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName v
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

@@ -1,0 +1,60 @@
+enum SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName enum
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName e
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+is empty SimpleName MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName empty set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+e SimpleName SimpleType SingleVariableDeclaration SimpleName v
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation SimpleName v
+of SimpleName MethodInvocation SimpleName v
+result SimpleName Assignment MethodInvocation SimpleName enum set
+result SimpleName Assignment MethodInvocation SimpleName of
+result SimpleName Assignment MethodInvocation SimpleName v
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName v
+add SimpleName MethodInvocation SimpleName v
+e SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+values SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+public Modifier MethodDeclaration SimpleName of
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+static Modifier MethodDeclaration SimpleName of
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+final Modifier MethodDeclaration TypeParameter SimpleName e
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+final Modifier MethodDeclaration SimpleName of
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+final Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+final Modifier MethodDeclaration Block ReturnStatement SimpleName result
+e SimpleName TypeParameter MethodDeclaration SimpleName of
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName values
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName of
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName of
+of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+of SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+of SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

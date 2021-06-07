@@ -1,0 +1,97 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName obj
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+asn object SimpleName SimpleType CastExpression SimpleName obj
+other SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName asn object
+other SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+asn object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other
+other SimpleName MethodInvocation SimpleName get obj class
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName get obj class
+objects SimpleName MethodInvocation MethodInvocation SimpleName other
+objects SimpleName MethodInvocation MethodInvocation SimpleName get obj class
+equals SimpleName MethodInvocation MethodInvocation SimpleName get obj class
+equals SimpleName MethodInvocation MethodInvocation SimpleName other
+equals SimpleName MethodInvocation MethodInvocation SimpleName get obj class
+get obj class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get obj class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get obj class
+other SimpleName MethodInvocation SimpleName get obj type
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName get obj type
+objects SimpleName MethodInvocation MethodInvocation SimpleName other
+objects SimpleName MethodInvocation MethodInvocation SimpleName get obj type
+equals SimpleName MethodInvocation MethodInvocation SimpleName get obj type
+equals SimpleName MethodInvocation MethodInvocation SimpleName other
+equals SimpleName MethodInvocation MethodInvocation SimpleName get obj type
+get obj type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get obj type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get obj type
+other SimpleName MethodInvocation SimpleName is constructed
+is constructed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName other
+is constructed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is constructed
+other SimpleName MethodInvocation SimpleName get length
+get length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName other
+get length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+other SimpleName MethodInvocation SimpleName get value
+number utils SimpleName MethodInvocation SimpleName diff offset
+number utils SimpleName MethodInvocation MethodInvocation SimpleName get value
+number utils SimpleName MethodInvocation NumberLiteral empty
+number utils SimpleName MethodInvocation MethodInvocation SimpleName other
+number utils SimpleName MethodInvocation MethodInvocation SimpleName get value
+number utils SimpleName MethodInvocation NumberLiteral empty
+diff offset SimpleName MethodInvocation MethodInvocation SimpleName get value
+diff offset SimpleName MethodInvocation NumberLiteral empty
+diff offset SimpleName MethodInvocation MethodInvocation SimpleName other
+diff offset SimpleName MethodInvocation MethodInvocation SimpleName get value
+diff offset SimpleName MethodInvocation NumberLiteral empty
+diff offset SimpleName MethodInvocation MethodInvocation SimpleName get length
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName other
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get value
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+other SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+number utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+diff offset SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

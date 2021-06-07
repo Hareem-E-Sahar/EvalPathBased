@@ -1,0 +1,123 @@
+rawtypes StringLiteral ArrayInitializer StringLiteral unchecked
+suppress warnings SimpleName SingleMemberAnnotation ArrayInitializer StringLiteral rawtypes
+suppress warnings SimpleName SingleMemberAnnotation ArrayInitializer StringLiteral unchecked
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default ssh future
+final Modifier VariableDeclarationStatement SimpleType SimpleName default ssh future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+default ssh future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+atomic integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+listener count SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+listener count SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName listener count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener count
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object
+final Modifier VariableDeclarationStatement SimpleType SimpleName object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+assert same SimpleName MethodInvocation StringLiteral mismatched future instance
+assert same SimpleName MethodInvocation SimpleName future
+assert same SimpleName MethodInvocation SimpleName f
+mismatched future instance StringLiteral MethodInvocation SimpleName future
+mismatched future instance StringLiteral MethodInvocation SimpleName f
+future SimpleName MethodInvocation SimpleName f
+future SimpleName MethodInvocation SimpleName get value
+assert same SimpleName MethodInvocation StringLiteral mismatched value object
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName future
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get value
+mismatched value object StringLiteral MethodInvocation SimpleName expected
+mismatched value object StringLiteral MethodInvocation MethodInvocation SimpleName future
+mismatched value object StringLiteral MethodInvocation MethodInvocation SimpleName get value
+expected SimpleName MethodInvocation MethodInvocation SimpleName future
+expected SimpleName MethodInvocation MethodInvocation SimpleName get value
+listener count SimpleName MethodInvocation SimpleName increment and get
+listener SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName f
+final Modifier VariableDeclarationStatement SimpleType SimpleName ssh future listener
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+ssh future listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+future SimpleName MethodInvocation SimpleName add listener
+future SimpleName MethodInvocation SimpleName listener
+add listener SimpleName MethodInvocation SimpleName listener
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation SimpleName expected
+set value SimpleName MethodInvocation SimpleName expected
+future SimpleName MethodInvocation SimpleName get num registered listeners
+assert equals SimpleName MethodInvocation StringLiteral mismatched number of registered listeners
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName future
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get num registered listeners
+mismatched number of registered listeners StringLiteral MethodInvocation NumberLiteral empty
+mismatched number of registered listeners StringLiteral MethodInvocation MethodInvocation SimpleName future
+mismatched number of registered listeners StringLiteral MethodInvocation MethodInvocation SimpleName get num registered listeners
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName future
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get num registered listeners
+listener count SimpleName MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation StringLiteral listener not invoked
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName listener count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+listener not invoked StringLiteral MethodInvocation NumberLiteral empty
+listener not invoked StringLiteral MethodInvocation MethodInvocation SimpleName listener count
+listener not invoked StringLiteral MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName listener count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get
+future SimpleName MethodInvocation SimpleName remove listener
+future SimpleName MethodInvocation SimpleName listener
+remove listener SimpleName MethodInvocation SimpleName listener
+future SimpleName MethodInvocation SimpleName get num registered listeners
+assert equals SimpleName MethodInvocation StringLiteral mismatched number of remaining listeners
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName future
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get num registered listeners
+mismatched number of remaining listeners StringLiteral MethodInvocation NumberLiteral empty
+mismatched number of remaining listeners StringLiteral MethodInvocation MethodInvocation SimpleName future
+mismatched number of remaining listeners StringLiteral MethodInvocation MethodInvocation SimpleName get num registered listeners
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName future
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get num registered listeners
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test listener not removed if result set
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+rawtypes StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+rawtypes StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration PrimitiveType void
+unchecked StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName test listener not removed if result set
+rawtypes StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName test listener not removed if result set
+unchecked StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName test listener not removed if result set
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test listener not removed if result set
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test listener not removed if result set
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test listener not removed if result set SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test listener not removed if result set SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test listener not removed if result set SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test listener not removed if result set SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test listener not removed if result set
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test listener not removed if result set

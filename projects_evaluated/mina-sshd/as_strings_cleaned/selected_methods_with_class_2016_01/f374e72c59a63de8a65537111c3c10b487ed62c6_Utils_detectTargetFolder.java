@@ -1,0 +1,48 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName anchor file
+file SimpleName VariableDeclarationFragment SimpleName anchor file
+file SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName file
+file SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName anchor file
+file SimpleName MethodInvocation SimpleName get parent file
+file SimpleName Assignment MethodInvocation SimpleName file
+file SimpleName Assignment MethodInvocation SimpleName get parent file
+file SimpleName MethodInvocation SimpleName is directory
+file SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+target folder names SimpleName MethodInvocation SimpleName contains
+target folder names SimpleName MethodInvocation SimpleName name
+contains SimpleName MethodInvocation SimpleName name
+file SimpleName InfixExpression ForStatement Assignment SimpleName file
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SimpleName detect target folder
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor file
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName detect target folder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor file
+final Modifier MethodDeclaration SimpleType SimpleName file
+final Modifier MethodDeclaration SimpleName detect target folder
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor file
+file SimpleName SimpleType MethodDeclaration SimpleName detect target folder
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anchor file
+detect target folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+detect target folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName detect target folder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor file
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName detect target folder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor file

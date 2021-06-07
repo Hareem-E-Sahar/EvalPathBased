@@ -1,0 +1,116 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName expected
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName read
+expectedlength QualifiedName InfixExpression QualifiedName readlength
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName expected
+to string SimpleName MethodInvocation SimpleName expected
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName read
+to string SimpleName MethodInvocation SimpleName read
+less bytes than expected StringLiteral InfixExpression MethodInvocation SimpleName arrays
+less bytes than expected StringLiteral InfixExpression MethodInvocation SimpleName to string
+less bytes than expected StringLiteral InfixExpression MethodInvocation SimpleName expected
+less bytes than expected StringLiteral InfixExpression StringLiteral but got
+less bytes than expected StringLiteral InfixExpression MethodInvocation SimpleName arrays
+less bytes than expected StringLiteral InfixExpression MethodInvocation SimpleName to string
+less bytes than expected StringLiteral InfixExpression MethodInvocation SimpleName read
+arrays SimpleName MethodInvocation InfixExpression StringLiteral but got
+to string SimpleName MethodInvocation InfixExpression StringLiteral but got
+expected SimpleName MethodInvocation InfixExpression StringLiteral but got
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName read
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName read
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName read
+but got StringLiteral InfixExpression MethodInvocation SimpleName arrays
+but got StringLiteral InfixExpression MethodInvocation SimpleName to string
+but got StringLiteral InfixExpression MethodInvocation SimpleName read
+fail SimpleName MethodInvocation InfixExpression StringLiteral less bytes than expected
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+fail SimpleName MethodInvocation InfixExpression StringLiteral but got
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName read
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName read
+arrays SimpleName MethodInvocation QualifiedName expectedlength
+copy of SimpleName MethodInvocation SimpleName read
+copy of SimpleName MethodInvocation QualifiedName expectedlength
+read SimpleName MethodInvocation QualifiedName expectedlength
+assert array equals SimpleName MethodInvocation StringLiteral mismatched stream content
+assert array equals SimpleName MethodInvocation SimpleName expected
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName arrays
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName copy of
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName read
+assert array equals SimpleName MethodInvocation MethodInvocation QualifiedName expectedlength
+mismatched stream content StringLiteral MethodInvocation SimpleName expected
+mismatched stream content StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+mismatched stream content StringLiteral MethodInvocation MethodInvocation SimpleName copy of
+mismatched stream content StringLiteral MethodInvocation MethodInvocation SimpleName read
+mismatched stream content StringLiteral MethodInvocation MethodInvocation QualifiedName expectedlength
+expected SimpleName MethodInvocation MethodInvocation SimpleName arrays
+expected SimpleName MethodInvocation MethodInvocation SimpleName copy of
+expected SimpleName MethodInvocation MethodInvocation SimpleName read
+expected SimpleName MethodInvocation MethodInvocation QualifiedName expectedlength
+i SimpleName VariableDeclarationFragment QualifiedName expectedlength
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName expectedlength
+i SimpleName InfixExpression QualifiedName readlength
+nonzero value at position StringLiteral InfixExpression SimpleName i
+read SimpleName ArrayAccess SimpleName i
+read SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression StringLiteral nonzero value at position
+assert true SimpleName MethodInvocation InfixExpression SimpleName i
+assert true SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName read
+assert true SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName i
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+nonzero value at position StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName readlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+readlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert stream equals
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName read
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert stream equals
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName read
+void PrimitiveType MethodDeclaration SimpleName assert stream equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName read
+assert stream equals SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+assert stream equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert stream equals SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+assert stream equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName read
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert stream equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert stream equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read

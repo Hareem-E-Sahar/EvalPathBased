@@ -1,0 +1,72 @@
+v SimpleName TypeParameter SimpleType SimpleName file attribute view
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+unroot SimpleName MethodInvocation SimpleName path
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+provider SimpleName MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName get file attribute view
+r SimpleName MethodInvocation MethodInvocation SimpleName get file attribute view
+provider SimpleName MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName type
+r SimpleName MethodInvocation MethodInvocation SimpleName type
+provider SimpleName MethodInvocation MethodInvocation SimpleName options
+r SimpleName MethodInvocation MethodInvocation SimpleName options
+get file attribute view SimpleName MethodInvocation SimpleName r
+get file attribute view SimpleName MethodInvocation SimpleName type
+get file attribute view SimpleName MethodInvocation SimpleName options
+r SimpleName MethodInvocation SimpleName type
+r SimpleName MethodInvocation SimpleName options
+type SimpleName MethodInvocation SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName v
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName v
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get file attribute view
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName file attribute view
+public Modifier MethodDeclaration SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName get file attribute view
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+v SimpleName TypeParameter MethodDeclaration SimpleType SimpleName v
+v SimpleName TypeParameter MethodDeclaration SimpleName get file attribute view
+file attribute view SimpleName SimpleType TypeParameter MethodDeclaration SimpleName get file attribute view
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName path
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName type
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName options
+v SimpleName SimpleType MethodDeclaration SimpleName get file attribute view
+v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+get file attribute view SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get file attribute view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+get file attribute view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+get file attribute view SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+get file attribute view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file attribute view
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file attribute view
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

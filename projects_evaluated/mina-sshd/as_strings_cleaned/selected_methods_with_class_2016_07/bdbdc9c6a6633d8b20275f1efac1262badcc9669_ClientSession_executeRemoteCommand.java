@@ -1,0 +1,124 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName stderr
+charset SimpleName SimpleType SingleVariableDeclaration SimpleName charset
+charset SimpleName Assignment QualifiedName standard charsetsus ascii
+byte array output stream SimpleName SimpleType ClassInstanceCreation QualifiedName bytemax value
+channel out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+channel out SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName bytemax value
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel out
+no close output stream SimpleName SimpleType ClassInstanceCreation SimpleName stderr
+channel err SimpleName VariableDeclarationFragment ConditionalExpression ClassInstanceCreation SimpleName stderr
+output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel err
+create exec channel SimpleName MethodInvocation SimpleName command
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName create exec channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName command
+client channel SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName set out
+channel SimpleName MethodInvocation SimpleName channel out
+set out SimpleName MethodInvocation SimpleName channel out
+channel SimpleName MethodInvocation SimpleName set err
+channel SimpleName MethodInvocation SimpleName channel err
+set err SimpleName MethodInvocation SimpleName channel err
+channel SimpleName MethodInvocation SimpleName open
+channel SimpleName MethodInvocation MethodInvocation SimpleName await
+open SimpleName MethodInvocation MethodInvocation SimpleName await
+channel SimpleName MethodInvocation SimpleName get inverted in
+inverted stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+inverted stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inverted in
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inverted stream
+command SimpleName MethodInvocation SimpleName get bytes
+command SimpleName MethodInvocation SimpleName charset
+get bytes SimpleName MethodInvocation SimpleName charset
+inverted stream SimpleName MethodInvocation SimpleName write
+inverted stream SimpleName MethodInvocation MethodInvocation SimpleName command
+inverted stream SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+inverted stream SimpleName MethodInvocation MethodInvocation SimpleName charset
+write SimpleName MethodInvocation MethodInvocation SimpleName command
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation SimpleName charset
+inverted stream SimpleName MethodInvocation SimpleName flush
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName client channel event
+channel SimpleName MethodInvocation SimpleName wait for
+channel SimpleName MethodInvocation SimpleName remote command wait events
+channel SimpleName MethodInvocation NumberLiteral l
+wait for SimpleName MethodInvocation SimpleName remote command wait events
+wait for SimpleName MethodInvocation NumberLiteral l
+remote command wait events SimpleName MethodInvocation NumberLiteral l
+wait mask SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+wait mask SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for
+wait mask SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote command wait events
+wait mask SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+wait mask SimpleName MethodInvocation SimpleName contains
+wait mask SimpleName MethodInvocation QualifiedName client channel eventtimeout
+contains SimpleName MethodInvocation QualifiedName client channel eventtimeout
+failed to retrieve command result in time StringLiteral InfixExpression SimpleName command
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to retrieve command result in time
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName command
+channel SimpleName MethodInvocation SimpleName get exit status
+exit status SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+exit status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get exit status
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exit status
+exit status SimpleName MethodInvocation SimpleName int value
+exit status SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+remote command failed ( StringLiteral InfixExpression SimpleName exit status
+remote command failed ( StringLiteral InfixExpression StringLiteral ):
+remote command failed ( StringLiteral InfixExpression SimpleName command
+exit status SimpleName InfixExpression StringLiteral ):
+exit status SimpleName InfixExpression SimpleName command
+): StringLiteral InfixExpression SimpleName command
+exit status SimpleName MethodInvocation SimpleName to string
+server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName exit status
+server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+remote exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral remote command failed (
+remote exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName exit status
+remote exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ):
+remote exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName command
+channel out SimpleName MethodInvocation SimpleName to byte array
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel out
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName to byte array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+string SimpleName SimpleType ClassInstanceCreation SimpleName response
+string SimpleName SimpleType ClassInstanceCreation SimpleName charset
+response SimpleName ClassInstanceCreation SimpleName charset
+default Modifier MethodDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SimpleName execute remote command
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName stderr
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName charset
+string SimpleName SimpleType MethodDeclaration SimpleName execute remote command
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName command
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stderr
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName charset
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+execute remote command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute remote command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+execute remote command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+execute remote command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stderr
+execute remote command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName charset
+execute remote command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charset
+execute remote command SimpleName MethodDeclaration SimpleType SimpleName io exception
+command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset
+command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+stderr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset
+stderr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+charset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute remote command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute remote command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charset
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

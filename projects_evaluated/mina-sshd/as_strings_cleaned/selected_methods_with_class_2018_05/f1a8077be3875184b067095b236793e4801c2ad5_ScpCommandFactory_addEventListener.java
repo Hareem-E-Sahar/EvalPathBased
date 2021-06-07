@@ -1,0 +1,23 @@
+scp transfer event listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral no listener instance
+listeners SimpleName MethodInvocation SimpleName add
+listeners SimpleName MethodInvocation SimpleName listener
+add SimpleName MethodInvocation SimpleName listener
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName add event listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp transfer event listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+boolean PrimitiveType MethodDeclaration SimpleName add event listener
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp transfer event listener
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+add event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp transfer event listener
+add event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName add event listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add event listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

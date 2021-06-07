@@ -1,0 +1,77 @@
+assert path equals SimpleName MethodInvocation StringLiteral /
+assert path equals SimpleName MethodInvocation StringLiteral /
+/ StringLiteral MethodInvocation StringLiteral /
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral foo
+foo StringLiteral MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral /
+assert path equals SimpleName MethodInvocation StringLiteral foo
+foo StringLiteral MethodInvocation StringLiteral /
+foo StringLiteral MethodInvocation StringLiteral foo
+/ StringLiteral MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+foobar StringLiteral MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral /
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral bar
+foobar StringLiteral MethodInvocation StringLiteral /
+foobar StringLiteral MethodInvocation StringLiteral foo
+foobar StringLiteral MethodInvocation StringLiteral bar
+/ StringLiteral MethodInvocation StringLiteral foo
+/ StringLiteral MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral bar
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral bar
+foobar StringLiteral MethodInvocation StringLiteral foo
+foobar StringLiteral MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral bar
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral /
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+foobar StringLiteral MethodInvocation StringLiteral /
+foobar StringLiteral MethodInvocation StringLiteral foobar
+/ StringLiteral MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral foobarbaz
+assert path equals SimpleName MethodInvocation StringLiteral foobarbaz
+foobarbaz StringLiteral MethodInvocation StringLiteral foobarbaz
+assert path equals SimpleName MethodInvocation StringLiteral foobarbaz
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral bar
+assert path equals SimpleName MethodInvocation StringLiteral baz
+foobarbaz StringLiteral MethodInvocation StringLiteral foo
+foobarbaz StringLiteral MethodInvocation StringLiteral bar
+foobarbaz StringLiteral MethodInvocation StringLiteral baz
+foo StringLiteral MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral baz
+bar StringLiteral MethodInvocation StringLiteral baz
+assert path equals SimpleName MethodInvocation StringLiteral foobarbaz
+assert path equals SimpleName MethodInvocation StringLiteral foobar
+assert path equals SimpleName MethodInvocation StringLiteral baz
+foobarbaz StringLiteral MethodInvocation StringLiteral foobar
+foobarbaz StringLiteral MethodInvocation StringLiteral baz
+foobar StringLiteral MethodInvocation StringLiteral baz
+assert path equals SimpleName MethodInvocation StringLiteral foobarbaz
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation StringLiteral barbaz
+foobarbaz StringLiteral MethodInvocation StringLiteral foo
+foobarbaz StringLiteral MethodInvocation StringLiteral barbaz
+foo StringLiteral MethodInvocation StringLiteral barbaz
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName testbasic path parsing
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName testbasic path parsing
+void PrimitiveType MethodDeclaration SimpleName testbasic path parsing
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName testbasic path parsing
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName testbasic path parsing

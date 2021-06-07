@@ -1,0 +1,145 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName path
+exists SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName is directory
+files SimpleName MethodInvocation SimpleName path
+is directory SimpleName MethodInvocation SimpleName path
+directory stream SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+files SimpleName MethodInvocation SimpleName new directory stream
+files SimpleName MethodInvocation SimpleName path
+new directory stream SimpleName MethodInvocation SimpleName path
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName new directory stream
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType SingleVariableDeclaration SimpleName child
+delete recursive SimpleName MethodInvocation SimpleName child
+delete recursive SimpleName MethodInvocation SimpleName options
+child SimpleName MethodInvocation SimpleName options
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ds
+child SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ds
+files SimpleName MethodInvocation SimpleName is writable
+files SimpleName MethodInvocation SimpleName path
+is writable SimpleName MethodInvocation SimpleName path
+path SimpleName MethodInvocation SimpleName to file
+path SimpleName MethodInvocation MethodInvocation SimpleName set writable
+to file SimpleName MethodInvocation MethodInvocation SimpleName set writable
+path SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to file SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+path SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+to file SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+set writable SimpleName MethodInvocation BooleanLiteral true
+set writable SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+files SimpleName MethodInvocation SimpleName delete
+files SimpleName MethodInvocation SimpleName path
+delete SimpleName MethodInvocation SimpleName path
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+systemerr QualifiedName MethodInvocation SimpleName append
+systemerr QualifiedName MethodInvocation StringLiteral failed (
+append SimpleName MethodInvocation StringLiteral failed (
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+systemerr QualifiedName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+failed ( StringLiteral MethodInvocation MethodInvocation SimpleName append
+systemerr QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+failed ( StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+append SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+systemerr QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+failed ( StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+systemerr QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral )
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral )
+failed ( StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral )
+append SimpleName MethodInvocation MethodInvocation StringLiteral )
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral )
+append SimpleName MethodInvocation StringLiteral )
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+) StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral to delete
+append SimpleName MethodInvocation MethodInvocation StringLiteral to delete
+) StringLiteral MethodInvocation MethodInvocation StringLiteral to delete
+append SimpleName MethodInvocation StringLiteral to delete
+path SimpleName MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+) StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+to delete StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to delete StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName path
+to delete StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName path
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+to delete StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+to delete StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation MethodInvocation StringLiteral :
+path SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation StringLiteral :
+e SimpleName MethodInvocation SimpleName get message
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName println
+append SimpleName MethodInvocation MethodInvocation SimpleName println
+: StringLiteral MethodInvocation MethodInvocation SimpleName println
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+println SimpleName MethodInvocation MethodInvocation SimpleName e
+println SimpleName MethodInvocation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName delete recursive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName delete recursive
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SimpleType MethodDeclaration SimpleName delete recursive
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+delete recursive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+delete recursive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+delete recursive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+delete recursive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+delete recursive SimpleName MethodDeclaration SimpleType SimpleName io exception
+delete recursive SimpleName MethodDeclaration Block ReturnStatement SimpleName path
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete recursive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete recursive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

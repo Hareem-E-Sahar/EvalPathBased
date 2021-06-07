@@ -1,0 +1,133 @@
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current test name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+host config entry SimpleName SimpleType ClassInstanceCreation SimpleName host
+host config entry SimpleName SimpleType ClassInstanceCreation SimpleName host
+host config entry SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+host config entry SimpleName SimpleType ClassInstanceCreation SimpleName host
+host SimpleName ClassInstanceCreation SimpleName host
+host SimpleName ClassInstanceCreation NumberLiteral empty
+host SimpleName ClassInstanceCreation SimpleName host
+host SimpleName ClassInstanceCreation NumberLiteral empty
+host SimpleName ClassInstanceCreation SimpleName host
+empty NumberLiteral ClassInstanceCreation SimpleName host
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host config entry
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName host
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName host
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName host
+host config entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host config entry
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+host config entry SimpleName SimpleType ClassInstanceCreation QualifiedName host patterns holderall hosts pattern
+host config entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get simple name
+host config entry SimpleName SimpleType ClassInstanceCreation QualifiedName shortmax value
+host config entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get simple name
+host patterns holderall hosts pattern QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+host patterns holderall hosts pattern QualifiedName ClassInstanceCreation MethodInvocation SimpleName get simple name
+host patterns holderall hosts pattern QualifiedName ClassInstanceCreation QualifiedName shortmax value
+host patterns holderall hosts pattern QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+host patterns holderall hosts pattern QualifiedName ClassInstanceCreation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName shortmax value
+get simple name SimpleName MethodInvocation ClassInstanceCreation QualifiedName shortmax value
+get simple name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+shortmax value QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+shortmax value QualifiedName ClassInstanceCreation MethodInvocation SimpleName get simple name
+matches SimpleName MethodInvocation SimpleName add
+matches SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host config entry
+matches SimpleName MethodInvocation ClassInstanceCreation QualifiedName host patterns holderall hosts pattern
+matches SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+matches SimpleName MethodInvocation ClassInstanceCreation QualifiedName shortmax value
+matches SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host config entry
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName host patterns holderall hosts pattern
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName shortmax value
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation QualifiedName host patterns holderwildcard pattern
+value of SimpleName MethodInvocation QualifiedName host patterns holderwildcard pattern
+host SimpleName InfixExpression MethodInvocation SimpleName string
+host SimpleName InfixExpression MethodInvocation SimpleName value of
+host SimpleName InfixExpression MethodInvocation QualifiedName host patterns holderwildcard pattern
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+host config entry SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName host
+host config entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get simple name
+host config entry SimpleName SimpleType ClassInstanceCreation QualifiedName bytemax value
+host config entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get simple name
+host SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get simple name
+host SimpleName InfixExpression ClassInstanceCreation QualifiedName bytemax value
+string SimpleName MethodInvocation InfixExpression ClassInstanceCreation QualifiedName bytemax value
+value of SimpleName MethodInvocation InfixExpression ClassInstanceCreation QualifiedName bytemax value
+host patterns holderwildcard pattern QualifiedName MethodInvocation InfixExpression ClassInstanceCreation QualifiedName bytemax value
+host SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+get simple name SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+get simple name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+bytemax value QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+bytemax value QualifiedName ClassInstanceCreation MethodInvocation SimpleName get simple name
+matches SimpleName MethodInvocation SimpleName add
+matches SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host config entry
+matches SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName host
+matches SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+matches SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+matches SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host config entry
+add SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName host
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+matches SimpleName MethodInvocation SimpleName add
+matches SimpleName MethodInvocation SimpleName expected
+add SimpleName MethodInvocation SimpleName expected
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+matches SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName matches
+index SimpleName InfixExpression MethodInvocation SimpleName size
+host config entry SimpleName MethodInvocation SimpleName find best match
+host config entry SimpleName MethodInvocation SimpleName matches
+find best match SimpleName MethodInvocation SimpleName matches
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName host config entry
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName find best match
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName matches
+host config entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched best match for StringLiteral InfixExpression SimpleName matches
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched best match for
+assert same SimpleName MethodInvocation InfixExpression SimpleName matches
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched best match for StringLiteral InfixExpression MethodInvocation SimpleName expected
+matches SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched best match for StringLiteral InfixExpression MethodInvocation SimpleName actual
+matches SimpleName InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+collections SimpleName MethodInvocation SimpleName shuffle
+collections SimpleName MethodInvocation SimpleName matches
+shuffle SimpleName MethodInvocation SimpleName matches
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test find best match
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test find best match
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test find best match
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test find best match SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test find best match
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test find best match

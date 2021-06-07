@@ -1,0 +1,20 @@
+asn class SimpleName SimpleType SingleVariableDeclaration SimpleName c
+obj class SimpleName Assignment SimpleName c
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set obj class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asn class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SimpleName set obj class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asn class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+set obj class SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asn class
+set obj class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set obj class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set obj class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

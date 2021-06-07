@@ -1,0 +1,78 @@
+security entity factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+predicate SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity selector
+security provider registrar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName registrar
+registered providers SimpleName MethodInvocation SimpleName values
+security provider registrar SimpleName MethodInvocation SimpleName find security provider registrar by security entity
+security provider registrar SimpleName MethodInvocation SimpleName entity selector
+security provider registrar SimpleName MethodInvocation MethodInvocation SimpleName registered providers
+security provider registrar SimpleName MethodInvocation MethodInvocation SimpleName values
+find security provider registrar by security entity SimpleName MethodInvocation SimpleName entity selector
+find security provider registrar by security entity SimpleName MethodInvocation MethodInvocation SimpleName registered providers
+find security provider registrar by security entity SimpleName MethodInvocation MethodInvocation SimpleName values
+entity selector SimpleName MethodInvocation MethodInvocation SimpleName registered providers
+entity selector SimpleName MethodInvocation MethodInvocation SimpleName values
+registrar SimpleName Assignment MethodInvocation SimpleName security provider registrar
+registrar SimpleName Assignment MethodInvocation SimpleName find security provider registrar by security entity
+registrar SimpleName Assignment MethodInvocation SimpleName entity selector
+registrar SimpleName Assignment MethodInvocation MethodInvocation SimpleName registered providers
+registrar SimpleName Assignment MethodInvocation MethodInvocation SimpleName values
+security entity factory SimpleName MethodInvocation SimpleName to factory
+security entity factory SimpleName MethodInvocation SimpleName entity type
+security entity factory SimpleName MethodInvocation SimpleName registrar
+security entity factory SimpleName MethodInvocation MethodInvocation SimpleName get default provider choice
+to factory SimpleName MethodInvocation SimpleName entity type
+to factory SimpleName MethodInvocation SimpleName registrar
+to factory SimpleName MethodInvocation MethodInvocation SimpleName get default provider choice
+entity type SimpleName MethodInvocation SimpleName registrar
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get default provider choice
+registrar SimpleName MethodInvocation MethodInvocation SimpleName get default provider choice
+reflective operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName t
+peel exception SimpleName MethodInvocation SimpleName t
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName runtime exception
+runtime exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName error
+error SimpleName SimpleType CastExpression SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName security entity factory
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName create security entity factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName security entity factory
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName create security entity factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity selector
+t SimpleName TypeParameter MethodDeclaration SimpleName create security entity factory
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName entity type
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName entity selector
+security entity factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create security entity factory
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create security entity factory
+create security entity factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+create security entity factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity selector
+create security entity factory SimpleName MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity selector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName create security entity factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity selector
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create security entity factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity selector

@@ -1,0 +1,99 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+int PrimitiveType SingleVariableDeclaration SimpleName default value
+factory manager utils SimpleName MethodInvocation SimpleName get int property
+factory manager utils SimpleName MethodInvocation SimpleName factory manager
+factory manager utils SimpleName MethodInvocation SimpleName name
+factory manager utils SimpleName MethodInvocation SimpleName default value
+get int property SimpleName MethodInvocation SimpleName factory manager
+get int property SimpleName MethodInvocation SimpleName name
+get int property SimpleName MethodInvocation SimpleName default value
+factory manager SimpleName MethodInvocation SimpleName name
+factory manager SimpleName MethodInvocation SimpleName default value
+name SimpleName MethodInvocation SimpleName default value
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName is debug enabled
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+get int property StringLiteral InfixExpression SimpleName name
+get int property StringLiteral InfixExpression StringLiteral ) failed (
+get int property StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+get int property StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+get int property StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+get int property StringLiteral InfixExpression StringLiteral ) to retrieve
+get int property StringLiteral InfixExpression MethodInvocation SimpleName e
+get int property StringLiteral InfixExpression MethodInvocation SimpleName get message
+name SimpleName InfixExpression StringLiteral ) failed (
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName e
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get class
+name SimpleName InfixExpression MethodInvocation SimpleName get simple name
+name SimpleName InfixExpression StringLiteral ) to retrieve
+name SimpleName InfixExpression MethodInvocation SimpleName e
+name SimpleName InfixExpression MethodInvocation SimpleName get message
+) failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+) failed ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+) failed ( StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+) failed ( StringLiteral InfixExpression StringLiteral ) to retrieve
+) failed ( StringLiteral InfixExpression MethodInvocation SimpleName e
+) failed ( StringLiteral InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to retrieve
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) to retrieve
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ) to retrieve
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+) to retrieve StringLiteral InfixExpression MethodInvocation SimpleName e
+) to retrieve StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral get int property
+log SimpleName MethodInvocation InfixExpression SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral ) failed (
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral ) to retrieve
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation InfixExpression StringLiteral get int property
+debug SimpleName MethodInvocation InfixExpression SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) failed (
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) to retrieve
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get int property
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName default value
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get int property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName default value
+int PrimitiveType MethodDeclaration SimpleName get int property
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName default value
+get int property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get int property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get int property SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get int property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get int property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get int property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value

@@ -1,0 +1,31 @@
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName get connection service
+objects SimpleName MethodInvocation StringLiteral no connection service
+require non null SimpleName MethodInvocation MethodInvocation SimpleName get connection service
+require non null SimpleName MethodInvocation StringLiteral no connection service
+get connection service SimpleName MethodInvocation MethodInvocation StringLiteral no connection service
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName require non null
+service SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connection service
+service SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no connection service
+connection service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+service SimpleName MethodInvocation SimpleName get forwarding filter
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName service
+objects SimpleName MethodInvocation MethodInvocation SimpleName get forwarding filter
+objects SimpleName MethodInvocation StringLiteral no forwarder
+require non null SimpleName MethodInvocation MethodInvocation SimpleName service
+require non null SimpleName MethodInvocation MethodInvocation SimpleName get forwarding filter
+require non null SimpleName MethodInvocation StringLiteral no forwarder
+service SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder
+get forwarding filter SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder
+protected Modifier MethodDeclaration SimpleType SimpleName forwarding filter
+protected Modifier MethodDeclaration SimpleName get forwarding filter
+forwarding filter SimpleName SimpleType MethodDeclaration SimpleName get forwarding filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get forwarding filter

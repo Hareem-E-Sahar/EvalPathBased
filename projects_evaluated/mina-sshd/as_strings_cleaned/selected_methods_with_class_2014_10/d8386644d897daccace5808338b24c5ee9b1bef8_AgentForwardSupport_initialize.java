@@ -1,0 +1,35 @@
+service SimpleName MethodInvocation SimpleName get session
+service SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+get session SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get agent factory
+get session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get agent factory
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get agent factory
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create server
+get agent factory SimpleName MethodInvocation MethodInvocation SimpleName create server
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+get agent factory SimpleName MethodInvocation MethodInvocation SimpleName service
+create server SimpleName MethodInvocation SimpleName service
+agent server SimpleName Assignment MethodInvocation MethodInvocation SimpleName get agent factory
+agent server SimpleName Assignment MethodInvocation SimpleName create server
+agent server SimpleName Assignment MethodInvocation SimpleName service
+agent server SimpleName MethodInvocation SimpleName get id
+agent id SimpleName Assignment MethodInvocation SimpleName agent server
+agent id SimpleName Assignment MethodInvocation SimpleName get id
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ssh exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName initialize
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+initialize SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

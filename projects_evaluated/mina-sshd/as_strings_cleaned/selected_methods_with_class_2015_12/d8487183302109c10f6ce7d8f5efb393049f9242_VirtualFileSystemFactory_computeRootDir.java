@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+get user home dir SimpleName MethodInvocation SimpleName user name
+home dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user home dir
+home dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName user name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName home dir
+home dir SimpleName Assignment MethodInvocation SimpleName get default home dir
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName compute root dir
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName home dir
+path SimpleName SimpleType MethodDeclaration SimpleName compute root dir
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user name
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+compute root dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+compute root dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+compute root dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+compute root dir SimpleName MethodDeclaration Block ReturnStatement SimpleName home dir
+user name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute root dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute root dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

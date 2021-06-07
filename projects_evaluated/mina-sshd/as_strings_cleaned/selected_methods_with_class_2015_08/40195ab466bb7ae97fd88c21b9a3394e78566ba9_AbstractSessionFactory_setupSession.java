@@ -1,0 +1,44 @@
+s SimpleName SimpleType SingleVariableDeclaration SimpleName session
+listeners manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listeners manager
+listeners manager SimpleName MethodInvocation SimpleName get session listener proxy
+session listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName listeners manager
+session listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session listener proxy
+session listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session listener
+session listener SimpleName MethodInvocation SimpleName session created
+session listener SimpleName MethodInvocation SimpleName session
+session created SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName add session listener
+session SimpleName MethodInvocation SimpleName session listener
+add session listener SimpleName MethodInvocation SimpleName session listener
+listeners manager SimpleName MethodInvocation SimpleName get channel listener proxy
+session SimpleName MethodInvocation SimpleName add channel listener
+session SimpleName MethodInvocation MethodInvocation SimpleName listeners manager
+session SimpleName MethodInvocation MethodInvocation SimpleName get channel listener proxy
+add channel listener SimpleName MethodInvocation MethodInvocation SimpleName listeners manager
+add channel listener SimpleName MethodInvocation MethodInvocation SimpleName get channel listener proxy
+protected Modifier MethodDeclaration SimpleType SimpleName s
+protected Modifier MethodDeclaration SimpleName setup session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName session
+s SimpleName SimpleType MethodDeclaration SimpleName setup session
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+s SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+setup session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+setup session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+setup session SimpleName MethodDeclaration SimpleType SimpleName exception
+setup session SimpleName MethodDeclaration Block ReturnStatement SimpleName session
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,19 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName is supported
+final Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is supported
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is supported SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is supported
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is supported

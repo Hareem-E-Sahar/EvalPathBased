@@ -1,0 +1,70 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+resolve file SimpleName MethodInvocation SimpleName path
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName to absolute path
+abs SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+abs SimpleName VariableDeclarationFragment MethodInvocation SimpleName to absolute path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName abs
+abs SimpleName MethodInvocation SimpleName normalize
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName abs
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+io utils SimpleName MethodInvocation SimpleName check file exists
+io utils SimpleName MethodInvocation SimpleName p
+io utils SimpleName MethodInvocation QualifiedName io utilsempty link options
+check file exists SimpleName MethodInvocation SimpleName p
+check file exists SimpleName MethodInvocation QualifiedName io utilsempty link options
+p SimpleName MethodInvocation QualifiedName io utilsempty link options
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName check file exists
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+status SimpleName VariableDeclarationFragment MethodInvocation QualifiedName io utilsempty link options
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+handle unknown real path status SimpleName MethodInvocation SimpleName path
+handle unknown real path status SimpleName MethodInvocation SimpleName abs
+handle unknown real path status SimpleName MethodInvocation SimpleName p
+path SimpleName MethodInvocation SimpleName abs
+path SimpleName MethodInvocation SimpleName p
+abs SimpleName MethodInvocation SimpleName p
+status SimpleName MethodInvocation SimpleName boolean value
+file not found exception SimpleName SimpleType ClassInstanceCreation SimpleName path
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName do real path v
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SimpleType MethodDeclaration SimpleName do real path v
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+do real path v SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do real path v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do real path v SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do real path v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+do real path v SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName do real path v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do real path v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

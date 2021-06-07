@@ -1,0 +1,39 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+t SimpleName SimpleType SingleVariableDeclaration SimpleName values
+as list SimpleName MethodInvocation SimpleName values
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier public
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier static
+safe varargs SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+safe varargs SimpleName MarkerAnnotation MethodDeclaration SimpleName as set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName as set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName as set
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+t SimpleName TypeParameter MethodDeclaration SimpleName as set
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName values
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName as set
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName as set
+as set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+as set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName safe varargs
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName as set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName safe varargs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

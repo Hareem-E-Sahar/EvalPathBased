@@ -1,0 +1,59 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName array octect
+discard whitespace SimpleName MethodInvocation SimpleName array octect
+array octect SimpleName Assignment MethodInvocation SimpleName discard whitespace
+array octect SimpleName Assignment MethodInvocation SimpleName array octect
+number utils SimpleName MethodInvocation SimpleName length
+number utils SimpleName MethodInvocation SimpleName array octect
+length SimpleName MethodInvocation SimpleName array octect
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName number utils
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName array octect
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName number utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName array octect
+length SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType SingleVariableDeclaration SimpleName an array octect
+is base SimpleName MethodInvocation SimpleName an array octect
+byte PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName array octect
+an array octect SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName array octect
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName array octect
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral true
+array octect SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is array byte base
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName array octect
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName array octect
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is array byte base
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName array octect
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName array octect
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is array byte base
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName array octect
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName array octect
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is array byte base SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+is array byte base SimpleName MethodDeclaration SingleVariableDeclaration SimpleName array octect
+is array byte base SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+is array byte base SimpleName MethodDeclaration Block EnhancedForStatement SimpleName array octect
+is array byte base SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is array byte base
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName array octect
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is array byte base
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName array octect

@@ -1,0 +1,132 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+closing SimpleName MethodInvocation SimpleName compare and set
+closing SimpleName MethodInvocation BooleanLiteral false
+closing SimpleName MethodInvocation BooleanLiteral true
+compare and set SimpleName MethodInvocation BooleanLiteral false
+compare and set SimpleName MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing channel {} immediately
+log SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation StringLiteral closing channel {} immediately
+debug SimpleName MethodInvocation SimpleName id
+closing channel {} immediately StringLiteral MethodInvocation SimpleName id
+pre close SimpleName MethodInvocation SimpleName immediately
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+close future SimpleName MethodInvocation SimpleName set closed
+service SimpleName MethodInvocation SimpleName unregister channel
+service SimpleName MethodInvocation ThisExpression SimpleName abstract channel
+unregister channel SimpleName MethodInvocation ThisExpression SimpleName abstract channel
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+pre close SimpleName MethodInvocation MethodInvocation SimpleName add listener
+immediately SimpleName MethodInvocation MethodInvocation SimpleName add listener
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing channel {} gracefully
+log SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation StringLiteral closing channel {} gracefully
+debug SimpleName MethodInvocation SimpleName id
+closing channel {} gracefully StringLiteral MethodInvocation SimpleName id
+pre close SimpleName MethodInvocation SimpleName immediately
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral send ssh msg channel close on channel {}
+log SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation StringLiteral send ssh msg channel close on channel {}
+debug SimpleName MethodInvocation SimpleName id
+send ssh msg channel close on channel {} StringLiteral MethodInvocation SimpleName id
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg channel close
+session SimpleName MethodInvocation NumberLiteral empty
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg channel close
+create buffer SimpleName MethodInvocation NumberLiteral empty
+ssh constantsssh msg channel close QualifiedName MethodInvocation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh constantsssh msg channel close
+buffer SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName recipient
+put int SimpleName MethodInvocation SimpleName recipient
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+io write future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral message ssh msg channel close written on channel {}
+log SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation StringLiteral message ssh msg channel close written on channel {}
+debug SimpleName MethodInvocation SimpleName id
+message ssh msg channel close written on channel {} StringLiteral MethodInvocation SimpleName id
+close future SimpleName MethodInvocation SimpleName set closed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier MethodDeclaration Block IfStatement SimpleName closed by other side
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName closed by other side
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration Block IfStatement SimpleName closed by other side
+session SimpleName MethodInvocation MethodInvocation SimpleName add listener
+write packet SimpleName MethodInvocation MethodInvocation SimpleName add listener
+buffer SimpleName MethodInvocation MethodInvocation SimpleName add listener
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception caught while writing ssh msg channel close packet on channel StringLiteral InfixExpression SimpleName id
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral exception caught while writing ssh msg channel close packet on channel
+log SimpleName MethodInvocation InfixExpression SimpleName id
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral exception caught while writing ssh msg channel close packet on channel
+debug SimpleName MethodInvocation InfixExpression SimpleName id
+debug SimpleName MethodInvocation SimpleName e
+exception caught while writing ssh msg channel close packet on channel StringLiteral InfixExpression MethodInvocation SimpleName e
+id SimpleName InfixExpression MethodInvocation SimpleName e
+close future SimpleName MethodInvocation SimpleName set closed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+pre close SimpleName MethodInvocation MethodInvocation SimpleName add listener
+immediately SimpleName MethodInvocation MethodInvocation SimpleName add listener
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier MethodDeclaration Block ReturnStatement SimpleName close future
+close future SimpleName SimpleType MethodDeclaration SimpleName close
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration Block ReturnStatement SimpleName close future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

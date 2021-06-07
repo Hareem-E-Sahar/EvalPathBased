@@ -1,0 +1,20 @@
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local address
+local address SimpleName FieldAccess Assignment SimpleName local address
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set local address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local address
+void PrimitiveType MethodDeclaration SimpleName set local address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local address
+set local address SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+set local address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set local address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set local address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local address

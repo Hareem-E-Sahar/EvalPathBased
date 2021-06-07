@@ -1,0 +1,139 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths
+file password provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+open option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName paths
+is empty SimpleName MethodInvocation SimpleName paths
+collections SimpleName MethodInvocation SimpleName empty map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+ids SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+paths SimpleName MethodInvocation SimpleName entry set
+pe SimpleName MethodInvocation SimpleName get key
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName pe
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+pe SimpleName MethodInvocation SimpleName get value
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName pe
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+files SimpleName MethodInvocation SimpleName new input stream
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+new input stream SimpleName MethodInvocation SimpleName path
+new input stream SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName new input stream
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName input stream
+path SimpleName MethodInvocation SimpleName to string
+security utils SimpleName MethodInvocation SimpleName load key pair identity
+security utils SimpleName MethodInvocation MethodInvocation SimpleName path
+security utils SimpleName MethodInvocation MethodInvocation SimpleName to string
+security utils SimpleName MethodInvocation SimpleName input stream
+security utils SimpleName MethodInvocation SimpleName provider
+load key pair identity SimpleName MethodInvocation MethodInvocation SimpleName path
+load key pair identity SimpleName MethodInvocation MethodInvocation SimpleName to string
+load key pair identity SimpleName MethodInvocation SimpleName input stream
+load key pair identity SimpleName MethodInvocation SimpleName provider
+path SimpleName MethodInvocation MethodInvocation SimpleName input stream
+to string SimpleName MethodInvocation MethodInvocation SimpleName input stream
+path SimpleName MethodInvocation MethodInvocation SimpleName provider
+to string SimpleName MethodInvocation MethodInvocation SimpleName provider
+input stream SimpleName MethodInvocation SimpleName provider
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName load key pair identity
+kp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+kp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName input stream
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+ids SimpleName MethodInvocation SimpleName put
+ids SimpleName MethodInvocation SimpleName type
+ids SimpleName MethodInvocation SimpleName kp
+put SimpleName MethodInvocation SimpleName type
+put SimpleName MethodInvocation SimpleName kp
+type SimpleName MethodInvocation SimpleName kp
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName ids
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName prev
+validate utils SimpleName MethodInvocation StringLiteral multiple keys for types
+validate utils SimpleName MethodInvocation SimpleName type
+check true SimpleName MethodInvocation InfixExpression SimpleName prev
+check true SimpleName MethodInvocation StringLiteral multiple keys for types
+check true SimpleName MethodInvocation SimpleName type
+prev SimpleName InfixExpression MethodInvocation StringLiteral multiple keys for types
+prev SimpleName InfixExpression MethodInvocation SimpleName type
+multiple keys for types StringLiteral MethodInvocation SimpleName type
+pe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName paths
+pe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load identities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName paths
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+static Modifier MethodDeclaration SimpleName load identities
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName paths
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load identities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load identities
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load identities
+load identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paths
+load identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+load identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+load identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+load identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+load identities SimpleName MethodDeclaration SimpleType SimpleName io exception
+load identities SimpleName MethodDeclaration SimpleType SimpleName general security exception
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+paths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+paths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+paths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName load identities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load identities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

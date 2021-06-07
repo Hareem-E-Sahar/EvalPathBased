@@ -1,0 +1,28 @@
+level SimpleName SimpleType SingleVariableDeclaration SimpleName level
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is enabled
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is enabled
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is enabled
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName level
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is enabled SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+is enabled SimpleName MethodDeclaration SingleVariableDeclaration SimpleName level
+is enabled SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is enabled
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is enabled
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level

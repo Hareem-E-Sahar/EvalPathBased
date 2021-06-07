@@ -1,0 +1,45 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName field
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clazz
+predicate SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acceptor
+clazz SimpleName MethodInvocation SimpleName get fields
+generic utils SimpleName MethodInvocation SimpleName select matching members
+generic utils SimpleName MethodInvocation SimpleName acceptor
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName clazz
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get fields
+select matching members SimpleName MethodInvocation SimpleName acceptor
+select matching members SimpleName MethodInvocation MethodInvocation SimpleName clazz
+select matching members SimpleName MethodInvocation MethodInvocation SimpleName get fields
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName clazz
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName get fields
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName field
+public Modifier MethodDeclaration SimpleName get matching fields
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName field
+static Modifier MethodDeclaration SimpleName get matching fields
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get matching fields
+field SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get matching fields
+get matching fields SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get matching fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get matching fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get matching fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get matching fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor

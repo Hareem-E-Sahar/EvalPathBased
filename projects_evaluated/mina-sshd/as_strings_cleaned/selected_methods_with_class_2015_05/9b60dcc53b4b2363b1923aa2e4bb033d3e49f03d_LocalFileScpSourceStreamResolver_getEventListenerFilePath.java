@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get event listener file path
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get event listener file path
+public Modifier MethodDeclaration Block ReturnStatement SimpleName path
+path SimpleName SimpleType MethodDeclaration SimpleName get event listener file path
+get event listener file path SimpleName MethodDeclaration Block ReturnStatement SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event listener file path
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event listener file path

@@ -1,0 +1,29 @@
+file time SimpleName SimpleType SingleVariableDeclaration SimpleName mtime
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName attributemodify time
+add SimpleName MethodInvocation QualifiedName attributemodify time
+mtime SimpleName MethodInvocation SimpleName to
+mtime SimpleName MethodInvocation QualifiedName time unitseconds
+to SimpleName MethodInvocation QualifiedName time unitseconds
+int PrimitiveType CastExpression MethodInvocation SimpleName mtime
+int PrimitiveType CastExpression MethodInvocation SimpleName to
+int PrimitiveType CastExpression MethodInvocation QualifiedName time unitseconds
+mtime SimpleName FieldAccess Assignment CastExpression PrimitiveType int
+modify time SimpleName FieldAccess Assignment SimpleName mtime
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName modify time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mtime
+attributes SimpleName SimpleType MethodDeclaration SimpleName modify time
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mtime
+modify time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file time
+modify time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mtime
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName modify time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mtime
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName modify time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mtime

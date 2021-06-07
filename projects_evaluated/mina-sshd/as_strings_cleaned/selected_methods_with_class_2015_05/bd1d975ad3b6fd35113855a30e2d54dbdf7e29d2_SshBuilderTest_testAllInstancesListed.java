@@ -1,0 +1,75 @@
+enum SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName enum
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName e
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName exp values
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName act values
+exp values SimpleName MethodInvocation SimpleName size
+act values SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation StringLiteral mismatched actual values size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName exp values
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName act values
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+mismatched actual values size StringLiteral MethodInvocation MethodInvocation SimpleName exp values
+mismatched actual values size StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched actual values size StringLiteral MethodInvocation MethodInvocation SimpleName act values
+mismatched actual values size StringLiteral MethodInvocation MethodInvocation SimpleName size
+exp values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName act values
+exp values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName act values
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+e SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+expected SimpleName MethodInvocation SimpleName name
+expected SimpleName MethodInvocation InfixExpression StringLiteral not found in actual values
+name SimpleName MethodInvocation InfixExpression StringLiteral not found in actual values
+act values SimpleName MethodInvocation SimpleName contains
+act values SimpleName MethodInvocation SimpleName expected
+contains SimpleName MethodInvocation SimpleName expected
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral not found in actual values
+assert true SimpleName MethodInvocation MethodInvocation SimpleName act values
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName expected
+not found in actual values StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName act values
+not found in actual values StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+not found in actual values StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+e SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName exp values
+expected SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName exp values
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test all instances listed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName exp values
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName test all instances listed
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName exp values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName act values
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName test all instances listed
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName exp values
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName act values
+void PrimitiveType MethodDeclaration SimpleName test all instances listed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exp values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName act values
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName exp values
+test all instances listed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exp values
+test all instances listed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName act values
+test all instances listed SimpleName MethodDeclaration Block EnhancedForStatement SimpleName exp values
+exp values SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName act values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test all instances listed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exp values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName act values
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test all instances listed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exp values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName act values

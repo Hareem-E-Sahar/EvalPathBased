@@ -1,0 +1,63 @@
+long SimpleName SimpleType SingleVariableDeclaration SimpleName v
+expected SimpleName VariableDeclarationFragment SimpleName v
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+expected SimpleName InfixExpression NumberLiteral l
+expected SimpleName InfixExpression NumberLiteral l
+number utils SimpleName MethodInvocation SimpleName get next power of
+number utils SimpleName MethodInvocation InfixExpression SimpleName expected
+number utils SimpleName MethodInvocation InfixExpression NumberLiteral l
+get next power of SimpleName MethodInvocation InfixExpression SimpleName expected
+get next power of SimpleName MethodInvocation InfixExpression NumberLiteral l
+assert equals SimpleName MethodInvocation StringLiteral mismatched lower bound value
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName number utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get next power of
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+mismatched lower bound value StringLiteral MethodInvocation SimpleName expected
+mismatched lower bound value StringLiteral MethodInvocation MethodInvocation SimpleName number utils
+mismatched lower bound value StringLiteral MethodInvocation MethodInvocation SimpleName get next power of
+mismatched lower bound value StringLiteral MethodInvocation MethodInvocation InfixExpression SimpleName expected
+mismatched lower bound value StringLiteral MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+expected SimpleName MethodInvocation MethodInvocation SimpleName number utils
+expected SimpleName MethodInvocation MethodInvocation SimpleName get next power of
+expected SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName expected
+expected SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+expected SimpleName InfixExpression NumberLiteral l
+number utils SimpleName MethodInvocation SimpleName get next power of
+number utils SimpleName MethodInvocation SimpleName expected
+get next power of SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation StringLiteral mismatched exact value
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName number utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get next power of
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+mismatched exact value StringLiteral MethodInvocation SimpleName expected
+mismatched exact value StringLiteral MethodInvocation MethodInvocation SimpleName number utils
+mismatched exact value StringLiteral MethodInvocation MethodInvocation SimpleName get next power of
+mismatched exact value StringLiteral MethodInvocation MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation MethodInvocation SimpleName number utils
+expected SimpleName MethodInvocation MethodInvocation SimpleName get next power of
+expected SimpleName MethodInvocation MethodInvocation SimpleName expected
+long SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName number utilspowers of two
+v SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName number utilspowers of two
+number utilspowers of two QualifiedName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test next power of
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test next power of
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName number utilspowers of two
+void PrimitiveType MethodDeclaration SimpleName test next power of
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName number utilspowers of two
+test next power of SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName number utilspowers of two
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test next power of
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test next power of

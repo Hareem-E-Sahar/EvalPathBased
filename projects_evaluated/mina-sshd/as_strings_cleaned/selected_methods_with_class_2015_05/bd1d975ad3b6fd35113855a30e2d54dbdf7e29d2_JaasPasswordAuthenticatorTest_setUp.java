@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+dummy login module SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+app configuration entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+app configuration entry SimpleName SimpleType ClassInstanceCreation QualifiedName app configuration entrylogin module control flagrequired
+get name SimpleName MethodInvocation ClassInstanceCreation QualifiedName app configuration entrylogin module control flagrequired
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get app configuration entry
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName app configuration entry
+public Modifier MethodDeclaration SimpleName get app configuration entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+app configuration entry SimpleName SimpleType ArrayType MethodDeclaration SimpleName get app configuration entry
+get app configuration entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get app configuration entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName refresh
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName refresh
+void PrimitiveType MethodDeclaration SimpleName refresh
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName refresh
+get app configuration entry SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get app configuration entry SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get app configuration entry SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName refresh
+config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+configuration SimpleName MethodInvocation SimpleName set configuration
+configuration SimpleName MethodInvocation SimpleName config
+set configuration SimpleName MethodInvocation SimpleName config
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up

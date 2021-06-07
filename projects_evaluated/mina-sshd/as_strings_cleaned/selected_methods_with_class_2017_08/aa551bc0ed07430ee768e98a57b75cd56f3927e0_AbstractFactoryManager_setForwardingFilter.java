@@ -1,0 +1,20 @@
+forwarding filter SimpleName SimpleType SingleVariableDeclaration SimpleName forwarding filter
+forwarding filter SimpleName FieldAccess Assignment SimpleName forwarding filter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set forwarding filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName forwarding filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName forwarding filter
+void PrimitiveType MethodDeclaration SimpleName set forwarding filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName forwarding filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName forwarding filter
+set forwarding filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName forwarding filter
+set forwarding filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName forwarding filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName forwarding filter

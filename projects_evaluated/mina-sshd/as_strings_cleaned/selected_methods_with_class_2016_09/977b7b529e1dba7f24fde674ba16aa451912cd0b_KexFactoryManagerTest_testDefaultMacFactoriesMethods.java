@@ -1,0 +1,94 @@
+manager SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test kex factory manager
+kex factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get mac factories name list
+assert equals SimpleName MethodInvocation StringLiteral mismatched empty factories name list
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName manager
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get mac factories name list
+mismatched empty factories name list StringLiteral MethodInvocation StringLiteral empty
+mismatched empty factories name list StringLiteral MethodInvocation MethodInvocation SimpleName manager
+mismatched empty factories name list StringLiteral MethodInvocation MethodInvocation SimpleName get mac factories name list
+empty StringLiteral MethodInvocation MethodInvocation SimpleName manager
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get mac factories name list
+named resource SimpleName MethodInvocation SimpleName get names
+named resource SimpleName MethodInvocation QualifiedName builtin macsvalues
+get names SimpleName MethodInvocation QualifiedName builtin macsvalues
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName named resource
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get names
+expected SimpleName VariableDeclarationFragment MethodInvocation QualifiedName builtin macsvalues
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+manager SimpleName MethodInvocation SimpleName set mac factories name list
+manager SimpleName MethodInvocation SimpleName expected
+set mac factories name list SimpleName MethodInvocation SimpleName expected
+manager SimpleName MethodInvocation SimpleName get mac factories name list
+assert equals SimpleName MethodInvocation StringLiteral mismatched updated factories name list
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName manager
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get mac factories name list
+mismatched updated factories name list StringLiteral MethodInvocation SimpleName expected
+mismatched updated factories name list StringLiteral MethodInvocation MethodInvocation SimpleName manager
+mismatched updated factories name list StringLiteral MethodInvocation MethodInvocation SimpleName get mac factories name list
+expected SimpleName MethodInvocation MethodInvocation SimpleName manager
+expected SimpleName MethodInvocation MethodInvocation SimpleName get mac factories name list
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName mac
+manager SimpleName MethodInvocation SimpleName get mac factories
+factories SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+factories SimpleName VariableDeclarationFragment MethodInvocation SimpleName get mac factories
+builtin macsvalues QualifiedName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName factories
+size SimpleName MethodInvocation SimpleName factories
+assert equals SimpleName MethodInvocation StringLiteral mismatched updated factories count
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName builtin macsvalues
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName factories
+mismatched updated factories count StringLiteral MethodInvocation MethodInvocation QualifiedName builtin macsvalues
+mismatched updated factories count StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched updated factories count StringLiteral MethodInvocation MethodInvocation SimpleName generic utils
+mismatched updated factories count StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched updated factories count StringLiteral MethodInvocation MethodInvocation SimpleName factories
+builtin macsvalues QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName generic utils
+builtin macsvalues QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+builtin macsvalues QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName factories
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName generic utils
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factories
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName mac
+named factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName f
+mac SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName f
+factory not set StringLiteral InfixExpression SimpleName f
+factories SimpleName MethodInvocation SimpleName contains
+factories SimpleName MethodInvocation SimpleName f
+contains SimpleName MethodInvocation SimpleName f
+assert true SimpleName MethodInvocation InfixExpression StringLiteral factory not set
+assert true SimpleName MethodInvocation InfixExpression SimpleName f
+assert true SimpleName MethodInvocation MethodInvocation SimpleName factories
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName f
+factory not set StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName factories
+factory not set StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+factory not set StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName f
+f SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName factories
+f SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+f SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName f
+f SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin macsvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test default mac factories methods
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test default mac factories methods
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+void PrimitiveType MethodDeclaration SimpleName test default mac factories methods
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+test default mac factories methods SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin macsvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test default mac factories methods
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test default mac factories methods

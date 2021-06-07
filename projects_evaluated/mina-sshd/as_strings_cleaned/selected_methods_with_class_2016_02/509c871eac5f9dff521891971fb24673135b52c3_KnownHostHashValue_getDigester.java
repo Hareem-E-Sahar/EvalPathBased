@@ -1,0 +1,13 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName mac
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName mac
+public Modifier MethodDeclaration SimpleName get digester
+public Modifier MethodDeclaration Block ReturnStatement SimpleName digester
+named factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get digester
+mac SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get digester
+get digester SimpleName MethodDeclaration Block ReturnStatement SimpleName digester
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get digester
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get digester

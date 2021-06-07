@@ -1,0 +1,41 @@
+parse path SimpleName MethodInvocation StringLiteral foobar
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse path
+path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foobar
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName resolve sibling
+path SimpleName MethodInvocation StringLiteral empty
+resolve sibling SimpleName MethodInvocation StringLiteral empty
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve sibling
+resolved SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolved
+assert path equals SimpleName MethodInvocation StringLiteral foo
+assert path equals SimpleName MethodInvocation SimpleName resolved
+foo StringLiteral MethodInvocation SimpleName resolved
+parse path SimpleName MethodInvocation StringLiteral foo
+path SimpleName Assignment MethodInvocation SimpleName parse path
+path SimpleName Assignment MethodInvocation StringLiteral foo
+path SimpleName MethodInvocation SimpleName resolve sibling
+path SimpleName MethodInvocation StringLiteral empty
+resolve sibling SimpleName MethodInvocation StringLiteral empty
+resolved SimpleName Assignment MethodInvocation SimpleName path
+resolved SimpleName Assignment MethodInvocation SimpleName resolve sibling
+resolved SimpleName Assignment MethodInvocation StringLiteral empty
+assert path equals SimpleName MethodInvocation StringLiteral empty
+assert path equals SimpleName MethodInvocation SimpleName resolved
+empty StringLiteral MethodInvocation SimpleName resolved
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resolve sibling given empty path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resolve sibling given empty path
+void PrimitiveType MethodDeclaration SimpleName test resolve sibling given empty path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resolve sibling given empty path
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resolve sibling given empty path

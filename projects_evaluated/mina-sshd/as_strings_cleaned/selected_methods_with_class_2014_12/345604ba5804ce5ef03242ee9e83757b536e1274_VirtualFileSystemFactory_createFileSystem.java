@@ -1,0 +1,38 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName get username
+compute root dir SimpleName MethodInvocation MethodInvocation SimpleName session
+compute root dir SimpleName MethodInvocation MethodInvocation SimpleName get username
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute root dir
+dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName session
+dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+paths SimpleName MethodInvocation SimpleName get
+paths SimpleName MethodInvocation SimpleName dir
+get SimpleName MethodInvocation SimpleName dir
+rooted file system provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new file system
+new file system SimpleName MethodInvocation MethodInvocation SimpleName paths
+new file system SimpleName MethodInvocation MethodInvocation SimpleName get
+new file system SimpleName MethodInvocation MethodInvocation SimpleName dir
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName create file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+file system SimpleName SimpleType MethodDeclaration SimpleName create file system
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+file system SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+create file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName create file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

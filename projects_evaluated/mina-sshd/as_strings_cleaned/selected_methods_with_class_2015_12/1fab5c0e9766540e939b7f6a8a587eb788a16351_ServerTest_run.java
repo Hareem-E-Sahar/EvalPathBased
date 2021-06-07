@@ -1,0 +1,49 @@
+time unitseconds QualifiedName MethodInvocation SimpleName to millis
+time unitseconds QualifiedName MethodInvocation NumberLiteral l
+to millis SimpleName MethodInvocation NumberLiteral l
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+thread SimpleName MethodInvocation MethodInvocation SimpleName to millis
+thread SimpleName MethodInvocation MethodInvocation NumberLiteral l
+sleep SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+sleep SimpleName MethodInvocation MethodInvocation SimpleName to millis
+sleep SimpleName MethodInvocation MethodInvocation NumberLiteral l
+empty StringLiteral MethodInvocation SimpleName get bytes
+empty StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+data SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+data SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName data
+write SimpleName MethodInvocation SimpleName data
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+out SimpleName MethodInvocation SimpleName flush
+window closed exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+latch SimpleName MethodInvocation SimpleName count down
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

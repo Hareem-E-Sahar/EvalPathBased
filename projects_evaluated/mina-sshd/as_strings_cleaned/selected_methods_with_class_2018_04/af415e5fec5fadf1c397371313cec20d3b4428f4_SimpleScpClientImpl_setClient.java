@@ -1,0 +1,20 @@
+simple client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+client instance SimpleName FieldAccess Assignment SimpleName client
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName simple client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+void PrimitiveType MethodDeclaration SimpleName set client
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName simple client
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName client
+set client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName simple client
+set client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client

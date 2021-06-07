@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName file password provider
+public Modifier MethodDeclaration SimpleName get password finder
+public Modifier MethodDeclaration Block ReturnStatement SimpleName password finder
+file password provider SimpleName SimpleType MethodDeclaration SimpleName get password finder
+get password finder SimpleName MethodDeclaration Block ReturnStatement SimpleName password finder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file password provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName get password finder
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file password provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get password finder

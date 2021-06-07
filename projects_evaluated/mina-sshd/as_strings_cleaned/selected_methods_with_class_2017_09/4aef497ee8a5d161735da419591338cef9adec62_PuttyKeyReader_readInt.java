@@ -1,0 +1,18 @@
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+big integer SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+public Modifier MethodDeclaration SimpleType SimpleName big integer
+public Modifier MethodDeclaration SimpleName read int
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+big integer SimpleName SimpleType MethodDeclaration SimpleName read int
+big integer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read int SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName read int
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read int
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

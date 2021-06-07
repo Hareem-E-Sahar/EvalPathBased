@@ -1,0 +1,66 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+to sftp path SimpleName MethodInvocation SimpleName path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sftp path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+sftp path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+check access SimpleName MethodInvocation SimpleName p
+check access SimpleName MethodInvocation QualifiedName access modewrite
+p SimpleName MethodInvocation QualifiedName access modewrite
+p SimpleName MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+sftp file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+read attributes SimpleName MethodInvocation SimpleName path
+read attributes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attributes
+path SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attributes
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attributes
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+basic file attributes SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attributes
+attributes SimpleName MethodInvocation SimpleName is directory
+path SimpleName MethodInvocation SimpleName to string
+sftp SimpleName MethodInvocation SimpleName rmdir
+sftp SimpleName MethodInvocation MethodInvocation SimpleName path
+sftp SimpleName MethodInvocation MethodInvocation SimpleName to string
+rmdir SimpleName MethodInvocation MethodInvocation SimpleName path
+rmdir SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName MethodInvocation SimpleName to string
+sftp SimpleName MethodInvocation SimpleName remove
+sftp SimpleName MethodInvocation MethodInvocation SimpleName path
+sftp SimpleName MethodInvocation MethodInvocation SimpleName to string
+remove SimpleName MethodInvocation MethodInvocation SimpleName path
+remove SimpleName MethodInvocation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+delete SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

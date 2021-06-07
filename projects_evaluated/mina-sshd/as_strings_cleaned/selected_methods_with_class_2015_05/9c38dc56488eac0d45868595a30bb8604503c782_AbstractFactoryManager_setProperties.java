@@ -1,0 +1,36 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName properties
+validate utils SimpleName MethodInvocation StringLiteral null properties not allowed
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName properties
+check not null SimpleName MethodInvocation StringLiteral null properties not allowed
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+properties SimpleName MethodInvocation StringLiteral null properties not allowed
+properties SimpleName MethodInvocation QualifiedName generic utilsempty object array
+null properties not allowed StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+properties SimpleName FieldAccess Assignment MethodInvocation SimpleName validate utils
+properties SimpleName FieldAccess Assignment MethodInvocation SimpleName check not null
+properties SimpleName FieldAccess Assignment MethodInvocation SimpleName properties
+properties SimpleName FieldAccess Assignment MethodInvocation StringLiteral null properties not allowed
+properties SimpleName FieldAccess Assignment MethodInvocation QualifiedName generic utilsempty object array
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties
+void PrimitiveType MethodDeclaration SimpleName set properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName properties
+set properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties

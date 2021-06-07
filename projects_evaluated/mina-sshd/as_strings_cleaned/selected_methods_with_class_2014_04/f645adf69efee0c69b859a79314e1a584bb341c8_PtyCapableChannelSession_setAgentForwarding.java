@@ -1,0 +1,22 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName agent forwarding
+agent forwarding SimpleName FieldAccess Assignment SimpleName agent forwarding
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set agent forwarding
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName agent forwarding
+void PrimitiveType MethodDeclaration SimpleName set agent forwarding
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName agent forwarding
+set agent forwarding SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set agent forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName agent forwarding
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set agent forwarding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName agent forwarding
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set agent forwarding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName agent forwarding

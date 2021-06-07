@@ -1,0 +1,83 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acl
+acl entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acl
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+files SimpleName MethodInvocation SimpleName get file attribute view
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl file attribute view
+files SimpleName MethodInvocation SimpleName options
+get file attribute view SimpleName MethodInvocation SimpleName file
+get file attribute view SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl file attribute view
+get file attribute view SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl file attribute view
+file SimpleName MethodInvocation SimpleName options
+acl file attribute view SimpleName SimpleType TypeLiteral MethodInvocation SimpleName options
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file attribute view
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+acl file attribute view SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+acl view not supported for StringLiteral InfixExpression SimpleName file
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral acl view not supported for
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral set file access control {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName file
+log SimpleName MethodInvocation SimpleName acl
+trace SimpleName MethodInvocation StringLiteral set file access control {}
+trace SimpleName MethodInvocation MethodInvocation SimpleName get server session
+trace SimpleName MethodInvocation SimpleName file
+trace SimpleName MethodInvocation SimpleName acl
+set file access control {} StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+set file access control {} StringLiteral MethodInvocation SimpleName file
+set file access control {} StringLiteral MethodInvocation SimpleName acl
+get server session SimpleName MethodInvocation MethodInvocation SimpleName file
+get server session SimpleName MethodInvocation MethodInvocation SimpleName acl
+file SimpleName MethodInvocation SimpleName acl
+view SimpleName MethodInvocation SimpleName set acl
+view SimpleName MethodInvocation SimpleName acl
+set acl SimpleName MethodInvocation SimpleName acl
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set file access control
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName set file access control
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName acl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+set file access control SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+acl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+acl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file access control
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file access control
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

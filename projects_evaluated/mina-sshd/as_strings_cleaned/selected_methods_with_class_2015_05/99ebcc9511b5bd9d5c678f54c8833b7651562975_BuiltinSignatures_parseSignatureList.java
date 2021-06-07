@@ -1,0 +1,80 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sigs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sigs
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName sigs
+is empty SimpleName MethodInvocation SimpleName sigs
+collections SimpleName MethodInvocation SimpleName empty list
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+sigs SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName sigs
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+from factory name SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral bad factory name s in s
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation SimpleName sigs
+check not null SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+check not null SimpleName MethodInvocation MethodInvocation SimpleName name
+check not null SimpleName MethodInvocation StringLiteral bad factory name s in s
+check not null SimpleName MethodInvocation SimpleName name
+check not null SimpleName MethodInvocation SimpleName sigs
+from factory name SimpleName MethodInvocation MethodInvocation StringLiteral bad factory name s in s
+name SimpleName MethodInvocation MethodInvocation StringLiteral bad factory name s in s
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName name
+name SimpleName MethodInvocation MethodInvocation SimpleName name
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName sigs
+name SimpleName MethodInvocation MethodInvocation SimpleName sigs
+bad factory name s in s StringLiteral MethodInvocation SimpleName name
+bad factory name s in s StringLiteral MethodInvocation SimpleName sigs
+name SimpleName MethodInvocation SimpleName sigs
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from factory name
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral bad factory name s in s
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName sigs
+builtin signatures SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sigs
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sigs
+sigs SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName parse signature list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sigs
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName parse signature list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sigs
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName sigs
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration SimpleName parse signature list
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName sigs
+final Modifier MethodDeclaration Block EnhancedForStatement SimpleName sigs
+final Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse signature list
+parse signature list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sigs
+parse signature list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName sigs
+parse signature list SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse signature list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sigs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse signature list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sigs

@@ -1,0 +1,28 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName command
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName command
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName command
+validate utils SimpleName MethodInvocation StringLiteral no command
+check not null and not empty SimpleName MethodInvocation SimpleName command
+check not null and not empty SimpleName MethodInvocation StringLiteral no command
+command SimpleName MethodInvocation StringLiteral no command
+command SimpleName FieldAccess Assignment MethodInvocation SimpleName validate utils
+command SimpleName FieldAccess Assignment MethodInvocation SimpleName check not null and not empty
+command SimpleName FieldAccess Assignment MethodInvocation SimpleName command
+command SimpleName FieldAccess Assignment MethodInvocation StringLiteral no command
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+void PrimitiveType MethodDeclaration SimpleName set command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName command
+set command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command

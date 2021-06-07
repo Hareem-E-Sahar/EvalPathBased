@@ -1,0 +1,96 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName req
+boolean PrimitiveType SingleVariableDeclaration SimpleName want reply
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+handle internal request SimpleName MethodInvocation SimpleName req
+handle internal request SimpleName MethodInvocation SimpleName want reply
+handle internal request SimpleName MethodInvocation SimpleName buffer
+req SimpleName MethodInvocation SimpleName want reply
+req SimpleName MethodInvocation SimpleName buffer
+want reply SimpleName MethodInvocation SimpleName buffer
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle internal request
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName req
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName want reply
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+request handlerresult QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+request handlerresultunsupported QualifiedName MethodInvocation SimpleName equals
+request handlerresultunsupported QualifiedName MethodInvocation SimpleName r
+equals SimpleName MethodInvocation SimpleName r
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral handle unknown channel request unknown channel request wantreply
+log SimpleName MethodInvocation SimpleName req
+log SimpleName MethodInvocation SimpleName want reply
+warn SimpleName MethodInvocation StringLiteral handle unknown channel request unknown channel request wantreply
+warn SimpleName MethodInvocation SimpleName req
+warn SimpleName MethodInvocation SimpleName want reply
+handle unknown channel request unknown channel request wantreply StringLiteral MethodInvocation SimpleName req
+handle unknown channel request unknown channel request wantreply StringLiteral MethodInvocation SimpleName want reply
+req SimpleName MethodInvocation SimpleName want reply
+send response SimpleName MethodInvocation SimpleName buffer
+send response SimpleName MethodInvocation SimpleName req
+send response SimpleName MethodInvocation QualifiedName request handlerresultunsupported
+send response SimpleName MethodInvocation SimpleName want reply
+buffer SimpleName MethodInvocation SimpleName req
+buffer SimpleName MethodInvocation QualifiedName request handlerresultunsupported
+buffer SimpleName MethodInvocation SimpleName want reply
+req SimpleName MethodInvocation QualifiedName request handlerresultunsupported
+req SimpleName MethodInvocation SimpleName want reply
+request handlerresultunsupported QualifiedName MethodInvocation SimpleName want reply
+send response SimpleName MethodInvocation SimpleName buffer
+send response SimpleName MethodInvocation SimpleName req
+send response SimpleName MethodInvocation SimpleName r
+send response SimpleName MethodInvocation SimpleName want reply
+buffer SimpleName MethodInvocation SimpleName req
+buffer SimpleName MethodInvocation SimpleName r
+buffer SimpleName MethodInvocation SimpleName want reply
+req SimpleName MethodInvocation SimpleName r
+req SimpleName MethodInvocation SimpleName want reply
+r SimpleName MethodInvocation SimpleName want reply
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle unknown channel request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName want reply
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleName handle unknown channel request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName want reply
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+handle unknown channel request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle unknown channel request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+handle unknown channel request SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+handle unknown channel request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName want reply
+handle unknown channel request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle unknown channel request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle unknown channel request SimpleName MethodDeclaration SimpleType SimpleName io exception
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName want reply
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+req SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+want reply SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+want reply SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle unknown channel request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName want reply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle unknown channel request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName want reply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

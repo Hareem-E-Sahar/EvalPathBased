@@ -1,0 +1,12 @@
+io handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+io acceptor SimpleName SimpleType MethodDeclaration SimpleName create acceptor
+io acceptor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName handler
+create acceptor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io handler
+create acceptor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+public Modifier TypeDeclaration MethodDeclaration SimpleName create acceptor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create acceptor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler

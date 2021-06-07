@@ -1,0 +1,10 @@
+void PrimitiveType MethodDeclaration SimpleName handle success
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+handle success SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle success
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle success
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,32 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName octets
+octetslength QualifiedName InfixExpression NumberLiteral empty
+big integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+big integer SimpleName SimpleType ClassInstanceCreation SimpleName octets
+empty NumberLiteral ClassInstanceCreation SimpleName octets
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName big integer
+public Modifier MethodDeclaration SimpleName octet string to integer
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName octets
+static Modifier MethodDeclaration SimpleType SimpleName big integer
+static Modifier MethodDeclaration SimpleName octet string to integer
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName octets
+big integer SimpleName SimpleType MethodDeclaration SimpleName octet string to integer
+big integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+big integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName octets
+octet string to integer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+octet string to integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName octets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName octet string to integer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName octets
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName octet string to integer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName octets

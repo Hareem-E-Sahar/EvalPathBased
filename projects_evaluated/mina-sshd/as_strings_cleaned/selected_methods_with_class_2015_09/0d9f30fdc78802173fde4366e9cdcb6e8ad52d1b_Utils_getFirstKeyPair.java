@@ -1,0 +1,81 @@
+key pair provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName provider
+validate utils SimpleName MethodInvocation StringLiteral no key pair provider
+check not null SimpleName MethodInvocation SimpleName provider
+check not null SimpleName MethodInvocation StringLiteral no key pair provider
+provider SimpleName MethodInvocation StringLiteral no key pair provider
+provider SimpleName MethodInvocation SimpleName load keys
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName provider
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName load keys
+validate utils SimpleName MethodInvocation StringLiteral no loaded keys
+check not null SimpleName MethodInvocation MethodInvocation SimpleName provider
+check not null SimpleName MethodInvocation MethodInvocation SimpleName load keys
+check not null SimpleName MethodInvocation StringLiteral no loaded keys
+provider SimpleName MethodInvocation MethodInvocation StringLiteral no loaded keys
+load keys SimpleName MethodInvocation MethodInvocation StringLiteral no loaded keys
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+pairs SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+pairs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName provider
+pairs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName load keys
+pairs SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no loaded keys
+pairs SimpleName MethodInvocation SimpleName iterator
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName pairs
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName iterator
+validate utils SimpleName MethodInvocation StringLiteral no keys iterator
+check not null SimpleName MethodInvocation MethodInvocation SimpleName pairs
+check not null SimpleName MethodInvocation MethodInvocation SimpleName iterator
+check not null SimpleName MethodInvocation StringLiteral no keys iterator
+pairs SimpleName MethodInvocation MethodInvocation StringLiteral no keys iterator
+iterator SimpleName MethodInvocation MethodInvocation StringLiteral no keys iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName pairs
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no keys iterator
+iter SimpleName MethodInvocation SimpleName has next
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName iter
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName has next
+validate utils SimpleName MethodInvocation StringLiteral empty loaded kyes iterator
+check true SimpleName MethodInvocation MethodInvocation SimpleName iter
+check true SimpleName MethodInvocation MethodInvocation SimpleName has next
+check true SimpleName MethodInvocation StringLiteral empty loaded kyes iterator
+iter SimpleName MethodInvocation MethodInvocation StringLiteral empty loaded kyes iterator
+has next SimpleName MethodInvocation MethodInvocation StringLiteral empty loaded kyes iterator
+iter SimpleName MethodInvocation SimpleName next
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName iter
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName next
+validate utils SimpleName MethodInvocation StringLiteral no key pair in iterator
+check not null SimpleName MethodInvocation MethodInvocation SimpleName iter
+check not null SimpleName MethodInvocation MethodInvocation SimpleName next
+check not null SimpleName MethodInvocation StringLiteral no key pair in iterator
+iter SimpleName MethodInvocation MethodInvocation StringLiteral no key pair in iterator
+next SimpleName MethodInvocation MethodInvocation StringLiteral no key pair in iterator
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName get first key pair
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+static Modifier MethodDeclaration SimpleType SimpleName key pair
+static Modifier MethodDeclaration SimpleName get first key pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+key pair SimpleName SimpleType MethodDeclaration SimpleName get first key pair
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provider
+get first key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+get first key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName get first key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get first key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider

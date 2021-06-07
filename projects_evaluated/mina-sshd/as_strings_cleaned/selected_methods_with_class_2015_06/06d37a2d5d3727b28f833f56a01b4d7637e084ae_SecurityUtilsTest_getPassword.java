@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get password
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName default password
+string SimpleName SimpleType MethodDeclaration SimpleName get password
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+get password SimpleName MethodDeclaration SimpleType SimpleName io exception
+get password SimpleName MethodDeclaration Block ReturnStatement SimpleName default password
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

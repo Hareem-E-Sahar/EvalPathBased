@@ -1,0 +1,230 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pattern
+pattern SimpleName MethodInvocation SimpleName length
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName pattern
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName pattern
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName length
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+in group SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName in group
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+in class SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName in class
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+first index in class SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first index in class
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName to char array
+arr SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+arr SimpleName VariableDeclarationFragment MethodInvocation SimpleName to char array
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName arr
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName arrlength
+arr SimpleName ArrayAccess SimpleName i
+ch SimpleName VariableDeclarationFragment ArrayAccess SimpleName arr
+ch SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName arr
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName i
+i SimpleName PrefixExpression InfixExpression QualifiedName arrlength
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral \\
+append SimpleName MethodInvocation CharacterLiteral \\
+arr SimpleName ArrayAccess SimpleName i
+next SimpleName VariableDeclarationFragment ArrayAccess SimpleName arr
+next SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName arr
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName i
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral \\\\
+append SimpleName MethodInvocation StringLiteral \\\\
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral \\
+append SimpleName MethodInvocation CharacterLiteral \\
+next SimpleName SwitchStatement SwitchCase CharacterLiteral empty
+next SimpleName SwitchStatement SwitchCase CharacterLiteral q
+next SimpleName SwitchStatement SwitchCase CharacterLiteral e
+next SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName sb
+next SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+next SimpleName SwitchStatement ExpressionStatement MethodInvocation StringLiteral \\\\
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral q
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral e
+q CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral e
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName next
+append SimpleName MethodInvocation SimpleName next
+char PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName next
+in class SimpleName InfixExpression NumberLiteral empty
+in class SimpleName InfixExpression ConditionalExpression StringLiteral .*
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral .*
+in class SimpleName InfixExpression ConditionalExpression StringLiteral *
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral *
+.* StringLiteral ConditionalExpression StringLiteral *
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName in class
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation ConditionalExpression StringLiteral .*
+sb SimpleName MethodInvocation ConditionalExpression StringLiteral *
+append SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName in class
+append SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+append SimpleName MethodInvocation ConditionalExpression StringLiteral .*
+append SimpleName MethodInvocation ConditionalExpression StringLiteral *
+in class SimpleName InfixExpression NumberLiteral empty
+in class SimpleName InfixExpression ConditionalExpression CharacterLiteral .
+empty NumberLiteral InfixExpression ConditionalExpression CharacterLiteral .
+in class SimpleName InfixExpression ConditionalExpression CharacterLiteral ?
+empty NumberLiteral InfixExpression ConditionalExpression CharacterLiteral ?
+. CharacterLiteral ConditionalExpression CharacterLiteral ?
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName in class
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation ConditionalExpression CharacterLiteral .
+sb SimpleName MethodInvocation ConditionalExpression CharacterLiteral ?
+append SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName in class
+append SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+append SimpleName MethodInvocation ConditionalExpression CharacterLiteral .
+append SimpleName MethodInvocation ConditionalExpression CharacterLiteral ?
+i SimpleName InfixExpression NumberLiteral empty
+first index in class SimpleName Assignment InfixExpression SimpleName i
+first index in class SimpleName Assignment InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral [
+append SimpleName MethodInvocation CharacterLiteral [
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral ]
+append SimpleName MethodInvocation CharacterLiteral ]
+in class SimpleName InfixExpression NumberLiteral empty
+first index in class SimpleName InfixExpression SimpleName i
+ch SimpleName InfixExpression CharacterLiteral ^
+first index in class SimpleName InfixExpression InfixExpression InfixExpression SimpleName ch
+first index in class SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral ^
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName ch
+i SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral ^
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral \\
+append SimpleName MethodInvocation CharacterLiteral \\
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName ch
+append SimpleName MethodInvocation SimpleName ch
+first index in class SimpleName InfixExpression SimpleName i
+first index in class SimpleName InfixExpression ConditionalExpression CharacterLiteral ^
+i SimpleName InfixExpression ConditionalExpression CharacterLiteral ^
+first index in class SimpleName InfixExpression ConditionalExpression CharacterLiteral !
+i SimpleName InfixExpression ConditionalExpression CharacterLiteral !
+^ CharacterLiteral ConditionalExpression CharacterLiteral !
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName first index in class
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName i
+sb SimpleName MethodInvocation ConditionalExpression CharacterLiteral ^
+sb SimpleName MethodInvocation ConditionalExpression CharacterLiteral !
+append SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName first index in class
+append SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName i
+append SimpleName MethodInvocation ConditionalExpression CharacterLiteral ^
+append SimpleName MethodInvocation ConditionalExpression CharacterLiteral !
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral (
+append SimpleName MethodInvocation CharacterLiteral (
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+in group SimpleName InfixExpression NumberLiteral empty
+in group SimpleName InfixExpression ConditionalExpression CharacterLiteral 
+empty NumberLiteral InfixExpression ConditionalExpression CharacterLiteral 
+in group SimpleName InfixExpression ConditionalExpression CharacterLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression CharacterLiteral empty
+ CharacterLiteral ConditionalExpression CharacterLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName in group
+sb SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation ConditionalExpression CharacterLiteral 
+sb SimpleName MethodInvocation ConditionalExpression CharacterLiteral empty
+append SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName in group
+append SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+append SimpleName MethodInvocation ConditionalExpression CharacterLiteral 
+append SimpleName MethodInvocation ConditionalExpression CharacterLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName ch
+append SimpleName MethodInvocation SimpleName ch
+ch SimpleName SwitchStatement SwitchCase CharacterLiteral \\
+ch SimpleName SwitchStatement IfStatement InfixExpression QualifiedName arrlength
+ch SimpleName SwitchStatement SwitchCase CharacterLiteral *
+ch SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName sb
+ch SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+\\ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral *
+* CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ?
+? CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral [
+[ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ]
+] CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral .
+] CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral (
+. CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral (
+. CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral )
+. CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral +
+. CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral 
+. CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ^
+( CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral )
+( CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral +
+( CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral 
+( CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ^
+( CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral $
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral +
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral 
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ^
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral $
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral @
++ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral 
++ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ^
++ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral $
++ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral @
++ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ^
+ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral $
+ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral @
+ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+^ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral $
+^ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral @
+^ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+$ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral @
+$ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+@ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+@ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral !
+% CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral !
+! CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral {
+{ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral }
+} CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+char PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName ch
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName arrlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+arrlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+sb SimpleName MethodInvocation SimpleName to string
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName glob to regex
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName glob to regex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pattern
+glob to regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+glob to regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pattern
+glob to regex SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+glob to regex SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+glob to regex SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName glob to regex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName glob to regex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern

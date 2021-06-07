@@ -1,0 +1,160 @@
+os utils SimpleName MethodInvocation SimpleName is unix
+os utils SimpleName MethodInvocation ConditionalExpression StringLiteral /
+is unix SimpleName MethodInvocation ConditionalExpression StringLiteral /
+os utils SimpleName MethodInvocation ConditionalExpression StringLiteral c
+is unix SimpleName MethodInvocation ConditionalExpression StringLiteral c
+/ StringLiteral ConditionalExpression StringLiteral c
+paths SimpleName MethodInvocation SimpleName get
+paths SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName os utils
+paths SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is unix
+paths SimpleName MethodInvocation ConditionalExpression StringLiteral /
+paths SimpleName MethodInvocation ConditionalExpression StringLiteral c
+get SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName os utils
+get SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is unix
+get SimpleName MethodInvocation ConditionalExpression StringLiteral /
+get SimpleName MethodInvocation ConditionalExpression StringLiteral c
+root location SimpleName VariableDeclarationFragment MethodInvocation SimpleName paths
+root location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+root location SimpleName VariableDeclarationFragment MethodInvocation ConditionalExpression StringLiteral /
+root location SimpleName VariableDeclarationFragment MethodInvocation ConditionalExpression StringLiteral c
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root location
+root location SimpleName MethodInvocation SimpleName get file system
+fs root SimpleName VariableDeclarationFragment MethodInvocation SimpleName root location
+fs root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+final Modifier VariableDeclarationStatement SimpleType SimpleName file system
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fs root
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName root location
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs root
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create file system
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName create file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName fs root
+file system SimpleName SimpleType MethodDeclaration SimpleName create file system
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+file system SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+create file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+create file system SimpleName MethodDeclaration Block ReturnStatement SimpleName fs root
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+sshd SimpleName MethodInvocation SimpleName set file system factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file system factory
+set file system factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file system factory
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup test client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+session SimpleName MethodInvocation SimpleName create sftp client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create sftp client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+sftp SimpleName MethodInvocation SimpleName canonical path
+sftp SimpleName MethodInvocation StringLiteral /
+canonical path SimpleName MethodInvocation StringLiteral /
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName canonical path
+root dir SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root dir
+root dir SimpleName InfixExpression StringLiteral /..
+sftp SimpleName MethodInvocation SimpleName canonical path
+sftp SimpleName MethodInvocation InfixExpression SimpleName root dir
+sftp SimpleName MethodInvocation InfixExpression StringLiteral /..
+canonical path SimpleName MethodInvocation InfixExpression SimpleName root dir
+canonical path SimpleName MethodInvocation InfixExpression StringLiteral /..
+up dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+up dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName canonical path
+up dir SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName root dir
+up dir SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /..
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName up dir
+assert equals SimpleName MethodInvocation StringLiteral mismatched root dir parent
+assert equals SimpleName MethodInvocation SimpleName root dir
+assert equals SimpleName MethodInvocation SimpleName up dir
+mismatched root dir parent StringLiteral MethodInvocation SimpleName root dir
+mismatched root dir parent StringLiteral MethodInvocation SimpleName up dir
+root dir SimpleName MethodInvocation SimpleName up dir
+client SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test navigate beyond root folder
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test navigate beyond root folder
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test navigate beyond root folder
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test navigate beyond root folder SimpleName MethodDeclaration SimpleType SimpleName exception
+test navigate beyond root folder SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test navigate beyond root folder
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test navigate beyond root folder
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

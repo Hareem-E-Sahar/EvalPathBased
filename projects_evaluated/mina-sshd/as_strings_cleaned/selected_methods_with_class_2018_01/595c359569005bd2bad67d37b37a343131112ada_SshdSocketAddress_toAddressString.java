@@ -1,0 +1,38 @@
+inet address SimpleName SimpleType SingleVariableDeclaration SimpleName addr
+addr SimpleName MethodInvocation SimpleName to string
+ip SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName addr
+ip SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ip
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ip
+is empty SimpleName MethodInvocation SimpleName ip
+ip SimpleName MethodInvocation SimpleName replace all
+ip SimpleName MethodInvocation StringLiteral .*/
+ip SimpleName MethodInvocation StringLiteral empty
+replace all SimpleName MethodInvocation StringLiteral .*/
+replace all SimpleName MethodInvocation StringLiteral empty
+.*/ StringLiteral MethodInvocation StringLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to address string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to address string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName addr
+string SimpleName SimpleType MethodDeclaration SimpleName to address string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName addr
+to address string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+to address string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName addr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to address string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to address string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr

@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+current user holder SimpleName MethodInvocation SimpleName set
+current user holder SimpleName MethodInvocation SimpleName username
+set SimpleName MethodInvocation SimpleName username
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set current user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName current user holder
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set current user
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName current user holder
+void PrimitiveType MethodDeclaration SimpleName set current user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName current user holder
+set current user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set current user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+set current user SimpleName MethodDeclaration Block SynchronizedStatement SimpleName current user holder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set current user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set current user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username

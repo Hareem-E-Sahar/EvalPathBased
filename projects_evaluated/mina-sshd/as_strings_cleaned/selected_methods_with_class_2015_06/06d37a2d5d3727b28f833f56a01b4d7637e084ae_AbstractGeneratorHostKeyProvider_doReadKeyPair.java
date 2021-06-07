@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName input stream
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SimpleName do read key pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName input stream
+abstract Modifier MethodDeclaration SimpleType SimpleName key pair
+abstract Modifier MethodDeclaration SimpleName do read key pair
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName input stream
+abstract Modifier MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName do read key pair
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource key
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName input stream
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+do read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+do read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+do read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input stream
+do read key pair SimpleName MethodDeclaration SimpleType SimpleName io exception
+do read key pair SimpleName MethodDeclaration SimpleType SimpleName general security exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input stream
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+input stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+input stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName do read key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do read key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

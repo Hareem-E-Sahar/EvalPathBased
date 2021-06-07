@@ -1,0 +1,54 @@
+open future SimpleName SimpleType SingleVariableDeclaration SimpleName f
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+io session SimpleName Assignment SimpleName session
+session SimpleName MethodInvocation SimpleName to string
+change event SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+change event SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName change event
+f SimpleName MethodInvocation SimpleName set opened
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName t
+peel exception SimpleName MethodInvocation SimpleName t
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+change event SimpleName Assignment MethodInvocation MethodInvocation SimpleName e
+change event SimpleName Assignment MethodInvocation MethodInvocation SimpleName get class
+change event SimpleName Assignment MethodInvocation SimpleName get simple name
+signal channel open failure SimpleName MethodInvocation SimpleName e
+f SimpleName MethodInvocation SimpleName set exception
+f SimpleName MethodInvocation SimpleName e
+set exception SimpleName MethodInvocation SimpleName e
+notify state changed SimpleName MethodInvocation SimpleName change event
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle channel open success
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName handle channel open success
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open future
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+handle channel open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+f SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle channel open success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle channel open success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

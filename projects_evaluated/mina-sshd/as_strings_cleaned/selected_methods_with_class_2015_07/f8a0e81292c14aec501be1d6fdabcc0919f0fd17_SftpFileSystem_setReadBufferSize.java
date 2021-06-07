@@ -1,0 +1,33 @@
+int PrimitiveType SingleVariableDeclaration SimpleName size
+size SimpleName InfixExpression QualifiedName sftp clientmin read buffer size
+insufficient read buffer size StringLiteral InfixExpression SimpleName size
+insufficient read buffer size StringLiteral InfixExpression StringLiteral min
+insufficient read buffer size StringLiteral InfixExpression QualifiedName sftp clientmin read buffer size
+size SimpleName InfixExpression StringLiteral min
+size SimpleName InfixExpression QualifiedName sftp clientmin read buffer size
+min StringLiteral InfixExpression QualifiedName sftp clientmin read buffer size
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral insufficient read buffer size
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName size
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral min
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName sftp clientmin read buffer size
+read buffer size SimpleName Assignment SimpleName size
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set read buffer size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+void PrimitiveType MethodDeclaration SimpleName set read buffer size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName size
+set read buffer size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set read buffer size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set read buffer size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set read buffer size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size

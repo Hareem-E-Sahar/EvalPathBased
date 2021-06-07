@@ -1,0 +1,10 @@
+scp timestamp SimpleName SimpleType MethodDeclaration SimpleName get timestamp
+scp timestamp SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get timestamp SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scp timestamp
+public Modifier TypeDeclaration MethodDeclaration SimpleName get timestamp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scp timestamp
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get timestamp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

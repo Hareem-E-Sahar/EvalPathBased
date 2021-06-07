@@ -1,0 +1,82 @@
+uri SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+uri SimpleName MethodInvocation SimpleName get scheme specific part
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scheme specific part
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+str SimpleName MethodInvocation SimpleName index of
+str SimpleName MethodInvocation StringLiteral !/
+index of SimpleName MethodInvocation StringLiteral !/
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+i SimpleName VariableDeclarationFragment MethodInvocation StringLiteral !/
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName str
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral !/
+i SimpleName InfixExpression PrefixExpression NumberLiteral empty
+uri StringLiteral InfixExpression SimpleName uri
+uri StringLiteral InfixExpression StringLiteral does not contain path info - eg rootfilefoobar
+uri SimpleName InfixExpression StringLiteral does not contain path info - eg rootfilefoobar
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral uri
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName uri
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not contain path info - eg rootfilefoobar
+get file system SimpleName MethodInvocation SimpleName uri
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+i SimpleName InfixExpression NumberLiteral empty
+str SimpleName MethodInvocation SimpleName substring
+str SimpleName MethodInvocation InfixExpression SimpleName i
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName i
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sub path SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+sub path SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+sub path SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName i
+sub path SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sub path
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation SimpleName sub path
+get path SimpleName MethodInvocation SimpleName sub path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName sub path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral get path {}
+log SimpleName MethodInvocation SimpleName uri
+log SimpleName MethodInvocation SimpleName p
+trace SimpleName MethodInvocation StringLiteral get path {}
+trace SimpleName MethodInvocation SimpleName uri
+trace SimpleName MethodInvocation SimpleName p
+get path {} StringLiteral MethodInvocation SimpleName uri
+get path {} StringLiteral MethodInvocation SimpleName p
+uri SimpleName MethodInvocation SimpleName p
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName p
+path SimpleName SimpleType MethodDeclaration SimpleName get path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+get path SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get path SimpleName MethodDeclaration Block ReturnStatement SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri

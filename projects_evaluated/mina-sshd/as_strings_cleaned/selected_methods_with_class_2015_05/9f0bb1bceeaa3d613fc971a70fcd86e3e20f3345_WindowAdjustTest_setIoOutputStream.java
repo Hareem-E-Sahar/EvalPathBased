@@ -1,0 +1,52 @@
+io output stream SimpleName SimpleType SingleVariableDeclaration SimpleName out
+async in pending wrapper SimpleName SimpleType ClassInstanceCreation SimpleName out
+a SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName async in pending wrapper
+a SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName out
+final Modifier VariableDeclarationStatement SimpleType SimpleName async in pending wrapper
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName out
+async in pending wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName send count
+byte array buffer SimpleName SimpleType ClassInstanceCreation SimpleName msg
+a SimpleName MethodInvocation SimpleName write
+a SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+a SimpleName MethodInvocation ClassInstanceCreation SimpleName msg
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+write SimpleName MethodInvocation ClassInstanceCreation SimpleName msg
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName send count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+send count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+last msg SimpleName MethodInvocation SimpleName get bytes
+a SimpleName MethodInvocation SimpleName write
+a SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+thread SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set io output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName set io output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+set io output stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io output stream
+set io output stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+set io output stream SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set io output stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set io output stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out

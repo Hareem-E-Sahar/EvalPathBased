@@ -1,0 +1,74 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName key
+keylength QualifiedName InfixExpression SimpleName defbsize
+byte PrimitiveType ArrayType ArrayCreation SimpleName defbsize
+tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+tmp SimpleName VariableDeclarationFragment ArrayCreation SimpleName defbsize
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName key
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName tmp
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName key
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName tmp
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName defbsize
+key SimpleName MethodInvocation NumberLiteral empty
+key SimpleName MethodInvocation SimpleName tmp
+key SimpleName MethodInvocation NumberLiteral empty
+key SimpleName MethodInvocation SimpleName defbsize
+empty NumberLiteral MethodInvocation SimpleName tmp
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName defbsize
+tmp SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation SimpleName defbsize
+empty NumberLiteral MethodInvocation SimpleName defbsize
+key SimpleName Assignment SimpleName tmp
+secret key spec SimpleName SimpleType ClassInstanceCreation SimpleName key
+secret key spec SimpleName SimpleType ClassInstanceCreation SimpleName algorithm
+key SimpleName ClassInstanceCreation SimpleName algorithm
+skey SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName secret key spec
+skey SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName key
+skey SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName algorithm
+secret key spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName skey
+security utils SimpleName MethodInvocation SimpleName get mac
+security utils SimpleName MethodInvocation SimpleName algorithm
+get mac SimpleName MethodInvocation SimpleName algorithm
+mac SimpleName Assignment MethodInvocation SimpleName security utils
+mac SimpleName Assignment MethodInvocation SimpleName get mac
+mac SimpleName Assignment MethodInvocation SimpleName algorithm
+mac SimpleName MethodInvocation SimpleName init
+mac SimpleName MethodInvocation SimpleName skey
+init SimpleName MethodInvocation SimpleName skey
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName init
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+init SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+init SimpleName MethodDeclaration SimpleType SimpleName exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

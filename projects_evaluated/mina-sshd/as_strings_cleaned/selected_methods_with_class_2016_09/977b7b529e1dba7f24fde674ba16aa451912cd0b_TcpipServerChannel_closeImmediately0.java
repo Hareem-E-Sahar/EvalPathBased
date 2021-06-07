@@ -1,0 +1,82 @@
+close SimpleName SuperMethodInvocation BooleanLiteral true
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get executor service
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+tcp ip server channelconnector cleanup StringLiteral InfixExpression MethodInvocation SimpleName get session
+tcp ip server channelconnector cleanup StringLiteral InfixExpression StringLiteral ]
+get session SimpleName MethodInvocation InfixExpression StringLiteral ]
+thread utils SimpleName MethodInvocation SimpleName new single thread executor
+thread utils SimpleName MethodInvocation InfixExpression StringLiteral tcp ip server channelconnector cleanup
+thread utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get session
+thread utils SimpleName MethodInvocation InfixExpression StringLiteral ]
+new single thread executor SimpleName MethodInvocation InfixExpression StringLiteral tcp ip server channelconnector cleanup
+new single thread executor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get session
+new single thread executor SimpleName MethodInvocation InfixExpression StringLiteral ]
+service SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName service
+thread utils SimpleName MethodInvocation ConditionalExpression SimpleName service
+new single thread executor SimpleName MethodInvocation ConditionalExpression SimpleName service
+tcp ip server channelconnector cleanup StringLiteral InfixExpression MethodInvocation ConditionalExpression SimpleName service
+] StringLiteral InfixExpression MethodInvocation ConditionalExpression SimpleName service
+executors SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName thread utils
+executors SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName new single thread executor
+executors SimpleName VariableDeclarationFragment ConditionalExpression SimpleName service
+final Modifier VariableDeclarationStatement SimpleType SimpleName executor service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName executors
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName service
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName executors
+executors SimpleName InfixExpression SimpleName service
+executors SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is shutdown on exit
+service SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is shutdown on exit
+shutdown SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName executors
+shutdown SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName service
+shutdown SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is shutdown on exit
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName shutdown
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName shutdown
+connector SimpleName MethodInvocation SimpleName close
+connector SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+executors SimpleName MethodInvocation SimpleName is shutdown
+shutdown SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName executors
+shutdown SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName is shutdown
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+executors SimpleName MethodInvocation SimpleName shutdown now
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName shutdown now
+log SimpleName MethodInvocation SimpleName is debug enabled
+runners SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral destroy - shutdown executor service - runners count
+log SimpleName MethodInvocation ThisExpression SimpleName tcpip server channel
+log SimpleName MethodInvocation MethodInvocation SimpleName runners
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral destroy - shutdown executor service - runners count
+debug SimpleName MethodInvocation ThisExpression SimpleName tcpip server channel
+debug SimpleName MethodInvocation MethodInvocation SimpleName runners
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+destroy - shutdown executor service - runners count StringLiteral MethodInvocation ThisExpression SimpleName tcpip server channel
+destroy - shutdown executor service - runners count StringLiteral MethodInvocation MethodInvocation SimpleName runners
+destroy - shutdown executor service - runners count StringLiteral MethodInvocation MethodInvocation SimpleName size
+tcpip server channel SimpleName ThisExpression MethodInvocation MethodInvocation SimpleName runners
+tcpip server channel SimpleName ThisExpression MethodInvocation MethodInvocation SimpleName size
+executors SimpleName MethodInvocation SimpleName submit
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName close immediately
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName close immediately
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+close immediately SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+close immediately SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+close immediately SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close immediately

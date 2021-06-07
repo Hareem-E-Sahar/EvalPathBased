@@ -1,0 +1,105 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ops map
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ops map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ops map
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+transformer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName xformer
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName xformer
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName xformer
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName integer
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName oe
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName oe
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName oe
+ops map SimpleName MethodInvocation SimpleName entry set
+oe SimpleName MethodInvocation SimpleName get key
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName oe
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+oe SimpleName MethodInvocation SimpleName get value
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName oe
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+xformer SimpleName MethodInvocation SimpleName transform
+xformer SimpleName MethodInvocation SimpleName cmd
+transform SimpleName MethodInvocation SimpleName cmd
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName xformer
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched results for cmd StringLiteral InfixExpression SimpleName cmd
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched results for cmd
+assert same SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched results for cmd StringLiteral InfixExpression MethodInvocation SimpleName expected
+cmd SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched results for cmd StringLiteral InfixExpression MethodInvocation SimpleName actual
+cmd SimpleName InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+ssh constants SimpleName MethodInvocation SimpleName is ambigouos opcode
+ssh constants SimpleName MethodInvocation SimpleName cmd
+is ambigouos opcode SimpleName MethodInvocation SimpleName cmd
+unexpected ambiguous command resolution for StringLiteral InfixExpression SimpleName cmd
+cmd SimpleName MethodInvocation SimpleName to string
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral unexpected ambiguous command resolution for
+assert equals SimpleName MethodInvocation InfixExpression SimpleName cmd
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cmd
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cmd
+unexpected ambiguous command resolution for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+unexpected ambiguous command resolution for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+unexpected ambiguous command resolution for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+unexpected ambiguous command resolution for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get command message name
+unexpected ambiguous command resolution for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get command message name
+cmd SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh constants
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get command message name
+cmd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cmd
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssh constants
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get command message name
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cmd
+oe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName ops map
+oe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test kex opcode name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ops map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName xformer
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName test kex opcode name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ops map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName xformer
+void PrimitiveType MethodDeclaration SimpleName test kex opcode name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ops map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xformer
+test kex opcode name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ops map
+test kex opcode name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xformer
+ops map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xformer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test kex opcode name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ops map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xformer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test kex opcode name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ops map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xformer

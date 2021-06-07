@@ -1,0 +1,42 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType SingleVariableDeclaration SimpleName request type
+x filter SimpleName MethodInvocation SimpleName can forward x
+x filter SimpleName MethodInvocation SimpleName session
+x filter SimpleName MethodInvocation SimpleName request type
+can forward x SimpleName MethodInvocation SimpleName session
+can forward x SimpleName MethodInvocation SimpleName request type
+session SimpleName MethodInvocation SimpleName request type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName can forward x
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can forward x
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request type
+boolean PrimitiveType MethodDeclaration SimpleName can forward x
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request type
+can forward x SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+can forward x SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+can forward x SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can forward x SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request type
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can forward x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can forward x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request type

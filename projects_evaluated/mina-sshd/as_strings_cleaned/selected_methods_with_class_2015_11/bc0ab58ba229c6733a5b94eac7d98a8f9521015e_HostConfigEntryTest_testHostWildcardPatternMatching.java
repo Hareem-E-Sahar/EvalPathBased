@@ -1,0 +1,141 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+pkg name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get package
+pkg name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pkg name
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName pkg name
+generic utils SimpleName MethodInvocation CharacterLiteral .
+split SimpleName MethodInvocation SimpleName pkg name
+split SimpleName MethodInvocation CharacterLiteral .
+pkg name SimpleName MethodInvocation CharacterLiteral .
+elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName pkg name
+elements SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral .
+pkg name SimpleName MethodInvocation SimpleName length
+pkg name SimpleName MethodInvocation InfixExpression QualifiedName longsize
+length SimpleName MethodInvocation InfixExpression QualifiedName longsize
+pkg name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+longsize QualifiedName InfixExpression NumberLiteral empty
+string builder SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName longsize
+string builder SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName append
+longsize QualifiedName InfixExpression ClassInstanceCreation MethodInvocation SimpleName append
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName append
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName host config entrywildcard pattern
+longsize QualifiedName InfixExpression ClassInstanceCreation MethodInvocation QualifiedName host config entrywildcard pattern
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation QualifiedName host config entrywildcard pattern
+append SimpleName MethodInvocation QualifiedName host config entrywildcard pattern
+sb SimpleName VariableDeclarationFragment MethodInvocation SimpleName append
+sb SimpleName VariableDeclarationFragment MethodInvocation QualifiedName host config entrywildcard pattern
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+elementslength QualifiedName InfixExpression NumberLiteral empty
+index SimpleName VariableDeclarationFragment InfixExpression QualifiedName elementslength
+index SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression QualifiedName elementslength
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+index SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral .
+append SimpleName MethodInvocation CharacterLiteral .
+elements SimpleName ArrayAccess SimpleName index
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+. CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName elements
+sb SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName index
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName elements
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName index
+. CharacterLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName elements
+. CharacterLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName index
+append SimpleName MethodInvocation ArrayAccess SimpleName elements
+append SimpleName MethodInvocation ArrayAccess SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName index
+sb SimpleName MethodInvocation SimpleName to string
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName sb
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName pattern
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+pattern SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+host config entry SimpleName MethodInvocation SimpleName to pattern
+host config entry SimpleName MethodInvocation SimpleName value
+to pattern SimpleName MethodInvocation SimpleName value
+pp SimpleName VariableDeclarationFragment MethodInvocation SimpleName host config entry
+pp SimpleName VariableDeclarationFragment MethodInvocation SimpleName to pattern
+pp SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+pp SimpleName MethodInvocation SimpleName get first
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName pp
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+pattern SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern
+value SimpleName MethodInvocation SimpleName substring
+value SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+domain SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+domain SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+domain SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName domain
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral -
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+- StringLiteral InfixExpression MethodInvocation SimpleName get current test name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral .
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+. StringLiteral InfixExpression MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral -
+get simple name SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral .
+get current test name SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral -
+get current test name SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral .
+- StringLiteral InfixExpression ArrayInitializer InfixExpression StringLiteral .
+sb SimpleName MethodInvocation SimpleName set length
+sb SimpleName MethodInvocation NumberLiteral empty
+set length SimpleName MethodInvocation NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName host
+append SimpleName MethodInvocation SimpleName host
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+host SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName domain
+append SimpleName MethodInvocation MethodInvocation SimpleName domain
+host SimpleName MethodInvocation MethodInvocation SimpleName domain
+append SimpleName MethodInvocation SimpleName domain
+sb SimpleName MethodInvocation SimpleName to string
+test case insensitive pattern matching SimpleName MethodInvocation MethodInvocation SimpleName sb
+test case insensitive pattern matching SimpleName MethodInvocation MethodInvocation SimpleName to string
+test case insensitive pattern matching SimpleName MethodInvocation SimpleName pattern
+test case insensitive pattern matching SimpleName MethodInvocation BooleanLiteral true
+sb SimpleName MethodInvocation MethodInvocation SimpleName pattern
+to string SimpleName MethodInvocation MethodInvocation SimpleName pattern
+sb SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+pattern SimpleName MethodInvocation BooleanLiteral true
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test host wildcard pattern matching
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test host wildcard pattern matching
+void PrimitiveType MethodDeclaration SimpleName test host wildcard pattern matching
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test host wildcard pattern matching
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test host wildcard pattern matching

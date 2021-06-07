@@ -1,0 +1,75 @@
+builder SimpleName MethodInvocation MethodInvocation SimpleName when
+builder SimpleName MethodInvocation MethodInvocation SimpleName open future
+when SimpleName MethodInvocation SimpleName open future
+graceful future SimpleName MethodInvocation SimpleName set closed
+io utils SimpleName MethodInvocation SimpleName close quietly
+io utils SimpleName MethodInvocation SimpleName in
+io utils SimpleName MethodInvocation SimpleName out
+io utils SimpleName MethodInvocation SimpleName err
+close quietly SimpleName MethodInvocation SimpleName in
+close quietly SimpleName MethodInvocation SimpleName out
+close quietly SimpleName MethodInvocation SimpleName err
+in SimpleName MethodInvocation SimpleName out
+in SimpleName MethodInvocation SimpleName err
+out SimpleName MethodInvocation SimpleName err
+io utils SimpleName MethodInvocation SimpleName close quietly
+io utils SimpleName MethodInvocation SimpleName inverted in
+io utils SimpleName MethodInvocation SimpleName inverted out
+io utils SimpleName MethodInvocation SimpleName inverted err
+close quietly SimpleName MethodInvocation SimpleName inverted in
+close quietly SimpleName MethodInvocation SimpleName inverted out
+close quietly SimpleName MethodInvocation SimpleName inverted err
+inverted in SimpleName MethodInvocation SimpleName inverted out
+inverted in SimpleName MethodInvocation SimpleName inverted err
+inverted out SimpleName MethodInvocation SimpleName inverted err
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName run
+when SimpleName MethodInvocation MethodInvocation SimpleName run
+open future SimpleName MethodInvocation MethodInvocation SimpleName run
+run SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parallel
+open future SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parallel
+run SimpleName MethodInvocation MethodInvocation SimpleName parallel
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName async in
+open future SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName async in
+run SimpleName MethodInvocation MethodInvocation SimpleName async in
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName async out
+open future SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName async out
+run SimpleName MethodInvocation MethodInvocation SimpleName async out
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName async err
+open future SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName async err
+run SimpleName MethodInvocation MethodInvocation SimpleName async err
+parallel SimpleName MethodInvocation SimpleName async in
+parallel SimpleName MethodInvocation SimpleName async out
+parallel SimpleName MethodInvocation SimpleName async err
+async in SimpleName MethodInvocation SimpleName async out
+async in SimpleName MethodInvocation SimpleName async err
+async out SimpleName MethodInvocation SimpleName async err
+run SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName close
+parallel SimpleName MethodInvocation MethodInvocation SimpleName close
+async in SimpleName MethodInvocation MethodInvocation SimpleName close
+async out SimpleName MethodInvocation MethodInvocation SimpleName close
+async err SimpleName MethodInvocation MethodInvocation SimpleName close
+close SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graceful channel closeable
+parallel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+async in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+async out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+async err SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+close SimpleName MethodInvocation MethodInvocation SimpleName build
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName closeable
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get inner closeable
+protected Modifier MethodDeclaration SimpleType SimpleName closeable
+protected Modifier MethodDeclaration SimpleName get inner closeable
+closeable SimpleName SimpleType MethodDeclaration SimpleName get inner closeable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get inner closeable
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get inner closeable

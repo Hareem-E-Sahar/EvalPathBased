@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get connect timeout
+public Modifier MethodDeclaration Block ReturnStatement SimpleName connect timeout
+long PrimitiveType MethodDeclaration SimpleName get connect timeout
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName connect timeout
+get connect timeout SimpleName MethodDeclaration Block ReturnStatement SimpleName connect timeout
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connect timeout
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connect timeout

@@ -1,0 +1,114 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName shutdown on exit
+true BooleanLiteral ArrayInitializer BooleanLiteral false
+boolean PrimitiveType ArrayType ArrayCreation ArrayInitializer BooleanLiteral true
+boolean PrimitiveType ArrayType ArrayCreation ArrayInitializer BooleanLiteral false
+unexpected instance for shutdown StringLiteral InfixExpression SimpleName shutdown on exit
+thread utils SimpleName MethodInvocation SimpleName protect executor service shutdown
+thread utils SimpleName MethodInvocation SimpleName shutdown on exit
+protect executor service shutdown SimpleName MethodInvocation SimpleName shutdown on exit
+assert null SimpleName MethodInvocation InfixExpression StringLiteral unexpected instance for shutdown
+assert null SimpleName MethodInvocation InfixExpression SimpleName shutdown on exit
+assert null SimpleName MethodInvocation MethodInvocation SimpleName thread utils
+assert null SimpleName MethodInvocation MethodInvocation SimpleName protect executor service shutdown
+assert null SimpleName MethodInvocation MethodInvocation SimpleName shutdown on exit
+unexpected instance for shutdown StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName thread utils
+unexpected instance for shutdown StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName protect executor service shutdown
+unexpected instance for shutdown StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName shutdown on exit
+shutdown on exit SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName thread utils
+shutdown on exit SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName protect executor service shutdown
+shutdown on exit SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName shutdown on exit
+executors SimpleName MethodInvocation SimpleName new single thread executor
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName new single thread executor
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+thread utils SimpleName MethodInvocation SimpleName protect executor service shutdown
+thread utils SimpleName MethodInvocation SimpleName service
+thread utils SimpleName MethodInvocation BooleanLiteral true
+protect executor service shutdown SimpleName MethodInvocation SimpleName service
+protect executor service shutdown SimpleName MethodInvocation BooleanLiteral true
+service SimpleName MethodInvocation BooleanLiteral true
+assert same SimpleName MethodInvocation StringLiteral unexpected wrapped instance
+assert same SimpleName MethodInvocation SimpleName service
+assert same SimpleName MethodInvocation MethodInvocation SimpleName thread utils
+assert same SimpleName MethodInvocation MethodInvocation SimpleName protect executor service shutdown
+assert same SimpleName MethodInvocation MethodInvocation SimpleName service
+assert same SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+unexpected wrapped instance StringLiteral MethodInvocation SimpleName service
+unexpected wrapped instance StringLiteral MethodInvocation MethodInvocation SimpleName thread utils
+unexpected wrapped instance StringLiteral MethodInvocation MethodInvocation SimpleName protect executor service shutdown
+unexpected wrapped instance StringLiteral MethodInvocation MethodInvocation SimpleName service
+unexpected wrapped instance StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+service SimpleName MethodInvocation MethodInvocation SimpleName thread utils
+service SimpleName MethodInvocation MethodInvocation SimpleName protect executor service shutdown
+service SimpleName MethodInvocation MethodInvocation SimpleName service
+service SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+thread utils SimpleName MethodInvocation SimpleName protect executor service shutdown
+thread utils SimpleName MethodInvocation SimpleName service
+thread utils SimpleName MethodInvocation BooleanLiteral false
+protect executor service shutdown SimpleName MethodInvocation SimpleName service
+protect executor service shutdown SimpleName MethodInvocation BooleanLiteral false
+service SimpleName MethodInvocation BooleanLiteral false
+wrapped SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread utils
+wrapped SimpleName VariableDeclarationFragment MethodInvocation SimpleName protect executor service shutdown
+wrapped SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+wrapped SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wrapped
+assert not same SimpleName MethodInvocation StringLiteral no wrapping occurred
+assert not same SimpleName MethodInvocation SimpleName service
+assert not same SimpleName MethodInvocation SimpleName wrapped
+no wrapping occurred StringLiteral MethodInvocation SimpleName service
+no wrapping occurred StringLiteral MethodInvocation SimpleName wrapped
+service SimpleName MethodInvocation SimpleName wrapped
+wrapped SimpleName MethodInvocation SimpleName shutdown
+wrapped SimpleName MethodInvocation SimpleName is shutdown
+assert true SimpleName MethodInvocation StringLiteral wrapped service not shutdown
+assert true SimpleName MethodInvocation MethodInvocation SimpleName wrapped
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is shutdown
+wrapped service not shutdown StringLiteral MethodInvocation MethodInvocation SimpleName wrapped
+wrapped service not shutdown StringLiteral MethodInvocation MethodInvocation SimpleName is shutdown
+service SimpleName MethodInvocation SimpleName is shutdown
+assert false SimpleName MethodInvocation StringLiteral protected service is shutdown
+assert false SimpleName MethodInvocation MethodInvocation SimpleName service
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is shutdown
+protected service is shutdown StringLiteral MethodInvocation MethodInvocation SimpleName service
+protected service is shutdown StringLiteral MethodInvocation MethodInvocation SimpleName is shutdown
+collection SimpleName SimpleType ParameterizedType WildcardType ?
+wrapped SimpleName MethodInvocation SimpleName shutdown now
+running SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrapped
+running SimpleName VariableDeclarationFragment MethodInvocation SimpleName shutdown now
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName running
+running SimpleName MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation StringLiteral nonempty runners list
+assert true SimpleName MethodInvocation MethodInvocation SimpleName running
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+nonempty runners list StringLiteral MethodInvocation MethodInvocation SimpleName running
+nonempty runners list StringLiteral MethodInvocation MethodInvocation SimpleName is empty
+wrapped SimpleName MethodInvocation SimpleName is shutdown
+assert true SimpleName MethodInvocation StringLiteral wrapped service not shutdown now
+assert true SimpleName MethodInvocation MethodInvocation SimpleName wrapped
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is shutdown
+wrapped service not shutdown now StringLiteral MethodInvocation MethodInvocation SimpleName wrapped
+wrapped service not shutdown now StringLiteral MethodInvocation MethodInvocation SimpleName is shutdown
+service SimpleName MethodInvocation SimpleName is shutdown
+assert false SimpleName MethodInvocation StringLiteral protected service is shutdown now
+assert false SimpleName MethodInvocation MethodInvocation SimpleName service
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is shutdown
+protected service is shutdown now StringLiteral MethodInvocation MethodInvocation SimpleName service
+protected service is shutdown now StringLiteral MethodInvocation MethodInvocation SimpleName is shutdown
+wrapped SimpleName MethodInvocation SimpleName shutdown now
+service SimpleName MethodInvocation SimpleName shutdown now
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test protect executor service shutdown
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test protect executor service shutdown
+void PrimitiveType MethodDeclaration SimpleName test protect executor service shutdown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test protect executor service shutdown
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test protect executor service shutdown

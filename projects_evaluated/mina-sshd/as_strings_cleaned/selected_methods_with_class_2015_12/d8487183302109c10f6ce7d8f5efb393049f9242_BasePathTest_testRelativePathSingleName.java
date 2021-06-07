@@ -1,0 +1,44 @@
+path tester SimpleName SimpleType ClassInstanceCreation SimpleName file system
+path tester SimpleName SimpleType ClassInstanceCreation StringLiteral test
+file system SimpleName ClassInstanceCreation StringLiteral test
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+test StringLiteral ClassInstanceCreation MethodInvocation SimpleName names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral test
+file system SimpleName ClassInstanceCreation MethodInvocation StringLiteral test
+test StringLiteral ClassInstanceCreation MethodInvocation StringLiteral test
+names SimpleName MethodInvocation StringLiteral test
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+test StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation SimpleName test
+test StringLiteral MethodInvocation MethodInvocation SimpleName test
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral test
+test StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral test
+names SimpleName MethodInvocation MethodInvocation StringLiteral test
+test StringLiteral MethodInvocation MethodInvocation StringLiteral test
+test SimpleName MethodInvocation StringLiteral test
+parse path SimpleName MethodInvocation StringLiteral test
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse path
+path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName get file name
+assert equals SimpleName MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get file name
+path SimpleName MethodInvocation MethodInvocation SimpleName path
+path SimpleName MethodInvocation MethodInvocation SimpleName get file name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test relative path single name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test relative path single name
+void PrimitiveType MethodDeclaration SimpleName test relative path single name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test relative path single name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test relative path single name

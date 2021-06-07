@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algo
+digest utils SimpleName MethodInvocation SimpleName find factory by algorithm
+digest utils SimpleName MethodInvocation SimpleName algo
+digest utils SimpleName MethodInvocation QualifiedName stringcase insensitive order
+digest utils SimpleName MethodInvocation SimpleName values
+find factory by algorithm SimpleName MethodInvocation SimpleName algo
+find factory by algorithm SimpleName MethodInvocation QualifiedName stringcase insensitive order
+find factory by algorithm SimpleName MethodInvocation SimpleName values
+algo SimpleName MethodInvocation QualifiedName stringcase insensitive order
+algo SimpleName MethodInvocation SimpleName values
+stringcase insensitive order QualifiedName MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName builtin digests
+public Modifier MethodDeclaration SimpleName from algorithm
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName algo
+static Modifier MethodDeclaration SimpleType SimpleName builtin digests
+static Modifier MethodDeclaration SimpleName from algorithm
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName algo
+builtin digests SimpleName SimpleType MethodDeclaration SimpleName from algorithm
+builtin digests SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algo
+from algorithm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from algorithm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algo
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin digests
+public Modifier TypeDeclaration MethodDeclaration SimpleName from algorithm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algo
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin digests
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from algorithm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algo

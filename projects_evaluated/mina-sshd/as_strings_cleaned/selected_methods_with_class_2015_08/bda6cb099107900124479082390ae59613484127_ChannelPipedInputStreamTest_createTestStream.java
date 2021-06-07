@@ -1,0 +1,40 @@
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+bogus channel SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+bogus channel SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+window SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName window
+window SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+window SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName window
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+window SimpleName MethodInvocation SimpleName init
+window SimpleName MethodInvocation MethodInvocation SimpleName collections
+window SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+window SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+window SimpleName MethodInvocation MethodInvocation SimpleName empty map
+init SimpleName MethodInvocation MethodInvocation SimpleName collections
+init SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+init SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+init SimpleName MethodInvocation MethodInvocation SimpleName empty map
+channel piped input stream SimpleName SimpleType ClassInstanceCreation SimpleName window
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName channel piped input stream
+private Modifier MethodDeclaration SimpleName create test stream
+static Modifier MethodDeclaration SimpleType SimpleName channel piped input stream
+static Modifier MethodDeclaration SimpleName create test stream
+channel piped input stream SimpleName SimpleType MethodDeclaration SimpleName create test stream
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName channel piped input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName create test stream
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName channel piped input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create test stream

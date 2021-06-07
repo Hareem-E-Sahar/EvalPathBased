@@ -1,0 +1,45 @@
+int PrimitiveType SingleVariableDeclaration SimpleName acl cap value
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get acl capability values map
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName acl cap value
+get SimpleName MethodInvocation SimpleName acl cap value
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName acl cap value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName acl cap value
+to string SimpleName MethodInvocation SimpleName acl cap value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get acl capability name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl cap value
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get acl capability name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl cap value
+string SimpleName SimpleType MethodDeclaration SimpleName get acl capability name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName acl cap value
+get acl capability name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get acl capability name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl cap value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get acl capability name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl cap value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get acl capability name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl cap value

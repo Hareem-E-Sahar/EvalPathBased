@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pattern
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName pattern
+is empty SimpleName MethodInvocation SimpleName pattern
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+pattern chars SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName pattern chars
+index SimpleName InfixExpression MethodInvocation SimpleName length
+pattern chars SimpleName MethodInvocation SimpleName char at
+pattern chars SimpleName MethodInvocation SimpleName index
+char at SimpleName MethodInvocation SimpleName index
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern chars
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pattern chars
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index
+pattern SimpleName MethodInvocation SimpleName index of
+pattern SimpleName MethodInvocation SimpleName ch
+index of SimpleName MethodInvocation SimpleName ch
+pattern SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ch SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is specific host pattern
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is specific host pattern
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is specific host pattern
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pattern
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is specific host pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is specific host pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pattern
+is specific host pattern SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is specific host pattern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is specific host pattern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern

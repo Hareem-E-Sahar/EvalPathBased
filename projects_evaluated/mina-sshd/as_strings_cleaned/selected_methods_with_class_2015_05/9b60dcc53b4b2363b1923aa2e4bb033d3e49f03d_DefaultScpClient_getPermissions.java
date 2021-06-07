@@ -1,0 +1,22 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get permissions
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName posix file permission
+public Modifier MethodDeclaration SimpleName get permissions
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName perms
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get permissions
+posix file permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get permissions
+get permissions SimpleName MethodDeclaration SimpleType SimpleName io exception
+get permissions SimpleName MethodDeclaration Block ReturnStatement SimpleName perms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get permissions
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get permissions
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,27 @@
+security utils SimpleName MethodInvocation SimpleName has ecc
+digest factory SimpleName MethodInvocation SimpleName is supported
+security utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName digest factory
+security utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is supported
+has ecc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName digest factory
+has ecc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is supported
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName is supported
+boolean PrimitiveType MethodDeclaration SimpleName is supported
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is supported
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is supported

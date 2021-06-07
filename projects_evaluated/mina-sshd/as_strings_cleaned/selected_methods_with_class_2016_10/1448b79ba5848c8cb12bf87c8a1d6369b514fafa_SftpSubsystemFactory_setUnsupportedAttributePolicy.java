@@ -1,0 +1,29 @@
+unsupported attribute policy SimpleName SimpleType SingleVariableDeclaration SimpleName p
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName p
+objects SimpleName MethodInvocation StringLiteral no policy
+require non null SimpleName MethodInvocation SimpleName p
+require non null SimpleName MethodInvocation StringLiteral no policy
+p SimpleName MethodInvocation StringLiteral no policy
+policy SimpleName Assignment MethodInvocation SimpleName objects
+policy SimpleName Assignment MethodInvocation SimpleName require non null
+policy SimpleName Assignment MethodInvocation SimpleName p
+policy SimpleName Assignment MethodInvocation StringLiteral no policy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set unsupported attribute policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+void PrimitiveType MethodDeclaration SimpleName set unsupported attribute policy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName p
+set unsupported attribute policy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+set unsupported attribute policy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set unsupported attribute policy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set unsupported attribute policy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

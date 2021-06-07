@@ -1,0 +1,24 @@
+no such element exception SimpleName SimpleType ClassInstanceCreation StringLiteral no more elements
+current SimpleName MethodInvocation SimpleName next
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+current SimpleName MethodInvocation SimpleName has next
+current SimpleName Assignment MethodInvocation SimpleName next iterator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName value
+t SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

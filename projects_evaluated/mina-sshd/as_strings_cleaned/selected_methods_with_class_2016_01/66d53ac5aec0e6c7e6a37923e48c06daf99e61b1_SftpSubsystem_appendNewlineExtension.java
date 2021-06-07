@@ -1,0 +1,81 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+log SimpleName MethodInvocation SimpleName is debug enabled
+value SimpleName MethodInvocation SimpleName get bytes
+value SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+buffer utils SimpleName MethodInvocation SimpleName print hex
+buffer utils SimpleName MethodInvocation CharacterLiteral :
+buffer utils SimpleName MethodInvocation MethodInvocation SimpleName value
+buffer utils SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+buffer utils SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+print hex SimpleName MethodInvocation CharacterLiteral :
+print hex SimpleName MethodInvocation MethodInvocation SimpleName value
+print hex SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+print hex SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+: CharacterLiteral MethodInvocation MethodInvocation SimpleName value
+: CharacterLiteral MethodInvocation MethodInvocation SimpleName get bytes
+: CharacterLiteral MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral append newline extension value
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+log SimpleName MethodInvocation MethodInvocation SimpleName print hex
+log SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+log SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+debug SimpleName MethodInvocation StringLiteral append newline extension value
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation MethodInvocation SimpleName buffer utils
+debug SimpleName MethodInvocation MethodInvocation SimpleName print hex
+debug SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+append newline extension value StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+append newline extension value StringLiteral MethodInvocation MethodInvocation SimpleName buffer utils
+append newline extension value StringLiteral MethodInvocation MethodInvocation SimpleName print hex
+append newline extension value StringLiteral MethodInvocation MethodInvocation CharacterLiteral :
+append newline extension value StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName value
+append newline extension value StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+append newline extension value StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+get server session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer utils
+get server session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName print hex
+get server session SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral :
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation QualifiedName sftp constantsext newline
+put string SimpleName MethodInvocation QualifiedName sftp constantsext newline
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName value
+put string SimpleName MethodInvocation SimpleName value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName append newline extension
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName append newline extension
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+append newline extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+append newline extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+append newline extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append newline extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append newline extension
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append newline extension
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

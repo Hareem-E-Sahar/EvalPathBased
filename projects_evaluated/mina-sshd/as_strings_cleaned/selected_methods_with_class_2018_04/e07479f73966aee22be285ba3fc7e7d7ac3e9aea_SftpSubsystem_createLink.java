@@ -1,0 +1,194 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName existing path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName link path
+boolean PrimitiveType SingleVariableDeclaration SimpleName sym link
+resolve file SimpleName MethodInvocation SimpleName link path
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+link SimpleName VariableDeclarationFragment MethodInvocation SimpleName link path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName link
+file system SimpleName MethodInvocation SimpleName get path
+file system SimpleName MethodInvocation SimpleName existing path
+get path SimpleName MethodInvocation SimpleName existing path
+existing SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+existing SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+existing SimpleName VariableDeclarationFragment MethodInvocation SimpleName existing path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral create linkid existing link symlink
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName link path
+debug SimpleName MethodInvocation StringLiteral create linkid existing link symlink
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation SimpleName link path
+debug SimpleName MethodInvocation SimpleName link
+create linkid existing link symlink StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+create linkid existing link symlink StringLiteral MethodInvocation SimpleName id
+create linkid existing link symlink StringLiteral MethodInvocation SimpleName link path
+create linkid existing link symlink StringLiteral MethodInvocation SimpleName link
+create linkid existing link symlink StringLiteral MethodInvocation SimpleName existing path
+get server session SimpleName MethodInvocation MethodInvocation SimpleName id
+get server session SimpleName MethodInvocation MethodInvocation SimpleName link path
+get server session SimpleName MethodInvocation MethodInvocation SimpleName link
+get server session SimpleName MethodInvocation MethodInvocation SimpleName existing path
+get server session SimpleName MethodInvocation MethodInvocation SimpleName existing
+id SimpleName MethodInvocation SimpleName link path
+id SimpleName MethodInvocation SimpleName link
+id SimpleName MethodInvocation SimpleName existing path
+id SimpleName MethodInvocation SimpleName existing
+id SimpleName MethodInvocation SimpleName sym link
+link path SimpleName MethodInvocation SimpleName link
+link path SimpleName MethodInvocation SimpleName existing path
+link path SimpleName MethodInvocation SimpleName existing
+link path SimpleName MethodInvocation SimpleName sym link
+link SimpleName MethodInvocation SimpleName existing path
+link SimpleName MethodInvocation SimpleName existing
+link SimpleName MethodInvocation SimpleName sym link
+existing path SimpleName MethodInvocation SimpleName existing
+existing path SimpleName MethodInvocation SimpleName sym link
+existing SimpleName MethodInvocation SimpleName sym link
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sftp event listener proxy
+sftp event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server session
+server session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+listener SimpleName MethodInvocation SimpleName linking
+listener SimpleName MethodInvocation SimpleName session
+listener SimpleName MethodInvocation SimpleName link
+listener SimpleName MethodInvocation SimpleName existing
+listener SimpleName MethodInvocation SimpleName sym link
+linking SimpleName MethodInvocation SimpleName session
+linking SimpleName MethodInvocation SimpleName link
+linking SimpleName MethodInvocation SimpleName existing
+linking SimpleName MethodInvocation SimpleName sym link
+session SimpleName MethodInvocation SimpleName link
+session SimpleName MethodInvocation SimpleName existing
+session SimpleName MethodInvocation SimpleName sym link
+link SimpleName MethodInvocation SimpleName existing
+link SimpleName MethodInvocation SimpleName sym link
+existing SimpleName MethodInvocation SimpleName sym link
+files SimpleName MethodInvocation SimpleName create symbolic link
+files SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName existing
+create symbolic link SimpleName MethodInvocation SimpleName link
+create symbolic link SimpleName MethodInvocation SimpleName existing
+link SimpleName MethodInvocation SimpleName existing
+files SimpleName MethodInvocation SimpleName create link
+files SimpleName MethodInvocation SimpleName link
+files SimpleName MethodInvocation SimpleName existing
+create link SimpleName MethodInvocation SimpleName link
+create link SimpleName MethodInvocation SimpleName existing
+link SimpleName MethodInvocation SimpleName existing
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+listener SimpleName MethodInvocation SimpleName linked
+listener SimpleName MethodInvocation SimpleName session
+listener SimpleName MethodInvocation SimpleName link
+listener SimpleName MethodInvocation SimpleName existing
+listener SimpleName MethodInvocation SimpleName sym link
+linked SimpleName MethodInvocation SimpleName session
+linked SimpleName MethodInvocation SimpleName link
+linked SimpleName MethodInvocation SimpleName existing
+linked SimpleName MethodInvocation SimpleName sym link
+linked SimpleName MethodInvocation SimpleName e
+session SimpleName MethodInvocation SimpleName link
+session SimpleName MethodInvocation SimpleName existing
+session SimpleName MethodInvocation SimpleName sym link
+session SimpleName MethodInvocation SimpleName e
+link SimpleName MethodInvocation SimpleName existing
+link SimpleName MethodInvocation SimpleName sym link
+link SimpleName MethodInvocation SimpleName e
+existing SimpleName MethodInvocation SimpleName sym link
+existing SimpleName MethodInvocation SimpleName e
+sym link SimpleName MethodInvocation SimpleName e
+listener SimpleName MethodInvocation SimpleName linked
+listener SimpleName MethodInvocation SimpleName session
+listener SimpleName MethodInvocation SimpleName link
+listener SimpleName MethodInvocation SimpleName existing
+listener SimpleName MethodInvocation SimpleName sym link
+linked SimpleName MethodInvocation SimpleName session
+linked SimpleName MethodInvocation SimpleName link
+linked SimpleName MethodInvocation SimpleName existing
+linked SimpleName MethodInvocation SimpleName sym link
+session SimpleName MethodInvocation SimpleName link
+session SimpleName MethodInvocation SimpleName existing
+session SimpleName MethodInvocation SimpleName sym link
+link SimpleName MethodInvocation SimpleName existing
+link SimpleName MethodInvocation SimpleName sym link
+existing SimpleName MethodInvocation SimpleName sym link
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create link
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName existing path
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName create link
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName link path
+void PrimitiveType MethodDeclaration SimpleName create link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName existing path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName link path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sym link
+create link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+create link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing path
+create link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName link path
+create link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sym link
+create link SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+existing path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+existing path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+existing path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+existing path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+link path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+link path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+link path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+sym link SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName link path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sym link
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

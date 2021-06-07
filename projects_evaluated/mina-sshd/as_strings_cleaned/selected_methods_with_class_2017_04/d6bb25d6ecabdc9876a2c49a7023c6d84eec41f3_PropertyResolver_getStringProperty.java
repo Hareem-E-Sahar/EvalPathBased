@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName def
+property resolver utils SimpleName MethodInvocation SimpleName get string property
+property resolver utils SimpleName MethodInvocation SimpleName name
+property resolver utils SimpleName MethodInvocation SimpleName def
+get string property SimpleName MethodInvocation SimpleName name
+get string property SimpleName MethodInvocation SimpleName def
+name SimpleName MethodInvocation SimpleName def
+default Modifier MethodDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SimpleName get string property
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName def
+string SimpleName SimpleType MethodDeclaration SimpleName get string property
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName def
+get string property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get string property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get string property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get string property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def

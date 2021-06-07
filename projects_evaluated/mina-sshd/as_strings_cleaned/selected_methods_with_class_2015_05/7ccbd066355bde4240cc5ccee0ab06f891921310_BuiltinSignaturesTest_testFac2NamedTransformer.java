@@ -1,0 +1,86 @@
+signature factoryfac named QualifiedName MethodInvocation SimpleName transform
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation StringLiteral invalid null transformation
+assert SimpleName MethodInvocation MethodInvocation QualifiedName signature factoryfac named
+assert SimpleName MethodInvocation MethodInvocation SimpleName transform
+assert null SimpleName MethodInvocation StringLiteral invalid null transformation
+assert null SimpleName MethodInvocation MethodInvocation QualifiedName signature factoryfac named
+assert null SimpleName MethodInvocation MethodInvocation SimpleName transform
+invalid null transformation StringLiteral MethodInvocation MethodInvocation QualifiedName signature factoryfac named
+invalid null transformation StringLiteral MethodInvocation MethodInvocation SimpleName transform
+signature factory SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+signature factoryfac named QualifiedName MethodInvocation SimpleName transform
+signature factoryfac named QualifiedName MethodInvocation SimpleName expected
+transform SimpleName MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName signature factoryfac named
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation SimpleName get name
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName expected
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation SimpleName assert same
+assert SimpleName MethodInvocation InfixExpression StringLiteral mismatched transformed instance for
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation SimpleName expected
+assert SimpleName MethodInvocation SimpleName actual
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched transformed instance for
+assert same SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+mismatched transformed instance for StringLiteral InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+signature factory SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin signaturesvalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin signaturesvalues
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName signature factory
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName signature factory
+mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+signature factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mock
+signature factoryfac named QualifiedName MethodInvocation SimpleName transform
+signature factoryfac named QualifiedName MethodInvocation SimpleName mock
+transform SimpleName MethodInvocation SimpleName mock
+assert SimpleName MethodInvocation SimpleName assert same
+assert SimpleName MethodInvocation StringLiteral mismatched transformed mocked instance
+assert SimpleName MethodInvocation SimpleName mock
+assert SimpleName MethodInvocation MethodInvocation QualifiedName signature factoryfac named
+assert SimpleName MethodInvocation MethodInvocation SimpleName transform
+assert SimpleName MethodInvocation MethodInvocation SimpleName mock
+assert same SimpleName MethodInvocation StringLiteral mismatched transformed mocked instance
+assert same SimpleName MethodInvocation SimpleName mock
+assert same SimpleName MethodInvocation MethodInvocation QualifiedName signature factoryfac named
+assert same SimpleName MethodInvocation MethodInvocation SimpleName transform
+assert same SimpleName MethodInvocation MethodInvocation SimpleName mock
+mismatched transformed mocked instance StringLiteral MethodInvocation SimpleName mock
+mismatched transformed mocked instance StringLiteral MethodInvocation MethodInvocation QualifiedName signature factoryfac named
+mismatched transformed mocked instance StringLiteral MethodInvocation MethodInvocation SimpleName transform
+mismatched transformed mocked instance StringLiteral MethodInvocation MethodInvocation SimpleName mock
+mock SimpleName MethodInvocation MethodInvocation QualifiedName signature factoryfac named
+mock SimpleName MethodInvocation MethodInvocation SimpleName transform
+mock SimpleName MethodInvocation MethodInvocation SimpleName mock
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test fac named transformer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test fac named transformer
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin signaturesvalues
+void PrimitiveType MethodDeclaration SimpleName test fac named transformer
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin signaturesvalues
+test fac named transformer SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin signaturesvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test fac named transformer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test fac named transformer

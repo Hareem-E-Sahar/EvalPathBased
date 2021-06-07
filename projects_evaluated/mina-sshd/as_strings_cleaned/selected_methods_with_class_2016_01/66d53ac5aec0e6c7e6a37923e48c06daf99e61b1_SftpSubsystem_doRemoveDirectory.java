@@ -1,0 +1,89 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+resolve file SimpleName MethodInvocation SimpleName path
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do remove directoryid ssh fxp rmdir path
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral do remove directoryid ssh fxp rmdir path
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation SimpleName p
+do remove directoryid ssh fxp rmdir path StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+do remove directoryid ssh fxp rmdir path StringLiteral MethodInvocation SimpleName id
+do remove directoryid ssh fxp rmdir path StringLiteral MethodInvocation SimpleName path
+do remove directoryid ssh fxp rmdir path StringLiteral MethodInvocation SimpleName p
+get server session SimpleName MethodInvocation MethodInvocation SimpleName id
+get server session SimpleName MethodInvocation MethodInvocation SimpleName path
+get server session SimpleName MethodInvocation MethodInvocation SimpleName p
+id SimpleName MethodInvocation SimpleName path
+id SimpleName MethodInvocation SimpleName p
+path SimpleName MethodInvocation SimpleName p
+files SimpleName MethodInvocation SimpleName is directory
+files SimpleName MethodInvocation SimpleName p
+files SimpleName MethodInvocation SimpleName options
+is directory SimpleName MethodInvocation SimpleName p
+is directory SimpleName MethodInvocation SimpleName options
+p SimpleName MethodInvocation SimpleName options
+do remove SimpleName MethodInvocation SimpleName id
+do remove SimpleName MethodInvocation SimpleName p
+id SimpleName MethodInvocation SimpleName p
+p SimpleName MethodInvocation SimpleName to string
+not directory exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName p
+not directory exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do remove directory
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName do remove directory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do remove directory SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do remove directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do remove directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do remove directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+do remove directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+do remove directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+do remove directory SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do remove directory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do remove directory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,38 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName kp
+get key type SimpleName MethodInvocation SimpleName kp
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName t
+is empty SimpleName MethodInvocation SimpleName t
+types SimpleName MethodInvocation SimpleName add
+types SimpleName MethodInvocation SimpleName t
+add SimpleName MethodInvocation SimpleName t
+key pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+kp SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName pairs
+pairs SimpleName EnhancedForStatement Block ReturnStatement SimpleName types
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get key types
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get key types
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName pairs
+public Modifier MethodDeclaration Block ReturnStatement SimpleName types
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get key types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get key types
+get key types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName pairs
+get key types SimpleName MethodDeclaration Block ReturnStatement SimpleName types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key types
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key types

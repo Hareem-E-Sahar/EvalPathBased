@@ -1,0 +1,13 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+void PrimitiveType MethodDeclaration SimpleName channel initialized
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel
+channel initialized SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+channel initialized SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName channel initialized
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName channel initialized
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel

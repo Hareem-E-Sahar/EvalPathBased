@@ -1,0 +1,78 @@
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetkeys
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+path SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral targetkeys
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName mkdirs
+file SimpleName SimpleType ClassInstanceCreation SimpleName path
+file SimpleName SimpleType ClassInstanceCreation StringLiteral simplekey
+path SimpleName ClassInstanceCreation StringLiteral simplekey
+path SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+path SimpleName Assignment ClassInstanceCreation SimpleName path
+path SimpleName Assignment ClassInstanceCreation StringLiteral simplekey
+path SimpleName MethodInvocation SimpleName delete
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName pem generator host key provider
+pem generator host key provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+provider SimpleName MethodInvocation SimpleName set algorithm
+provider SimpleName MethodInvocation StringLiteral rsa
+set algorithm SimpleName MethodInvocation StringLiteral rsa
+provider SimpleName MethodInvocation SimpleName set key size
+provider SimpleName MethodInvocation NumberLiteral empty
+set key size SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation SimpleName get path
+provider SimpleName MethodInvocation SimpleName set path
+provider SimpleName MethodInvocation MethodInvocation SimpleName path
+provider SimpleName MethodInvocation MethodInvocation SimpleName get path
+set path SimpleName MethodInvocation MethodInvocation SimpleName path
+set path SimpleName MethodInvocation MethodInvocation SimpleName get path
+provider SimpleName MethodInvocation SimpleName get key types
+assert equals SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get key types
+key pair providerssh rsa QualifiedName MethodInvocation MethodInvocation SimpleName provider
+key pair providerssh rsa QualifiedName MethodInvocation MethodInvocation SimpleName get key types
+provider SimpleName MethodInvocation SimpleName load key
+provider SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+load key SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName load key
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName key pair providerssh rsa
+provider SimpleName Assignment ClassInstanceCreation SimpleType SimpleName pem generator host key provider
+provider SimpleName MethodInvocation SimpleName set algorithm
+provider SimpleName MethodInvocation StringLiteral rsa
+set algorithm SimpleName MethodInvocation StringLiteral rsa
+provider SimpleName MethodInvocation SimpleName set key size
+provider SimpleName MethodInvocation NumberLiteral empty
+set key size SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation SimpleName get path
+provider SimpleName MethodInvocation SimpleName set path
+provider SimpleName MethodInvocation MethodInvocation SimpleName path
+provider SimpleName MethodInvocation MethodInvocation SimpleName get path
+set path SimpleName MethodInvocation MethodInvocation SimpleName path
+set path SimpleName MethodInvocation MethodInvocation SimpleName get path
+provider SimpleName MethodInvocation SimpleName get key types
+assert equals SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get key types
+key pair providerssh rsa QualifiedName MethodInvocation MethodInvocation SimpleName provider
+key pair providerssh rsa QualifiedName MethodInvocation MethodInvocation SimpleName get key types
+provider SimpleName MethodInvocation SimpleName load key
+provider SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+load key SimpleName MethodInvocation QualifiedName key pair providerssh rsa
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName load key
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName key pair providerssh rsa
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test rsa
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test rsa
+void PrimitiveType MethodDeclaration SimpleName test rsa
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test rsa
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test rsa

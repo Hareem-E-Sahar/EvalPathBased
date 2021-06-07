@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+boolean SimpleName SimpleType SingleVariableDeclaration SimpleName use uppercase
+is empty SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName hash code
+use uppercase SimpleName MethodInvocation SimpleName boolean value
+s SimpleName MethodInvocation SimpleName to upper case
+s SimpleName MethodInvocation MethodInvocation SimpleName hash code
+to upper case SimpleName MethodInvocation MethodInvocation SimpleName hash code
+s SimpleName MethodInvocation SimpleName to lower case
+s SimpleName MethodInvocation MethodInvocation SimpleName hash code
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName hash code
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName use uppercase
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName hash code
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName use uppercase
+int PrimitiveType MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName use uppercase
+hash code SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+hash code SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+hash code SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+hash code SimpleName MethodDeclaration SingleVariableDeclaration SimpleName use uppercase
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use uppercase
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use uppercase
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use uppercase

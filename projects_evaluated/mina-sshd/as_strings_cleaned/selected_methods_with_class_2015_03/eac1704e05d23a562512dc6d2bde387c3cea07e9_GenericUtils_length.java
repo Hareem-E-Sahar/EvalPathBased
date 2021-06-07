@@ -1,0 +1,34 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName a
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName length
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName length
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName length
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+int PrimitiveType MethodDeclaration SimpleName length
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+length SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a

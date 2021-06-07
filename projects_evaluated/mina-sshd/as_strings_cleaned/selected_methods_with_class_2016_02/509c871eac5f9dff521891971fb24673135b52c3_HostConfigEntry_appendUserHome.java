@@ -1,0 +1,69 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user home
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName user home
+is empty SimpleName MethodInvocation SimpleName user home
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName user home
+append SimpleName MethodInvocation SimpleName user home
+sb SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName sb
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+len SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName char at
+sb SimpleName MethodInvocation InfixExpression SimpleName len
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression SimpleName len
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+char at SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+len SimpleName InfixExpression MethodInvocation InfixExpression QualifiedName fileseparator char
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression QualifiedName fileseparator char
+len SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName set length
+sb SimpleName MethodInvocation InfixExpression SimpleName len
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set length SimpleName MethodInvocation InfixExpression SimpleName len
+set length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName sb
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string builder
+public Modifier MethodDeclaration SimpleName append user home
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user home
+static Modifier MethodDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SimpleName append user home
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName user home
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName sb
+string builder SimpleName SimpleType MethodDeclaration SimpleName append user home
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user home
+append user home SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+append user home SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+append user home SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append user home SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user home
+append user home SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+append user home SimpleName MethodDeclaration Block ReturnStatement SimpleName sb
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user home
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName append user home
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user home
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append user home
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user home

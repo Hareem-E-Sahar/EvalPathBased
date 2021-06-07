@@ -1,0 +1,27 @@
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName runtime exception
+runtime exception SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName error
+error SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName throwable
+runtime ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral error reading from channel
+throwable SimpleName SimpleType CastExpression SimpleName v
+runtime ssh exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+error reading from channel StringLiteral ClassInstanceCreation MethodInvocation SimpleName init cause
+error reading from channel StringLiteral ClassInstanceCreation MethodInvocation CastExpression SimpleName v
+init cause SimpleName MethodInvocation CastExpression SimpleType SimpleName throwable
+init cause SimpleName MethodInvocation CastExpression SimpleName v
+runtime ssh exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+v SimpleName InstanceofExpression SimpleType SimpleName integer
+integer SimpleName SimpleType CastExpression SimpleName v
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get read
+int PrimitiveType MethodDeclaration SimpleName get read
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get read
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get read

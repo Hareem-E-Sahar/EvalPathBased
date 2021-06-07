@@ -1,0 +1,24 @@
+files SimpleName MethodInvocation SimpleName new input stream
+files SimpleName MethodInvocation MethodInvocation SimpleName get event listener file path
+new input stream SimpleName MethodInvocation MethodInvocation SimpleName get event listener file path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName input stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve source stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SimpleName resolve source stream
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+input stream SimpleName SimpleType MethodDeclaration SimpleName resolve source stream
+input stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+resolve source stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve source stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve source stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

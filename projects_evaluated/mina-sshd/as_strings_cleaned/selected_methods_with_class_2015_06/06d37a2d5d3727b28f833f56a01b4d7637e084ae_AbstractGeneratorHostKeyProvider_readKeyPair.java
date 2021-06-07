@@ -1,0 +1,58 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName key path
+open option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+files SimpleName MethodInvocation SimpleName new input stream
+files SimpleName MethodInvocation SimpleName key path
+files SimpleName MethodInvocation SimpleName options
+new input stream SimpleName MethodInvocation SimpleName key path
+new input stream SimpleName MethodInvocation SimpleName options
+key path SimpleName MethodInvocation SimpleName options
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName new input stream
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName key path
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName input stream
+key path SimpleName MethodInvocation SimpleName to string
+do read key pair SimpleName MethodInvocation MethodInvocation SimpleName key path
+do read key pair SimpleName MethodInvocation MethodInvocation SimpleName to string
+do read key pair SimpleName MethodInvocation SimpleName input stream
+key path SimpleName MethodInvocation MethodInvocation SimpleName input stream
+to string SimpleName MethodInvocation MethodInvocation SimpleName input stream
+protected Modifier MethodDeclaration SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SimpleName read key pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName key path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName read key pair
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key path
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key path
+read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+read key pair SimpleName MethodDeclaration SimpleType SimpleName io exception
+read key pair SimpleName MethodDeclaration SimpleType SimpleName general security exception
+key path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+key path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+key path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName read key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

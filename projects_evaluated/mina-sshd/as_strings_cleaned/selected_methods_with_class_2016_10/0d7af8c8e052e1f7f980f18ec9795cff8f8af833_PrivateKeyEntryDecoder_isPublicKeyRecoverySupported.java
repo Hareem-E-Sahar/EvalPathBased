@@ -1,0 +1,13 @@
+default Modifier MethodDeclaration PrimitiveType boolean
+default Modifier MethodDeclaration SimpleName is public key recovery supported
+default Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is public key recovery supported
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is public key recovery supported SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is public key recovery supported
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is public key recovery supported

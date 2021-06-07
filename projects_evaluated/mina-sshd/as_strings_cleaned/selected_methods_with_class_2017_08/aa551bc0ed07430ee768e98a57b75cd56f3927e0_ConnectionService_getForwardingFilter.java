@@ -1,0 +1,6 @@
+forwarding filter SimpleName SimpleType MethodDeclaration SimpleName get forwarding filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName forwarding filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get forwarding filter

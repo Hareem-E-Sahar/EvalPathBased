@@ -1,0 +1,35 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName foo
+i SimpleName VariableDeclarationFragment QualifiedName foolength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName foolength
+foo SimpleName ArrayAccess NumberLiteral empty
+foo SimpleName ArrayAccess InfixExpression NumberLiteral x
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+put int SimpleName MethodInvocation SimpleName i
+byte PrimitiveType CastExpression NumberLiteral empty
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression NumberLiteral empty
+put int SimpleName MethodInvocation SimpleName i
+put raw bytes SimpleName MethodInvocation SimpleName foo
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put mp int
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName foo
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName put mp int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName foo
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+put mp int SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+put mp int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName foo
+put mp int SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put mp int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName foo
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put mp int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName foo

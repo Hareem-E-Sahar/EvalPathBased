@@ -1,0 +1,13 @@
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private key obfuscator
+private key obfuscator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+get registered private key obfuscator SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+public Modifier MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier MethodDeclaration SimpleName resolve private key obfuscator
+private key obfuscator SimpleName SimpleType MethodDeclaration SimpleName resolve private key obfuscator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key obfuscator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve private key obfuscator

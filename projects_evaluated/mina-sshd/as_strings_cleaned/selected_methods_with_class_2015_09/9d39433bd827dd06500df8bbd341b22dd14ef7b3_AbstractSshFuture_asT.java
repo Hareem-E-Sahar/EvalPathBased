@@ -1,0 +1,21 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName t
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName t
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName as t
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName as t
+protected Modifier MethodDeclaration SimpleType SimpleName t
+protected Modifier MethodDeclaration SimpleName as t
+t SimpleName SimpleType MethodDeclaration SimpleName as t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName as t
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as t

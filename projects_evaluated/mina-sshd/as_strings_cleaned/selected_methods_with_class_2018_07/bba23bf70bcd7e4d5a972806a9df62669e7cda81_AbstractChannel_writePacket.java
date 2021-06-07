@@ -1,0 +1,46 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName write packet
+s SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral write packet discarding output packet because channel is being closed
+debug SimpleName MethodInvocation StringLiteral write packet discarding output packet because channel is being closed
+s SimpleName MethodInvocation SimpleName to string
+eof exception SimpleName SimpleType ClassInstanceCreation StringLiteral channel is being closed
+set value SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName eof exception
+set value SimpleName MethodInvocation ClassInstanceCreation StringLiteral channel is being closed
+abstract io write future SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName s
+abstract io write future SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io write future
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write packet
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SimpleName write packet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+io write future SimpleName SimpleType MethodDeclaration SimpleName write packet
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write packet SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName write packet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write packet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

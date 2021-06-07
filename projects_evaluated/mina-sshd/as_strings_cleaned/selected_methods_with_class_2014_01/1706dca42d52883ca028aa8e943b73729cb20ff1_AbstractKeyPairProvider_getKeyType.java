@@ -1,0 +1,67 @@
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+kp SimpleName MethodInvocation SimpleName get private
+kp SimpleName MethodInvocation SimpleName get private
+kp SimpleName MethodInvocation SimpleName get public
+kp SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName kp
+kp SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get public
+get private SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName kp
+get private SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get public
+key SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName kp
+key SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get private
+key SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName kp
+key SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get public
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName InstanceofExpression SimpleType SimpleName dsa key
+key SimpleName InstanceofExpression SimpleType SimpleName rsa key
+key SimpleName InstanceofExpression SimpleType SimpleName ec key
+ec key SimpleName SimpleType CastExpression SimpleName key
+ec key SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName ec key
+ec key SimpleName VariableDeclarationFragment CastExpression SimpleName key
+ec key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ec key
+ec key SimpleName MethodInvocation SimpleName get params
+ec spec SimpleName VariableDeclarationFragment MethodInvocation SimpleName ec key
+ec spec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get params
+ec parameter spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ec spec
+ec spec SimpleName MethodInvocation SimpleName get curve
+ec spec SimpleName MethodInvocation MethodInvocation SimpleName get field
+get curve SimpleName MethodInvocation MethodInvocation SimpleName get field
+ec spec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get field size
+get curve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get field size
+get field SimpleName MethodInvocation MethodInvocation SimpleName get field size
+get field size SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+get field size SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+get field size SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+get field size SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+get field size SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+ecdsa sha nistp SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+ecdsa sha nistp SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+ecdsa sha nistp SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+ecdsa sha nistp SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+ecdsa sha nistp SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+ecdsa sha nistp SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName ecdsa sha nistp
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get key type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName kp
+string SimpleName SimpleType MethodDeclaration SimpleName get key type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName kp
+get key type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+get key type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp

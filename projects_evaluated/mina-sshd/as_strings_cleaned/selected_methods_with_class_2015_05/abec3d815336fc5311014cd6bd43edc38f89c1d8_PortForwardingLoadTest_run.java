@@ -1,0 +1,91 @@
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName nb loops
+mgr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multi threaded http connection manager
+final Modifier VariableDeclarationStatement SimpleType SimpleName multi threaded http connection manager
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName mgr
+multi threaded http connection manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mgr
+http client SimpleName SimpleType ClassInstanceCreation SimpleName mgr
+client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName http client
+client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName mgr
+final Modifier VariableDeclarationStatement SimpleType SimpleName http client
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName mgr
+http client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName get http connection manager
+client SimpleName MethodInvocation MethodInvocation SimpleName get params
+get http connection manager SimpleName MethodInvocation MethodInvocation SimpleName get params
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set default max connections per host
+get http connection manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set default max connections per host
+get params SimpleName MethodInvocation MethodInvocation SimpleName set default max connections per host
+client SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get http connection manager SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get params SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set default max connections per host SimpleName MethodInvocation NumberLiteral empty
+client SimpleName MethodInvocation SimpleName get http connection manager
+client SimpleName MethodInvocation MethodInvocation SimpleName get params
+get http connection manager SimpleName MethodInvocation MethodInvocation SimpleName get params
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set max total connections
+get http connection manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set max total connections
+get params SimpleName MethodInvocation MethodInvocation SimpleName set max total connections
+client SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get http connection manager SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get params SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set max total connections SimpleName MethodInvocation NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName nb downloads
+httplocalhost StringLiteral InfixExpression SimpleName forwarded port
+httplocalhost StringLiteral InfixExpression SimpleName path
+forwarded port SimpleName InfixExpression SimpleName path
+url SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral httplocalhost
+url SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName forwarded port
+url SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+check html page SimpleName MethodInvocation SimpleName client
+check html page SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName url
+check html page SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral httplocalhost
+check html page SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName forwarded port
+check html page SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName path
+client SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName url
+client SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral httplocalhost
+client SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName forwarded port
+client SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName path
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+errors SimpleName MethodInvocation SimpleName add
+errors SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+latch SimpleName MethodInvocation SimpleName count down
+latch SimpleName MethodInvocation SimpleName get count
+remaining StringLiteral InfixExpression MethodInvocation SimpleName latch
+remaining StringLiteral InfixExpression MethodInvocation SimpleName get count
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral remaining
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName latch
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get count
+println SimpleName MethodInvocation InfixExpression StringLiteral remaining
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName latch
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get count
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName nb downloads
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+nb downloads SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+mgr SimpleName MethodInvocation SimpleName shutdown
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName nb loops
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+nb loops SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

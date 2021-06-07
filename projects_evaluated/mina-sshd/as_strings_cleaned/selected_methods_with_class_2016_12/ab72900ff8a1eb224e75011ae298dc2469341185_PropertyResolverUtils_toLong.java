@@ -1,0 +1,36 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName long
+long SimpleName SimpleType CastExpression SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName number
+number SimpleName SimpleType CastExpression SimpleName value
+value SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName long value
+value SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation MethodInvocation SimpleName value
+long SimpleName MethodInvocation MethodInvocation SimpleName to string
+value of SimpleName MethodInvocation MethodInvocation SimpleName value
+value of SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName to long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName long
+static Modifier MethodDeclaration SimpleName to long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+long SimpleName SimpleType MethodDeclaration SimpleName to long
+long SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+to long SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to long SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName long
+public Modifier TypeDeclaration MethodDeclaration SimpleName to long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

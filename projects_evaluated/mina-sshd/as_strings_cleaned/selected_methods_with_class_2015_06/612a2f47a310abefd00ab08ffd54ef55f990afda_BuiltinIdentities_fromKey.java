@@ -1,0 +1,36 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName MethodInvocation SimpleName get class
+from key type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName key
+from key type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get class
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName builtin identities
+public Modifier MethodDeclaration SimpleName from key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName builtin identities
+static Modifier MethodDeclaration SimpleName from key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+final Modifier MethodDeclaration SimpleType SimpleName builtin identities
+final Modifier MethodDeclaration SimpleName from key
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+builtin identities SimpleName SimpleType MethodDeclaration SimpleName from key
+builtin identities SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+from key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+from key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin identities
+public Modifier TypeDeclaration MethodDeclaration SimpleName from key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin identities
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

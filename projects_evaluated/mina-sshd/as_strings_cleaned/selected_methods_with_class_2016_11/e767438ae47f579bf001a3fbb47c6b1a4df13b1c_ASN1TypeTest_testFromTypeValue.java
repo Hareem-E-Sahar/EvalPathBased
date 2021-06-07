@@ -1,0 +1,30 @@
+expected SimpleName MethodInvocation SimpleName get type value
+asn type SimpleName MethodInvocation SimpleName from type value
+asn type SimpleName MethodInvocation MethodInvocation SimpleName expected
+asn type SimpleName MethodInvocation MethodInvocation SimpleName get type value
+from type value SimpleName MethodInvocation MethodInvocation SimpleName expected
+from type value SimpleName MethodInvocation MethodInvocation SimpleName get type value
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName asn type
+assert same SimpleName MethodInvocation MethodInvocation SimpleName from type value
+assert same SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type value
+expected SimpleName MethodInvocation MethodInvocation SimpleName asn type
+expected SimpleName MethodInvocation MethodInvocation SimpleName from type value
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type value
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from type value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from type value
+void PrimitiveType MethodDeclaration SimpleName test from type value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from type value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from type value

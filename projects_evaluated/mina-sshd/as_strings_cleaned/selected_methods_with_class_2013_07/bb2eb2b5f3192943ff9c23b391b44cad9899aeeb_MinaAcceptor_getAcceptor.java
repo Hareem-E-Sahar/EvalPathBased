@@ -1,0 +1,14 @@
+acceptor SimpleName Assignment MethodInvocation SimpleName create acceptor
+acceptor SimpleName MethodInvocation SimpleName set handler
+protected Modifier MethodDeclaration SimpleType SimpleName io acceptor
+protected Modifier MethodDeclaration SimpleName get acceptor
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName acceptor
+io acceptor SimpleName SimpleType MethodDeclaration SimpleName get acceptor
+get acceptor SimpleName MethodDeclaration Block ReturnStatement SimpleName acceptor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+public Modifier TypeDeclaration MethodDeclaration SimpleName get acceptor
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get acceptor

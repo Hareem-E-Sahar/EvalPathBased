@@ -1,0 +1,49 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral append versions extension value
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName value
+debug SimpleName MethodInvocation StringLiteral append versions extension value
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation SimpleName value
+append versions extension value StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+append versions extension value StringLiteral MethodInvocation SimpleName value
+get server session SimpleName MethodInvocation MethodInvocation SimpleName value
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation QualifiedName sftp constantsext versions
+put string SimpleName MethodInvocation QualifiedName sftp constantsext versions
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName value
+put string SimpleName MethodInvocation SimpleName value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName append versions extension
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName append versions extension
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+append versions extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+append versions extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+append versions extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append versions extension SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append versions extension
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append versions extension
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

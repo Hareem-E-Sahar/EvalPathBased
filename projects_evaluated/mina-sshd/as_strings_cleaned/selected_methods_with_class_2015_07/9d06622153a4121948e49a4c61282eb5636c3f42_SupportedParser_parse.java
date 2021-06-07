@@ -1,0 +1,43 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+sup SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName supported
+supported SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sup
+buffer SimpleName MethodInvocation SimpleName get int
+supsupported attribute mask QualifiedName Assignment MethodInvocation SimpleName buffer
+supsupported attribute mask QualifiedName Assignment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+supsupported attribute bits QualifiedName Assignment MethodInvocation SimpleName buffer
+supsupported attribute bits QualifiedName Assignment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+supsupported open flags QualifiedName Assignment MethodInvocation SimpleName buffer
+supsupported open flags QualifiedName Assignment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+supsupported access mask QualifiedName Assignment MethodInvocation SimpleName buffer
+supsupported access mask QualifiedName Assignment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get int
+supmax read size QualifiedName Assignment MethodInvocation SimpleName buffer
+supmax read size QualifiedName Assignment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get string list
+buffer SimpleName MethodInvocation BooleanLiteral false
+get string list SimpleName MethodInvocation BooleanLiteral false
+supextension names QualifiedName Assignment MethodInvocation SimpleName buffer
+supextension names QualifiedName Assignment MethodInvocation SimpleName get string list
+supextension names QualifiedName Assignment MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration SimpleType SimpleName supported
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sup
+supported SimpleName SimpleType MethodDeclaration SimpleName parse
+supported SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+parse SimpleName MethodDeclaration Block ReturnStatement SimpleName sup
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName supported
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName supported
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

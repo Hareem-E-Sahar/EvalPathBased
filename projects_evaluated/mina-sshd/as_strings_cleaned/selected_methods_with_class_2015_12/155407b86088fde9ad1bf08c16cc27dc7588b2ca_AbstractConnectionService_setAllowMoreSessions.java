@@ -1,0 +1,38 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName allow
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral set allow more sessions {}
+log SimpleName MethodInvocation SimpleName allow
+debug SimpleName MethodInvocation StringLiteral set allow more sessions {}
+debug SimpleName MethodInvocation SimpleName allow
+set allow more sessions {} StringLiteral MethodInvocation SimpleName allow
+allow more sessions SimpleName MethodInvocation SimpleName set
+allow more sessions SimpleName MethodInvocation SimpleName allow
+set SimpleName MethodInvocation SimpleName allow
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set allow more sessions
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName allow
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set allow more sessions
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName allow
+void PrimitiveType MethodDeclaration SimpleName set allow more sessions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName allow
+set allow more sessions SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set allow more sessions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName allow
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set allow more sessions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set allow more sessions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow

@@ -1,0 +1,148 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName known host entry
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName known host entry
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName known host entry
+known host entry SimpleName MethodInvocation SimpleName read known host entries
+known host entry SimpleName MethodInvocation SimpleName file
+read known host entries SimpleName MethodInvocation SimpleName file
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName known host entry
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName read known host entries
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName entries
+is empty SimpleName MethodInvocation SimpleName entries
+collections SimpleName MethodInvocation SimpleName empty map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName known host entry
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName known host entry
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName known host entry
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName known host entry
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+known host entry SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+hosts map SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+known host entry SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get config line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName get config line
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+output debug message SimpleName MethodInvocation StringLiteral load test liness processing s
+output debug message SimpleName MethodInvocation SimpleName file
+output debug message SimpleName MethodInvocation SimpleName line
+load test liness processing s StringLiteral MethodInvocation SimpleName file
+load test liness processing s StringLiteral MethodInvocation SimpleName line
+file SimpleName MethodInvocation SimpleName line
+line SimpleName MethodInvocation SimpleName index of
+line SimpleName MethodInvocation CharacterLiteral empty
+index of SimpleName MethodInvocation CharacterLiteral empty
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName line
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation NumberLiteral empty
+line SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+patterns SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+patterns SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+patterns SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+patterns SimpleName VariableDeclarationFragment MethodInvocation SimpleName pos
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName patterns
+entry SimpleName MethodInvocation SimpleName get hashed entry
+hosts map SimpleName MethodInvocation SimpleName put
+hosts map SimpleName MethodInvocation SimpleName hashed host
+hosts map SimpleName MethodInvocation SimpleName entry
+put SimpleName MethodInvocation SimpleName hashed host
+put SimpleName MethodInvocation SimpleName entry
+hashed host SimpleName MethodInvocation SimpleName entry
+assert null SimpleName MethodInvocation StringLiteral multiple hashed entries in file
+assert null SimpleName MethodInvocation MethodInvocation SimpleName hosts map
+assert null SimpleName MethodInvocation MethodInvocation SimpleName put
+assert null SimpleName MethodInvocation MethodInvocation SimpleName hashed host
+assert null SimpleName MethodInvocation MethodInvocation SimpleName entry
+multiple hashed entries in file StringLiteral MethodInvocation MethodInvocation SimpleName hosts map
+multiple hashed entries in file StringLiteral MethodInvocation MethodInvocation SimpleName put
+multiple hashed entries in file StringLiteral MethodInvocation MethodInvocation SimpleName hashed host
+multiple hashed entries in file StringLiteral MethodInvocation MethodInvocation SimpleName entry
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName patterns
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName patterns
+split SimpleName MethodInvocation CharacterLiteral empty
+patterns SimpleName MethodInvocation CharacterLiteral empty
+addrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+addrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+addrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName patterns
+addrs SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName a
+multiple entries for address StringLiteral InfixExpression SimpleName a
+hosts map SimpleName MethodInvocation SimpleName put
+hosts map SimpleName MethodInvocation SimpleName a
+hosts map SimpleName MethodInvocation SimpleName entry
+put SimpleName MethodInvocation SimpleName a
+put SimpleName MethodInvocation SimpleName entry
+a SimpleName MethodInvocation SimpleName entry
+assert null SimpleName MethodInvocation InfixExpression StringLiteral multiple entries for address
+assert null SimpleName MethodInvocation InfixExpression SimpleName a
+assert null SimpleName MethodInvocation MethodInvocation SimpleName hosts map
+assert null SimpleName MethodInvocation MethodInvocation SimpleName put
+assert null SimpleName MethodInvocation MethodInvocation SimpleName a
+assert null SimpleName MethodInvocation MethodInvocation SimpleName entry
+multiple entries for address StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName hosts map
+multiple entries for address StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName put
+multiple entries for address StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName a
+multiple entries for address StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+a SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName hosts map
+a SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName put
+a SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName a
+a SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName addrs
+a SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName addrs
+known host entry SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entries
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entries
+entries SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+entries SimpleName EnhancedForStatement Block ReturnStatement SimpleName hosts map
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName known host entry
+private Modifier MethodDeclaration SimpleName load entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName known host entry
+static Modifier MethodDeclaration SimpleName load entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName entries
+static Modifier MethodDeclaration Block ReturnStatement SimpleName hosts map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load entries
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load entries
+known host entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load entries
+load entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+load entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+load entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+load entries SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entries
+load entries SimpleName MethodDeclaration Block ReturnStatement SimpleName hosts map
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName load entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

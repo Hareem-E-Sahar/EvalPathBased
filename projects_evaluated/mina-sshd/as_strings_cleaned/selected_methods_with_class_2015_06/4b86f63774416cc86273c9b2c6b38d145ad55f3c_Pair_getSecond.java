@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName get second
+public Modifier MethodDeclaration Block ReturnStatement SimpleName second
+v SimpleName SimpleType MethodDeclaration SimpleName get second
+get second SimpleName MethodDeclaration Block ReturnStatement SimpleName second
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName get second
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get second

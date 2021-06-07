@@ -1,0 +1,45 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName open ssh extension
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName open ssh extension
+resolve open ssh extensions SimpleName MethodInvocation MethodInvocation SimpleName get server session
+ext list SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve open ssh extensions
+ext list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get server session
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName ext list
+is empty SimpleName MethodInvocation SimpleName ext list
+open ssh extension SimpleName SimpleType SingleVariableDeclaration SimpleName ext
+ext SimpleName MethodInvocation SimpleName get name
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName ext
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get name
+put string SimpleName MethodInvocation MethodInvocation SimpleName ext
+put string SimpleName MethodInvocation MethodInvocation SimpleName get name
+ext SimpleName MethodInvocation SimpleName get version
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName ext
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get version
+put string SimpleName MethodInvocation MethodInvocation SimpleName ext
+put string SimpleName MethodInvocation MethodInvocation SimpleName get version
+open ssh extension SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ext list
+ext SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ext list
+ext list SimpleName EnhancedForStatement Block ReturnStatement SimpleName ext list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName open ssh extension
+protected Modifier MethodDeclaration SimpleName append open ssh extensions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName ext list
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ext list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName append open ssh extensions
+open ssh extension SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName append open ssh extensions
+append open ssh extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+append open ssh extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+append open ssh extensions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName ext list
+append open ssh extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName ext list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName append open ssh extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append open ssh extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

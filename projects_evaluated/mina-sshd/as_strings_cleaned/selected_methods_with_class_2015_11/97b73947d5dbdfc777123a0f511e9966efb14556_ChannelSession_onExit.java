@@ -1,0 +1,110 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+int PrimitiveType SingleVariableDeclaration SimpleName exit value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName exit message
+close shell SimpleName MethodInvocation SimpleName exit value
+log SimpleName MethodInvocation SimpleName is debug enabled
+on exit StringLiteral InfixExpression SimpleName exit value
+on exit StringLiteral InfixExpression StringLiteral )[
+on exit StringLiteral InfixExpression SimpleName exit message
+on exit StringLiteral InfixExpression StringLiteral ) shell closed
+exit value SimpleName InfixExpression StringLiteral )[
+exit value SimpleName InfixExpression SimpleName exit message
+exit value SimpleName InfixExpression StringLiteral ) shell closed
+)[ StringLiteral InfixExpression SimpleName exit message
+)[ StringLiteral InfixExpression StringLiteral ) shell closed
+exit message SimpleName InfixExpression StringLiteral ) shell closed
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral on exit
+log SimpleName MethodInvocation InfixExpression SimpleName exit value
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName exit message
+log SimpleName MethodInvocation InfixExpression StringLiteral ) shell closed
+debug SimpleName MethodInvocation InfixExpression StringLiteral on exit
+debug SimpleName MethodInvocation InfixExpression SimpleName exit value
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName exit message
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) shell closed
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+on exit StringLiteral InfixExpression SimpleName exit value
+on exit StringLiteral InfixExpression StringLiteral )[
+on exit StringLiteral InfixExpression SimpleName exit message
+on exit StringLiteral InfixExpression StringLiteral ) error closing shell
+exit value SimpleName InfixExpression StringLiteral )[
+exit value SimpleName InfixExpression SimpleName exit message
+exit value SimpleName InfixExpression StringLiteral ) error closing shell
+)[ StringLiteral InfixExpression SimpleName exit message
+)[ StringLiteral InfixExpression StringLiteral ) error closing shell
+exit message SimpleName InfixExpression StringLiteral ) error closing shell
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral on exit
+log SimpleName MethodInvocation InfixExpression SimpleName exit value
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName exit message
+log SimpleName MethodInvocation InfixExpression StringLiteral ) error closing shell
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral on exit
+warn SimpleName MethodInvocation InfixExpression SimpleName exit value
+warn SimpleName MethodInvocation InfixExpression StringLiteral )[
+warn SimpleName MethodInvocation InfixExpression SimpleName exit message
+warn SimpleName MethodInvocation InfixExpression StringLiteral ) error closing shell
+warn SimpleName MethodInvocation SimpleName e
+on exit StringLiteral InfixExpression MethodInvocation SimpleName e
+exit value SimpleName InfixExpression MethodInvocation SimpleName e
+)[ StringLiteral InfixExpression MethodInvocation SimpleName e
+exit message SimpleName InfixExpression MethodInvocation SimpleName e
+) error closing shell StringLiteral InfixExpression MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on exit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName on exit
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName on exit
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit message
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on exit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit message
+void PrimitiveType MethodDeclaration SimpleName on exit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit message
+on exit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit value
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit message
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+exit value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on exit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on exit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message

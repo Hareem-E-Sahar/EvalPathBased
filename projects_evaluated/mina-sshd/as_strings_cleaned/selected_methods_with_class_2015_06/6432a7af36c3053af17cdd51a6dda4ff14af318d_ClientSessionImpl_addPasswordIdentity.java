@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName password
+validate utils SimpleName MethodInvocation StringLiteral no password provided
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null and not empty SimpleName MethodInvocation SimpleName password
+check not null and not empty SimpleName MethodInvocation StringLiteral no password provided
+check not null and not empty SimpleName MethodInvocation QualifiedName generic utilsempty object array
+password SimpleName MethodInvocation StringLiteral no password provided
+password SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no password provided StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+identities SimpleName MethodInvocation SimpleName add
+identities SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+identities SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+identities SimpleName MethodInvocation MethodInvocation SimpleName password
+identities SimpleName MethodInvocation MethodInvocation StringLiteral no password provided
+identities SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+add SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+add SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+add SimpleName MethodInvocation MethodInvocation SimpleName password
+add SimpleName MethodInvocation MethodInvocation StringLiteral no password provided
+add SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+log SimpleName MethodInvocation SimpleName is debug enabled
+key utils SimpleName MethodInvocation SimpleName get finger print
+key utils SimpleName MethodInvocation SimpleName password
+get finger print SimpleName MethodInvocation SimpleName password
+add password identity StringLiteral InfixExpression MethodInvocation SimpleName key utils
+add password identity StringLiteral InfixExpression MethodInvocation SimpleName get finger print
+add password identity StringLiteral InfixExpression MethodInvocation SimpleName password
+add password identity StringLiteral InfixExpression StringLiteral )
+key utils SimpleName MethodInvocation InfixExpression StringLiteral )
+get finger print SimpleName MethodInvocation InfixExpression StringLiteral )
+password SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral add password identity
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key utils
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get finger print
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName password
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression StringLiteral add password identity
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key utils
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get finger print
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName password
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add password identity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add password identity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName password
+void PrimitiveType MethodDeclaration SimpleName add password identity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName password
+add password identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add password identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add password identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add password identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password

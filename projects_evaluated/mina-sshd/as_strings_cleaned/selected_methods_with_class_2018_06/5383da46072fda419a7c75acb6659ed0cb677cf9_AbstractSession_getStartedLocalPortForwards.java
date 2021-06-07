@@ -1,0 +1,23 @@
+navigable set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get forwarding filter
+forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+collections SimpleName MethodInvocation SimpleName empty navigable set
+filter SimpleName MethodInvocation SimpleName get started local port forwards
+collections SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName filter
+collections SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get started local port forwards
+empty navigable set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName filter
+empty navigable set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get started local port forwards
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get started local port forwards
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName navigable set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get started local port forwards
+navigable set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get started local port forwards
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get started local port forwards
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get started local port forwards
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get started local port forwards

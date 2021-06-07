@@ -1,0 +1,13 @@
+io service event listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName set io service event listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io service event listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+set io service event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io service event listener
+set io service event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set io service event listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set io service event listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

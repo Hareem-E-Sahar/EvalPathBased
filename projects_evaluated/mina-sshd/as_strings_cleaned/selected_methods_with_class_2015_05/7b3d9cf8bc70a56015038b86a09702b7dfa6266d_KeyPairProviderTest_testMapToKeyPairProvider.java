@@ -1,0 +1,163 @@
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+pub key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+final Modifier VariableDeclarationStatement SimpleType SimpleName public key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName pub key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mockito
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mock
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pub key
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName private key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName private key
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+prv key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+final Modifier VariableDeclarationStatement SimpleType SimpleName private key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName prv key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mockito
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mock
+private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prv key
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get current test name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get simple name
+test keys SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation SimpleName get current test name
+test keys SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation SimpleName get simple name
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName test keys
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+serial version uid SimpleName VariableDeclarationFragment NumberLiteral l
+private Modifier FieldDeclaration Modifier static
+private Modifier FieldDeclaration Modifier final
+private Modifier FieldDeclaration PrimitiveType long
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+private Modifier FieldDeclaration VariableDeclarationFragment NumberLiteral l
+static Modifier FieldDeclaration Modifier final
+static Modifier FieldDeclaration PrimitiveType long
+static Modifier FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+static Modifier FieldDeclaration VariableDeclarationFragment NumberLiteral l
+final Modifier FieldDeclaration PrimitiveType long
+final Modifier FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+final Modifier FieldDeclaration VariableDeclarationFragment NumberLiteral l
+long PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName serial version uid
+long PrimitiveType FieldDeclaration VariableDeclarationFragment NumberLiteral l
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName pub key
+key pair SimpleName SimpleType ClassInstanceCreation SimpleName prv key
+pub key SimpleName ClassInstanceCreation SimpleName prv key
+put SimpleName MethodInvocation SimpleName key type
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key pair
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName pub key
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName prv key
+key type SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key pair
+key type SimpleName MethodInvocation ClassInstanceCreation SimpleName pub key
+key type SimpleName MethodInvocation ClassInstanceCreation SimpleName prv key
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName test keys
+key type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName test keys
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+key pair SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+stringcase insensitive order QualifiedName ClassInstanceCreation AnonymousClassDeclaration FieldDeclaration Modifier private
+stringcase insensitive order QualifiedName ClassInstanceCreation AnonymousClassDeclaration FieldDeclaration Modifier static
+stringcase insensitive order QualifiedName ClassInstanceCreation AnonymousClassDeclaration FieldDeclaration Modifier final
+stringcase insensitive order QualifiedName ClassInstanceCreation AnonymousClassDeclaration FieldDeclaration PrimitiveType long
+pairs map SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+mapped key pair providermap to key pair provider QualifiedName MethodInvocation SimpleName transform
+mapped key pair providermap to key pair provider QualifiedName MethodInvocation SimpleName pairs map
+transform SimpleName MethodInvocation SimpleName pairs map
+provider SimpleName VariableDeclarationFragment MethodInvocation QualifiedName mapped key pair providermap to key pair provider
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName pairs map
+key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+pairs map SimpleName MethodInvocation SimpleName key set
+provider SimpleName MethodInvocation SimpleName get key types
+assert equals SimpleName MethodInvocation StringLiteral key types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName pairs map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName key set
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get key types
+key types StringLiteral MethodInvocation MethodInvocation SimpleName pairs map
+key types StringLiteral MethodInvocation MethodInvocation SimpleName key set
+key types StringLiteral MethodInvocation MethodInvocation SimpleName provider
+key types StringLiteral MethodInvocation MethodInvocation SimpleName get key types
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key types
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key types
+pairs map SimpleName MethodInvocation SimpleName values
+provider SimpleName MethodInvocation SimpleName load keys
+assert equals SimpleName MethodInvocation StringLiteral key pairs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName pairs map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName values
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName load keys
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName pairs map
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName values
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName provider
+key pairs StringLiteral MethodInvocation MethodInvocation SimpleName load keys
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+pairs map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName load keys
+values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName provider
+values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName load keys
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pair entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pair entry
+key pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pair entry
+pairs map SimpleName MethodInvocation SimpleName entry set
+pair entry SimpleName MethodInvocation SimpleName get key
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName pair entry
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+pair entry SimpleName MethodInvocation SimpleName get value
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName pair entry
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+provider SimpleName MethodInvocation SimpleName load key
+provider SimpleName MethodInvocation SimpleName key type
+load key SimpleName MethodInvocation SimpleName key type
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName load key
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName key type
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+expected SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation SimpleName key type
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+key type SimpleName MethodInvocation SimpleName expected
+key type SimpleName MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+pair entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName pairs map
+pair entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test map to key pair provider
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test map to key pair provider
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test map to key pair provider
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test map to key pair provider SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test map to key pair provider SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test map to key pair provider SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test map to key pair provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test map to key pair provider

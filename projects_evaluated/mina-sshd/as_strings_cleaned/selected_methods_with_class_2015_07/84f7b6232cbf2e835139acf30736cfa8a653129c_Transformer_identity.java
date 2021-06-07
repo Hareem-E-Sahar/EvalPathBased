@@ -1,0 +1,56 @@
+cast StringLiteral ArrayInitializer StringLiteral unchecked
+suppress warnings SimpleName SingleMemberAnnotation ArrayInitializer StringLiteral cast
+suppress warnings SimpleName SingleMemberAnnotation ArrayInitializer StringLiteral unchecked
+u SimpleName TypeParameter SimpleType SimpleName v
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName u
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+u SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName u
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+u SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+transformer SimpleName SimpleType ParameterizedType CastExpression SimpleName identity
+u SimpleName SimpleType ParameterizedType CastExpression SimpleName identity
+v SimpleName SimpleType ParameterizedType CastExpression SimpleName identity
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+cast StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+cast StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier static
+unchecked StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName u
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName u
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName transformer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName u
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName identity
+static Modifier MethodDeclaration TypeParameter SimpleName u
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName v
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName transformer
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName u
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+static Modifier MethodDeclaration SimpleName identity
+u SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName v
+u SimpleName TypeParameter MethodDeclaration SimpleName identity
+v SimpleName SimpleType TypeParameter MethodDeclaration SimpleName identity
+v SimpleName TypeParameter MethodDeclaration SimpleName identity
+transformer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName identity
+u SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName identity
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName identity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName identity
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName identity

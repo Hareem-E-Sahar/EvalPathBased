@@ -1,0 +1,17 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+file system SimpleName SimpleType MethodDeclaration SimpleName create file system
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+file system SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+create file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName create file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

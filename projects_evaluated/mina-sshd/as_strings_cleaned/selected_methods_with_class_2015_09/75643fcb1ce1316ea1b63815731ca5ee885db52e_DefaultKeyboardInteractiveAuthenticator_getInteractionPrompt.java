@@ -1,0 +1,28 @@
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+factory manager utils SimpleName MethodInvocation SimpleName get string property
+factory manager utils SimpleName MethodInvocation SimpleName session
+factory manager utils SimpleName MethodInvocation SimpleName kb interactive prompt prop
+factory manager utils SimpleName MethodInvocation SimpleName default kb interactive prompt
+get string property SimpleName MethodInvocation SimpleName session
+get string property SimpleName MethodInvocation SimpleName kb interactive prompt prop
+get string property SimpleName MethodInvocation SimpleName default kb interactive prompt
+session SimpleName MethodInvocation SimpleName kb interactive prompt prop
+session SimpleName MethodInvocation SimpleName default kb interactive prompt
+kb interactive prompt prop SimpleName MethodInvocation SimpleName default kb interactive prompt
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get interaction prompt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType MethodDeclaration SimpleName get interaction prompt
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+get interaction prompt SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+get interaction prompt SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get interaction prompt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get interaction prompt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

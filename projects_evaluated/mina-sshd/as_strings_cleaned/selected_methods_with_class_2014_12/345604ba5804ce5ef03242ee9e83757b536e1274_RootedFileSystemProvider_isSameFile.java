@@ -1,0 +1,61 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+unroot SimpleName MethodInvocation SimpleName path
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+unroot SimpleName MethodInvocation SimpleName path
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+provider SimpleName MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName is same file
+r SimpleName MethodInvocation MethodInvocation SimpleName is same file
+provider SimpleName MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation SimpleName r
+is same file SimpleName MethodInvocation SimpleName r
+is same file SimpleName MethodInvocation SimpleName r
+r SimpleName MethodInvocation SimpleName r
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is same file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is same file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName is same file
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+is same file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+is same file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+is same file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+is same file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+is same file SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is same file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is same file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

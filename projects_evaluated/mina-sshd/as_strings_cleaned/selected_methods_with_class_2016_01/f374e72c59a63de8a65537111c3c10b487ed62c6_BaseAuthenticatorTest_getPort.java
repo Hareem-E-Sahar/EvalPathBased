@@ -1,0 +1,39 @@
+transport SimpleName SimpleType SingleVariableDeclaration SimpleName transports
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName transports
+is empty SimpleName MethodInvocation SimpleName transports
+transports SimpleName ArrayAccess NumberLiteral empty
+transports SimpleName ArrayAccess MethodInvocation SimpleName get port
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get port
+generic utils SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+is empty SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+transports SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+transports SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+empty NumberLiteral PrefixExpression ConditionalExpression MethodInvocation SimpleName get port
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get port
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName transport
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName transports
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get port
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName transport
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName transports
+int PrimitiveType MethodDeclaration SimpleName get port
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName transport
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName transports
+get port SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName transport
+get port SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transports
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transports
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transports

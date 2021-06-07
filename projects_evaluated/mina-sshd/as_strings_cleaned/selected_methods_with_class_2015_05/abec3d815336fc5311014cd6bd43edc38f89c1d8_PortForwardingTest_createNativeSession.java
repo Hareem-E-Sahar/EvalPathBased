@@ -1,0 +1,74 @@
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName Assignment MethodInvocation SimpleName ssh client
+client SimpleName Assignment MethodInvocation SimpleName set up default client
+client SimpleName MethodInvocation SimpleName get properties
+client SimpleName MethodInvocation MethodInvocation SimpleName put
+get properties SimpleName MethodInvocation MethodInvocation SimpleName put
+client SimpleName MethodInvocation MethodInvocation QualifiedName factory managerwindow size
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName factory managerwindow size
+client SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get properties SimpleName MethodInvocation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation QualifiedName factory managerwindow size
+put SimpleName MethodInvocation StringLiteral empty
+factory managerwindow size QualifiedName MethodInvocation StringLiteral empty
+client SimpleName MethodInvocation SimpleName get properties
+client SimpleName MethodInvocation MethodInvocation SimpleName put
+get properties SimpleName MethodInvocation MethodInvocation SimpleName put
+client SimpleName MethodInvocation MethodInvocation QualifiedName factory managermax packet size
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName factory managermax packet size
+client SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get properties SimpleName MethodInvocation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation QualifiedName factory managermax packet size
+put SimpleName MethodInvocation StringLiteral empty
+factory managermax packet size QualifiedName MethodInvocation StringLiteral empty
+client SimpleName MethodInvocation SimpleName set tcpip forwarding filter
+client SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName bogus forwarding filter
+set tcpip forwarding filter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName bogus forwarding filter
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation StringLiteral sshd
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName ssh port
+connect SimpleName MethodInvocation StringLiteral sshd
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName ssh port
+sshd StringLiteral MethodInvocation StringLiteral localhost
+sshd StringLiteral MethodInvocation SimpleName ssh port
+localhost StringLiteral MethodInvocation SimpleName ssh port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+sshd StringLiteral MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+ssh port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+sshd StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+ssh port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation StringLiteral sshd
+add password identity SimpleName MethodInvocation StringLiteral sshd
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+protected Modifier MethodDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SimpleName create native session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName session
+client session SimpleName SimpleType MethodDeclaration SimpleName create native session
+client session SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create native session SimpleName MethodDeclaration SimpleType SimpleName exception
+create native session SimpleName MethodDeclaration Block ReturnStatement SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client session
+public Modifier TypeDeclaration MethodDeclaration SimpleName create native session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create native session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

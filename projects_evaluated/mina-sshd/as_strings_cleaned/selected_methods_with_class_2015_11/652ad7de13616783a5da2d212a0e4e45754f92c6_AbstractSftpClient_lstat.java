@@ -1,0 +1,54 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+lstat StringLiteral InfixExpression SimpleName path
+lstat StringLiteral InfixExpression StringLiteral ) client is closed
+path SimpleName InfixExpression StringLiteral ) client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral lstat
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) client is closed
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName path
+put string SimpleName MethodInvocation SimpleName path
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get version
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation QualifiedName sftp constantsssh filexfer attr all
+put int SimpleName MethodInvocation QualifiedName sftp constantsssh filexfer attr all
+check attributes SimpleName MethodInvocation QualifiedName sftp constantsssh fxp lstat
+check attributes SimpleName MethodInvocation SimpleName buffer
+sftp constantsssh fxp lstat QualifiedName MethodInvocation SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName attributes
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName lstat
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName lstat
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+attributes SimpleName SimpleType MethodDeclaration SimpleName lstat
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+attributes SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+lstat SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+lstat SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+lstat SimpleName MethodDeclaration SimpleType SimpleName io exception
+lstat SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName lstat
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lstat
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

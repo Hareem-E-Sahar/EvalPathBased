@@ -1,0 +1,112 @@
+appendable SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get login options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName oe
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName oe
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName oe
+options SimpleName MethodInvocation SimpleName entry set
+oe SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName oe
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+oe SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName oe
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+index SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName key
+booleantrue QualifiedName MethodInvocation SimpleName to string
+booleantrue QualifiedName MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+booleantrue QualifiedName MethodInvocation MethodInvocation SimpleName value
+to string SimpleName MethodInvocation MethodInvocation SimpleName value
+equals SimpleName MethodInvocation SimpleName value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral =
+append SimpleName MethodInvocation CharacterLiteral =
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+= CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation SimpleName value
+= CharacterLiteral MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName value
+oe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName options
+oe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+index SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+append public key SimpleName SuperMethodInvocation SimpleName sb
+key SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName append public key
+key SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName sb
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+kc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get comment
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kc
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName kc
+is empty SimpleName MethodInvocation SimpleName kc
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName kc
+append SimpleName MethodInvocation MethodInvocation SimpleName kc
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName kc
+append SimpleName MethodInvocation SimpleName kc
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName public key
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName append public key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName sb
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SimpleName append public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName appendable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+public key SimpleName SimpleType MethodDeclaration SimpleName append public key
+public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+append public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName appendable
+append public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+append public key SimpleName MethodDeclaration SimpleType SimpleName io exception
+append public key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+append public key SimpleName MethodDeclaration Block ReturnStatement SimpleName key
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName public key
+public Modifier TypeDeclaration MethodDeclaration SimpleName append public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName public key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

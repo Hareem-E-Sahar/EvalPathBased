@@ -1,0 +1,59 @@
+reason SimpleName VariableDeclarationFragment QualifiedName ssh constantsssh disconnect host not allowed to connect
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName reason
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName ssh constantsssh disconnect host not allowed to connect
+reason SimpleName InfixExpression QualifiedName ssh constantsssh disconnect illegal user name
+ssh constants SimpleName MethodInvocation SimpleName get disconnect reason name
+ssh constants SimpleName MethodInvocation SimpleName reason
+get disconnect reason name SimpleName MethodInvocation SimpleName reason
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh constants
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get disconnect reason name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName reason
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+mismatched name for reason StringLiteral InfixExpression SimpleName reason
+mismatched name for reason StringLiteral InfixExpression StringLiteral :
+mismatched name for reason StringLiteral InfixExpression SimpleName name
+reason SimpleName InfixExpression StringLiteral :
+reason SimpleName InfixExpression SimpleName name
+: StringLiteral InfixExpression SimpleName name
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation StringLiteral ssh disconnect
+starts with SimpleName MethodInvocation StringLiteral ssh disconnect
+assert true SimpleName MethodInvocation InfixExpression StringLiteral mismatched name for reason
+assert true SimpleName MethodInvocation InfixExpression SimpleName reason
+assert true SimpleName MethodInvocation InfixExpression StringLiteral :
+assert true SimpleName MethodInvocation InfixExpression SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName starts with
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral ssh disconnect
+mismatched name for reason StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+mismatched name for reason StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+mismatched name for reason StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh disconnect
+reason SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+reason SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+reason SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh disconnect
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+: StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh disconnect
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+name SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh disconnect
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName reason
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName ssh constantsssh disconnect illegal user name
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName reason
+reason SimpleName InfixExpression ForStatement PostfixExpression SimpleName reason
+ssh constantsssh disconnect illegal user name QualifiedName InfixExpression ForStatement PostfixExpression SimpleName reason
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get disconnect reason
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get disconnect reason
+void PrimitiveType MethodDeclaration SimpleName test get disconnect reason
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get disconnect reason
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get disconnect reason

@@ -1,0 +1,24 @@
+system SimpleName MethodInvocation SimpleName clear property
+system SimpleName MethodInvocation SimpleName bc named usage prop
+clear property SimpleName MethodInvocation SimpleName bc named usage prop
+after class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+after class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after class SimpleName MarkerAnnotation MethodDeclaration SimpleName unset bouncy castle provider usage preference
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName unset bouncy castle provider usage preference
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName unset bouncy castle provider usage preference
+void PrimitiveType MethodDeclaration SimpleName unset bouncy castle provider usage preference
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unset bouncy castle provider usage preference
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unset bouncy castle provider usage preference

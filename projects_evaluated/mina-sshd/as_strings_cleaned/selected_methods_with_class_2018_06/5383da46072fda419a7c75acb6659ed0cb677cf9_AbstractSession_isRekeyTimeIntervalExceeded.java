@@ -1,0 +1,93 @@
+max rekey interval SimpleName InfixExpression NumberLiteral l
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+last key time value SimpleName MethodInvocation SimpleName get
+now SimpleName InfixExpression MethodInvocation SimpleName last key time value
+now SimpleName InfixExpression MethodInvocation SimpleName get
+rekey diff SimpleName VariableDeclarationFragment InfixExpression SimpleName now
+rekey diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName last key time value
+rekey diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rekey diff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+rekey diff SimpleName InfixExpression SimpleName max rekey interval
+rekey SimpleName VariableDeclarationFragment InfixExpression SimpleName rekey diff
+rekey SimpleName VariableDeclarationFragment InfixExpression SimpleName max rekey interval
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rekey
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName rekey diff
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName max rekey interval
+log SimpleName MethodInvocation SimpleName is debug enabled
+last key time value SimpleName MethodInvocation SimpleName get
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName last key time value
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+date SimpleName SimpleType ClassInstanceCreation SimpleName now
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral is rekey time interval exceeded rekeying last now diff max
+log SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+log SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName last key time value
+log SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+log SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+log SimpleName MethodInvocation ClassInstanceCreation SimpleName now
+debug SimpleName MethodInvocation StringLiteral is rekey time interval exceeded rekeying last now diff max
+debug SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+debug SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName last key time value
+debug SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+debug SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+debug SimpleName MethodInvocation ClassInstanceCreation SimpleName now
+debug SimpleName MethodInvocation SimpleName rekey diff
+is rekey time interval exceeded rekeying last now diff max StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+is rekey time interval exceeded rekeying last now diff max StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName last key time value
+is rekey time interval exceeded rekeying last now diff max StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+is rekey time interval exceeded rekeying last now diff max StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+is rekey time interval exceeded rekeying last now diff max StringLiteral MethodInvocation ClassInstanceCreation SimpleName now
+is rekey time interval exceeded rekeying last now diff max StringLiteral MethodInvocation SimpleName rekey diff
+is rekey time interval exceeded rekeying last now diff max StringLiteral MethodInvocation SimpleName max rekey interval
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rekey diff
+last key time value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rekey diff
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rekey diff
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName max rekey interval
+last key time value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max rekey interval
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max rekey interval
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rekey diff
+now SimpleName ClassInstanceCreation MethodInvocation SimpleName rekey diff
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName max rekey interval
+now SimpleName ClassInstanceCreation MethodInvocation SimpleName max rekey interval
+rekey diff SimpleName MethodInvocation SimpleName max rekey interval
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName rekey
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName rekey
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName rekey
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName rekey
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName rekey
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName rekey
+rekey SimpleName IfStatement Block ReturnStatement SimpleName rekey
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is rekey time interval exceeded
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block IfStatement SimpleName rekey
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName rekey
+boolean PrimitiveType MethodDeclaration SimpleName is rekey time interval exceeded
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName rekey
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName rekey
+is rekey time interval exceeded SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+is rekey time interval exceeded SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+is rekey time interval exceeded SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is rekey time interval exceeded SimpleName MethodDeclaration Block IfStatement SimpleName rekey
+is rekey time interval exceeded SimpleName MethodDeclaration Block ReturnStatement SimpleName rekey
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is rekey time interval exceeded
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is rekey time interval exceeded

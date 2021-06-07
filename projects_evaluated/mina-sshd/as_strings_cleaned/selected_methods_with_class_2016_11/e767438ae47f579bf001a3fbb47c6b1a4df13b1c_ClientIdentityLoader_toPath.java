@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName location
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName location
+validate utils SimpleName MethodInvocation StringLiteral no location
+check not null and not empty SimpleName MethodInvocation SimpleName location
+check not null and not empty SimpleName MethodInvocation StringLiteral no location
+location SimpleName MethodInvocation StringLiteral no location
+paths SimpleName MethodInvocation SimpleName get
+paths SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+paths SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+paths SimpleName MethodInvocation MethodInvocation SimpleName location
+paths SimpleName MethodInvocation MethodInvocation StringLiteral no location
+get SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+get SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+get SimpleName MethodInvocation MethodInvocation SimpleName location
+get SimpleName MethodInvocation MethodInvocation StringLiteral no location
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName paths
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null and not empty
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName location
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no location
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName to absolute path
+path SimpleName Assignment MethodInvocation SimpleName path
+path SimpleName Assignment MethodInvocation SimpleName to absolute path
+path SimpleName MethodInvocation SimpleName normalize
+path SimpleName Assignment MethodInvocation SimpleName path
+path SimpleName Assignment MethodInvocation SimpleName normalize
+private Modifier MethodDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SimpleName to path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName location
+private Modifier MethodDeclaration Block ReturnStatement SimpleName path
+path SimpleName SimpleType MethodDeclaration SimpleName to path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName location
+to path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName location
+to path SimpleName MethodDeclaration Block ReturnStatement SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName to path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location

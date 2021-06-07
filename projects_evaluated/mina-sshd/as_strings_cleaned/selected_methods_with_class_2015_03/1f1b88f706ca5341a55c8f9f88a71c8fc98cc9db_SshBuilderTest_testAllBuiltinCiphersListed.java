@@ -1,0 +1,52 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName builtin ciphers
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName builtin ciphers
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName builtin ciphers
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName all of
+missing StringLiteral InfixExpression QualifiedName builtin ciphersconstantsnone
+missing StringLiteral InfixExpression StringLiteral cipher in all values
+builtin ciphersconstantsnone QualifiedName InfixExpression StringLiteral cipher in all values
+all SimpleName MethodInvocation SimpleName remove
+all SimpleName MethodInvocation QualifiedName builtin ciphersnone
+remove SimpleName MethodInvocation QualifiedName builtin ciphersnone
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression StringLiteral missing
+assert SimpleName MethodInvocation InfixExpression QualifiedName builtin ciphersconstantsnone
+assert SimpleName MethodInvocation InfixExpression StringLiteral cipher in all values
+assert SimpleName MethodInvocation MethodInvocation SimpleName all
+assert SimpleName MethodInvocation MethodInvocation SimpleName remove
+assert SimpleName MethodInvocation MethodInvocation QualifiedName builtin ciphersnone
+assert true SimpleName MethodInvocation InfixExpression StringLiteral missing
+assert true SimpleName MethodInvocation InfixExpression QualifiedName builtin ciphersconstantsnone
+assert true SimpleName MethodInvocation InfixExpression StringLiteral cipher in all values
+assert true SimpleName MethodInvocation MethodInvocation SimpleName all
+assert true SimpleName MethodInvocation MethodInvocation SimpleName remove
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName builtin ciphersnone
+missing StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName all
+missing StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName remove
+missing StringLiteral InfixExpression MethodInvocation MethodInvocation QualifiedName builtin ciphersnone
+builtin ciphersconstantsnone QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName all
+builtin ciphersconstantsnone QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName remove
+builtin ciphersconstantsnone QualifiedName InfixExpression MethodInvocation MethodInvocation QualifiedName builtin ciphersnone
+cipher in all values StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName all
+cipher in all values StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName remove
+cipher in all values StringLiteral InfixExpression MethodInvocation MethodInvocation QualifiedName builtin ciphersnone
+test all instances listed SimpleName MethodInvocation SimpleName all
+test all instances listed SimpleName MethodInvocation QualifiedName base builderdefault ciphers preference
+all SimpleName MethodInvocation QualifiedName base builderdefault ciphers preference
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test all builtin ciphers listed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test all builtin ciphers listed
+void PrimitiveType MethodDeclaration SimpleName test all builtin ciphers listed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test all builtin ciphers listed
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test all builtin ciphers listed

@@ -1,0 +1,31 @@
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get connection service
+validate utils SimpleName MethodInvocation StringLiteral no connection service
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get connection service
+check not null SimpleName MethodInvocation StringLiteral no connection service
+get connection service SimpleName MethodInvocation MethodInvocation StringLiteral no connection service
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+service SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connection service
+service SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no connection service
+connection service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+service SimpleName MethodInvocation SimpleName get tcpip forwarder
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName service
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get tcpip forwarder
+validate utils SimpleName MethodInvocation StringLiteral no forwarder
+check not null SimpleName MethodInvocation MethodInvocation SimpleName service
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get tcpip forwarder
+check not null SimpleName MethodInvocation StringLiteral no forwarder
+service SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder
+get tcpip forwarder SimpleName MethodInvocation MethodInvocation StringLiteral no forwarder
+protected Modifier MethodDeclaration SimpleType SimpleName tcpip forwarder
+protected Modifier MethodDeclaration SimpleName get tcpip forwarder
+tcpip forwarder SimpleName SimpleType MethodDeclaration SimpleName get tcpip forwarder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tcpip forwarder
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tcpip forwarder
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tcpip forwarder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tcpip forwarder

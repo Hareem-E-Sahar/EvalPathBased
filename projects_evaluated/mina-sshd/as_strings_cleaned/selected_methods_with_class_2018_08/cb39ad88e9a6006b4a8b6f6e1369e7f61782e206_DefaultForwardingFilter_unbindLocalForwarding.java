@@ -1,0 +1,135 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote
+inet socket address SimpleName SimpleType SingleVariableDeclaration SimpleName bound
+log SimpleName MethodInvocation SimpleName is debug enabled
+unbind local forwarding StringLiteral InfixExpression SimpleName local
+unbind local forwarding StringLiteral InfixExpression StringLiteral =>
+unbind local forwarding StringLiteral InfixExpression SimpleName remote
+unbind local forwarding StringLiteral InfixExpression StringLiteral ) unbind
+unbind local forwarding StringLiteral InfixExpression SimpleName bound
+local SimpleName InfixExpression StringLiteral =>
+local SimpleName InfixExpression SimpleName remote
+local SimpleName InfixExpression StringLiteral ) unbind
+local SimpleName InfixExpression SimpleName bound
+=> StringLiteral InfixExpression SimpleName remote
+=> StringLiteral InfixExpression StringLiteral ) unbind
+=> StringLiteral InfixExpression SimpleName bound
+remote SimpleName InfixExpression StringLiteral ) unbind
+remote SimpleName InfixExpression SimpleName bound
+) unbind StringLiteral InfixExpression SimpleName bound
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral unbind local forwarding
+log SimpleName MethodInvocation InfixExpression SimpleName local
+log SimpleName MethodInvocation InfixExpression StringLiteral =>
+log SimpleName MethodInvocation InfixExpression SimpleName remote
+log SimpleName MethodInvocation InfixExpression StringLiteral ) unbind
+log SimpleName MethodInvocation InfixExpression SimpleName bound
+debug SimpleName MethodInvocation InfixExpression StringLiteral unbind local forwarding
+debug SimpleName MethodInvocation InfixExpression SimpleName local
+debug SimpleName MethodInvocation InfixExpression StringLiteral =>
+debug SimpleName MethodInvocation InfixExpression SimpleName remote
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) unbind
+debug SimpleName MethodInvocation InfixExpression SimpleName bound
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName bound
+bound address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+bound address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bound
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound address
+signal tearing down explicit tunnel SimpleName MethodInvocation SimpleName bound address
+signal tearing down explicit tunnel SimpleName MethodInvocation BooleanLiteral true
+signal tearing down explicit tunnel SimpleName MethodInvocation SimpleName remote
+bound address SimpleName MethodInvocation BooleanLiteral true
+bound address SimpleName MethodInvocation SimpleName remote
+true BooleanLiteral MethodInvocation SimpleName remote
+acceptor SimpleName MethodInvocation SimpleName unbind
+acceptor SimpleName MethodInvocation SimpleName bound
+unbind SimpleName MethodInvocation SimpleName bound
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+signal torn down explicit tunnel SimpleName MethodInvocation SimpleName bound address
+signal torn down explicit tunnel SimpleName MethodInvocation BooleanLiteral true
+signal torn down explicit tunnel SimpleName MethodInvocation SimpleName remote
+signal torn down explicit tunnel SimpleName MethodInvocation SimpleName e
+bound address SimpleName MethodInvocation BooleanLiteral true
+bound address SimpleName MethodInvocation SimpleName remote
+bound address SimpleName MethodInvocation SimpleName e
+true BooleanLiteral MethodInvocation SimpleName remote
+true BooleanLiteral MethodInvocation SimpleName e
+remote SimpleName MethodInvocation SimpleName e
+signal torn down explicit tunnel SimpleName MethodInvocation SimpleName bound address
+signal torn down explicit tunnel SimpleName MethodInvocation BooleanLiteral true
+signal torn down explicit tunnel SimpleName MethodInvocation SimpleName remote
+bound address SimpleName MethodInvocation BooleanLiteral true
+bound address SimpleName MethodInvocation SimpleName remote
+true BooleanLiteral MethodInvocation SimpleName remote
+log SimpleName MethodInvocation SimpleName is debug enabled
+unbind local forwarding StringLiteral InfixExpression SimpleName local
+unbind local forwarding StringLiteral InfixExpression StringLiteral =>
+unbind local forwarding StringLiteral InfixExpression SimpleName remote
+unbind local forwarding StringLiteral InfixExpression StringLiteral ) no mappingacceptor for
+unbind local forwarding StringLiteral InfixExpression SimpleName bound
+local SimpleName InfixExpression StringLiteral =>
+local SimpleName InfixExpression SimpleName remote
+local SimpleName InfixExpression StringLiteral ) no mappingacceptor for
+local SimpleName InfixExpression SimpleName bound
+=> StringLiteral InfixExpression SimpleName remote
+=> StringLiteral InfixExpression StringLiteral ) no mappingacceptor for
+=> StringLiteral InfixExpression SimpleName bound
+remote SimpleName InfixExpression StringLiteral ) no mappingacceptor for
+remote SimpleName InfixExpression SimpleName bound
+) no mappingacceptor for StringLiteral InfixExpression SimpleName bound
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral unbind local forwarding
+log SimpleName MethodInvocation InfixExpression SimpleName local
+log SimpleName MethodInvocation InfixExpression StringLiteral =>
+log SimpleName MethodInvocation InfixExpression SimpleName remote
+log SimpleName MethodInvocation InfixExpression StringLiteral ) no mappingacceptor for
+log SimpleName MethodInvocation InfixExpression SimpleName bound
+debug SimpleName MethodInvocation InfixExpression StringLiteral unbind local forwarding
+debug SimpleName MethodInvocation InfixExpression SimpleName local
+debug SimpleName MethodInvocation InfixExpression StringLiteral =>
+debug SimpleName MethodInvocation InfixExpression SimpleName remote
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) no mappingacceptor for
+debug SimpleName MethodInvocation InfixExpression SimpleName bound
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName unbind local forwarding
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName bound
+void PrimitiveType MethodDeclaration SimpleName unbind local forwarding
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bound
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+unbind local forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+unbind local forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+unbind local forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+unbind local forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote
+unbind local forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet socket address
+unbind local forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bound
+unbind local forwarding SimpleName MethodDeclaration SimpleType SimpleName io exception
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bound
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+remote SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bound
+remote SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+bound SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unbind local forwarding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bound
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unbind local forwarding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bound
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

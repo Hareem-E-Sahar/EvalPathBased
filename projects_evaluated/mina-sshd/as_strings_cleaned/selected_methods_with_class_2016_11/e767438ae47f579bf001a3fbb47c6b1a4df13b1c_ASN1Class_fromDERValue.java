@@ -1,0 +1,32 @@
+int PrimitiveType SingleVariableDeclaration SimpleName value
+value SimpleName InfixExpression NumberLiteral empty
+value SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+from type value SimpleName MethodInvocation InfixExpression NumberLiteral x
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName asn class
+public Modifier MethodDeclaration SimpleName from der value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName asn class
+static Modifier MethodDeclaration SimpleName from der value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+asn class SimpleName SimpleType MethodDeclaration SimpleName from der value
+asn class SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+asn class SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+from der value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+from der value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName asn class
+public Modifier TypeDeclaration MethodDeclaration SimpleName from der value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName asn class
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from der value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

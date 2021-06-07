@@ -1,0 +1,70 @@
+baos SimpleName MethodInvocation SimpleName close
+data written SimpleName MethodInvocation SimpleName get and set
+data written SimpleName MethodInvocation BooleanLiteral true
+get and set SimpleName MethodInvocation BooleanLiteral true
+baos SimpleName MethodInvocation SimpleName size
+baos SimpleName MethodInvocation SimpleName to byte array
+asn object SimpleName SimpleType ClassInstanceCreation QualifiedName asn classuniversal
+asn object SimpleName SimpleType ClassInstanceCreation QualifiedName asn typesequence
+asn object SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+asn object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName baos
+asn object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+asn object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName baos
+asn object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to byte array
+asn classuniversal QualifiedName ClassInstanceCreation QualifiedName asn typesequence
+asn classuniversal QualifiedName ClassInstanceCreation BooleanLiteral false
+asn classuniversal QualifiedName ClassInstanceCreation MethodInvocation SimpleName baos
+asn classuniversal QualifiedName ClassInstanceCreation MethodInvocation SimpleName size
+asn classuniversal QualifiedName ClassInstanceCreation MethodInvocation SimpleName baos
+asn classuniversal QualifiedName ClassInstanceCreation MethodInvocation SimpleName to byte array
+asn typesequence QualifiedName ClassInstanceCreation BooleanLiteral false
+asn typesequence QualifiedName ClassInstanceCreation MethodInvocation SimpleName baos
+asn typesequence QualifiedName ClassInstanceCreation MethodInvocation SimpleName size
+asn typesequence QualifiedName ClassInstanceCreation MethodInvocation SimpleName baos
+asn typesequence QualifiedName ClassInstanceCreation MethodInvocation SimpleName to byte array
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName baos
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName size
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName baos
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName to byte array
+baos SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+baos SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte array
+size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte array
+encloser SimpleName MethodInvocation SimpleName write object
+encloser SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName asn object
+encloser SimpleName MethodInvocation ClassInstanceCreation QualifiedName asn classuniversal
+encloser SimpleName MethodInvocation ClassInstanceCreation QualifiedName asn typesequence
+encloser SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+encloser SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+encloser SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+encloser SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+encloser SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte array
+write object SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName asn object
+write object SimpleName MethodInvocation ClassInstanceCreation QualifiedName asn classuniversal
+write object SimpleName MethodInvocation ClassInstanceCreation QualifiedName asn typesequence
+write object SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+write object SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+write object SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+write object SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+write object SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte array
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

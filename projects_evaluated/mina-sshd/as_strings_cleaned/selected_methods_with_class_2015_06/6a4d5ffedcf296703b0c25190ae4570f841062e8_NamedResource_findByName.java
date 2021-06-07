@@ -1,0 +1,92 @@
+r SimpleName TypeParameter SimpleType SimpleName named resource
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+comparator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resources
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName resources
+is empty SimpleName MethodInvocation SimpleName resources
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resources
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resources
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resources
+r SimpleName SimpleType SingleVariableDeclaration SimpleName r
+r SimpleName MethodInvocation SimpleName get name
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+c SimpleName MethodInvocation SimpleName compare
+c SimpleName MethodInvocation SimpleName name
+c SimpleName MethodInvocation SimpleName n
+compare SimpleName MethodInvocation SimpleName name
+compare SimpleName MethodInvocation SimpleName n
+name SimpleName MethodInvocation SimpleName n
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+n res SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n res
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName n
+n res SimpleName InfixExpression NumberLiteral empty
+r SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName resources
+r SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName resources
+resources SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName r
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName named resource
+public Modifier MethodDeclaration SimpleType SimpleName r
+public Modifier MethodDeclaration SimpleName find by name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration TypeParameter SimpleName r
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName named resource
+static Modifier MethodDeclaration SimpleType SimpleName r
+static Modifier MethodDeclaration SimpleName find by name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName TypeParameter MethodDeclaration SimpleType SimpleName r
+r SimpleName TypeParameter MethodDeclaration SimpleName find by name
+named resource SimpleName SimpleType TypeParameter MethodDeclaration SimpleName find by name
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName name
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName resources
+r SimpleName SimpleType MethodDeclaration SimpleName find by name
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName c
+r SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resources
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+find by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resources
+find by name SimpleName MethodDeclaration Block EnhancedForStatement SimpleName resources
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resources

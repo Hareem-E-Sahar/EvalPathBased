@@ -1,0 +1,35 @@
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client hostname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+sshd socket address SimpleName MethodInvocation SimpleName get first external network address
+sshd socket address SimpleName MethodInvocation SimpleName to address string
+sshd socket address SimpleName MethodInvocation MethodInvocation SimpleName sshd socket address
+sshd socket address SimpleName MethodInvocation MethodInvocation SimpleName get first external network address
+to address string SimpleName MethodInvocation MethodInvocation SimpleName sshd socket address
+to address string SimpleName MethodInvocation MethodInvocation SimpleName get first external network address
+value SimpleName Assignment MethodInvocation SimpleName sshd socket address
+value SimpleName Assignment MethodInvocation SimpleName to address string
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName sshd socket address
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName get first external network address
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+generic utils SimpleName MethodInvocation ConditionalExpression QualifiedName sshd socket addresslocalhost ip
+is empty SimpleName MethodInvocation ConditionalExpression QualifiedName sshd socket addresslocalhost ip
+value SimpleName MethodInvocation ConditionalExpression QualifiedName sshd socket addresslocalhost ip
+generic utils SimpleName MethodInvocation ConditionalExpression SimpleName value
+is empty SimpleName MethodInvocation ConditionalExpression SimpleName value
+value SimpleName MethodInvocation ConditionalExpression SimpleName value
+sshd socket addresslocalhost ip QualifiedName ConditionalExpression SimpleName value
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve client hostname
+string SimpleName SimpleType MethodDeclaration SimpleName resolve client hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve client hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve client hostname

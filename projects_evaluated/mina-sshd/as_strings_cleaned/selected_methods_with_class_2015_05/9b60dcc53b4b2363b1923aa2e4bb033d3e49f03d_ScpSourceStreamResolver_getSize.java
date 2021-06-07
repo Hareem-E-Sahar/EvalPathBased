@@ -1,0 +1,10 @@
+long PrimitiveType MethodDeclaration SimpleName get size
+long PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+get size SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

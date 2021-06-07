@@ -1,0 +1,64 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName InstanceofExpression SimpleType SimpleName rsa key
+rsa key SimpleName SimpleType CastExpression SimpleName key
+key SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get modulus
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get modulus
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName bit length
+key SimpleName InstanceofExpression SimpleType SimpleName dsa key
+dsa key SimpleName SimpleType CastExpression SimpleName key
+key SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get params
+params SimpleName VariableDeclarationFragment MethodInvocation SimpleName get params
+dsa params SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName params
+params SimpleName MethodInvocation SimpleName get p
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName params
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get p
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName bit length
+key SimpleName InstanceofExpression SimpleType SimpleName ec key
+ec key SimpleName SimpleType CastExpression SimpleName key
+key SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get params
+ec spec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get params
+ec parameter spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ec spec
+ec curves SimpleName MethodInvocation SimpleName from curve parameters
+ec curves SimpleName MethodInvocation SimpleName ec spec
+from curve parameters SimpleName MethodInvocation SimpleName ec spec
+curve SimpleName VariableDeclarationFragment MethodInvocation SimpleName ec curves
+curve SimpleName VariableDeclarationFragment MethodInvocation SimpleName from curve parameters
+curve SimpleName VariableDeclarationFragment MethodInvocation SimpleName ec spec
+ec curves SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curve
+curve SimpleName MethodInvocation SimpleName get key size
+key SimpleName MethodInvocation SimpleName get algorithm
+security utilseddsa QualifiedName MethodInvocation SimpleName equals ignore case
+security utilseddsa QualifiedName MethodInvocation MethodInvocation SimpleName key
+security utilseddsa QualifiedName MethodInvocation MethodInvocation SimpleName get algorithm
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName key
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+security utils SimpleName MethodInvocation SimpleName get eddsa key size
+security utils SimpleName MethodInvocation SimpleName key
+get eddsa key size SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get key size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get key size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+int PrimitiveType MethodDeclaration SimpleName get key size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+get key size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+get key size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

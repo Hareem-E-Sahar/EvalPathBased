@@ -1,0 +1,56 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+current user holder SimpleName MethodInvocation SimpleName get
+username SimpleName Assignment MethodInvocation SimpleName current user holder
+username SimpleName Assignment MethodInvocation SimpleName get
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation StringLiteral username
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation SimpleName current user override prop
+system SimpleName MethodInvocation MethodInvocation SimpleName system
+system SimpleName MethodInvocation MethodInvocation SimpleName get property
+system SimpleName MethodInvocation MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation SimpleName current user override prop
+get property SimpleName MethodInvocation MethodInvocation SimpleName system
+get property SimpleName MethodInvocation MethodInvocation SimpleName get property
+get property SimpleName MethodInvocation MethodInvocation StringLiteral username
+current user override prop SimpleName MethodInvocation MethodInvocation SimpleName system
+current user override prop SimpleName MethodInvocation MethodInvocation SimpleName get property
+current user override prop SimpleName MethodInvocation MethodInvocation StringLiteral username
+username SimpleName Assignment MethodInvocation SimpleName system
+username SimpleName Assignment MethodInvocation SimpleName get property
+username SimpleName Assignment MethodInvocation SimpleName current user override prop
+username SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+username SimpleName Assignment MethodInvocation MethodInvocation SimpleName get property
+username SimpleName Assignment MethodInvocation MethodInvocation StringLiteral username
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName username
+validate utils SimpleName MethodInvocation StringLiteral no username available
+check not null and not empty SimpleName MethodInvocation SimpleName username
+check not null and not empty SimpleName MethodInvocation StringLiteral no username available
+username SimpleName MethodInvocation StringLiteral no username available
+current user holder SimpleName MethodInvocation SimpleName set
+current user holder SimpleName MethodInvocation SimpleName username
+set SimpleName MethodInvocation SimpleName username
+current user holder SimpleName SynchronizedStatement Block ReturnStatement SimpleName username
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get current user
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName current user holder
+public Modifier MethodDeclaration Block ReturnStatement SimpleName username
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get current user
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName current user holder
+static Modifier MethodDeclaration Block ReturnStatement SimpleName username
+string SimpleName SimpleType MethodDeclaration SimpleName get current user
+get current user SimpleName MethodDeclaration Block SynchronizedStatement SimpleName current user holder
+get current user SimpleName MethodDeclaration Block ReturnStatement SimpleName username
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current user
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current user

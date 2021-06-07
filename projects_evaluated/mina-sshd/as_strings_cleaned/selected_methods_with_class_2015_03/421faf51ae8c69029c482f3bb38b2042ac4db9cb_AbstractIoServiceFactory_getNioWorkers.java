@@ -1,0 +1,52 @@
+factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+factory manager utils SimpleName MethodInvocation SimpleName get int property
+factory manager utils SimpleName MethodInvocation SimpleName manager
+factory manager utils SimpleName MethodInvocation QualifiedName factory managernio workers
+factory manager utils SimpleName MethodInvocation QualifiedName factory managerdefault nio workers
+get int property SimpleName MethodInvocation SimpleName manager
+get int property SimpleName MethodInvocation QualifiedName factory managernio workers
+get int property SimpleName MethodInvocation QualifiedName factory managerdefault nio workers
+manager SimpleName MethodInvocation QualifiedName factory managernio workers
+manager SimpleName MethodInvocation QualifiedName factory managerdefault nio workers
+factory managernio workers QualifiedName MethodInvocation QualifiedName factory managerdefault nio workers
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int property
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+nb SimpleName VariableDeclarationFragment MethodInvocation QualifiedName factory managernio workers
+nb SimpleName VariableDeclarationFragment MethodInvocation QualifiedName factory managerdefault nio workers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName manager
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName factory managernio workers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName factory managerdefault nio workers
+nb SimpleName InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get nio workers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get nio workers
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName get nio workers
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName manager
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get nio workers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+get nio workers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+get nio workers SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get nio workers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get nio workers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager

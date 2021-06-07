@@ -1,0 +1,38 @@
+channel SimpleName MethodInvocation SimpleName get exit status
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName channel
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get exit status
+validate utils SimpleName MethodInvocation StringLiteral no channel status available
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation MethodInvocation SimpleName channel
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get exit status
+check not null SimpleName MethodInvocation StringLiteral no channel status available
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+channel SimpleName MethodInvocation MethodInvocation StringLiteral no channel status available
+get exit status SimpleName MethodInvocation MethodInvocation StringLiteral no channel status available
+channel SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+get exit status SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+no channel status available StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName channel
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get exit status
+status SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no channel status available
+status SimpleName VariableDeclarationFragment MethodInvocation QualifiedName generic utilsempty object array
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+status SimpleName MethodInvocation SimpleName int value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName exit value
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName exit value
+int PrimitiveType MethodDeclaration SimpleName exit value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName exit value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exit value

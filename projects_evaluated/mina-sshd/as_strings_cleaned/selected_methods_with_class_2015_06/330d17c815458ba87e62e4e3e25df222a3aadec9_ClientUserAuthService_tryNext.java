@@ -1,0 +1,70 @@
+current method SimpleName Assignment NumberLiteral empty
+user auth SimpleName MethodInvocation SimpleName process
+user auth SimpleName MethodInvocation SimpleName destroy
+client methods SimpleName MethodInvocation SimpleName size
+current method SimpleName InfixExpression MethodInvocation SimpleName client methods
+current method SimpleName InfixExpression MethodInvocation SimpleName size
+client methods SimpleName MethodInvocation SimpleName get
+client methods SimpleName MethodInvocation SimpleName current method
+get SimpleName MethodInvocation SimpleName current method
+server methods SimpleName MethodInvocation SimpleName contains
+server methods SimpleName MethodInvocation MethodInvocation SimpleName client methods
+server methods SimpleName MethodInvocation MethodInvocation SimpleName get
+server methods SimpleName MethodInvocation MethodInvocation SimpleName current method
+contains SimpleName MethodInvocation MethodInvocation SimpleName client methods
+contains SimpleName MethodInvocation MethodInvocation SimpleName get
+contains SimpleName MethodInvocation MethodInvocation SimpleName current method
+client methods SimpleName MethodInvocation SimpleName size
+current method SimpleName InfixExpression MethodInvocation SimpleName client methods
+current method SimpleName InfixExpression MethodInvocation SimpleName size
+auth future SimpleName MethodInvocation SimpleName set authed
+auth future SimpleName MethodInvocation BooleanLiteral false
+set authed SimpleName MethodInvocation BooleanLiteral false
+client methods SimpleName MethodInvocation SimpleName get
+client methods SimpleName MethodInvocation SimpleName current method
+get SimpleName MethodInvocation SimpleName current method
+method SimpleName VariableDeclarationFragment MethodInvocation SimpleName client methods
+method SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+method SimpleName VariableDeclarationFragment MethodInvocation SimpleName current method
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method
+named factoryutils QualifiedName MethodInvocation SimpleName create
+named factoryutils QualifiedName MethodInvocation SimpleName auth factories
+named factoryutils QualifiedName MethodInvocation SimpleName method
+create SimpleName MethodInvocation SimpleName auth factories
+create SimpleName MethodInvocation SimpleName method
+auth factories SimpleName MethodInvocation SimpleName method
+user auth SimpleName Assignment MethodInvocation QualifiedName named factoryutils
+user auth SimpleName Assignment MethodInvocation SimpleName create
+user auth SimpleName Assignment MethodInvocation SimpleName auth factories
+user auth SimpleName Assignment MethodInvocation SimpleName method
+failed to find a userauth factory for method StringLiteral InfixExpression SimpleName method
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to find a userauth factory for method
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName method
+user auth SimpleName MethodInvocation SimpleName init
+user auth SimpleName MethodInvocation SimpleName session
+user auth SimpleName MethodInvocation SimpleName service
+user auth SimpleName MethodInvocation SimpleName identities
+init SimpleName MethodInvocation SimpleName session
+init SimpleName MethodInvocation SimpleName service
+init SimpleName MethodInvocation SimpleName identities
+session SimpleName MethodInvocation SimpleName service
+session SimpleName MethodInvocation SimpleName identities
+service SimpleName MethodInvocation SimpleName identities
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName try next
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName try next
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+try next SimpleName MethodDeclaration SimpleType SimpleName exception
+try next SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName try next
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName try next
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

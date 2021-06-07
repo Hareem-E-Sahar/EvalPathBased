@@ -1,0 +1,21 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get int
+acl capabilities SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName buffer
+acl capabilities SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get int
+public Modifier MethodDeclaration SimpleType SimpleName acl capabilities
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+acl capabilities SimpleName SimpleType MethodDeclaration SimpleName parse
+acl capabilities SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName acl capabilities
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName acl capabilities
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

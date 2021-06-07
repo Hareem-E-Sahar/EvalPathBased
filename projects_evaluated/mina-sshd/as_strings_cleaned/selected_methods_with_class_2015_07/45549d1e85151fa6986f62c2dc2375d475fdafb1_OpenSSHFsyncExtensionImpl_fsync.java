@@ -1,0 +1,49 @@
+handle SimpleName SimpleType SingleVariableDeclaration SimpleName file handle
+file handle SimpleName MethodInvocation SimpleName get identifier
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName file handle
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identifier
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+integersize QualifiedName InfixExpression QualifiedName bytesize
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName handle
+length SimpleName MethodInvocation SimpleName handle
+get command buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+get command buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+get command buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName handle
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName get command buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put bytes
+buffer SimpleName MethodInvocation SimpleName handle
+put bytes SimpleName MethodInvocation SimpleName handle
+send and check extended command status SimpleName MethodInvocation SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName fsync
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file handle
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fsync
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName handle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file handle
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName fsync
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName handle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file handle
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+fsync SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName handle
+fsync SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file handle
+fsync SimpleName MethodDeclaration SimpleType SimpleName io exception
+file handle SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fsync
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file handle
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fsync
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file handle
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

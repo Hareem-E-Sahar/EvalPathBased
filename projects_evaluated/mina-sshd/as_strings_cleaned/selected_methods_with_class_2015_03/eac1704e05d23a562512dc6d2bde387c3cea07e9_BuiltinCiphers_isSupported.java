@@ -1,0 +1,34 @@
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+supported SimpleName MethodInvocation SimpleName get
+value SimpleName Assignment MethodInvocation SimpleName supported
+value SimpleName Assignment MethodInvocation SimpleName get
+cipher utils SimpleName MethodInvocation SimpleName check supported
+cipher utils SimpleName MethodInvocation MethodInvocation SimpleName create
+check supported SimpleName MethodInvocation MethodInvocation SimpleName create
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName cipher utils
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName check supported
+t SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create
+exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+value SimpleName Assignment InfixExpression SimpleName t
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+value SimpleName Assignment QualifiedName booleanfalse
+supported SimpleName MethodInvocation SimpleName set
+supported SimpleName MethodInvocation SimpleName value
+set SimpleName MethodInvocation SimpleName value
+supported SimpleName SynchronizedStatement Block ReturnStatement SimpleName value
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName supported
+public Modifier MethodDeclaration Block ReturnStatement SimpleName value
+boolean PrimitiveType MethodDeclaration SimpleName is supported
+boolean PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName supported
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName value
+is supported SimpleName MethodDeclaration Block SynchronizedStatement SimpleName supported
+is supported SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is supported
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is supported

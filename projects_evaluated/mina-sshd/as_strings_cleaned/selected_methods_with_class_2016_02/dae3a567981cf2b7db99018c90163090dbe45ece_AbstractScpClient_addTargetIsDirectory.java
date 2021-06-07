@@ -1,0 +1,67 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName option
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName option
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName optiontarget is directory
+contains SimpleName MethodInvocation QualifiedName optiontarget is directory
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName option
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName option
+generic utils SimpleName MethodInvocation SimpleName of
+generic utils SimpleName MethodInvocation SimpleName options
+of SimpleName MethodInvocation SimpleName options
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName enum set
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName none of
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName enum set
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName none of
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName enum set
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName none of
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName options
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+options SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName options
+enum set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+enum set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName options
+none of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName generic utils
+none of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+none of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName options
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName generic utils
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName is empty
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName options
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName enum set
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName none of
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName generic utils
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName of
+options SimpleName Assignment ConditionalExpression MethodInvocation SimpleName options
+options SimpleName MethodInvocation SimpleName add
+options SimpleName MethodInvocation QualifiedName optiontarget is directory
+add SimpleName MethodInvocation QualifiedName optiontarget is directory
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName option
+protected Modifier MethodDeclaration SimpleName add target is directory
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName options
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add target is directory
+option SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add target is directory
+add target is directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+add target is directory SimpleName MethodDeclaration Block ReturnStatement SimpleName options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName add target is directory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add target is directory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

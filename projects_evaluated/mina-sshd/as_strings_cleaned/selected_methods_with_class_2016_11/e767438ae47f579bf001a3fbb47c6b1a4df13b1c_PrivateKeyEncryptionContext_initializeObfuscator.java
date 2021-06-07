@@ -1,0 +1,76 @@
+c SimpleName TypeParameter SimpleType SimpleName private key encryption context
+c SimpleName SimpleType SingleVariableDeclaration SimpleName context
+private key obfuscator SimpleName SimpleType SingleVariableDeclaration SimpleName o
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+o SimpleName MethodInvocation SimpleName get cipher name
+context SimpleName MethodInvocation SimpleName set cipher name
+context SimpleName MethodInvocation MethodInvocation SimpleName o
+context SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+set cipher name SimpleName MethodInvocation MethodInvocation SimpleName o
+set cipher name SimpleName MethodInvocation MethodInvocation SimpleName get cipher name
+context SimpleName MethodInvocation SimpleName set private key obfuscator
+context SimpleName MethodInvocation SimpleName o
+set private key obfuscator SimpleName MethodInvocation SimpleName o
+context SimpleName MethodInvocation SimpleName set password
+context SimpleName MethodInvocation SimpleName password
+set password SimpleName MethodInvocation SimpleName password
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration TypeParameter SimpleName c
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName private key encryption context
+public Modifier MethodDeclaration SimpleType SimpleName c
+public Modifier MethodDeclaration SimpleName initialize obfuscator
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration TypeParameter SimpleName c
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName private key encryption context
+static Modifier MethodDeclaration SimpleType SimpleName c
+static Modifier MethodDeclaration SimpleName initialize obfuscator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+final Modifier MethodDeclaration TypeParameter SimpleName c
+final Modifier MethodDeclaration TypeParameter SimpleType SimpleName private key encryption context
+final Modifier MethodDeclaration SimpleType SimpleName c
+final Modifier MethodDeclaration SimpleName initialize obfuscator
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+c SimpleName TypeParameter MethodDeclaration SimpleType SimpleName c
+c SimpleName TypeParameter MethodDeclaration SimpleName initialize obfuscator
+private key encryption context SimpleName SimpleType TypeParameter MethodDeclaration SimpleName initialize obfuscator
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName context
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName o
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName password
+c SimpleName SimpleType MethodDeclaration SimpleName initialize obfuscator
+c SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+c SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName o
+c SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName password
+initialize obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+initialize obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+initialize obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key obfuscator
+initialize obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+initialize obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize obfuscator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+initialize obfuscator SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize obfuscator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize obfuscator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password

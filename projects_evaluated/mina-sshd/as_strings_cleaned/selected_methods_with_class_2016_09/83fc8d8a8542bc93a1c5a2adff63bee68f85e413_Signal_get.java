@@ -1,0 +1,31 @@
+int PrimitiveType SingleVariableDeclaration SimpleName num
+numeric lookup table SimpleName MethodInvocation SimpleName get
+numeric lookup table SimpleName MethodInvocation SimpleName num
+get SimpleName MethodInvocation SimpleName num
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName signal
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName num
+static Modifier MethodDeclaration SimpleType SimpleName signal
+static Modifier MethodDeclaration SimpleName get
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName num
+signal SimpleName SimpleType MethodDeclaration SimpleName get
+signal SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+signal SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName num
+get SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName signal
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName signal
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num

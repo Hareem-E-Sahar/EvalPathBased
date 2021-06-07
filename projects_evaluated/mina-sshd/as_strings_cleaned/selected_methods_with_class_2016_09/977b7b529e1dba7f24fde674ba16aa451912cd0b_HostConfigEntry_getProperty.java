@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName default value
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral no property name
+check not null and not empty SimpleName MethodInvocation SimpleName name
+check not null and not empty SimpleName MethodInvocation StringLiteral no property name
+name SimpleName MethodInvocation StringLiteral no property name
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+key SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName props
+is empty SimpleName MethodInvocation SimpleName props
+props SimpleName MethodInvocation SimpleName get
+props SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName default value
+string SimpleName SimpleType MethodDeclaration SimpleName get property
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName default value
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value

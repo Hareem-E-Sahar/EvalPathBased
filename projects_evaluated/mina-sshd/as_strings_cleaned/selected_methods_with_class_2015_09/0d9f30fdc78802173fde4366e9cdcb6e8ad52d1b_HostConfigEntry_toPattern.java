@@ -1,0 +1,108 @@
+char sequence SimpleName SimpleType SingleVariableDeclaration SimpleName pattern
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName pattern
+is empty SimpleName MethodInvocation SimpleName pattern
+pattern SimpleName MethodInvocation SimpleName length
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName pattern
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName pattern
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName length
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+cur pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName cur pos
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName length
+cur pos SimpleName InfixExpression MethodInvocation SimpleName pattern
+cur pos SimpleName InfixExpression MethodInvocation SimpleName length
+pattern SimpleName MethodInvocation SimpleName char at
+pattern SimpleName MethodInvocation SimpleName cur pos
+char at SimpleName MethodInvocation SimpleName cur pos
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur pos
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pattern
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cur pos
+is valid pattern char SimpleName MethodInvocation SimpleName ch
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName is valid pattern char
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName ch
+validate utils SimpleName MethodInvocation StringLiteral invalid host pattern char in s
+validate utils SimpleName MethodInvocation SimpleName pattern
+check true SimpleName MethodInvocation MethodInvocation SimpleName is valid pattern char
+check true SimpleName MethodInvocation MethodInvocation SimpleName ch
+check true SimpleName MethodInvocation StringLiteral invalid host pattern char in s
+check true SimpleName MethodInvocation SimpleName pattern
+is valid pattern char SimpleName MethodInvocation MethodInvocation StringLiteral invalid host pattern char in s
+ch SimpleName MethodInvocation MethodInvocation StringLiteral invalid host pattern char in s
+is valid pattern char SimpleName MethodInvocation MethodInvocation SimpleName pattern
+ch SimpleName MethodInvocation MethodInvocation SimpleName pattern
+invalid host pattern char in s StringLiteral MethodInvocation SimpleName pattern
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral \\
+append SimpleName MethodInvocation CharacterLiteral \\
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+\\ CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName ch
+append SimpleName MethodInvocation MethodInvocation SimpleName ch
+\\ CharacterLiteral MethodInvocation MethodInvocation SimpleName ch
+append SimpleName MethodInvocation SimpleName ch
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral .
+append SimpleName MethodInvocation CharacterLiteral .
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral .*
+append SimpleName MethodInvocation StringLiteral .*
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName ch
+append SimpleName MethodInvocation SimpleName ch
+ch SimpleName SwitchStatement SwitchCase CharacterLiteral .
+ch SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+ch SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName ch
+ch SimpleName SwitchStatement SwitchCase SimpleName single char pattern
+ch SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName sb
+ch SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+ch SimpleName SwitchStatement ExpressionStatement MethodInvocation CharacterLiteral .
+. CharacterLiteral SwitchCase SwitchStatement SwitchCase SimpleName single char pattern
+single char pattern SimpleName SwitchCase SwitchStatement SwitchCase SimpleName wildcard pattern
+char PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName ch
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cur pos
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName cur pos
+cur pos SimpleName InfixExpression ForStatement PostfixExpression SimpleName cur pos
+sb SimpleName MethodInvocation SimpleName to string
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation MethodInvocation SimpleName sb
+pattern SimpleName MethodInvocation MethodInvocation SimpleName to string
+pattern SimpleName MethodInvocation QualifiedName patterncase insensitive
+compile SimpleName MethodInvocation MethodInvocation SimpleName sb
+compile SimpleName MethodInvocation MethodInvocation SimpleName to string
+compile SimpleName MethodInvocation QualifiedName patterncase insensitive
+sb SimpleName MethodInvocation MethodInvocation QualifiedName patterncase insensitive
+to string SimpleName MethodInvocation MethodInvocation QualifiedName patterncase insensitive
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName pattern
+public Modifier MethodDeclaration SimpleName to pattern
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+static Modifier MethodDeclaration SimpleType SimpleName pattern
+static Modifier MethodDeclaration SimpleName to pattern
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pattern
+pattern SimpleName SimpleType MethodDeclaration SimpleName to pattern
+pattern SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pattern
+to pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+to pattern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pattern
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName pattern
+public Modifier TypeDeclaration MethodDeclaration SimpleName to pattern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName pattern
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to pattern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pattern

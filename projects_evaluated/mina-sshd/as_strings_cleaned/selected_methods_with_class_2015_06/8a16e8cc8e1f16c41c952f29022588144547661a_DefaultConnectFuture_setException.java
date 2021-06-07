@@ -1,0 +1,36 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exception
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName exception
+validate utils SimpleName MethodInvocation StringLiteral no exception provided
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName exception
+check not null SimpleName MethodInvocation StringLiteral no exception provided
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+exception SimpleName MethodInvocation StringLiteral no exception provided
+exception SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no exception provided StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+set value SimpleName MethodInvocation SimpleName exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set exception
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exception
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception

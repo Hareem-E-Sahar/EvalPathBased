@@ -1,0 +1,12 @@
+static Modifier MethodDeclaration SimpleType SimpleName sftp client factory
+static Modifier MethodDeclaration SimpleName instance
+static Modifier MethodDeclaration Block ReturnStatement QualifiedName default sftp client factoryinstance
+sftp client factory SimpleName SimpleType MethodDeclaration SimpleName instance
+instance SimpleName MethodDeclaration Block ReturnStatement QualifiedName default sftp client factoryinstance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName instance

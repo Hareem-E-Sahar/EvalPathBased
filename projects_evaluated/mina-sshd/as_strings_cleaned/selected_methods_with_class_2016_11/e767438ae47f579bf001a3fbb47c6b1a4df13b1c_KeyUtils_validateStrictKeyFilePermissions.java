@@ -1,0 +1,236 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+exists SimpleName MethodInvocation SimpleName path
+exists SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+io utils SimpleName MethodInvocation SimpleName get permissions
+io utils SimpleName MethodInvocation SimpleName path
+io utils SimpleName MethodInvocation SimpleName options
+get permissions SimpleName MethodInvocation SimpleName path
+get permissions SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get permissions
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName perms
+is empty SimpleName MethodInvocation SimpleName perms
+perms SimpleName MethodInvocation SimpleName contains
+perms SimpleName MethodInvocation QualifiedName posix file permissionothers execute
+contains SimpleName MethodInvocation QualifiedName posix file permissionothers execute
+p SimpleName VariableDeclarationFragment QualifiedName posix file permissionothers execute
+posix file permission SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+posix file permission SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName posix file permissionothers execute
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral permissions violation s
+string SimpleName MethodInvocation SimpleName p
+format SimpleName MethodInvocation StringLiteral permissions violation s
+format SimpleName MethodInvocation SimpleName p
+permissions violation s StringLiteral MethodInvocation SimpleName p
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName p
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+permissions violation s StringLiteral MethodInvocation ClassInstanceCreation SimpleName p
+p SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+os utils SimpleName MethodInvocation SimpleName is unix
+io utils SimpleName MethodInvocation SimpleName validate excluded permissions
+io utils SimpleName MethodInvocation SimpleName perms
+io utils SimpleName MethodInvocation SimpleName strictly prohibited file permission
+validate excluded permissions SimpleName MethodInvocation SimpleName perms
+validate excluded permissions SimpleName MethodInvocation SimpleName strictly prohibited file permission
+perms SimpleName MethodInvocation SimpleName strictly prohibited file permission
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate excluded permissions
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName perms
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName strictly prohibited file permission
+posix file permission SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral permissions violation s
+string SimpleName MethodInvocation SimpleName p
+format SimpleName MethodInvocation StringLiteral permissions violation s
+format SimpleName MethodInvocation SimpleName p
+permissions violation s StringLiteral MethodInvocation SimpleName p
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName p
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+permissions violation s StringLiteral MethodInvocation ClassInstanceCreation SimpleName p
+p SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+files SimpleName MethodInvocation SimpleName is regular file
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+is regular file SimpleName MethodInvocation SimpleName path
+is regular file SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName get parent
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+io utils SimpleName MethodInvocation SimpleName get permissions
+io utils SimpleName MethodInvocation SimpleName parent
+io utils SimpleName MethodInvocation SimpleName options
+get permissions SimpleName MethodInvocation SimpleName parent
+get permissions SimpleName MethodInvocation SimpleName options
+parent SimpleName MethodInvocation SimpleName options
+io utils SimpleName MethodInvocation SimpleName validate excluded permissions
+io utils SimpleName MethodInvocation MethodInvocation SimpleName io utils
+io utils SimpleName MethodInvocation MethodInvocation SimpleName get permissions
+io utils SimpleName MethodInvocation MethodInvocation SimpleName parent
+io utils SimpleName MethodInvocation MethodInvocation SimpleName options
+io utils SimpleName MethodInvocation SimpleName strictly prohibited file permission
+validate excluded permissions SimpleName MethodInvocation MethodInvocation SimpleName io utils
+validate excluded permissions SimpleName MethodInvocation MethodInvocation SimpleName get permissions
+validate excluded permissions SimpleName MethodInvocation MethodInvocation SimpleName parent
+validate excluded permissions SimpleName MethodInvocation MethodInvocation SimpleName options
+validate excluded permissions SimpleName MethodInvocation SimpleName strictly prohibited file permission
+io utils SimpleName MethodInvocation MethodInvocation SimpleName strictly prohibited file permission
+get permissions SimpleName MethodInvocation MethodInvocation SimpleName strictly prohibited file permission
+parent SimpleName MethodInvocation MethodInvocation SimpleName strictly prohibited file permission
+options SimpleName MethodInvocation MethodInvocation SimpleName strictly prohibited file permission
+p SimpleName Assignment MethodInvocation SimpleName io utils
+p SimpleName Assignment MethodInvocation SimpleName validate excluded permissions
+p SimpleName Assignment MethodInvocation MethodInvocation SimpleName io utils
+p SimpleName Assignment MethodInvocation MethodInvocation SimpleName get permissions
+p SimpleName Assignment MethodInvocation MethodInvocation SimpleName parent
+p SimpleName Assignment MethodInvocation MethodInvocation SimpleName options
+p SimpleName Assignment MethodInvocation SimpleName strictly prohibited file permission
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral parent permissions violation s
+string SimpleName MethodInvocation SimpleName p
+format SimpleName MethodInvocation StringLiteral parent permissions violation s
+format SimpleName MethodInvocation SimpleName p
+parent permissions violation s StringLiteral MethodInvocation SimpleName p
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName p
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+parent permissions violation s StringLiteral MethodInvocation ClassInstanceCreation SimpleName p
+p SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+io utils SimpleName MethodInvocation SimpleName get file owner
+io utils SimpleName MethodInvocation SimpleName path
+io utils SimpleName MethodInvocation SimpleName options
+get file owner SimpleName MethodInvocation SimpleName path
+get file owner SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file owner
+owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName owner
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName owner
+is empty SimpleName MethodInvocation SimpleName owner
+os utils SimpleName MethodInvocation SimpleName get current user
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName os utils
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+expected SimpleName MethodInvocation SimpleName add
+expected SimpleName MethodInvocation SimpleName current
+add SimpleName MethodInvocation SimpleName current
+os utils SimpleName MethodInvocation SimpleName is unix
+expected SimpleName MethodInvocation SimpleName add
+expected SimpleName MethodInvocation QualifiedName os utilsroot user
+add SimpleName MethodInvocation QualifiedName os utilsroot user
+expected SimpleName MethodInvocation SimpleName contains
+expected SimpleName MethodInvocation SimpleName owner
+contains SimpleName MethodInvocation SimpleName owner
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral owner violation s
+string SimpleName MethodInvocation SimpleName owner
+format SimpleName MethodInvocation StringLiteral owner violation s
+format SimpleName MethodInvocation SimpleName owner
+owner violation s StringLiteral MethodInvocation SimpleName owner
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName owner
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName owner
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName owner
+owner violation s StringLiteral MethodInvocation ClassInstanceCreation SimpleName owner
+owner SimpleName MethodInvocation ClassInstanceCreation SimpleName owner
+os utils SimpleName MethodInvocation SimpleName is unix
+files SimpleName MethodInvocation SimpleName is regular file
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+is regular file SimpleName MethodInvocation SimpleName path
+is regular file SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName get parent
+io utils SimpleName MethodInvocation SimpleName get file owner
+io utils SimpleName MethodInvocation MethodInvocation SimpleName path
+io utils SimpleName MethodInvocation MethodInvocation SimpleName get parent
+io utils SimpleName MethodInvocation SimpleName options
+get file owner SimpleName MethodInvocation MethodInvocation SimpleName path
+get file owner SimpleName MethodInvocation MethodInvocation SimpleName get parent
+get file owner SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation MethodInvocation SimpleName options
+get parent SimpleName MethodInvocation MethodInvocation SimpleName options
+parent owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+parent owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file owner
+parent owner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+parent owner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parent
+parent owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent owner
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName parent owner
+is empty SimpleName MethodInvocation SimpleName parent owner
+expected SimpleName MethodInvocation SimpleName contains
+expected SimpleName MethodInvocation SimpleName parent owner
+contains SimpleName MethodInvocation SimpleName parent owner
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral parent owner violation s
+string SimpleName MethodInvocation SimpleName parent owner
+format SimpleName MethodInvocation StringLiteral parent owner violation s
+format SimpleName MethodInvocation SimpleName parent owner
+parent owner violation s StringLiteral MethodInvocation SimpleName parent owner
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName parent owner
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName parent owner
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName parent owner
+parent owner violation s StringLiteral MethodInvocation ClassInstanceCreation SimpleName parent owner
+parent owner SimpleName MethodInvocation ClassInstanceCreation SimpleName parent owner
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName validate strict key file permissions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName validate strict key file permissions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName validate strict key file permissions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName validate strict key file permissions
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName validate strict key file permissions
+validate strict key file permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+validate strict key file permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+validate strict key file permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+validate strict key file permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+validate strict key file permissions SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate strict key file permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate strict key file permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

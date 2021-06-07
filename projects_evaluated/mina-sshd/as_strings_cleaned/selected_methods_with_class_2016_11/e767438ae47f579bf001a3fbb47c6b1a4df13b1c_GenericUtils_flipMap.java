@@ -1,0 +1,116 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+supplier SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map creator
+boolean PrimitiveType SingleVariableDeclaration SimpleName allow duplicates
+is empty SimpleName MethodInvocation SimpleName map
+collections SimpleName MethodInvocation SimpleName empty map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+map creator SimpleName MethodInvocation SimpleName get
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName map creator
+objects SimpleName MethodInvocation MethodInvocation SimpleName get
+objects SimpleName MethodInvocation StringLiteral no map created
+require non null SimpleName MethodInvocation MethodInvocation SimpleName map creator
+require non null SimpleName MethodInvocation MethodInvocation SimpleName get
+require non null SimpleName MethodInvocation StringLiteral no map created
+map creator SimpleName MethodInvocation MethodInvocation StringLiteral no map created
+get SimpleName MethodInvocation MethodInvocation StringLiteral no map created
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName require non null
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map creator
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+result SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no map created
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName value
+result SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+value SimpleName MethodInvocation SimpleName key
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+k SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+validate utils SimpleName MethodInvocation SimpleName throw illegal argument exception
+validate utils SimpleName MethodInvocation StringLiteral multiple values for keys currents previouss
+validate utils SimpleName MethodInvocation SimpleName value
+validate utils SimpleName MethodInvocation SimpleName key
+validate utils SimpleName MethodInvocation SimpleName prev
+throw illegal argument exception SimpleName MethodInvocation StringLiteral multiple values for keys currents previouss
+throw illegal argument exception SimpleName MethodInvocation SimpleName value
+throw illegal argument exception SimpleName MethodInvocation SimpleName key
+throw illegal argument exception SimpleName MethodInvocation SimpleName prev
+multiple values for keys currents previouss StringLiteral MethodInvocation SimpleName value
+multiple values for keys currents previouss StringLiteral MethodInvocation SimpleName key
+multiple values for keys currents previouss StringLiteral MethodInvocation SimpleName prev
+value SimpleName MethodInvocation SimpleName key
+value SimpleName MethodInvocation SimpleName prev
+key SimpleName MethodInvocation SimpleName prev
+key SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName value
+map SimpleName MethodInvocation SimpleName for each
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName value
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName key
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName k
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+public Modifier MethodDeclaration SimpleName flip map
+static Modifier MethodDeclaration TypeParameter SimpleName k
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+static Modifier MethodDeclaration SimpleName flip map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+k SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName v
+k SimpleName TypeParameter MethodDeclaration SimpleName flip map
+k SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName map
+k SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName map creator
+v SimpleName TypeParameter MethodDeclaration SimpleName flip map
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName map
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName map creator
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName allow duplicates
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName flip map
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName flip map
+k SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName flip map
+flip map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+flip map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map creator
+flip map SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+flip map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName allow duplicates
+flip map SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map creator
+map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow duplicates
+map creator SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+map creator SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow duplicates
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName k
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName flip map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map creator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow duplicates
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName flip map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map creator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow duplicates

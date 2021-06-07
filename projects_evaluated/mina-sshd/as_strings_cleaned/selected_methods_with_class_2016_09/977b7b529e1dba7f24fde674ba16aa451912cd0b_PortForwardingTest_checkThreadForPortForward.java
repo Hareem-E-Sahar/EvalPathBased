@@ -1,0 +1,122 @@
+thread SimpleName SimpleType SingleVariableDeclaration SimpleName thread
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+thread SimpleName MethodInvocation SimpleName get name
+thread SimpleName MethodInvocation MethodInvocation SimpleName contains
+get name SimpleName MethodInvocation MethodInvocation SimpleName contains
+thread SimpleName MethodInvocation MethodInvocation SimpleName name
+get name SimpleName MethodInvocation MethodInvocation SimpleName name
+contains SimpleName MethodInvocation SimpleName name
+thread SimpleName MethodInvocation SimpleName get stack trace
+stack SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread
+stack SimpleName VariableDeclarationFragment MethodInvocation SimpleName get stack trace
+stacklength QualifiedName InfixExpression NumberLiteral empty
+stack trace element SimpleName SimpleType SingleVariableDeclaration SimpleName a stack
+a stack SimpleName MethodInvocation SimpleName get class name
+clazz name SimpleName VariableDeclarationFragment MethodInvocation SimpleName a stack
+clazz name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz name
+a stack SimpleName MethodInvocation SimpleName get method name
+method name SimpleName VariableDeclarationFragment MethodInvocation SimpleName a stack
+method name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+clazz name SimpleName MethodInvocation SimpleName equals
+clazz name SimpleName MethodInvocation StringLiteral orgapachesshdserversessiontcpip forward support
+equals SimpleName MethodInvocation StringLiteral orgapachesshdserversessiontcpip forward support
+method name SimpleName MethodInvocation SimpleName equals
+method name SimpleName MethodInvocation StringLiteral close
+equals SimpleName MethodInvocation StringLiteral close
+method name SimpleName MethodInvocation SimpleName equals
+method name SimpleName MethodInvocation StringLiteral session created
+equals SimpleName MethodInvocation StringLiteral session created
+method name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+method name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+method name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral session created
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral session created
+close StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName method name
+close StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+close StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral session created
+thread SimpleName MethodInvocation SimpleName get name
+a stack SimpleName MethodInvocation SimpleName get line number
+thread SimpleName MethodInvocation InfixExpression StringLiteral stuck at
+get name SimpleName MethodInvocation InfixExpression StringLiteral stuck at
+thread SimpleName MethodInvocation InfixExpression SimpleName clazz name
+get name SimpleName MethodInvocation InfixExpression SimpleName clazz name
+thread SimpleName MethodInvocation InfixExpression StringLiteral .
+get name SimpleName MethodInvocation InfixExpression StringLiteral .
+thread SimpleName MethodInvocation InfixExpression SimpleName method name
+get name SimpleName MethodInvocation InfixExpression SimpleName method name
+thread SimpleName MethodInvocation InfixExpression StringLiteral :
+get name SimpleName MethodInvocation InfixExpression StringLiteral :
+stuck at StringLiteral InfixExpression SimpleName clazz name
+stuck at StringLiteral InfixExpression StringLiteral .
+stuck at StringLiteral InfixExpression SimpleName method name
+stuck at StringLiteral InfixExpression StringLiteral :
+stuck at StringLiteral InfixExpression MethodInvocation SimpleName a stack
+stuck at StringLiteral InfixExpression MethodInvocation SimpleName get line number
+clazz name SimpleName InfixExpression StringLiteral .
+clazz name SimpleName InfixExpression SimpleName method name
+clazz name SimpleName InfixExpression StringLiteral :
+clazz name SimpleName InfixExpression MethodInvocation SimpleName a stack
+clazz name SimpleName InfixExpression MethodInvocation SimpleName get line number
+. StringLiteral InfixExpression SimpleName method name
+. StringLiteral InfixExpression StringLiteral :
+. StringLiteral InfixExpression MethodInvocation SimpleName a stack
+. StringLiteral InfixExpression MethodInvocation SimpleName get line number
+method name SimpleName InfixExpression StringLiteral :
+method name SimpleName InfixExpression MethodInvocation SimpleName a stack
+method name SimpleName InfixExpression MethodInvocation SimpleName get line number
+: StringLiteral InfixExpression MethodInvocation SimpleName a stack
+: StringLiteral InfixExpression MethodInvocation SimpleName get line number
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName thread
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral stuck at
+log SimpleName MethodInvocation InfixExpression SimpleName clazz name
+log SimpleName MethodInvocation InfixExpression StringLiteral .
+log SimpleName MethodInvocation InfixExpression SimpleName method name
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName a stack
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get line number
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName thread
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+warn SimpleName MethodInvocation InfixExpression StringLiteral stuck at
+warn SimpleName MethodInvocation InfixExpression SimpleName clazz name
+warn SimpleName MethodInvocation InfixExpression StringLiteral .
+warn SimpleName MethodInvocation InfixExpression SimpleName method name
+warn SimpleName MethodInvocation InfixExpression StringLiteral :
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName a stack
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get line number
+stack trace element SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stack
+a stack SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stack
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName check thread for port forward
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName thread
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName thread
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName check thread for port forward
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName thread
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName thread
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+check thread for port forward SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName thread
+check thread for port forward SimpleName MethodDeclaration SingleVariableDeclaration SimpleName thread
+check thread for port forward SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check thread for port forward SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+check thread for port forward SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+thread SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check thread for port forward
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName thread
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check thread for port forward
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName thread
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

@@ -1,0 +1,68 @@
+final Modifier SingleVariableDeclaration PrimitiveType long
+final Modifier SingleVariableDeclaration SimpleName offset
+long PrimitiveType SingleVariableDeclaration SimpleName offset
+file SimpleName MethodInvocation SimpleName get name
+no read permission : StringLiteral InfixExpression MethodInvocation SimpleName file
+no read permission : StringLiteral InfixExpression MethodInvocation SimpleName get name
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no read permission :
+random access file SimpleName SimpleType ClassInstanceCreation SimpleName file
+random access file SimpleName SimpleType ClassInstanceCreation StringLiteral r
+file SimpleName ClassInstanceCreation StringLiteral r
+raf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random access file
+raf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+raf SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+final Modifier VariableDeclarationStatement SimpleType SimpleName random access file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName raf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+random access file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName raf
+raf SimpleName MethodInvocation SimpleName seek
+raf SimpleName MethodInvocation SimpleName offset
+seek SimpleName MethodInvocation SimpleName offset
+raf SimpleName MethodInvocation SimpleName get fd
+raf SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+file input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName raf
+file input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get fd
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+raf SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SimpleName create input stream
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+input stream SimpleName SimpleType MethodDeclaration SimpleName create input stream
+input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName offset
+input stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create input stream SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create input stream SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+create input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+create input stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+create input stream SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName create input stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create input stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

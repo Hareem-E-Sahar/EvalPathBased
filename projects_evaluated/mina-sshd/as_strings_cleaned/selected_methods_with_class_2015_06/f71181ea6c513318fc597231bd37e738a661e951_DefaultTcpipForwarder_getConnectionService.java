@@ -1,0 +1,18 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName connection service
+public Modifier MethodDeclaration SimpleName get connection service
+public Modifier MethodDeclaration Block ReturnStatement SimpleName service
+final Modifier MethodDeclaration SimpleType SimpleName connection service
+final Modifier MethodDeclaration SimpleName get connection service
+final Modifier MethodDeclaration Block ReturnStatement SimpleName service
+connection service SimpleName SimpleType MethodDeclaration SimpleName get connection service
+get connection service SimpleName MethodDeclaration Block ReturnStatement SimpleName service
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection service
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection service
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection service

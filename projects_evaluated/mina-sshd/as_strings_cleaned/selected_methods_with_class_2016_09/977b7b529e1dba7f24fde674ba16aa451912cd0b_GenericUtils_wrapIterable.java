@@ -1,0 +1,53 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName u
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+u SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+function SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mapper
+u SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mapper
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mapper
+iterator of SimpleName MethodInvocation SimpleName iter
+wrap iterator SimpleName MethodInvocation MethodInvocation SimpleName iterator of
+wrap iterator SimpleName MethodInvocation MethodInvocation SimpleName iter
+wrap iterator SimpleName MethodInvocation SimpleName mapper
+iterator of SimpleName MethodInvocation MethodInvocation SimpleName mapper
+iter SimpleName MethodInvocation MethodInvocation SimpleName mapper
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName u
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName wrap iterable
+static Modifier MethodDeclaration TypeParameter SimpleName u
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+static Modifier MethodDeclaration SimpleName wrap iterable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+u SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName v
+u SimpleName TypeParameter MethodDeclaration SimpleName wrap iterable
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iter
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName mapper
+v SimpleName TypeParameter MethodDeclaration SimpleName wrap iterable
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iter
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName mapper
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wrap iterable
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wrap iterable
+wrap iterable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+wrap iterable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mapper
+iter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mapper
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap iterable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mapper
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap iterable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mapper

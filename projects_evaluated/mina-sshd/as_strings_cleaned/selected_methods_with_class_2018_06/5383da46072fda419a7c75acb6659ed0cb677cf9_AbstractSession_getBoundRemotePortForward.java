@@ -1,0 +1,33 @@
+int PrimitiveType SingleVariableDeclaration SimpleName port
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get forwarding filter
+forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+filter SimpleName MethodInvocation SimpleName get bound remote port forward
+filter SimpleName MethodInvocation SimpleName port
+get bound remote port forward SimpleName MethodInvocation SimpleName port
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName sshd socket address
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get bound remote port forward
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SimpleName get bound remote port forward
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName get bound remote port forward
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName port
+get bound remote port forward SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get bound remote port forward SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bound remote port forward
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bound remote port forward
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port

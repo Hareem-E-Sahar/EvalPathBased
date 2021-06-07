@@ -1,0 +1,18 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName file password provider
+public Modifier MethodDeclaration SimpleName get file password provider
+public Modifier MethodDeclaration Block ReturnStatement SimpleName provider
+final Modifier MethodDeclaration SimpleType SimpleName file password provider
+final Modifier MethodDeclaration SimpleName get file password provider
+final Modifier MethodDeclaration Block ReturnStatement SimpleName provider
+file password provider SimpleName SimpleType MethodDeclaration SimpleName get file password provider
+get file password provider SimpleName MethodDeclaration Block ReturnStatement SimpleName provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file password provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file password provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file password provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file password provider

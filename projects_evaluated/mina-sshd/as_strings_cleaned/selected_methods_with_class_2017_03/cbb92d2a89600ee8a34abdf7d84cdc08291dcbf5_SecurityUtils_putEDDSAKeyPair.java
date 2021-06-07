@@ -1,0 +1,68 @@
+b SimpleName TypeParameter SimpleType SimpleName buffer
+b SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName pub key
+private key SimpleName SimpleType SingleVariableDeclaration SimpleName prv key
+eddsa SimpleName InfixExpression StringLiteral provider not supported
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName eddsa
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral provider not supported
+ed dsa security provider utils SimpleName MethodInvocation SimpleName put eddsa key pair
+ed dsa security provider utils SimpleName MethodInvocation SimpleName buffer
+ed dsa security provider utils SimpleName MethodInvocation SimpleName pub key
+ed dsa security provider utils SimpleName MethodInvocation SimpleName prv key
+put eddsa key pair SimpleName MethodInvocation SimpleName buffer
+put eddsa key pair SimpleName MethodInvocation SimpleName pub key
+put eddsa key pair SimpleName MethodInvocation SimpleName prv key
+buffer SimpleName MethodInvocation SimpleName pub key
+buffer SimpleName MethodInvocation SimpleName prv key
+pub key SimpleName MethodInvocation SimpleName prv key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName b
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SimpleName put eddsa key pair
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration TypeParameter SimpleName b
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+static Modifier MethodDeclaration SimpleType SimpleName b
+static Modifier MethodDeclaration SimpleName put eddsa key pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pub key
+b SimpleName TypeParameter MethodDeclaration SimpleType SimpleName b
+b SimpleName TypeParameter MethodDeclaration SimpleName put eddsa key pair
+buffer SimpleName SimpleType TypeParameter MethodDeclaration SimpleName put eddsa key pair
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName pub key
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName prv key
+b SimpleName SimpleType MethodDeclaration SimpleName put eddsa key pair
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pub key
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prv key
+put eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+put eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+put eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+put eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pub key
+put eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+put eddsa key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prv key
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pub key
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prv key
+pub key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prv key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleName put eddsa key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pub key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prv key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put eddsa key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pub key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prv key

@@ -1,0 +1,34 @@
+attribute key SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+attribute key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key
+attribute store SimpleName MethodInvocation SimpleName resolve attribute
+attribute store SimpleName MethodInvocation SimpleName key
+resolve attribute SimpleName MethodInvocation SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve attribute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName resolve attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName resolve attribute
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName key
+t SimpleName SimpleType MethodDeclaration SimpleName resolve attribute
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+resolve attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

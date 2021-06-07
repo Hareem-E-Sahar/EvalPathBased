@@ -1,0 +1,43 @@
+registrar instance SimpleName MethodInvocation SimpleName get security provider
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName registrar instance
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get security provider
+provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+assert not null SimpleName MethodInvocation StringLiteral no provider created
+assert not null SimpleName MethodInvocation SimpleName expected
+no provider created StringLiteral MethodInvocation SimpleName expected
+registrar instance SimpleName MethodInvocation SimpleName get name
+expected SimpleName MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation StringLiteral mismatched provider name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+mismatched provider name StringLiteral MethodInvocation MethodInvocation SimpleName registrar instance
+mismatched provider name StringLiteral MethodInvocation MethodInvocation SimpleName get name
+mismatched provider name StringLiteral MethodInvocation MethodInvocation SimpleName expected
+mismatched provider name StringLiteral MethodInvocation MethodInvocation SimpleName get name
+registrar instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+registrar instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert object instance of SimpleName MethodInvocation StringLiteral mismatched provider type
+assert object instance of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName ed dsa security provider
+assert object instance of SimpleName MethodInvocation SimpleName expected
+mismatched provider type StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName ed dsa security provider
+mismatched provider type StringLiteral MethodInvocation SimpleName expected
+ed dsa security provider SimpleName SimpleType TypeLiteral MethodInvocation SimpleName expected
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get security provider
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get security provider
+void PrimitiveType MethodDeclaration SimpleName test get security provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get security provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get security provider

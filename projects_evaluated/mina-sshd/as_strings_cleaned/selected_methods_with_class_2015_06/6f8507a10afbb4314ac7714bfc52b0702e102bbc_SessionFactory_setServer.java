@@ -1,0 +1,20 @@
+server factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName server
+manager SimpleName FieldAccess Assignment SimpleName server
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set server
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server factory manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SimpleName set server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server factory manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+set server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server factory manager
+set server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server

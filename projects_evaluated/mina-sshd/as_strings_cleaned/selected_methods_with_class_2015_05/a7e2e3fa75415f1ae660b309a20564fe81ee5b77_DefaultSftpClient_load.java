@@ -1,0 +1,19 @@
+read dir SimpleName MethodInvocation SimpleName handle
+entries SimpleName Assignment MethodInvocation SimpleName read dir
+entries SimpleName Assignment MethodInvocation SimpleName handle
+index SimpleName Assignment NumberLiteral empty
+close SimpleName MethodInvocation SimpleName handle
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+close SimpleName MethodInvocation SimpleName handle
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName load
+void PrimitiveType MethodDeclaration SimpleName load
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName load
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load

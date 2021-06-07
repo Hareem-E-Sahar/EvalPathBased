@@ -1,0 +1,68 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+char sequence SimpleName SimpleType SingleVariableDeclaration SimpleName s
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName s
+i SimpleName InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+ch SimpleName InfixExpression CharacterLiteral /
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName char at
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression CharacterLiteral /
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName ch
+append SimpleName MethodInvocation SimpleName ch
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName append dedup sep
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName append dedup sep
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+append dedup sep SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+append dedup sep SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+append dedup sep SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName char sequence
+append dedup sep SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append dedup sep
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append dedup sep
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

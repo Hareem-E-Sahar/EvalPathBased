@@ -1,0 +1,23 @@
+security utils SimpleName MethodInvocation SimpleName is a priori disabled provider
+security utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+is a priori disabled provider SimpleName MethodInvocation MethodInvocation SimpleName get name
+get configuration property name SimpleName MethodInvocation SimpleName enabled property
+property resolver utils SimpleName MethodInvocation SimpleName get boolean property
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleName get configuration property name
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleName enabled property
+property resolver utils SimpleName MethodInvocation BooleanLiteral true
+get boolean property SimpleName MethodInvocation MethodInvocation SimpleName get configuration property name
+get boolean property SimpleName MethodInvocation MethodInvocation SimpleName enabled property
+get boolean property SimpleName MethodInvocation BooleanLiteral true
+get configuration property name SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+enabled property SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+default Modifier MethodDeclaration PrimitiveType boolean
+default Modifier MethodDeclaration SimpleName is enabled
+boolean PrimitiveType MethodDeclaration SimpleName is enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is enabled

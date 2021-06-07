@@ -1,0 +1,12 @@
+factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+io acceptor SimpleName SimpleType MethodDeclaration SimpleName create
+io acceptor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName manager
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager

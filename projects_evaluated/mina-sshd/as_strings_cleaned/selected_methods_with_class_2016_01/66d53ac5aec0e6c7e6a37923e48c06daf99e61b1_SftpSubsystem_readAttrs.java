@@ -1,0 +1,33 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+sftp helper SimpleName MethodInvocation SimpleName read attrs
+sftp helper SimpleName MethodInvocation SimpleName buffer
+sftp helper SimpleName MethodInvocation MethodInvocation SimpleName get version
+read attrs SimpleName MethodInvocation SimpleName buffer
+read attrs SimpleName MethodInvocation MethodInvocation SimpleName get version
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get version
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName read attrs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read attrs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read attrs
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read attrs
+read attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+read attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+read attrs SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName read attrs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read attrs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

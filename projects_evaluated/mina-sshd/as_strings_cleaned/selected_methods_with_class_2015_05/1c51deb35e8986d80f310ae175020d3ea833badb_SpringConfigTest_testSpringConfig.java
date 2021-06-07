@@ -1,0 +1,83 @@
+context SimpleName MethodInvocation SimpleName get bean
+context SimpleName MethodInvocation StringLiteral ssh server
+get bean SimpleName MethodInvocation StringLiteral ssh server
+ssh server SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+ssh server SimpleName SimpleType CastExpression MethodInvocation SimpleName get bean
+ssh server SimpleName SimpleType CastExpression MethodInvocation StringLiteral ssh server
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get port
+j sch logger SimpleName MethodInvocation SimpleName init
+sch SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j sch
+j sch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sch
+sch SimpleName MethodInvocation SimpleName get session
+sch SimpleName MethodInvocation StringLiteral smx
+sch SimpleName MethodInvocation StringLiteral localhost
+sch SimpleName MethodInvocation SimpleName port
+get session SimpleName MethodInvocation StringLiteral smx
+get session SimpleName MethodInvocation StringLiteral localhost
+get session SimpleName MethodInvocation SimpleName port
+smx StringLiteral MethodInvocation StringLiteral localhost
+smx StringLiteral MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName sch
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral smx
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral localhost
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName port
+comjcraftjschsession QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+simple user info SimpleName SimpleType ClassInstanceCreation StringLiteral smx
+s SimpleName MethodInvocation SimpleName set user info
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple user info
+s SimpleName MethodInvocation ClassInstanceCreation StringLiteral smx
+set user info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple user info
+set user info SimpleName MethodInvocation ClassInstanceCreation StringLiteral smx
+s SimpleName MethodInvocation SimpleName connect
+s SimpleName MethodInvocation SimpleName open channel
+s SimpleName MethodInvocation StringLiteral shell
+open channel SimpleName MethodInvocation StringLiteral shell
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral shell
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName connect
+c SimpleName MethodInvocation SimpleName get output stream
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output stream
+output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName os
+this is my command StringLiteral MethodInvocation SimpleName get bytes
+os SimpleName MethodInvocation SimpleName write
+os SimpleName MethodInvocation MethodInvocation StringLiteral this is my command
+os SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation StringLiteral this is my command
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+os SimpleName MethodInvocation SimpleName flush
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName disconnect
+s SimpleName MethodInvocation SimpleName disconnect
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test spring config
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test spring config
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test spring config
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test spring config SimpleName MethodDeclaration SimpleType SimpleName exception
+test spring config SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test spring config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test spring config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

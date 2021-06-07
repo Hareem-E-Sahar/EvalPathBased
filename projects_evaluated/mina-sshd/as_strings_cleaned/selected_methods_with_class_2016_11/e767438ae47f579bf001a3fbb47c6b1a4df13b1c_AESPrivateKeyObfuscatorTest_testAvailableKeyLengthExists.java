@@ -1,0 +1,64 @@
+key length SimpleName InfixExpression QualifiedName bytesize
+assert equals SimpleName MethodInvocation StringLiteral not a byte size multiple
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression SimpleName key length
+assert equals SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+not a byte size multiple StringLiteral MethodInvocation NumberLiteral empty
+not a byte size multiple StringLiteral MethodInvocation InfixExpression SimpleName key length
+not a byte size multiple StringLiteral MethodInvocation InfixExpression QualifiedName bytesize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName key length
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName bytesize
+key length SimpleName InfixExpression QualifiedName bytesize
+byte PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName key length
+byte PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName bytesize
+iv SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+iv SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName key length
+iv SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName bytesize
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName iv
+randomizer SimpleName MethodInvocation SimpleName next bytes
+randomizer SimpleName MethodInvocation SimpleName iv
+next bytes SimpleName MethodInvocation SimpleName iv
+secret key spec SimpleName SimpleType ClassInstanceCreation SimpleName iv
+secret key spec SimpleName SimpleType ClassInstanceCreation QualifiedName aes private key obfuscatorcipher name
+iv SimpleName ClassInstanceCreation QualifiedName aes private key obfuscatorcipher name
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName secret key spec
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName iv
+key SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName aes private key obfuscatorcipher name
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+security utils SimpleName MethodInvocation SimpleName get cipher
+security utils SimpleName MethodInvocation QualifiedName aes private key obfuscatorcipher name
+get cipher SimpleName MethodInvocation QualifiedName aes private key obfuscatorcipher name
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cipher
+c SimpleName VariableDeclarationFragment MethodInvocation QualifiedName aes private key obfuscatorcipher name
+cipher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName init
+c SimpleName MethodInvocation QualifiedName cipherdecrypt mode
+c SimpleName MethodInvocation SimpleName key
+init SimpleName MethodInvocation QualifiedName cipherdecrypt mode
+init SimpleName MethodInvocation SimpleName key
+cipherdecrypt mode QualifiedName MethodInvocation SimpleName key
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test available key length exists
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test available key length exists
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName randomizer
+void PrimitiveType MethodDeclaration SimpleName test available key length exists
+void PrimitiveType MethodDeclaration SimpleType SimpleName general security exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName randomizer
+test available key length exists SimpleName MethodDeclaration SimpleType SimpleName general security exception
+test available key length exists SimpleName MethodDeclaration Block SynchronizedStatement SimpleName randomizer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test available key length exists
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test available key length exists
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

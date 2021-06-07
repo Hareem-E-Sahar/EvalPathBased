@@ -1,0 +1,30 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName clear
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation NumberLiteral empty
+put int SimpleName MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName prepare reply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SimpleName prepare reply
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName buffer
+buffer SimpleName SimpleType MethodDeclaration SimpleName prepare reply
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+prepare reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+prepare reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+prepare reply SimpleName MethodDeclaration Block ReturnStatement SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName prepare reply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prepare reply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

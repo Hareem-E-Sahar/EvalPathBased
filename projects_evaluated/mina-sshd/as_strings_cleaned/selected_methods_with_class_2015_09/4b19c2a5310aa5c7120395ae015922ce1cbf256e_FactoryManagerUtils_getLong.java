@@ -1,0 +1,71 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName props
+is empty SimpleName MethodInvocation SimpleName props
+props SimpleName MethodInvocation SimpleName get
+props SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName name
+props SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+props SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+props SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName name
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName generic utils
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is empty
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName props
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName props
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName long
+long SimpleName SimpleType CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation MethodInvocation SimpleName value
+long SimpleName MethodInvocation MethodInvocation SimpleName to string
+value of SimpleName MethodInvocation MethodInvocation SimpleName value
+value of SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName get long
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SimpleType SimpleName long
+static Modifier MethodDeclaration SimpleName get long
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+long SimpleName SimpleType MethodDeclaration SimpleName get long
+long SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+long SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get long SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+props SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

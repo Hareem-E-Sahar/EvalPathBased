@@ -1,0 +1,43 @@
+closeable SimpleName SimpleType SingleVariableDeclaration SimpleName closeable
+closeable SimpleName MethodInvocation SimpleName is closed
+closeable SimpleName MethodInvocation SimpleName is closing
+closeable SimpleName MethodInvocation SimpleName close
+closeable SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName closeable
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName close
+future SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+close future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName MethodInvocation SimpleName await
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName closeable
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName close
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName closeable
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName closeable
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName closeable
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+closeable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName closeable
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName closeable
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

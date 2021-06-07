@@ -1,0 +1,15 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName connection service
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get connection service
+protected Modifier MethodDeclaration SimpleType SimpleName connection service
+protected Modifier MethodDeclaration SimpleName get connection service
+connection service SimpleName SimpleType MethodDeclaration SimpleName get connection service
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection service
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection service
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection service

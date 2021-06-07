@@ -1,0 +1,89 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName perms
+is empty SimpleName MethodInvocation SimpleName perms
+pf SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+posix file permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+pf SimpleName Assignment SimpleName s irusr
+pf SimpleName Assignment SimpleName s iwusr
+pf SimpleName Assignment SimpleName s ixusr
+pf SimpleName Assignment SimpleName s irgrp
+pf SimpleName Assignment SimpleName s iwgrp
+pf SimpleName Assignment SimpleName s ixgrp
+pf SimpleName Assignment SimpleName s iroth
+pf SimpleName Assignment SimpleName s iwoth
+pf SimpleName Assignment SimpleName s ixoth
+log SimpleName MethodInvocation SimpleName is trace enabled
+attributes to permissions StringLiteral InfixExpression SimpleName path
+attributes to permissions StringLiteral InfixExpression StringLiteral ) ignored
+attributes to permissions StringLiteral InfixExpression SimpleName p
+path SimpleName InfixExpression StringLiteral ) ignored
+path SimpleName InfixExpression SimpleName p
+) ignored StringLiteral InfixExpression SimpleName p
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral attributes to permissions
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral ) ignored
+log SimpleName MethodInvocation InfixExpression SimpleName p
+trace SimpleName MethodInvocation InfixExpression StringLiteral attributes to permissions
+trace SimpleName MethodInvocation InfixExpression SimpleName path
+trace SimpleName MethodInvocation InfixExpression StringLiteral ) ignored
+trace SimpleName MethodInvocation InfixExpression SimpleName p
+p SimpleName SwitchStatement SwitchCase SimpleName owner read
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s irusr
+p SimpleName SwitchStatement SwitchCase SimpleName owner write
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s iwusr
+owner read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner write
+owner write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner execute
+owner execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group read
+group read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group write
+group write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group execute
+group execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others read
+others read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others write
+others write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others execute
+posix file permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName perms
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName perms
+perms SimpleName EnhancedForStatement Block SwitchStatement SimpleName p
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName perms
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName pf
+perms SimpleName EnhancedForStatement Block ReturnStatement SimpleName pf
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName attributes to permissions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName perms
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName pf
+int PrimitiveType MethodDeclaration SimpleName attributes to permissions
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perms
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName perms
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName pf
+attributes to permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+attributes to permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+attributes to permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+attributes to permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+attributes to permissions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName perms
+attributes to permissions SimpleName MethodDeclaration Block ReturnStatement SimpleName pf
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName attributes to permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attributes to permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms

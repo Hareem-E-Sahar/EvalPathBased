@@ -1,0 +1,20 @@
+number SimpleName SimpleType SingleVariableDeclaration SimpleName n
+num value SimpleName Assignment SimpleName n
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName call me with number
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName number
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName call me with number
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName number
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+call me with number SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName number
+call me with number SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName call me with number
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call me with number
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

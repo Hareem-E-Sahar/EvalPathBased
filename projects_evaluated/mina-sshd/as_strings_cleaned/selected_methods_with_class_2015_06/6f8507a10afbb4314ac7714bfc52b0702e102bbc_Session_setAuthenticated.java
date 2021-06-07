@@ -1,0 +1,10 @@
+void PrimitiveType MethodDeclaration SimpleName set authenticated
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set authenticated SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set authenticated
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set authenticated
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

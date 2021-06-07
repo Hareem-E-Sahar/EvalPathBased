@@ -1,0 +1,37 @@
+file SimpleName SimpleType ClassInstanceCreation SimpleName path
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName exists
+f SimpleName MethodInvocation SimpleName is file
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is file
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is file
+read key pair SimpleName MethodInvocation SimpleName f
+key pair SimpleName Assignment MethodInvocation SimpleName read key pair
+key pair SimpleName Assignment MethodInvocation SimpleName f
+generate key pair SimpleName MethodInvocation SimpleName algorithm
+key pair SimpleName Assignment MethodInvocation SimpleName generate key pair
+key pair SimpleName Assignment MethodInvocation SimpleName algorithm
+key pair SimpleName InfixExpression InfixExpression InfixExpression SimpleName path
+file SimpleName SimpleType ClassInstanceCreation SimpleName path
+write key pair SimpleName MethodInvocation SimpleName key pair
+write key pair SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+write key pair SimpleName MethodInvocation ClassInstanceCreation SimpleName path
+key pair SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+key pair SimpleName MethodInvocation ClassInstanceCreation SimpleName path
+key pair SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load keys
+synchronized Modifier MethodDeclaration ArrayType SimpleType SimpleName key pair
+synchronized Modifier MethodDeclaration SimpleName load keys
+key pair SimpleName SimpleType ArrayType MethodDeclaration SimpleName load keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName load keys
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load keys

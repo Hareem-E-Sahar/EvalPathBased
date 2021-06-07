@@ -1,0 +1,33 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral class
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral class
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral class
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get resource SimpleName MethodInvocation InfixExpression StringLiteral class
+url SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+url SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral class
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName MethodInvocation SimpleName to uri
+paths SimpleName MethodInvocation SimpleName get
+paths SimpleName MethodInvocation MethodInvocation SimpleName url
+paths SimpleName MethodInvocation MethodInvocation SimpleName to uri
+get SimpleName MethodInvocation MethodInvocation SimpleName url
+get SimpleName MethodInvocation MethodInvocation SimpleName to uri
+paths SimpleName MethodInvocation MethodInvocation SimpleName get parent
+get SimpleName MethodInvocation MethodInvocation SimpleName get parent
+url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parent
+to uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parent
+uri syntax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName get test resources folder
+path SimpleName SimpleType MethodDeclaration SimpleName get test resources folder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get test resources folder
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get test resources folder

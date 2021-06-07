@@ -1,0 +1,13 @@
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get executor service
+sftp subsystem SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+get executor service SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+public Modifier MethodDeclaration SimpleType SimpleName command
+public Modifier MethodDeclaration SimpleName create
+command SimpleName SimpleType MethodDeclaration SimpleName create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create

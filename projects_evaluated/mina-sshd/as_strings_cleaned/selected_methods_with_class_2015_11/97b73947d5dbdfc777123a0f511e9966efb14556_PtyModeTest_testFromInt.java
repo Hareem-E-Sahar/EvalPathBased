@@ -1,0 +1,45 @@
+pty mode SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+expected SimpleName MethodInvocation SimpleName to int
+num SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+num SimpleName VariableDeclarationFragment MethodInvocation SimpleName to int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName expected
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to int
+pty mode SimpleName MethodInvocation SimpleName from int
+pty mode SimpleName MethodInvocation SimpleName num
+from int SimpleName MethodInvocation SimpleName num
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName pty mode
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName from int
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName num
+pty mode SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched result for value StringLiteral InfixExpression SimpleName num
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched result for value
+assert same SimpleName MethodInvocation InfixExpression SimpleName num
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched result for value StringLiteral InfixExpression MethodInvocation SimpleName expected
+num SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched result for value StringLiteral InfixExpression MethodInvocation SimpleName actual
+num SimpleName InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+pty mode SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName pty modemodes
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName pty modemodes
+pty modemodes QualifiedName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from int
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName pty modemodes
+void PrimitiveType MethodDeclaration SimpleName test from int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName pty modemodes
+test from int SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName pty modemodes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from int
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from int

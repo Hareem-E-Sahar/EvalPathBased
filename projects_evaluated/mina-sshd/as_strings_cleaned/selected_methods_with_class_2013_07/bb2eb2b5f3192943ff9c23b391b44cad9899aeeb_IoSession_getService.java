@@ -1,0 +1,6 @@
+io service SimpleName SimpleType MethodDeclaration SimpleName get service
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io service
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service

@@ -1,0 +1,50 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName InstanceofExpression SimpleType SimpleName key pair
+o SimpleName InstanceofExpression SimpleType SimpleName key pair
+key pair SimpleName SimpleType CastExpression SimpleName o
+key pair SimpleName SimpleType CastExpression SimpleName o
+key utils SimpleName MethodInvocation SimpleName compare key pairs
+key utils SimpleName MethodInvocation CastExpression SimpleType SimpleName key pair
+key utils SimpleName MethodInvocation CastExpression SimpleName o
+key utils SimpleName MethodInvocation CastExpression SimpleType SimpleName key pair
+key utils SimpleName MethodInvocation CastExpression SimpleName o
+compare key pairs SimpleName MethodInvocation CastExpression SimpleType SimpleName key pair
+compare key pairs SimpleName MethodInvocation CastExpression SimpleName o
+compare key pairs SimpleName MethodInvocation CastExpression SimpleType SimpleName key pair
+compare key pairs SimpleName MethodInvocation CastExpression SimpleName o
+o SimpleName CastExpression MethodInvocation CastExpression SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

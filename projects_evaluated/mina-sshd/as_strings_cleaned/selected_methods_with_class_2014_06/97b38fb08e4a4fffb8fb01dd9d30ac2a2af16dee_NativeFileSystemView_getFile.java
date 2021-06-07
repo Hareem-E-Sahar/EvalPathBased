@@ -1,0 +1,181 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+normalize separate char SimpleName MethodInvocation SimpleName dir
+append slash SimpleName MethodInvocation MethodInvocation SimpleName normalize separate char
+append slash SimpleName MethodInvocation MethodInvocation SimpleName dir
+dir SimpleName Assignment MethodInvocation SimpleName append slash
+dir SimpleName Assignment MethodInvocation MethodInvocation SimpleName normalize separate char
+dir SimpleName Assignment MethodInvocation MethodInvocation SimpleName dir
+normalize separate char SimpleName MethodInvocation SimpleName file
+file SimpleName Assignment MethodInvocation SimpleName normalize separate char
+file SimpleName Assignment MethodInvocation SimpleName file
+file SimpleName MethodInvocation SimpleName starts with
+file SimpleName MethodInvocation StringLiteral /
+starts with SimpleName MethodInvocation StringLiteral /
+dir SimpleName InfixExpression SimpleName file
+file SimpleName Assignment InfixExpression SimpleName dir
+file SimpleName Assignment InfixExpression SimpleName file
+native ssh file SimpleName MethodInvocation SimpleName get physical name
+native ssh file SimpleName MethodInvocation StringLiteral /
+native ssh file SimpleName MethodInvocation StringLiteral /
+native ssh file SimpleName MethodInvocation SimpleName file
+native ssh file SimpleName MethodInvocation SimpleName case insensitive
+get physical name SimpleName MethodInvocation StringLiteral /
+get physical name SimpleName MethodInvocation StringLiteral /
+get physical name SimpleName MethodInvocation SimpleName file
+get physical name SimpleName MethodInvocation SimpleName case insensitive
+/ StringLiteral MethodInvocation StringLiteral /
+/ StringLiteral MethodInvocation SimpleName file
+/ StringLiteral MethodInvocation SimpleName case insensitive
+/ StringLiteral MethodInvocation SimpleName file
+/ StringLiteral MethodInvocation SimpleName case insensitive
+file SimpleName MethodInvocation SimpleName case insensitive
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName native ssh file
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get physical name
+user file name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+user file name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+user file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName case insensitive
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user file name
+user file name SimpleName MethodInvocation SimpleName equals
+user file name SimpleName MethodInvocation StringLiteral /
+equals SimpleName MethodInvocation StringLiteral /
+user file name SimpleName MethodInvocation SimpleName index of
+user file name SimpleName MethodInvocation StringLiteral /
+user file name SimpleName MethodInvocation NumberLiteral empty
+index of SimpleName MethodInvocation StringLiteral /
+index of SimpleName MethodInvocation NumberLiteral empty
+/ StringLiteral MethodInvocation NumberLiteral empty
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName user file name
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+idx SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+idx SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName user file name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral /
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+idx SimpleName InfixExpression NumberLiteral empty
+user file name SimpleName InfixExpression StringLiteral /
+root SimpleName VariableDeclarationFragment InfixExpression SimpleName user file name
+root SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName phys root
+string SimpleName SimpleType SingleVariableDeclaration SimpleName r
+roots SimpleName MethodInvocation SimpleName key set
+normalize root SimpleName MethodInvocation SimpleName r
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName equals
+r SimpleName MethodInvocation MethodInvocation SimpleName equals
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName root
+r SimpleName MethodInvocation MethodInvocation SimpleName root
+equals SimpleName MethodInvocation SimpleName root
+roots SimpleName MethodInvocation SimpleName get
+roots SimpleName MethodInvocation SimpleName r
+get SimpleName MethodInvocation SimpleName r
+phys root SimpleName Assignment MethodInvocation SimpleName roots
+phys root SimpleName Assignment MethodInvocation SimpleName get
+phys root SimpleName Assignment MethodInvocation SimpleName r
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName roots
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+unknown root StringLiteral InfixExpression SimpleName user file name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown root
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user file name
+file SimpleName SimpleType ClassInstanceCreation SimpleName phys root
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName phys root
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file obj
+normalize separate char SimpleName MethodInvocation SimpleName user file name
+user file name SimpleName Assignment MethodInvocation SimpleName normalize separate char
+user file name SimpleName Assignment MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName file obj
+create native ssh file SimpleName MethodInvocation SimpleName user name
+user file name SimpleName MethodInvocation SimpleName file obj
+user file name SimpleName MethodInvocation SimpleName user name
+file obj SimpleName MethodInvocation SimpleName user name
+user file name SimpleName MethodInvocation SimpleName substring
+user file name SimpleName MethodInvocation NumberLiteral empty
+user file name SimpleName MethodInvocation SimpleName idx
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName idx
+empty NumberLiteral MethodInvocation SimpleName idx
+user file name SimpleName MethodInvocation InfixExpression StringLiteral /
+substring SimpleName MethodInvocation InfixExpression StringLiteral /
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral /
+idx SimpleName MethodInvocation InfixExpression StringLiteral /
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName user file name
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName substring
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation NumberLiteral empty
+root SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName idx
+root SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName phys root
+string SimpleName SimpleType SingleVariableDeclaration SimpleName r
+roots SimpleName MethodInvocation SimpleName key set
+normalize root SimpleName MethodInvocation SimpleName r
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName equals
+r SimpleName MethodInvocation MethodInvocation SimpleName equals
+normalize root SimpleName MethodInvocation MethodInvocation SimpleName root
+r SimpleName MethodInvocation MethodInvocation SimpleName root
+equals SimpleName MethodInvocation SimpleName root
+roots SimpleName MethodInvocation SimpleName get
+roots SimpleName MethodInvocation SimpleName r
+get SimpleName MethodInvocation SimpleName r
+phys root SimpleName Assignment MethodInvocation SimpleName roots
+phys root SimpleName Assignment MethodInvocation SimpleName get
+phys root SimpleName Assignment MethodInvocation SimpleName r
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName roots
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+unknown root StringLiteral InfixExpression SimpleName user file name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown root
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user file name
+idx SimpleName InfixExpression NumberLiteral empty
+user file name SimpleName MethodInvocation SimpleName substring
+user file name SimpleName MethodInvocation InfixExpression SimpleName idx
+user file name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName idx
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+phys root SimpleName InfixExpression MethodInvocation SimpleName user file name
+phys root SimpleName InfixExpression MethodInvocation SimpleName substring
+phys root SimpleName InfixExpression MethodInvocation InfixExpression SimpleName idx
+phys root SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName phys root
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file obj SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName phys root
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file obj
+normalize separate char SimpleName MethodInvocation SimpleName user file name
+user file name SimpleName Assignment MethodInvocation SimpleName normalize separate char
+user file name SimpleName Assignment MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName user file name
+create native ssh file SimpleName MethodInvocation SimpleName file obj
+create native ssh file SimpleName MethodInvocation SimpleName user name
+user file name SimpleName MethodInvocation SimpleName file obj
+user file name SimpleName MethodInvocation SimpleName user name
+file obj SimpleName MethodInvocation SimpleName user name
+protected Modifier MethodDeclaration SimpleType SimpleName ssh file
+protected Modifier MethodDeclaration SimpleName get file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+ssh file SimpleName SimpleType MethodDeclaration SimpleName get file
+ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dir
+ssh file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+get file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file

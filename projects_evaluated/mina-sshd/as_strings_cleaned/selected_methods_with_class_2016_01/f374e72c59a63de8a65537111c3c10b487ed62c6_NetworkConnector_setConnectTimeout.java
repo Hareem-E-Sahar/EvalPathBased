@@ -1,0 +1,22 @@
+long PrimitiveType SingleVariableDeclaration SimpleName connect timeout
+connect timeout SimpleName FieldAccess Assignment SimpleName connect timeout
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set connect timeout
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName connect timeout
+void PrimitiveType MethodDeclaration SimpleName set connect timeout
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName connect timeout
+set connect timeout SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set connect timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connect timeout
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set connect timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connect timeout
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set connect timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connect timeout

@@ -1,0 +1,134 @@
+int PrimitiveType SingleVariableDeclaration SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName len
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral negative wait consume length d
+validate utils SimpleName MethodInvocation SimpleName len
+check true SimpleName MethodInvocation InfixExpression SimpleName len
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral negative wait consume length d
+check true SimpleName MethodInvocation SimpleName len
+len SimpleName InfixExpression MethodInvocation StringLiteral negative wait consume length d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral negative wait consume length d
+len SimpleName InfixExpression MethodInvocation SimpleName len
+empty NumberLiteral InfixExpression MethodInvocation SimpleName len
+negative wait consume length d StringLiteral MethodInvocation SimpleName len
+check initialized SimpleName MethodInvocation StringLiteral wait and consume
+size holder SimpleName MethodInvocation SimpleName get
+size holder SimpleName MethodInvocation InfixExpression SimpleName len
+get SimpleName MethodInvocation InfixExpression SimpleName len
+waiting count SimpleName MethodInvocation SimpleName increment and get
+waiters SimpleName VariableDeclarationFragment MethodInvocation SimpleName waiting count
+waiters SimpleName VariableDeclarationFragment MethodInvocation SimpleName increment and get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName waiters
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName waiting count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName increment and get
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait and consume - requested available waiters
+log SimpleName MethodInvocation SimpleName len
+log SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation StringLiteral wait and consume - requested available waiters
+debug SimpleName MethodInvocation SimpleName len
+debug SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation SimpleName waiters
+wait and consume - requested available waiters StringLiteral MethodInvocation SimpleName len
+wait and consume - requested available waiters StringLiteral MethodInvocation SimpleName size holder
+wait and consume - requested available waiters StringLiteral MethodInvocation SimpleName waiters
+len SimpleName MethodInvocation SimpleName size holder
+len SimpleName MethodInvocation SimpleName waiters
+size holder SimpleName MethodInvocation SimpleName waiters
+system SimpleName MethodInvocation SimpleName nano time
+nano start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+nano start SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+lock SimpleName MethodInvocation SimpleName wait
+system SimpleName MethodInvocation SimpleName nano time
+nano end SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+nano end SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano end
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+nano end SimpleName InfixExpression SimpleName nano start
+nano duration SimpleName VariableDeclarationFragment InfixExpression SimpleName nano end
+nano duration SimpleName VariableDeclarationFragment InfixExpression SimpleName nano start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano duration
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName nano end
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName nano start
+waiting count SimpleName MethodInvocation SimpleName decrement and get
+waiters SimpleName Assignment MethodInvocation SimpleName waiting count
+waiters SimpleName Assignment MethodInvocation SimpleName decrement and get
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait and consume - requested available waiters - ended after {} nanos
+log SimpleName MethodInvocation SimpleName len
+log SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation StringLiteral wait and consume - requested available waiters - ended after {} nanos
+debug SimpleName MethodInvocation SimpleName len
+debug SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation SimpleName waiters
+wait and consume - requested available waiters - ended after {} nanos StringLiteral MethodInvocation SimpleName len
+wait and consume - requested available waiters - ended after {} nanos StringLiteral MethodInvocation SimpleName size holder
+wait and consume - requested available waiters - ended after {} nanos StringLiteral MethodInvocation SimpleName waiters
+wait and consume - requested available waiters - ended after {} nanos StringLiteral MethodInvocation SimpleName nano duration
+len SimpleName MethodInvocation SimpleName size holder
+len SimpleName MethodInvocation SimpleName waiters
+len SimpleName MethodInvocation SimpleName nano duration
+size holder SimpleName MethodInvocation SimpleName waiters
+size holder SimpleName MethodInvocation SimpleName nano duration
+waiters SimpleName MethodInvocation SimpleName nano duration
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+window closed exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait and consume - requested available
+log SimpleName MethodInvocation SimpleName len
+log SimpleName MethodInvocation SimpleName size holder
+debug SimpleName MethodInvocation StringLiteral wait and consume - requested available
+debug SimpleName MethodInvocation SimpleName len
+debug SimpleName MethodInvocation SimpleName size holder
+wait and consume - requested available StringLiteral MethodInvocation SimpleName len
+wait and consume - requested available StringLiteral MethodInvocation SimpleName size holder
+len SimpleName MethodInvocation SimpleName size holder
+consume SimpleName MethodInvocation SimpleName len
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName wait and consume
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration SimpleType SimpleName window closed exception
+void PrimitiveType MethodDeclaration SimpleName wait and consume
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName window closed exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+wait and consume SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+wait and consume SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+wait and consume SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+wait and consume SimpleName MethodDeclaration SimpleType SimpleName window closed exception
+wait and consume SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName window closed exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait and consume
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait and consume
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception

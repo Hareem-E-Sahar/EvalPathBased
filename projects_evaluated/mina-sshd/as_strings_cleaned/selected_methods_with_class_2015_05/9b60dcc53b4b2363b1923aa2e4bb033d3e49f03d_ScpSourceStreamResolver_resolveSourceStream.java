@@ -1,0 +1,10 @@
+input stream SimpleName SimpleType MethodDeclaration SimpleName resolve source stream
+input stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+resolve source stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve source stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve source stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

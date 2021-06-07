@@ -1,0 +1,34 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName ExpressionMethodReference SimpleName to absolute path
+generic utils SimpleName MethodInvocation SimpleName map
+generic utils SimpleName MethodInvocation SimpleName paths
+generic utils SimpleName MethodInvocation ExpressionMethodReference SimpleName path
+generic utils SimpleName MethodInvocation ExpressionMethodReference SimpleName to absolute path
+map SimpleName MethodInvocation SimpleName paths
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName path
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName to absolute path
+paths SimpleName MethodInvocation ExpressionMethodReference SimpleName path
+paths SimpleName MethodInvocation ExpressionMethodReference SimpleName to absolute path
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName paths
+resolved SimpleName VariableDeclarationFragment MethodInvocation ExpressionMethodReference SimpleName path
+resolved SimpleName VariableDeclarationFragment MethodInvocation ExpressionMethodReference SimpleName to absolute path
+reset cache map SimpleName MethodInvocation SimpleName resolved
+files SimpleName Assignment SimpleName resolved
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set paths
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName paths
+void PrimitiveType MethodDeclaration SimpleName set paths
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName paths
+set paths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set paths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set paths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths

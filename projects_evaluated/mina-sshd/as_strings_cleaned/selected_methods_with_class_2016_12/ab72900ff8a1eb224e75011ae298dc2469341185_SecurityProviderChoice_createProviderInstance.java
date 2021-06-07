@@ -1,0 +1,46 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName anchor
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName anchor
+string SimpleName SimpleType SingleVariableDeclaration SimpleName provider class name
+thread utils SimpleName MethodInvocation SimpleName create default instance
+thread utils SimpleName MethodInvocation SimpleName anchor
+thread utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName provider
+thread utils SimpleName MethodInvocation SimpleName provider class name
+create default instance SimpleName MethodInvocation SimpleName anchor
+create default instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName provider
+create default instance SimpleName MethodInvocation SimpleName provider class name
+anchor SimpleName MethodInvocation TypeLiteral SimpleType SimpleName provider
+anchor SimpleName MethodInvocation SimpleName provider class name
+provider SimpleName SimpleType TypeLiteral MethodInvocation SimpleName provider class name
+static Modifier MethodDeclaration SimpleType SimpleName provider
+static Modifier MethodDeclaration SimpleName create provider instance
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+static Modifier MethodDeclaration SimpleType SimpleName reflective operation exception
+provider SimpleName SimpleType MethodDeclaration SimpleName create provider instance
+provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anchor
+provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+provider SimpleName SimpleType MethodDeclaration SimpleType SimpleName reflective operation exception
+create provider instance SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+create provider instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor
+create provider instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create provider instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+create provider instance SimpleName MethodDeclaration SimpleType SimpleName reflective operation exception
+anchor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+anchor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+provider class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName create provider instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create provider instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider class name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception

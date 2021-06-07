@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName mode
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName mode
+validate utils SimpleName MethodInvocation StringLiteral no authentication mode
+check not null SimpleName MethodInvocation SimpleName mode
+check not null SimpleName MethodInvocation StringLiteral no authentication mode
+mode SimpleName MethodInvocation StringLiteral no authentication mode
+ldap env SimpleName MethodInvocation SimpleName put
+ldap env SimpleName MethodInvocation QualifiedName contextsecurity authentication
+ldap env SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+ldap env SimpleName MethodInvocation MethodInvocation SimpleName check not null
+ldap env SimpleName MethodInvocation MethodInvocation SimpleName mode
+ldap env SimpleName MethodInvocation MethodInvocation StringLiteral no authentication mode
+put SimpleName MethodInvocation QualifiedName contextsecurity authentication
+put SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+put SimpleName MethodInvocation MethodInvocation SimpleName check not null
+put SimpleName MethodInvocation MethodInvocation SimpleName mode
+put SimpleName MethodInvocation MethodInvocation StringLiteral no authentication mode
+contextsecurity authentication QualifiedName MethodInvocation MethodInvocation SimpleName validate utils
+contextsecurity authentication QualifiedName MethodInvocation MethodInvocation SimpleName check not null
+contextsecurity authentication QualifiedName MethodInvocation MethodInvocation SimpleName mode
+contextsecurity authentication QualifiedName MethodInvocation MethodInvocation StringLiteral no authentication mode
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set authentication mode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mode
+void PrimitiveType MethodDeclaration SimpleName set authentication mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mode
+set authentication mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set authentication mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mode
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set authentication mode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set authentication mode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode

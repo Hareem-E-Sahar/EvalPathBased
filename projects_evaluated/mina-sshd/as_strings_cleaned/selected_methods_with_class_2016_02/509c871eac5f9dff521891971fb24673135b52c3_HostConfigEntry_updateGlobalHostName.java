@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get host name
+length SimpleName MethodInvocation MethodInvocation SimpleName get host name
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get host name SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+set host name SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName update global host name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName update global host name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+update global host name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update global host name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+update global host name SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update global host name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update global host name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

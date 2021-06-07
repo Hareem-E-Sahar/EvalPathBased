@@ -1,0 +1,32 @@
+user auth SimpleName SimpleType SingleVariableDeclaration SimpleName auth
+get user auth service SimpleName MethodInvocation MethodInvocation SimpleName auth
+get user auth service SimpleName MethodInvocation MethodInvocation SimpleName auth
+auth SimpleName MethodInvocation SimpleName auth
+auth future SimpleName Assignment MethodInvocation MethodInvocation SimpleName get user auth service
+auth future SimpleName Assignment MethodInvocation SimpleName auth
+auth future SimpleName Assignment MethodInvocation SimpleName auth
+private Modifier MethodDeclaration SimpleType SimpleName auth future
+private Modifier MethodDeclaration SimpleName try auth
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user auth
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName auth
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+auth future SimpleName SimpleType MethodDeclaration SimpleName try auth
+auth future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName auth
+auth future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+try auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user auth
+try auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auth
+try auth SimpleName MethodDeclaration SimpleType SimpleName io exception
+try auth SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+auth SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName auth future
+public Modifier TypeDeclaration MethodDeclaration SimpleName try auth
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName auth future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName try auth
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

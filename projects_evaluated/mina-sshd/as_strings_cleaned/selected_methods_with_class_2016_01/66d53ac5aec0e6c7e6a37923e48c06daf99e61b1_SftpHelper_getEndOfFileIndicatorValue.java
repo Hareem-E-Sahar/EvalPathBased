@@ -1,0 +1,50 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName version
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+buffer SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get boolean
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName buffer
+boolean SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+value of SimpleName MethodInvocation MethodInvocation SimpleName buffer
+value of SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName get end of file indicator value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+static Modifier MethodDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SimpleName get end of file indicator value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName version
+boolean SimpleName SimpleType MethodDeclaration SimpleName get end of file indicator value
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName version
+get end of file indicator value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+get end of file indicator value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+get end of file indicator value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get end of file indicator value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get end of file indicator value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get end of file indicator value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version

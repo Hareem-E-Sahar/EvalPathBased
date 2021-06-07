@@ -1,0 +1,193 @@
+rooted path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName path
+validate utils SimpleName MethodInvocation StringLiteral no rooted path to resolve
+check not null SimpleName MethodInvocation SimpleName path
+check not null SimpleName MethodInvocation StringLiteral no rooted path to resolve
+path SimpleName MethodInvocation StringLiteral no rooted path to resolve
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+check not null SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+path SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+no rooted path to resolve StringLiteral MethodInvocation MethodInvocation SimpleName to absolute path
+abs path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+abs path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null
+abs path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+abs path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no rooted path to resolve
+abs path SimpleName VariableDeclarationFragment MethodInvocation SimpleName to absolute path
+rooted path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName abs path
+abs path SimpleName MethodInvocation SimpleName get file system
+rfs SimpleName VariableDeclarationFragment MethodInvocation SimpleName abs path
+rfs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+rooted file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rfs
+rfs SimpleName MethodInvocation SimpleName get root
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName rfs
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+root SimpleName MethodInvocation SimpleName get file system
+lfs SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+lfs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lfs
+rfs SimpleName MethodInvocation SimpleName get separator
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName rfs
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get separator
+validate utils SimpleName MethodInvocation StringLiteral no rooted file system separator
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName rfs
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get separator
+check not null and not empty SimpleName MethodInvocation StringLiteral no rooted file system separator
+rfs SimpleName MethodInvocation MethodInvocation StringLiteral no rooted file system separator
+get separator SimpleName MethodInvocation MethodInvocation StringLiteral no rooted file system separator
+r sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+r sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+r sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rfs
+r sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get separator
+r sep SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no rooted file system separator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r sep
+r sep SimpleName MethodInvocation SimpleName length
+r sep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r sep
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral bad rooted file system separator s
+validate utils SimpleName MethodInvocation SimpleName r sep
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r sep
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral bad rooted file system separator s
+check true SimpleName MethodInvocation SimpleName r sep
+r sep SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral bad rooted file system separator s
+length SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral bad rooted file system separator s
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral bad rooted file system separator s
+r sep SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r sep
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r sep
+empty NumberLiteral InfixExpression MethodInvocation SimpleName r sep
+bad rooted file system separator s StringLiteral MethodInvocation SimpleName r sep
+r sep SimpleName MethodInvocation SimpleName char at
+r sep SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+rooted separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName r sep
+rooted separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+rooted separator SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rooted separator
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName r sep
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+lfs SimpleName MethodInvocation SimpleName get separator
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName lfs
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get separator
+validate utils SimpleName MethodInvocation StringLiteral no local file system separator
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName lfs
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get separator
+check not null and not empty SimpleName MethodInvocation StringLiteral no local file system separator
+lfs SimpleName MethodInvocation MethodInvocation StringLiteral no local file system separator
+get separator SimpleName MethodInvocation MethodInvocation StringLiteral no local file system separator
+l sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+l sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null and not empty
+l sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName lfs
+l sep SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get separator
+l sep SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no local file system separator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l sep
+l sep SimpleName MethodInvocation SimpleName length
+l sep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName l sep
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral bad local file system separator s
+validate utils SimpleName MethodInvocation SimpleName l sep
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName l sep
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral bad local file system separator s
+check true SimpleName MethodInvocation SimpleName l sep
+l sep SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral bad local file system separator s
+length SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral bad local file system separator s
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral bad local file system separator s
+l sep SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName l sep
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName l sep
+empty NumberLiteral InfixExpression MethodInvocation SimpleName l sep
+bad local file system separator s StringLiteral MethodInvocation SimpleName l sep
+l sep SimpleName MethodInvocation SimpleName char at
+l sep SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+local separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName l sep
+local separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+local separator SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName local separator
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName l sep
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+abs path SimpleName MethodInvocation SimpleName to string
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName abs path
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName substring
+r SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+sub path SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+sub path SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+sub path SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sub path
+rooted separator SimpleName InfixExpression SimpleName local separator
+sub path SimpleName MethodInvocation SimpleName replace
+sub path SimpleName MethodInvocation SimpleName rooted separator
+sub path SimpleName MethodInvocation SimpleName local separator
+replace SimpleName MethodInvocation SimpleName rooted separator
+replace SimpleName MethodInvocation SimpleName local separator
+rooted separator SimpleName MethodInvocation SimpleName local separator
+sub path SimpleName Assignment MethodInvocation SimpleName sub path
+sub path SimpleName Assignment MethodInvocation SimpleName replace
+sub path SimpleName Assignment MethodInvocation SimpleName rooted separator
+sub path SimpleName Assignment MethodInvocation SimpleName local separator
+root SimpleName MethodInvocation SimpleName resolve
+root SimpleName MethodInvocation SimpleName sub path
+resolve SimpleName MethodInvocation SimpleName sub path
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+resolved SimpleName VariableDeclarationFragment MethodInvocation SimpleName sub path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolved
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral resolve local path {}
+log SimpleName MethodInvocation SimpleName abs path
+log SimpleName MethodInvocation SimpleName resolved
+trace SimpleName MethodInvocation StringLiteral resolve local path {}
+trace SimpleName MethodInvocation SimpleName abs path
+trace SimpleName MethodInvocation SimpleName resolved
+resolve local path {} StringLiteral MethodInvocation SimpleName abs path
+resolve local path {} StringLiteral MethodInvocation SimpleName resolved
+abs path SimpleName MethodInvocation SimpleName resolved
+resolved SimpleName MethodInvocation SimpleName starts with
+resolved SimpleName MethodInvocation SimpleName root
+starts with SimpleName MethodInvocation SimpleName root
+invalid path exception SimpleName SimpleType ClassInstanceCreation SimpleName r
+invalid path exception SimpleName SimpleType ClassInstanceCreation StringLiteral not under root
+r SimpleName ClassInstanceCreation StringLiteral not under root
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType char
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName resolve local path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rooted path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName resolved
+path SimpleName SimpleType MethodDeclaration SimpleName resolve local path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+resolve local path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rooted path
+resolve local path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+resolve local path SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+resolve local path SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+resolve local path SimpleName MethodDeclaration Block ReturnStatement SimpleName resolved
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve local path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve local path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

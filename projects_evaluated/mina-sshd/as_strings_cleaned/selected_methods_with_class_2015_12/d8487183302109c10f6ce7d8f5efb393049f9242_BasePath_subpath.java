@@ -1,0 +1,91 @@
+int PrimitiveType SingleVariableDeclaration SimpleName begin index
+int PrimitiveType SingleVariableDeclaration SimpleName end index
+max index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get name count
+begin index SimpleName InfixExpression NumberLiteral empty
+begin index SimpleName InfixExpression SimpleName max index
+end index SimpleName InfixExpression SimpleName max index
+begin index SimpleName InfixExpression SimpleName end index
+subpath StringLiteral InfixExpression SimpleName begin index
+subpath StringLiteral InfixExpression StringLiteral empty
+subpath StringLiteral InfixExpression SimpleName end index
+subpath StringLiteral InfixExpression StringLiteral ) bad index range - allowed [ -
+subpath StringLiteral InfixExpression SimpleName max index
+begin index SimpleName InfixExpression StringLiteral empty
+begin index SimpleName InfixExpression SimpleName end index
+begin index SimpleName InfixExpression StringLiteral ) bad index range - allowed [ -
+begin index SimpleName InfixExpression SimpleName max index
+begin index SimpleName InfixExpression StringLiteral ]
+empty StringLiteral InfixExpression SimpleName end index
+empty StringLiteral InfixExpression StringLiteral ) bad index range - allowed [ -
+empty StringLiteral InfixExpression SimpleName max index
+empty StringLiteral InfixExpression StringLiteral ]
+end index SimpleName InfixExpression StringLiteral ) bad index range - allowed [ -
+end index SimpleName InfixExpression SimpleName max index
+end index SimpleName InfixExpression StringLiteral ]
+) bad index range - allowed [ - StringLiteral InfixExpression SimpleName max index
+) bad index range - allowed [ - StringLiteral InfixExpression StringLiteral ]
+max index SimpleName InfixExpression StringLiteral ]
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral subpath
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName begin index
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName end index
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) bad index range - allowed [ -
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max index
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+names SimpleName MethodInvocation SimpleName sub list
+names SimpleName MethodInvocation SimpleName begin index
+names SimpleName MethodInvocation SimpleName end index
+sub list SimpleName MethodInvocation SimpleName begin index
+sub list SimpleName MethodInvocation SimpleName end index
+begin index SimpleName MethodInvocation SimpleName end index
+create SimpleName MethodInvocation MethodInvocation SimpleName names
+create SimpleName MethodInvocation MethodInvocation SimpleName sub list
+create SimpleName MethodInvocation MethodInvocation SimpleName begin index
+create SimpleName MethodInvocation MethodInvocation SimpleName end index
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName subpath
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName begin index
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName end index
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName subpath
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName begin index
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end index
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+t SimpleName SimpleType MethodDeclaration SimpleName subpath
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName begin index
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end index
+subpath SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+subpath SimpleName MethodDeclaration SingleVariableDeclaration SimpleName begin index
+subpath SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+subpath SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end index
+subpath SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+begin index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+begin index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName subpath
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName subpath
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index

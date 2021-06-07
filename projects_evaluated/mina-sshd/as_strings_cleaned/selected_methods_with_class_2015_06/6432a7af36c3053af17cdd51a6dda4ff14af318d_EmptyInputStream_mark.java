@@ -1,0 +1,45 @@
+int PrimitiveType SingleVariableDeclaration SimpleName readlimit
+mark StringLiteral InfixExpression SimpleName readlimit
+mark StringLiteral InfixExpression StringLiteral ) called despite the fact that mark supported
+mark StringLiteral InfixExpression MethodInvocation SimpleName mark supported
+readlimit SimpleName InfixExpression StringLiteral ) called despite the fact that mark supported
+readlimit SimpleName InfixExpression MethodInvocation SimpleName mark supported
+) called despite the fact that mark supported StringLiteral InfixExpression MethodInvocation SimpleName mark supported
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral mark
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName readlimit
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) called despite the fact that mark supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName mark
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName readlimit
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mark
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName readlimit
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName mark
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName readlimit
+void PrimitiveType MethodDeclaration SimpleName mark
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName readlimit
+mark SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+mark SimpleName MethodDeclaration SingleVariableDeclaration SimpleName readlimit
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mark
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readlimit
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mark
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readlimit

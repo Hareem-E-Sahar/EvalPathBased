@@ -1,0 +1,155 @@
+final Modifier SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration SimpleName immediately
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+final Modifier VariableDeclarationStatement SimpleType SimpleName abstract session
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+abstract session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName io close future
+io close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral io session closed
+debug SimpleName MethodInvocation StringLiteral io session closed
+close future SimpleName MethodInvocation SimpleName set closed
+lock SimpleName MethodInvocation SimpleName notify all
+s SimpleName MethodInvocation SimpleName get username
+s SimpleName MethodInvocation SimpleName get io session
+s SimpleName MethodInvocation MethodInvocation SimpleName get remote address
+get io session SimpleName MethodInvocation MethodInvocation SimpleName get remote address
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral session {}@{} closed
+log SimpleName MethodInvocation MethodInvocation SimpleName s
+log SimpleName MethodInvocation MethodInvocation SimpleName get username
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get io session
+log SimpleName MethodInvocation MethodInvocation SimpleName get remote address
+info SimpleName MethodInvocation StringLiteral session {}@{} closed
+info SimpleName MethodInvocation MethodInvocation SimpleName s
+info SimpleName MethodInvocation MethodInvocation SimpleName get username
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get io session
+info SimpleName MethodInvocation MethodInvocation SimpleName get remote address
+session {}@{} closed StringLiteral MethodInvocation MethodInvocation SimpleName s
+session {}@{} closed StringLiteral MethodInvocation MethodInvocation SimpleName get username
+session {}@{} closed StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName s
+session {}@{} closed StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get io session
+session {}@{} closed StringLiteral MethodInvocation MethodInvocation SimpleName get remote address
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get remote address
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get remote address
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName session listener
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName session listener
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName listeners
+session listener SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName listeners
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName listeners
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName array list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName session listener
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName listeners
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName sl
+sl SimpleName MethodInvocation SimpleName session closed
+sl SimpleName MethodInvocation SimpleName s
+session closed SimpleName MethodInvocation SimpleName s
+session listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName l
+sl SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName l
+lock SimpleName SynchronizedStatement Block VariableDeclarationStatement Modifier final
+lock SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName l
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName l
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName l
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+operation complete SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+operation complete SimpleName MethodDeclaration Block EnhancedForStatement SimpleName l
+io session closer SimpleName TypeDeclaration ParameterizedType SimpleType SimpleName ssh future listener
+io session closer SimpleName TypeDeclaration ParameterizedType SimpleType SimpleName io close future
+io session closer SimpleName TypeDeclaration MethodDeclaration Modifier public
+io session closer SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+io session closer SimpleName TypeDeclaration MethodDeclaration SimpleName operation complete
+io session closer SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+closing SimpleName Assignment BooleanLiteral true
+current service SimpleName MethodInvocation SimpleName close
+current service SimpleName MethodInvocation SimpleName immediately
+close SimpleName MethodInvocation SimpleName immediately
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing io session
+debug SimpleName MethodInvocation StringLiteral closing io session
+io session SimpleName MethodInvocation SimpleName close
+io session SimpleName MethodInvocation SimpleName immediately
+close SimpleName MethodInvocation SimpleName immediately
+io session SimpleName MethodInvocation MethodInvocation SimpleName add listener
+close SimpleName MethodInvocation MethodInvocation SimpleName add listener
+immediately SimpleName MethodInvocation MethodInvocation SimpleName add listener
+add listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName io session closer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+current service SimpleName MethodInvocation MethodInvocation SimpleName add listener
+close SimpleName MethodInvocation MethodInvocation SimpleName add listener
+immediately SimpleName MethodInvocation MethodInvocation SimpleName add listener
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing io session
+debug SimpleName MethodInvocation StringLiteral closing io session
+io session SimpleName MethodInvocation SimpleName close
+io session SimpleName MethodInvocation SimpleName immediately
+close SimpleName MethodInvocation SimpleName immediately
+io session SimpleName MethodInvocation MethodInvocation SimpleName add listener
+close SimpleName MethodInvocation MethodInvocation SimpleName add listener
+immediately SimpleName MethodInvocation MethodInvocation SimpleName add listener
+add listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName io session closer
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error closing session
+log SimpleName MethodInvocation SimpleName t
+warn SimpleName MethodInvocation StringLiteral error closing session
+warn SimpleName MethodInvocation SimpleName t
+error closing session StringLiteral MethodInvocation SimpleName t
+lock SimpleName SynchronizedStatement Block ReturnStatement SimpleName close future
+final Modifier VariableDeclarationStatement Block SynchronizedStatement SimpleName lock
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+close future SimpleName SimpleType MethodDeclaration SimpleName close
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+close SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

@@ -1,0 +1,90 @@
+s SimpleName TypeParameter SimpleType SimpleName ssh key scan
+s SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hosts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hosts
+set input stream SimpleName MethodInvocation SimpleName scanner
+set input stream SimpleName MethodInvocation SimpleName hosts
+scanner SimpleName MethodInvocation SimpleName hosts
+scanner SimpleName MethodInvocation SimpleName get port
+scanner SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+scanner SimpleName MethodInvocation SimpleName set port
+scanner SimpleName MethodInvocation QualifiedName ssh config file readerdefault port
+set port SimpleName MethodInvocation QualifiedName ssh config file readerdefault port
+scanner SimpleName MethodInvocation SimpleName get timeout
+scanner SimpleName MethodInvocation InfixExpression NumberLiteral l
+get timeout SimpleName MethodInvocation InfixExpression NumberLiteral l
+scanner SimpleName MethodInvocation SimpleName set timeout
+scanner SimpleName MethodInvocation SimpleName default timeout
+set timeout SimpleName MethodInvocation SimpleName default timeout
+scanner SimpleName MethodInvocation SimpleName get key types
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName scanner
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get key types
+is empty SimpleName MethodInvocation MethodInvocation SimpleName scanner
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get key types
+scanner SimpleName MethodInvocation SimpleName set key types
+scanner SimpleName MethodInvocation SimpleName default key types
+set key types SimpleName MethodInvocation SimpleName default key types
+scanner SimpleName MethodInvocation SimpleName get log level
+scanner SimpleName MethodInvocation SimpleName set log level
+scanner SimpleName MethodInvocation SimpleName default level
+set log level SimpleName MethodInvocation SimpleName default level
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration TypeParameter SimpleName s
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName ssh key scan
+public Modifier MethodDeclaration SimpleType SimpleName s
+public Modifier MethodDeclaration SimpleName initialize scanner
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration TypeParameter SimpleName s
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName ssh key scan
+static Modifier MethodDeclaration SimpleType SimpleName s
+static Modifier MethodDeclaration SimpleName initialize scanner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+final Modifier MethodDeclaration TypeParameter SimpleName s
+final Modifier MethodDeclaration TypeParameter SimpleType SimpleName ssh key scan
+final Modifier MethodDeclaration SimpleType SimpleName s
+final Modifier MethodDeclaration SimpleName initialize scanner
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName hosts
+s SimpleName TypeParameter MethodDeclaration SimpleType SimpleName s
+s SimpleName TypeParameter MethodDeclaration SimpleName initialize scanner
+ssh key scan SimpleName SimpleType TypeParameter MethodDeclaration SimpleName initialize scanner
+s SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName scanner
+s SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName hosts
+s SimpleName TypeParameter MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SimpleType MethodDeclaration SimpleName initialize scanner
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scanner
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hosts
+s SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+initialize scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName s
+initialize scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+initialize scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hosts
+initialize scanner SimpleName MethodDeclaration SimpleType SimpleName io exception
+initialize scanner SimpleName MethodDeclaration Block ReturnStatement SimpleName scanner
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+hosts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

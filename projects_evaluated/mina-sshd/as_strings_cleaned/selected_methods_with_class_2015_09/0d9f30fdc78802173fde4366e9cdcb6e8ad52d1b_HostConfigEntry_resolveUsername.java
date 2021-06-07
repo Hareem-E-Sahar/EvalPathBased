@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entry user
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName entry user
+is empty SimpleName MethodInvocation SimpleName entry user
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName resolve username
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry user
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName resolve username
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName original user
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry user
+string SimpleName SimpleType MethodDeclaration SimpleName resolve username
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName original user
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entry user
+resolve username SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve username SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original user
+resolve username SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve username SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entry user
+original user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry user
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry user
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry user

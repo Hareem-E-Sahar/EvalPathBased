@@ -1,0 +1,33 @@
+di SimpleName MethodInvocation SimpleName read int
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName di
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName di
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+byte PrimitiveType ArrayType ArrayCreation SimpleName len
+r SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+r SimpleName VariableDeclarationFragment ArrayCreation SimpleName len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+di SimpleName MethodInvocation SimpleName read fully
+di SimpleName MethodInvocation SimpleName r
+read fully SimpleName MethodInvocation SimpleName r
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName r
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName read
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName r
+byte PrimitiveType ArrayType MethodDeclaration SimpleName read
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName io exception
+read SimpleName MethodDeclaration SimpleType SimpleName io exception
+read SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

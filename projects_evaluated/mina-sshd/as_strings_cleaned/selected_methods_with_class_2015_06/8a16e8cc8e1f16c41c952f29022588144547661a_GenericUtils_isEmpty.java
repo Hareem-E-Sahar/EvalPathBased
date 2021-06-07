@@ -1,0 +1,50 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName a
+length SimpleName MethodInvocation SimpleName a
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+a SimpleName MethodInvocation InfixExpression NumberLiteral empty
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier public
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier static
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier final
+safe varargs SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+safe varargs SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is empty
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is empty
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+final Modifier MethodDeclaration TypeParameter SimpleName t
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName is empty
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+t SimpleName TypeParameter MethodDeclaration PrimitiveType boolean
+t SimpleName TypeParameter MethodDeclaration SimpleName is empty
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName a
+boolean PrimitiveType MethodDeclaration SimpleName is empty
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+is empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+is empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName safe varargs
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is empty
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName safe varargs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is empty
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a

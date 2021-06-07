@@ -1,0 +1,18 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName client identity loader
+public Modifier MethodDeclaration SimpleName get client identity loader
+public Modifier MethodDeclaration Block ReturnStatement SimpleName loader
+final Modifier MethodDeclaration SimpleType SimpleName client identity loader
+final Modifier MethodDeclaration SimpleName get client identity loader
+final Modifier MethodDeclaration Block ReturnStatement SimpleName loader
+client identity loader SimpleName SimpleType MethodDeclaration SimpleName get client identity loader
+get client identity loader SimpleName MethodDeclaration Block ReturnStatement SimpleName loader
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client identity loader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client identity loader
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client identity loader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client identity loader

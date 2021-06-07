@@ -1,0 +1,17 @@
+sftp file systemdefault group principal QualifiedName SimpleType ClassInstanceCreation QualifiedName attributesowner
+attributesowner QualifiedName InfixExpression ConditionalExpression ClassInstanceCreation QualifiedName attributesowner
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName user principal
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName owner
+public Modifier MethodDeclaration SimpleType SimpleName user principal
+public Modifier MethodDeclaration SimpleName owner
+user principal SimpleName SimpleType MethodDeclaration SimpleName owner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user principal
+public Modifier TypeDeclaration MethodDeclaration SimpleName owner
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user principal
+test SimpleName TypeDeclaration MethodDeclaration SimpleName owner

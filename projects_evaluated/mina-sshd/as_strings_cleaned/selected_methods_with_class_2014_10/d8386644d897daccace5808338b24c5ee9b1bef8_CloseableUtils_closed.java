@@ -1,0 +1,21 @@
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default close future
+close future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName MethodInvocation SimpleName set closed
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName closed
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+static Modifier MethodDeclaration SimpleType SimpleName close future
+static Modifier MethodDeclaration SimpleName closed
+static Modifier MethodDeclaration Block ReturnStatement SimpleName future
+close future SimpleName SimpleType MethodDeclaration SimpleName closed
+closed SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName closed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName closed

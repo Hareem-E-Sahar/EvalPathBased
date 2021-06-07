@@ -1,0 +1,500 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName resume
+pending write SimpleName MethodInvocation SimpleName get
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending write
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement SimpleType SimpleName io write future impl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending write
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+io write future impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possibleresume no pending write future
+log SimpleName MethodInvocation SimpleName resume
+trace SimpleName MethodInvocation StringLiteral do write if possibleresume no pending write future
+trace SimpleName MethodInvocation SimpleName resume
+do write if possibleresume no pending write future StringLiteral MethodInvocation SimpleName resume
+future SimpleName MethodInvocation SimpleName get buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName future
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName get buffer
+final Modifier VariableDeclarationStatement SimpleType SimpleName buffer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName available
+total SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+total SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName total
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+total SimpleName InfixExpression NumberLiteral empty
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName get remote window
+remote window SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+remote window SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote window
+window SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote window
+remote window SimpleName MethodInvocation SimpleName get size
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation SimpleName remote window
+math SimpleName MethodInvocation MethodInvocation SimpleName get size
+math SimpleName MethodInvocation SimpleName total
+min SimpleName MethodInvocation MethodInvocation SimpleName remote window
+min SimpleName MethodInvocation MethodInvocation SimpleName get size
+min SimpleName MethodInvocation SimpleName total
+remote window SimpleName MethodInvocation MethodInvocation SimpleName total
+get size SimpleName MethodInvocation MethodInvocation SimpleName total
+remote window SimpleName MethodInvocation SimpleName get packet size
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation SimpleName math
+math SimpleName MethodInvocation MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote window
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get size
+math SimpleName MethodInvocation MethodInvocation SimpleName total
+math SimpleName MethodInvocation MethodInvocation SimpleName remote window
+math SimpleName MethodInvocation MethodInvocation SimpleName get packet size
+min SimpleName MethodInvocation MethodInvocation SimpleName math
+min SimpleName MethodInvocation MethodInvocation SimpleName min
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote window
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get size
+min SimpleName MethodInvocation MethodInvocation SimpleName total
+min SimpleName MethodInvocation MethodInvocation SimpleName remote window
+min SimpleName MethodInvocation MethodInvocation SimpleName get packet size
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote window
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get packet size
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote window
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get packet size
+total SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote window
+total SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get packet size
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName min
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName math
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName min
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName total
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName remote window
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get packet size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName min
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possibleresume attempting to write {} out of {}
+log SimpleName MethodInvocation SimpleName resume
+log SimpleName MethodInvocation SimpleName length
+trace SimpleName MethodInvocation StringLiteral do write if possibleresume attempting to write {} out of {}
+trace SimpleName MethodInvocation SimpleName resume
+trace SimpleName MethodInvocation SimpleName length
+trace SimpleName MethodInvocation SimpleName total
+do write if possibleresume attempting to write {} out of {} StringLiteral MethodInvocation SimpleName resume
+do write if possibleresume attempting to write {} out of {} StringLiteral MethodInvocation SimpleName length
+do write if possibleresume attempting to write {} out of {} StringLiteral MethodInvocation SimpleName total
+resume SimpleName MethodInvocation SimpleName length
+resume SimpleName MethodInvocation SimpleName total
+length SimpleName MethodInvocation SimpleName total
+length SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral resuming {} write due to more space ({}) available in the remote window
+log SimpleName MethodInvocation SimpleName length
+debug SimpleName MethodInvocation StringLiteral resuming {} write due to more space ({}) available in the remote window
+debug SimpleName MethodInvocation SimpleName length
+resuming {} write due to more space ({}) available in the remote window StringLiteral MethodInvocation SimpleName length
+integermax value QualifiedName InfixExpression NumberLiteral empty
+length SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName integermax value
+length SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+command StringLiteral InfixExpression MethodInvocation SimpleName ssh constants
+command StringLiteral InfixExpression MethodInvocation SimpleName get command message name
+command StringLiteral InfixExpression MethodInvocation SimpleName cmd
+command StringLiteral InfixExpression StringLiteral length (
+command StringLiteral InfixExpression SimpleName length
+command StringLiteral InfixExpression StringLiteral exceeds int boundaries
+ssh constants SimpleName MethodInvocation InfixExpression StringLiteral length (
+get command message name SimpleName MethodInvocation InfixExpression StringLiteral length (
+cmd SimpleName MethodInvocation InfixExpression StringLiteral length (
+ssh constants SimpleName MethodInvocation InfixExpression SimpleName length
+get command message name SimpleName MethodInvocation InfixExpression SimpleName length
+cmd SimpleName MethodInvocation InfixExpression SimpleName length
+ssh constants SimpleName MethodInvocation InfixExpression StringLiteral exceeds int boundaries
+get command message name SimpleName MethodInvocation InfixExpression StringLiteral exceeds int boundaries
+cmd SimpleName MethodInvocation InfixExpression StringLiteral exceeds int boundaries
+length ( StringLiteral InfixExpression SimpleName length
+length ( StringLiteral InfixExpression StringLiteral exceeds int boundaries
+length SimpleName InfixExpression StringLiteral exceeds int boundaries
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral command
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral length (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral exceeds int boundaries
+channel SimpleName MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+int PrimitiveType CastExpression SimpleName length
+int PrimitiveType CastExpression InfixExpression NumberLiteral empty
+length SimpleName CastExpression InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName create buffer
+s SimpleName MethodInvocation SimpleName cmd
+s SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+s SimpleName MethodInvocation InfixExpression CastExpression SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create buffer SimpleName MethodInvocation SimpleName cmd
+create buffer SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+create buffer SimpleName MethodInvocation InfixExpression CastExpression SimpleName length
+create buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cmd SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+cmd SimpleName MethodInvocation InfixExpression CastExpression SimpleName length
+cmd SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buf SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+buf SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+buf SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+channel SimpleName MethodInvocation SimpleName get recipient
+buf SimpleName MethodInvocation SimpleName put int
+buf SimpleName MethodInvocation MethodInvocation SimpleName channel
+buf SimpleName MethodInvocation MethodInvocation SimpleName get recipient
+put int SimpleName MethodInvocation MethodInvocation SimpleName channel
+put int SimpleName MethodInvocation MethodInvocation SimpleName get recipient
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg channel extended data
+buf SimpleName MethodInvocation SimpleName put int
+buf SimpleName MethodInvocation QualifiedName ssh constantsssh extended data stderr
+put int SimpleName MethodInvocation QualifiedName ssh constantsssh extended data stderr
+buf SimpleName MethodInvocation SimpleName put int
+buf SimpleName MethodInvocation SimpleName length
+put int SimpleName MethodInvocation SimpleName length
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+int PrimitiveType CastExpression SimpleName length
+buf SimpleName MethodInvocation SimpleName put raw bytes
+buf SimpleName MethodInvocation MethodInvocation SimpleName buffer
+buf SimpleName MethodInvocation MethodInvocation SimpleName array
+buf SimpleName MethodInvocation MethodInvocation SimpleName buffer
+buf SimpleName MethodInvocation MethodInvocation SimpleName rpos
+buf SimpleName MethodInvocation CastExpression PrimitiveType int
+buf SimpleName MethodInvocation CastExpression SimpleName length
+put raw bytes SimpleName MethodInvocation MethodInvocation SimpleName buffer
+put raw bytes SimpleName MethodInvocation MethodInvocation SimpleName array
+put raw bytes SimpleName MethodInvocation MethodInvocation SimpleName buffer
+put raw bytes SimpleName MethodInvocation MethodInvocation SimpleName rpos
+put raw bytes SimpleName MethodInvocation CastExpression PrimitiveType int
+put raw bytes SimpleName MethodInvocation CastExpression SimpleName length
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+buffer SimpleName MethodInvocation MethodInvocation CastExpression SimpleName length
+array SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+array SimpleName MethodInvocation MethodInvocation CastExpression SimpleName length
+buffer SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+buffer SimpleName MethodInvocation MethodInvocation CastExpression SimpleName length
+rpos SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+rpos SimpleName MethodInvocation MethodInvocation CastExpression SimpleName length
+buffer SimpleName MethodInvocation SimpleName rpos
+int PrimitiveType CastExpression SimpleName length
+buffer SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+buffer SimpleName MethodInvocation InfixExpression CastExpression SimpleName length
+rpos SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+rpos SimpleName MethodInvocation InfixExpression CastExpression SimpleName length
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+buffer SimpleName MethodInvocation InfixExpression CastExpression SimpleName length
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+rpos SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+rpos SimpleName MethodInvocation InfixExpression CastExpression SimpleName length
+remote window SimpleName MethodInvocation SimpleName consume
+remote window SimpleName MethodInvocation SimpleName length
+consume SimpleName MethodInvocation SimpleName length
+final Modifier VariableDeclarationStatement SimpleType SimpleName channel async output stream
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName stream
+channel async output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stream
+s SimpleName MethodInvocation SimpleName write packet
+s SimpleName MethodInvocation SimpleName buf
+write packet SimpleName MethodInvocation SimpleName buf
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+io write future SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is written
+f SimpleName MethodInvocation SimpleName get exception
+handle operation failed SimpleName MethodInvocation MethodInvocation SimpleName f
+handle operation failed SimpleName MethodInvocation MethodInvocation SimpleName get exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName operation complete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io write future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+total SimpleName InfixExpression SimpleName length
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possible completed write of {} out of {}
+log SimpleName MethodInvocation SimpleName stream
+log SimpleName MethodInvocation SimpleName length
+log SimpleName MethodInvocation SimpleName total
+trace SimpleName MethodInvocation StringLiteral do write if possible completed write of {} out of {}
+trace SimpleName MethodInvocation SimpleName stream
+trace SimpleName MethodInvocation SimpleName length
+trace SimpleName MethodInvocation SimpleName total
+do write if possible completed write of {} out of {} StringLiteral MethodInvocation SimpleName stream
+do write if possible completed write of {} out of {} StringLiteral MethodInvocation SimpleName length
+do write if possible completed write of {} out of {} StringLiteral MethodInvocation SimpleName total
+stream SimpleName MethodInvocation SimpleName length
+stream SimpleName MethodInvocation SimpleName total
+length SimpleName MethodInvocation SimpleName total
+do write if possible SimpleName MethodInvocation BooleanLiteral false
+pending write SimpleName MethodInvocation SimpleName compare and set
+pending write SimpleName MethodInvocation SimpleName future
+compare and set SimpleName MethodInvocation SimpleName future
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending write
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare and set
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName future
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nullified
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending write
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare and set
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName future
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possible completed write len more
+log SimpleName MethodInvocation SimpleName stream
+log SimpleName MethodInvocation SimpleName total
+log SimpleName MethodInvocation PrefixExpression SimpleName nullified
+trace SimpleName MethodInvocation StringLiteral do write if possible completed write len more
+trace SimpleName MethodInvocation SimpleName stream
+trace SimpleName MethodInvocation SimpleName total
+trace SimpleName MethodInvocation PrefixExpression SimpleName nullified
+do write if possible completed write len more StringLiteral MethodInvocation SimpleName stream
+do write if possible completed write len more StringLiteral MethodInvocation SimpleName total
+do write if possible completed write len more StringLiteral MethodInvocation PrefixExpression SimpleName nullified
+stream SimpleName MethodInvocation SimpleName total
+stream SimpleName MethodInvocation PrefixExpression SimpleName nullified
+total SimpleName MethodInvocation PrefixExpression SimpleName nullified
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation QualifiedName booleantrue
+set value SimpleName MethodInvocation QualifiedName booleantrue
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName handle operation completed
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName handle operation completed
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName handle operation completed
+void PrimitiveType MethodDeclaration SimpleName handle operation completed
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+log SimpleName MethodInvocation SimpleName is debug enabled
+reason SimpleName MethodInvocation SimpleName get class
+reason SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+reason SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do write if possible failed ({}) to complete write of {} out of {}: {}
+log SimpleName MethodInvocation SimpleName stream
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation SimpleName length
+debug SimpleName MethodInvocation StringLiteral do write if possible failed ({}) to complete write of {} out of {}: {}
+debug SimpleName MethodInvocation SimpleName stream
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+debug SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+debug SimpleName MethodInvocation SimpleName length
+debug SimpleName MethodInvocation SimpleName total
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation SimpleName stream
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation SimpleName length
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation SimpleName total
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation MethodInvocation SimpleName reason
+do write if possible failed ({}) to complete write of {} out of {}: {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+stream SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+stream SimpleName MethodInvocation SimpleName length
+stream SimpleName MethodInvocation SimpleName total
+stream SimpleName MethodInvocation MethodInvocation SimpleName reason
+stream SimpleName MethodInvocation MethodInvocation SimpleName get message
+reason SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get simple name SimpleName MethodInvocation MethodInvocation SimpleName length
+reason SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName total
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName total
+get simple name SimpleName MethodInvocation MethodInvocation SimpleName total
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reason
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+length SimpleName MethodInvocation SimpleName total
+length SimpleName MethodInvocation MethodInvocation SimpleName reason
+length SimpleName MethodInvocation MethodInvocation SimpleName get message
+total SimpleName MethodInvocation MethodInvocation SimpleName reason
+total SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is trace enabled
+do write if possible StringLiteral InfixExpression StringLiteral ) write failure details
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral do write if possible
+log SimpleName MethodInvocation InfixExpression StringLiteral ) write failure details
+log SimpleName MethodInvocation SimpleName reason
+trace SimpleName MethodInvocation InfixExpression StringLiteral do write if possible
+trace SimpleName MethodInvocation InfixExpression StringLiteral ) write failure details
+trace SimpleName MethodInvocation SimpleName reason
+do write if possible StringLiteral InfixExpression MethodInvocation SimpleName reason
+) write failure details StringLiteral InfixExpression MethodInvocation SimpleName reason
+pending write SimpleName MethodInvocation SimpleName compare and set
+pending write SimpleName MethodInvocation SimpleName future
+compare and set SimpleName MethodInvocation SimpleName future
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending write
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare and set
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName future
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nullified
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending write
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare and set
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName future
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possible failed write len more
+log SimpleName MethodInvocation SimpleName stream
+log SimpleName MethodInvocation SimpleName total
+log SimpleName MethodInvocation PrefixExpression SimpleName nullified
+trace SimpleName MethodInvocation StringLiteral do write if possible failed write len more
+trace SimpleName MethodInvocation SimpleName stream
+trace SimpleName MethodInvocation SimpleName total
+trace SimpleName MethodInvocation PrefixExpression SimpleName nullified
+do write if possible failed write len more StringLiteral MethodInvocation SimpleName stream
+do write if possible failed write len more StringLiteral MethodInvocation SimpleName total
+do write if possible failed write len more StringLiteral MethodInvocation PrefixExpression SimpleName nullified
+stream SimpleName MethodInvocation SimpleName total
+stream SimpleName MethodInvocation PrefixExpression SimpleName nullified
+total SimpleName MethodInvocation PrefixExpression SimpleName nullified
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation SimpleName reason
+set value SimpleName MethodInvocation SimpleName reason
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName handle operation failed
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName handle operation failed
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName reason
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName reason
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName handle operation failed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName handle operation failed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+handle operation failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+handle operation failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+handle operation failed SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation completed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation completed
+operation complete SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+operation complete SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+operation complete SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation completed
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation failed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation failed
+operation complete SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+operation complete SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+operation complete SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation failed
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation failed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation failed
+handle operation completed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier private
+handle operation completed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+handle operation completed SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName handle operation failed
+s SimpleName MethodInvocation MethodInvocation SimpleName add listener
+write packet SimpleName MethodInvocation MethodInvocation SimpleName add listener
+buf SimpleName MethodInvocation MethodInvocation SimpleName add listener
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation SimpleName e
+set value SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do write if possible delaying write until space is available in the remote window
+debug SimpleName MethodInvocation StringLiteral do write if possible delaying write until space is available in the remote window
+pending write SimpleName MethodInvocation SimpleName compare and set
+pending write SimpleName MethodInvocation SimpleName future
+compare and set SimpleName MethodInvocation SimpleName future
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending write
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare and set
+nullified SimpleName VariableDeclarationFragment MethodInvocation SimpleName future
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nullified
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending write
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare and set
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName future
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do write if possible current buffer sent - more
+log SimpleName MethodInvocation PrefixExpression SimpleName nullified
+trace SimpleName MethodInvocation StringLiteral do write if possible current buffer sent - more
+trace SimpleName MethodInvocation PrefixExpression SimpleName nullified
+do write if possible current buffer sent - more StringLiteral MethodInvocation PrefixExpression SimpleName nullified
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation QualifiedName booleantrue
+set value SimpleName MethodInvocation QualifiedName booleantrue
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Modifier synchronized
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do write if possible
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resume
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName do write if possible
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName resume
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName do write if possible
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resume
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do write if possible SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+do write if possible SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resume
+do write if possible SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+do write if possible SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+do write if possible SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final

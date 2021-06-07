@@ -1,0 +1,292 @@
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get known host copy path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+files SimpleName MethodInvocation SimpleName delete if exists
+files SimpleName MethodInvocation SimpleName path
+delete if exists SimpleName MethodInvocation SimpleName path
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName mac
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName client session
+socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote address
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host identity
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get host value digester
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName remote address
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName mac
+protected Modifier MethodDeclaration SimpleName get host value digester
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName host identity
+named factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get host value digester
+mac SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get host value digester
+get host value digester SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+get host value digester SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client session
+get host value digester SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName socket address
+get host value digester SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote address
+get host value digester SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get host value digester SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host identity
+get host value digester SimpleName MethodDeclaration Block ReturnStatement QualifiedName known host hash valuedefault digest
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote address
+client session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host identity
+remote address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host identity
+known hosts server key verifier SimpleName SimpleType ClassInstanceCreation QualifiedName accept all server key verifierinstance
+known hosts server key verifier SimpleName SimpleType ClassInstanceCreation SimpleName path
+accept all server key verifierinstance QualifiedName ClassInstanceCreation SimpleName path
+accept all server key verifierinstance QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+accept all server key verifierinstance QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get host value digester
+path SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+path SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get host value digester
+verifier SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName known hosts server key verifier
+verifier SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName accept all server key verifierinstance
+verifier SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+known hosts server key verifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName verifier
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client factory manager
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+client factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get random factory
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName manager
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get random factory
+when SimpleName MethodInvocation MethodInvocation SimpleName manager
+when SimpleName MethodInvocation MethodInvocation SimpleName get random factory
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get random factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation QualifiedName jce random factoryinstance
+when SimpleName MethodInvocation MethodInvocation QualifiedName jce random factoryinstance
+manager SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName jce random factoryinstance
+get random factory SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName jce random factoryinstance
+then return SimpleName MethodInvocation QualifiedName jce random factoryinstance
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client session
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get factory manager
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation SimpleName manager
+when SimpleName MethodInvocation MethodInvocation SimpleName manager
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName manager
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName manager
+then return SimpleName MethodInvocation SimpleName manager
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName public key
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName public key
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+public key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+hosts keys SimpleName MethodInvocation SimpleName entry set
+ke SimpleName MethodInvocation SimpleName get key
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+ke SimpleName MethodInvocation SimpleName get value
+server key SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+server key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server key
+hosts entries SimpleName MethodInvocation SimpleName get
+hosts entries SimpleName MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName hosts entries
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName host
+known host entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+output debug message SimpleName MethodInvocation StringLiteral write hosts
+output debug message SimpleName MethodInvocation SimpleName entry
+write hosts StringLiteral MethodInvocation SimpleName entry
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName host
+sshd socket address SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+host SimpleName ClassInstanceCreation NumberLiteral empty
+address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName host
+address SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+session SimpleName MethodInvocation SimpleName get connect address
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get connect address
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName get connect address
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get connect address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation SimpleName address
+when SimpleName MethodInvocation MethodInvocation SimpleName address
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName address
+get connect address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName address
+then return SimpleName MethodInvocation SimpleName address
+failed to validate server StringLiteral InfixExpression SimpleName entry
+verifier SimpleName MethodInvocation SimpleName verify server key
+verifier SimpleName MethodInvocation SimpleName session
+verifier SimpleName MethodInvocation SimpleName address
+verifier SimpleName MethodInvocation SimpleName server key
+verify server key SimpleName MethodInvocation SimpleName session
+verify server key SimpleName MethodInvocation SimpleName address
+verify server key SimpleName MethodInvocation SimpleName server key
+session SimpleName MethodInvocation SimpleName address
+session SimpleName MethodInvocation SimpleName server key
+address SimpleName MethodInvocation SimpleName server key
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to validate server
+assert true SimpleName MethodInvocation InfixExpression SimpleName entry
+assert true SimpleName MethodInvocation MethodInvocation SimpleName verifier
+assert true SimpleName MethodInvocation MethodInvocation SimpleName verify server key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName session
+assert true SimpleName MethodInvocation MethodInvocation SimpleName address
+assert true SimpleName MethodInvocation MethodInvocation SimpleName server key
+failed to validate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName verifier
+failed to validate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName verify server key
+failed to validate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName session
+failed to validate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName address
+failed to validate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName server key
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName verifier
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName verify server key
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName session
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName address
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName server key
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName hosts keys
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName host entry pair
+verifier SimpleName MethodInvocation SimpleName reload known hosts
+verifier SimpleName MethodInvocation SimpleName path
+reload known hosts SimpleName MethodInvocation SimpleName path
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName verifier
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName reload known hosts
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+host entry pair SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+ke SimpleName MethodInvocation SimpleName get host entry
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host entry
+known host entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+no hashing for entry StringLiteral InfixExpression SimpleName entry
+entry SimpleName MethodInvocation SimpleName get hashed entry
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral no hashing for entry
+assert not null SimpleName MethodInvocation InfixExpression SimpleName entry
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get hashed entry
+no hashing for entry StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+no hashing for entry StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get hashed entry
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get hashed entry
+host entry pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName keys
+ke SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+verifier SimpleName MethodInvocation SimpleName set loaded hosts entries
+verifier SimpleName MethodInvocation SimpleName keys
+set loaded hosts entries SimpleName MethodInvocation SimpleName keys
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName public key
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName public key
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+public key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+hosts keys SimpleName MethodInvocation SimpleName entry set
+ke SimpleName MethodInvocation SimpleName get key
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+ke SimpleName MethodInvocation SimpleName get value
+server key SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+server key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server key
+hosts entries SimpleName MethodInvocation SimpleName get
+hosts entries SimpleName MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName hosts entries
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName host
+known host entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+output debug message SimpleName MethodInvocation StringLiteral revalidate hosts
+output debug message SimpleName MethodInvocation SimpleName entry
+revalidate hosts StringLiteral MethodInvocation SimpleName entry
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName host
+sshd socket address SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+host SimpleName ClassInstanceCreation NumberLiteral empty
+address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName host
+address SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+session SimpleName MethodInvocation SimpleName get connect address
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get connect address
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName get connect address
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get connect address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation SimpleName address
+when SimpleName MethodInvocation MethodInvocation SimpleName address
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName address
+get connect address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName address
+then return SimpleName MethodInvocation SimpleName address
+failed to revalidate server StringLiteral InfixExpression SimpleName entry
+verifier SimpleName MethodInvocation SimpleName verify server key
+verifier SimpleName MethodInvocation SimpleName session
+verifier SimpleName MethodInvocation SimpleName address
+verifier SimpleName MethodInvocation SimpleName server key
+verify server key SimpleName MethodInvocation SimpleName session
+verify server key SimpleName MethodInvocation SimpleName address
+verify server key SimpleName MethodInvocation SimpleName server key
+session SimpleName MethodInvocation SimpleName address
+session SimpleName MethodInvocation SimpleName server key
+address SimpleName MethodInvocation SimpleName server key
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to revalidate server
+assert true SimpleName MethodInvocation InfixExpression SimpleName entry
+assert true SimpleName MethodInvocation MethodInvocation SimpleName verifier
+assert true SimpleName MethodInvocation MethodInvocation SimpleName verify server key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName session
+assert true SimpleName MethodInvocation MethodInvocation SimpleName address
+assert true SimpleName MethodInvocation MethodInvocation SimpleName server key
+failed to revalidate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName verifier
+failed to revalidate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName verify server key
+failed to revalidate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName session
+failed to revalidate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName address
+failed to revalidate server StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName server key
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName verifier
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName verify server key
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName session
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName address
+entry SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName server key
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName hosts keys
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test write hashed host values
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test write hashed host values
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName keys
+void PrimitiveType MethodDeclaration SimpleName test write hashed host values
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName keys
+test write hashed host values SimpleName MethodDeclaration SimpleType SimpleName exception
+test write hashed host values SimpleName MethodDeclaration Block EnhancedForStatement SimpleName keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test write hashed host values
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test write hashed host values
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,13 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get resources
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resources
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get resources
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get resources
+get resources SimpleName MethodDeclaration Block ReturnStatement SimpleName resources
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resources
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resources

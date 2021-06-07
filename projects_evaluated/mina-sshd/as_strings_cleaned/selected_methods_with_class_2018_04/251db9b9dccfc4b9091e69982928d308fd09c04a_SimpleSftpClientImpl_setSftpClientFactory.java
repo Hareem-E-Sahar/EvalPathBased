@@ -1,0 +1,20 @@
+sftp client factory SimpleName SimpleType SingleVariableDeclaration SimpleName sftp client factory
+sftp client factory SimpleName FieldAccess Assignment SimpleName sftp client factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set sftp client factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sftp client factory
+void PrimitiveType MethodDeclaration SimpleName set sftp client factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sftp client factory
+set sftp client factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client factory
+set sftp client factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sftp client factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set sftp client factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sftp client factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set sftp client factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sftp client factory

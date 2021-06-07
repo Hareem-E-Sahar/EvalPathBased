@@ -1,0 +1,24 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName b
+b SimpleName InfixExpression NumberLiteral x
+b SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is positive
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+boolean PrimitiveType MethodDeclaration SimpleName is positive
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+is positive SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+is positive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is positive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is positive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

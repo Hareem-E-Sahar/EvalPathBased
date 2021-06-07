@@ -1,0 +1,55 @@
+channel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName bogus channel
+abstract channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+window SimpleName SimpleType ClassInstanceCreation SimpleName channel
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+channel SimpleName ClassInstanceCreation BooleanLiteral true
+channel SimpleName ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+window SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName window
+window SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName channel
+window SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+window SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+window SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName window
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+property resolver utils SimpleName MethodInvocation SimpleName to property resolver
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleName collections
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+property resolver utils SimpleName MethodInvocation MethodInvocation SimpleName empty map
+to property resolver SimpleName MethodInvocation MethodInvocation SimpleName collections
+to property resolver SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+to property resolver SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+to property resolver SimpleName MethodInvocation MethodInvocation SimpleName empty map
+window SimpleName MethodInvocation SimpleName init
+window SimpleName MethodInvocation MethodInvocation SimpleName property resolver utils
+window SimpleName MethodInvocation MethodInvocation SimpleName to property resolver
+window SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+window SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+init SimpleName MethodInvocation MethodInvocation SimpleName property resolver utils
+init SimpleName MethodInvocation MethodInvocation SimpleName to property resolver
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+channel piped input stream SimpleName SimpleType ClassInstanceCreation SimpleName channel
+channel piped input stream SimpleName SimpleType ClassInstanceCreation SimpleName window
+channel SimpleName ClassInstanceCreation SimpleName window
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName channel piped input stream
+private Modifier MethodDeclaration SimpleName create test stream
+static Modifier MethodDeclaration SimpleType SimpleName channel piped input stream
+static Modifier MethodDeclaration SimpleName create test stream
+channel piped input stream SimpleName SimpleType MethodDeclaration SimpleName create test stream
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName channel piped input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName create test stream
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName channel piped input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create test stream

@@ -1,0 +1,52 @@
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName root
+append SimpleName MethodInvocation SimpleName root
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get separator
+separator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get file system
+separator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get separator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName separator
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName char at
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression CharacterLiteral /
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName separator
+append SimpleName MethodInvocation SimpleName separator
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName name
+append SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName names
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName names
+sb SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName names
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block EnhancedForStatement SimpleName names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

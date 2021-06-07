@@ -1,0 +1,79 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName get name
+class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class name
+class name SimpleName MethodInvocation SimpleName index of
+class name SimpleName MethodInvocation CharacterLiteral $
+index of SimpleName MethodInvocation CharacterLiteral $
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName class name
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+sep pos SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral $
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sep pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName class name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral $
+sep pos SimpleName InfixExpression NumberLiteral empty
+class name SimpleName MethodInvocation SimpleName last index of
+class name SimpleName MethodInvocation CharacterLiteral .
+last index of SimpleName MethodInvocation CharacterLiteral .
+sep pos SimpleName Assignment MethodInvocation SimpleName class name
+sep pos SimpleName Assignment MethodInvocation SimpleName last index of
+sep pos SimpleName Assignment MethodInvocation CharacterLiteral .
+sep pos SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+sep pos SimpleName InfixExpression NumberLiteral empty
+class name SimpleName MethodInvocation SimpleName substring
+class name SimpleName MethodInvocation InfixExpression SimpleName sep pos
+class name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName sep pos
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+class name SimpleName Assignment MethodInvocation SimpleName class name
+class name SimpleName Assignment MethodInvocation SimpleName substring
+class name SimpleName Assignment MethodInvocation InfixExpression SimpleName sep pos
+class name SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+clazz SimpleName MethodInvocation SimpleName get simple name
+class name SimpleName Assignment MethodInvocation SimpleName clazz
+class name SimpleName Assignment MethodInvocation SimpleName get simple name
+class name SimpleName InfixExpression SimpleName class file suffix
+clazz SimpleName MethodInvocation SimpleName get resource
+clazz SimpleName MethodInvocation InfixExpression SimpleName class name
+clazz SimpleName MethodInvocation InfixExpression SimpleName class file suffix
+get resource SimpleName MethodInvocation InfixExpression SimpleName class name
+get resource SimpleName MethodInvocation InfixExpression SimpleName class file suffix
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SimpleName get class bytes url
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName url
+static Modifier MethodDeclaration SimpleName get class bytes url
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration SimpleType SimpleName url
+final Modifier MethodDeclaration SimpleName get class bytes url
+final Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+url SimpleName SimpleType MethodDeclaration SimpleName get class bytes url
+url SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get class bytes url SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get class bytes url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get class bytes url SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class bytes url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class bytes url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

@@ -1,0 +1,220 @@
+ssh server SimpleName MethodInvocation SimpleName set up default server
+sshd SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh server
+sshd SimpleName VariableDeclarationFragment MethodInvocation SimpleName set up default server
+ssh server SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sshd
+sshd SimpleName MethodInvocation SimpleName set port
+sshd SimpleName MethodInvocation NumberLiteral empty
+set port SimpleName MethodInvocation NumberLiteral empty
+utils SimpleName MethodInvocation SimpleName create test host key provider
+sshd SimpleName MethodInvocation SimpleName set key pair provider
+sshd SimpleName MethodInvocation MethodInvocation SimpleName utils
+sshd SimpleName MethodInvocation MethodInvocation SimpleName create test host key provider
+set key pair provider SimpleName MethodInvocation MethodInvocation SimpleName utils
+set key pair provider SimpleName MethodInvocation MethodInvocation SimpleName create test host key provider
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName command
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName named factory
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName command
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sftp subsystem factory
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+command SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sftp subsystem factory
+sshd SimpleName MethodInvocation SimpleName set subsystem factories
+sshd SimpleName MethodInvocation MethodInvocation SimpleName arrays
+sshd SimpleName MethodInvocation MethodInvocation SimpleName as list
+set subsystem factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set subsystem factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+sshd SimpleName MethodInvocation SimpleName set shell factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName echo shell factory
+set shell factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName echo shell factory
+git pack command factory SimpleName SimpleType ClassInstanceCreation StringLiteral targetgitserver
+sshd SimpleName MethodInvocation SimpleName set command factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName git pack command factory
+sshd SimpleName MethodInvocation ClassInstanceCreation StringLiteral targetgitserver
+set command factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName git pack command factory
+set command factory SimpleName MethodInvocation ClassInstanceCreation StringLiteral targetgitserver
+sshd SimpleName MethodInvocation SimpleName set password authenticator
+sshd SimpleName MethodInvocation QualifiedName bogus password authenticatorinstance
+set password authenticator SimpleName MethodInvocation QualifiedName bogus password authenticatorinstance
+sshd SimpleName MethodInvocation SimpleName start
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetgitservertestgit
+server dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+server dir SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral targetgitservertestgit
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server dir
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName server dir
+delete recursive SimpleName MethodInvocation SimpleName server dir
+git SimpleName MethodInvocation SimpleName init
+git SimpleName MethodInvocation MethodInvocation SimpleName set bare
+init SimpleName MethodInvocation MethodInvocation SimpleName set bare
+git SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+init SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+set bare SimpleName MethodInvocation BooleanLiteral true
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set directory
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set directory
+set bare SimpleName MethodInvocation MethodInvocation SimpleName set directory
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName set directory
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server dir
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server dir
+set bare SimpleName MethodInvocation MethodInvocation SimpleName server dir
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName server dir
+set directory SimpleName MethodInvocation SimpleName server dir
+set bare SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName call
+set directory SimpleName MethodInvocation MethodInvocation SimpleName call
+server dir SimpleName MethodInvocation MethodInvocation SimpleName call
+j sch SimpleName MethodInvocation SimpleName set config
+j sch SimpleName MethodInvocation StringLiteral strict host key checking
+j sch SimpleName MethodInvocation StringLiteral no
+set config SimpleName MethodInvocation StringLiteral strict host key checking
+set config SimpleName MethodInvocation StringLiteral no
+strict host key checking StringLiteral MethodInvocation StringLiteral no
+username password credentials provider SimpleName SimpleType ClassInstanceCreation StringLiteral sshd
+username password credentials provider SimpleName SimpleType ClassInstanceCreation StringLiteral sshd
+sshd StringLiteral ClassInstanceCreation StringLiteral sshd
+credentials provider SimpleName MethodInvocation SimpleName set default
+credentials provider SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName username password credentials provider
+credentials provider SimpleName MethodInvocation ClassInstanceCreation StringLiteral sshd
+credentials provider SimpleName MethodInvocation ClassInstanceCreation StringLiteral sshd
+set default SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName username password credentials provider
+set default SimpleName MethodInvocation ClassInstanceCreation StringLiteral sshd
+set default SimpleName MethodInvocation ClassInstanceCreation StringLiteral sshd
+ssh session factory SimpleName MethodInvocation SimpleName set instance
+ssh session factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName git sshd session factory
+set instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName git sshd session factory
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetgitlocaltestgit
+dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+dir SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral targetgitlocaltestgit
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+utils SimpleName MethodInvocation SimpleName delete recursive
+utils SimpleName MethodInvocation SimpleName dir
+delete recursive SimpleName MethodInvocation SimpleName dir
+git SimpleName MethodInvocation SimpleName clone repository
+git SimpleName MethodInvocation MethodInvocation SimpleName set uri
+clone repository SimpleName MethodInvocation MethodInvocation SimpleName set uri
+git SimpleName MethodInvocation MethodInvocation StringLiteral sshhdlocalhost testgit
+clone repository SimpleName MethodInvocation MethodInvocation StringLiteral sshhdlocalhost testgit
+set uri SimpleName MethodInvocation StringLiteral sshhdlocalhost testgit
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set directory
+clone repository SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set directory
+set uri SimpleName MethodInvocation MethodInvocation SimpleName set directory
+sshhdlocalhost testgit StringLiteral MethodInvocation MethodInvocation SimpleName set directory
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+clone repository SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+set uri SimpleName MethodInvocation MethodInvocation SimpleName dir
+sshhdlocalhost testgit StringLiteral MethodInvocation MethodInvocation SimpleName dir
+set directory SimpleName MethodInvocation SimpleName dir
+set uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+sshhdlocalhost testgit StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName call
+set directory SimpleName MethodInvocation MethodInvocation SimpleName call
+dir SimpleName MethodInvocation MethodInvocation SimpleName call
+git SimpleName MethodInvocation SimpleName open
+git SimpleName MethodInvocation SimpleName dir
+open SimpleName MethodInvocation SimpleName dir
+git SimpleName VariableDeclarationFragment MethodInvocation SimpleName git
+git SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+git SimpleName VariableDeclarationFragment MethodInvocation SimpleName dir
+git SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName git
+git SimpleName MethodInvocation SimpleName commit
+git SimpleName MethodInvocation MethodInvocation SimpleName set message
+commit SimpleName MethodInvocation MethodInvocation SimpleName set message
+git SimpleName MethodInvocation MethodInvocation StringLiteral first commit
+commit SimpleName MethodInvocation MethodInvocation StringLiteral first commit
+set message SimpleName MethodInvocation StringLiteral first commit
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set committer
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set committer
+set message SimpleName MethodInvocation MethodInvocation SimpleName set committer
+first commit StringLiteral MethodInvocation MethodInvocation SimpleName set committer
+git SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshd
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshd
+set message SimpleName MethodInvocation MethodInvocation StringLiteral sshd
+first commit StringLiteral MethodInvocation MethodInvocation StringLiteral sshd
+git SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+set message SimpleName MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+first commit StringLiteral MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+set committer SimpleName MethodInvocation StringLiteral sshd
+set committer SimpleName MethodInvocation StringLiteral sshdapacheorg
+sshd StringLiteral MethodInvocation StringLiteral sshdapacheorg
+set message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+first commit StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName call
+set committer SimpleName MethodInvocation MethodInvocation SimpleName call
+sshd StringLiteral MethodInvocation MethodInvocation SimpleName call
+sshdapacheorg StringLiteral MethodInvocation MethodInvocation SimpleName call
+git SimpleName MethodInvocation SimpleName push
+git SimpleName MethodInvocation MethodInvocation SimpleName call
+push SimpleName MethodInvocation MethodInvocation SimpleName call
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetgitlocaltestgitreadmetxt
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create new file
+targetgitlocaltestgitreadmetxt StringLiteral ClassInstanceCreation MethodInvocation SimpleName create new file
+git SimpleName MethodInvocation SimpleName add
+git SimpleName MethodInvocation MethodInvocation SimpleName add filepattern
+add SimpleName MethodInvocation MethodInvocation SimpleName add filepattern
+git SimpleName MethodInvocation MethodInvocation StringLiteral readmetxt
+add SimpleName MethodInvocation MethodInvocation StringLiteral readmetxt
+add filepattern SimpleName MethodInvocation StringLiteral readmetxt
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+add filepattern SimpleName MethodInvocation MethodInvocation SimpleName call
+readmetxt StringLiteral MethodInvocation MethodInvocation SimpleName call
+git SimpleName MethodInvocation SimpleName commit
+git SimpleName MethodInvocation MethodInvocation SimpleName set message
+commit SimpleName MethodInvocation MethodInvocation SimpleName set message
+git SimpleName MethodInvocation MethodInvocation StringLiteral readme
+commit SimpleName MethodInvocation MethodInvocation StringLiteral readme
+set message SimpleName MethodInvocation StringLiteral readme
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set committer
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set committer
+set message SimpleName MethodInvocation MethodInvocation SimpleName set committer
+readme StringLiteral MethodInvocation MethodInvocation SimpleName set committer
+git SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshd
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshd
+set message SimpleName MethodInvocation MethodInvocation StringLiteral sshd
+readme StringLiteral MethodInvocation MethodInvocation StringLiteral sshd
+git SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+commit SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+set message SimpleName MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+readme StringLiteral MethodInvocation MethodInvocation StringLiteral sshdapacheorg
+set committer SimpleName MethodInvocation StringLiteral sshd
+set committer SimpleName MethodInvocation StringLiteral sshdapacheorg
+sshd StringLiteral MethodInvocation StringLiteral sshdapacheorg
+set message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+readme StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName call
+set committer SimpleName MethodInvocation MethodInvocation SimpleName call
+sshd StringLiteral MethodInvocation MethodInvocation SimpleName call
+sshdapacheorg StringLiteral MethodInvocation MethodInvocation SimpleName call
+git SimpleName MethodInvocation SimpleName push
+git SimpleName MethodInvocation MethodInvocation SimpleName call
+push SimpleName MethodInvocation MethodInvocation SimpleName call
+git SimpleName MethodInvocation SimpleName pull
+git SimpleName MethodInvocation MethodInvocation SimpleName set rebase
+pull SimpleName MethodInvocation MethodInvocation SimpleName set rebase
+git SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+pull SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+set rebase SimpleName MethodInvocation BooleanLiteral true
+git SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+pull SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName call
+set rebase SimpleName MethodInvocation MethodInvocation SimpleName call
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName call
+sshd SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test git pack
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test git pack
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test git pack
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test git pack SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test git pack
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test git pack
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,71 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+long PrimitiveType SingleVariableDeclaration SimpleName offset
+flags SimpleName InfixExpression SimpleName ssh fxf write
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf write SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral file has not been opened for writing
+flags SimpleName InfixExpression SimpleName ssh fxf append
+flags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf append SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+file SimpleName MethodInvocation SimpleName get size
+output SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName output pos
+output pos SimpleName ConditionalExpression MethodInvocation SimpleName file
+output pos SimpleName ConditionalExpression MethodInvocation SimpleName get size
+offset SimpleName Assignment ConditionalExpression SimpleName output pos
+offset SimpleName Assignment ConditionalExpression MethodInvocation SimpleName file
+offset SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get size
+offset SimpleName InfixExpression SimpleName output pos
+output SimpleName InfixExpression InfixExpression InfixExpression SimpleName offset
+output SimpleName InfixExpression InfixExpression InfixExpression SimpleName output pos
+io utils SimpleName MethodInvocation SimpleName close quietly
+io utils SimpleName MethodInvocation SimpleName output
+close quietly SimpleName MethodInvocation SimpleName output
+output pos SimpleName Assignment SimpleName offset
+file SimpleName MethodInvocation SimpleName create output stream
+file SimpleName MethodInvocation SimpleName offset
+create output stream SimpleName MethodInvocation SimpleName offset
+output SimpleName Assignment MethodInvocation SimpleName file
+output SimpleName Assignment MethodInvocation SimpleName create output stream
+output SimpleName Assignment MethodInvocation SimpleName offset
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation SimpleName data
+write SimpleName MethodInvocation SimpleName data
+output pos SimpleName Assignment QualifiedName datalength
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+write SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

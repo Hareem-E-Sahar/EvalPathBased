@@ -1,0 +1,42 @@
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName runtime exception
+runtime exception SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName error
+error SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName throwable
+runtime ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral error reading from channel
+throwable SimpleName SimpleType CastExpression SimpleName v
+runtime ssh exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+error reading from channel StringLiteral ClassInstanceCreation MethodInvocation SimpleName init cause
+error reading from channel StringLiteral ClassInstanceCreation MethodInvocation CastExpression SimpleName v
+init cause SimpleName MethodInvocation CastExpression SimpleType SimpleName throwable
+init cause SimpleName MethodInvocation CastExpression SimpleName v
+runtime ssh exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+v SimpleName InstanceofExpression SimpleType SimpleName number
+number SimpleName SimpleType CastExpression SimpleName v
+v SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName int value
+v SimpleName MethodInvocation SimpleName get class
+v SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+v SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral null
+null StringLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName v
+null StringLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName get class
+null StringLiteral ConditionalExpression MethodInvocation SimpleName get name
+unknown read value type StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral null
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown read value type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get read
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get read
+int PrimitiveType MethodDeclaration SimpleName get read
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get read
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get read

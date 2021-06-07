@@ -1,0 +1,213 @@
+channel SimpleName MethodInvocation SimpleName get inverted in
+dos SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+dos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inverted in
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dos
+buffer utils SimpleName MethodInvocation SimpleName write int
+buffer utils SimpleName MethodInvocation SimpleName dos
+buffer utils SimpleName MethodInvocation NumberLiteral empty
+buffer utils SimpleName MethodInvocation SimpleName work buf
+write int SimpleName MethodInvocation SimpleName dos
+write int SimpleName MethodInvocation NumberLiteral empty
+write int SimpleName MethodInvocation SimpleName work buf
+dos SimpleName MethodInvocation NumberLiteral empty
+dos SimpleName MethodInvocation SimpleName work buf
+empty NumberLiteral MethodInvocation SimpleName work buf
+dos SimpleName MethodInvocation SimpleName write
+dos SimpleName MethodInvocation QualifiedName sftp constantsssh fxp init
+write SimpleName MethodInvocation QualifiedName sftp constantsssh fxp init
+buffer utils SimpleName MethodInvocation SimpleName write int
+buffer utils SimpleName MethodInvocation SimpleName dos
+buffer utils SimpleName MethodInvocation QualifiedName sftp constantssftp v
+buffer utils SimpleName MethodInvocation SimpleName work buf
+write int SimpleName MethodInvocation SimpleName dos
+write int SimpleName MethodInvocation QualifiedName sftp constantssftp v
+write int SimpleName MethodInvocation SimpleName work buf
+dos SimpleName MethodInvocation QualifiedName sftp constantssftp v
+dos SimpleName MethodInvocation SimpleName work buf
+sftp constantssftp v QualifiedName MethodInvocation SimpleName work buf
+dos SimpleName MethodInvocation SimpleName flush
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+messages SimpleName MethodInvocation SimpleName is empty
+messages SimpleName MethodInvocation SimpleName wait
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interrupted io exception SimpleName SimpleType ClassInstanceCreation StringLiteral interruppted init
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName init cause
+interruppted init StringLiteral ClassInstanceCreation MethodInvocation SimpleName init cause
+interrupted io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+interruppted init StringLiteral ClassInstanceCreation MethodInvocation SimpleName e
+init cause SimpleName MethodInvocation SimpleName e
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName init cause
+io exception SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+messages SimpleName MethodInvocation SimpleName key set
+messages SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+messages SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+messages SimpleName MethodInvocation SimpleName remove
+messages SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+messages SimpleName MethodInvocation MethodInvocation SimpleName next
+remove SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+remove SimpleName MethodInvocation MethodInvocation SimpleName next
+buffer SimpleName Assignment MethodInvocation SimpleName messages
+buffer SimpleName Assignment MethodInvocation SimpleName remove
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName next
+buffer SimpleName MethodInvocation SimpleName get int
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get u byte
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get u byte
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get u byte
+buffer SimpleName MethodInvocation SimpleName get int
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+type SimpleName InfixExpression QualifiedName sftp constantsssh fxp version
+id SimpleName InfixExpression QualifiedName sftp constantssftp v
+unsupported sftp version StringLiteral InfixExpression SimpleName id
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported sftp version
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName id
+version holder SimpleName MethodInvocation SimpleName set
+version holder SimpleName MethodInvocation SimpleName id
+set SimpleName MethodInvocation SimpleName id
+buffer SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get string
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+buffer SimpleName MethodInvocation SimpleName get bytes
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+extensions SimpleName MethodInvocation SimpleName put
+extensions SimpleName MethodInvocation SimpleName name
+extensions SimpleName MethodInvocation SimpleName data
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName data
+name SimpleName MethodInvocation SimpleName data
+type SimpleName InfixExpression QualifiedName sftp constantsssh fxp status
+buffer SimpleName MethodInvocation SimpleName get int
+substatus SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+substatus SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName substatus
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get string
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+buffer SimpleName MethodInvocation SimpleName get string
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+log SimpleName MethodInvocation SimpleName is trace enabled
+sftp constants SimpleName MethodInvocation SimpleName get status name
+sftp constants SimpleName MethodInvocation SimpleName substatus
+get status name SimpleName MethodInvocation SimpleName substatus
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral initid - status {} [{}] {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get client channel
+log SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation MethodInvocation SimpleName sftp constants
+log SimpleName MethodInvocation MethodInvocation SimpleName get status name
+log SimpleName MethodInvocation MethodInvocation SimpleName substatus
+trace SimpleName MethodInvocation StringLiteral initid - status {} [{}] {}
+trace SimpleName MethodInvocation MethodInvocation SimpleName get client channel
+trace SimpleName MethodInvocation SimpleName id
+trace SimpleName MethodInvocation MethodInvocation SimpleName sftp constants
+trace SimpleName MethodInvocation MethodInvocation SimpleName get status name
+trace SimpleName MethodInvocation MethodInvocation SimpleName substatus
+trace SimpleName MethodInvocation SimpleName lang
+initid - status {} [{}] {} StringLiteral MethodInvocation MethodInvocation SimpleName get client channel
+initid - status {} [{}] {} StringLiteral MethodInvocation SimpleName id
+initid - status {} [{}] {} StringLiteral MethodInvocation MethodInvocation SimpleName sftp constants
+initid - status {} [{}] {} StringLiteral MethodInvocation MethodInvocation SimpleName get status name
+initid - status {} [{}] {} StringLiteral MethodInvocation MethodInvocation SimpleName substatus
+initid - status {} [{}] {} StringLiteral MethodInvocation SimpleName lang
+initid - status {} [{}] {} StringLiteral MethodInvocation SimpleName msg
+get client channel SimpleName MethodInvocation MethodInvocation SimpleName id
+get client channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sftp constants
+get client channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status name
+get client channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substatus
+get client channel SimpleName MethodInvocation MethodInvocation SimpleName lang
+get client channel SimpleName MethodInvocation MethodInvocation SimpleName msg
+id SimpleName MethodInvocation MethodInvocation SimpleName sftp constants
+id SimpleName MethodInvocation MethodInvocation SimpleName get status name
+id SimpleName MethodInvocation MethodInvocation SimpleName substatus
+id SimpleName MethodInvocation SimpleName lang
+id SimpleName MethodInvocation SimpleName msg
+sftp constants SimpleName MethodInvocation MethodInvocation SimpleName lang
+get status name SimpleName MethodInvocation MethodInvocation SimpleName lang
+substatus SimpleName MethodInvocation MethodInvocation SimpleName lang
+sftp constants SimpleName MethodInvocation MethodInvocation SimpleName msg
+get status name SimpleName MethodInvocation MethodInvocation SimpleName msg
+substatus SimpleName MethodInvocation MethodInvocation SimpleName msg
+lang SimpleName MethodInvocation SimpleName msg
+throw status exception SimpleName MethodInvocation SimpleName id
+throw status exception SimpleName MethodInvocation SimpleName substatus
+throw status exception SimpleName MethodInvocation SimpleName msg
+throw status exception SimpleName MethodInvocation SimpleName lang
+id SimpleName MethodInvocation SimpleName substatus
+id SimpleName MethodInvocation SimpleName msg
+id SimpleName MethodInvocation SimpleName lang
+substatus SimpleName MethodInvocation SimpleName msg
+substatus SimpleName MethodInvocation SimpleName lang
+msg SimpleName MethodInvocation SimpleName lang
+handle unexpected packet SimpleName MethodInvocation QualifiedName sftp constantsssh fxp version
+handle unexpected packet SimpleName MethodInvocation SimpleName id
+handle unexpected packet SimpleName MethodInvocation SimpleName type
+handle unexpected packet SimpleName MethodInvocation SimpleName length
+handle unexpected packet SimpleName MethodInvocation SimpleName buffer
+sftp constantsssh fxp version QualifiedName MethodInvocation SimpleName id
+sftp constantsssh fxp version QualifiedName MethodInvocation SimpleName type
+sftp constantsssh fxp version QualifiedName MethodInvocation SimpleName length
+sftp constantsssh fxp version QualifiedName MethodInvocation SimpleName buffer
+id SimpleName MethodInvocation SimpleName type
+id SimpleName MethodInvocation SimpleName length
+id SimpleName MethodInvocation SimpleName buffer
+type SimpleName MethodInvocation SimpleName length
+type SimpleName MethodInvocation SimpleName buffer
+length SimpleName MethodInvocation SimpleName buffer
+messages SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType int
+messages SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType int
+messages SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName init
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName messages
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName messages
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+init SimpleName MethodDeclaration SimpleType SimpleName io exception
+init SimpleName MethodDeclaration Block SynchronizedStatement SimpleName messages
+init SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+init SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+init SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

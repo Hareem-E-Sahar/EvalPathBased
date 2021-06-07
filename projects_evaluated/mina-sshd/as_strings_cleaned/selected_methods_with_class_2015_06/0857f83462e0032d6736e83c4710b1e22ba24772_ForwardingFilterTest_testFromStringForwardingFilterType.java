@@ -1,0 +1,80 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+empty StringLiteral ArrayInitializer MethodInvocation SimpleName get current test name
+unexpected value for name StringLiteral InfixExpression SimpleName name
+unexpected value for name StringLiteral InfixExpression StringLiteral empty
+name SimpleName InfixExpression StringLiteral empty
+forwarding filtertype QualifiedName MethodInvocation SimpleName from string
+forwarding filtertype QualifiedName MethodInvocation SimpleName name
+from string SimpleName MethodInvocation SimpleName name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral unexpected value for name
+assert null SimpleName MethodInvocation InfixExpression SimpleName name
+assert null SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert null SimpleName MethodInvocation MethodInvocation QualifiedName forwarding filtertype
+assert null SimpleName MethodInvocation MethodInvocation SimpleName from string
+assert null SimpleName MethodInvocation MethodInvocation SimpleName name
+unexpected value for name StringLiteral InfixExpression MethodInvocation MethodInvocation QualifiedName forwarding filtertype
+unexpected value for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from string
+unexpected value for name StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName forwarding filtertype
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName from string
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation QualifiedName forwarding filtertype
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName from string
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+forwarding filtertype QualifiedName SimpleType SingleVariableDeclaration SimpleName expected
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+expected SimpleName MethodInvocation SimpleName name
+expected SimpleName MethodInvocation SimpleName get name
+expected SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get name
+name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName expected
+name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get name
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+name SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName name
+index SimpleName InfixExpression MethodInvocation SimpleName length
+forwarding filtertype QualifiedName MethodInvocation SimpleName from string
+forwarding filtertype QualifiedName MethodInvocation SimpleName name
+from string SimpleName MethodInvocation SimpleName name
+actual SimpleName VariableDeclarationFragment MethodInvocation QualifiedName forwarding filtertype
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+forwarding filtertype QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched instance for name StringLiteral InfixExpression SimpleName name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched instance for name
+assert same SimpleName MethodInvocation InfixExpression SimpleName name
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched instance for name StringLiteral InfixExpression MethodInvocation SimpleName expected
+name SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched instance for name StringLiteral InfixExpression MethodInvocation SimpleName actual
+name SimpleName InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+shuffle case SimpleName MethodInvocation SimpleName name
+name SimpleName Assignment MethodInvocation SimpleName shuffle case
+name SimpleName Assignment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+forwarding filtertype QualifiedName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName forwarding filtertypevalues
+expected SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName forwarding filtertypevalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test from string forwarding filter type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test from string forwarding filter type
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName forwarding filtertypevalues
+void PrimitiveType MethodDeclaration SimpleName test from string forwarding filter type
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName forwarding filtertypevalues
+test from string forwarding filter type SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName forwarding filtertypevalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test from string forwarding filter type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test from string forwarding filter type

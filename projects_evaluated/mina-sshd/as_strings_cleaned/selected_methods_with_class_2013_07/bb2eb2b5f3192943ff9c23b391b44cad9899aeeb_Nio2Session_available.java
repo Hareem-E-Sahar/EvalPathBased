@@ -1,0 +1,11 @@
+buffer SimpleName MethodInvocation SimpleName remaining
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName available
+int PrimitiveType MethodDeclaration SimpleName available
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName available
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName available

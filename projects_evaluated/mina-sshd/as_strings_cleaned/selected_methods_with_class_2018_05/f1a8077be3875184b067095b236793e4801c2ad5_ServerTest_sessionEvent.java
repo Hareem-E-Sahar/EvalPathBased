@@ -1,0 +1,59 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+eventkex completed QualifiedName MethodInvocation SimpleName equals
+eventkex completed QualifiedName MethodInvocation SimpleName event
+equals SimpleName MethodInvocation SimpleName event
+session SimpleName MethodInvocation SimpleName get client version
+assert equals SimpleName MethodInvocation StringLiteral mismatched client listener identification
+assert equals SimpleName MethodInvocation SimpleName exp client ident
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName session
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get client version
+mismatched client listener identification StringLiteral MethodInvocation SimpleName exp client ident
+mismatched client listener identification StringLiteral MethodInvocation MethodInvocation SimpleName session
+mismatched client listener identification StringLiteral MethodInvocation MethodInvocation SimpleName get client version
+exp client ident SimpleName MethodInvocation MethodInvocation SimpleName session
+exp client ident SimpleName MethodInvocation MethodInvocation SimpleName get client version
+session SimpleName MethodInvocation SimpleName get server version
+assert equals SimpleName MethodInvocation StringLiteral mismatched server listener identification
+assert equals SimpleName MethodInvocation SimpleName exp server ident
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName session
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get server version
+mismatched server listener identification StringLiteral MethodInvocation SimpleName exp server ident
+mismatched server listener identification StringLiteral MethodInvocation MethodInvocation SimpleName session
+mismatched server listener identification StringLiteral MethodInvocation MethodInvocation SimpleName get server version
+exp server ident SimpleName MethodInvocation MethodInvocation SimpleName session
+exp server ident SimpleName MethodInvocation MethodInvocation SimpleName get server version
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session event
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName session event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

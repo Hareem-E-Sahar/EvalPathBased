@@ -1,0 +1,58 @@
+path tester SimpleName SimpleType ClassInstanceCreation SimpleName file system
+path tester SimpleName SimpleType ClassInstanceCreation StringLiteral foobarbaztest
+file system SimpleName ClassInstanceCreation StringLiteral foobarbaztest
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+foobarbaztest StringLiteral ClassInstanceCreation MethodInvocation SimpleName names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral foo
+file system SimpleName ClassInstanceCreation MethodInvocation StringLiteral foo
+foobarbaztest StringLiteral ClassInstanceCreation MethodInvocation StringLiteral foo
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral bar
+file system SimpleName ClassInstanceCreation MethodInvocation StringLiteral bar
+foobarbaztest StringLiteral ClassInstanceCreation MethodInvocation StringLiteral bar
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral baz
+file system SimpleName ClassInstanceCreation MethodInvocation StringLiteral baz
+foobarbaztest StringLiteral ClassInstanceCreation MethodInvocation StringLiteral baz
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral test
+file system SimpleName ClassInstanceCreation MethodInvocation StringLiteral test
+foobarbaztest StringLiteral ClassInstanceCreation MethodInvocation StringLiteral test
+names SimpleName MethodInvocation StringLiteral foo
+names SimpleName MethodInvocation StringLiteral bar
+names SimpleName MethodInvocation StringLiteral baz
+names SimpleName MethodInvocation StringLiteral test
+foo StringLiteral MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral baz
+foo StringLiteral MethodInvocation StringLiteral test
+bar StringLiteral MethodInvocation StringLiteral baz
+bar StringLiteral MethodInvocation StringLiteral test
+baz StringLiteral MethodInvocation StringLiteral test
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+foobarbaztest StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation SimpleName test
+foo StringLiteral MethodInvocation MethodInvocation SimpleName test
+bar StringLiteral MethodInvocation MethodInvocation SimpleName test
+baz StringLiteral MethodInvocation MethodInvocation SimpleName test
+test StringLiteral MethodInvocation MethodInvocation SimpleName test
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral foobarbaztest
+foobarbaztest StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral foobarbaztest
+names SimpleName MethodInvocation MethodInvocation StringLiteral foobarbaztest
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral foobarbaztest
+bar StringLiteral MethodInvocation MethodInvocation StringLiteral foobarbaztest
+baz StringLiteral MethodInvocation MethodInvocation StringLiteral foobarbaztest
+test StringLiteral MethodInvocation MethodInvocation StringLiteral foobarbaztest
+test SimpleName MethodInvocation StringLiteral foobarbaztest
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test relative path four names
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test relative path four names
+void PrimitiveType MethodDeclaration SimpleName test relative path four names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test relative path four names
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test relative path four names

@@ -1,0 +1,89 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+abstract session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName io session
+objects SimpleName MethodInvocation StringLiteral no io session
+require non null SimpleName MethodInvocation SimpleName io session
+require non null SimpleName MethodInvocation StringLiteral no io session
+io session SimpleName MethodInvocation StringLiteral no io session
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName session
+objects SimpleName MethodInvocation StringLiteral no ssh session
+require non null SimpleName MethodInvocation SimpleName session
+require non null SimpleName MethodInvocation StringLiteral no ssh session
+session SimpleName MethodInvocation StringLiteral no ssh session
+io session SimpleName MethodInvocation SimpleName set attribute if absent
+io session SimpleName MethodInvocation SimpleName session
+io session SimpleName MethodInvocation SimpleName session
+set attribute if absent SimpleName MethodInvocation SimpleName session
+set attribute if absent SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName session
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName io session
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName set attribute if absent
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+multiple attached session to StringLiteral InfixExpression SimpleName io session
+multiple attached session to StringLiteral InfixExpression StringLiteral :
+multiple attached session to StringLiteral InfixExpression SimpleName prev
+multiple attached session to StringLiteral InfixExpression StringLiteral and
+multiple attached session to StringLiteral InfixExpression SimpleName session
+io session SimpleName InfixExpression StringLiteral :
+io session SimpleName InfixExpression SimpleName prev
+io session SimpleName InfixExpression StringLiteral and
+io session SimpleName InfixExpression SimpleName session
+: StringLiteral InfixExpression SimpleName prev
+: StringLiteral InfixExpression StringLiteral and
+: StringLiteral InfixExpression SimpleName session
+prev SimpleName InfixExpression StringLiteral and
+prev SimpleName InfixExpression SimpleName session
+and StringLiteral InfixExpression SimpleName session
+multiple attached session exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral multiple attached session to
+multiple attached session exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName io session
+multiple attached session exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+multiple attached session exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prev
+multiple attached session exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral and
+multiple attached session exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName session
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName attach session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName attach session
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract session
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+static Modifier MethodDeclaration SimpleType SimpleName multiple attached session exception
+void PrimitiveType MethodDeclaration SimpleName attach session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName multiple attached session exception
+attach session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+attach session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+attach session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract session
+attach session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+attach session SimpleName MethodDeclaration SimpleType SimpleName multiple attached session exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName multiple attached session exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName multiple attached session exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName attach session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName multiple attached session exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attach session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName multiple attached session exception

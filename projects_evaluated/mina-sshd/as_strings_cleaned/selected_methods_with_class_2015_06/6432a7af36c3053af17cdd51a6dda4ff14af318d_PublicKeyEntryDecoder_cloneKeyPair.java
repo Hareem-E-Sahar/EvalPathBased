@@ -1,0 +1,17 @@
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+key pair SimpleName SimpleType MethodDeclaration SimpleName clone key pair
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName kp
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+clone key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+clone key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kp
+clone key pair SimpleName MethodDeclaration SimpleType SimpleName general security exception
+kp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

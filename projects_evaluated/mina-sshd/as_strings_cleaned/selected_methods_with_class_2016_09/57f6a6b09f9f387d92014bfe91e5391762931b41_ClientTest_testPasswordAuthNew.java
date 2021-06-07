@@ -1,0 +1,41 @@
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation QualifiedName user auth password factoryinstance
+as list SimpleName MethodInvocation QualifiedName user auth password factoryinstance
+client SimpleName MethodInvocation SimpleName set user auth factories
+client SimpleName MethodInvocation MethodInvocation SimpleName arrays
+client SimpleName MethodInvocation MethodInvocation SimpleName as list
+client SimpleName MethodInvocation MethodInvocation QualifiedName user auth password factoryinstance
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set user auth factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+set user auth factories SimpleName MethodInvocation MethodInvocation QualifiedName user auth password factoryinstance
+client SimpleName MethodInvocation SimpleName start
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test client session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+client SimpleName MethodInvocation SimpleName stop
+client session holder SimpleName MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation StringLiteral session closure not signalled
+assert null SimpleName MethodInvocation MethodInvocation SimpleName client session holder
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+session closure not signalled StringLiteral MethodInvocation MethodInvocation SimpleName client session holder
+session closure not signalled StringLiteral MethodInvocation MethodInvocation SimpleName get
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test password auth new
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test password auth new
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test password auth new
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test password auth new SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test password auth new
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test password auth new
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

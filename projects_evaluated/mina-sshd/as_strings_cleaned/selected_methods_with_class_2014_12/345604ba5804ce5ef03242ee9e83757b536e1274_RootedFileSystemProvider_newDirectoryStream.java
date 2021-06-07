@@ -1,0 +1,50 @@
+directory stream SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+directory streamfilter QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter
+unroot SimpleName MethodInvocation SimpleName dir
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+provider SimpleName MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName new directory stream
+r SimpleName MethodInvocation MethodInvocation SimpleName new directory stream
+provider SimpleName MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName filter
+r SimpleName MethodInvocation MethodInvocation SimpleName filter
+new directory stream SimpleName MethodInvocation SimpleName r
+new directory stream SimpleName MethodInvocation SimpleName filter
+r SimpleName MethodInvocation SimpleName filter
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new directory stream
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dir
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName directory stream
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName new directory stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+directory stream SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName new directory stream
+path SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName new directory stream
+new directory stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+new directory stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+new directory stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter
+new directory stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+filter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName new directory stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new directory stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

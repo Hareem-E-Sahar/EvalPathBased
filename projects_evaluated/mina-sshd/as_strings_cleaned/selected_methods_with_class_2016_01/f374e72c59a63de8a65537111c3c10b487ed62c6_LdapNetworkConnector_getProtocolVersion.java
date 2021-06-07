@@ -1,0 +1,20 @@
+ldap env SimpleName MethodInvocation SimpleName get
+ldap env SimpleName MethodInvocation StringLiteral javanamingldapversion
+get SimpleName MethodInvocation StringLiteral javanamingldapversion
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName ldap env
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral javanamingldapversion
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+number SimpleName SimpleType CastExpression SimpleName value
+value SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName int value
+int value SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get protocol version
+int PrimitiveType MethodDeclaration SimpleName get protocol version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get protocol version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get protocol version

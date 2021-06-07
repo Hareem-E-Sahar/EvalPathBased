@@ -1,0 +1,38 @@
+int PrimitiveType SingleVariableDeclaration SimpleName field size
+curve sizes SimpleName MethodInvocation SimpleName get
+curve sizes SimpleName MethodInvocation SimpleName field size
+get SimpleName MethodInvocation SimpleName field size
+curve name SimpleName VariableDeclarationFragment MethodInvocation SimpleName curve sizes
+curve name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+curve name SimpleName VariableDeclarationFragment MethodInvocation SimpleName field size
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curve name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get curve name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName field size
+public Modifier MethodDeclaration Block ReturnStatement SimpleName curve name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get curve name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName field size
+static Modifier MethodDeclaration Block ReturnStatement SimpleName curve name
+string SimpleName SimpleType MethodDeclaration SimpleName get curve name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName field size
+get curve name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get curve name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field size
+get curve name SimpleName MethodDeclaration Block ReturnStatement SimpleName curve name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get curve name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get curve name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field size

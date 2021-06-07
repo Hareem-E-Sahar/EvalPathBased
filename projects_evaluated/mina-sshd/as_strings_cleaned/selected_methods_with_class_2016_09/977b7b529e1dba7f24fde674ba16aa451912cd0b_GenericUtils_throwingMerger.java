@@ -1,0 +1,33 @@
+binary operator SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral duplicate key s
+string SimpleName MethodInvocation SimpleName u
+format SimpleName MethodInvocation StringLiteral duplicate key s
+format SimpleName MethodInvocation SimpleName u
+duplicate key s StringLiteral MethodInvocation SimpleName u
+illegal state exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+illegal state exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal state exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral duplicate key s
+illegal state exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName u
+u SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName v
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName binary operator
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName throwing merger
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName binary operator
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName throwing merger
+t SimpleName TypeParameter MethodDeclaration SimpleName throwing merger
+binary operator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName throwing merger
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName throwing merger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName throwing merger
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName throwing merger

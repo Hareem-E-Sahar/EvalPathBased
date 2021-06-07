@@ -1,0 +1,24 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+signature factories manager SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+manager SimpleName MethodInvocation SimpleName get signature factories
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get signature factories
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signature factories manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName get signature factories
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signature factories manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get signature factories
+get signature factories SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signature factories manager
+get signature factories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get signature factories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get signature factories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager

@@ -1,0 +1,41 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+predicate SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+predicate SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter
+key pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter
+stream SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+generic utils SimpleName MethodInvocation SimpleName stream
+generic utils SimpleName MethodInvocation SimpleName providers
+stream SimpleName MethodInvocation SimpleName providers
+safe map SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+safe map SimpleName MethodInvocation MethodInvocation SimpleName stream
+safe map SimpleName MethodInvocation MethodInvocation SimpleName providers
+safe map SimpleName MethodInvocation ExpressionMethodReference SimpleName do get key pair
+generic utils SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName do get key pair
+stream SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName do get key pair
+providers SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName do get key pair
+stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName safe map
+stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName generic utils
+stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName stream
+stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName providers
+stream SimpleName VariableDeclarationFragment MethodInvocation ExpressionMethodReference SimpleName do get key pair
+stream SimpleName MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation SimpleName filter
+stream SimpleName Assignment MethodInvocation SimpleName stream
+stream SimpleName Assignment MethodInvocation SimpleName filter
+stream SimpleName Assignment MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation SimpleName iterator
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SimpleName load keys
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load keys
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load keys
+load keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName load keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter

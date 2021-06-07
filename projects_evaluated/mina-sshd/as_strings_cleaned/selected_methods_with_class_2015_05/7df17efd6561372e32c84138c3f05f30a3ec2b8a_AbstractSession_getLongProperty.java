@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+long PrimitiveType SingleVariableDeclaration SimpleName default value
+factory manager SimpleName MethodInvocation SimpleName get properties
+factory manager SimpleName MethodInvocation MethodInvocation SimpleName get
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get
+factory manager SimpleName MethodInvocation MethodInvocation SimpleName name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName factory manager
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get properties
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName v
+parse long SimpleName MethodInvocation SimpleName v
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get long property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName default value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName default value
+long PrimitiveType MethodDeclaration SimpleName get long property
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName default value
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName default value
+get long property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get long property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get long property SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get long property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default value
+get long property SimpleName MethodDeclaration Block ReturnStatement SimpleName default value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get long property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get long property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value

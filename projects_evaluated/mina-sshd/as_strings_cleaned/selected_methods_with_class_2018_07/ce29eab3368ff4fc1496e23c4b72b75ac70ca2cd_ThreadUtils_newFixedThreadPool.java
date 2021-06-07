@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pool name
+int PrimitiveType SingleVariableDeclaration SimpleName n threads
+sshd thread factory SimpleName SimpleType ClassInstanceCreation SimpleName pool name
+thread pool executor SimpleName SimpleType ClassInstanceCreation SimpleName n threads
+thread pool executor SimpleName SimpleType ClassInstanceCreation SimpleName n threads
+thread pool executor SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+thread pool executor SimpleName SimpleType ClassInstanceCreation QualifiedName time unitmilliseconds
+n threads SimpleName ClassInstanceCreation SimpleName n threads
+n threads SimpleName ClassInstanceCreation NumberLiteral l
+n threads SimpleName ClassInstanceCreation QualifiedName time unitmilliseconds
+n threads SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName sshd thread factory
+n threads SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName pool name
+n threads SimpleName ClassInstanceCreation NumberLiteral l
+n threads SimpleName ClassInstanceCreation QualifiedName time unitmilliseconds
+n threads SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName sshd thread factory
+n threads SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName pool name
+n threads SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType QualifiedName thread pool executorcaller runs policy
+l NumberLiteral ClassInstanceCreation QualifiedName time unitmilliseconds
+l NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName sshd thread factory
+l NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleName pool name
+l NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType QualifiedName thread pool executorcaller runs policy
+time unitmilliseconds QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName sshd thread factory
+time unitmilliseconds QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleName pool name
+time unitmilliseconds QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleType QualifiedName thread pool executorcaller runs policy
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName closeable executor service
+public Modifier MethodDeclaration SimpleName new fixed thread pool
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pool name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n threads
+static Modifier MethodDeclaration SimpleType SimpleName closeable executor service
+static Modifier MethodDeclaration SimpleName new fixed thread pool
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pool name
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n threads
+closeable executor service SimpleName SimpleType MethodDeclaration SimpleName new fixed thread pool
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pool name
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+closeable executor service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n threads
+new fixed thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new fixed thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pool name
+new fixed thread pool SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new fixed thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n threads
+pool name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+pool name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n threads
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable executor service
+public Modifier TypeDeclaration MethodDeclaration SimpleName new fixed thread pool
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n threads
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable executor service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new fixed thread pool
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pool name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n threads

@@ -1,0 +1,77 @@
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName oid
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName oid
+is empty SimpleName MethodInvocation SimpleName oid
+ec curves SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get oid value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get oid value
+oid SimpleName MethodInvocation SimpleName size
+v SimpleName MethodInvocation SimpleName size
+oid SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+oid SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+matches SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName matches
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+v SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName v
+index SimpleName InfixExpression MethodInvocation SimpleName size
+v SimpleName MethodInvocation SimpleName get
+v SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+exp SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+exp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+exp SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exp
+oid SimpleName MethodInvocation SimpleName get
+oid SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+act SimpleName VariableDeclarationFragment MethodInvocation SimpleName oid
+act SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+act SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName act
+exp SimpleName MethodInvocation SimpleName int value
+act SimpleName MethodInvocation SimpleName int value
+exp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName act
+exp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName int value
+int value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName act
+int value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName int value
+matches SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+matches SimpleName IfStatement Block ReturnStatement SimpleName c
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName matches
+ec curves SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+values SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+values SimpleName EnhancedForStatement Block IfStatement SimpleName matches
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName ec curves
+public Modifier MethodDeclaration SimpleName from oid value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName oid
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+static Modifier MethodDeclaration SimpleType SimpleName ec curves
+static Modifier MethodDeclaration SimpleName from oid value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName oid
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+ec curves SimpleName SimpleType MethodDeclaration SimpleName from oid value
+ec curves SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName oid
+from oid value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName oid
+from oid value SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ec curves
+public Modifier TypeDeclaration MethodDeclaration SimpleName from oid value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName oid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ec curves
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from oid value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName oid

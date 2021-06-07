@@ -1,0 +1,62 @@
+int PrimitiveType SingleVariableDeclaration SimpleName len
+size SimpleName Assignment SimpleName len
+log SimpleName MethodInvocation SimpleName is trace enabled
+consume StringLiteral InfixExpression SimpleName name
+consume StringLiteral InfixExpression StringLiteral by
+consume StringLiteral InfixExpression SimpleName len
+consume StringLiteral InfixExpression StringLiteral down to
+consume StringLiteral InfixExpression SimpleName size
+name SimpleName InfixExpression StringLiteral by
+name SimpleName InfixExpression SimpleName len
+name SimpleName InfixExpression StringLiteral down to
+name SimpleName InfixExpression SimpleName size
+by StringLiteral InfixExpression SimpleName len
+by StringLiteral InfixExpression StringLiteral down to
+by StringLiteral InfixExpression SimpleName size
+len SimpleName InfixExpression StringLiteral down to
+len SimpleName InfixExpression SimpleName size
+down to StringLiteral InfixExpression SimpleName size
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral consume
+log SimpleName MethodInvocation InfixExpression SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral by
+log SimpleName MethodInvocation InfixExpression SimpleName len
+log SimpleName MethodInvocation InfixExpression StringLiteral down to
+log SimpleName MethodInvocation InfixExpression SimpleName size
+trace SimpleName MethodInvocation InfixExpression StringLiteral consume
+trace SimpleName MethodInvocation InfixExpression SimpleName name
+trace SimpleName MethodInvocation InfixExpression StringLiteral by
+trace SimpleName MethodInvocation InfixExpression SimpleName len
+trace SimpleName MethodInvocation InfixExpression StringLiteral down to
+trace SimpleName MethodInvocation InfixExpression SimpleName size
+check SimpleName MethodInvocation SimpleName max size
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName consume and check
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+void PrimitiveType MethodDeclaration SimpleName consume and check
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+consume and check SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+consume and check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+consume and check SimpleName MethodDeclaration SimpleType SimpleName io exception
+consume and check SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName consume and check
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName consume and check
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

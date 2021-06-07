@@ -1,0 +1,62 @@
+deque SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation StringLiteral ..
+equals SimpleName MethodInvocation StringLiteral ..
+new names SimpleName MethodInvocation SimpleName peek last
+last name SimpleName VariableDeclarationFragment MethodInvocation SimpleName new names
+last name SimpleName VariableDeclarationFragment MethodInvocation SimpleName peek last
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last name
+last name SimpleName MethodInvocation SimpleName equals
+last name SimpleName MethodInvocation StringLiteral ..
+equals SimpleName MethodInvocation StringLiteral ..
+new names SimpleName MethodInvocation SimpleName remove last
+new names SimpleName MethodInvocation SimpleName add
+new names SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation StringLiteral .
+equals SimpleName MethodInvocation StringLiteral .
+new names SimpleName MethodInvocation SimpleName add
+new names SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName names
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName names
+new names SimpleName MethodInvocation SimpleName equals
+new names SimpleName MethodInvocation SimpleName names
+equals SimpleName MethodInvocation SimpleName names
+create SimpleName MethodInvocation SimpleName root
+create SimpleName MethodInvocation SimpleName new names
+root SimpleName MethodInvocation SimpleName new names
+new names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName as t
+equals SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName as t
+names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName as t
+new names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName create
+new names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName root
+new names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new names
+equals SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName create
+equals SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName root
+equals SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new names
+names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName create
+names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName root
+names SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new names
+as t SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName create
+as t SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName root
+as t SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new names
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName normalize
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName normalize
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName names
+t SimpleName SimpleType MethodDeclaration SimpleName normalize
+normalize SimpleName MethodDeclaration Block EnhancedForStatement SimpleName names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize

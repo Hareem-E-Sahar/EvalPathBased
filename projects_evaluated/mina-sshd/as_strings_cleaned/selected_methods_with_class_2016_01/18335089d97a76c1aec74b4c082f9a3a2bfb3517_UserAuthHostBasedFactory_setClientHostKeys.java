@@ -1,0 +1,20 @@
+host key identity provider SimpleName SimpleType SingleVariableDeclaration SimpleName client host keys
+client host keys SimpleName FieldAccess Assignment SimpleName client host keys
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set client host keys
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host key identity provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client host keys
+void PrimitiveType MethodDeclaration SimpleName set client host keys
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host key identity provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName client host keys
+set client host keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host key identity provider
+set client host keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client host keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set client host keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client host keys
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set client host keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client host keys

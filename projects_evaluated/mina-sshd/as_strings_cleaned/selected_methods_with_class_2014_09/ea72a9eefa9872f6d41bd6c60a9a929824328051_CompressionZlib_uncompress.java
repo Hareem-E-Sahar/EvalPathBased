@@ -1,0 +1,88 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName from
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName to
+from SimpleName MethodInvocation SimpleName array
+from SimpleName MethodInvocation SimpleName rpos
+from SimpleName MethodInvocation SimpleName available
+decompresser SimpleName MethodInvocation SimpleName set input
+decompresser SimpleName MethodInvocation MethodInvocation SimpleName from
+decompresser SimpleName MethodInvocation MethodInvocation SimpleName array
+decompresser SimpleName MethodInvocation MethodInvocation SimpleName from
+decompresser SimpleName MethodInvocation MethodInvocation SimpleName rpos
+decompresser SimpleName MethodInvocation MethodInvocation SimpleName from
+decompresser SimpleName MethodInvocation MethodInvocation SimpleName available
+set input SimpleName MethodInvocation MethodInvocation SimpleName from
+set input SimpleName MethodInvocation MethodInvocation SimpleName array
+set input SimpleName MethodInvocation MethodInvocation SimpleName from
+set input SimpleName MethodInvocation MethodInvocation SimpleName rpos
+set input SimpleName MethodInvocation MethodInvocation SimpleName from
+set input SimpleName MethodInvocation MethodInvocation SimpleName available
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+decompresser SimpleName MethodInvocation SimpleName inflate
+decompresser SimpleName MethodInvocation SimpleName tmpbuf
+inflate SimpleName MethodInvocation SimpleName tmpbuf
+len SimpleName Assignment MethodInvocation SimpleName decompresser
+len SimpleName Assignment MethodInvocation SimpleName inflate
+len SimpleName Assignment MethodInvocation SimpleName tmpbuf
+len SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+to SimpleName MethodInvocation SimpleName put raw bytes
+to SimpleName MethodInvocation SimpleName tmpbuf
+to SimpleName MethodInvocation NumberLiteral empty
+to SimpleName MethodInvocation SimpleName len
+put raw bytes SimpleName MethodInvocation SimpleName tmpbuf
+put raw bytes SimpleName MethodInvocation NumberLiteral empty
+put raw bytes SimpleName MethodInvocation SimpleName len
+tmpbuf SimpleName MethodInvocation NumberLiteral empty
+tmpbuf SimpleName MethodInvocation SimpleName len
+empty NumberLiteral MethodInvocation SimpleName len
+data format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral error decompressing data
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error decompressing data StringLiteral ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName uncompress
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName from
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName uncompress
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName from
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+uncompress SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+uncompress SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from
+uncompress SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+uncompress SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to
+uncompress SimpleName MethodDeclaration SimpleType SimpleName io exception
+uncompress SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+from SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+from SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+to SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName uncompress
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName uncompress
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

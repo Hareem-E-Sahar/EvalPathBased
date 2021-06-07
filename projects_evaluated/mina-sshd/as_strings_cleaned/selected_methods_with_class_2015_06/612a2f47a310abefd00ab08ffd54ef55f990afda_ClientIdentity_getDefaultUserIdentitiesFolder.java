@@ -1,0 +1,41 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userhome
+get property SimpleName MethodInvocation StringLiteral userhome
+user home SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+user home SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+user home SimpleName VariableDeclarationFragment MethodInvocation StringLiteral userhome
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user home
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName user home
+is empty SimpleName MethodInvocation SimpleName user home
+file not found exception SimpleName SimpleType ClassInstanceCreation StringLiteral no user home value
+file SimpleName SimpleType ClassInstanceCreation SimpleName user home
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to path
+user home SimpleName ClassInstanceCreation MethodInvocation SimpleName to path
+home dir SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName user home
+home dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName to path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName home dir
+home dir SimpleName MethodInvocation SimpleName resolve
+home dir SimpleName MethodInvocation QualifiedName public key entrystd keyfile folder name
+resolve SimpleName MethodInvocation QualifiedName public key entrystd keyfile folder name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get default user identities folder
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName get default user identities folder
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SimpleType MethodDeclaration SimpleName get default user identities folder
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get default user identities folder SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default user identities folder
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default user identities folder
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

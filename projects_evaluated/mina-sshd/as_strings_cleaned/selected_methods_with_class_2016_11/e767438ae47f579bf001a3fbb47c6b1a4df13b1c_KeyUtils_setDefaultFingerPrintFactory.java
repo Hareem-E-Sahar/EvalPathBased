@@ -1,0 +1,45 @@
+digest factory SimpleName SimpleType SingleVariableDeclaration SimpleName f
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName f
+objects SimpleName MethodInvocation StringLiteral no digest factory
+require non null SimpleName MethodInvocation SimpleName f
+require non null SimpleName MethodInvocation StringLiteral no digest factory
+f SimpleName MethodInvocation StringLiteral no digest factory
+default digest holder SimpleName MethodInvocation SimpleName set
+default digest holder SimpleName MethodInvocation MethodInvocation SimpleName objects
+default digest holder SimpleName MethodInvocation MethodInvocation SimpleName require non null
+default digest holder SimpleName MethodInvocation MethodInvocation SimpleName f
+default digest holder SimpleName MethodInvocation MethodInvocation StringLiteral no digest factory
+set SimpleName MethodInvocation MethodInvocation SimpleName objects
+set SimpleName MethodInvocation MethodInvocation SimpleName require non null
+set SimpleName MethodInvocation MethodInvocation SimpleName f
+set SimpleName MethodInvocation MethodInvocation StringLiteral no digest factory
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set default finger print factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName default digest holder
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set default finger print factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName default digest holder
+void PrimitiveType MethodDeclaration SimpleName set default finger print factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName default digest holder
+set default finger print factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName digest factory
+set default finger print factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+set default finger print factory SimpleName MethodDeclaration Block SynchronizedStatement SimpleName default digest holder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set default finger print factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set default finger print factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

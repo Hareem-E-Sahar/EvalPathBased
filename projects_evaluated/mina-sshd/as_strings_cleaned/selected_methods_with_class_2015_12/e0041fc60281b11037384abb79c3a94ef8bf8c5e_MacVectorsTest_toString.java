@@ -1,0 +1,38 @@
+trim to length SimpleName MethodInvocation MethodInvocation SimpleName get key string
+trim to length SimpleName MethodInvocation NumberLiteral empty
+get key string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trim to length SimpleName MethodInvocation MethodInvocation SimpleName get data string
+trim to length SimpleName MethodInvocation NumberLiteral empty
+get data string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+key StringLiteral InfixExpression MethodInvocation SimpleName trim to length
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key string
+key StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+key StringLiteral InfixExpression StringLiteral data
+key StringLiteral InfixExpression MethodInvocation SimpleName trim to length
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get data string
+key StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+trim to length SimpleName MethodInvocation InfixExpression StringLiteral data
+get key string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral data
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral data
+trim to length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName trim to length
+trim to length SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName trim to length
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+data StringLiteral InfixExpression MethodInvocation SimpleName trim to length
+data StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get data string
+data StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

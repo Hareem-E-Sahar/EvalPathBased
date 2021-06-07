@@ -1,0 +1,141 @@
+security utils SimpleName MethodInvocation SimpleName is bouncy castle registered
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral bouncy castle not registered
+assume SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+assume true SimpleName MethodInvocation StringLiteral bouncy castle not registered
+assume true SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+bouncy castle not registered StringLiteral MethodInvocation MethodInvocation SimpleName security utils
+bouncy castle not registered StringLiteral MethodInvocation MethodInvocation SimpleName is bouncy castle registered
+ec gen parameter spec SimpleName SimpleType ClassInstanceCreation StringLiteral secp r
+ec gen spec SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ec gen parameter spec
+ec gen spec SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral secp r
+ec gen parameter spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ec gen spec
+security utils SimpleName MethodInvocation SimpleName get key pair generator
+security utils SimpleName MethodInvocation StringLiteral ecdsa
+get key pair generator SimpleName MethodInvocation StringLiteral ecdsa
+generator SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+generator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key pair generator
+generator SimpleName VariableDeclarationFragment MethodInvocation StringLiteral ecdsa
+key pair generator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName generator
+generator SimpleName MethodInvocation SimpleName initialize
+generator SimpleName MethodInvocation SimpleName ec gen spec
+generator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName secure random
+initialize SimpleName MethodInvocation SimpleName ec gen spec
+initialize SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName secure random
+ec gen spec SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName secure random
+generator SimpleName MethodInvocation SimpleName generate key pair
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName generator
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate key pair
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+utils SimpleName MethodInvocation SimpleName create test host key provider
+sshd SimpleName MethodInvocation SimpleName set key pair provider
+sshd SimpleName MethodInvocation MethodInvocation SimpleName utils
+sshd SimpleName MethodInvocation MethodInvocation SimpleName create test host key provider
+set key pair provider SimpleName MethodInvocation MethodInvocation SimpleName utils
+set key pair provider SimpleName MethodInvocation MethodInvocation SimpleName create test host key provider
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName authenticate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName username
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName authenticate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SimpleName authenticate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+authenticate SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+sshd SimpleName MethodInvocation SimpleName set publickey authenticator
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName publickey authenticator
+set publickey authenticator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName publickey authenticator
+sshd SimpleName MethodInvocation SimpleName start
+sshd SimpleName MethodInvocation SimpleName get port
+port SimpleName Assignment MethodInvocation SimpleName sshd
+port SimpleName Assignment MethodInvocation SimpleName get port
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName Assignment MethodInvocation SimpleName ssh client
+client SimpleName Assignment MethodInvocation SimpleName set up default client
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation StringLiteral smx
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation StringLiteral smx
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+smx StringLiteral MethodInvocation StringLiteral localhost
+smx StringLiteral MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+smx StringLiteral MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+smx StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName add public key identity
+s SimpleName MethodInvocation SimpleName kp
+add public key identity SimpleName MethodInvocation SimpleName kp
+s SimpleName MethodInvocation SimpleName auth
+s SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+s SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+s SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test ecdsa public key auth
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test ecdsa public key auth
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test ecdsa public key auth
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test ecdsa public key auth SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test ecdsa public key auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test ecdsa public key auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

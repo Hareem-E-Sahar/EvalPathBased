@@ -1,0 +1,55 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName macs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName macs
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName macs
+is empty SimpleName MethodInvocation SimpleName macs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mac factory
+macs SimpleName MethodInvocation SimpleName size
+factories SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName macs
+factories SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+unknown SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+unknown SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+resolve factory SimpleName MethodInvocation SimpleName name
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve factory
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+mac factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+factories SimpleName MethodInvocation SimpleName add
+factories SimpleName MethodInvocation SimpleName m
+add SimpleName MethodInvocation SimpleName m
+unknown SimpleName MethodInvocation SimpleName is empty
+unknown SimpleName MethodInvocation SimpleName add
+unknown SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName macs
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName macs
+parse result SimpleName SimpleType ClassInstanceCreation SimpleName factories
+parse result SimpleName SimpleType ClassInstanceCreation SimpleName unknown
+factories SimpleName ClassInstanceCreation SimpleName unknown
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName parse result
+public Modifier MethodDeclaration SimpleName parse macs list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName macs
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName macs
+static Modifier MethodDeclaration SimpleType SimpleName parse result
+static Modifier MethodDeclaration SimpleName parse macs list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName macs
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName macs
+parse result SimpleName SimpleType MethodDeclaration SimpleName parse macs list
+parse result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName macs
+parse macs list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName macs
+parse macs list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName macs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse result
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse macs list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName macs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse macs list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName macs

@@ -1,0 +1,39 @@
+int PrimitiveType SingleVariableDeclaration SimpleName value
+value SimpleName InfixExpression NumberLiteral empty
+value SimpleName InfixExpression NumberLiteral x f
+asn type SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get type value
+t SimpleName MethodInvocation InfixExpression SimpleName value
+get type value SimpleName MethodInvocation InfixExpression SimpleName value
+asn type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName asn type
+public Modifier MethodDeclaration SimpleName from type value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+static Modifier MethodDeclaration SimpleType SimpleName asn type
+static Modifier MethodDeclaration SimpleName from type value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+asn type SimpleName SimpleType MethodDeclaration SimpleName from type value
+asn type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+asn type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+from type value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+from type value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+from type value SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName asn type
+public Modifier TypeDeclaration MethodDeclaration SimpleName from type value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName asn type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from type value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

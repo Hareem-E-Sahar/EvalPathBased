@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral no provider name specified
+check not null and not empty SimpleName MethodInvocation SimpleName name
+check not null and not empty SimpleName MethodInvocation StringLiteral no provider name specified
+name SimpleName MethodInvocation StringLiteral no provider name specified
+apriori disabled providers SimpleName MethodInvocation SimpleName contains
+apriori disabled providers SimpleName MethodInvocation SimpleName name
+contains SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is a priori disabled provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName apriori disabled providers
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is a priori disabled provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName apriori disabled providers
+boolean PrimitiveType MethodDeclaration SimpleName is a priori disabled provider
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName apriori disabled providers
+is a priori disabled provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is a priori disabled provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+is a priori disabled provider SimpleName MethodDeclaration Block SynchronizedStatement SimpleName apriori disabled providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is a priori disabled provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is a priori disabled provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

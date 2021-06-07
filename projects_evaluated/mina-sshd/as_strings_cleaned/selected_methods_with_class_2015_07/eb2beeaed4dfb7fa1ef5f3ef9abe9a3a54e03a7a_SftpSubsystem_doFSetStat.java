@@ -1,0 +1,91 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName id
+buffer SimpleName MethodInvocation SimpleName get string
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+read attrs SimpleName MethodInvocation SimpleName buffer
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attrs
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp fsetstat handle attrs
+log SimpleName MethodInvocation SimpleName handle
+log SimpleName MethodInvocation SimpleName attrs
+debug SimpleName MethodInvocation StringLiteral received ssh fxp fsetstat handle attrs
+debug SimpleName MethodInvocation SimpleName handle
+debug SimpleName MethodInvocation SimpleName attrs
+received ssh fxp fsetstat handle attrs StringLiteral MethodInvocation SimpleName handle
+received ssh fxp fsetstat handle attrs StringLiteral MethodInvocation SimpleName attrs
+handle SimpleName MethodInvocation SimpleName attrs
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName handle
+get SimpleName MethodInvocation SimpleName handle
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx invalid handle
+send status SimpleName MethodInvocation SimpleName handle
+id SimpleName MethodInvocation SimpleName ssh fx invalid handle
+id SimpleName MethodInvocation SimpleName handle
+ssh fx invalid handle SimpleName MethodInvocation SimpleName handle
+p SimpleName MethodInvocation SimpleName get file
+set attributes SimpleName MethodInvocation MethodInvocation SimpleName p
+set attributes SimpleName MethodInvocation MethodInvocation SimpleName get file
+set attributes SimpleName MethodInvocation SimpleName attrs
+p SimpleName MethodInvocation MethodInvocation SimpleName attrs
+get file SimpleName MethodInvocation MethodInvocation SimpleName attrs
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx ok
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx ok
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx ok SimpleName MethodInvocation StringLiteral empty
+io exception SimpleName SimpleType UnionType SimpleType SimpleName unsupported operation exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+unsupported operation exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName e
+id SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do f set stat
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do f set stat
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do f set stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do f set stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do f set stat SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do f set stat SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do f set stat SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do f set stat
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do f set stat
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

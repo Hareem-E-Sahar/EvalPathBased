@@ -1,0 +1,49 @@
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation SimpleName name
+get property SimpleName MethodInvocation SimpleName name
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName props
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get property
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName get long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SimpleType SimpleName long
+static Modifier MethodDeclaration SimpleName get long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+long SimpleName SimpleType MethodDeclaration SimpleName get long
+long SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+long SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+props SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

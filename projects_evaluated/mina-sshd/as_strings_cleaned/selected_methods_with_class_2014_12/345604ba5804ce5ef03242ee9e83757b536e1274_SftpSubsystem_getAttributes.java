@@ -1,0 +1,344 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+attribute SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+boolean PrimitiveType SingleVariableDeclaration SimpleName follow links
+unix StringLiteral ArrayInitializer StringLiteral posix
+unix StringLiteral ArrayInitializer StringLiteral *
+posix StringLiteral ArrayInitializer StringLiteral *
+attrs SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer StringLiteral unix
+attrs SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer StringLiteral posix
+attrs SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer StringLiteral *
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+link option SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+follow links SimpleName ConditionalExpression ArrayCreation NumberLiteral empty
+follow links SimpleName ConditionalExpression ArrayCreation ArrayInitializer QualifiedName link optionnofollow links
+files SimpleName MethodInvocation SimpleName read attributes
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName attr
+files SimpleName MethodInvocation ConditionalExpression SimpleName follow links
+files SimpleName MethodInvocation ConditionalExpression ArrayCreation NumberLiteral empty
+read attributes SimpleName MethodInvocation SimpleName file
+read attributes SimpleName MethodInvocation SimpleName attr
+read attributes SimpleName MethodInvocation ConditionalExpression SimpleName follow links
+read attributes SimpleName MethodInvocation ConditionalExpression ArrayCreation NumberLiteral empty
+file SimpleName MethodInvocation SimpleName attr
+file SimpleName MethodInvocation ConditionalExpression SimpleName follow links
+file SimpleName MethodInvocation ConditionalExpression ArrayCreation NumberLiteral empty
+attr SimpleName MethodInvocation ConditionalExpression SimpleName follow links
+attr SimpleName MethodInvocation ConditionalExpression ArrayCreation NumberLiteral empty
+a SimpleName Assignment MethodInvocation SimpleName files
+a SimpleName Assignment MethodInvocation SimpleName read attributes
+a SimpleName Assignment MethodInvocation SimpleName file
+a SimpleName Assignment MethodInvocation SimpleName attr
+a SimpleName Assignment MethodInvocation ConditionalExpression SimpleName follow links
+unsupported operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName attrs
+attr SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName attrs
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+attribute SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral size
+get SimpleName MethodInvocation StringLiteral size
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributesize
+map SimpleName MethodInvocation MethodInvocation SimpleName a
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral size
+put SimpleName MethodInvocation QualifiedName attributesize
+put SimpleName MethodInvocation MethodInvocation SimpleName a
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation StringLiteral size
+attributesize QualifiedName MethodInvocation MethodInvocation SimpleName a
+attributesize QualifiedName MethodInvocation MethodInvocation SimpleName get
+attributesize QualifiedName MethodInvocation MethodInvocation StringLiteral size
+a SimpleName MethodInvocation SimpleName contains key
+a SimpleName MethodInvocation StringLiteral uid
+contains key SimpleName MethodInvocation StringLiteral uid
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral uid
+get SimpleName MethodInvocation StringLiteral uid
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributeuid
+map SimpleName MethodInvocation MethodInvocation SimpleName a
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral uid
+put SimpleName MethodInvocation QualifiedName attributeuid
+put SimpleName MethodInvocation MethodInvocation SimpleName a
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation StringLiteral uid
+attributeuid QualifiedName MethodInvocation MethodInvocation SimpleName a
+attributeuid QualifiedName MethodInvocation MethodInvocation SimpleName get
+attributeuid QualifiedName MethodInvocation MethodInvocation StringLiteral uid
+a SimpleName MethodInvocation SimpleName contains key
+a SimpleName MethodInvocation StringLiteral owner
+contains key SimpleName MethodInvocation StringLiteral owner
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral owner
+get SimpleName MethodInvocation StringLiteral owner
+user principal SimpleName SimpleType CastExpression MethodInvocation SimpleName a
+user principal SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+user principal SimpleName SimpleType CastExpression MethodInvocation StringLiteral owner
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributeowner
+map SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation QualifiedName attributeowner
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+attributeowner QualifiedName MethodInvocation MethodInvocation SimpleName get name
+session SimpleName MethodInvocation SimpleName get username
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributeowner
+map SimpleName MethodInvocation MethodInvocation SimpleName session
+map SimpleName MethodInvocation MethodInvocation SimpleName get username
+put SimpleName MethodInvocation QualifiedName attributeowner
+put SimpleName MethodInvocation MethodInvocation SimpleName session
+put SimpleName MethodInvocation MethodInvocation SimpleName get username
+attributeowner QualifiedName MethodInvocation MethodInvocation SimpleName session
+attributeowner QualifiedName MethodInvocation MethodInvocation SimpleName get username
+a SimpleName MethodInvocation SimpleName contains key
+a SimpleName MethodInvocation StringLiteral gid
+contains key SimpleName MethodInvocation StringLiteral gid
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral gid
+get SimpleName MethodInvocation StringLiteral gid
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributegid
+map SimpleName MethodInvocation MethodInvocation SimpleName a
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral gid
+put SimpleName MethodInvocation QualifiedName attributegid
+put SimpleName MethodInvocation MethodInvocation SimpleName a
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation StringLiteral gid
+attributegid QualifiedName MethodInvocation MethodInvocation SimpleName a
+attributegid QualifiedName MethodInvocation MethodInvocation SimpleName get
+attributegid QualifiedName MethodInvocation MethodInvocation StringLiteral gid
+a SimpleName MethodInvocation SimpleName contains key
+a SimpleName MethodInvocation StringLiteral group
+contains key SimpleName MethodInvocation StringLiteral group
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral group
+get SimpleName MethodInvocation StringLiteral group
+group principal SimpleName SimpleType CastExpression MethodInvocation SimpleName a
+group principal SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+group principal SimpleName SimpleType CastExpression MethodInvocation StringLiteral group
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributegroup
+map SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation QualifiedName attributegroup
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+attributegroup QualifiedName MethodInvocation MethodInvocation SimpleName get name
+session SimpleName MethodInvocation SimpleName get username
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributegroup
+map SimpleName MethodInvocation MethodInvocation SimpleName session
+map SimpleName MethodInvocation MethodInvocation SimpleName get username
+put SimpleName MethodInvocation QualifiedName attributegroup
+put SimpleName MethodInvocation MethodInvocation SimpleName session
+put SimpleName MethodInvocation MethodInvocation SimpleName get username
+attributegroup QualifiedName MethodInvocation MethodInvocation SimpleName session
+attributegroup QualifiedName MethodInvocation MethodInvocation SimpleName get username
+a SimpleName MethodInvocation SimpleName contains key
+a SimpleName MethodInvocation StringLiteral nlink
+contains key SimpleName MethodInvocation StringLiteral nlink
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral nlink
+get SimpleName MethodInvocation StringLiteral nlink
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributen link
+map SimpleName MethodInvocation MethodInvocation SimpleName a
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral nlink
+put SimpleName MethodInvocation QualifiedName attributen link
+put SimpleName MethodInvocation MethodInvocation SimpleName a
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation StringLiteral nlink
+attributen link QualifiedName MethodInvocation MethodInvocation SimpleName a
+attributen link QualifiedName MethodInvocation MethodInvocation SimpleName get
+attributen link QualifiedName MethodInvocation MethodInvocation StringLiteral nlink
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral is directory
+get SimpleName MethodInvocation StringLiteral is directory
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributeis directory
+map SimpleName MethodInvocation MethodInvocation SimpleName a
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral is directory
+put SimpleName MethodInvocation QualifiedName attributeis directory
+put SimpleName MethodInvocation MethodInvocation SimpleName a
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation StringLiteral is directory
+attributeis directory QualifiedName MethodInvocation MethodInvocation SimpleName a
+attributeis directory QualifiedName MethodInvocation MethodInvocation SimpleName get
+attributeis directory QualifiedName MethodInvocation MethodInvocation StringLiteral is directory
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral is regular file
+get SimpleName MethodInvocation StringLiteral is regular file
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributeis regular file
+map SimpleName MethodInvocation MethodInvocation SimpleName a
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral is regular file
+put SimpleName MethodInvocation QualifiedName attributeis regular file
+put SimpleName MethodInvocation MethodInvocation SimpleName a
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation StringLiteral is regular file
+attributeis regular file QualifiedName MethodInvocation MethodInvocation SimpleName a
+attributeis regular file QualifiedName MethodInvocation MethodInvocation SimpleName get
+attributeis regular file QualifiedName MethodInvocation MethodInvocation StringLiteral is regular file
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral is symbolic link
+get SimpleName MethodInvocation StringLiteral is symbolic link
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributeis symbolic link
+map SimpleName MethodInvocation MethodInvocation SimpleName a
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral is symbolic link
+put SimpleName MethodInvocation QualifiedName attributeis symbolic link
+put SimpleName MethodInvocation MethodInvocation SimpleName a
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation StringLiteral is symbolic link
+attributeis symbolic link QualifiedName MethodInvocation MethodInvocation SimpleName a
+attributeis symbolic link QualifiedName MethodInvocation MethodInvocation SimpleName get
+attributeis symbolic link QualifiedName MethodInvocation MethodInvocation StringLiteral is symbolic link
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral creation time
+get SimpleName MethodInvocation StringLiteral creation time
+file time SimpleName SimpleType CastExpression MethodInvocation SimpleName a
+file time SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+file time SimpleName SimpleType CastExpression MethodInvocation StringLiteral creation time
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributecreation time
+map SimpleName MethodInvocation MethodInvocation SimpleName to millis
+put SimpleName MethodInvocation QualifiedName attributecreation time
+put SimpleName MethodInvocation MethodInvocation SimpleName to millis
+attributecreation time QualifiedName MethodInvocation MethodInvocation SimpleName to millis
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral last modified time
+get SimpleName MethodInvocation StringLiteral last modified time
+file time SimpleName SimpleType CastExpression MethodInvocation SimpleName a
+file time SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+file time SimpleName SimpleType CastExpression MethodInvocation StringLiteral last modified time
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributelast modified time
+map SimpleName MethodInvocation MethodInvocation SimpleName to millis
+put SimpleName MethodInvocation QualifiedName attributelast modified time
+put SimpleName MethodInvocation MethodInvocation SimpleName to millis
+attributelast modified time QualifiedName MethodInvocation MethodInvocation SimpleName to millis
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral last access time
+get SimpleName MethodInvocation StringLiteral last access time
+file time SimpleName SimpleType CastExpression MethodInvocation SimpleName a
+file time SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+file time SimpleName SimpleType CastExpression MethodInvocation StringLiteral last access time
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributelast access time
+map SimpleName MethodInvocation MethodInvocation SimpleName to millis
+put SimpleName MethodInvocation QualifiedName attributelast access time
+put SimpleName MethodInvocation MethodInvocation SimpleName to millis
+attributelast access time QualifiedName MethodInvocation MethodInvocation SimpleName to millis
+a SimpleName MethodInvocation SimpleName contains key
+a SimpleName MethodInvocation StringLiteral permissions
+contains key SimpleName MethodInvocation StringLiteral permissions
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation StringLiteral permissions
+get SimpleName MethodInvocation StringLiteral permissions
+from perms SimpleName MethodInvocation CastExpression MethodInvocation SimpleName a
+from perms SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+from perms SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral permissions
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributepermissions
+map SimpleName MethodInvocation MethodInvocation SimpleName from perms
+put SimpleName MethodInvocation QualifiedName attributepermissions
+put SimpleName MethodInvocation MethodInvocation SimpleName from perms
+attributepermissions QualifiedName MethodInvocation MethodInvocation SimpleName from perms
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName permission
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName permission
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName permission
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+files SimpleName MethodInvocation SimpleName is readable
+files SimpleName MethodInvocation SimpleName file
+is readable SimpleName MethodInvocation SimpleName file
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionuser read
+add SimpleName MethodInvocation QualifiedName permissionuser read
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissiongroup read
+add SimpleName MethodInvocation QualifiedName permissiongroup read
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionothers read
+add SimpleName MethodInvocation QualifiedName permissionothers read
+files SimpleName MethodInvocation SimpleName is writable
+files SimpleName MethodInvocation SimpleName file
+is writable SimpleName MethodInvocation SimpleName file
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionuser write
+add SimpleName MethodInvocation QualifiedName permissionuser write
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissiongroup write
+add SimpleName MethodInvocation QualifiedName permissiongroup write
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionothers write
+add SimpleName MethodInvocation QualifiedName permissionothers write
+files SimpleName MethodInvocation SimpleName is executable
+files SimpleName MethodInvocation SimpleName file
+is executable SimpleName MethodInvocation SimpleName file
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionuser execute
+add SimpleName MethodInvocation QualifiedName permissionuser execute
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissiongroup execute
+add SimpleName MethodInvocation QualifiedName permissiongroup execute
+p SimpleName MethodInvocation SimpleName add
+p SimpleName MethodInvocation QualifiedName permissionothers execute
+add SimpleName MethodInvocation QualifiedName permissionothers execute
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName attributepermissions
+map SimpleName MethodInvocation SimpleName p
+put SimpleName MethodInvocation QualifiedName attributepermissions
+put SimpleName MethodInvocation SimpleName p
+attributepermissions QualifiedName MethodInvocation SimpleName p
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName attribute
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName get attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName follow links
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+attribute SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName follow links
+get attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+get attributes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName attrs
+get attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow links
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+follow links SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow links
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow links
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

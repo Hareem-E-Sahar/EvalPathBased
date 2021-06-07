@@ -1,0 +1,143 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName syntax and pattern
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName syntax and pattern
+validate utils SimpleName MethodInvocation StringLiteral no argument
+check not null SimpleName MethodInvocation SimpleName syntax and pattern
+check not null SimpleName MethodInvocation StringLiteral no argument
+syntax and pattern SimpleName MethodInvocation StringLiteral no argument
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName index of
+check not null SimpleName MethodInvocation MethodInvocation SimpleName index of
+syntax and pattern SimpleName MethodInvocation MethodInvocation SimpleName index of
+no argument StringLiteral MethodInvocation MethodInvocation SimpleName index of
+validate utils SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+check not null SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+syntax and pattern SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+no argument StringLiteral MethodInvocation MethodInvocation CharacterLiteral :
+index of SimpleName MethodInvocation CharacterLiteral :
+colon index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+colon index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null
+colon index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName syntax and pattern
+colon index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no argument
+colon index SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+colon index SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral :
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName colon index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral :
+colon index SimpleName InfixExpression NumberLiteral empty
+syntax and pattern SimpleName MethodInvocation SimpleName length
+syntax and pattern SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+colon index SimpleName InfixExpression InfixExpression MethodInvocation SimpleName syntax and pattern
+colon index SimpleName InfixExpression InfixExpression MethodInvocation SimpleName length
+colon index SimpleName InfixExpression InfixExpression NumberLiteral empty
+syntax and pattern must have form syntaxpattern but was \ StringLiteral InfixExpression SimpleName syntax and pattern
+syntax and pattern must have form syntaxpattern but was \ StringLiteral InfixExpression StringLiteral \
+syntax and pattern SimpleName InfixExpression StringLiteral \
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral syntax and pattern must have form syntaxpattern but was \
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName syntax and pattern
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral \
+syntax and pattern SimpleName MethodInvocation SimpleName substring
+syntax and pattern SimpleName MethodInvocation NumberLiteral empty
+syntax and pattern SimpleName MethodInvocation SimpleName colon index
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName colon index
+empty NumberLiteral MethodInvocation SimpleName colon index
+syntax SimpleName VariableDeclarationFragment MethodInvocation SimpleName syntax and pattern
+syntax SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+syntax SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+syntax SimpleName VariableDeclarationFragment MethodInvocation SimpleName colon index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName syntax
+colon index SimpleName InfixExpression NumberLiteral empty
+syntax and pattern SimpleName MethodInvocation SimpleName substring
+syntax and pattern SimpleName MethodInvocation InfixExpression SimpleName colon index
+syntax and pattern SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName colon index
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName syntax and pattern
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+pattern SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName colon index
+pattern SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expr
+glob to regex SimpleName MethodInvocation SimpleName pattern
+expr SimpleName Assignment MethodInvocation SimpleName glob to regex
+expr SimpleName Assignment MethodInvocation SimpleName pattern
+expr SimpleName Assignment SimpleName pattern
+unsupported path matcher syntax \ StringLiteral InfixExpression SimpleName syntax
+unsupported path matcher syntax \ StringLiteral InfixExpression StringLiteral \
+syntax SimpleName InfixExpression StringLiteral \
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported path matcher syntax \
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName syntax
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral \
+syntax SimpleName SwitchStatement SwitchCase StringLiteral glob
+syntax SimpleName SwitchStatement ExpressionStatement Assignment SimpleName expr
+syntax SimpleName SwitchStatement SwitchCase StringLiteral regex
+syntax SimpleName SwitchStatement ExpressionStatement Assignment SimpleName expr
+syntax SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pattern
+glob StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral regex
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral get path matcher {}
+log SimpleName MethodInvocation SimpleName syntax and pattern
+log SimpleName MethodInvocation SimpleName expr
+trace SimpleName MethodInvocation StringLiteral get path matcher {}
+trace SimpleName MethodInvocation SimpleName syntax and pattern
+trace SimpleName MethodInvocation SimpleName expr
+get path matcher {} StringLiteral MethodInvocation SimpleName syntax and pattern
+get path matcher {} StringLiteral MethodInvocation SimpleName expr
+syntax and pattern SimpleName MethodInvocation SimpleName expr
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation SimpleName expr
+compile SimpleName MethodInvocation SimpleName expr
+regex SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+regex SimpleName VariableDeclarationFragment MethodInvocation SimpleName compile
+regex SimpleName VariableDeclarationFragment MethodInvocation SimpleName expr
+final Modifier VariableDeclarationStatement SimpleType SimpleName pattern
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName regex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pattern
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compile
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName expr
+pattern SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName regex
+path SimpleName MethodInvocation SimpleName to string
+regex SimpleName MethodInvocation SimpleName matcher
+regex SimpleName MethodInvocation MethodInvocation SimpleName path
+regex SimpleName MethodInvocation MethodInvocation SimpleName to string
+matcher SimpleName MethodInvocation MethodInvocation SimpleName path
+matcher SimpleName MethodInvocation MethodInvocation SimpleName to string
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName regex
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName matcher
+m SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+m SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+matcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName matches
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName syntax
+syntax SimpleName SwitchStatement Block VariableDeclarationStatement Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path matcher
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get path matcher
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+public Modifier MethodDeclaration SimpleType SimpleName path matcher
+public Modifier MethodDeclaration SimpleName get path matcher
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block SwitchStatement SimpleName syntax
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+path matcher SimpleName SimpleType MethodDeclaration SimpleName get path matcher
+path matcher SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+get path matcher SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get path matcher SimpleName MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+get path matcher SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get path matcher SimpleName MethodDeclaration Block SwitchStatement SimpleName syntax
+get path matcher SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path matcher
+public Modifier TypeDeclaration MethodDeclaration SimpleName get path matcher
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path matcher
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get path matcher
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName syntax and pattern

@@ -1,0 +1,27 @@
+tcpip server channel SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type
+channel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tcpip server channel
+channel SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type
+tcpip server channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName set executor service
+channel SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+set executor service SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+channel SimpleName MethodInvocation SimpleName set shutdown on exit
+channel SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+set shutdown on exit SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName channel
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SimpleType SimpleName channel
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration Block ReturnStatement SimpleName channel
+channel SimpleName SimpleType MethodDeclaration SimpleName create
+create SimpleName MethodDeclaration Block ReturnStatement SimpleName channel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create

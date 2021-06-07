@@ -1,0 +1,30 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName root dir
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName root dir
+objects SimpleName MethodInvocation StringLiteral no root directory provided
+require non null SimpleName MethodInvocation SimpleName root dir
+require non null SimpleName MethodInvocation StringLiteral no root directory provided
+root dir SimpleName MethodInvocation StringLiteral no root directory provided
+cmd SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName session
+cmd SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName fs
+cmd SimpleName VariableDeclarationFragment LambdaExpression SimpleName root dir
+session SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName fs
+session SimpleName VariableDeclarationFragment LambdaExpression SimpleName root dir
+fs SimpleName VariableDeclarationFragment LambdaExpression SimpleName root dir
+static Modifier MethodDeclaration SimpleType SimpleName git location resolver
+static Modifier MethodDeclaration SimpleName constant path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName root dir
+git location resolver SimpleName SimpleType MethodDeclaration SimpleName constant path
+git location resolver SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName root dir
+constant path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+constant path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName git location resolver
+public Modifier TypeDeclaration MethodDeclaration SimpleName constant path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName git location resolver
+test SimpleName TypeDeclaration MethodDeclaration SimpleName constant path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root dir

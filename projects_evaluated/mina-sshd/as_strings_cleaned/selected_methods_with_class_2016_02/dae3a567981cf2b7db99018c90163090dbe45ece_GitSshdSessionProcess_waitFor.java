@@ -1,0 +1,67 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName client channel event
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName client channel eventclosed
+of SimpleName MethodInvocation QualifiedName client channel eventclosed
+channel SimpleName MethodInvocation SimpleName wait for
+channel SimpleName MethodInvocation MethodInvocation SimpleName enum set
+channel SimpleName MethodInvocation MethodInvocation SimpleName of
+channel SimpleName MethodInvocation MethodInvocation QualifiedName client channel eventclosed
+channel SimpleName MethodInvocation SimpleName wait timeout
+wait for SimpleName MethodInvocation MethodInvocation SimpleName enum set
+wait for SimpleName MethodInvocation MethodInvocation SimpleName of
+wait for SimpleName MethodInvocation MethodInvocation QualifiedName client channel eventclosed
+wait for SimpleName MethodInvocation SimpleName wait timeout
+enum set SimpleName MethodInvocation MethodInvocation SimpleName wait timeout
+of SimpleName MethodInvocation MethodInvocation SimpleName wait timeout
+client channel eventclosed QualifiedName MethodInvocation MethodInvocation SimpleName wait timeout
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enum set
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName client channel eventclosed
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait timeout
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral wait for channel timeout millis {}
+log SimpleName MethodInvocation SimpleName command name
+log SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName wait timeout
+trace SimpleName MethodInvocation StringLiteral wait for channel timeout millis {}
+trace SimpleName MethodInvocation SimpleName command name
+trace SimpleName MethodInvocation SimpleName channel
+trace SimpleName MethodInvocation SimpleName wait timeout
+trace SimpleName MethodInvocation SimpleName res
+wait for channel timeout millis {} StringLiteral MethodInvocation SimpleName command name
+wait for channel timeout millis {} StringLiteral MethodInvocation SimpleName channel
+wait for channel timeout millis {} StringLiteral MethodInvocation SimpleName wait timeout
+wait for channel timeout millis {} StringLiteral MethodInvocation SimpleName res
+command name SimpleName MethodInvocation SimpleName channel
+command name SimpleName MethodInvocation SimpleName wait timeout
+command name SimpleName MethodInvocation SimpleName res
+channel SimpleName MethodInvocation SimpleName wait timeout
+channel SimpleName MethodInvocation SimpleName res
+wait timeout SimpleName MethodInvocation SimpleName res
+res SimpleName MethodInvocation SimpleName contains
+res SimpleName MethodInvocation QualifiedName client channel eventclosed
+contains SimpleName MethodInvocation QualifiedName client channel eventclosed
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName wait for
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName wait for
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType MethodDeclaration SimpleName wait for
+int PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+wait for SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

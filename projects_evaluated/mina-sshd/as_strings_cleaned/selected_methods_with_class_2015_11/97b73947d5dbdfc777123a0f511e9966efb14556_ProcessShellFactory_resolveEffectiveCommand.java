@@ -1,0 +1,63 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName original
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName original
+os utils SimpleName MethodInvocation SimpleName is win
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName original
+size SimpleName MethodInvocation SimpleName original
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+original SimpleName MethodInvocation InfixExpression NumberLiteral empty
+original SimpleName MethodInvocation SimpleName get
+original SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+cmd name SimpleName VariableDeclarationFragment MethodInvocation SimpleName original
+cmd name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cmd name SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd name
+os utilswindows shell command name QualifiedName MethodInvocation SimpleName equals ignore case
+os utilswindows shell command name QualifiedName MethodInvocation SimpleName cmd name
+equals ignore case SimpleName MethodInvocation SimpleName cmd name
+generic utils SimpleName MethodInvocation SimpleName join
+generic utils SimpleName MethodInvocation SimpleName original
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+join SimpleName MethodInvocation SimpleName original
+join SimpleName MethodInvocation CharacterLiteral empty
+original SimpleName MethodInvocation CharacterLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation QualifiedName os utilswindows shell command name
+arrays SimpleName MethodInvocation StringLiteral c
+arrays SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+arrays SimpleName MethodInvocation MethodInvocation SimpleName join
+arrays SimpleName MethodInvocation MethodInvocation SimpleName original
+arrays SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+as list SimpleName MethodInvocation QualifiedName os utilswindows shell command name
+as list SimpleName MethodInvocation StringLiteral c
+as list SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+as list SimpleName MethodInvocation MethodInvocation SimpleName join
+as list SimpleName MethodInvocation MethodInvocation SimpleName original
+as list SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+os utilswindows shell command name QualifiedName MethodInvocation StringLiteral c
+os utilswindows shell command name QualifiedName MethodInvocation MethodInvocation SimpleName generic utils
+os utilswindows shell command name QualifiedName MethodInvocation MethodInvocation SimpleName join
+os utilswindows shell command name QualifiedName MethodInvocation MethodInvocation SimpleName original
+os utilswindows shell command name QualifiedName MethodInvocation MethodInvocation CharacterLiteral empty
+c StringLiteral MethodInvocation MethodInvocation SimpleName generic utils
+c StringLiteral MethodInvocation MethodInvocation SimpleName join
+c StringLiteral MethodInvocation MethodInvocation SimpleName original
+c StringLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve effective command
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName original
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve effective command
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve effective command
+resolve effective command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve effective command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve effective command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original

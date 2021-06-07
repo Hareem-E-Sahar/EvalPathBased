@@ -1,0 +1,332 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName local
+validate utils SimpleName MethodInvocation StringLiteral local address is null
+check not null SimpleName MethodInvocation SimpleName local
+check not null SimpleName MethodInvocation StringLiteral local address is null
+local SimpleName MethodInvocation StringLiteral local address is null
+local SimpleName MethodInvocation SimpleName get port
+local SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral invalid local port s
+validate utils SimpleName MethodInvocation SimpleName local
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local
+check true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral invalid local port s
+check true SimpleName MethodInvocation SimpleName local
+local SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral invalid local port s
+get port SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral invalid local port s
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral invalid local port s
+local SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local
+get port SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local
+empty NumberLiteral InfixExpression MethodInvocation SimpleName local
+invalid local port s StringLiteral MethodInvocation SimpleName local
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get factory manager
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+validate utils SimpleName MethodInvocation StringLiteral no factory manager
+check not null SimpleName MethodInvocation MethodInvocation SimpleName session
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+check not null SimpleName MethodInvocation StringLiteral no factory manager
+session SimpleName MethodInvocation MethodInvocation StringLiteral no factory manager
+get factory manager SimpleName MethodInvocation MethodInvocation StringLiteral no factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+manager SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName session
+manager SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get tcpip forwarding filter
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tcpip forwarding filter
+forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+filter SimpleName MethodInvocation SimpleName can listen
+filter SimpleName MethodInvocation SimpleName local
+filter SimpleName MethodInvocation SimpleName session
+can listen SimpleName MethodInvocation SimpleName local
+can listen SimpleName MethodInvocation SimpleName session
+local SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName is debug enabled
+local port forwarding requested StringLiteral InfixExpression SimpleName session
+local port forwarding requested StringLiteral InfixExpression StringLiteral )[
+local port forwarding requested StringLiteral InfixExpression SimpleName local
+local port forwarding requested StringLiteral InfixExpression StringLiteral have filter
+local port forwarding requested StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+session SimpleName InfixExpression StringLiteral )[
+session SimpleName InfixExpression SimpleName local
+session SimpleName InfixExpression StringLiteral have filter
+session SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+session SimpleName InfixExpression StringLiteral ] rejected
+)[ StringLiteral InfixExpression SimpleName local
+)[ StringLiteral InfixExpression StringLiteral have filter
+)[ StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+)[ StringLiteral InfixExpression StringLiteral ] rejected
+local SimpleName InfixExpression StringLiteral have filter
+local SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+local SimpleName InfixExpression StringLiteral ] rejected
+have filter StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName filter
+have filter StringLiteral InfixExpression StringLiteral ] rejected
+filter SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ] rejected
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral local port forwarding requested
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName local
+log SimpleName MethodInvocation InfixExpression StringLiteral have filter
+log SimpleName MethodInvocation InfixExpression StringLiteral ] rejected
+debug SimpleName MethodInvocation InfixExpression StringLiteral local port forwarding requested
+debug SimpleName MethodInvocation InfixExpression SimpleName session
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName local
+debug SimpleName MethodInvocation InfixExpression StringLiteral have filter
+debug SimpleName MethodInvocation InfixExpression StringLiteral ] rejected
+error SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral local port forwarding requested failed ({}) to consult forwarding filter {}
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName local
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation StringLiteral local port forwarding requested failed ({}) to consult forwarding filter {}
+warn SimpleName MethodInvocation SimpleName session
+warn SimpleName MethodInvocation SimpleName local
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+local port forwarding requested failed ({}) to consult forwarding filter {} StringLiteral MethodInvocation SimpleName session
+local port forwarding requested failed ({}) to consult forwarding filter {} StringLiteral MethodInvocation SimpleName local
+local port forwarding requested failed ({}) to consult forwarding filter {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e
+local port forwarding requested failed ({}) to consult forwarding filter {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+local port forwarding requested failed ({}) to consult forwarding filter {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+local port forwarding requested failed ({}) to consult forwarding filter {} StringLiteral MethodInvocation MethodInvocation SimpleName e
+local port forwarding requested failed ({}) to consult forwarding filter {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+session SimpleName MethodInvocation SimpleName local
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+session SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+session SimpleName MethodInvocation MethodInvocation SimpleName e
+session SimpleName MethodInvocation MethodInvocation SimpleName get message
+local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+local SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+local SimpleName MethodInvocation MethodInvocation SimpleName e
+local SimpleName MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is debug enabled
+local port forwarding requested StringLiteral InfixExpression StringLiteral )[
+local port forwarding requested StringLiteral InfixExpression SimpleName local
+local port forwarding requested StringLiteral InfixExpression StringLiteral ] filter consultation failure details
+)[ StringLiteral InfixExpression SimpleName local
+)[ StringLiteral InfixExpression StringLiteral ] filter consultation failure details
+local SimpleName InfixExpression StringLiteral ] filter consultation failure details
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral local port forwarding requested
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName local
+log SimpleName MethodInvocation InfixExpression StringLiteral ] filter consultation failure details
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral local port forwarding requested
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName local
+debug SimpleName MethodInvocation InfixExpression StringLiteral ] filter consultation failure details
+debug SimpleName MethodInvocation SimpleName e
+local port forwarding requested StringLiteral InfixExpression MethodInvocation SimpleName e
+)[ StringLiteral InfixExpression MethodInvocation SimpleName e
+local SimpleName InfixExpression MethodInvocation SimpleName e
+] filter consultation failure details StringLiteral InfixExpression MethodInvocation SimpleName e
+runtime ssh exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port forwarding event listener proxy
+port forwarding event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+listener SimpleName MethodInvocation SimpleName establishing explicit tunnel
+listener SimpleName MethodInvocation MethodInvocation SimpleName get session
+listener SimpleName MethodInvocation SimpleName local
+listener SimpleName MethodInvocation BooleanLiteral true
+establishing explicit tunnel SimpleName MethodInvocation MethodInvocation SimpleName get session
+establishing explicit tunnel SimpleName MethodInvocation SimpleName local
+establishing explicit tunnel SimpleName MethodInvocation BooleanLiteral true
+get session SimpleName MethodInvocation MethodInvocation SimpleName local
+get session SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+local SimpleName MethodInvocation BooleanLiteral true
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+do bind SimpleName MethodInvocation SimpleName local
+do bind SimpleName MethodInvocation SimpleName static io handler factory
+local SimpleName MethodInvocation SimpleName static io handler factory
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName do bind
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName local
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName static io handler factory
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound
+bound SimpleName MethodInvocation SimpleName get host string
+bound SimpleName MethodInvocation SimpleName get port
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bound
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get host string
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bound
+sshd socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get port
+bound SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bound
+bound SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+get host string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bound
+get host string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName sshd socket address
+result SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName bound
+result SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get host string
+result SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName bound
+result SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get port
+log SimpleName MethodInvocation SimpleName is debug enabled
+local port forwarding requested StringLiteral InfixExpression SimpleName local
+local port forwarding requested StringLiteral InfixExpression StringLiteral ):
+local port forwarding requested StringLiteral InfixExpression SimpleName result
+local SimpleName InfixExpression StringLiteral ):
+local SimpleName InfixExpression SimpleName result
+): StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral local port forwarding requested
+log SimpleName MethodInvocation InfixExpression SimpleName local
+log SimpleName MethodInvocation InfixExpression StringLiteral ):
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral local port forwarding requested
+debug SimpleName MethodInvocation InfixExpression SimpleName local
+debug SimpleName MethodInvocation InfixExpression StringLiteral ):
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName added
+result SimpleName MethodInvocation SimpleName get host name
+local SimpleName MethodInvocation SimpleName get host name
+result SimpleName MethodInvocation SimpleName get port
+local forwarding entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName result
+local forwarding entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get host name
+local forwarding entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName local
+local forwarding entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get host name
+local forwarding entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName result
+local forwarding entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get port
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get host name
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get host name
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+local SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+local SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+get host name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+local forwards SimpleName MethodInvocation SimpleName add
+local forwards SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName local forwarding entry
+local forwards SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+local forwards SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get host name
+local forwards SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local
+local forwards SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get host name
+local forwards SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+local forwards SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName local forwarding entry
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get host name
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get host name
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName result
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+added SimpleName Assignment MethodInvocation SimpleName local forwards
+added SimpleName Assignment MethodInvocation SimpleName add
+failed to add local port forwarding entry for StringLiteral InfixExpression SimpleName local
+failed to add local port forwarding entry for StringLiteral InfixExpression StringLiteral ->
+failed to add local port forwarding entry for StringLiteral InfixExpression SimpleName result
+local SimpleName InfixExpression StringLiteral ->
+local SimpleName InfixExpression SimpleName result
+-> StringLiteral InfixExpression SimpleName result
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to add local port forwarding entry for
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName local
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ->
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName result
+boolean PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName local forwards
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+local port forwarding cancelled SimpleName MethodInvocation SimpleName local
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName err
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName err
+e SimpleName MethodInvocation SimpleName add suppressed
+e SimpleName MethodInvocation SimpleName e
+add suppressed SimpleName MethodInvocation SimpleName e
+listener SimpleName MethodInvocation SimpleName established explicit tunnel
+listener SimpleName MethodInvocation MethodInvocation SimpleName get session
+listener SimpleName MethodInvocation SimpleName local
+listener SimpleName MethodInvocation BooleanLiteral true
+established explicit tunnel SimpleName MethodInvocation MethodInvocation SimpleName get session
+established explicit tunnel SimpleName MethodInvocation SimpleName local
+established explicit tunnel SimpleName MethodInvocation BooleanLiteral true
+get session SimpleName MethodInvocation MethodInvocation SimpleName local
+get session SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get session SimpleName MethodInvocation MethodInvocation SimpleName e
+local SimpleName MethodInvocation BooleanLiteral true
+local SimpleName MethodInvocation SimpleName e
+true BooleanLiteral MethodInvocation SimpleName e
+listener SimpleName MethodInvocation SimpleName established explicit tunnel
+listener SimpleName MethodInvocation MethodInvocation SimpleName get session
+listener SimpleName MethodInvocation SimpleName local
+listener SimpleName MethodInvocation BooleanLiteral true
+established explicit tunnel SimpleName MethodInvocation MethodInvocation SimpleName get session
+established explicit tunnel SimpleName MethodInvocation SimpleName local
+established explicit tunnel SimpleName MethodInvocation BooleanLiteral true
+established explicit tunnel SimpleName MethodInvocation SimpleName result
+get session SimpleName MethodInvocation MethodInvocation SimpleName local
+get session SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get session SimpleName MethodInvocation MethodInvocation SimpleName result
+local SimpleName MethodInvocation BooleanLiteral true
+local SimpleName MethodInvocation SimpleName result
+true BooleanLiteral MethodInvocation SimpleName result
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName sshd socket address
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName local port forwarding requested
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SimpleName local port forwarding requested
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SimpleName local port forwarding requested
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName local port forwarding requested
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+local port forwarding requested SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+local port forwarding requested SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+local port forwarding requested SimpleName MethodDeclaration SimpleType SimpleName io exception
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName local port forwarding requested
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName local port forwarding requested
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

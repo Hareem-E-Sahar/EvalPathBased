@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName input stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get error stream
+public Modifier MethodDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SimpleName get error stream
+public Modifier MethodDeclaration Block ReturnStatement SimpleName shell err
+input stream SimpleName SimpleType MethodDeclaration SimpleName get error stream
+get error stream SimpleName MethodDeclaration Block ReturnStatement SimpleName shell err
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName get error stream
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get error stream

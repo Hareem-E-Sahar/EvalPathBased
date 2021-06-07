@@ -1,0 +1,116 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+names SimpleName MethodInvocation SimpleName is empty
+other SimpleName VariableDeclarationFragment SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName InfixExpression StringLiteral ends with
+path SimpleName InfixExpression SimpleName other
+path SimpleName InfixExpression StringLiteral ) should be true
+ends with StringLiteral InfixExpression SimpleName other
+ends with StringLiteral InfixExpression StringLiteral ) should be true
+other SimpleName InfixExpression StringLiteral ) should be true
+path SimpleName MethodInvocation SimpleName ends with
+path SimpleName MethodInvocation SimpleName other
+ends with SimpleName MethodInvocation SimpleName other
+assert true SimpleName MethodInvocation InfixExpression SimpleName path
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ends with
+assert true SimpleName MethodInvocation InfixExpression SimpleName other
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ) should be true
+assert true SimpleName MethodInvocation MethodInvocation SimpleName path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ends with
+assert true SimpleName MethodInvocation MethodInvocation SimpleName other
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName other
+ends with StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+ends with StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+ends with StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName other
+other SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+other SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+other SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName other
+) should be true StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+) should be true StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+) should be true StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName other
+path SimpleName InfixExpression StringLiteral ends with
+path SimpleName InfixExpression SimpleName other
+path SimpleName InfixExpression StringLiteral ) should be true
+ends with StringLiteral InfixExpression SimpleName other
+ends with StringLiteral InfixExpression StringLiteral ) should be true
+other SimpleName InfixExpression StringLiteral ) should be true
+other SimpleName MethodInvocation SimpleName to string
+path SimpleName MethodInvocation SimpleName ends with
+path SimpleName MethodInvocation MethodInvocation SimpleName other
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+ends with SimpleName MethodInvocation MethodInvocation SimpleName other
+ends with SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert true SimpleName MethodInvocation InfixExpression SimpleName path
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ends with
+assert true SimpleName MethodInvocation InfixExpression SimpleName other
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ) should be true
+assert true SimpleName MethodInvocation MethodInvocation SimpleName path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ends with
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+ends with StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+ends with StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+other SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName path
+other SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+) should be true StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+) should be true StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ends with
+other SimpleName MethodInvocation SimpleName get root
+other SimpleName MethodInvocation SimpleName get name count
+other SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get name count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation SimpleName get name count
+other SimpleName MethodInvocation SimpleName subpath
+other SimpleName MethodInvocation NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation SimpleName other
+other SimpleName MethodInvocation MethodInvocation SimpleName get name count
+subpath SimpleName MethodInvocation NumberLiteral empty
+subpath SimpleName MethodInvocation MethodInvocation SimpleName other
+subpath SimpleName MethodInvocation MethodInvocation SimpleName get name count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName other
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get name count
+other SimpleName Assignment MethodInvocation SimpleName other
+other SimpleName Assignment MethodInvocation SimpleName subpath
+other SimpleName Assignment MethodInvocation NumberLiteral empty
+other SimpleName Assignment MethodInvocation MethodInvocation SimpleName other
+other SimpleName Assignment MethodInvocation MethodInvocation SimpleName get name count
+other SimpleName MethodInvocation SimpleName get name count
+other SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get name count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+other SimpleName MethodInvocation SimpleName get name count
+other SimpleName MethodInvocation SimpleName subpath
+other SimpleName MethodInvocation NumberLiteral empty
+other SimpleName MethodInvocation MethodInvocation SimpleName other
+other SimpleName MethodInvocation MethodInvocation SimpleName get name count
+subpath SimpleName MethodInvocation NumberLiteral empty
+subpath SimpleName MethodInvocation MethodInvocation SimpleName other
+subpath SimpleName MethodInvocation MethodInvocation SimpleName get name count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName other
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get name count
+other SimpleName Assignment MethodInvocation SimpleName other
+other SimpleName Assignment MethodInvocation SimpleName subpath
+other SimpleName Assignment MethodInvocation NumberLiteral empty
+other SimpleName Assignment MethodInvocation MethodInvocation SimpleName other
+other SimpleName Assignment MethodInvocation MethodInvocation SimpleName get name count
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test ends with
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName test ends with
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+test ends with SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+test ends with SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test ends with
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test ends with
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

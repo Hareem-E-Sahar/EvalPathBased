@@ -1,0 +1,30 @@
+sshd SimpleName MethodInvocation SimpleName stop
+sshd SimpleName MethodInvocation BooleanLiteral true
+stop SimpleName MethodInvocation BooleanLiteral true
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+acceptor SimpleName MethodInvocation SimpleName dispose
+acceptor SimpleName MethodInvocation BooleanLiteral true
+dispose SimpleName MethodInvocation BooleanLiteral true
+after SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after SimpleName MarkerAnnotation MethodDeclaration SimpleName tear down
+after SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName tear down
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName tear down
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+tear down SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tear down
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tear down
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

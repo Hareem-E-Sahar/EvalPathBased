@@ -1,0 +1,151 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName b
+int PrimitiveType SingleVariableDeclaration SimpleName off
+int PrimitiveType SingleVariableDeclaration SimpleName len
+write count SimpleName MethodInvocation SimpleName increment and get
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName write count
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName increment and get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName write count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName increment and get
+msg SimpleName InfixExpression StringLiteral [
+msg SimpleName InfixExpression SimpleName count
+msg SimpleName InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName count
+[ StringLiteral InfixExpression StringLiteral ]
+count SimpleName InfixExpression StringLiteral ]
+buffer utils SimpleName MethodInvocation SimpleName dump hex
+buffer utils SimpleName MethodInvocation SimpleName log
+buffer utils SimpleName MethodInvocation QualifiedName buffer utilsdefault hexdump level
+buffer utils SimpleName MethodInvocation InfixExpression SimpleName msg
+buffer utils SimpleName MethodInvocation InfixExpression StringLiteral [
+buffer utils SimpleName MethodInvocation InfixExpression SimpleName count
+buffer utils SimpleName MethodInvocation InfixExpression StringLiteral ]
+buffer utils SimpleName MethodInvocation QualifiedName buffer utilsdefault hex separator
+dump hex SimpleName MethodInvocation SimpleName log
+dump hex SimpleName MethodInvocation QualifiedName buffer utilsdefault hexdump level
+dump hex SimpleName MethodInvocation InfixExpression SimpleName msg
+dump hex SimpleName MethodInvocation InfixExpression StringLiteral [
+dump hex SimpleName MethodInvocation InfixExpression SimpleName count
+dump hex SimpleName MethodInvocation InfixExpression StringLiteral ]
+dump hex SimpleName MethodInvocation QualifiedName buffer utilsdefault hex separator
+dump hex SimpleName MethodInvocation SimpleName chunk size
+log SimpleName MethodInvocation QualifiedName buffer utilsdefault hexdump level
+log SimpleName MethodInvocation InfixExpression SimpleName msg
+log SimpleName MethodInvocation InfixExpression StringLiteral [
+log SimpleName MethodInvocation InfixExpression SimpleName count
+log SimpleName MethodInvocation InfixExpression StringLiteral ]
+log SimpleName MethodInvocation QualifiedName buffer utilsdefault hex separator
+log SimpleName MethodInvocation SimpleName chunk size
+log SimpleName MethodInvocation SimpleName b
+buffer utilsdefault hexdump level QualifiedName MethodInvocation InfixExpression SimpleName msg
+buffer utilsdefault hexdump level QualifiedName MethodInvocation InfixExpression StringLiteral [
+buffer utilsdefault hexdump level QualifiedName MethodInvocation InfixExpression SimpleName count
+buffer utilsdefault hexdump level QualifiedName MethodInvocation InfixExpression StringLiteral ]
+buffer utilsdefault hexdump level QualifiedName MethodInvocation QualifiedName buffer utilsdefault hex separator
+buffer utilsdefault hexdump level QualifiedName MethodInvocation SimpleName chunk size
+buffer utilsdefault hexdump level QualifiedName MethodInvocation SimpleName b
+buffer utilsdefault hexdump level QualifiedName MethodInvocation SimpleName off
+msg SimpleName InfixExpression MethodInvocation QualifiedName buffer utilsdefault hex separator
+[ StringLiteral InfixExpression MethodInvocation QualifiedName buffer utilsdefault hex separator
+count SimpleName InfixExpression MethodInvocation QualifiedName buffer utilsdefault hex separator
+] StringLiteral InfixExpression MethodInvocation QualifiedName buffer utilsdefault hex separator
+msg SimpleName InfixExpression MethodInvocation SimpleName chunk size
+[ StringLiteral InfixExpression MethodInvocation SimpleName chunk size
+count SimpleName InfixExpression MethodInvocation SimpleName chunk size
+] StringLiteral InfixExpression MethodInvocation SimpleName chunk size
+msg SimpleName InfixExpression MethodInvocation SimpleName b
+[ StringLiteral InfixExpression MethodInvocation SimpleName b
+count SimpleName InfixExpression MethodInvocation SimpleName b
+] StringLiteral InfixExpression MethodInvocation SimpleName b
+msg SimpleName InfixExpression MethodInvocation SimpleName off
+[ StringLiteral InfixExpression MethodInvocation SimpleName off
+count SimpleName InfixExpression MethodInvocation SimpleName off
+] StringLiteral InfixExpression MethodInvocation SimpleName off
+msg SimpleName InfixExpression MethodInvocation SimpleName len
+[ StringLiteral InfixExpression MethodInvocation SimpleName len
+count SimpleName InfixExpression MethodInvocation SimpleName len
+] StringLiteral InfixExpression MethodInvocation SimpleName len
+buffer utilsdefault hex separator QualifiedName MethodInvocation SimpleName chunk size
+buffer utilsdefault hex separator QualifiedName MethodInvocation SimpleName b
+buffer utilsdefault hex separator QualifiedName MethodInvocation SimpleName off
+buffer utilsdefault hex separator QualifiedName MethodInvocation SimpleName len
+chunk size SimpleName MethodInvocation SimpleName b
+chunk size SimpleName MethodInvocation SimpleName off
+chunk size SimpleName MethodInvocation SimpleName len
+b SimpleName MethodInvocation SimpleName off
+b SimpleName MethodInvocation SimpleName len
+off SimpleName MethodInvocation SimpleName len
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName b
+out SimpleName MethodInvocation SimpleName off
+out SimpleName MethodInvocation SimpleName len
+write SimpleName MethodInvocation SimpleName b
+write SimpleName MethodInvocation SimpleName off
+write SimpleName MethodInvocation SimpleName len
+b SimpleName MethodInvocation SimpleName off
+b SimpleName MethodInvocation SimpleName len
+off SimpleName MethodInvocation SimpleName len
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName b
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName off
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+write SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName off
+write SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+b SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+off SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+len SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

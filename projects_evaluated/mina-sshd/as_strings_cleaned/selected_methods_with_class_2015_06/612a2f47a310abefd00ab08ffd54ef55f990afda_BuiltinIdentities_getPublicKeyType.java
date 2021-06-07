@@ -1,0 +1,21 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get public key type
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+public Modifier MethodDeclaration SimpleName get public key type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName pub type
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+final Modifier MethodDeclaration SimpleName get public key type
+final Modifier MethodDeclaration Block ReturnStatement SimpleName pub type
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get public key type
+get public key type SimpleName MethodDeclaration Block ReturnStatement SimpleName pub type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get public key type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get public key type

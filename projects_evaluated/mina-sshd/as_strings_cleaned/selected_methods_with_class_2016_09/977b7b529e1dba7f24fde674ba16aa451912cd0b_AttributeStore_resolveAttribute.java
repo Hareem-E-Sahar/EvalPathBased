@@ -1,0 +1,58 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+attribute key SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+attribute key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName key
+validate utils SimpleName MethodInvocation StringLiteral no key
+check not null SimpleName MethodInvocation SimpleName key
+check not null SimpleName MethodInvocation StringLiteral no key
+key SimpleName MethodInvocation StringLiteral no key
+channel SimpleName MethodInvocation SimpleName get attribute
+channel SimpleName MethodInvocation SimpleName key
+get attribute SimpleName MethodInvocation SimpleName key
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+channel SimpleName MethodInvocation SimpleName get session
+resolve attribute SimpleName MethodInvocation MethodInvocation SimpleName channel
+resolve attribute SimpleName MethodInvocation MethodInvocation SimpleName get session
+resolve attribute SimpleName MethodInvocation SimpleName key
+channel SimpleName MethodInvocation MethodInvocation SimpleName key
+get session SimpleName MethodInvocation MethodInvocation SimpleName key
+value SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName value
+value SimpleName ConditionalExpression MethodInvocation SimpleName resolve attribute
+value SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName channel
+value SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName get session
+value SimpleName ConditionalExpression MethodInvocation SimpleName key
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName resolve attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName resolve attribute
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName channel
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName key
+t SimpleName SimpleType MethodDeclaration SimpleName resolve attribute
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName channel
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+resolve attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+resolve attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+resolve attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,48 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local
+local SimpleName MethodInvocation SimpleName get port
+local to remote SimpleName MethodInvocation SimpleName remove
+local to remote SimpleName MethodInvocation MethodInvocation SimpleName local
+local to remote SimpleName MethodInvocation MethodInvocation SimpleName get port
+remove SimpleName MethodInvocation MethodInvocation SimpleName local
+remove SimpleName MethodInvocation MethodInvocation SimpleName get port
+local SimpleName MethodInvocation SimpleName to inet socket address
+acceptor SimpleName MethodInvocation SimpleName unbind
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName local
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+unbind SimpleName MethodInvocation MethodInvocation SimpleName local
+unbind SimpleName MethodInvocation MethodInvocation SimpleName to inet socket address
+acceptor SimpleName MethodInvocation SimpleName get bound addresses
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get bound addresses SimpleName MethodInvocation MethodInvocation SimpleName is empty
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop local port forwarding
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName stop local port forwarding
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName stop local port forwarding
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+stop local port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+stop local port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+stop local port forwarding SimpleName MethodDeclaration SimpleType SimpleName io exception
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop local port forwarding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop local port forwarding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

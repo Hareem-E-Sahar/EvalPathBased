@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algorithm
+default password SimpleName MethodInvocation SimpleName replace
+default password SimpleName MethodInvocation CharacterLiteral empty
+default password SimpleName MethodInvocation CharacterLiteral -
+replace SimpleName MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation CharacterLiteral -
+empty CharacterLiteral MethodInvocation CharacterLiteral -
+algorithm SimpleName MethodInvocation SimpleName to upper case
+default password SimpleName MethodInvocation InfixExpression StringLiteral rsa
+replace SimpleName MethodInvocation InfixExpression StringLiteral rsa
+empty CharacterLiteral MethodInvocation InfixExpression StringLiteral rsa
+- CharacterLiteral MethodInvocation InfixExpression StringLiteral rsa
+default password SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName algorithm
+default password SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+replace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName algorithm
+replace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+empty CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName algorithm
+empty CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName algorithm
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+default password SimpleName MethodInvocation InfixExpression StringLiteral key
+replace SimpleName MethodInvocation InfixExpression StringLiteral key
+empty CharacterLiteral MethodInvocation InfixExpression StringLiteral key
+- CharacterLiteral MethodInvocation InfixExpression StringLiteral key
+rsa StringLiteral InfixExpression MethodInvocation SimpleName algorithm
+rsa StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+rsa StringLiteral InfixExpression StringLiteral key
+algorithm SimpleName MethodInvocation InfixExpression StringLiteral key
+to upper case SimpleName MethodInvocation InfixExpression StringLiteral key
+test load rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName default password
+test load rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName replace
+test load rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral empty
+test load rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral -
+test load rsa private key SimpleName MethodInvocation InfixExpression StringLiteral rsa
+test load rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName algorithm
+test load rsa private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to upper case
+test load rsa private key SimpleName MethodInvocation InfixExpression StringLiteral key
+private Modifier MethodDeclaration SimpleType SimpleName key pair
+private Modifier MethodDeclaration SimpleName test load encrypted rsa private key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration SimpleType SimpleName general security exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName test load encrypted rsa private key
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+test load encrypted rsa private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test load encrypted rsa private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+test load encrypted rsa private key SimpleName MethodDeclaration SimpleType SimpleName io exception
+test load encrypted rsa private key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load encrypted rsa private key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load encrypted rsa private key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

@@ -1,0 +1,62 @@
+factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName manager
+factory manager utils SimpleName MethodInvocation SimpleName get string
+factory manager utils SimpleName MethodInvocation SimpleName manager
+factory manager utils SimpleName MethodInvocation QualifiedName ssh agentssh authsocket env name
+get string SimpleName MethodInvocation SimpleName manager
+get string SimpleName MethodInvocation QualifiedName ssh agentssh authsocket env name
+manager SimpleName MethodInvocation QualifiedName ssh agentssh authsocket env name
+proxy id SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+proxy id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+proxy id SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+proxy id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ssh agentssh authsocket env name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName proxy id
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName proxy id
+is empty SimpleName MethodInvocation SimpleName proxy id
+no StringLiteral InfixExpression QualifiedName ssh agentssh authsocket env name
+no StringLiteral InfixExpression StringLiteral environment variable set
+ssh agentssh authsocket env name QualifiedName InfixExpression StringLiteral environment variable set
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName ssh agentssh authsocket env name
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral environment variable set
+proxies SimpleName MethodInvocation SimpleName get
+proxies SimpleName MethodInvocation SimpleName proxy id
+get SimpleName MethodInvocation SimpleName proxy id
+proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName proxies
+proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName proxy id
+agent server proxy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName proxy
+no ssh agent found for id StringLiteral InfixExpression SimpleName proxy id
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no ssh agent found for id
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName proxy id
+proxy SimpleName MethodInvocation SimpleName create client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ssh agent
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create client
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName manager
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName ssh agent
+public Modifier MethodDeclaration SimpleName create client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName manager
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+ssh agent SimpleName SimpleType MethodDeclaration SimpleName create client
+ssh agent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName manager
+ssh agent SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+create client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName manager
+create client SimpleName MethodDeclaration SimpleType SimpleName io exception
+manager SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent
+public Modifier TypeDeclaration MethodDeclaration SimpleName create client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh agent
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

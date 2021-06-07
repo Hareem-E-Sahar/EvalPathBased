@@ -1,0 +1,11 @@
+big integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get pure value bytes
+public Modifier MethodDeclaration SimpleType SimpleName big integer
+public Modifier MethodDeclaration SimpleName to integer
+big integer SimpleName SimpleType MethodDeclaration SimpleName to integer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName to integer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to integer

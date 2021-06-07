@@ -1,0 +1,119 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ignore buf
+ignore data len SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve ignore buffer data length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ignore data len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName resolve ignore buffer data length
+ignore data len SimpleName InfixExpression NumberLiteral empty
+ignore data len SimpleName InfixExpression QualifiedName bytesize
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg ignore
+create buffer SimpleName MethodInvocation InfixExpression SimpleName ignore data len
+create buffer SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+ssh constantsssh msg ignore QualifiedName MethodInvocation InfixExpression SimpleName ignore data len
+ssh constantsssh msg ignore QualifiedName MethodInvocation InfixExpression QualifiedName bytesize
+ignore buf SimpleName Assignment MethodInvocation SimpleName create buffer
+ignore buf SimpleName Assignment MethodInvocation QualifiedName ssh constantsssh msg ignore
+ignore buf SimpleName Assignment MethodInvocation InfixExpression SimpleName ignore data len
+ignore buf SimpleName Assignment MethodInvocation InfixExpression QualifiedName bytesize
+ignore buf SimpleName MethodInvocation SimpleName put int
+ignore buf SimpleName MethodInvocation SimpleName ignore data len
+put int SimpleName MethodInvocation SimpleName ignore data len
+ignore buf SimpleName MethodInvocation SimpleName wpos
+wpos SimpleName VariableDeclarationFragment MethodInvocation SimpleName ignore buf
+wpos SimpleName VariableDeclarationFragment MethodInvocation SimpleName wpos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wpos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ignore buf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wpos
+ignore buf SimpleName MethodInvocation SimpleName array
+random SimpleName MethodInvocation SimpleName fill
+random SimpleName MethodInvocation MethodInvocation SimpleName ignore buf
+random SimpleName MethodInvocation MethodInvocation SimpleName array
+random SimpleName MethodInvocation SimpleName wpos
+random SimpleName MethodInvocation SimpleName ignore data len
+fill SimpleName MethodInvocation MethodInvocation SimpleName ignore buf
+fill SimpleName MethodInvocation MethodInvocation SimpleName array
+fill SimpleName MethodInvocation SimpleName wpos
+fill SimpleName MethodInvocation SimpleName ignore data len
+ignore buf SimpleName MethodInvocation MethodInvocation SimpleName wpos
+array SimpleName MethodInvocation MethodInvocation SimpleName wpos
+ignore buf SimpleName MethodInvocation MethodInvocation SimpleName ignore data len
+array SimpleName MethodInvocation MethodInvocation SimpleName ignore data len
+wpos SimpleName MethodInvocation SimpleName ignore data len
+wpos SimpleName InfixExpression SimpleName ignore data len
+ignore buf SimpleName MethodInvocation SimpleName wpos
+ignore buf SimpleName MethodInvocation InfixExpression SimpleName wpos
+ignore buf SimpleName MethodInvocation InfixExpression SimpleName ignore data len
+wpos SimpleName MethodInvocation InfixExpression SimpleName wpos
+wpos SimpleName MethodInvocation InfixExpression SimpleName ignore data len
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do write packet append ssh msg ignore message
+debug SimpleName MethodInvocation StringLiteral do write packet append ssh msg ignore message
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName lock
+buffer SimpleName MethodInvocation SimpleName rpos
+cur pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+cur pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName rpos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName array
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data SimpleName ArrayAccess SimpleName cur pos
+data SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+cur pos SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+cmd SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName data
+cmd SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName cur pos
+cmd SimpleName VariableDeclarationFragment InfixExpression NumberLiteral x ff
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral x ff
+validate target buffer SimpleName MethodInvocation SimpleName cmd
+validate target buffer SimpleName MethodInvocation SimpleName buffer
+cmd SimpleName MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName validate target buffer
+buffer SimpleName Assignment MethodInvocation SimpleName cmd
+buffer SimpleName Assignment MethodInvocation SimpleName buffer
+encode SimpleName MethodInvocation SimpleName ignore buf
+io session SimpleName MethodInvocation SimpleName write
+io session SimpleName MethodInvocation SimpleName ignore buf
+write SimpleName MethodInvocation SimpleName ignore buf
+encode SimpleName MethodInvocation SimpleName buffer
+io session SimpleName MethodInvocation SimpleName write
+io session SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName encode lock
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName encode lock
+protected Modifier MethodDeclaration SimpleType SimpleName io write future
+protected Modifier MethodDeclaration SimpleName do write packet
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName encode lock
+io write future SimpleName SimpleType MethodDeclaration SimpleName do write packet
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+do write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+do write packet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+do write packet SimpleName MethodDeclaration SimpleType SimpleName io exception
+do write packet SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do write packet SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do write packet SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do write packet SimpleName MethodDeclaration Block SynchronizedStatement SimpleName encode lock
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName do write packet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do write packet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

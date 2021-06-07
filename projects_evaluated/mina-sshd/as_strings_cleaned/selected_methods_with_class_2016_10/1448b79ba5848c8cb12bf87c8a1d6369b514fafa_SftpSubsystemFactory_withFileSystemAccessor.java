@@ -1,0 +1,28 @@
+sftp file system accessor SimpleName SimpleType SingleVariableDeclaration SimpleName accessor
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName accessor
+objects SimpleName MethodInvocation StringLiteral no accessor
+require non null SimpleName MethodInvocation SimpleName accessor
+require non null SimpleName MethodInvocation StringLiteral no accessor
+accessor SimpleName MethodInvocation StringLiteral no accessor
+file system accessor SimpleName Assignment MethodInvocation SimpleName objects
+file system accessor SimpleName Assignment MethodInvocation SimpleName require non null
+file system accessor SimpleName Assignment MethodInvocation SimpleName accessor
+file system accessor SimpleName Assignment MethodInvocation StringLiteral no accessor
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName with file system accessor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp file system accessor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName accessor
+builder SimpleName SimpleType MethodDeclaration SimpleName with file system accessor
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName accessor
+with file system accessor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp file system accessor
+with file system accessor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accessor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName with file system accessor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with file system accessor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor

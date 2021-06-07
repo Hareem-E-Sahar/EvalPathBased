@@ -1,0 +1,30 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName markers
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName markers
+find marker line SimpleName MethodInvocation SimpleName lines
+find marker line SimpleName MethodInvocation SimpleName markers
+lines SimpleName MethodInvocation SimpleName markers
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName contains marker line
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName lines
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName markers
+boolean PrimitiveType MethodDeclaration SimpleName contains marker line
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lines
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName markers
+contains marker line SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lines
+contains marker line SimpleName MethodDeclaration SingleVariableDeclaration SimpleName markers
+lines SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName markers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName contains marker line
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName markers
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName contains marker line
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName markers

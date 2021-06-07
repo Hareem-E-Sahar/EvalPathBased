@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName first
+string SimpleName SimpleType SingleVariableDeclaration SimpleName more
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName more
+to string SimpleName MethodInvocation SimpleName more
+get path StringLiteral InfixExpression SimpleName first
+get path StringLiteral InfixExpression StringLiteral )
+get path StringLiteral InfixExpression MethodInvocation SimpleName arrays
+get path StringLiteral InfixExpression MethodInvocation SimpleName to string
+get path StringLiteral InfixExpression MethodInvocation SimpleName more
+first SimpleName InfixExpression StringLiteral )
+first SimpleName InfixExpression MethodInvocation SimpleName arrays
+first SimpleName InfixExpression MethodInvocation SimpleName to string
+first SimpleName InfixExpression MethodInvocation SimpleName more
+) StringLiteral InfixExpression MethodInvocation SimpleName arrays
+) StringLiteral InfixExpression MethodInvocation SimpleName to string
+) StringLiteral InfixExpression MethodInvocation SimpleName more
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral get path
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName first
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName first
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName more
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName first
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName more
+path SimpleName SimpleType MethodDeclaration SimpleName get path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName first
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName more
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName first
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName more
+first SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName more
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName more
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName more

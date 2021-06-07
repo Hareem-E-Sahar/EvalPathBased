@@ -1,0 +1,40 @@
+big integer SimpleName SimpleType SingleVariableDeclaration SimpleName modulus
+big integer SimpleName SimpleType SingleVariableDeclaration SimpleName private exponent
+rsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName modulus
+rsa public key spec SimpleName SimpleType ClassInstanceCreation SimpleName default public exponent
+modulus SimpleName ClassInstanceCreation SimpleName default public exponent
+generate public key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName rsa public key spec
+generate public key SimpleName MethodInvocation ClassInstanceCreation SimpleName modulus
+generate public key SimpleName MethodInvocation ClassInstanceCreation SimpleName default public exponent
+protected Modifier MethodDeclaration SimpleType SimpleName rsa public key
+protected Modifier MethodDeclaration SimpleName recover public key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName big integer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName modulus
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName big integer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName private exponent
+protected Modifier MethodDeclaration SimpleType SimpleName general security exception
+rsa public key SimpleName SimpleType MethodDeclaration SimpleName recover public key
+rsa public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName modulus
+rsa public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName private exponent
+rsa public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName big integer
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName modulus
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName big integer
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName private exponent
+recover public key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+modulus SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName private exponent
+modulus SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+private exponent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rsa public key
+public Modifier TypeDeclaration MethodDeclaration SimpleName recover public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modulus
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName private exponent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rsa public key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName recover public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modulus
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName private exponent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

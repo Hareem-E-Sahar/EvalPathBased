@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName location
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName location
+is empty SimpleName MethodInvocation SimpleName location
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName builtin identities
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName path
+builtin identities SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName le
+builtin identities SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName le
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName le
+locations map SimpleName MethodInvocation SimpleName entry set
+le SimpleName MethodInvocation SimpleName get value
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName le
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName to string
+stringcase insensitive order QualifiedName MethodInvocation SimpleName compare
+stringcase insensitive order QualifiedName MethodInvocation SimpleName location
+stringcase insensitive order QualifiedName MethodInvocation MethodInvocation SimpleName path
+stringcase insensitive order QualifiedName MethodInvocation MethodInvocation SimpleName to string
+compare SimpleName MethodInvocation SimpleName location
+compare SimpleName MethodInvocation MethodInvocation SimpleName path
+compare SimpleName MethodInvocation MethodInvocation SimpleName to string
+location SimpleName MethodInvocation MethodInvocation SimpleName path
+location SimpleName MethodInvocation MethodInvocation SimpleName to string
+stringcase insensitive order QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+location SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+le SimpleName MethodInvocation SimpleName get key
+le SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName locations map
+le SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration SimpleType SimpleName builtin identities
+private Modifier MethodDeclaration SimpleName find identity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName location
+builtin identities SimpleName SimpleType MethodDeclaration SimpleName find identity
+builtin identities SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName location
+find identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName location
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin identities
+public Modifier TypeDeclaration MethodDeclaration SimpleName find identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin identities
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location

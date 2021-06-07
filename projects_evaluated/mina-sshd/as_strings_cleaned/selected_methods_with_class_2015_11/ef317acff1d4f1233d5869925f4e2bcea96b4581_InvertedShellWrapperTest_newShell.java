@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName content out
+string SimpleName SimpleType SingleVariableDeclaration SimpleName content err
+byte array output stream SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+in SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+content out SimpleName MethodInvocation SimpleName get bytes
+content out SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName content out
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+out SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName content out
+out SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+out SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+content err SimpleName MethodInvocation SimpleName get bytes
+content err SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName content err
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+err SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+err SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName content err
+err SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+err SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+bogus inverted shell SimpleName SimpleType ClassInstanceCreation SimpleName in
+bogus inverted shell SimpleName SimpleType ClassInstanceCreation SimpleName out
+bogus inverted shell SimpleName SimpleType ClassInstanceCreation SimpleName err
+in SimpleName ClassInstanceCreation SimpleName out
+in SimpleName ClassInstanceCreation SimpleName err
+out SimpleName ClassInstanceCreation SimpleName err
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName bogus inverted shell
+private Modifier MethodDeclaration SimpleName new shell
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName content out
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName content err
+static Modifier MethodDeclaration SimpleType SimpleName bogus inverted shell
+static Modifier MethodDeclaration SimpleName new shell
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName content out
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName content err
+bogus inverted shell SimpleName SimpleType MethodDeclaration SimpleName new shell
+bogus inverted shell SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName content out
+bogus inverted shell SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName content err
+new shell SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new shell SimpleName MethodDeclaration SingleVariableDeclaration SimpleName content out
+new shell SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new shell SimpleName MethodDeclaration SingleVariableDeclaration SimpleName content err
+content out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName content err
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bogus inverted shell
+public Modifier TypeDeclaration MethodDeclaration SimpleName new shell
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName content out
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName content err
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bogus inverted shell
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new shell
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName content out
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName content err

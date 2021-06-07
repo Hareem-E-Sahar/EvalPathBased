@@ -1,0 +1,229 @@
+security entity factory SimpleName SimpleType ParameterizedType SimpleType SimpleName f
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName f
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+f SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName provider
+objects SimpleName MethodInvocation StringLiteral no provider instance
+require non null SimpleName MethodInvocation SimpleName provider
+require non null SimpleName MethodInvocation StringLiteral no provider instance
+provider SimpleName MethodInvocation StringLiteral no provider instance
+entity type SimpleName MethodInvocation SimpleName get declared method
+entity type SimpleName MethodInvocation StringLiteral get instance
+entity type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+entity type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName provider
+get declared method SimpleName MethodInvocation StringLiteral get instance
+get declared method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get declared method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName provider
+get instance StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName string
+get instance StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName provider
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get declared method
+m SimpleName VariableDeclarationFragment MethodInvocation StringLiteral get instance
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+security entity factory SimpleName SimpleType ParameterizedType SimpleType SimpleName f
+security entity factory SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+entity type SimpleName MethodInvocation SimpleName get simple name
+provider SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+provider SimpleName MethodInvocation SimpleName get name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity type
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+[ StringLiteral InfixExpression MethodInvocation SimpleName entity type
+[ StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+[ StringLiteral InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression StringLiteral [
+[ StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+[ StringLiteral InfixExpression StringLiteral ]
+entity type SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+entity type SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+entity type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+entity type SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+entity type SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+] StringLiteral InfixExpression StringLiteral [
+] StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+] StringLiteral InfixExpression StringLiteral ]
+] StringLiteral InfixExpression StringLiteral [
+] StringLiteral InfixExpression MethodInvocation SimpleName provider
+] StringLiteral InfixExpression MethodInvocation SimpleName get name
+[ StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+[ StringLiteral InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression StringLiteral [
+[ StringLiteral InfixExpression MethodInvocation SimpleName provider
+[ StringLiteral InfixExpression MethodInvocation SimpleName get name
+[ StringLiteral InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName provider
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+] StringLiteral InfixExpression StringLiteral [
+] StringLiteral InfixExpression MethodInvocation SimpleName provider
+] StringLiteral InfixExpression MethodInvocation SimpleName get name
+] StringLiteral InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression MethodInvocation SimpleName provider
+[ StringLiteral InfixExpression MethodInvocation SimpleName get name
+[ StringLiteral InfixExpression StringLiteral ]
+provider SimpleName MethodInvocation InfixExpression StringLiteral ]
+get name SimpleName MethodInvocation InfixExpression StringLiteral ]
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName entity type
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName provider
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get name
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+private Modifier FieldDeclaration Modifier final
+private Modifier FieldDeclaration SimpleType SimpleName string
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName s
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+final Modifier FieldDeclaration SimpleType SimpleName string
+final Modifier FieldDeclaration VariableDeclarationFragment SimpleName s
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+string SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName s
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName f
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity type
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName f
+public Modifier MethodDeclaration SimpleName get entity type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity type
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity type
+f SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity type
+get entity type SimpleName MethodDeclaration Block ReturnStatement SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algorithm
+m SimpleName MethodInvocation SimpleName invoke
+m SimpleName MethodInvocation SimpleName algorithm
+m SimpleName MethodInvocation SimpleName provider
+invoke SimpleName MethodInvocation SimpleName algorithm
+invoke SimpleName MethodInvocation SimpleName provider
+algorithm SimpleName MethodInvocation SimpleName provider
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName invoke
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName algorithm
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+entity type SimpleName MethodInvocation SimpleName cast
+entity type SimpleName MethodInvocation SimpleName value
+cast SimpleName MethodInvocation SimpleName value
+reflective operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName t
+peel exception SimpleName MethodInvocation SimpleName t
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName general security exception
+general security exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName runtime exception
+runtime exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName error
+error SimpleName SimpleType CastExpression SimpleName e
+general security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName f
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get instance
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration SimpleType SimpleName f
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+f SimpleName SimpleType MethodDeclaration SimpleName get instance
+f SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+f SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+get instance SimpleName MethodDeclaration SimpleType SimpleName general security exception
+algorithm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get entity type
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get entity type
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get instance
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get instance
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get instance
+get entity type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get entity type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+get entity type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get entity type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+get instance SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get instance SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration TypeParameter SimpleName f
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName security entity factory
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName f
+static Modifier MethodDeclaration SimpleName to provider instance factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+f SimpleName TypeParameter MethodDeclaration SimpleName to provider instance factory
+f SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName entity type
+f SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName provider
+f SimpleName TypeParameter MethodDeclaration SimpleType SimpleName reflective operation exception
+security entity factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to provider instance factory
+f SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to provider instance factory
+to provider instance factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+to provider instance factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName provider
+to provider instance factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+to provider instance factory SimpleName MethodDeclaration SimpleType SimpleName reflective operation exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName f
+public Modifier TypeDeclaration MethodDeclaration SimpleName to provider instance factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to provider instance factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception

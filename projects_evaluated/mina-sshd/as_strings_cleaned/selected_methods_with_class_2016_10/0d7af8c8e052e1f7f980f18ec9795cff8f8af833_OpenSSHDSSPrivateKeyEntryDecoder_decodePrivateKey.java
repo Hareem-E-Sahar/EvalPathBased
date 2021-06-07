@@ -1,0 +1,120 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+file password provider SimpleName SimpleType SingleVariableDeclaration SimpleName password provider
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName key data
+key pair providerssh dss QualifiedName MethodInvocation SimpleName equals
+key pair providerssh dss QualifiedName MethodInvocation SimpleName key type
+equals SimpleName MethodInvocation SimpleName key type
+unexpected key type StringLiteral InfixExpression SimpleName key type
+invalid key spec exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected key type
+invalid key spec exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key type
+key entry resolver SimpleName MethodInvocation SimpleName decode big int
+key entry resolver SimpleName MethodInvocation SimpleName key data
+decode big int SimpleName MethodInvocation SimpleName key data
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName key entry resolver
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode big int
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName key data
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+key entry resolver SimpleName MethodInvocation SimpleName decode big int
+key entry resolver SimpleName MethodInvocation SimpleName key data
+decode big int SimpleName MethodInvocation SimpleName key data
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName key entry resolver
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode big int
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName key data
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+key entry resolver SimpleName MethodInvocation SimpleName decode big int
+key entry resolver SimpleName MethodInvocation SimpleName key data
+decode big int SimpleName MethodInvocation SimpleName key data
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName key entry resolver
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode big int
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName key data
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+key entry resolver SimpleName MethodInvocation SimpleName decode big int
+key entry resolver SimpleName MethodInvocation SimpleName key data
+decode big int SimpleName MethodInvocation SimpleName key data
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName key entry resolver
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode big int
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName key data
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName y
+objects SimpleName MethodInvocation StringLiteral no public key data
+require non null SimpleName MethodInvocation SimpleName y
+require non null SimpleName MethodInvocation StringLiteral no public key data
+y SimpleName MethodInvocation StringLiteral no public key data
+key entry resolver SimpleName MethodInvocation SimpleName decode big int
+key entry resolver SimpleName MethodInvocation SimpleName key data
+decode big int SimpleName MethodInvocation SimpleName key data
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName key entry resolver
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode big int
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName key data
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+dsa private key spec SimpleName SimpleType ClassInstanceCreation SimpleName x
+dsa private key spec SimpleName SimpleType ClassInstanceCreation SimpleName p
+dsa private key spec SimpleName SimpleType ClassInstanceCreation SimpleName q
+dsa private key spec SimpleName SimpleType ClassInstanceCreation SimpleName g
+x SimpleName ClassInstanceCreation SimpleName p
+x SimpleName ClassInstanceCreation SimpleName q
+x SimpleName ClassInstanceCreation SimpleName g
+p SimpleName ClassInstanceCreation SimpleName q
+p SimpleName ClassInstanceCreation SimpleName g
+q SimpleName ClassInstanceCreation SimpleName g
+generate private key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dsa private key spec
+generate private key SimpleName MethodInvocation ClassInstanceCreation SimpleName x
+generate private key SimpleName MethodInvocation ClassInstanceCreation SimpleName p
+generate private key SimpleName MethodInvocation ClassInstanceCreation SimpleName q
+generate private key SimpleName MethodInvocation ClassInstanceCreation SimpleName g
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName dsa private key
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName decode private key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier MethodDeclaration SimpleType SimpleName dsa private key
+public Modifier MethodDeclaration SimpleName decode private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key data
+dsa private key SimpleName SimpleType MethodDeclaration SimpleName decode private key
+dsa private key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key type
+dsa private key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName password provider
+dsa private key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key data
+dsa private key SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+decode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+decode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+decode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file password provider
+decode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password provider
+decode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+decode private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key data
+decode private key SimpleName MethodDeclaration SimpleType SimpleName io exception
+decode private key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key data
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key data
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+password provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+key data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+key data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dsa private key
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode private key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dsa private key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode private key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

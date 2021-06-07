@@ -1,0 +1,13 @@
+on failed SimpleName MethodInvocation SimpleName exc
+on failed SimpleName MethodInvocation SimpleName attachment
+exc SimpleName MethodInvocation SimpleName attachment
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName run
+object SimpleName SimpleType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

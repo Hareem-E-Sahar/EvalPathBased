@@ -1,0 +1,24 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+key identity provider SimpleName SimpleType SingleVariableDeclaration SimpleName p
+p SimpleName MethodInvocation SimpleName load keys
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName transform
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key identity provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName transform
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName transform
+transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key identity provider
+transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

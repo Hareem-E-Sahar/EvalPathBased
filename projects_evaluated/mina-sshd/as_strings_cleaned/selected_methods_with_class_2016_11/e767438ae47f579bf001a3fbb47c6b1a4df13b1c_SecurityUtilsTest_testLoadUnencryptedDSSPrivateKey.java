@@ -1,0 +1,26 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral dsakey pair
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral dsakey pair
+test load dss private key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+test load dss private key SimpleName MethodInvocation InfixExpression StringLiteral dsakey pair
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load unencrypted dss private key
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load unencrypted dss private key
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test load unencrypted dss private key
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test load unencrypted dss private key SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load unencrypted dss private key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load unencrypted dss private key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

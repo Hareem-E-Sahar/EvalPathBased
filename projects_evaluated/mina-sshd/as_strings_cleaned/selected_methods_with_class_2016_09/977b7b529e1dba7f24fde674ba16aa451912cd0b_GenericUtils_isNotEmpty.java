@@ -1,0 +1,30 @@
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+is empty SimpleName MethodInvocation SimpleName iter
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is not empty
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is not empty
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+t SimpleName TypeParameter MethodDeclaration PrimitiveType boolean
+t SimpleName TypeParameter MethodDeclaration SimpleName is not empty
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iter
+boolean PrimitiveType MethodDeclaration SimpleName is not empty
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iter
+is not empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is not empty
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is not empty
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter

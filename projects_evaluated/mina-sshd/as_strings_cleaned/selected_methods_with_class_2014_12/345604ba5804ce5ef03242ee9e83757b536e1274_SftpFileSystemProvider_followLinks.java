@@ -1,0 +1,39 @@
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName param var args
+bool SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bool
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName local link option
+local link option SimpleName InfixExpression QualifiedName link optionnofollow links
+bool SimpleName Assignment BooleanLiteral false
+link option SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName param var args
+local link option SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName param var args
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName param var args
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName bool
+param var args SimpleName EnhancedForStatement Block ReturnStatement SimpleName bool
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName follow links
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName param var args
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName param var args
+static Modifier MethodDeclaration Block ReturnStatement SimpleName bool
+boolean PrimitiveType MethodDeclaration SimpleName follow links
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName param var args
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName param var args
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName bool
+follow links SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+follow links SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param var args
+follow links SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+follow links SimpleName MethodDeclaration Block EnhancedForStatement SimpleName param var args
+follow links SimpleName MethodDeclaration Block ReturnStatement SimpleName bool
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName follow links
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param var args
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName follow links
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param var args

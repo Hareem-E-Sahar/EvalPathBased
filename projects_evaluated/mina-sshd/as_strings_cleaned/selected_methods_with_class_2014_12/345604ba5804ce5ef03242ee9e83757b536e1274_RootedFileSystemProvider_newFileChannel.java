@@ -1,0 +1,70 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+file attribute SimpleName SimpleType ParameterizedType WildcardType ?
+file attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attrs
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName attrs
+unroot SimpleName MethodInvocation SimpleName path
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+provider SimpleName MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName new file channel
+r SimpleName MethodInvocation MethodInvocation SimpleName new file channel
+provider SimpleName MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName options
+r SimpleName MethodInvocation MethodInvocation SimpleName options
+provider SimpleName MethodInvocation MethodInvocation SimpleName attrs
+r SimpleName MethodInvocation MethodInvocation SimpleName attrs
+new file channel SimpleName MethodInvocation SimpleName r
+new file channel SimpleName MethodInvocation SimpleName options
+new file channel SimpleName MethodInvocation SimpleName attrs
+r SimpleName MethodInvocation SimpleName options
+r SimpleName MethodInvocation SimpleName attrs
+options SimpleName MethodInvocation SimpleName attrs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file channel
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new file channel
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SimpleType SimpleName file channel
+public Modifier MethodDeclaration SimpleName new file channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+file channel SimpleName SimpleType MethodDeclaration SimpleName new file channel
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+file channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+file channel SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+new file channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+new file channel SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attrs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName new file channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new file channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

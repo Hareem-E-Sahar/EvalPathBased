@@ -1,0 +1,6 @@
+password identity provider SimpleName SimpleType MethodDeclaration SimpleName get password identity provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName password identity provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName get password identity provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName password identity provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get password identity provider

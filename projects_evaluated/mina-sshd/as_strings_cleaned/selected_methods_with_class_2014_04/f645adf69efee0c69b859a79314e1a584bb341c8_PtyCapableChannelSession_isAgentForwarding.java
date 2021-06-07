@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is agent forwarding
+public Modifier MethodDeclaration Block ReturnStatement SimpleName agent forwarding
+boolean PrimitiveType MethodDeclaration SimpleName is agent forwarding
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName agent forwarding
+is agent forwarding SimpleName MethodDeclaration Block ReturnStatement SimpleName agent forwarding
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is agent forwarding
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is agent forwarding

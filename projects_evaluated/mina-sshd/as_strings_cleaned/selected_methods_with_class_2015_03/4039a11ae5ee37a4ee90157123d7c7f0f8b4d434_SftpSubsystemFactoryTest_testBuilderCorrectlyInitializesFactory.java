@@ -1,0 +1,95 @@
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName sftp subsystem factorybuilder
+sftp subsystem factorybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName dummy executor
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+builder SimpleName MethodInvocation SimpleName with executor service
+builder SimpleName MethodInvocation SimpleName service
+with executor service SimpleName MethodInvocation SimpleName service
+builder SimpleName MethodInvocation MethodInvocation SimpleName with shutdown on exit
+with executor service SimpleName MethodInvocation MethodInvocation SimpleName with shutdown on exit
+service SimpleName MethodInvocation MethodInvocation SimpleName with shutdown on exit
+builder SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+with executor service SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+service SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+with shutdown on exit SimpleName MethodInvocation BooleanLiteral true
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+with executor service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+with shutdown on exit SimpleName MethodInvocation MethodInvocation SimpleName build
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName build
+factory SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName with shutdown on exit
+factory SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation BooleanLiteral true
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+sftp subsystem factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+factory SimpleName MethodInvocation SimpleName get executor service
+assert SimpleName MethodInvocation SimpleName assert same
+assert SimpleName MethodInvocation StringLiteral mismatched executor
+assert SimpleName MethodInvocation SimpleName service
+assert SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+assert same SimpleName MethodInvocation StringLiteral mismatched executor
+assert same SimpleName MethodInvocation SimpleName service
+assert same SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+mismatched executor StringLiteral MethodInvocation SimpleName service
+mismatched executor StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched executor StringLiteral MethodInvocation MethodInvocation SimpleName get executor service
+service SimpleName MethodInvocation MethodInvocation SimpleName factory
+service SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+factory SimpleName MethodInvocation SimpleName is shutdown on exit
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral mismatched shutdown state
+assert SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+assert true SimpleName MethodInvocation StringLiteral mismatched shutdown state
+assert true SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+mismatched shutdown state StringLiteral MethodInvocation MethodInvocation SimpleName factory
+mismatched shutdown state StringLiteral MethodInvocation MethodInvocation SimpleName is shutdown on exit
+unsupported attribute policy SimpleName SimpleType SingleVariableDeclaration SimpleName policy
+builder SimpleName MethodInvocation SimpleName with unsupported attribute policy
+builder SimpleName MethodInvocation SimpleName policy
+with unsupported attribute policy SimpleName MethodInvocation SimpleName policy
+builder SimpleName MethodInvocation MethodInvocation SimpleName build
+with unsupported attribute policy SimpleName MethodInvocation MethodInvocation SimpleName build
+policy SimpleName MethodInvocation MethodInvocation SimpleName build
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName builder
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName with unsupported attribute policy
+actual SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName policy
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+sftp subsystem factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+actual SimpleName MethodInvocation SimpleName get unsupported attribute policy
+assert SimpleName MethodInvocation SimpleName assert same
+assert SimpleName MethodInvocation StringLiteral mismatched unsupported attribute policy
+assert SimpleName MethodInvocation SimpleName policy
+assert SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert SimpleName MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+assert same SimpleName MethodInvocation StringLiteral mismatched unsupported attribute policy
+assert same SimpleName MethodInvocation SimpleName policy
+assert same SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+mismatched unsupported attribute policy StringLiteral MethodInvocation SimpleName policy
+mismatched unsupported attribute policy StringLiteral MethodInvocation MethodInvocation SimpleName actual
+mismatched unsupported attribute policy StringLiteral MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+policy SimpleName MethodInvocation MethodInvocation SimpleName actual
+policy SimpleName MethodInvocation MethodInvocation SimpleName get unsupported attribute policy
+unsupported attribute policy SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName unsupported attribute policyvalues
+policy SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName unsupported attribute policyvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test builder correctly initializes factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test builder correctly initializes factory
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName unsupported attribute policyvalues
+void PrimitiveType MethodDeclaration SimpleName test builder correctly initializes factory
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName unsupported attribute policyvalues
+test builder correctly initializes factory SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName unsupported attribute policyvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test builder correctly initializes factory
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test builder correctly initializes factory

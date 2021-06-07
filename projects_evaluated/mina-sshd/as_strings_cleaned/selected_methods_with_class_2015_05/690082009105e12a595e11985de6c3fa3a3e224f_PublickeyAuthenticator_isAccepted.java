@@ -1,0 +1,19 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is accepted
+public Modifier MethodDeclaration Block ReturnStatement SimpleName acceptance
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName is accepted
+final Modifier MethodDeclaration Block ReturnStatement SimpleName acceptance
+boolean PrimitiveType MethodDeclaration SimpleName is accepted
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName acceptance
+is accepted SimpleName MethodDeclaration Block ReturnStatement SimpleName acceptance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is accepted
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is accepted

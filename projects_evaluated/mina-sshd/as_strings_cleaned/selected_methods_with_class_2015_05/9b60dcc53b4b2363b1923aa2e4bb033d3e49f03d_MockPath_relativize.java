@@ -1,0 +1,30 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName other
+relativize StringLiteral InfixExpression SimpleName other
+relativize StringLiteral InfixExpression StringLiteral ) na
+other SimpleName InfixExpression StringLiteral ) na
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral relativize
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName other
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) na
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName relativize
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName relativize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+path SimpleName SimpleType MethodDeclaration SimpleName relativize
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName other
+relativize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+relativize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName relativize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName relativize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

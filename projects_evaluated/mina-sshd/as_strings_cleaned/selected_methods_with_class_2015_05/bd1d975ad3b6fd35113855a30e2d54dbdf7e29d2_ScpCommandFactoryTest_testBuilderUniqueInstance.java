@@ -1,0 +1,77 @@
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName scp command factorybuilder
+scp command factorybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName with delegate
+builder SimpleName MethodInvocation MethodInvocation SimpleName dummy factory
+with delegate SimpleName MethodInvocation MethodInvocation SimpleName dummy factory
+builder SimpleName MethodInvocation MethodInvocation SimpleName build
+with delegate SimpleName MethodInvocation MethodInvocation SimpleName build
+dummy factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName builder
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName with delegate
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+scp command factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+builder SimpleName MethodInvocation SimpleName build
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+scp command factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+assert not same SimpleName MethodInvocation StringLiteral no new instance built
+assert not same SimpleName MethodInvocation SimpleName f
+assert not same SimpleName MethodInvocation SimpleName f
+no new instance built StringLiteral MethodInvocation SimpleName f
+no new instance built StringLiteral MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName get delegate command factory
+f SimpleName MethodInvocation SimpleName get delegate command factory
+assert same SimpleName MethodInvocation StringLiteral mismatched delegate
+assert same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get delegate command factory
+assert same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get delegate command factory
+mismatched delegate StringLiteral MethodInvocation MethodInvocation SimpleName f
+mismatched delegate StringLiteral MethodInvocation MethodInvocation SimpleName get delegate command factory
+mismatched delegate StringLiteral MethodInvocation MethodInvocation SimpleName f
+mismatched delegate StringLiteral MethodInvocation MethodInvocation SimpleName get delegate command factory
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get delegate command factory
+get delegate command factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+get delegate command factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get delegate command factory
+builder SimpleName MethodInvocation SimpleName with delegate
+builder SimpleName MethodInvocation MethodInvocation SimpleName dummy factory
+with delegate SimpleName MethodInvocation MethodInvocation SimpleName dummy factory
+builder SimpleName MethodInvocation MethodInvocation SimpleName build
+with delegate SimpleName MethodInvocation MethodInvocation SimpleName build
+dummy factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName builder
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName with delegate
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+scp command factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName get delegate command factory
+f SimpleName MethodInvocation SimpleName get delegate command factory
+assert not same SimpleName MethodInvocation StringLiteral delegate not changed
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName get delegate command factory
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName f
+assert not same SimpleName MethodInvocation MethodInvocation SimpleName get delegate command factory
+delegate not changed StringLiteral MethodInvocation MethodInvocation SimpleName f
+delegate not changed StringLiteral MethodInvocation MethodInvocation SimpleName get delegate command factory
+delegate not changed StringLiteral MethodInvocation MethodInvocation SimpleName f
+delegate not changed StringLiteral MethodInvocation MethodInvocation SimpleName get delegate command factory
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get delegate command factory
+get delegate command factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+get delegate command factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get delegate command factory
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test builder unique instance
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test builder unique instance
+void PrimitiveType MethodDeclaration SimpleName test builder unique instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test builder unique instance
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test builder unique instance

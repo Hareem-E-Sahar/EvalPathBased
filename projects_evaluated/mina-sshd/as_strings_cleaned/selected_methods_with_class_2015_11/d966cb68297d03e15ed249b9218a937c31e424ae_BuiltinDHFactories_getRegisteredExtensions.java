@@ -1,0 +1,30 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName dh factory
+extensions SimpleName MethodInvocation SimpleName values
+generic utils SimpleName MethodInvocation SimpleName as sorted set
+generic utils SimpleName MethodInvocation QualifiedName named resourceby name comparator
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName extensions
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName values
+as sorted set SimpleName MethodInvocation QualifiedName named resourceby name comparator
+as sorted set SimpleName MethodInvocation MethodInvocation SimpleName extensions
+as sorted set SimpleName MethodInvocation MethodInvocation SimpleName values
+named resourceby name comparator QualifiedName MethodInvocation MethodInvocation SimpleName extensions
+named resourceby name comparator QualifiedName MethodInvocation MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dh factory
+public Modifier MethodDeclaration SimpleName get registered extensions
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName extensions
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dh factory
+static Modifier MethodDeclaration SimpleName get registered extensions
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName extensions
+sorted set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered extensions
+dh factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get registered extensions
+get registered extensions SimpleName MethodDeclaration Block SynchronizedStatement SimpleName extensions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered extensions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered extensions

@@ -1,0 +1,34 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName b
+bytesize QualifiedName InfixExpression QualifiedName bytesize
+ensure capacity SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+ensure capacity SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+data SimpleName ArrayAccess PostfixExpression SimpleName wpos
+data SimpleName ArrayAccess Assignment SimpleName b
+wpos SimpleName PostfixExpression ArrayAccess Assignment SimpleName b
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName put byte
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put byte
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SimpleName put byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+put byte SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+put byte SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

@@ -1,0 +1,21 @@
+unsupported attribute policy SimpleName SimpleType SingleVariableDeclaration SimpleName p
+factory SimpleName MethodInvocation SimpleName set unsupported attribute policy
+factory SimpleName MethodInvocation SimpleName p
+set unsupported attribute policy SimpleName MethodInvocation SimpleName p
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName with unsupported attribute policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+builder SimpleName SimpleType MethodDeclaration SimpleName with unsupported attribute policy
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+with unsupported attribute policy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName unsupported attribute policy
+with unsupported attribute policy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName with unsupported attribute policy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with unsupported attribute policy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

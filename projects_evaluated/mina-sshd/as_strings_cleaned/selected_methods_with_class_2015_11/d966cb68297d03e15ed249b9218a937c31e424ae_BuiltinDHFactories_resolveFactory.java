@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+from factory name SimpleName MethodInvocation SimpleName name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName from factory name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+dh factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+extensions SimpleName MethodInvocation SimpleName get
+extensions SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName dh factory
+public Modifier MethodDeclaration SimpleName resolve factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName extensions
+static Modifier MethodDeclaration SimpleType SimpleName dh factory
+static Modifier MethodDeclaration SimpleName resolve factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName extensions
+dh factory SimpleName SimpleType MethodDeclaration SimpleName resolve factory
+dh factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+resolve factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+resolve factory SimpleName MethodDeclaration Block SynchronizedStatement SimpleName extensions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dh factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dh factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

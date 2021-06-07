@@ -1,0 +1,308 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName rpos
+cur pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+cur pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName rpos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rpos
+cur pos SimpleName InfixExpression QualifiedName ssh constantsssh packet header len
+buffer SimpleName MethodInvocation SimpleName array
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data SimpleName ArrayAccess SimpleName cur pos
+data SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+cur pos SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+cmd SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName data
+cmd SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName cur pos
+cmd SimpleName VariableDeclarationFragment InfixExpression NumberLiteral x ff
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral x ff
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral encode command performance cost available buffer packet header length ({}) below min required ({})
+log SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+log SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+log SimpleName MethodInvocation MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation SimpleName cur pos
+warn SimpleName MethodInvocation StringLiteral encode command performance cost available buffer packet header length ({}) below min required ({})
+warn SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+warn SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+warn SimpleName MethodInvocation MethodInvocation SimpleName cmd
+warn SimpleName MethodInvocation SimpleName cur pos
+warn SimpleName MethodInvocation QualifiedName ssh constantsssh packet header len
+encode command performance cost available buffer packet header length ({}) below min required ({}) StringLiteral MethodInvocation MethodInvocation SimpleName ssh constants
+encode command performance cost available buffer packet header length ({}) below min required ({}) StringLiteral MethodInvocation MethodInvocation SimpleName get command message name
+encode command performance cost available buffer packet header length ({}) below min required ({}) StringLiteral MethodInvocation MethodInvocation SimpleName cmd
+encode command performance cost available buffer packet header length ({}) below min required ({}) StringLiteral MethodInvocation SimpleName cur pos
+encode command performance cost available buffer packet header length ({}) below min required ({}) StringLiteral MethodInvocation QualifiedName ssh constantsssh packet header len
+ssh constants SimpleName MethodInvocation MethodInvocation SimpleName cur pos
+get command message name SimpleName MethodInvocation MethodInvocation SimpleName cur pos
+cmd SimpleName MethodInvocation MethodInvocation SimpleName cur pos
+ssh constants SimpleName MethodInvocation MethodInvocation QualifiedName ssh constantsssh packet header len
+get command message name SimpleName MethodInvocation MethodInvocation QualifiedName ssh constantsssh packet header len
+cmd SimpleName MethodInvocation MethodInvocation QualifiedName ssh constantsssh packet header len
+cur pos SimpleName MethodInvocation QualifiedName ssh constantsssh packet header len
+buffer SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation InfixExpression QualifiedName longsize
+available SimpleName MethodInvocation InfixExpression QualifiedName longsize
+byte array buffer SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName longsize
+byte array buffer SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+buffer SimpleName MethodInvocation InfixExpression ClassInstanceCreation BooleanLiteral false
+available SimpleName MethodInvocation InfixExpression ClassInstanceCreation BooleanLiteral false
+longsize QualifiedName InfixExpression ClassInstanceCreation BooleanLiteral false
+nb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+nb SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName longsize
+nb SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nb
+nb SimpleName MethodInvocation SimpleName wpos
+nb SimpleName MethodInvocation QualifiedName ssh constantsssh packet header len
+wpos SimpleName MethodInvocation QualifiedName ssh constantsssh packet header len
+nb SimpleName MethodInvocation SimpleName put buffer
+nb SimpleName MethodInvocation SimpleName buffer
+put buffer SimpleName MethodInvocation SimpleName buffer
+buffer SimpleName Assignment SimpleName nb
+buffer SimpleName MethodInvocation SimpleName rpos
+cur pos SimpleName Assignment MethodInvocation SimpleName buffer
+cur pos SimpleName Assignment MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName available
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+cur pos SimpleName InfixExpression QualifiedName ssh constantsssh packet header len
+off SimpleName VariableDeclarationFragment InfixExpression SimpleName cur pos
+off SimpleName VariableDeclarationFragment InfixExpression QualifiedName ssh constantsssh packet header len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName off
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName cur pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName ssh constantsssh packet header len
+log SimpleName MethodInvocation SimpleName is trace enabled
+encode StringLiteral InfixExpression StringLiteral ) packet #
+encode StringLiteral InfixExpression SimpleName seqo
+) packet # StringLiteral InfixExpression SimpleName seqo
+buffer SimpleName MethodInvocation SimpleName dump hex
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get simplified logger
+buffer SimpleName MethodInvocation InfixExpression StringLiteral encode
+buffer SimpleName MethodInvocation InfixExpression StringLiteral ) packet #
+buffer SimpleName MethodInvocation InfixExpression SimpleName seqo
+dump hex SimpleName MethodInvocation MethodInvocation SimpleName get simplified logger
+dump hex SimpleName MethodInvocation InfixExpression StringLiteral encode
+dump hex SimpleName MethodInvocation InfixExpression StringLiteral ) packet #
+dump hex SimpleName MethodInvocation InfixExpression SimpleName seqo
+get simplified logger SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral encode
+get simplified logger SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ) packet #
+get simplified logger SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName seqo
+out compression SimpleName MethodInvocation SimpleName is compression executed
+out compression SimpleName MethodInvocation SimpleName is delayed
+out compression SimpleName MethodInvocation SimpleName compress
+out compression SimpleName MethodInvocation SimpleName buffer
+compress SimpleName MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName available
+len SimpleName Assignment MethodInvocation SimpleName buffer
+len SimpleName Assignment MethodInvocation SimpleName available
+bsize SimpleName VariableDeclarationFragment SimpleName out cipher size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bsize
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName out cipher size
+old len SimpleName VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName old len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+len SimpleName Assignment QualifiedName ssh constantsssh packet header len
+bsize SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pad
+pad SimpleName InfixExpression SimpleName bsize
+pad SimpleName Assignment SimpleName bsize
+len SimpleName InfixExpression SimpleName pad
+len SimpleName InfixExpression InfixExpression NumberLiteral empty
+pad SimpleName InfixExpression InfixExpression NumberLiteral empty
+len SimpleName Assignment InfixExpression InfixExpression SimpleName len
+len SimpleName Assignment InfixExpression InfixExpression SimpleName pad
+len SimpleName Assignment InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName wpos
+buffer SimpleName MethodInvocation SimpleName off
+wpos SimpleName MethodInvocation SimpleName off
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName len
+put int SimpleName MethodInvocation SimpleName len
+byte PrimitiveType CastExpression SimpleName pad
+buffer SimpleName MethodInvocation SimpleName put byte
+buffer SimpleName MethodInvocation CastExpression PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression SimpleName pad
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression SimpleName pad
+off SimpleName InfixExpression SimpleName old len
+off SimpleName InfixExpression QualifiedName ssh constantsssh packet header len
+off SimpleName InfixExpression SimpleName pad
+old len SimpleName InfixExpression QualifiedName ssh constantsssh packet header len
+old len SimpleName InfixExpression SimpleName pad
+ssh constantsssh packet header len QualifiedName InfixExpression SimpleName pad
+buffer SimpleName MethodInvocation SimpleName wpos
+buffer SimpleName MethodInvocation InfixExpression SimpleName off
+buffer SimpleName MethodInvocation InfixExpression SimpleName old len
+buffer SimpleName MethodInvocation InfixExpression QualifiedName ssh constantsssh packet header len
+buffer SimpleName MethodInvocation InfixExpression SimpleName pad
+wpos SimpleName MethodInvocation InfixExpression SimpleName off
+wpos SimpleName MethodInvocation InfixExpression SimpleName old len
+wpos SimpleName MethodInvocation InfixExpression QualifiedName ssh constantsssh packet header len
+wpos SimpleName MethodInvocation InfixExpression SimpleName pad
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName wpos
+buffer SimpleName MethodInvocation InfixExpression SimpleName pad
+wpos SimpleName MethodInvocation InfixExpression SimpleName pad
+random SimpleName MethodInvocation SimpleName fill
+random SimpleName MethodInvocation MethodInvocation SimpleName buffer
+random SimpleName MethodInvocation MethodInvocation SimpleName array
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName wpos
+random SimpleName MethodInvocation InfixExpression SimpleName pad
+random SimpleName MethodInvocation SimpleName pad
+fill SimpleName MethodInvocation MethodInvocation SimpleName buffer
+fill SimpleName MethodInvocation MethodInvocation SimpleName array
+fill SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+fill SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName wpos
+fill SimpleName MethodInvocation InfixExpression SimpleName pad
+fill SimpleName MethodInvocation SimpleName pad
+buffer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName pad
+array SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName pad
+buffer SimpleName MethodInvocation MethodInvocation SimpleName pad
+array SimpleName MethodInvocation MethodInvocation SimpleName pad
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pad
+wpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pad
+pad SimpleName InfixExpression MethodInvocation SimpleName pad
+out mac SimpleName MethodInvocation SimpleName get block size
+mac size SimpleName VariableDeclarationFragment MethodInvocation SimpleName out mac
+mac size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get block size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mac size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName out mac
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get block size
+buffer SimpleName MethodInvocation SimpleName wpos
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName wpos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wpos
+l SimpleName InfixExpression SimpleName mac size
+buffer SimpleName MethodInvocation SimpleName wpos
+buffer SimpleName MethodInvocation InfixExpression SimpleName l
+buffer SimpleName MethodInvocation InfixExpression SimpleName mac size
+wpos SimpleName MethodInvocation InfixExpression SimpleName l
+wpos SimpleName MethodInvocation InfixExpression SimpleName mac size
+out mac SimpleName MethodInvocation SimpleName update u int
+out mac SimpleName MethodInvocation SimpleName seqo
+update u int SimpleName MethodInvocation SimpleName seqo
+buffer SimpleName MethodInvocation SimpleName array
+out mac SimpleName MethodInvocation SimpleName update
+out mac SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out mac SimpleName MethodInvocation MethodInvocation SimpleName array
+out mac SimpleName MethodInvocation SimpleName off
+out mac SimpleName MethodInvocation SimpleName l
+update SimpleName MethodInvocation MethodInvocation SimpleName buffer
+update SimpleName MethodInvocation MethodInvocation SimpleName array
+update SimpleName MethodInvocation SimpleName off
+update SimpleName MethodInvocation SimpleName l
+buffer SimpleName MethodInvocation MethodInvocation SimpleName off
+array SimpleName MethodInvocation MethodInvocation SimpleName off
+buffer SimpleName MethodInvocation MethodInvocation SimpleName l
+array SimpleName MethodInvocation MethodInvocation SimpleName l
+off SimpleName MethodInvocation SimpleName l
+buffer SimpleName MethodInvocation SimpleName array
+out mac SimpleName MethodInvocation SimpleName do final
+out mac SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out mac SimpleName MethodInvocation MethodInvocation SimpleName array
+out mac SimpleName MethodInvocation SimpleName l
+do final SimpleName MethodInvocation MethodInvocation SimpleName buffer
+do final SimpleName MethodInvocation MethodInvocation SimpleName array
+do final SimpleName MethodInvocation SimpleName l
+buffer SimpleName MethodInvocation MethodInvocation SimpleName l
+array SimpleName MethodInvocation MethodInvocation SimpleName l
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName MethodInvocation SimpleName array
+len SimpleName InfixExpression NumberLiteral empty
+out cipher SimpleName MethodInvocation SimpleName update
+out cipher SimpleName MethodInvocation MethodInvocation SimpleName buffer
+out cipher SimpleName MethodInvocation MethodInvocation SimpleName array
+out cipher SimpleName MethodInvocation SimpleName off
+out cipher SimpleName MethodInvocation InfixExpression SimpleName len
+out cipher SimpleName MethodInvocation InfixExpression NumberLiteral empty
+update SimpleName MethodInvocation MethodInvocation SimpleName buffer
+update SimpleName MethodInvocation MethodInvocation SimpleName array
+update SimpleName MethodInvocation SimpleName off
+update SimpleName MethodInvocation InfixExpression SimpleName len
+update SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation MethodInvocation SimpleName off
+array SimpleName MethodInvocation MethodInvocation SimpleName off
+buffer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName len
+buffer SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+array SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName len
+array SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+off SimpleName MethodInvocation InfixExpression SimpleName len
+off SimpleName MethodInvocation InfixExpression NumberLiteral empty
+len SimpleName InfixExpression NumberLiteral empty
+out cipher SimpleName MethodInvocation SimpleName get block size
+blocks count SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName out cipher
+blocks count SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get block size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName blocks count
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation NumberLiteral empty
+math SimpleName MethodInvocation SimpleName blocks count
+max SimpleName MethodInvocation NumberLiteral empty
+max SimpleName MethodInvocation SimpleName blocks count
+empty NumberLiteral MethodInvocation SimpleName blocks count
+out blocks count SimpleName MethodInvocation SimpleName add and get
+out blocks count SimpleName MethodInvocation MethodInvocation SimpleName math
+out blocks count SimpleName MethodInvocation MethodInvocation SimpleName max
+out blocks count SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+out blocks count SimpleName MethodInvocation MethodInvocation SimpleName blocks count
+add and get SimpleName MethodInvocation MethodInvocation SimpleName math
+add and get SimpleName MethodInvocation MethodInvocation SimpleName max
+add and get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+add and get SimpleName MethodInvocation MethodInvocation SimpleName blocks count
+seqo SimpleName InfixExpression NumberLiteral empty
+seqo SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xffffffff l
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xffffffff l
+seqo SimpleName Assignment InfixExpression NumberLiteral xffffffff l
+out packets count SimpleName MethodInvocation SimpleName increment and get
+out bytes count SimpleName MethodInvocation SimpleName add and get
+out bytes count SimpleName MethodInvocation SimpleName len
+add and get SimpleName MethodInvocation SimpleName len
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName off
+rpos SimpleName MethodInvocation SimpleName off
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ssh exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SimpleName encode
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SimpleType MethodDeclaration SimpleName encode
+buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+buffer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+encode SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

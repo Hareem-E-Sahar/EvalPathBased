@@ -1,0 +1,132 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+final Modifier VariableDeclarationStatement SimpleType SimpleName session
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName get int property
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName max concurrent channels prop
+property resolver utils SimpleName MethodInvocation SimpleName default max channels
+get int property SimpleName MethodInvocation SimpleName session
+get int property SimpleName MethodInvocation SimpleName max concurrent channels prop
+get int property SimpleName MethodInvocation SimpleName default max channels
+session SimpleName MethodInvocation SimpleName max concurrent channels prop
+session SimpleName MethodInvocation SimpleName default max channels
+max concurrent channels prop SimpleName MethodInvocation SimpleName default max channels
+max channels SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+max channels SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int property
+max channels SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+max channels SimpleName VariableDeclarationFragment MethodInvocation SimpleName max concurrent channels prop
+max channels SimpleName VariableDeclarationFragment MethodInvocation SimpleName default max channels
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max channels
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName session
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max concurrent channels prop
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default max channels
+channels SimpleName MethodInvocation SimpleName size
+cur size SimpleName VariableDeclarationFragment MethodInvocation SimpleName channels
+cur size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName channels
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+cur size SimpleName InfixExpression SimpleName max channels
+currently active channels ( StringLiteral InfixExpression SimpleName cur size
+currently active channels ( StringLiteral InfixExpression StringLiteral ) at max
+currently active channels ( StringLiteral InfixExpression SimpleName max channels
+cur size SimpleName InfixExpression StringLiteral ) at max
+cur size SimpleName InfixExpression SimpleName max channels
+) at max StringLiteral InfixExpression SimpleName max channels
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral currently active channels (
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cur size
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) at max
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max channels
+channel id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next channel id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get next channel id
+channel SimpleName MethodInvocation SimpleName init
+channel SimpleName MethodInvocation SimpleName session
+channel SimpleName MethodInvocation SimpleName channel id
+init SimpleName MethodInvocation SimpleName session
+init SimpleName MethodInvocation SimpleName channel id
+session SimpleName MethodInvocation SimpleName channel id
+session is being closed StringLiteral InfixExpression MethodInvocation SimpleName to string
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral session is being closed
+channels SimpleName MethodInvocation SimpleName put
+channels SimpleName MethodInvocation SimpleName channel id
+channels SimpleName MethodInvocation SimpleName channel
+put SimpleName MethodInvocation SimpleName channel id
+put SimpleName MethodInvocation SimpleName channel
+channel id SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral register channelid {}
+log SimpleName MethodInvocation SimpleName channel id
+log SimpleName MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation StringLiteral register channelid {}
+debug SimpleName MethodInvocation SimpleName channel id
+debug SimpleName MethodInvocation SimpleName channel
+register channelid {} StringLiteral MethodInvocation SimpleName channel id
+register channelid {} StringLiteral MethodInvocation SimpleName channel
+channel id SimpleName MethodInvocation SimpleName channel
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName lock
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName lock
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName lock
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName channel id
+lock SimpleName SynchronizedStatement Block ReturnStatement SimpleName channel id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName register channel
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName channel
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName register channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier MethodDeclaration Block ReturnStatement SimpleName channel id
+int PrimitiveType MethodDeclaration SimpleName register channel
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName channel id
+register channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+register channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+register channel SimpleName MethodDeclaration SimpleType SimpleName io exception
+register channel SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+register channel SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+register channel SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+register channel SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+register channel SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+register channel SimpleName MethodDeclaration Block ReturnStatement SimpleName channel id
+channel SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName register channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

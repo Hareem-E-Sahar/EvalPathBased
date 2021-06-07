@@ -1,0 +1,28 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName iterable
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName key pair
+final Modifier SingleVariableDeclaration SimpleName pairs
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pairs
+key pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pairs
+pairs SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName empty keys provider
+empty keys provider SimpleName ConditionalExpression LambdaExpression SimpleName pairs
+static Modifier MethodDeclaration SimpleType SimpleName key identity provider
+static Modifier MethodDeclaration SimpleName wrap
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pairs
+key identity provider SimpleName SimpleType MethodDeclaration SimpleName wrap
+key identity provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+key identity provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pairs
+wrap SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+wrap SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pairs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pairs
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key identity provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pairs

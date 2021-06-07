@@ -1,0 +1,39 @@
+manager SimpleName MethodInvocation SimpleName get properties
+manager SimpleName MethodInvocation MethodInvocation SimpleName get
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get
+manager SimpleName MethodInvocation MethodInvocation QualifiedName factory managernio workers
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName factory managernio workers
+get SimpleName MethodInvocation QualifiedName factory managernio workers
+nio workers SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName manager
+nio workers SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get properties
+nio workers SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+nio workers SimpleName VariableDeclarationFragment MethodInvocation QualifiedName factory managernio workers
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nio workers
+nio workers SimpleName MethodInvocation SimpleName length
+nio workers SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+nio workers SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName nio workers
+parse int SimpleName MethodInvocation SimpleName nio workers
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+nb SimpleName VariableDeclarationFragment MethodInvocation SimpleName nio workers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nio workers
+nb SimpleName InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get nio workers
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName factory managerdefault nio workers
+int PrimitiveType MethodDeclaration SimpleName get nio workers
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName factory managerdefault nio workers
+get nio workers SimpleName MethodDeclaration Block ReturnStatement QualifiedName factory managerdefault nio workers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get nio workers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get nio workers

@@ -1,0 +1,56 @@
+int PrimitiveType SingleVariableDeclaration SimpleName exit value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName exit message
+output debug message SimpleName MethodInvocation StringLiteral on exits statusd
+output debug message SimpleName MethodInvocation SimpleName exit value
+on exits statusd StringLiteral MethodInvocation SimpleName exit value
+exit value SimpleName InfixExpression QualifiedName scp helperok
+delegate SimpleName MethodInvocation SimpleName on exit
+delegate SimpleName MethodInvocation SimpleName test exit value
+delegate SimpleName MethodInvocation SimpleName exit message
+on exit SimpleName MethodInvocation SimpleName test exit value
+on exit SimpleName MethodInvocation SimpleName exit message
+test exit value SimpleName MethodInvocation SimpleName exit message
+delegate SimpleName MethodInvocation SimpleName on exit
+delegate SimpleName MethodInvocation SimpleName exit value
+delegate SimpleName MethodInvocation SimpleName exit message
+on exit SimpleName MethodInvocation SimpleName exit value
+on exit SimpleName MethodInvocation SimpleName exit message
+exit value SimpleName MethodInvocation SimpleName exit message
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on exit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName exit message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on exit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exit message
+void PrimitiveType MethodDeclaration SimpleName on exit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exit message
+on exit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit value
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exit message
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+exit value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on exit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on exit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exit message

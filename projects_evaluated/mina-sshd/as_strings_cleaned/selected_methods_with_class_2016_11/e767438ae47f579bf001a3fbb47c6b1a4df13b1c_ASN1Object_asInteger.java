@@ -1,0 +1,23 @@
+type value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get obj type
+asn type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type value
+asn typeinteger QualifiedName MethodInvocation SimpleName equals
+asn typeinteger QualifiedName MethodInvocation SimpleName type value
+equals SimpleName MethodInvocation SimpleName type value
+invalid der object is not integer StringLiteral InfixExpression SimpleName type value
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid der object is not integer
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type value
+public Modifier MethodDeclaration SimpleType SimpleName big integer
+public Modifier MethodDeclaration SimpleName as integer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+big integer SimpleName SimpleType MethodDeclaration SimpleName as integer
+big integer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+as integer SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName as integer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

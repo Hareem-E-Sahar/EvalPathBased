@@ -1,0 +1,42 @@
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+big integer SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName to byte array
+write rle bytes SimpleName MethodInvocation SimpleName s
+write rle bytes SimpleName MethodInvocation MethodInvocation SimpleName v
+write rle bytes SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+s SimpleName MethodInvocation MethodInvocation SimpleName v
+s SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName encode big int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName big integer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName encode big int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName big integer
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+encode big int SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+encode big int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+encode big int SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName big integer
+encode big int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+encode big int SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode big int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode big int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

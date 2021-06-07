@@ -1,0 +1,33 @@
+int PrimitiveType SingleVariableDeclaration SimpleName port
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get forwarding filter
+forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+filter SimpleName MethodInvocation SimpleName is local port forwarding started for port
+filter SimpleName MethodInvocation SimpleName port
+is local port forwarding started for port SimpleName MethodInvocation SimpleName port
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is local port forwarding started for port
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is local port forwarding started for port
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+boolean PrimitiveType MethodDeclaration SimpleName is local port forwarding started for port
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName port
+is local port forwarding started for port SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+is local port forwarding started for port SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is local port forwarding started for port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is local port forwarding started for port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port

@@ -1,0 +1,50 @@
+cipher SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get block size
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName c
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName get block size
+key SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+key SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName c
+key SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName get block size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+c SimpleName MethodInvocation SimpleName get iv size
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName c
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName get iv size
+iv SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+iv SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName c
+iv SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName get iv size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName iv
+c SimpleName MethodInvocation SimpleName init
+c SimpleName MethodInvocation QualifiedName ciphermodeencrypt
+c SimpleName MethodInvocation SimpleName key
+c SimpleName MethodInvocation SimpleName iv
+init SimpleName MethodInvocation QualifiedName ciphermodeencrypt
+init SimpleName MethodInvocation SimpleName key
+init SimpleName MethodInvocation SimpleName iv
+ciphermodeencrypt QualifiedName MethodInvocation SimpleName key
+ciphermodeencrypt QualifiedName MethodInvocation SimpleName iv
+key SimpleName MethodInvocation SimpleName iv
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleName check supported
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cipher
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration SimpleName check supported
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cipher
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+exception SimpleName SimpleType MethodDeclaration SimpleName check supported
+exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName c
+check supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cipher
+check supported SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName check supported
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check supported
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

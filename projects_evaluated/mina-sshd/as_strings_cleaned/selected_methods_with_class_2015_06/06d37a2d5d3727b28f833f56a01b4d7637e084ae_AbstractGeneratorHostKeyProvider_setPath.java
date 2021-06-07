@@ -1,0 +1,20 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName MethodInvocation SimpleName to absolute path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName set path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+set path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+unknown command to execute StringLiteral InfixExpression SimpleName command
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown command to execute
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName command
+protected Modifier MethodDeclaration SimpleType SimpleName command
+protected Modifier MethodDeclaration SimpleName create unsupported command
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+command SimpleName SimpleType MethodDeclaration SimpleName create unsupported command
+command SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName command
+create unsupported command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create unsupported command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SimpleName create unsupported command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create unsupported command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command

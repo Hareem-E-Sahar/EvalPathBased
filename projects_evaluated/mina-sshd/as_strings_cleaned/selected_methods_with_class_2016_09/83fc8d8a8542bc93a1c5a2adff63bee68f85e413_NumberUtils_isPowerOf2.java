@@ -1,0 +1,41 @@
+long PrimitiveType SingleVariableDeclaration SimpleName value
+long SimpleName SimpleType SingleVariableDeclaration SimpleName l
+value SimpleName InfixExpression SimpleName l
+long SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName powers of two
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName powers of two
+powers of two SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is power of
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName powers of two
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is power of
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName powers of two
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is power of
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName powers of two
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is power of SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+is power of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+is power of SimpleName MethodDeclaration Block EnhancedForStatement SimpleName powers of two
+is power of SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is power of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is power of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

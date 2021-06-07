@@ -1,0 +1,26 @@
+close SimpleName SuperMethodInvocation BooleanLiteral true
+connector SimpleName MethodInvocation SimpleName close
+connector SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+thread SimpleName SimpleType ClassInstanceCreation StringLiteral tcp ip server channelconnector cleanup
+tcp ip server channelconnector cleanup StringLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+tcp ip server channelconnector cleanup StringLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+tcp ip server channelconnector cleanup StringLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName run
+thread SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+tcp ip server channelconnector cleanup StringLiteral ClassInstanceCreation MethodInvocation SimpleName start
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName close immediately
+void PrimitiveType MethodDeclaration SimpleName close immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close immediately

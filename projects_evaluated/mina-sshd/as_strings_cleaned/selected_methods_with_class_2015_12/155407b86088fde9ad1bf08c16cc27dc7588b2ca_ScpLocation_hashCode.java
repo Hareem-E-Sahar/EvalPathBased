@@ -1,0 +1,34 @@
+os utils SimpleName MethodInvocation SimpleName get comparable path
+os utils SimpleName MethodInvocation MethodInvocation SimpleName get path
+get comparable path SimpleName MethodInvocation MethodInvocation SimpleName get path
+objects SimpleName MethodInvocation SimpleName hash
+objects SimpleName MethodInvocation MethodInvocation SimpleName get host
+objects SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+objects SimpleName MethodInvocation MethodInvocation SimpleName os utils
+objects SimpleName MethodInvocation MethodInvocation SimpleName get comparable path
+objects SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+hash SimpleName MethodInvocation MethodInvocation SimpleName get host
+hash SimpleName MethodInvocation MethodInvocation SimpleName resolve username
+hash SimpleName MethodInvocation MethodInvocation SimpleName os utils
+hash SimpleName MethodInvocation MethodInvocation SimpleName get comparable path
+hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resolve username
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName os utils
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get comparable path
+resolve username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName os utils
+resolve username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get comparable path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration SimpleName hash code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

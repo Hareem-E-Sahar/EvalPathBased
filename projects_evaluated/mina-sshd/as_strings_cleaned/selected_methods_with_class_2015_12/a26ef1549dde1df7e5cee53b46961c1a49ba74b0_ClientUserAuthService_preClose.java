@@ -1,0 +1,26 @@
+auth future holder SimpleName MethodInvocation SimpleName get
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth future holder
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+auth future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth future
+auth future SimpleName MethodInvocation SimpleName is done
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral session is closed
+auth future SimpleName MethodInvocation SimpleName set exception
+auth future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+auth future SimpleName MethodInvocation ClassInstanceCreation StringLiteral session is closed
+set exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+set exception SimpleName MethodInvocation ClassInstanceCreation StringLiteral session is closed
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName pre close
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName pre close
+void PrimitiveType MethodDeclaration SimpleName pre close
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName pre close
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pre close

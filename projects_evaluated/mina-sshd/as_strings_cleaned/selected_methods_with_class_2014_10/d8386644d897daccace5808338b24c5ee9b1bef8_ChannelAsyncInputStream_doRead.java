@@ -1,0 +1,64 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName resume
+io read future impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+nb read SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nb read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+future SimpleName Assignment SimpleName pending
+futurebuffer QualifiedName MethodInvocation SimpleName put buffer
+futurebuffer QualifiedName MethodInvocation SimpleName buffer
+futurebuffer QualifiedName MethodInvocation BooleanLiteral false
+put buffer SimpleName MethodInvocation SimpleName buffer
+put buffer SimpleName MethodInvocation BooleanLiteral false
+buffer SimpleName MethodInvocation BooleanLiteral false
+nb read SimpleName Assignment MethodInvocation QualifiedName futurebuffer
+nb read SimpleName Assignment MethodInvocation SimpleName put buffer
+nb read SimpleName Assignment MethodInvocation SimpleName buffer
+nb read SimpleName Assignment MethodInvocation BooleanLiteral false
+buffer SimpleName MethodInvocation SimpleName compact
+nb read SimpleName InfixExpression NumberLiteral empty
+channel SimpleName MethodInvocation SimpleName get local window
+channel SimpleName MethodInvocation MethodInvocation SimpleName consume and check
+get local window SimpleName MethodInvocation MethodInvocation SimpleName consume and check
+channel SimpleName MethodInvocation MethodInvocation SimpleName nb read
+get local window SimpleName MethodInvocation MethodInvocation SimpleName nb read
+consume and check SimpleName MethodInvocation SimpleName nb read
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+channel SimpleName MethodInvocation SimpleName get session
+channel SimpleName MethodInvocation MethodInvocation SimpleName exception caught
+get session SimpleName MethodInvocation MethodInvocation SimpleName exception caught
+channel SimpleName MethodInvocation MethodInvocation SimpleName e
+get session SimpleName MethodInvocation MethodInvocation SimpleName e
+exception caught SimpleName MethodInvocation SimpleName e
+future SimpleName MethodInvocation SimpleName set value
+future SimpleName MethodInvocation SimpleName nb read
+set value SimpleName MethodInvocation SimpleName nb read
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName buffer
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do read
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resume
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block SynchronizedStatement SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleName do read
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resume
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName buffer
+do read SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+do read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resume
+do read SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do read SimpleName MethodDeclaration Block SynchronizedStatement SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do read
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resume
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do read
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resume

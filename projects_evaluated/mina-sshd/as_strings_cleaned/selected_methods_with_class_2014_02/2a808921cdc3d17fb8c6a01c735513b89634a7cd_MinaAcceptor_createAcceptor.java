@@ -1,0 +1,56 @@
+nio socket acceptor SimpleName SimpleType ClassInstanceCreation SimpleName io processor
+acceptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName nio socket acceptor
+acceptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName io processor
+nio socket acceptor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acceptor
+acceptor SimpleName MethodInvocation SimpleName set close on deactivation
+acceptor SimpleName MethodInvocation BooleanLiteral false
+set close on deactivation SimpleName MethodInvocation BooleanLiteral false
+acceptor SimpleName MethodInvocation SimpleName set reuse address
+acceptor SimpleName MethodInvocation SimpleName reuse address
+set reuse address SimpleName MethodInvocation SimpleName reuse address
+acceptor SimpleName MethodInvocation SimpleName set backlog
+acceptor SimpleName MethodInvocation SimpleName backlog
+set backlog SimpleName MethodInvocation SimpleName backlog
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName socket
+final Modifier VariableDeclarationStatement SimpleType SimpleName socket
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+acceptor SimpleName MethodInvocation SimpleName get session config
+s SimpleName MethodInvocation SimpleName get receive buffer size
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName set receive buffer size
+get session config SimpleName MethodInvocation MethodInvocation SimpleName set receive buffer size
+acceptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+acceptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get receive buffer size
+get session config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+get session config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get receive buffer size
+set receive buffer size SimpleName MethodInvocation MethodInvocation SimpleName s
+set receive buffer size SimpleName MethodInvocation MethodInvocation SimpleName get receive buffer size
+s SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral cannot adjust so rcvbuf back to system default
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral cannot adjust so rcvbuf back to system default
+warn SimpleName MethodInvocation SimpleName e
+cannot adjust so rcvbuf back to system default StringLiteral MethodInvocation SimpleName e
+acceptor SimpleName MethodInvocation SimpleName get session config
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName set all
+get session config SimpleName MethodInvocation MethodInvocation SimpleName set all
+acceptor SimpleName MethodInvocation MethodInvocation SimpleName session config
+get session config SimpleName MethodInvocation MethodInvocation SimpleName session config
+set all SimpleName MethodInvocation SimpleName session config
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName acceptor
+protected Modifier MethodDeclaration SimpleType SimpleName io acceptor
+protected Modifier MethodDeclaration SimpleName create acceptor
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName acceptor
+io acceptor SimpleName SimpleType MethodDeclaration SimpleName create acceptor
+create acceptor SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create acceptor SimpleName MethodDeclaration Block ReturnStatement SimpleName acceptor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+public Modifier TypeDeclaration MethodDeclaration SimpleName create acceptor
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io acceptor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create acceptor

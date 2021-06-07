@@ -1,0 +1,31 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName path
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName path
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get user home folder
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get user home folder
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get user home folder
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName lazy default user home folder holderpath
+static Modifier MethodDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName get user home folder
+static Modifier MethodDeclaration Block ReturnStatement QualifiedName lazy default user home folder holderpath
+path SimpleName SimpleType MethodDeclaration SimpleName get user home folder
+get user home folder SimpleName MethodDeclaration Block ReturnStatement QualifiedName lazy default user home folder holderpath
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user home folder
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user home folder

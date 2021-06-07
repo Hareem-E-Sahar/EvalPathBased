@@ -1,0 +1,157 @@
+channel SimpleName SimpleType SingleVariableDeclaration SimpleName channel
+int PrimitiveType SingleVariableDeclaration SimpleName channel id
+channel id StringLiteral InfixExpression SimpleName channel id
+channel id StringLiteral InfixExpression StringLiteral not registered because session is being closed
+channel id SimpleName InfixExpression StringLiteral not registered because session is being closed
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral channel id
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName channel id
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not registered because session is being closed
+reason SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName illegal state exception
+reason SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral channel id
+reason SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName channel id
+reason SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral not registered because session is being closed
+runtime exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reason
+channel SimpleName MethodInvocation SimpleName get channel listener proxy
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel listener proxy
+channel listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+listener SimpleName MethodInvocation SimpleName channel closed
+listener SimpleName MethodInvocation SimpleName channel
+listener SimpleName MethodInvocation SimpleName reason
+channel closed SimpleName MethodInvocation SimpleName channel
+channel closed SimpleName MethodInvocation SimpleName reason
+channel SimpleName MethodInvocation SimpleName reason
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName err
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName err
+peel exception SimpleName MethodInvocation SimpleName err
+ignored SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+ignored SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+ignored SimpleName VariableDeclarationFragment MethodInvocation SimpleName err
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ignored
+ignored SimpleName MethodInvocation SimpleName get class
+ignored SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+ignored SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral register channel failed ({}) to inform of channel closure {}
+log SimpleName MethodInvocation SimpleName channel
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation StringLiteral register channel failed ({}) to inform of channel closure {}
+warn SimpleName MethodInvocation SimpleName channel
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation MethodInvocation SimpleName ignored
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+register channel failed ({}) to inform of channel closure {} StringLiteral MethodInvocation SimpleName channel
+register channel failed ({}) to inform of channel closure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+register channel failed ({}) to inform of channel closure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+register channel failed ({}) to inform of channel closure {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+register channel failed ({}) to inform of channel closure {} StringLiteral MethodInvocation MethodInvocation SimpleName ignored
+register channel failed ({}) to inform of channel closure {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+channel SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+channel SimpleName MethodInvocation MethodInvocation SimpleName ignored
+channel SimpleName MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is debug enabled
+register channel StringLiteral InfixExpression StringLiteral )[
+register channel StringLiteral InfixExpression SimpleName channel
+register channel StringLiteral InfixExpression StringLiteral ] inform closure failure details
+)[ StringLiteral InfixExpression SimpleName channel
+)[ StringLiteral InfixExpression StringLiteral ] inform closure failure details
+channel SimpleName InfixExpression StringLiteral ] inform closure failure details
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral register channel
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName channel
+log SimpleName MethodInvocation InfixExpression StringLiteral ] inform closure failure details
+log SimpleName MethodInvocation SimpleName ignored
+debug SimpleName MethodInvocation InfixExpression StringLiteral register channel
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName channel
+debug SimpleName MethodInvocation InfixExpression StringLiteral ] inform closure failure details
+debug SimpleName MethodInvocation SimpleName ignored
+register channel StringLiteral InfixExpression MethodInvocation SimpleName ignored
+)[ StringLiteral InfixExpression MethodInvocation SimpleName ignored
+channel SimpleName InfixExpression MethodInvocation SimpleName ignored
+] inform closure failure details StringLiteral InfixExpression MethodInvocation SimpleName ignored
+log SimpleName MethodInvocation SimpleName is trace enabled
+ignored SimpleName MethodInvocation SimpleName get suppressed
+suppressed SimpleName VariableDeclarationFragment MethodInvocation SimpleName ignored
+suppressed SimpleName VariableDeclarationFragment MethodInvocation SimpleName get suppressed
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName suppressed
+length SimpleName MethodInvocation SimpleName suppressed
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+suppressed SimpleName MethodInvocation InfixExpression NumberLiteral empty
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName s
+register channel StringLiteral InfixExpression StringLiteral )[
+register channel StringLiteral InfixExpression SimpleName channel
+register channel StringLiteral InfixExpression StringLiteral ] suppressed channel closed signalling
+)[ StringLiteral InfixExpression SimpleName channel
+)[ StringLiteral InfixExpression StringLiteral ] suppressed channel closed signalling
+channel SimpleName InfixExpression StringLiteral ] suppressed channel closed signalling
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral register channel
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName channel
+log SimpleName MethodInvocation InfixExpression StringLiteral ] suppressed channel closed signalling
+log SimpleName MethodInvocation SimpleName s
+trace SimpleName MethodInvocation InfixExpression StringLiteral register channel
+trace SimpleName MethodInvocation InfixExpression StringLiteral )[
+trace SimpleName MethodInvocation InfixExpression SimpleName channel
+trace SimpleName MethodInvocation InfixExpression StringLiteral ] suppressed channel closed signalling
+trace SimpleName MethodInvocation SimpleName s
+register channel StringLiteral InfixExpression MethodInvocation SimpleName s
+)[ StringLiteral InfixExpression MethodInvocation SimpleName s
+channel SimpleName InfixExpression MethodInvocation SimpleName s
+] suppressed channel closed signalling StringLiteral InfixExpression MethodInvocation SimpleName s
+throwable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName suppressed
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName suppressed
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle channel registration failure
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName channel id
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName handle channel registration failure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName channel id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block ThrowStatement SimpleName reason
+handle channel registration failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName channel
+handle channel registration failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel
+handle channel registration failure SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+handle channel registration failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName channel id
+handle channel registration failure SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle channel registration failure SimpleName MethodDeclaration Block ThrowStatement SimpleName reason
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+channel SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel id
+channel SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+channel id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle channel registration failure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle channel registration failure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName channel id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,105 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource key
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+putty key pair resource parser SimpleName SuperMethodInvocation SimpleName can extract key pairs
+putty key pair resource parser SimpleName SuperMethodInvocation SimpleName resource key
+putty key pair resource parser SimpleName SuperMethodInvocation SimpleName lines
+can extract key pairs SimpleName SuperMethodInvocation SimpleName resource key
+can extract key pairs SimpleName SuperMethodInvocation SimpleName lines
+resource key SimpleName SuperMethodInvocation SimpleName lines
+string SimpleName SimpleType SingleVariableDeclaration SimpleName l
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation SimpleName l
+trim to empty SimpleName MethodInvocation SimpleName l
+l SimpleName Assignment MethodInvocation SimpleName generic utils
+l SimpleName Assignment MethodInvocation SimpleName trim to empty
+l SimpleName Assignment MethodInvocation SimpleName l
+l SimpleName MethodInvocation SimpleName starts with
+l SimpleName MethodInvocation SimpleName key file header prefix
+starts with SimpleName MethodInvocation SimpleName key file header prefix
+l SimpleName MethodInvocation SimpleName index of
+l SimpleName MethodInvocation CharacterLiteral :
+index of SimpleName MethodInvocation CharacterLiteral :
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral :
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral :
+pos SimpleName InfixExpression NumberLiteral empty
+l SimpleName MethodInvocation SimpleName length
+l SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pos SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+supported SimpleName VariableDeclarationFragment MethodInvocation SimpleName get supported type names
+pos SimpleName InfixExpression NumberLiteral empty
+l SimpleName MethodInvocation SimpleName substring
+l SimpleName MethodInvocation InfixExpression SimpleName pos
+l SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName pos
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+l SimpleName MethodInvocation MethodInvocation SimpleName trim
+substring SimpleName MethodInvocation MethodInvocation SimpleName trim
+pos SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName trim
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName trim
+type value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName l
+type value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName substring
+type value SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type value
+supported SimpleName MethodInvocation SimpleName contains
+supported SimpleName MethodInvocation SimpleName type value
+contains SimpleName MethodInvocation SimpleName type value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName lines
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName lines
+lines SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+lines SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName can extract key pairs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can extract key pairs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName can extract key pairs
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lines
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName general security exception
+can extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource key
+can extract key pairs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lines
+can extract key pairs SimpleName MethodDeclaration SimpleType SimpleName io exception
+can extract key pairs SimpleName MethodDeclaration SimpleType SimpleName general security exception
+can extract key pairs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName lines
+can extract key pairs SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+resource key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can extract key pairs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can extract key pairs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

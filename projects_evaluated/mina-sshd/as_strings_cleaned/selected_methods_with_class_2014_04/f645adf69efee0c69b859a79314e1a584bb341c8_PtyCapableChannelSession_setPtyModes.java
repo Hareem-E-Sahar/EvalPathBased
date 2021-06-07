@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName pty mode
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pty mode SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pty modes
+pty mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pty modes
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pty modes
+pty modes SimpleName FieldAccess Assignment SimpleName pty modes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set pty modes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pty modes
+void PrimitiveType MethodDeclaration SimpleName set pty modes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pty modes
+set pty modes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pty modes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set pty modes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pty modes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set pty modes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pty modes

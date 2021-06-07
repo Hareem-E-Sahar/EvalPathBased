@@ -1,0 +1,201 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName source
+path SimpleName SimpleType SingleVariableDeclaration SimpleName target
+copy option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+to sftp path SimpleName MethodInvocation SimpleName source
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sftp path
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+sftp path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+to sftp path SimpleName MethodInvocation SimpleName target
+dst SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sftp path
+dst SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+sftp path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst
+src SimpleName MethodInvocation SimpleName get file system
+dst SimpleName MethodInvocation SimpleName get file system
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dst
+src SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file system
+get file system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dst
+get file system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get file system
+provider mismatch exception SimpleName SimpleType ClassInstanceCreation StringLiteral mismatched file system providers
+check access SimpleName MethodInvocation SimpleName src
+replace existing SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName replace existing
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+copy attributes SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName copy attributes
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+no follow links SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName no follow links
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+copy option SimpleName SimpleType SingleVariableDeclaration SimpleName opt
+opt SimpleName InfixExpression QualifiedName standard copy optionreplace existing
+replace existing SimpleName Assignment InfixExpression SimpleName opt
+replace existing SimpleName Assignment InfixExpression QualifiedName standard copy optionreplace existing
+opt SimpleName InfixExpression QualifiedName standard copy optioncopy attributes
+copy attributes SimpleName Assignment InfixExpression SimpleName opt
+copy attributes SimpleName Assignment InfixExpression QualifiedName standard copy optioncopy attributes
+opt SimpleName InfixExpression QualifiedName link optionnofollow links
+no follow links SimpleName Assignment InfixExpression SimpleName opt
+no follow links SimpleName Assignment InfixExpression QualifiedName link optionnofollow links
+copy option SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName options
+opt SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName options
+io utils SimpleName MethodInvocation SimpleName get link options
+io utils SimpleName MethodInvocation PrefixExpression SimpleName no follow links
+get link options SimpleName MethodInvocation PrefixExpression SimpleName no follow links
+link options SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+link options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get link options
+link options SimpleName VariableDeclarationFragment MethodInvocation PrefixExpression SimpleName no follow links
+read attributes SimpleName MethodInvocation SimpleName source
+read attributes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attributes
+read attributes SimpleName MethodInvocation SimpleName link options
+source SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attributes
+source SimpleName MethodInvocation SimpleName link options
+basic file attributes SimpleName SimpleType TypeLiteral MethodInvocation SimpleName link options
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName link options
+basic file attributes SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+attrs SimpleName MethodInvocation SimpleName is symbolic link
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral copying of symbolic links not supported
+io utils SimpleName MethodInvocation SimpleName check file exists
+io utils SimpleName MethodInvocation SimpleName target
+io utils SimpleName MethodInvocation SimpleName link options
+check file exists SimpleName MethodInvocation SimpleName target
+check file exists SimpleName MethodInvocation SimpleName link options
+target SimpleName MethodInvocation SimpleName link options
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName io utils
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName check file exists
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName link options
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+existence cannot be determined for copy target StringLiteral InfixExpression SimpleName target
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral existence cannot be determined for copy target
+access denied exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName target
+delete if exists SimpleName MethodInvocation SimpleName target
+status SimpleName MethodInvocation SimpleName boolean value
+target SimpleName MethodInvocation SimpleName to string
+file already exists exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName target
+file already exists exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation SimpleName is directory
+create directory SimpleName MethodInvocation SimpleName target
+new input stream SimpleName MethodInvocation SimpleName source
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName new input stream
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName in
+new output stream SimpleName MethodInvocation SimpleName target
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName new output stream
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName os
+io utils SimpleName MethodInvocation SimpleName copy
+io utils SimpleName MethodInvocation SimpleName in
+io utils SimpleName MethodInvocation SimpleName os
+copy SimpleName MethodInvocation SimpleName in
+copy SimpleName MethodInvocation SimpleName os
+in SimpleName MethodInvocation SimpleName os
+get file attribute view SimpleName MethodInvocation SimpleName target
+get file attribute view SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attribute view
+get file attribute view SimpleName MethodInvocation SimpleName link options
+target SimpleName MethodInvocation TypeLiteral SimpleType SimpleName basic file attribute view
+target SimpleName MethodInvocation SimpleName link options
+basic file attribute view SimpleName SimpleType TypeLiteral MethodInvocation SimpleName link options
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file attribute view
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName link options
+basic file attribute view SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+attrs SimpleName MethodInvocation SimpleName last modified time
+attrs SimpleName MethodInvocation SimpleName last access time
+attrs SimpleName MethodInvocation SimpleName creation time
+view SimpleName MethodInvocation SimpleName set times
+view SimpleName MethodInvocation MethodInvocation SimpleName attrs
+view SimpleName MethodInvocation MethodInvocation SimpleName last modified time
+view SimpleName MethodInvocation MethodInvocation SimpleName attrs
+view SimpleName MethodInvocation MethodInvocation SimpleName last access time
+view SimpleName MethodInvocation MethodInvocation SimpleName attrs
+view SimpleName MethodInvocation MethodInvocation SimpleName creation time
+set times SimpleName MethodInvocation MethodInvocation SimpleName attrs
+set times SimpleName MethodInvocation MethodInvocation SimpleName last modified time
+set times SimpleName MethodInvocation MethodInvocation SimpleName attrs
+set times SimpleName MethodInvocation MethodInvocation SimpleName last access time
+set times SimpleName MethodInvocation MethodInvocation SimpleName attrs
+set times SimpleName MethodInvocation MethodInvocation SimpleName creation time
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attrs
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last access time
+last modified time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attrs
+last modified time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last access time
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attrs
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creation time
+last modified time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attrs
+last modified time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creation time
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attrs
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creation time
+last access time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attrs
+last access time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creation time
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName x
+delete SimpleName MethodInvocation SimpleName target
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName suppressed
+x SimpleName MethodInvocation SimpleName add suppressed
+x SimpleName MethodInvocation SimpleName suppressed
+add suppressed SimpleName MethodInvocation SimpleName suppressed
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName options
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName options
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName options
+replace existing SimpleName IfStatement Block IfStatement SimpleName copy attributes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName copy
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName source
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName copy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName copy option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName copy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName copy option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName copy option
+copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+copy SimpleName MethodDeclaration SimpleType SimpleName io exception
+copy SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+copy SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+copy SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+copy SimpleName MethodDeclaration Block EnhancedForStatement SimpleName options
+copy SimpleName MethodDeclaration Block IfStatement SimpleName replace existing
+copy SimpleName MethodDeclaration Block IfStatement SimpleName copy attributes
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+target SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

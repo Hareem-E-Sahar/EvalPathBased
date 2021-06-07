@@ -1,0 +1,405 @@
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stdout
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName stderr
+string SimpleName SimpleType SingleVariableDeclaration SimpleName args
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName args
+length SimpleName MethodInvocation SimpleName args
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+num args SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName args
+num args SimpleName InfixExpression NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName num args
+effective SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num args
+error SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName error
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression SimpleName num args
+args SimpleName ArrayAccess SimpleName index
+arg name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+arg name SimpleName VariableDeclarationFragment ArrayAccess SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arg name
+is argumented option SimpleName MethodInvocation SimpleName scp port option
+is argumented option SimpleName MethodInvocation SimpleName arg name
+scp port option SimpleName MethodInvocation SimpleName arg name
+index SimpleName InfixExpression SimpleName num args
+option requires an argument StringLiteral InfixExpression SimpleName arg name
+show error SimpleName MethodInvocation SimpleName stderr
+show error SimpleName MethodInvocation InfixExpression StringLiteral option requires an argument
+show error SimpleName MethodInvocation InfixExpression SimpleName arg name
+stderr SimpleName MethodInvocation InfixExpression StringLiteral option requires an argument
+stderr SimpleName MethodInvocation InfixExpression SimpleName arg name
+error SimpleName Assignment MethodInvocation SimpleName show error
+error SimpleName Assignment MethodInvocation SimpleName stderr
+error SimpleName Assignment MethodInvocation InfixExpression StringLiteral option requires an argument
+error SimpleName Assignment MethodInvocation InfixExpression SimpleName arg name
+effective SimpleName MethodInvocation SimpleName add
+effective SimpleName MethodInvocation SimpleName arg name
+add SimpleName MethodInvocation SimpleName arg name
+args SimpleName ArrayAccess SimpleName index
+effective SimpleName MethodInvocation SimpleName add
+effective SimpleName MethodInvocation ArrayAccess SimpleName args
+effective SimpleName MethodInvocation ArrayAccess SimpleName index
+add SimpleName MethodInvocation ArrayAccess SimpleName args
+add SimpleName MethodInvocation ArrayAccess SimpleName index
+r StringLiteral MethodInvocation SimpleName equals
+r StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+p StringLiteral MethodInvocation SimpleName equals
+p StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+q StringLiteral MethodInvocation SimpleName equals
+q StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+c StringLiteral MethodInvocation SimpleName equals
+c StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+v StringLiteral MethodInvocation SimpleName equals
+v StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+vv StringLiteral MethodInvocation SimpleName equals
+vv StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+vvv StringLiteral MethodInvocation SimpleName equals
+vvv StringLiteral MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation SimpleName arg name
+r StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral p
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral p
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral p
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+r StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral q
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral q
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral q
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+r StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral c
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral c
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral c
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+r StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+r StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+r StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+p StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral q
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral q
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral q
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+p StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral c
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral c
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral c
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+p StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral v
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+p StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+p StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+p StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+q StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral c
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral c
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral c
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+q StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral v
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+q StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+q StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+q StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+c StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral v
+c StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+c StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral v
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+c StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+c StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+c StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+c StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+c StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+c StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+v StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+v StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+v StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+v StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+v StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+v StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+vv StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+vv StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+vv StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral vvv
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arg name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg name
+effective SimpleName MethodInvocation SimpleName add
+effective SimpleName MethodInvocation SimpleName arg name
+add SimpleName MethodInvocation SimpleName arg name
+arg name SimpleName MethodInvocation SimpleName char at
+arg name SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+arg name SimpleName MethodInvocation InfixExpression CharacterLiteral -
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral -
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral -
+unknown option StringLiteral InfixExpression SimpleName arg name
+show error SimpleName MethodInvocation SimpleName stderr
+show error SimpleName MethodInvocation InfixExpression StringLiteral unknown option
+show error SimpleName MethodInvocation InfixExpression SimpleName arg name
+stderr SimpleName MethodInvocation InfixExpression StringLiteral unknown option
+stderr SimpleName MethodInvocation InfixExpression SimpleName arg name
+error SimpleName Assignment MethodInvocation SimpleName show error
+error SimpleName Assignment MethodInvocation SimpleName stderr
+error SimpleName Assignment MethodInvocation InfixExpression StringLiteral unknown option
+error SimpleName Assignment MethodInvocation InfixExpression SimpleName arg name
+index SimpleName InfixExpression SimpleName num args
+show error SimpleName MethodInvocation SimpleName stderr
+show error SimpleName MethodInvocation StringLiteral not enough arguments
+stderr SimpleName MethodInvocation StringLiteral not enough arguments
+error SimpleName Assignment MethodInvocation SimpleName show error
+error SimpleName Assignment MethodInvocation SimpleName stderr
+error SimpleName Assignment MethodInvocation StringLiteral not enough arguments
+scp location SimpleName SimpleType ClassInstanceCreation SimpleName arg name
+source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scp location
+source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName arg name
+scp location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+args SimpleName ArrayAccess SimpleName index
+scp location SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+scp location SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName index
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scp location
+target SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+target SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName index
+scp location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+num args SimpleName InfixExpression NumberLiteral empty
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName num args
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+show error SimpleName MethodInvocation SimpleName stderr
+show error SimpleName MethodInvocation StringLiteral unexpected extra arguments
+stderr SimpleName MethodInvocation StringLiteral unexpected extra arguments
+error SimpleName Assignment MethodInvocation SimpleName show error
+error SimpleName Assignment MethodInvocation SimpleName stderr
+error SimpleName Assignment MethodInvocation StringLiteral unexpected extra arguments
+source SimpleName MethodInvocation SimpleName is local
+target SimpleName MethodInvocation SimpleName is local
+source SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target
+source SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is local
+is local SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target
+is local SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is local
+show error SimpleName MethodInvocation SimpleName stderr
+show error SimpleName MethodInvocation StringLiteral both targets are either remote or local
+stderr SimpleName MethodInvocation StringLiteral both targets are either remote or local
+error SimpleName Assignment MethodInvocation SimpleName show error
+error SimpleName Assignment MethodInvocation SimpleName stderr
+error SimpleName Assignment MethodInvocation StringLiteral both targets are either remote or local
+source SimpleName MethodInvocation SimpleName is local
+source SimpleName MethodInvocation ConditionalExpression SimpleName target
+is local SimpleName MethodInvocation ConditionalExpression SimpleName target
+source SimpleName MethodInvocation ConditionalExpression SimpleName source
+is local SimpleName MethodInvocation ConditionalExpression SimpleName source
+target SimpleName ConditionalExpression SimpleName source
+remote SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName source
+remote SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is local
+remote SimpleName VariableDeclarationFragment ConditionalExpression SimpleName target
+remote SimpleName VariableDeclarationFragment ConditionalExpression SimpleName source
+scp location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote
+remote SimpleName MethodInvocation SimpleName resolve username
+remote SimpleName MethodInvocation SimpleName get host
+remote SimpleName MethodInvocation InfixExpression StringLiteral @
+resolve username SimpleName MethodInvocation InfixExpression StringLiteral @
+remote SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote
+remote SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote
+resolve username SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+@ StringLiteral InfixExpression MethodInvocation SimpleName remote
+@ StringLiteral InfixExpression MethodInvocation SimpleName get host
+effective SimpleName MethodInvocation SimpleName add
+effective SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote
+effective SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolve username
+effective SimpleName MethodInvocation InfixExpression StringLiteral @
+effective SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote
+effective SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolve username
+add SimpleName MethodInvocation InfixExpression StringLiteral @
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName remote
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host
+source SimpleName MethodInvocation SimpleName to string
+effective SimpleName MethodInvocation SimpleName add
+effective SimpleName MethodInvocation MethodInvocation SimpleName source
+effective SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName source
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+target SimpleName MethodInvocation SimpleName to string
+effective SimpleName MethodInvocation SimpleName add
+effective SimpleName MethodInvocation MethodInvocation SimpleName target
+effective SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName target
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+effective SimpleName MethodInvocation SimpleName size
+effective SimpleName MethodInvocation SimpleName to array
+effective SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName effective
+effective SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName effective
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName error
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName error
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName normalize command arguments
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stderr
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName normalize command arguments
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stdout
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stderr
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName normalize command arguments
+normalize command arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+normalize command arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stdout
+normalize command arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print stream
+normalize command arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stderr
+normalize command arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+normalize command arguments SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+normalize command arguments SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+normalize command arguments SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+normalize command arguments SimpleName MethodDeclaration Block IfStatement SimpleName error
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+stdout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+stderr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize command arguments
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize command arguments
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stdout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stderr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

@@ -1,0 +1,49 @@
+private key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName InstanceofExpression SimpleType SimpleName rsa private key
+rsa private key SimpleName SimpleType CastExpression SimpleName key
+recover rsa public key SimpleName MethodInvocation CastExpression SimpleType SimpleName rsa private key
+recover rsa public key SimpleName MethodInvocation CastExpression SimpleName key
+key SimpleName InstanceofExpression SimpleType SimpleName dsa private key
+dsa private key SimpleName SimpleType CastExpression SimpleName key
+recover dsa public key SimpleName MethodInvocation CastExpression SimpleType SimpleName dsa private key
+recover dsa public key SimpleName MethodInvocation CastExpression SimpleName key
+key SimpleName MethodInvocation SimpleName get algorithm
+security utilseddsa QualifiedName MethodInvocation SimpleName equals ignore case
+security utilseddsa QualifiedName MethodInvocation MethodInvocation SimpleName key
+security utilseddsa QualifiedName MethodInvocation MethodInvocation SimpleName get algorithm
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName key
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+security utils SimpleName MethodInvocation SimpleName recover eddsa public key
+security utils SimpleName MethodInvocation SimpleName key
+recover eddsa public key SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SimpleName recover public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+static Modifier MethodDeclaration SimpleType SimpleName public key
+static Modifier MethodDeclaration SimpleName recover public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SimpleType SimpleName general security exception
+public key SimpleName SimpleType MethodDeclaration SimpleName recover public key
+public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key
+recover public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+recover public key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName public key
+public Modifier TypeDeclaration MethodDeclaration SimpleName recover public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName public key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName recover public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

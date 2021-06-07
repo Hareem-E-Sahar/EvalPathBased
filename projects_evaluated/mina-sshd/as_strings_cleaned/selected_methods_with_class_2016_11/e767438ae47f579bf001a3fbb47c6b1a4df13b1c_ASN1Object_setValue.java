@@ -1,0 +1,20 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName v
+value SimpleName Assignment SimpleName v
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set value
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SimpleName set value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+set value SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

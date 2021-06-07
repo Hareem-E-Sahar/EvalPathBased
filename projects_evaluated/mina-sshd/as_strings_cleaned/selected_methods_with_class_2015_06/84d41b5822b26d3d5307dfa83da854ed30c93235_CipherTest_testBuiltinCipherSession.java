@@ -1,0 +1,83 @@
+built in cipher SimpleName MethodInvocation SimpleName get name
+no internal support for StringLiteral InfixExpression MethodInvocation SimpleName built in cipher
+no internal support for StringLiteral InfixExpression MethodInvocation SimpleName get name
+built in cipher SimpleName MethodInvocation SimpleName is supported
+jsch cipher SimpleName MethodInvocation SimpleName get name
+check cipher SimpleName MethodInvocation MethodInvocation SimpleName jsch cipher
+check cipher SimpleName MethodInvocation MethodInvocation SimpleName get name
+built in cipher SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check cipher
+is supported SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check cipher
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation InfixExpression StringLiteral no internal support for
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName built in cipher
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName built in cipher
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is supported
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check cipher
+assume true SimpleName MethodInvocation InfixExpression StringLiteral no internal support for
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName built in cipher
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName built in cipher
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is supported
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check cipher
+ssh server SimpleName MethodInvocation SimpleName set up default server
+sshd SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh server
+sshd SimpleName VariableDeclarationFragment MethodInvocation SimpleName set up default server
+ssh server SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sshd
+utils SimpleName MethodInvocation SimpleName create test host key provider
+sshd SimpleName MethodInvocation SimpleName set key pair provider
+sshd SimpleName MethodInvocation MethodInvocation SimpleName utils
+sshd SimpleName MethodInvocation MethodInvocation SimpleName create test host key provider
+set key pair provider SimpleName MethodInvocation MethodInvocation SimpleName utils
+set key pair provider SimpleName MethodInvocation MethodInvocation SimpleName create test host key provider
+named factory SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapachesshdcommonciphercipher
+arrays SimpleName MethodInvocation ParameterizedType SimpleType SimpleName named factory
+arrays SimpleName MethodInvocation ParameterizedType SimpleType QualifiedName orgapachesshdcommonciphercipher
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName built in cipher
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName as list
+orgapachesshdcommonciphercipher QualifiedName SimpleType ParameterizedType MethodInvocation SimpleName as list
+named factory SimpleName SimpleType ParameterizedType MethodInvocation SimpleName built in cipher
+orgapachesshdcommonciphercipher QualifiedName SimpleType ParameterizedType MethodInvocation SimpleName built in cipher
+as list SimpleName MethodInvocation SimpleName built in cipher
+sshd SimpleName MethodInvocation SimpleName set cipher factories
+sshd SimpleName MethodInvocation MethodInvocation SimpleName arrays
+sshd SimpleName MethodInvocation MethodInvocation SimpleName as list
+sshd SimpleName MethodInvocation MethodInvocation SimpleName built in cipher
+set cipher factories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set cipher factories SimpleName MethodInvocation MethodInvocation SimpleName as list
+set cipher factories SimpleName MethodInvocation MethodInvocation SimpleName built in cipher
+sshd SimpleName MethodInvocation SimpleName set shell factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName echo shell factory
+set shell factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName echo shell factory
+sshd SimpleName MethodInvocation SimpleName set password authenticator
+sshd SimpleName MethodInvocation QualifiedName bogus password authenticatorinstance
+set password authenticator SimpleName MethodInvocation QualifiedName bogus password authenticatorinstance
+sshd SimpleName MethodInvocation SimpleName start
+sshd SimpleName MethodInvocation SimpleName get port
+run jsch test SimpleName MethodInvocation MethodInvocation SimpleName sshd
+run jsch test SimpleName MethodInvocation MethodInvocation SimpleName get port
+sshd SimpleName MethodInvocation SimpleName stop
+sshd SimpleName MethodInvocation BooleanLiteral true
+stop SimpleName MethodInvocation BooleanLiteral true
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test builtin cipher session
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test builtin cipher session
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test builtin cipher session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test builtin cipher session SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test builtin cipher session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test builtin cipher session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName header lines
+resolve identification string SimpleName MethodInvocation QualifiedName server factory managerserver identification
+server version SimpleName Assignment MethodInvocation SimpleName resolve identification string
+server version SimpleName Assignment MethodInvocation QualifiedName server factory managerserver identification
+ident SimpleName VariableDeclarationFragment SimpleName server version
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ident
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server version
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName header lines
+length SimpleName MethodInvocation SimpleName header lines
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+header lines SimpleName MethodInvocation InfixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName join
+generic utils SimpleName MethodInvocation SimpleName header lines
+generic utils SimpleName MethodInvocation StringLiteral r
+join SimpleName MethodInvocation SimpleName header lines
+join SimpleName MethodInvocation StringLiteral r
+header lines SimpleName MethodInvocation StringLiteral r
+generic utils SimpleName MethodInvocation InfixExpression StringLiteral r
+join SimpleName MethodInvocation InfixExpression StringLiteral r
+header lines SimpleName MethodInvocation InfixExpression StringLiteral r
+r StringLiteral MethodInvocation InfixExpression StringLiteral r
+generic utils SimpleName MethodInvocation InfixExpression SimpleName server version
+join SimpleName MethodInvocation InfixExpression SimpleName server version
+header lines SimpleName MethodInvocation InfixExpression SimpleName server version
+r StringLiteral MethodInvocation InfixExpression SimpleName server version
+r StringLiteral InfixExpression SimpleName server version
+ident SimpleName Assignment InfixExpression MethodInvocation SimpleName generic utils
+ident SimpleName Assignment InfixExpression MethodInvocation SimpleName join
+ident SimpleName Assignment InfixExpression MethodInvocation SimpleName header lines
+ident SimpleName Assignment InfixExpression MethodInvocation StringLiteral r
+ident SimpleName Assignment InfixExpression StringLiteral r
+ident SimpleName Assignment InfixExpression SimpleName server version
+send identification SimpleName MethodInvocation SimpleName ident
+protected Modifier MethodDeclaration SimpleType SimpleName io write future
+protected Modifier MethodDeclaration SimpleName send server identification
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName header lines
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+io write future SimpleName SimpleType MethodDeclaration SimpleName send server identification
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName header lines
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+send server identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send server identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName header lines
+send server identification SimpleName MethodDeclaration SimpleType SimpleName io exception
+header lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName send server identification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName header lines
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send server identification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName header lines
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

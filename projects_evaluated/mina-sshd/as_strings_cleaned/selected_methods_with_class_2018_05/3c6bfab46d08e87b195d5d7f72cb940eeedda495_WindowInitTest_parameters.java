@@ -1,0 +1,66 @@
+name SimpleName MemberValuePair StringLiteral initialsize } packetsize }
+parameters SimpleName NormalAnnotation MemberValuePair SimpleName name
+parameters SimpleName NormalAnnotation MemberValuePair StringLiteral initialsize } packetsize }
+bytemin value QualifiedName ArrayInitializer QualifiedName factory managerdefault max packet size
+params SimpleName MethodInvocation SimpleName add
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName bytemin value
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault max packet size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName bytemin value
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault max packet size
+buffer utilsmax uint value QualifiedName InfixExpression NumberLiteral l
+buffer utilsmax uint value QualifiedName InfixExpression ArrayInitializer QualifiedName factory managerdefault max packet size
+l NumberLiteral InfixExpression ArrayInitializer QualifiedName factory managerdefault max packet size
+params SimpleName MethodInvocation SimpleName add
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault max packet size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault max packet size
+factory managerdefault window size QualifiedName ArrayInitializer NumberLiteral l
+params SimpleName MethodInvocation SimpleName add
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral l
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral l
+factory managerdefault window size QualifiedName ArrayInitializer QualifiedName bytemin value
+params SimpleName MethodInvocation SimpleName add
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName bytemin value
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName bytemin value
+buffer utilsmax uint value QualifiedName InfixExpression NumberLiteral l
+factory managerdefault window size QualifiedName ArrayInitializer InfixExpression QualifiedName buffer utilsmax uint value
+factory managerdefault window size QualifiedName ArrayInitializer InfixExpression NumberLiteral l
+params SimpleName MethodInvocation SimpleName add
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+factory managerdefault limit packet size QualifiedName InfixExpression NumberLiteral l
+factory managerdefault window size QualifiedName ArrayInitializer InfixExpression QualifiedName factory managerdefault limit packet size
+factory managerdefault window size QualifiedName ArrayInitializer InfixExpression NumberLiteral l
+params SimpleName MethodInvocation SimpleName add
+params SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+add SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName factory managerdefault window size
+parameters SimpleName NormalAnnotation MethodDeclaration Modifier public
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+initialsize } packetsize } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+parameters SimpleName NormalAnnotation MethodDeclaration Modifier static
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier static
+initialsize } packetsize } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier static
+parameters SimpleName NormalAnnotation MethodDeclaration SimpleName parameters
+name SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName parameters
+initialsize } packetsize } StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName parameters
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName parameters
+public Modifier MethodDeclaration Block ReturnStatement SimpleName params
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName parameters
+static Modifier MethodDeclaration Block ReturnStatement SimpleName params
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parameters
+parameters SimpleName MethodDeclaration Block ReturnStatement SimpleName params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName parameters
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parameters

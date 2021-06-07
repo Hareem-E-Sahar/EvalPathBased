@@ -1,0 +1,59 @@
+code SimpleName VariableDeclarationFragment QualifiedName ssh constantsssh open administratively prohibited
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName code
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName ssh constantsssh open administratively prohibited
+code SimpleName InfixExpression QualifiedName ssh constantsssh open resource shortage
+ssh constants SimpleName MethodInvocation SimpleName get open error code name
+ssh constants SimpleName MethodInvocation SimpleName code
+get open error code name SimpleName MethodInvocation SimpleName code
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh constants
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get open error code name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName code
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+mismatched name for code StringLiteral InfixExpression SimpleName code
+mismatched name for code StringLiteral InfixExpression StringLiteral :
+mismatched name for code StringLiteral InfixExpression SimpleName name
+code SimpleName InfixExpression StringLiteral :
+code SimpleName InfixExpression SimpleName name
+: StringLiteral InfixExpression SimpleName name
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation StringLiteral ssh open
+starts with SimpleName MethodInvocation StringLiteral ssh open
+assert true SimpleName MethodInvocation InfixExpression StringLiteral mismatched name for code
+assert true SimpleName MethodInvocation InfixExpression SimpleName code
+assert true SimpleName MethodInvocation InfixExpression StringLiteral :
+assert true SimpleName MethodInvocation InfixExpression SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName starts with
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral ssh open
+mismatched name for code StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+mismatched name for code StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+mismatched name for code StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh open
+code SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+code SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+code SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh open
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+: StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh open
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+name SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh open
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName code
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName ssh constantsssh open resource shortage
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName code
+code SimpleName InfixExpression ForStatement PostfixExpression SimpleName code
+ssh constantsssh open resource shortage QualifiedName InfixExpression ForStatement PostfixExpression SimpleName code
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get open error name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get open error name
+void PrimitiveType MethodDeclaration SimpleName test get open error name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get open error name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get open error name

@@ -1,0 +1,55 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName class loader
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName anchor
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName anchor
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName class loader
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread
+thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName current thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName thread
+thread SimpleName MethodInvocation SimpleName get context class loader
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get context class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+cls SimpleName MethodInvocation SimpleName add
+cls SimpleName MethodInvocation SimpleName cl
+add SimpleName MethodInvocation SimpleName cl
+anchor SimpleName MethodInvocation SimpleName get class loader
+cls SimpleName MethodInvocation SimpleName add
+cls SimpleName MethodInvocation MethodInvocation SimpleName anchor
+cls SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+add SimpleName MethodInvocation MethodInvocation SimpleName anchor
+add SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+class loader SimpleName MethodInvocation SimpleName get system class loader
+cls SimpleName MethodInvocation SimpleName add
+cls SimpleName MethodInvocation MethodInvocation SimpleName class loader
+cls SimpleName MethodInvocation MethodInvocation SimpleName get system class loader
+add SimpleName MethodInvocation MethodInvocation SimpleName class loader
+add SimpleName MethodInvocation MethodInvocation SimpleName get system class loader
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class loader
+public Modifier MethodDeclaration SimpleName resolve default class loaders
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cls
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class loader
+static Modifier MethodDeclaration SimpleName resolve default class loaders
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cls
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve default class loaders
+class loader SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve default class loaders
+resolve default class loaders SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+resolve default class loaders SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor
+resolve default class loaders SimpleName MethodDeclaration Block ReturnStatement SimpleName cls
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve default class loaders
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve default class loaders
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor

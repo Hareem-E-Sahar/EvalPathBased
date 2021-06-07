@@ -1,0 +1,85 @@
+host config entry SimpleName SimpleType SingleVariableDeclaration SimpleName global entry
+modified SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName modified
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+global entry SimpleName MethodInvocation SimpleName get port
+update global port SimpleName MethodInvocation MethodInvocation SimpleName global entry
+update global port SimpleName MethodInvocation MethodInvocation SimpleName get port
+update global port SimpleName MethodInvocation InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+get port SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+modified SimpleName Assignment InfixExpression MethodInvocation SimpleName update global port
+modified SimpleName Assignment InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation SimpleName get host name
+update global host name SimpleName MethodInvocation MethodInvocation SimpleName global entry
+update global host name SimpleName MethodInvocation MethodInvocation SimpleName get host name
+update global host name SimpleName MethodInvocation InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+get host name SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+modified SimpleName Assignment InfixExpression MethodInvocation SimpleName update global host name
+modified SimpleName Assignment InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation SimpleName get username
+update global user name SimpleName MethodInvocation MethodInvocation SimpleName global entry
+update global user name SimpleName MethodInvocation MethodInvocation SimpleName get username
+update global user name SimpleName MethodInvocation InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+get username SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+modified SimpleName Assignment InfixExpression MethodInvocation SimpleName update global user name
+modified SimpleName Assignment InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation SimpleName get identities
+update global identities SimpleName MethodInvocation MethodInvocation SimpleName global entry
+update global identities SimpleName MethodInvocation MethodInvocation SimpleName get identities
+update global identities SimpleName MethodInvocation InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+get identities SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+modified SimpleName Assignment InfixExpression MethodInvocation SimpleName update global identities
+modified SimpleName Assignment InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation SimpleName is identities only
+update global identity only SimpleName MethodInvocation MethodInvocation SimpleName global entry
+update global identity only SimpleName MethodInvocation MethodInvocation SimpleName is identities only
+update global identity only SimpleName MethodInvocation InfixExpression SimpleName modified
+global entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+is identities only SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName modified
+modified SimpleName Assignment InfixExpression MethodInvocation SimpleName update global identity only
+modified SimpleName Assignment InfixExpression SimpleName modified
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+global entry SimpleName MethodInvocation SimpleName get properties
+update global properties SimpleName MethodInvocation MethodInvocation SimpleName global entry
+update global properties SimpleName MethodInvocation MethodInvocation SimpleName get properties
+updated SimpleName VariableDeclarationFragment MethodInvocation SimpleName update global properties
+updated SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName global entry
+updated SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get properties
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName updated
+size SimpleName MethodInvocation SimpleName updated
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+updated SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName modified
+modified SimpleName Assignment InfixExpression SimpleName modified
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName process global values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName global entry
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName modified
+boolean PrimitiveType MethodDeclaration SimpleName process global values
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName global entry
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName modified
+process global values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+process global values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName global entry
+process global values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+process global values SimpleName MethodDeclaration Block ReturnStatement SimpleName modified
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName process global values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName global entry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process global values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName global entry

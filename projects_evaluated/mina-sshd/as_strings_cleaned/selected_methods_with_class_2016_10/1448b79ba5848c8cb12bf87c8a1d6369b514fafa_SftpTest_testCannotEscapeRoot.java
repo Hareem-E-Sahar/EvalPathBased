@@ -1,0 +1,231 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName use absolute path
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName detect target folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation SimpleName resolve
+utils SimpleName MethodInvocation SimpleName target path
+utils SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+utils SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+resolve SimpleName MethodInvocation SimpleName target path
+resolve SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+resolve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+target path SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+target path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+target path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target path SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+sftp constantssftp subsystem name QualifiedName MethodInvocation MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName target path
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sftp constantssftp subsystem name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get simple name
+lcl sftp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lcl sftp
+assert hierarchy target folder exists SimpleName MethodInvocation SimpleName lcl sftp
+virtual file system factory SimpleName SimpleType ClassInstanceCreation SimpleName lcl sftp
+sshd SimpleName MethodInvocation SimpleName set file system factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName virtual file system factory
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleName lcl sftp
+set file system factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName virtual file system factory
+set file system factory SimpleName MethodInvocation ClassInstanceCreation SimpleName lcl sftp
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation SimpleName test localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation SimpleName test localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName test localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+test localhost SimpleName MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName verify
+connect SimpleName MethodInvocation MethodInvocation SimpleName verify
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName verify
+test localhost SimpleName MethodInvocation MethodInvocation SimpleName verify
+port SimpleName MethodInvocation MethodInvocation SimpleName verify
+client SimpleName MethodInvocation MethodInvocation NumberLiteral l
+connect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+test localhost SimpleName MethodInvocation MethodInvocation NumberLiteral l
+port SimpleName MethodInvocation MethodInvocation NumberLiteral l
+client SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+connect SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitseconds
+test localhost SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+port SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+test localhost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+verify SimpleName MethodInvocation MethodInvocation SimpleName get session
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get session
+time unitseconds QualifiedName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName verify
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+session SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+session SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName escape path
+target path SimpleName MethodInvocation SimpleName to string
+escape path SimpleName Assignment MethodInvocation SimpleName target path
+escape path SimpleName Assignment MethodInvocation SimpleName to string
+os utils SimpleName MethodInvocation SimpleName is win
+escape path SimpleName MethodInvocation SimpleName replace
+escape path SimpleName MethodInvocation QualifiedName fileseparator char
+escape path SimpleName MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral /
+fileseparator char QualifiedName MethodInvocation CharacterLiteral /
+/ StringLiteral InfixExpression MethodInvocation SimpleName escape path
+/ StringLiteral InfixExpression MethodInvocation SimpleName replace
+/ StringLiteral InfixExpression MethodInvocation QualifiedName fileseparator char
+/ StringLiteral InfixExpression MethodInvocation CharacterLiteral /
+escape path SimpleName Assignment InfixExpression StringLiteral /
+escape path SimpleName Assignment InfixExpression MethodInvocation SimpleName escape path
+escape path SimpleName Assignment InfixExpression MethodInvocation SimpleName replace
+escape path SimpleName Assignment InfixExpression MethodInvocation QualifiedName fileseparator char
+escape path SimpleName Assignment InfixExpression MethodInvocation CharacterLiteral /
+lcl sftp SimpleName MethodInvocation SimpleName get parent
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName lcl sftp
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+parent SimpleName MethodInvocation SimpleName resolve
+parent SimpleName MethodInvocation StringLiteral forbidden
+resolve SimpleName MethodInvocation StringLiteral forbidden
+files SimpleName MethodInvocation SimpleName create directories
+files SimpleName MethodInvocation MethodInvocation SimpleName parent
+files SimpleName MethodInvocation MethodInvocation SimpleName resolve
+files SimpleName MethodInvocation MethodInvocation StringLiteral forbidden
+create directories SimpleName MethodInvocation MethodInvocation SimpleName parent
+create directories SimpleName MethodInvocation MethodInvocation SimpleName resolve
+create directories SimpleName MethodInvocation MethodInvocation StringLiteral forbidden
+forbidden SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+forbidden SimpleName VariableDeclarationFragment MethodInvocation SimpleName create directories
+forbidden SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parent
+forbidden SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resolve
+forbidden SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral forbidden
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName forbidden
+forbidden SimpleName MethodInvocation SimpleName get file name
+../ StringLiteral InfixExpression MethodInvocation SimpleName forbidden
+../ StringLiteral InfixExpression MethodInvocation SimpleName get file name
+escape path SimpleName Assignment InfixExpression StringLiteral ../
+escape path SimpleName Assignment InfixExpression MethodInvocation SimpleName forbidden
+escape path SimpleName Assignment InfixExpression MethodInvocation SimpleName get file name
+session SimpleName MethodInvocation SimpleName create sftp client
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+sftp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create sftp client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp
+sftp SimpleName MethodInvocation SimpleName stat
+sftp SimpleName MethodInvocation SimpleName escape path
+stat SimpleName MethodInvocation SimpleName escape path
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName stat
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName escape path
+sftp clientattributes QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+unexpected escape success for path StringLiteral InfixExpression SimpleName escape path
+unexpected escape success for path StringLiteral InfixExpression StringLiteral :
+unexpected escape success for path StringLiteral InfixExpression SimpleName attrs
+escape path SimpleName InfixExpression StringLiteral :
+escape path SimpleName InfixExpression SimpleName attrs
+: StringLiteral InfixExpression SimpleName attrs
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected escape success for path
+fail SimpleName MethodInvocation InfixExpression SimpleName escape path
+fail SimpleName MethodInvocation InfixExpression StringLiteral :
+fail SimpleName MethodInvocation InfixExpression SimpleName attrs
+sftp exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+os utils SimpleName MethodInvocation SimpleName is win
+os utils SimpleName MethodInvocation InfixExpression ConditionalExpression QualifiedName sftp constantsssh fx invalid filename
+is win SimpleName MethodInvocation InfixExpression ConditionalExpression QualifiedName sftp constantsssh fx invalid filename
+os utils SimpleName MethodInvocation InfixExpression ConditionalExpression QualifiedName sftp constantsssh fx no such file
+is win SimpleName MethodInvocation InfixExpression ConditionalExpression QualifiedName sftp constantsssh fx no such file
+sftp constantsssh fx invalid filename QualifiedName ConditionalExpression QualifiedName sftp constantsssh fx no such file
+expected SimpleName VariableDeclarationFragment ConditionalExpression QualifiedName sftp constantsssh fx invalid filename
+expected SimpleName VariableDeclarationFragment ConditionalExpression QualifiedName sftp constantsssh fx no such file
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression QualifiedName sftp constantsssh fx invalid filename
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression QualifiedName sftp constantsssh fx no such file
+mismatched status for StringLiteral InfixExpression SimpleName escape path
+sftp constants SimpleName MethodInvocation SimpleName get status name
+sftp constants SimpleName MethodInvocation SimpleName expected
+get status name SimpleName MethodInvocation SimpleName expected
+e SimpleName MethodInvocation SimpleName get status
+sftp constants SimpleName MethodInvocation SimpleName get status name
+sftp constants SimpleName MethodInvocation MethodInvocation SimpleName e
+sftp constants SimpleName MethodInvocation MethodInvocation SimpleName get status
+get status name SimpleName MethodInvocation MethodInvocation SimpleName e
+get status name SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched status for
+assert equals SimpleName MethodInvocation InfixExpression SimpleName escape path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName sftp constants
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName sftp constants
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+mismatched status for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName sftp constants
+mismatched status for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get status name
+mismatched status for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+escape path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName sftp constants
+escape path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get status name
+escape path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+mismatched status for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName sftp constants
+mismatched status for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get status name
+escape path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName sftp constants
+escape path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get status name
+sftp constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sftp constants
+sftp constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status name
+get status name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sftp constants
+get status name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status name
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sftp constants
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test cannot escape root
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName use absolute path
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test cannot escape root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName use absolute path
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test cannot escape root SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test cannot escape root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName use absolute path
+test cannot escape root SimpleName MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+use absolute path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cannot escape root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use absolute path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cannot escape root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use absolute path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

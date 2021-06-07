@@ -1,0 +1,13 @@
+host based authenticator SimpleName SimpleType SingleVariableDeclaration SimpleName host based authenticator
+void PrimitiveType MethodDeclaration SimpleName set host based authenticator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host based authenticator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+set host based authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host based authenticator
+set host based authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set host based authenticator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set host based authenticator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator

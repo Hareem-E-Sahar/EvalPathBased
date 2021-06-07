@@ -1,0 +1,85 @@
+key pair provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName signatures
+sshd SimpleName MethodInvocation SimpleName set key pair provider
+sshd SimpleName MethodInvocation SimpleName provider
+set key pair provider SimpleName MethodInvocation SimpleName provider
+sshd SimpleName MethodInvocation SimpleName start
+sshd SimpleName MethodInvocation SimpleName get port
+port SimpleName Assignment MethodInvocation SimpleName sshd
+port SimpleName Assignment MethodInvocation SimpleName get port
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName Assignment MethodInvocation SimpleName ssh client
+client SimpleName Assignment MethodInvocation SimpleName set up default client
+client SimpleName MethodInvocation SimpleName set signature factories
+client SimpleName MethodInvocation SimpleName signatures
+set signature factories SimpleName MethodInvocation SimpleName signatures
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+client SimpleName MethodInvocation StringLiteral localhost
+client SimpleName MethodInvocation SimpleName port
+connect SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+connect SimpleName MethodInvocation StringLiteral localhost
+connect SimpleName MethodInvocation SimpleName port
+get current test name SimpleName MethodInvocation MethodInvocation StringLiteral localhost
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName port
+localhost StringLiteral MethodInvocation SimpleName port
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName await
+localhost StringLiteral MethodInvocation MethodInvocation SimpleName await
+port SimpleName MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+localhost StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName await
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName add password identity
+s SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+add password identity SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+s SimpleName MethodInvocation SimpleName auth
+s SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+s SimpleName MethodInvocation MethodInvocation NumberLiteral l
+auth SimpleName MethodInvocation MethodInvocation NumberLiteral l
+s SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+auth SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+client SimpleName MethodInvocation SimpleName stop
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName test key pair provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName signatures
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test key pair provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName signatures
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair provider
+test key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+test key pair provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName signatures
+test key pair provider SimpleName MethodDeclaration SimpleType SimpleName exception
+provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signatures
+provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+signatures SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test key pair provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signatures
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test key pair provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signatures
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

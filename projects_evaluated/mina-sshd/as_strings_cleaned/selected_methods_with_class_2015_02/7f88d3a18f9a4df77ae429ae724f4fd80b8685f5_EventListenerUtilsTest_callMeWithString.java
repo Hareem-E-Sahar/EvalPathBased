@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+str value SimpleName Assignment SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName call me with string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName call me with string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+call me with string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+call me with string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName call me with string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call me with string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

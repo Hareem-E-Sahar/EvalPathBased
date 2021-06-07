@@ -1,0 +1,60 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName seed
+security utils SimpleName MethodInvocation SimpleName is eddsa curve supported
+security utilseddsa QualifiedName InfixExpression StringLiteral not supported
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName security utilseddsa
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not supported
+ed dsa named curve table SimpleName MethodInvocation SimpleName get by name
+ed dsa named curve table SimpleName MethodInvocation QualifiedName ed dsa named curve tablecurve ed sha
+get by name SimpleName MethodInvocation QualifiedName ed dsa named curve tablecurve ed sha
+params SimpleName VariableDeclarationFragment MethodInvocation SimpleName ed dsa named curve table
+params SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by name
+params SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ed dsa named curve tablecurve ed sha
+ed dsa parameter spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName params
+ed dsa private key spec SimpleName SimpleType ClassInstanceCreation SimpleName seed
+ed dsa private key spec SimpleName SimpleType ClassInstanceCreation SimpleName params
+seed SimpleName ClassInstanceCreation SimpleName params
+key spec SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ed dsa private key spec
+key spec SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName seed
+key spec SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName params
+ed dsa private key spec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key spec
+security utils SimpleName MethodInvocation SimpleName get key factory
+security utils SimpleName MethodInvocation QualifiedName security utilseddsa
+get key factory SimpleName MethodInvocation QualifiedName security utilseddsa
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName security utils
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key factory
+factory SimpleName VariableDeclarationFragment MethodInvocation QualifiedName security utilseddsa
+key factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+factory SimpleName MethodInvocation SimpleName generate private
+factory SimpleName MethodInvocation SimpleName key spec
+generate private SimpleName MethodInvocation SimpleName key spec
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName private key
+public Modifier MethodDeclaration SimpleName generate eddsa private key
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName seed
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+static Modifier MethodDeclaration SimpleType SimpleName private key
+static Modifier MethodDeclaration SimpleName generate eddsa private key
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName seed
+static Modifier MethodDeclaration SimpleType SimpleName general security exception
+private key SimpleName SimpleType MethodDeclaration SimpleName generate eddsa private key
+private key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName seed
+private key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+generate eddsa private key SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+generate eddsa private key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seed
+generate eddsa private key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+seed SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate eddsa private key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate eddsa private key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

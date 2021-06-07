@@ -1,0 +1,65 @@
+factory SimpleName MethodInvocation SimpleName is group exchange
+factory SimpleName MethodInvocation SimpleName get name
+factory SimpleName MethodInvocation InfixExpression StringLiteral not supported even though dh group exchange supported
+get name SimpleName MethodInvocation InfixExpression StringLiteral not supported even though dh group exchange supported
+security utils SimpleName MethodInvocation SimpleName is dh group exchange supported
+factory SimpleName MethodInvocation SimpleName is supported
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName factory
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral not supported even though dh group exchange supported
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName is dh group exchange supported
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName factory
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName is supported
+not supported even though dh group exchange supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName security utils
+not supported even though dh group exchange supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is dh group exchange supported
+not supported even though dh group exchange supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName factory
+not supported even though dh group exchange supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+security utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory
+security utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is supported
+is dh group exchange supported SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory
+is dh group exchange supported SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is supported
+factory SimpleName MethodInvocation SimpleName get name
+factory SimpleName MethodInvocation InfixExpression StringLiteral not supported
+get name SimpleName MethodInvocation InfixExpression StringLiteral not supported
+factory SimpleName MethodInvocation SimpleName is supported
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName factory
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assume SimpleName MethodInvocation InfixExpression StringLiteral not supported
+assume SimpleName MethodInvocation MethodInvocation SimpleName factory
+assume SimpleName MethodInvocation MethodInvocation SimpleName is supported
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName factory
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assume true SimpleName MethodInvocation InfixExpression StringLiteral not supported
+assume true SimpleName MethodInvocation MethodInvocation SimpleName factory
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is supported
+not supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName factory
+not supported StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is supported
+client builderdh kex QualifiedName MethodInvocation SimpleName transform
+client builderdh kex QualifiedName MethodInvocation SimpleName factory
+transform SimpleName MethodInvocation SimpleName factory
+test client SimpleName MethodInvocation MethodInvocation QualifiedName client builderdh kex
+test client SimpleName MethodInvocation MethodInvocation SimpleName transform
+test client SimpleName MethodInvocation MethodInvocation SimpleName factory
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test client key exchange
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test client key exchange
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test client key exchange
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test client key exchange SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client key exchange
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client key exchange
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

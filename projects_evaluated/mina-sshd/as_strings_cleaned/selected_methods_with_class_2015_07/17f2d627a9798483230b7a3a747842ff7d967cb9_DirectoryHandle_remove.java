@@ -1,0 +1,17 @@
+not allowed to remove StringLiteral InfixExpression MethodInvocation SimpleName to string
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not allowed to remove
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration SimpleName remove
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove

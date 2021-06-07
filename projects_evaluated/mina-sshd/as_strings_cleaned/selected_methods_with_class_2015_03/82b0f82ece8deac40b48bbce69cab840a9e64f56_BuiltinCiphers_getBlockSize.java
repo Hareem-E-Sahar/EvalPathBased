@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get block size
+public Modifier MethodDeclaration Block ReturnStatement SimpleName blocksize
+int PrimitiveType MethodDeclaration SimpleName get block size
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName blocksize
+get block size SimpleName MethodDeclaration Block ReturnStatement SimpleName blocksize
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get block size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get block size

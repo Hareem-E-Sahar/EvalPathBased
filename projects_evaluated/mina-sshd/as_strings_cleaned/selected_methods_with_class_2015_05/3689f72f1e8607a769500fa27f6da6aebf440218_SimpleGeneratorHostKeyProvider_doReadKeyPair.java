@@ -1,0 +1,38 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName is
+object input stream SimpleName SimpleType ClassInstanceCreation SimpleName is
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object input stream
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is
+object input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName read object
+key pair SimpleName SimpleType CastExpression MethodInvocation SimpleName r
+key pair SimpleName SimpleType CastExpression MethodInvocation SimpleName read object
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do read key pair
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName is
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SimpleName do read key pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName do read key pair
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+do read key pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+do read key pair SimpleName MethodDeclaration SimpleType SimpleName exception
+is SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName do read key pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do read key pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

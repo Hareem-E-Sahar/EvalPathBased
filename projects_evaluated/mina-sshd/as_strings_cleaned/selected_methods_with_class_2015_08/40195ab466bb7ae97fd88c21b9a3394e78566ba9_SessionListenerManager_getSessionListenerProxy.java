@@ -1,0 +1,6 @@
+session listener SimpleName SimpleType MethodDeclaration SimpleName get session listener proxy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName session listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session listener proxy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName session listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session listener proxy

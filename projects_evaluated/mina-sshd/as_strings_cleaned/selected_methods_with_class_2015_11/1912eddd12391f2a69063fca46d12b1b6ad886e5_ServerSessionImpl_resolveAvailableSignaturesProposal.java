@@ -1,0 +1,121 @@
+factory manager SimpleName SimpleType SingleVariableDeclaration SimpleName proposed manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+server factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+proposed manager SimpleName InfixExpression SimpleName manager
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName proposed manager
+validate utils SimpleName MethodInvocation InfixExpression SimpleName manager
+validate utils SimpleName MethodInvocation StringLiteral mismatched signatures proposed factory manager
+check true SimpleName MethodInvocation InfixExpression SimpleName proposed manager
+check true SimpleName MethodInvocation InfixExpression SimpleName manager
+check true SimpleName MethodInvocation StringLiteral mismatched signatures proposed factory manager
+proposed manager SimpleName InfixExpression MethodInvocation StringLiteral mismatched signatures proposed factory manager
+manager SimpleName InfixExpression MethodInvocation StringLiteral mismatched signatures proposed factory manager
+manager SimpleName MethodInvocation SimpleName get key pair provider
+kpp SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+kpp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key pair provider
+key pair provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kpp
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+manager SimpleName MethodInvocation SimpleName get signature factories
+named resourceutils QualifiedName MethodInvocation SimpleName get name list
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName manager
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName get signature factories
+get name list SimpleName MethodInvocation MethodInvocation SimpleName manager
+get name list SimpleName MethodInvocation MethodInvocation SimpleName get signature factories
+supported SimpleName VariableDeclarationFragment MethodInvocation QualifiedName named resourceutils
+supported SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name list
+supported SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName manager
+supported SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get signature factories
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kpp SimpleName MethodInvocation SimpleName get key types
+provided SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName kpp
+provided SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get key types
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName supported
+is empty SimpleName MethodInvocation SimpleName supported
+resolve empty signatures proposal SimpleName MethodInvocation SimpleName supported
+resolve empty signatures proposal SimpleName MethodInvocation SimpleName provided
+supported SimpleName MethodInvocation SimpleName provided
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolve keys
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+supported SimpleName MethodInvocation SimpleName contains
+supported SimpleName MethodInvocation SimpleName key type
+contains SimpleName MethodInvocation SimpleName key type
+log SimpleName MethodInvocation SimpleName is debug enabled
+resolve available signatures proposal StringLiteral InfixExpression SimpleName provided
+resolve available signatures proposal StringLiteral InfixExpression StringLiteral )
+resolve available signatures proposal StringLiteral InfixExpression SimpleName key type
+resolve available signatures proposal StringLiteral InfixExpression StringLiteral not in list of supported
+resolve available signatures proposal StringLiteral InfixExpression SimpleName supported
+provided SimpleName InfixExpression StringLiteral )
+provided SimpleName InfixExpression SimpleName key type
+provided SimpleName InfixExpression StringLiteral not in list of supported
+provided SimpleName InfixExpression SimpleName supported
+) StringLiteral InfixExpression SimpleName key type
+) StringLiteral InfixExpression StringLiteral not in list of supported
+) StringLiteral InfixExpression SimpleName supported
+key type SimpleName InfixExpression StringLiteral not in list of supported
+key type SimpleName InfixExpression SimpleName supported
+not in list of supported StringLiteral InfixExpression SimpleName supported
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral resolve available signatures proposal
+log SimpleName MethodInvocation InfixExpression SimpleName provided
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation InfixExpression SimpleName key type
+log SimpleName MethodInvocation InfixExpression StringLiteral not in list of supported
+log SimpleName MethodInvocation InfixExpression SimpleName supported
+debug SimpleName MethodInvocation InfixExpression StringLiteral resolve available signatures proposal
+debug SimpleName MethodInvocation InfixExpression SimpleName provided
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression SimpleName key type
+debug SimpleName MethodInvocation InfixExpression StringLiteral not in list of supported
+debug SimpleName MethodInvocation InfixExpression SimpleName supported
+supported SimpleName MethodInvocation SimpleName size
+supported SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string builder SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+resolve keys SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string builder
+resolve keys SimpleName Assignment ClassInstanceCreation InfixExpression NumberLiteral empty
+resolve keys SimpleName MethodInvocation SimpleName length
+resolve keys SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+resolve keys SimpleName MethodInvocation SimpleName append
+resolve keys SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+resolve keys SimpleName MethodInvocation SimpleName append
+resolve keys SimpleName MethodInvocation SimpleName key type
+append SimpleName MethodInvocation SimpleName key type
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName provided
+key type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName provided
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName resolve keys
+is empty SimpleName MethodInvocation SimpleName resolve keys
+resolve empty signatures proposal SimpleName MethodInvocation SimpleName supported
+resolve empty signatures proposal SimpleName MethodInvocation SimpleName provided
+supported SimpleName MethodInvocation SimpleName provided
+resolve keys SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve available signatures proposal
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName proposed manager
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve available signatures proposal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName proposed manager
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName provided
+string SimpleName SimpleType MethodDeclaration SimpleName resolve available signatures proposal
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName proposed manager
+resolve available signatures proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName factory manager
+resolve available signatures proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName proposed manager
+resolve available signatures proposal SimpleName MethodDeclaration Block EnhancedForStatement SimpleName provided
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve available signatures proposal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposed manager
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve available signatures proposal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposed manager

@@ -1,0 +1,132 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+open option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key lines SimpleName VariableDeclarationFragment MethodInvocation SimpleName load default supported keys
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName file
+exists SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName delete
+files SimpleName MethodInvocation SimpleName file
+delete SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName new buffered writer
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation QualifiedName standard charsetsutf
+files SimpleName MethodInvocation SimpleName options
+new buffered writer SimpleName MethodInvocation SimpleName file
+new buffered writer SimpleName MethodInvocation QualifiedName standard charsetsutf
+new buffered writer SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation QualifiedName standard charsetsutf
+file SimpleName MethodInvocation SimpleName options
+standard charsetsutf QualifiedName MethodInvocation SimpleName options
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName new buffered writer
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+w SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+writer SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName w
+w SimpleName MethodInvocation SimpleName append
+w SimpleName MethodInvocation QualifiedName public key entrycomment char
+append SimpleName MethodInvocation QualifiedName public key entrycomment char
+w SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+public key entrycomment char QualifiedName MethodInvocation MethodInvocation SimpleName append
+w SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+public key entrycomment char QualifiedName MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+w SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+public key entrycomment char QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+append SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+key lines SimpleName MethodInvocation SimpleName size
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName key lines
+string SimpleName MethodInvocation MethodInvocation SimpleName size
+value of SimpleName MethodInvocation MethodInvocation SimpleName key lines
+value of SimpleName MethodInvocation MethodInvocation SimpleName size
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName string
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName value of
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key lines
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+append SimpleName MethodInvocation MethodInvocation StringLiteral remaining keys
+string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+append SimpleName MethodInvocation StringLiteral remaining keys
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+remaining keys StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+remaining keys StringLiteral MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation QualifiedName io utilseol
+string SimpleName SimpleType SingleVariableDeclaration SimpleName l
+w SimpleName MethodInvocation SimpleName append
+w SimpleName MethodInvocation SimpleName l
+append SimpleName MethodInvocation SimpleName l
+w SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+l SimpleName MethodInvocation MethodInvocation SimpleName append
+w SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+l SimpleName MethodInvocation MethodInvocation QualifiedName io utilseol
+append SimpleName MethodInvocation QualifiedName io utilseol
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName key lines
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName key lines
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName write default supported keys
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName write default supported keys
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName write default supported keys
+write default supported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+write default supported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+write default supported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+write default supported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+write default supported keys SimpleName MethodDeclaration SimpleType SimpleName io exception
+write default supported keys SimpleName MethodDeclaration Block ReturnStatement SimpleName key lines
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName write default supported keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write default supported keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

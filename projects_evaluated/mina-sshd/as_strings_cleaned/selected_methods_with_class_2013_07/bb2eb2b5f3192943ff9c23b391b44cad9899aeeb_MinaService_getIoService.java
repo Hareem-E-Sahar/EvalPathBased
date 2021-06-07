@@ -1,0 +1,15 @@
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName io service
+protected Modifier MethodDeclaration SimpleName get io service
+abstract Modifier MethodDeclaration SimpleType SimpleName io service
+abstract Modifier MethodDeclaration SimpleName get io service
+io service SimpleName SimpleType MethodDeclaration SimpleName get io service
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io service
+public Modifier TypeDeclaration MethodDeclaration SimpleName get io service
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get io service

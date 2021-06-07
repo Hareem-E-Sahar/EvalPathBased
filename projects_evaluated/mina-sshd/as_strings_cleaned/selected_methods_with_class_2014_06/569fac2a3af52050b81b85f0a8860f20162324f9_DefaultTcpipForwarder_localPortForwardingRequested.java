@@ -1,0 +1,71 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral local address is null
+local SimpleName MethodInvocation SimpleName get port
+local SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+local SimpleName MethodInvocation SimpleName get port
+invalid local port StringLiteral InfixExpression MethodInvocation SimpleName local
+invalid local port StringLiteral InfixExpression MethodInvocation SimpleName get port
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid local port
+session SimpleName MethodInvocation SimpleName get factory manager
+session SimpleName MethodInvocation MethodInvocation SimpleName get tcpip forwarding filter
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get tcpip forwarding filter
+filter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName session
+filter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get factory manager
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tcpip forwarding filter
+final Modifier VariableDeclarationStatement SimpleType SimpleName forwarding filter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get tcpip forwarding filter
+forwarding filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+filter SimpleName MethodInvocation SimpleName can listen
+filter SimpleName MethodInvocation SimpleName local
+filter SimpleName MethodInvocation SimpleName session
+can listen SimpleName MethodInvocation SimpleName local
+can listen SimpleName MethodInvocation SimpleName session
+local SimpleName MethodInvocation SimpleName session
+rejected address StringLiteral InfixExpression SimpleName local
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral rejected address
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName local
+do bind SimpleName MethodInvocation SimpleName local
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName do bind
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName local
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound
+local forwards SimpleName MethodInvocation SimpleName add
+local forwards SimpleName MethodInvocation SimpleName bound
+add SimpleName MethodInvocation SimpleName bound
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName bound
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SimpleName local port forwarding requested
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SimpleName local port forwarding requested
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName bound
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName local port forwarding requested
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+local port forwarding requested SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+local port forwarding requested SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+local port forwarding requested SimpleName MethodDeclaration SimpleType SimpleName io exception
+local port forwarding requested SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+local port forwarding requested SimpleName MethodDeclaration Block ReturnStatement SimpleName bound
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName local port forwarding requested
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName local port forwarding requested
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,42 @@
+io buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName future
+final Modifier VariableDeclarationStatement SimpleType SimpleName future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+session SimpleName MethodInvocation SimpleName write
+session SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+io future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName write future
+cf SimpleName MethodInvocation SimpleName get exception
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName cf
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation SimpleName t
+set exception SimpleName MethodInvocation SimpleName t
+future SimpleName MethodInvocation SimpleName set written
+session SimpleName MethodInvocation MethodInvocation SimpleName add listener
+write SimpleName MethodInvocation MethodInvocation SimpleName add listener
+buffer SimpleName MethodInvocation MethodInvocation SimpleName add listener
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName future
+public Modifier MethodDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+io write future SimpleName SimpleType MethodDeclaration SimpleName write
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io buffer
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+write SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+void PrimitiveType MethodDeclaration SimpleName add password identity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName password
+add password identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add password identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add password identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add password identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password

@@ -1,0 +1,64 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data
+session SimpleName MethodInvocation SimpleName open channel
+session SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+open channel SimpleName MethodInvocation QualifiedName sftp constantssftp subsystem name
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+channel sftp SimpleName SimpleType CastExpression MethodInvocation SimpleName open channel
+channel sftp SimpleName SimpleType CastExpression MethodInvocation QualifiedName sftp constantssftp subsystem name
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName channel sftp
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName sftp constantssftp subsystem name
+channel sftp SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName connect
+data SimpleName MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+c SimpleName MethodInvocation SimpleName put
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array input stream
+c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+c SimpleName MethodInvocation SimpleName path
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array input stream
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation SimpleName path
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName path
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName path
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName path
+c SimpleName MethodInvocation SimpleName disconnect
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName send file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+send file SimpleName MethodDeclaration SimpleType SimpleName exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

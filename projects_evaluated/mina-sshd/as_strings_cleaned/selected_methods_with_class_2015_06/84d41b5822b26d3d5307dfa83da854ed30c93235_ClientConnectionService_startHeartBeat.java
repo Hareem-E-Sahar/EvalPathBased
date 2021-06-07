@@ -1,0 +1,80 @@
+factory manager utils SimpleName MethodInvocation SimpleName get long property
+factory manager utils SimpleName MethodInvocation SimpleName session
+factory manager utils SimpleName MethodInvocation QualifiedName client factory managerheartbeat interval
+factory manager utils SimpleName MethodInvocation QualifiedName client factory managerdefault heartbeat interval
+get long property SimpleName MethodInvocation SimpleName session
+get long property SimpleName MethodInvocation QualifiedName client factory managerheartbeat interval
+get long property SimpleName MethodInvocation QualifiedName client factory managerdefault heartbeat interval
+session SimpleName MethodInvocation QualifiedName client factory managerheartbeat interval
+session SimpleName MethodInvocation QualifiedName client factory managerdefault heartbeat interval
+client factory managerheartbeat interval QualifiedName MethodInvocation QualifiedName client factory managerdefault heartbeat interval
+interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long property
+interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+interval SimpleName VariableDeclarationFragment MethodInvocation QualifiedName client factory managerheartbeat interval
+interval SimpleName VariableDeclarationFragment MethodInvocation QualifiedName client factory managerdefault heartbeat interval
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName interval
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get long property
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName session
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName client factory managerheartbeat interval
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName client factory managerdefault heartbeat interval
+interval SimpleName InfixExpression NumberLiteral l
+session SimpleName MethodInvocation SimpleName get factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get scheduled executor service
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scheduled executor service
+scheduled executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+service SimpleName MethodInvocation SimpleName schedule at fixed rate
+service SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+service SimpleName MethodInvocation SimpleName interval
+service SimpleName MethodInvocation SimpleName interval
+service SimpleName MethodInvocation QualifiedName time unitmilliseconds
+schedule at fixed rate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+schedule at fixed rate SimpleName MethodInvocation SimpleName interval
+schedule at fixed rate SimpleName MethodInvocation SimpleName interval
+schedule at fixed rate SimpleName MethodInvocation QualifiedName time unitmilliseconds
+runnable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName interval
+runnable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName interval
+runnable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+interval SimpleName MethodInvocation SimpleName interval
+interval SimpleName MethodInvocation QualifiedName time unitmilliseconds
+interval SimpleName MethodInvocation QualifiedName time unitmilliseconds
+log SimpleName MethodInvocation SimpleName is debug enabled
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName interval
+value of SimpleName MethodInvocation SimpleName interval
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral start heartbeat - started at interval
+log SimpleName MethodInvocation MethodInvocation SimpleName long
+log SimpleName MethodInvocation MethodInvocation SimpleName value of
+log SimpleName MethodInvocation MethodInvocation SimpleName interval
+debug SimpleName MethodInvocation StringLiteral start heartbeat - started at interval
+debug SimpleName MethodInvocation MethodInvocation SimpleName long
+debug SimpleName MethodInvocation MethodInvocation SimpleName value of
+debug SimpleName MethodInvocation MethodInvocation SimpleName interval
+start heartbeat - started at interval StringLiteral MethodInvocation MethodInvocation SimpleName long
+start heartbeat - started at interval StringLiteral MethodInvocation MethodInvocation SimpleName value of
+start heartbeat - started at interval StringLiteral MethodInvocation MethodInvocation SimpleName interval
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName start heart beat
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName start heart beat
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+start heart beat SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start heart beat
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start heart beat

@@ -1,0 +1,13 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName socket address
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName socket address
+channels SimpleName MethodInvocation SimpleName key set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName socket address
+public Modifier MethodDeclaration SimpleName get bound addresses
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bound addresses
+socket address SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bound addresses
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bound addresses
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bound addresses

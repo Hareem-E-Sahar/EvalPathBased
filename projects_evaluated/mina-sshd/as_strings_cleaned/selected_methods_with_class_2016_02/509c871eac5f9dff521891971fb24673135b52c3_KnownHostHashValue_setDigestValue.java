@@ -1,0 +1,20 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName digest value
+digest value SimpleName FieldAccess Assignment SimpleName digest value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set digest value
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName digest value
+void PrimitiveType MethodDeclaration SimpleName set digest value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName digest value
+set digest value SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set digest value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName digest value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set digest value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName digest value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set digest value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName digest value

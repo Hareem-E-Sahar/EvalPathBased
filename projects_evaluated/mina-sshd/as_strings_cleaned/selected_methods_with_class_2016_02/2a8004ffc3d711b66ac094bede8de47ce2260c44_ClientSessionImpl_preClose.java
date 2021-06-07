@@ -1,0 +1,21 @@
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral session is being closed
+signal auth failure SimpleName MethodInvocation SimpleName auth future
+signal auth failure SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+signal auth failure SimpleName MethodInvocation ClassInstanceCreation StringLiteral session is being closed
+auth future SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ssh exception
+auth future SimpleName MethodInvocation ClassInstanceCreation StringLiteral session is being closed
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName pre close
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName pre close
+void PrimitiveType MethodDeclaration SimpleName pre close
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName pre close
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pre close

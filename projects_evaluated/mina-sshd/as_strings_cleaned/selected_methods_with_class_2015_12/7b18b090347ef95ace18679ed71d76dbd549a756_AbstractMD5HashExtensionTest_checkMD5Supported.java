@@ -1,0 +1,31 @@
+builtin digestsmd QualifiedName MethodInvocation SimpleName is supported
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral md not supported
+assume SimpleName MethodInvocation MethodInvocation QualifiedName builtin digestsmd
+assume SimpleName MethodInvocation MethodInvocation SimpleName is supported
+assume true SimpleName MethodInvocation StringLiteral md not supported
+assume true SimpleName MethodInvocation MethodInvocation QualifiedName builtin digestsmd
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is supported
+md not supported StringLiteral MethodInvocation MethodInvocation QualifiedName builtin digestsmd
+md not supported StringLiteral MethodInvocation MethodInvocation SimpleName is supported
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName check md supported
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check md supported
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check md supported
+void PrimitiveType MethodDeclaration SimpleName check md supported
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check md supported
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check md supported

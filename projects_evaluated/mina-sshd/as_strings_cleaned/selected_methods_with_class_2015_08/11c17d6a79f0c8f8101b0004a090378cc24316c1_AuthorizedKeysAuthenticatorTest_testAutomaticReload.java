@@ -1,0 +1,500 @@
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName detect target folder
+file SimpleName SimpleType ClassInstanceCreation SimpleName temp subfolder name
+detect target folder SimpleName MethodInvocation ClassInstanceCreation SimpleName temp subfolder name
+file SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName temp subfolder name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current test name
+temp subfolder name SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get current test name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to path
+temp subfolder name SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to path
+get current test name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName to path
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName file
+exists SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName delete
+files SimpleName MethodInvocation SimpleName file
+delete SimpleName MethodInvocation SimpleName file
+atomic integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+reload count SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+reload count SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName reload count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reload count
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName authorized key entry
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+assert same SimpleName MethodInvocation StringLiteral mismatched reload path
+assert same SimpleName MethodInvocation SimpleName file
+assert same SimpleName MethodInvocation SimpleName path
+mismatched reload path StringLiteral MethodInvocation SimpleName file
+mismatched reload path StringLiteral MethodInvocation SimpleName path
+file SimpleName MethodInvocation SimpleName path
+reload count SimpleName MethodInvocation SimpleName increment and get
+reload authorized keys SimpleName SuperMethodInvocation SimpleName path
+reload authorized keys SimpleName SuperMethodInvocation SimpleName username
+reload authorized keys SimpleName SuperMethodInvocation SimpleName session
+path SimpleName SuperMethodInvocation SimpleName username
+path SimpleName SuperMethodInvocation SimpleName session
+username SimpleName SuperMethodInvocation SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName reload authorized keys
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName username
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName authorized key entry
+protected Modifier MethodDeclaration SimpleName reload authorized keys
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reload authorized keys
+authorized key entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reload authorized keys
+reload authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+reload authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+reload authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reload authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+reload authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+reload authorized keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+reload authorized keys SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+username SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+authorized keys authenticator SimpleName SimpleType ClassInstanceCreation SimpleName file
+file SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+file SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName reload authorized keys
+auth SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName authorized keys authenticator
+auth SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+publickey authenticator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+unexpected authentication success for missing file StringLiteral InfixExpression SimpleName file
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+auth SimpleName MethodInvocation SimpleName authenticate
+auth SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+auth SimpleName MethodInvocation MethodInvocation SimpleName mockito
+auth SimpleName MethodInvocation MethodInvocation SimpleName mock
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName mockito
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName mock
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mockito
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mock
+assert false SimpleName MethodInvocation InfixExpression StringLiteral unexpected authentication success for missing file
+assert false SimpleName MethodInvocation InfixExpression SimpleName file
+assert false SimpleName MethodInvocation MethodInvocation SimpleName auth
+assert false SimpleName MethodInvocation MethodInvocation SimpleName authenticate
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mockito
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mock
+unexpected authentication success for missing file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName auth
+unexpected authentication success for missing file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName auth
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation QualifiedName authorized key entrystd authorized keys filename
+get resource SimpleName MethodInvocation QualifiedName authorized key entrystd authorized keys filename
+url SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+url SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorized key entrystd authorized keys filename
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+missing StringLiteral InfixExpression QualifiedName authorized key entrystd authorized keys filename
+missing StringLiteral InfixExpression StringLiteral resource
+authorized key entrystd authorized keys filename QualifiedName InfixExpression StringLiteral resource
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral missing
+assert not null SimpleName MethodInvocation InfixExpression QualifiedName authorized key entrystd authorized keys filename
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral resource
+assert not null SimpleName MethodInvocation SimpleName url
+missing StringLiteral InfixExpression MethodInvocation SimpleName url
+authorized key entrystd authorized keys filename QualifiedName InfixExpression MethodInvocation SimpleName url
+resource StringLiteral InfixExpression MethodInvocation SimpleName url
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+url SimpleName MethodInvocation SimpleName open stream
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open stream
+input stream reader SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+url SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+open stream SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName standard charsetsutf
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName standard charsetsutf
+buffered reader SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName rdr
+rdr SimpleName MethodInvocation SimpleName read line
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName rdr
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName l
+rdr SimpleName MethodInvocation SimpleName read line
+l SimpleName Assignment MethodInvocation SimpleName rdr
+l SimpleName Assignment MethodInvocation SimpleName read line
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation SimpleName l
+trim to empty SimpleName MethodInvocation SimpleName l
+l SimpleName Assignment MethodInvocation SimpleName generic utils
+l SimpleName Assignment MethodInvocation SimpleName trim to empty
+l SimpleName Assignment MethodInvocation SimpleName l
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName l
+is empty SimpleName MethodInvocation SimpleName l
+l SimpleName MethodInvocation SimpleName char at
+l SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+l SimpleName MethodInvocation InfixExpression QualifiedName public key entrycomment char
+char at SimpleName MethodInvocation InfixExpression QualifiedName public key entrycomment char
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName public key entrycomment char
+key lines SimpleName MethodInvocation SimpleName add
+key lines SimpleName MethodInvocation SimpleName l
+add SimpleName MethodInvocation SimpleName l
+l SimpleName InfixExpression ForStatement Assignment SimpleName l
+file SimpleName MethodInvocation SimpleName get parent
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName file
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName get parent
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral lineseparator
+get property SimpleName MethodInvocation StringLiteral lineseparator
+eol SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+eol SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+eol SimpleName VariableDeclarationFragment MethodInvocation StringLiteral lineseparator
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName eol
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral lineseparator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eol
+key lines SimpleName MethodInvocation SimpleName size
+key lines SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+files SimpleName MethodInvocation SimpleName new buffered writer
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation QualifiedName standard charsetsutf
+new buffered writer SimpleName MethodInvocation SimpleName file
+new buffered writer SimpleName MethodInvocation QualifiedName standard charsetsutf
+file SimpleName MethodInvocation QualifiedName standard charsetsutf
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName new buffered writer
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+w SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+writer SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName w
+w SimpleName MethodInvocation SimpleName append
+w SimpleName MethodInvocation QualifiedName public key entrycomment char
+append SimpleName MethodInvocation QualifiedName public key entrycomment char
+w SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+public key entrycomment char QualifiedName MethodInvocation MethodInvocation SimpleName append
+w SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+public key entrycomment char QualifiedName MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+w SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+public key entrycomment char QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+append SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+key lines SimpleName MethodInvocation SimpleName size
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName key lines
+string SimpleName MethodInvocation MethodInvocation SimpleName size
+value of SimpleName MethodInvocation MethodInvocation SimpleName key lines
+value of SimpleName MethodInvocation MethodInvocation SimpleName size
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName string
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName value of
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key lines
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+empty CharacterLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+append SimpleName MethodInvocation MethodInvocation StringLiteral remaining keys
+string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral remaining keys
+append SimpleName MethodInvocation StringLiteral remaining keys
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+remaining keys StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eol
+append SimpleName MethodInvocation MethodInvocation SimpleName eol
+remaining keys StringLiteral MethodInvocation MethodInvocation SimpleName eol
+append SimpleName MethodInvocation SimpleName eol
+string SimpleName SimpleType SingleVariableDeclaration SimpleName l
+w SimpleName MethodInvocation SimpleName append
+w SimpleName MethodInvocation SimpleName l
+append SimpleName MethodInvocation SimpleName l
+w SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+l SimpleName MethodInvocation MethodInvocation SimpleName append
+w SimpleName MethodInvocation MethodInvocation SimpleName eol
+append SimpleName MethodInvocation MethodInvocation SimpleName eol
+l SimpleName MethodInvocation MethodInvocation SimpleName eol
+append SimpleName MethodInvocation SimpleName eol
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName key lines
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName key lines
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName authorized key entry
+authorized key entry SimpleName MethodInvocation SimpleName read authorized keys
+authorized key entry SimpleName MethodInvocation SimpleName file
+read authorized keys SimpleName MethodInvocation SimpleName file
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName authorized key entry
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName read authorized keys
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+key lines SimpleName MethodInvocation SimpleName size
+entries SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation StringLiteral mismatched number of loaded entries
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName key lines
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entries
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+mismatched number of loaded entries StringLiteral MethodInvocation MethodInvocation SimpleName key lines
+mismatched number of loaded entries StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched number of loaded entries StringLiteral MethodInvocation MethodInvocation SimpleName entries
+mismatched number of loaded entries StringLiteral MethodInvocation MethodInvocation SimpleName size
+key lines SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entries
+key lines SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entries
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName public key
+authorized key entry SimpleName MethodInvocation SimpleName resolve authorized keys
+authorized key entry SimpleName MethodInvocation SimpleName entries
+resolve authorized keys SimpleName MethodInvocation SimpleName entries
+key set SimpleName VariableDeclarationFragment MethodInvocation SimpleName authorized key entry
+key set SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve authorized keys
+key set SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+entries SimpleName MethodInvocation SimpleName size
+key set SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation StringLiteral mismatched number of loaded keys
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entries
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName key set
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+mismatched number of loaded keys StringLiteral MethodInvocation MethodInvocation SimpleName entries
+mismatched number of loaded keys StringLiteral MethodInvocation MethodInvocation SimpleName size
+mismatched number of loaded keys StringLiteral MethodInvocation MethodInvocation SimpleName key set
+mismatched number of loaded keys StringLiteral MethodInvocation MethodInvocation SimpleName size
+entries SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+entries SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+reload count SimpleName MethodInvocation SimpleName set
+reload count SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation NumberLiteral empty
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+key set SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName key set
+index SimpleName InfixExpression MethodInvocation SimpleName size
+key set SimpleName MethodInvocation SimpleName get
+key set SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName key set
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+key lines SimpleName MethodInvocation SimpleName get
+key lines SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+key data SimpleName VariableDeclarationFragment MethodInvocation SimpleName key lines
+key data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+key data SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key data
+index SimpleName InfixExpression NumberLiteral empty
+k SimpleName MethodInvocation SimpleName get algorithm
+failed to authenticate with key # StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName index
+failed to authenticate with key # StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+failed to authenticate with key # StringLiteral InfixExpression StringLiteral empty
+failed to authenticate with key # StringLiteral InfixExpression MethodInvocation SimpleName k
+failed to authenticate with key # StringLiteral InfixExpression MethodInvocation SimpleName get algorithm
+failed to authenticate with key # StringLiteral InfixExpression StringLiteral [
+failed to authenticate with key # StringLiteral InfixExpression SimpleName key data
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral [
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral [
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName key data
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName key data
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ] on file
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral ] on file
+empty StringLiteral InfixExpression MethodInvocation SimpleName k
+empty StringLiteral InfixExpression MethodInvocation SimpleName get algorithm
+empty StringLiteral InfixExpression StringLiteral [
+empty StringLiteral InfixExpression SimpleName key data
+empty StringLiteral InfixExpression StringLiteral ] on file
+empty StringLiteral InfixExpression SimpleName file
+k SimpleName MethodInvocation InfixExpression StringLiteral [
+get algorithm SimpleName MethodInvocation InfixExpression StringLiteral [
+k SimpleName MethodInvocation InfixExpression SimpleName key data
+get algorithm SimpleName MethodInvocation InfixExpression SimpleName key data
+k SimpleName MethodInvocation InfixExpression StringLiteral ] on file
+get algorithm SimpleName MethodInvocation InfixExpression StringLiteral ] on file
+k SimpleName MethodInvocation InfixExpression SimpleName file
+get algorithm SimpleName MethodInvocation InfixExpression SimpleName file
+[ StringLiteral InfixExpression SimpleName key data
+[ StringLiteral InfixExpression StringLiteral ] on file
+[ StringLiteral InfixExpression SimpleName file
+key data SimpleName InfixExpression StringLiteral ] on file
+key data SimpleName InfixExpression SimpleName file
+] on file StringLiteral InfixExpression SimpleName file
+auth SimpleName MethodInvocation SimpleName authenticate
+auth SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+auth SimpleName MethodInvocation SimpleName k
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+authenticate SimpleName MethodInvocation SimpleName k
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to authenticate with key #
+assert true SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get algorithm
+assert true SimpleName MethodInvocation InfixExpression StringLiteral [
+assert true SimpleName MethodInvocation InfixExpression SimpleName key data
+assert true SimpleName MethodInvocation InfixExpression StringLiteral ] on file
+assert true SimpleName MethodInvocation InfixExpression SimpleName file
+assert true SimpleName MethodInvocation MethodInvocation SimpleName auth
+assert true SimpleName MethodInvocation MethodInvocation SimpleName authenticate
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+failed to authenticate with key # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName auth
+failed to authenticate with key # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+failed to authenticate with key # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName auth
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+[ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName auth
+[ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+[ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+key data SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName auth
+key data SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+key data SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName k
+] on file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName auth
+] on file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+] on file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName auth
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName k
+key lines SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression NumberLiteral empty
+unexpected keys reloading of StringLiteral InfixExpression MethodInvocation SimpleName key lines
+unexpected keys reloading of StringLiteral InfixExpression MethodInvocation SimpleName size
+unexpected keys reloading of StringLiteral InfixExpression StringLiteral remaining at key #
+unexpected keys reloading of StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName index
+unexpected keys reloading of StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+unexpected keys reloading of StringLiteral InfixExpression StringLiteral on file
+unexpected keys reloading of StringLiteral InfixExpression SimpleName file
+key lines SimpleName MethodInvocation InfixExpression StringLiteral remaining at key #
+size SimpleName MethodInvocation InfixExpression StringLiteral remaining at key #
+key lines SimpleName MethodInvocation InfixExpression StringLiteral on file
+size SimpleName MethodInvocation InfixExpression StringLiteral on file
+key lines SimpleName MethodInvocation InfixExpression SimpleName file
+size SimpleName MethodInvocation InfixExpression SimpleName file
+remaining at key # StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName index
+remaining at key # StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+remaining at key # StringLiteral InfixExpression StringLiteral on file
+remaining at key # StringLiteral InfixExpression SimpleName file
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral on file
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral on file
+index SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName file
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName file
+on file StringLiteral InfixExpression SimpleName file
+reload count SimpleName MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral unexpected keys reloading of
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key lines
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral remaining at key #
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral on file
+assert equals SimpleName MethodInvocation InfixExpression SimpleName file
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName reload count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+unexpected keys reloading of StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+key lines SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+remaining at key # StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+on file StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+file SimpleName InfixExpression MethodInvocation NumberLiteral empty
+unexpected keys reloading of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName reload count
+unexpected keys reloading of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+remaining at key # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName reload count
+remaining at key # StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+on file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName reload count
+on file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName reload count
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName reload count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+key lines SimpleName MethodInvocation SimpleName remove
+key lines SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+file no longer exists StringLiteral InfixExpression SimpleName file
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName file
+exists SimpleName MethodInvocation SimpleName file
+assert true SimpleName MethodInvocation InfixExpression StringLiteral file no longer exists
+assert true SimpleName MethodInvocation InfixExpression SimpleName file
+assert true SimpleName MethodInvocation MethodInvocation SimpleName files
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName file
+file no longer exists StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName files
+file no longer exists StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exists
+file no longer exists StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName file
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName files
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exists
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName file
+unexpected authentication success for empty file StringLiteral InfixExpression SimpleName file
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName public key
+auth SimpleName MethodInvocation SimpleName authenticate
+auth SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+auth SimpleName MethodInvocation MethodInvocation SimpleName mockito
+auth SimpleName MethodInvocation MethodInvocation SimpleName mock
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName mockito
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName mock
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mockito
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mock
+assert false SimpleName MethodInvocation InfixExpression StringLiteral unexpected authentication success for empty file
+assert false SimpleName MethodInvocation InfixExpression SimpleName file
+assert false SimpleName MethodInvocation MethodInvocation SimpleName auth
+assert false SimpleName MethodInvocation MethodInvocation SimpleName authenticate
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mockito
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mock
+unexpected authentication success for empty file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName auth
+unexpected authentication success for empty file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName auth
+file SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName authenticate
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test automatic reload

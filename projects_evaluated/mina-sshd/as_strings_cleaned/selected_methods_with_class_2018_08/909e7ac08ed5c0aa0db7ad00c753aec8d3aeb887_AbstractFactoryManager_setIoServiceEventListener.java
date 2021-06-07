@@ -1,0 +1,26 @@
+io service event listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+event listener SimpleName Assignment SimpleName listener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set io service event listener
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set io service event listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io service event listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName set io service event listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io service event listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+set io service event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io service event listener
+set io service event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set io service event listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set io service event listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

@@ -1,0 +1,40 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+system SimpleName MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get package
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get name
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+arrays SimpleName MethodInvocation MethodInvocation SimpleName to string
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get package
+as list SimpleName MethodInvocation MethodInvocation SimpleName get name
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+as list SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+as list SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+as list SimpleName MethodInvocation MethodInvocation SimpleName to string
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName create test lines
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create test lines
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create test lines
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName create test lines
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create test lines

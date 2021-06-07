@@ -1,0 +1,40 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName is fill with default values
+build SimpleName SuperMethodInvocation SimpleName is fill with default values
+server SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName build
+server SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName is fill with default values
+ssh server SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+server SimpleName MethodInvocation SimpleName set publickey authenticator
+server SimpleName MethodInvocation SimpleName pubkey authenticator
+set publickey authenticator SimpleName MethodInvocation SimpleName pubkey authenticator
+server SimpleName MethodInvocation SimpleName set keyboard interactive authenticator
+server SimpleName MethodInvocation SimpleName interactive authenticator
+set keyboard interactive authenticator SimpleName MethodInvocation SimpleName interactive authenticator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ssh server
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName build
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName is fill with default values
+public Modifier MethodDeclaration SimpleType SimpleName ssh server
+public Modifier MethodDeclaration SimpleName build
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is fill with default values
+public Modifier MethodDeclaration Block ReturnStatement SimpleName server
+ssh server SimpleName SimpleType MethodDeclaration SimpleName build
+ssh server SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+ssh server SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is fill with default values
+build SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+build SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is fill with default values
+build SimpleName MethodDeclaration Block ReturnStatement SimpleName server
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh server
+public Modifier TypeDeclaration MethodDeclaration SimpleName build
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is fill with default values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh server
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is fill with default values

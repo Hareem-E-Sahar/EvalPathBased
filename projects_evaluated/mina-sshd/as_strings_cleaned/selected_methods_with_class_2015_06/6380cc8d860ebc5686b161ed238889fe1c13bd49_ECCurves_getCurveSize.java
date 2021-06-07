@@ -1,0 +1,85 @@
+ec parameter spec SimpleName SimpleType SingleVariableDeclaration SimpleName params
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName params
+validate utils SimpleName MethodInvocation StringLiteral no ec params
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName params
+check not null SimpleName MethodInvocation StringLiteral no ec params
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+params SimpleName MethodInvocation StringLiteral no ec params
+params SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no ec params StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get curve
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get curve
+params SimpleName MethodInvocation MethodInvocation SimpleName get curve
+no ec params StringLiteral MethodInvocation MethodInvocation SimpleName get curve
+generic utilsempty object array QualifiedName MethodInvocation MethodInvocation SimpleName get curve
+curve SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+curve SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null
+curve SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName params
+curve SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no ec params
+curve SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+curve SimpleName VariableDeclarationFragment MethodInvocation SimpleName get curve
+elliptic curve SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curve
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName curve
+validate utils SimpleName MethodInvocation StringLiteral no ec curve
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName curve
+check not null SimpleName MethodInvocation StringLiteral no ec curve
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+curve SimpleName MethodInvocation StringLiteral no ec curve
+curve SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no ec curve StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get field
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get field
+curve SimpleName MethodInvocation MethodInvocation SimpleName get field
+no ec curve StringLiteral MethodInvocation MethodInvocation SimpleName get field
+generic utilsempty object array QualifiedName MethodInvocation MethodInvocation SimpleName get field
+field SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+field SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null
+field SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName curve
+field SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no ec curve
+field SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+field SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field
+ec field SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName field
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName field
+validate utils SimpleName MethodInvocation StringLiteral no ec field
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation SimpleName field
+check not null SimpleName MethodInvocation StringLiteral no ec field
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+field SimpleName MethodInvocation StringLiteral no ec field
+field SimpleName MethodInvocation QualifiedName generic utilsempty object array
+no ec field StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get field size
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get field size
+field SimpleName MethodInvocation MethodInvocation SimpleName get field size
+no ec field StringLiteral MethodInvocation MethodInvocation SimpleName get field size
+generic utilsempty object array QualifiedName MethodInvocation MethodInvocation SimpleName get field size
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get curve size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get curve size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+int PrimitiveType MethodDeclaration SimpleName get curve size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName params
+get curve size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ec parameter spec
+get curve size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get curve size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get curve size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params

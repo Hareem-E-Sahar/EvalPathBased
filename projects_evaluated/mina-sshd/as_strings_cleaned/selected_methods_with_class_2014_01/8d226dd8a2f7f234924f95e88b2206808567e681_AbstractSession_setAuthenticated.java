@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+authed SimpleName FieldAccess Assignment BooleanLiteral true
+username SimpleName FieldAccess Assignment SimpleName username
+send event SimpleName MethodInvocation QualifiedName session listenereventauthenticated
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set authenticated
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName set authenticated
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set authenticated SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set authenticated SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+set authenticated SimpleName MethodDeclaration SimpleType SimpleName io exception
+username SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set authenticated
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set authenticated
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

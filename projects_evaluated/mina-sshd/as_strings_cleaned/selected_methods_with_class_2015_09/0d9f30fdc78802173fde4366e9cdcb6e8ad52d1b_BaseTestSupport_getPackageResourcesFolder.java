@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName res type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pkg name
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName detect sources folder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+src SimpleName MethodInvocation SimpleName resolve
+src SimpleName MethodInvocation SimpleName res type
+resolve SimpleName MethodInvocation SimpleName res type
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName res type
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+root SimpleName MethodInvocation SimpleName resolve
+root SimpleName MethodInvocation SimpleName resources subfolder
+resolve SimpleName MethodInvocation SimpleName resources subfolder
+resources SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+resources SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+resources SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources subfolder
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resources
+pkg name SimpleName MethodInvocation SimpleName replace
+pkg name SimpleName MethodInvocation CharacterLiteral .
+pkg name SimpleName MethodInvocation QualifiedName fileseparator char
+replace SimpleName MethodInvocation CharacterLiteral .
+replace SimpleName MethodInvocation QualifiedName fileseparator char
+. CharacterLiteral MethodInvocation QualifiedName fileseparator char
+resources SimpleName MethodInvocation SimpleName resolve
+resources SimpleName MethodInvocation MethodInvocation SimpleName pkg name
+resources SimpleName MethodInvocation MethodInvocation SimpleName replace
+resources SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+resources SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+resolve SimpleName MethodInvocation MethodInvocation SimpleName pkg name
+resolve SimpleName MethodInvocation MethodInvocation SimpleName replace
+resolve SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+resolve SimpleName MethodInvocation MethodInvocation QualifiedName fileseparator char
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName get package resources folder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName res type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pkg name
+path SimpleName SimpleType MethodDeclaration SimpleName get package resources folder
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName res type
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pkg name
+get package resources folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get package resources folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName res type
+get package resources folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get package resources folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pkg name
+res type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pkg name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get package resources folder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName res type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pkg name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get package resources folder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName res type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pkg name

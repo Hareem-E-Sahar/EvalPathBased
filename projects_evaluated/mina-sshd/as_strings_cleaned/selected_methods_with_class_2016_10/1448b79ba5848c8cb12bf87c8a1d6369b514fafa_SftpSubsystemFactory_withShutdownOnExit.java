@@ -1,0 +1,22 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName shutdown
+shutdown executor SimpleName Assignment SimpleName shutdown
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName with shutdown on exit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shutdown
+builder SimpleName SimpleType MethodDeclaration SimpleName with shutdown on exit
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName shutdown
+with shutdown on exit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+with shutdown on exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shutdown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName with shutdown on exit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shutdown
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with shutdown on exit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shutdown

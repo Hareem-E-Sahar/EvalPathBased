@@ -1,0 +1,27 @@
+io connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector holder SimpleName MethodInvocation SimpleName get
+connector SimpleName Assignment MethodInvocation SimpleName connector holder
+connector SimpleName Assignment MethodInvocation SimpleName get
+connector SimpleName Assignment MethodInvocation SimpleName create connector
+connector SimpleName MethodInvocation SimpleName set handler
+connector holder SimpleName MethodInvocation SimpleName set
+connector holder SimpleName MethodInvocation SimpleName connector
+set SimpleName MethodInvocation SimpleName connector
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral created io connector
+debug SimpleName MethodInvocation StringLiteral created io connector
+connector holder SimpleName SynchronizedStatement Block ReturnStatement SimpleName connector
+protected Modifier MethodDeclaration SimpleType SimpleName io connector
+protected Modifier MethodDeclaration SimpleName get connector
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName connector holder
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName connector
+io connector SimpleName SimpleType MethodDeclaration SimpleName get connector
+get connector SimpleName MethodDeclaration Block SynchronizedStatement SimpleName connector holder
+get connector SimpleName MethodDeclaration Block ReturnStatement SimpleName connector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connector
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connector

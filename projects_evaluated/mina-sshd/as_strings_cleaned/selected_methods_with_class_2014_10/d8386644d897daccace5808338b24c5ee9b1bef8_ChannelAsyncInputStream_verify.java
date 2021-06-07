@@ -1,0 +1,23 @@
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral interrupted
+ssh exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+interrupted StringLiteral ClassInstanceCreation SimpleName e
+get value SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName throwable
+ssh exception SimpleName SimpleType ClassInstanceCreation StringLiteral write failed
+ssh exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get exception
+write failed StringLiteral ClassInstanceCreation MethodInvocation SimpleName get exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify
+public Modifier MethodDeclaration SimpleType SimpleName ssh exception
+void PrimitiveType MethodDeclaration SimpleName verify
+void PrimitiveType MethodDeclaration SimpleType SimpleName ssh exception
+verify SimpleName MethodDeclaration SimpleType SimpleName ssh exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssh exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssh exception

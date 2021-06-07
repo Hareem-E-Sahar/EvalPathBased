@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName host based authenticator
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get host based authenticator
+public Modifier MethodDeclaration SimpleType SimpleName host based authenticator
+public Modifier MethodDeclaration SimpleName get host based authenticator
+public Modifier MethodDeclaration Block ReturnStatement SimpleName host based authenticator
+host based authenticator SimpleName SimpleType MethodDeclaration SimpleName get host based authenticator
+get host based authenticator SimpleName MethodDeclaration Block ReturnStatement SimpleName host based authenticator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName host based authenticator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get host based authenticator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName host based authenticator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get host based authenticator

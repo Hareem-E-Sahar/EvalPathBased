@@ -1,0 +1,23 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName attributeowner group
+add SimpleName MethodInvocation QualifiedName attributeowner group
+group SimpleName FieldAccess Assignment SimpleName group
+owner SimpleName Assignment StringLiteral owner
+public Modifier MethodDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SimpleName group
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName group
+attributes SimpleName SimpleType MethodDeclaration SimpleName group
+attributes SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName group
+group SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+group SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName group
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName group
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group

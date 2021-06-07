@@ -1,0 +1,139 @@
+version info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+java version holder SimpleName MethodInvocation SimpleName get
+version SimpleName Assignment MethodInvocation SimpleName java version holder
+version SimpleName Assignment MethodInvocation SimpleName get
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral javaversion
+get property SimpleName MethodInvocation StringLiteral javaversion
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation SimpleName java version override prop
+system SimpleName MethodInvocation MethodInvocation SimpleName system
+system SimpleName MethodInvocation MethodInvocation SimpleName get property
+system SimpleName MethodInvocation MethodInvocation StringLiteral javaversion
+get property SimpleName MethodInvocation SimpleName java version override prop
+get property SimpleName MethodInvocation MethodInvocation SimpleName system
+get property SimpleName MethodInvocation MethodInvocation SimpleName get property
+get property SimpleName MethodInvocation MethodInvocation StringLiteral javaversion
+java version override prop SimpleName MethodInvocation MethodInvocation SimpleName system
+java version override prop SimpleName MethodInvocation MethodInvocation SimpleName get property
+java version override prop SimpleName MethodInvocation MethodInvocation StringLiteral javaversion
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName java version override prop
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName system
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral javaversion
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName value
+validate utils SimpleName MethodInvocation StringLiteral no configured java version value
+check not null and not empty SimpleName MethodInvocation SimpleName value
+check not null and not empty SimpleName MethodInvocation StringLiteral no configured java version value
+value SimpleName MethodInvocation StringLiteral no configured java version value
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName replace
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName replace
+value SimpleName MethodInvocation MethodInvocation SimpleName replace
+no configured java version value StringLiteral MethodInvocation MethodInvocation SimpleName replace
+validate utils SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+check not null and not empty SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+no configured java version value StringLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+validate utils SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+check not null and not empty SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+value SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+no configured java version value StringLiteral MethodInvocation MethodInvocation CharacterLiteral .
+replace SimpleName MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation CharacterLiteral .
+empty CharacterLiteral MethodInvocation CharacterLiteral .
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName validate utils
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName check not null and not empty
+value SimpleName Assignment MethodInvocation MethodInvocation SimpleName value
+value SimpleName Assignment MethodInvocation MethodInvocation StringLiteral no configured java version value
+value SimpleName Assignment MethodInvocation SimpleName replace
+value SimpleName Assignment MethodInvocation CharacterLiteral empty
+value SimpleName Assignment MethodInvocation CharacterLiteral .
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+value SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName value
+index SimpleName InfixExpression MethodInvocation SimpleName length
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation SimpleName index
+char at SimpleName MethodInvocation SimpleName index
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName value
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index
+ch SimpleName InfixExpression CharacterLiteral .
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression CharacterLiteral empty
+value SimpleName MethodInvocation SimpleName substring
+value SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation SimpleName index
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation SimpleName index
+value SimpleName Assignment MethodInvocation SimpleName value
+value SimpleName Assignment MethodInvocation SimpleName substring
+value SimpleName Assignment MethodInvocation NumberLiteral empty
+value SimpleName Assignment MethodInvocation SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+version info SimpleName MethodInvocation SimpleName parse
+version info SimpleName MethodInvocation SimpleName value
+parse SimpleName MethodInvocation SimpleName value
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName version info
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName parse
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName value
+validate utils SimpleName MethodInvocation StringLiteral no version parsed for s
+validate utils SimpleName MethodInvocation SimpleName value
+check not null SimpleName MethodInvocation MethodInvocation SimpleName version info
+check not null SimpleName MethodInvocation MethodInvocation SimpleName parse
+check not null SimpleName MethodInvocation MethodInvocation SimpleName value
+check not null SimpleName MethodInvocation StringLiteral no version parsed for s
+check not null SimpleName MethodInvocation SimpleName value
+version info SimpleName MethodInvocation MethodInvocation StringLiteral no version parsed for s
+parse SimpleName MethodInvocation MethodInvocation StringLiteral no version parsed for s
+value SimpleName MethodInvocation MethodInvocation StringLiteral no version parsed for s
+version info SimpleName MethodInvocation MethodInvocation SimpleName value
+parse SimpleName MethodInvocation MethodInvocation SimpleName value
+value SimpleName MethodInvocation MethodInvocation SimpleName value
+no version parsed for s StringLiteral MethodInvocation SimpleName value
+version SimpleName Assignment MethodInvocation SimpleName validate utils
+version SimpleName Assignment MethodInvocation SimpleName check not null
+version SimpleName Assignment MethodInvocation MethodInvocation SimpleName version info
+version SimpleName Assignment MethodInvocation MethodInvocation SimpleName parse
+version SimpleName Assignment MethodInvocation MethodInvocation SimpleName value
+version SimpleName Assignment MethodInvocation StringLiteral no version parsed for s
+version SimpleName Assignment MethodInvocation SimpleName value
+java version holder SimpleName MethodInvocation SimpleName set
+java version holder SimpleName MethodInvocation SimpleName version
+set SimpleName MethodInvocation SimpleName version
+java version holder SimpleName SynchronizedStatement Block ReturnStatement SimpleName version
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName version info
+public Modifier MethodDeclaration SimpleName get java version
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName java version holder
+public Modifier MethodDeclaration Block ReturnStatement SimpleName version
+static Modifier MethodDeclaration SimpleType SimpleName version info
+static Modifier MethodDeclaration SimpleName get java version
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName java version holder
+static Modifier MethodDeclaration Block ReturnStatement SimpleName version
+version info SimpleName SimpleType MethodDeclaration SimpleName get java version
+get java version SimpleName MethodDeclaration Block SynchronizedStatement SimpleName java version holder
+get java version SimpleName MethodDeclaration Block ReturnStatement SimpleName version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName version info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get java version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName version info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get java version

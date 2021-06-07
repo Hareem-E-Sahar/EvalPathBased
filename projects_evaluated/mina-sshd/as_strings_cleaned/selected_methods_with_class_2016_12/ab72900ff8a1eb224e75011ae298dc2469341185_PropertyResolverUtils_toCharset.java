@@ -1,0 +1,37 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName charset
+charset SimpleName SimpleType CastExpression SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName char sequence
+value SimpleName MethodInvocation SimpleName to string
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation MethodInvocation SimpleName value
+charset SimpleName MethodInvocation MethodInvocation SimpleName to string
+for name SimpleName MethodInvocation MethodInvocation SimpleName value
+for name SimpleName MethodInvocation MethodInvocation SimpleName to string
+invalid charset conversion value StringLiteral InfixExpression SimpleName value
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid charset conversion value
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName charset
+public Modifier MethodDeclaration SimpleName to charset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName charset
+static Modifier MethodDeclaration SimpleName to charset
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+charset SimpleName SimpleType MethodDeclaration SimpleName to charset
+charset SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+to charset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to charset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName charset
+public Modifier TypeDeclaration MethodDeclaration SimpleName to charset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName charset
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to charset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

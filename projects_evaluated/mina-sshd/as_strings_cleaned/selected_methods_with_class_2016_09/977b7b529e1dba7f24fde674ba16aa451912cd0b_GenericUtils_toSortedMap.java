@@ -1,0 +1,91 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName u
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName u
+collector SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collector SimpleName SimpleType ParameterizedType WildcardType ?
+t SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType ParameterizedType SimpleType SimpleName sorted map
+? WildcardType ParameterizedType ParameterizedType SimpleType SimpleName k
+? WildcardType ParameterizedType ParameterizedType SimpleType SimpleName u
+function SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key mapper
+function SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName value mapper
+comparator SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+comparator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName comparator
+k SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName comparator
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName comparator
+collectors SimpleName MethodInvocation SimpleName to map
+collectors SimpleName MethodInvocation SimpleName key mapper
+collectors SimpleName MethodInvocation SimpleName value mapper
+collectors SimpleName MethodInvocation MethodInvocation SimpleName throwing merger
+collectors SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName comparator
+to map SimpleName MethodInvocation SimpleName key mapper
+to map SimpleName MethodInvocation SimpleName value mapper
+to map SimpleName MethodInvocation MethodInvocation SimpleName throwing merger
+to map SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName comparator
+key mapper SimpleName MethodInvocation SimpleName value mapper
+key mapper SimpleName MethodInvocation MethodInvocation SimpleName throwing merger
+key mapper SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName comparator
+value mapper SimpleName MethodInvocation MethodInvocation SimpleName throwing merger
+value mapper SimpleName MethodInvocation LambdaExpression ClassInstanceCreation SimpleName comparator
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleName k
+public Modifier MethodDeclaration TypeParameter SimpleName u
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collector
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration TypeParameter SimpleName k
+static Modifier MethodDeclaration TypeParameter SimpleName u
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collector
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SimpleName to sorted map
+t SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName k
+t SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName u
+t SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+t SimpleName TypeParameter MethodDeclaration SimpleName to sorted map
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName key mapper
+k SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName u
+k SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+k SimpleName TypeParameter MethodDeclaration SimpleName to sorted map
+k SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName key mapper
+k SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName value mapper
+u SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+u SimpleName TypeParameter MethodDeclaration SimpleName to sorted map
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName key mapper
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName value mapper
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName comparator
+collector SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to sorted map
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to sorted map
+? WildcardType ParameterizedType MethodDeclaration SimpleName to sorted map
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName key mapper
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName value mapper
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName comparator
+to sorted map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key mapper
+to sorted map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value mapper
+to sorted map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comparator
+key mapper SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value mapper
+key mapper SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator
+value mapper SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName k
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName to sorted map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key mapper
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value mapper
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to sorted map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key mapper
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value mapper
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator

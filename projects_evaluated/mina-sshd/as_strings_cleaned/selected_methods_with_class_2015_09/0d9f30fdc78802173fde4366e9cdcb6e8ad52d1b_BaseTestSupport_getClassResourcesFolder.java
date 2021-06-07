@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName res type
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName get package
+get package resources folder SimpleName MethodInvocation SimpleName res type
+get package resources folder SimpleName MethodInvocation MethodInvocation SimpleName clazz
+get package resources folder SimpleName MethodInvocation MethodInvocation SimpleName get package
+res type SimpleName MethodInvocation MethodInvocation SimpleName clazz
+res type SimpleName MethodInvocation MethodInvocation SimpleName get package
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName get class resources folder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName res type
+protected Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+path SimpleName SimpleType MethodDeclaration SimpleName get class resources folder
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName res type
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get class resources folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get class resources folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName res type
+get class resources folder SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get class resources folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+res type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class resources folder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName res type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class resources folder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName res type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

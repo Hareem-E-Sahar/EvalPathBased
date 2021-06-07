@@ -1,0 +1,38 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName dir entry
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+read dir StringLiteral InfixExpression SimpleName path
+read dir StringLiteral InfixExpression StringLiteral ) client is closed
+path SimpleName InfixExpression StringLiteral ) client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral read dir
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) client is closed
+delegate SimpleName MethodInvocation SimpleName read dir
+delegate SimpleName MethodInvocation SimpleName path
+read dir SimpleName MethodInvocation SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read dir
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dir entry
+public Modifier MethodDeclaration SimpleName read dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read dir
+dir entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName read dir
+read dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+read dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+read dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName read dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,35 @@
+client SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName is started
+assert true SimpleName MethodInvocation StringLiteral client not marked as started
+assert true SimpleName MethodInvocation MethodInvocation SimpleName client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is started
+client not marked as started StringLiteral MethodInvocation MethodInvocation SimpleName client
+client not marked as started StringLiteral MethodInvocation MethodInvocation SimpleName is started
+client SimpleName MethodInvocation SimpleName stop
+client SimpleName MethodInvocation SimpleName is started
+assert false SimpleName MethodInvocation StringLiteral client not marked as stopped
+assert false SimpleName MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is started
+client not marked as stopped StringLiteral MethodInvocation MethodInvocation SimpleName client
+client not marked as stopped StringLiteral MethodInvocation MethodInvocation SimpleName is started
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test client started indicator
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test client started indicator
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test client started indicator
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test client started indicator SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client started indicator
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client started indicator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

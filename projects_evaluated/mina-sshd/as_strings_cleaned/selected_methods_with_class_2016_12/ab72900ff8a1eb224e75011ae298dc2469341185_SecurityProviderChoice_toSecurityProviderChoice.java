@@ -1,0 +1,155 @@
+provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName provider
+objects SimpleName MethodInvocation StringLiteral no provider instance
+require non null SimpleName MethodInvocation SimpleName provider
+require non null SimpleName MethodInvocation StringLiteral no provider instance
+provider SimpleName MethodInvocation StringLiteral no provider instance
+security provider choice SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+provider SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+provider SimpleName MethodInvocation SimpleName get name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName provider
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+[ StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+[ StringLiteral InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression StringLiteral [
+[ StringLiteral InfixExpression MethodInvocation SimpleName provider
+[ StringLiteral InfixExpression MethodInvocation SimpleName get name
+[ StringLiteral InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName provider
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+] StringLiteral InfixExpression StringLiteral [
+] StringLiteral InfixExpression MethodInvocation SimpleName provider
+] StringLiteral InfixExpression MethodInvocation SimpleName get name
+] StringLiteral InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression MethodInvocation SimpleName provider
+[ StringLiteral InfixExpression MethodInvocation SimpleName get name
+[ StringLiteral InfixExpression StringLiteral ]
+provider SimpleName MethodInvocation InfixExpression StringLiteral ]
+get name SimpleName MethodInvocation InfixExpression StringLiteral ]
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName provider
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get name
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+private Modifier FieldDeclaration Modifier final
+private Modifier FieldDeclaration SimpleType SimpleName string
+private Modifier FieldDeclaration VariableDeclarationFragment SimpleName s
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+private Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+final Modifier FieldDeclaration SimpleType SimpleName string
+final Modifier FieldDeclaration VariableDeclarationFragment SimpleName s
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral [
+final Modifier FieldDeclaration VariableDeclarationFragment InfixExpression StringLiteral ]
+string SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName s
+provider SimpleName MethodInvocation SimpleName get name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get name
+string SimpleName SimpleType MethodDeclaration SimpleName get name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is named provider used
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is named provider used
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is named provider used
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is named provider used SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName provider
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get security provider
+public Modifier MethodDeclaration SimpleType SimpleName provider
+public Modifier MethodDeclaration SimpleName get security provider
+public Modifier MethodDeclaration Block ReturnStatement SimpleName provider
+provider SimpleName SimpleType MethodDeclaration SimpleName get security provider
+get security provider SimpleName MethodDeclaration Block ReturnStatement SimpleName provider
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get name
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get name
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is named provider used
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is named provider used
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get security provider
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get security provider
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+private Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+final Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is named provider used
+get name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+get name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is named provider used
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get security provider
+get name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get security provider
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+get name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get name SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get security provider
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get security provider
+is named provider used SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+is named provider used SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get security provider
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+is named provider used SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+is named provider used SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+get security provider SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get security provider SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration SimpleType SimpleName security provider choice
+static Modifier MethodDeclaration SimpleName to security provider choice
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+security provider choice SimpleName SimpleType MethodDeclaration SimpleName to security provider choice
+security provider choice SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provider
+to security provider choice SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName provider
+to security provider choice SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName security provider choice
+public Modifier TypeDeclaration MethodDeclaration SimpleName to security provider choice
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName security provider choice
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to security provider choice
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider

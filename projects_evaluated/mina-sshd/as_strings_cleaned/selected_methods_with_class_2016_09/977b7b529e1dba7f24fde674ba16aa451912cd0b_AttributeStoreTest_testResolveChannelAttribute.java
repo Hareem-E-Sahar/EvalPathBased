@@ -1,0 +1,189 @@
+attribute store SimpleName MethodInvocation SimpleName resolve attribute
+attribute store SimpleName MethodInvocation CastExpression SimpleType SimpleName channel
+attribute store SimpleName MethodInvocation SimpleName key
+resolve attribute SimpleName MethodInvocation CastExpression SimpleType SimpleName channel
+resolve attribute SimpleName MethodInvocation SimpleName key
+channel SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+assert null SimpleName MethodInvocation StringLiteral unexpected null channek value
+assert null SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+assert null SimpleName MethodInvocation MethodInvocation SimpleName resolve attribute
+assert null SimpleName MethodInvocation MethodInvocation SimpleName key
+unexpected null channek value StringLiteral MethodInvocation MethodInvocation SimpleName attribute store
+unexpected null channek value StringLiteral MethodInvocation MethodInvocation SimpleName resolve attribute
+unexpected null channek value StringLiteral MethodInvocation MethodInvocation SimpleName key
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName session
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+final Modifier VariableDeclarationStatement SimpleType SimpleName session
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mockito
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mock
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+atomic integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+manager count SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+manager count SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName manager count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager count
+session SimpleName MethodInvocation SimpleName get factory manager
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+manager count SimpleName MethodInvocation SimpleName increment and get
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then answer
+when SimpleName MethodInvocation MethodInvocation SimpleName then answer
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+then answer SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName invocation
+set attribute value SimpleName MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+atomic integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+session count SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+session count SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName session count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session count
+channel SimpleName MethodInvocation SimpleName get session
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName channel
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get session
+when SimpleName MethodInvocation MethodInvocation SimpleName channel
+when SimpleName MethodInvocation MethodInvocation SimpleName get session
+session count SimpleName MethodInvocation SimpleName increment and get
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then answer
+when SimpleName MethodInvocation MethodInvocation SimpleName then answer
+channel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+get session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+then answer SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName invocation
+set attribute value SimpleName MethodInvocation SimpleName channel
+attribute store SimpleName MethodInvocation SimpleName resolve attribute
+attribute store SimpleName MethodInvocation SimpleName channel
+attribute store SimpleName MethodInvocation SimpleName key
+resolve attribute SimpleName MethodInvocation SimpleName channel
+resolve attribute SimpleName MethodInvocation SimpleName key
+channel SimpleName MethodInvocation SimpleName key
+assert null SimpleName MethodInvocation StringLiteral unexpected success for empty attribute
+assert null SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+assert null SimpleName MethodInvocation MethodInvocation SimpleName resolve attribute
+assert null SimpleName MethodInvocation MethodInvocation SimpleName channel
+assert null SimpleName MethodInvocation MethodInvocation SimpleName key
+unexpected success for empty attribute StringLiteral MethodInvocation MethodInvocation SimpleName attribute store
+unexpected success for empty attribute StringLiteral MethodInvocation MethodInvocation SimpleName resolve attribute
+unexpected success for empty attribute StringLiteral MethodInvocation MethodInvocation SimpleName channel
+unexpected success for empty attribute StringLiteral MethodInvocation MethodInvocation SimpleName key
+session count SimpleName MethodInvocation SimpleName get and set
+session count SimpleName MethodInvocation NumberLiteral empty
+get and set SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral session not requested
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName session count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get and set
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+session not requested StringLiteral MethodInvocation NumberLiteral empty
+session not requested StringLiteral MethodInvocation MethodInvocation SimpleName session count
+session not requested StringLiteral MethodInvocation MethodInvocation SimpleName get and set
+session not requested StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName session count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get and set
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+manager count SimpleName MethodInvocation SimpleName get and set
+manager count SimpleName MethodInvocation NumberLiteral empty
+get and set SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral factory manager not requested
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName manager count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get and set
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+factory manager not requested StringLiteral MethodInvocation NumberLiteral empty
+factory manager not requested StringLiteral MethodInvocation MethodInvocation SimpleName manager count
+factory manager not requested StringLiteral MethodInvocation MethodInvocation SimpleName get and set
+factory manager not requested StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName manager count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get and set
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set attribute value SimpleName MethodInvocation SimpleName channel
+set attribute value SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+channel SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName set attribute value
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+attribute store SimpleName MethodInvocation SimpleName resolve attribute
+attribute store SimpleName MethodInvocation SimpleName channel
+attribute store SimpleName MethodInvocation SimpleName key
+resolve attribute SimpleName MethodInvocation SimpleName channel
+resolve attribute SimpleName MethodInvocation SimpleName key
+channel SimpleName MethodInvocation SimpleName key
+assert same SimpleName MethodInvocation StringLiteral mismatched attribute value
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+assert same SimpleName MethodInvocation MethodInvocation SimpleName resolve attribute
+assert same SimpleName MethodInvocation MethodInvocation SimpleName channel
+assert same SimpleName MethodInvocation MethodInvocation SimpleName key
+mismatched attribute value StringLiteral MethodInvocation SimpleName expected
+mismatched attribute value StringLiteral MethodInvocation MethodInvocation SimpleName attribute store
+mismatched attribute value StringLiteral MethodInvocation MethodInvocation SimpleName resolve attribute
+mismatched attribute value StringLiteral MethodInvocation MethodInvocation SimpleName channel
+mismatched attribute value StringLiteral MethodInvocation MethodInvocation SimpleName key
+expected SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+expected SimpleName MethodInvocation MethodInvocation SimpleName resolve attribute
+expected SimpleName MethodInvocation MethodInvocation SimpleName channel
+expected SimpleName MethodInvocation MethodInvocation SimpleName key
+session count SimpleName MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation StringLiteral unexpected session request
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName session count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+unexpected session request StringLiteral MethodInvocation NumberLiteral empty
+unexpected session request StringLiteral MethodInvocation MethodInvocation SimpleName session count
+unexpected session request StringLiteral MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName session count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get
+manager count SimpleName MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation StringLiteral unexpected manager request
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName manager count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+unexpected manager request StringLiteral MethodInvocation NumberLiteral empty
+unexpected manager request StringLiteral MethodInvocation MethodInvocation SimpleName manager count
+unexpected manager request StringLiteral MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName manager count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resolve channel attribute
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resolve channel attribute
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test resolve channel attribute
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test resolve channel attribute SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test resolve channel attribute SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test resolve channel attribute SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resolve channel attribute
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resolve channel attribute

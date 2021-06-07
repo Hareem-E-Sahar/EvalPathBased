@@ -1,0 +1,14 @@
+size holder SimpleName MethodInvocation SimpleName get
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get size
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+long PrimitiveType MethodDeclaration SimpleName get size
+long PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+get size SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get size

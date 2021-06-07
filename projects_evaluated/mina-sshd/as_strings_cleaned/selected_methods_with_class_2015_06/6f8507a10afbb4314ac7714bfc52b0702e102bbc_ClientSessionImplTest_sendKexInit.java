@@ -1,0 +1,23 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration ArrayType PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName send kex init
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName send kex init
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block ReturnStatement QualifiedName generic utilsempty byte array
+byte PrimitiveType ArrayType MethodDeclaration SimpleName send kex init
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName io exception
+send kex init SimpleName MethodDeclaration SimpleType SimpleName io exception
+send kex init SimpleName MethodDeclaration Block ReturnStatement QualifiedName generic utilsempty byte array
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName send kex init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send kex init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

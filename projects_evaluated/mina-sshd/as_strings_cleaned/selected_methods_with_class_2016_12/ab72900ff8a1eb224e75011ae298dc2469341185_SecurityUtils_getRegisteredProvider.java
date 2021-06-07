@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName provider
+validate utils SimpleName MethodInvocation StringLiteral no provider name specified
+check not null and not empty SimpleName MethodInvocation SimpleName provider
+check not null and not empty SimpleName MethodInvocation StringLiteral no provider name specified
+provider SimpleName MethodInvocation StringLiteral no provider name specified
+registered providers SimpleName MethodInvocation SimpleName get
+registered providers SimpleName MethodInvocation SimpleName provider
+get SimpleName MethodInvocation SimpleName provider
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName security provider registrar
+public Modifier MethodDeclaration SimpleName get registered provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+static Modifier MethodDeclaration SimpleType SimpleName security provider registrar
+static Modifier MethodDeclaration SimpleName get registered provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+security provider registrar SimpleName SimpleType MethodDeclaration SimpleName get registered provider
+security provider registrar SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provider
+get registered provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get registered provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+get registered provider SimpleName MethodDeclaration Block SynchronizedStatement SimpleName registered providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName security provider registrar
+public Modifier TypeDeclaration MethodDeclaration SimpleName get registered provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName security provider registrar
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get registered provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider

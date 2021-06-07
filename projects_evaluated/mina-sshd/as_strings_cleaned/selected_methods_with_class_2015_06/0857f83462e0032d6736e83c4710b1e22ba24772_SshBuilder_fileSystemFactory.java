@@ -1,0 +1,26 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName file system factory
+final Modifier SingleVariableDeclaration SimpleName file system factory
+file system factory SimpleName SimpleType SingleVariableDeclaration SimpleName file system factory
+file system factory SimpleName FieldAccess Assignment SimpleName file system factory
+public Modifier MethodDeclaration SimpleType SimpleName s
+public Modifier MethodDeclaration SimpleName file system factory
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file system factory
+s SimpleName SimpleType MethodDeclaration SimpleName file system factory
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+s SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file system factory
+file system factory SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+file system factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system factory
+file system factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file system factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleName file system factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file system factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleName file system factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file system factory

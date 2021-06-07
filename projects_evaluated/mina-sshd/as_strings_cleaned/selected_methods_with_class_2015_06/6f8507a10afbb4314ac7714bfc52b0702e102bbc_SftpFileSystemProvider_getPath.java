@@ -1,0 +1,34 @@
+uri SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+get file system SimpleName MethodInvocation SimpleName uri
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+uri SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation MethodInvocation SimpleName uri
+fs SimpleName MethodInvocation MethodInvocation SimpleName get path
+get path SimpleName MethodInvocation MethodInvocation SimpleName uri
+get path SimpleName MethodInvocation MethodInvocation SimpleName get path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+path SimpleName SimpleType MethodDeclaration SimpleName get path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+get path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri

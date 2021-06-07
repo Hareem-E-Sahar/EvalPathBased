@@ -1,0 +1,141 @@
+test host SimpleName VariableDeclarationFragment StringLiteral . . .
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral . . .
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName test host
+generic utils SimpleName MethodInvocation CharacterLiteral .
+split SimpleName MethodInvocation SimpleName test host
+split SimpleName MethodInvocation CharacterLiteral .
+test host SimpleName MethodInvocation CharacterLiteral .
+elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName test host
+elements SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral .
+test host SimpleName MethodInvocation SimpleName length
+test host SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+length SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+string builder SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName bytesize
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName bytesize
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName pattern
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+pattern SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+elementslength QualifiedName InfixExpression NumberLiteral empty
+patterns SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName elementslength
+patterns SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation QualifiedName host patterns holdernegation char pattern
+value of SimpleName MethodInvocation QualifiedName host patterns holdernegation char pattern
+string SimpleName MethodInvocation InfixExpression SimpleName test host
+value of SimpleName MethodInvocation InfixExpression SimpleName test host
+host patterns holdernegation char pattern QualifiedName MethodInvocation InfixExpression SimpleName test host
+host patterns holder SimpleName MethodInvocation SimpleName to pattern
+host patterns holder SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+host patterns holder SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+host patterns holder SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName host patterns holdernegation char pattern
+host patterns holder SimpleName MethodInvocation InfixExpression SimpleName test host
+to pattern SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+to pattern SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value of
+to pattern SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName host patterns holdernegation char pattern
+to pattern SimpleName MethodInvocation InfixExpression SimpleName test host
+patterns SimpleName MethodInvocation SimpleName add
+patterns SimpleName MethodInvocation MethodInvocation SimpleName host patterns holder
+patterns SimpleName MethodInvocation MethodInvocation SimpleName to pattern
+patterns SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName test host
+add SimpleName MethodInvocation MethodInvocation SimpleName host patterns holder
+add SimpleName MethodInvocation MethodInvocation SimpleName to pattern
+add SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName test host
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName elementslength
+sb SimpleName MethodInvocation SimpleName set length
+sb SimpleName MethodInvocation NumberLiteral empty
+set length SimpleName MethodInvocation NumberLiteral empty
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression QualifiedName elementslength
+j SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral .
+append SimpleName MethodInvocation CharacterLiteral .
+i SimpleName InfixExpression SimpleName j
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation QualifiedName host patterns holderwildcard pattern
+append SimpleName MethodInvocation QualifiedName host patterns holderwildcard pattern
+elements SimpleName ArrayAccess SimpleName j
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ArrayAccess SimpleName elements
+sb SimpleName MethodInvocation ArrayAccess SimpleName j
+append SimpleName MethodInvocation ArrayAccess SimpleName elements
+append SimpleName MethodInvocation ArrayAccess SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName elementslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+elementslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName j
+host patterns holder SimpleName MethodInvocation SimpleName to pattern
+host patterns holder SimpleName MethodInvocation SimpleName sb
+to pattern SimpleName MethodInvocation SimpleName sb
+patterns SimpleName MethodInvocation SimpleName add
+patterns SimpleName MethodInvocation MethodInvocation SimpleName host patterns holder
+patterns SimpleName MethodInvocation MethodInvocation SimpleName to pattern
+patterns SimpleName MethodInvocation MethodInvocation SimpleName sb
+add SimpleName MethodInvocation MethodInvocation SimpleName host patterns holder
+add SimpleName MethodInvocation MethodInvocation SimpleName to pattern
+add SimpleName MethodInvocation MethodInvocation SimpleName sb
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName elementslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+elementslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+patterns SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName patterns
+index SimpleName InfixExpression MethodInvocation SimpleName size
+unexpected match for StringLiteral InfixExpression SimpleName patterns
+host patterns holder SimpleName MethodInvocation SimpleName is host match
+host patterns holder SimpleName MethodInvocation SimpleName test host
+host patterns holder SimpleName MethodInvocation SimpleName patterns
+is host match SimpleName MethodInvocation SimpleName test host
+is host match SimpleName MethodInvocation SimpleName patterns
+test host SimpleName MethodInvocation SimpleName patterns
+assert false SimpleName MethodInvocation InfixExpression StringLiteral unexpected match for
+assert false SimpleName MethodInvocation InfixExpression SimpleName patterns
+assert false SimpleName MethodInvocation MethodInvocation SimpleName host patterns holder
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is host match
+assert false SimpleName MethodInvocation MethodInvocation SimpleName test host
+assert false SimpleName MethodInvocation MethodInvocation SimpleName patterns
+unexpected match for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName host patterns holder
+unexpected match for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is host match
+unexpected match for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName test host
+unexpected match for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName patterns
+patterns SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName host patterns holder
+patterns SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is host match
+patterns SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName test host
+patterns SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName patterns
+collections SimpleName MethodInvocation SimpleName shuffle
+collections SimpleName MethodInvocation SimpleName patterns
+shuffle SimpleName MethodInvocation SimpleName patterns
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test negating pattern overrides all
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test negating pattern overrides all
+void PrimitiveType MethodDeclaration SimpleName test negating pattern overrides all
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test negating pattern overrides all
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test negating pattern overrides all

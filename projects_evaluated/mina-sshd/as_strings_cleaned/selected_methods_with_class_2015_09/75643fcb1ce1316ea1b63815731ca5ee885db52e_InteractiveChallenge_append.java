@@ -1,0 +1,75 @@
+b SimpleName TypeParameter SimpleType SimpleName buffer
+b SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get interaction name
+put string SimpleName MethodInvocation MethodInvocation SimpleName get interaction name
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get interaction instruction
+put string SimpleName MethodInvocation MethodInvocation SimpleName get interaction instruction
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get language tag
+put string SimpleName MethodInvocation MethodInvocation SimpleName get language tag
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName prompt entry
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prompts
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName entries
+size SimpleName MethodInvocation SimpleName entries
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entries
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName num entries
+put int SimpleName MethodInvocation SimpleName num entries
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression SimpleName num entries
+entries SimpleName MethodInvocation SimpleName get
+entries SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+prompt entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName append
+e SimpleName MethodInvocation SimpleName buffer
+append SimpleName MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num entries
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+num entries SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName buffer
+public Modifier MethodDeclaration TypeParameter SimpleName b
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SimpleName append
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName buffer
+b SimpleName TypeParameter MethodDeclaration SimpleType SimpleName b
+b SimpleName TypeParameter MethodDeclaration SimpleName append
+buffer SimpleName SimpleType TypeParameter MethodDeclaration SimpleName append
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName SimpleType MethodDeclaration SimpleName append
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+append SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+append SimpleName MethodDeclaration Block ReturnStatement SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleName append
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

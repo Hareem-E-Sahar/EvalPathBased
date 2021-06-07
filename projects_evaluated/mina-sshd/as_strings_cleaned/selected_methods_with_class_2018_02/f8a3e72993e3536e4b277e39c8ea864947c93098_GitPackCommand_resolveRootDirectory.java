@@ -1,0 +1,116 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+string SimpleName SimpleType SingleVariableDeclaration SimpleName sub command
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path arg
+resolver SimpleName VariableDeclarationFragment MethodInvocation SimpleName get git location resolver
+git location resolver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolver
+resolver SimpleName MethodInvocation SimpleName resolve root directory
+resolver SimpleName MethodInvocation SimpleName command
+resolver SimpleName MethodInvocation MethodInvocation SimpleName get server session
+resolver SimpleName MethodInvocation MethodInvocation SimpleName get file system
+resolve root directory SimpleName MethodInvocation SimpleName command
+resolve root directory SimpleName MethodInvocation MethodInvocation SimpleName get server session
+resolve root directory SimpleName MethodInvocation MethodInvocation SimpleName get file system
+command SimpleName MethodInvocation MethodInvocation SimpleName get server session
+command SimpleName MethodInvocation MethodInvocation SimpleName get file system
+get server session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file system
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolver
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve root directory
+root dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName command
+root dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get server session
+root dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get file system
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root dir
+validate utils SimpleName MethodInvocation SimpleName check state
+validate utils SimpleName MethodInvocation InfixExpression SimpleName root dir
+validate utils SimpleName MethodInvocation StringLiteral no root directory provided for s command
+validate utils SimpleName MethodInvocation SimpleName command
+check state SimpleName MethodInvocation InfixExpression SimpleName root dir
+check state SimpleName MethodInvocation StringLiteral no root directory provided for s command
+check state SimpleName MethodInvocation SimpleName command
+root dir SimpleName InfixExpression MethodInvocation StringLiteral no root directory provided for s command
+root dir SimpleName InfixExpression MethodInvocation SimpleName command
+no root directory provided for s command StringLiteral MethodInvocation SimpleName command
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName path arg
+length SimpleName MethodInvocation SimpleName path arg
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName path arg
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName path arg
+len SimpleName InfixExpression NumberLiteral empty
+path arg SimpleName MethodInvocation SimpleName char at
+path arg SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+path arg SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral /
+len SimpleName InfixExpression NumberLiteral empty
+path arg SimpleName MethodInvocation SimpleName substring
+path arg SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+len SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+path arg SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+substring SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+empty NumberLiteral MethodInvocation ConditionalExpression StringLiteral empty
+path arg SimpleName Assignment ConditionalExpression MethodInvocation SimpleName path arg
+path arg SimpleName Assignment ConditionalExpression MethodInvocation SimpleName substring
+path arg SimpleName Assignment ConditionalExpression MethodInvocation NumberLiteral empty
+path arg SimpleName Assignment ConditionalExpression StringLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName path arg
+validate utils SimpleName MethodInvocation StringLiteral no s command subpath specified
+validate utils SimpleName MethodInvocation SimpleName sub command
+check not null and not empty SimpleName MethodInvocation SimpleName path arg
+check not null and not empty SimpleName MethodInvocation StringLiteral no s command subpath specified
+check not null and not empty SimpleName MethodInvocation SimpleName sub command
+path arg SimpleName MethodInvocation StringLiteral no s command subpath specified
+path arg SimpleName MethodInvocation SimpleName sub command
+no s command subpath specified StringLiteral MethodInvocation SimpleName sub command
+root dir SimpleName MethodInvocation SimpleName resolve
+root dir SimpleName MethodInvocation SimpleName path arg
+resolve SimpleName MethodInvocation SimpleName path arg
+protected Modifier MethodDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SimpleName resolve root directory
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName sub command
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path arg
+path SimpleName SimpleType MethodDeclaration SimpleName resolve root directory
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName command
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sub command
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path arg
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+resolve root directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve root directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+resolve root directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve root directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sub command
+resolve root directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve root directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path arg
+resolve root directory SimpleName MethodDeclaration SimpleType SimpleName io exception
+resolve root directory SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sub command
+command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path arg
+command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+sub command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path arg
+sub command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path arg SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve root directory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sub command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path arg
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve root directory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sub command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path arg
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

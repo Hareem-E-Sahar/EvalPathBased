@@ -1,0 +1,167 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+principal SimpleName SimpleType SingleVariableDeclaration SimpleName value
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral set file ownership {}={}
+log SimpleName MethodInvocation MethodInvocation SimpleName get server session
+log SimpleName MethodInvocation SimpleName file
+log SimpleName MethodInvocation SimpleName attribute
+debug SimpleName MethodInvocation StringLiteral set file ownership {}={}
+debug SimpleName MethodInvocation MethodInvocation SimpleName get server session
+debug SimpleName MethodInvocation SimpleName file
+debug SimpleName MethodInvocation SimpleName attribute
+debug SimpleName MethodInvocation SimpleName value
+set file ownership {}={} StringLiteral MethodInvocation MethodInvocation SimpleName get server session
+set file ownership {}={} StringLiteral MethodInvocation SimpleName file
+set file ownership {}={} StringLiteral MethodInvocation SimpleName attribute
+set file ownership {}={} StringLiteral MethodInvocation SimpleName value
+get server session SimpleName MethodInvocation MethodInvocation SimpleName file
+get server session SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get server session SimpleName MethodInvocation MethodInvocation SimpleName value
+file SimpleName MethodInvocation SimpleName attribute
+file SimpleName MethodInvocation SimpleName value
+attribute SimpleName MethodInvocation SimpleName value
+owner StringLiteral MethodInvocation SimpleName equals ignore case
+owner StringLiteral MethodInvocation SimpleName attribute
+equals ignore case SimpleName MethodInvocation SimpleName attribute
+files SimpleName MethodInvocation SimpleName get file attribute view
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file owner attribute view
+files SimpleName MethodInvocation SimpleName options
+get file attribute view SimpleName MethodInvocation SimpleName file
+get file attribute view SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file owner attribute view
+get file attribute view SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file owner attribute view
+file SimpleName MethodInvocation SimpleName options
+file owner attribute view SimpleName SimpleType TypeLiteral MethodInvocation SimpleName options
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file attribute view
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+file owner attribute view SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+owner view not supported for StringLiteral InfixExpression SimpleName file
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral owner view not supported for
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+value SimpleName InstanceofExpression SimpleType SimpleName user principal
+user principal SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+value SimpleName MethodInvocation SimpleName get class
+value SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+owner is not StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+owner is not StringLiteral InfixExpression StringLiteral :
+owner is not StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName value
+owner is not StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+owner is not StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName value
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+: StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral owner is not
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+user principal SimpleName SimpleType CastExpression SimpleName value
+view SimpleName MethodInvocation SimpleName set owner
+view SimpleName MethodInvocation CastExpression SimpleType SimpleName user principal
+view SimpleName MethodInvocation CastExpression SimpleName value
+set owner SimpleName MethodInvocation CastExpression SimpleType SimpleName user principal
+set owner SimpleName MethodInvocation CastExpression SimpleName value
+group StringLiteral MethodInvocation SimpleName equals ignore case
+group StringLiteral MethodInvocation SimpleName attribute
+equals ignore case SimpleName MethodInvocation SimpleName attribute
+files SimpleName MethodInvocation SimpleName get file attribute view
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation TypeLiteral SimpleType SimpleName posix file attribute view
+files SimpleName MethodInvocation SimpleName options
+get file attribute view SimpleName MethodInvocation SimpleName file
+get file attribute view SimpleName MethodInvocation TypeLiteral SimpleType SimpleName posix file attribute view
+get file attribute view SimpleName MethodInvocation SimpleName options
+file SimpleName MethodInvocation TypeLiteral SimpleType SimpleName posix file attribute view
+file SimpleName MethodInvocation SimpleName options
+posix file attribute view SimpleName SimpleType TypeLiteral MethodInvocation SimpleName options
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file attribute view
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+posix file attribute view SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral posix view not supported
+value SimpleName InstanceofExpression SimpleType SimpleName group principal
+group principal SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+value SimpleName MethodInvocation SimpleName get class
+value SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+group is not StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+group is not StringLiteral InfixExpression StringLiteral :
+group is not StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName value
+group is not StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+group is not StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName value
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+: StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral group is not
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+group principal SimpleName SimpleType CastExpression SimpleName value
+view SimpleName MethodInvocation SimpleName set group
+view SimpleName MethodInvocation CastExpression SimpleType SimpleName group principal
+view SimpleName MethodInvocation CastExpression SimpleName value
+set group SimpleName MethodInvocation CastExpression SimpleType SimpleName group principal
+set group SimpleName MethodInvocation CastExpression SimpleName value
+unknown ownership attribute StringLiteral InfixExpression SimpleName attribute
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown ownership attribute
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName attribute
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set file ownership
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName principal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set file ownership
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName principal
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName principal
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+set file ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+set file ownership SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file ownership
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file ownership
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

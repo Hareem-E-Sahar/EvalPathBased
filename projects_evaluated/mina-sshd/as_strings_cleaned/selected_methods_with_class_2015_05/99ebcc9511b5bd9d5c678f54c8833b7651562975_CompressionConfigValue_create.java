@@ -1,0 +1,22 @@
+factory SimpleName MethodInvocation SimpleName create
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName compression
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName compression
+public Modifier MethodDeclaration SimpleName create
+final Modifier MethodDeclaration SimpleType SimpleName compression
+final Modifier MethodDeclaration SimpleName create
+compression SimpleName SimpleType MethodDeclaration SimpleName create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName compression
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName compression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create

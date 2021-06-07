@@ -1,0 +1,50 @@
+char PrimitiveType SingleVariableDeclaration SimpleName ch
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression NumberLiteral x f
+time value config SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName get lower case value
+v SimpleName MethodInvocation InfixExpression SimpleName ch
+get lower case value SimpleName MethodInvocation InfixExpression SimpleName ch
+v SimpleName MethodInvocation SimpleName get upper case value
+v SimpleName MethodInvocation InfixExpression SimpleName ch
+get upper case value SimpleName MethodInvocation InfixExpression SimpleName ch
+time value config SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName time value config
+public Modifier MethodDeclaration SimpleName from value char
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ch
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName time value config
+static Modifier MethodDeclaration SimpleName from value char
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ch
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+final Modifier MethodDeclaration SimpleType SimpleName time value config
+final Modifier MethodDeclaration SimpleName from value char
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName ch
+final Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+time value config SimpleName SimpleType MethodDeclaration SimpleName from value char
+time value config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+time value config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ch
+from value char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+from value char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ch
+from value char SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName time value config
+public Modifier TypeDeclaration MethodDeclaration SimpleName from value char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ch
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName time value config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from value char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ch

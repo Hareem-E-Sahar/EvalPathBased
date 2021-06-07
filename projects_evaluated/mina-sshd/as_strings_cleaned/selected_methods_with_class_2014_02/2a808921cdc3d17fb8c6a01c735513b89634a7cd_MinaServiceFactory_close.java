@@ -1,0 +1,36 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+executor SimpleName MethodInvocation SimpleName shutdown now
+executor SimpleName MethodInvocation SimpleName await termination
+executor SimpleName MethodInvocation NumberLiteral empty
+executor SimpleName MethodInvocation QualifiedName time unitseconds
+await termination SimpleName MethodInvocation NumberLiteral empty
+await termination SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral exception caught while closing executor
+logger SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral exception caught while closing executor
+debug SimpleName MethodInvocation SimpleName e
+exception caught while closing executor StringLiteral MethodInvocation SimpleName e
+closeable utils SimpleName MethodInvocation SimpleName closed
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close future SimpleName SimpleType MethodDeclaration SimpleName close
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

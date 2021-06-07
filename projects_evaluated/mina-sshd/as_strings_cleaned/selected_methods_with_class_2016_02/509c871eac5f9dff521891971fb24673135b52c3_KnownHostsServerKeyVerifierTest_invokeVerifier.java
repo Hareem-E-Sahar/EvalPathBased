@@ -1,0 +1,104 @@
+server key verifier SimpleName SimpleType SingleVariableDeclaration SimpleName verifier
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName server key
+sshd socket address SimpleName SimpleType ClassInstanceCreation SimpleName host
+sshd socket address SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+host SimpleName ClassInstanceCreation NumberLiteral empty
+address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sshd socket address
+address SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName host
+address SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client session
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get connect address
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get connect address
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName get connect address
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get connect address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation SimpleName address
+when SimpleName MethodInvocation MethodInvocation SimpleName address
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName address
+get connect address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName address
+then return SimpleName MethodInvocation SimpleName address
+session SimpleName MethodInvocation SimpleName to string
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation MethodInvocation SimpleName to string
+when SimpleName MethodInvocation MethodInvocation SimpleName session
+when SimpleName MethodInvocation MethodInvocation SimpleName to string
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral [
+get current test name SimpleName MethodInvocation InfixExpression SimpleName host
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName host
+[ StringLiteral InfixExpression StringLiteral ]
+host SimpleName InfixExpression StringLiteral ]
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral [
+mockito SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName host
+mockito SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+when SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral [
+when SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName host
+when SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ]
+then return SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+then return SimpleName MethodInvocation InfixExpression StringLiteral [
+then return SimpleName MethodInvocation InfixExpression SimpleName host
+then return SimpleName MethodInvocation InfixExpression StringLiteral ]
+verifier SimpleName MethodInvocation SimpleName verify server key
+verifier SimpleName MethodInvocation SimpleName session
+verifier SimpleName MethodInvocation SimpleName address
+verifier SimpleName MethodInvocation SimpleName server key
+verify server key SimpleName MethodInvocation SimpleName session
+verify server key SimpleName MethodInvocation SimpleName address
+verify server key SimpleName MethodInvocation SimpleName server key
+session SimpleName MethodInvocation SimpleName address
+session SimpleName MethodInvocation SimpleName server key
+address SimpleName MethodInvocation SimpleName server key
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName invoke verifier
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server key verifier
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName verifier
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server key
+boolean PrimitiveType MethodDeclaration SimpleName invoke verifier
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server key verifier
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName verifier
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server key
+invoke verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server key verifier
+invoke verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleName verifier
+invoke verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+invoke verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+invoke verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+invoke verifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server key
+verifier SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+verifier SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke verifier
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName verifier
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke verifier
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName verifier
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server key

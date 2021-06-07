@@ -1,0 +1,20 @@
+known host entry SimpleName SimpleType SingleVariableDeclaration SimpleName host entry
+host entry SimpleName FieldAccess Assignment SimpleName host entry
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set host entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName known host entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host entry
+void PrimitiveType MethodDeclaration SimpleName set host entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName known host entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host entry
+set host entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName known host entry
+set host entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host entry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set host entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host entry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set host entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host entry

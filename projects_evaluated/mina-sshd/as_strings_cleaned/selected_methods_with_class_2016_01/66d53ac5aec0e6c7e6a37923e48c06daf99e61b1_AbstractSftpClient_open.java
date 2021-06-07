@@ -1,0 +1,219 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName open mode
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+open mode SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+open StringLiteral InfixExpression SimpleName path
+open StringLiteral InfixExpression StringLiteral )[
+open StringLiteral InfixExpression SimpleName options
+open StringLiteral InfixExpression StringLiteral ] client is closed
+path SimpleName InfixExpression StringLiteral )[
+path SimpleName InfixExpression SimpleName options
+path SimpleName InfixExpression StringLiteral ] client is closed
+)[ StringLiteral InfixExpression SimpleName options
+)[ StringLiteral InfixExpression StringLiteral ] client is closed
+options SimpleName InfixExpression StringLiteral ] client is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral open
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )[
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName options
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ] client is closed
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName open moderead
+of SimpleName MethodInvocation QualifiedName open moderead
+options SimpleName Assignment MethodInvocation SimpleName enum set
+options SimpleName Assignment MethodInvocation SimpleName of
+options SimpleName Assignment MethodInvocation QualifiedName open moderead
+path SimpleName MethodInvocation SimpleName length
+path SimpleName MethodInvocation InfixExpression QualifiedName longsize
+length SimpleName MethodInvocation InfixExpression QualifiedName longsize
+byte array buffer SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName longsize
+byte array buffer SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+path SimpleName MethodInvocation InfixExpression ClassInstanceCreation BooleanLiteral false
+length SimpleName MethodInvocation InfixExpression ClassInstanceCreation BooleanLiteral false
+longsize QualifiedName InfixExpression ClassInstanceCreation BooleanLiteral false
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array buffer
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName longsize
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName path
+put string SimpleName MethodInvocation SimpleName path
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get version
+mode SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mode
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+open mode SimpleName SimpleType SingleVariableDeclaration SimpleName m
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf read
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf write
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf append
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf creat
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf trunc
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf excl
+m SimpleName SwitchStatement SwitchCase SimpleName read
+m SimpleName SwitchStatement ExpressionStatement Assignment SimpleName mode
+m SimpleName SwitchStatement ExpressionStatement Assignment QualifiedName sftp constantsssh fxf read
+m SimpleName SwitchStatement SwitchCase SimpleName write
+m SimpleName SwitchStatement ExpressionStatement Assignment SimpleName mode
+m SimpleName SwitchStatement ExpressionStatement Assignment QualifiedName sftp constantsssh fxf write
+read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName write
+write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName append
+append SimpleName SwitchCase SwitchStatement SwitchCase SimpleName create
+create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName truncate
+truncate SimpleName SwitchCase SwitchStatement SwitchCase SimpleName exclusive
+open mode SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName options
+m SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName options
+options SimpleName EnhancedForStatement Block SwitchStatement SimpleName m
+version SimpleName InfixExpression QualifiedName sftp constantssftp v
+access SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName access
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open moderead
+contains SimpleName MethodInvocation QualifiedName open moderead
+sftp constantsace read data QualifiedName InfixExpression QualifiedName sftp constantsace read attributes
+access SimpleName Assignment InfixExpression QualifiedName sftp constantsace read data
+access SimpleName Assignment InfixExpression QualifiedName sftp constantsace read attributes
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modewrite
+contains SimpleName MethodInvocation QualifiedName open modewrite
+sftp constantsace write data QualifiedName InfixExpression QualifiedName sftp constantsace write attributes
+access SimpleName Assignment InfixExpression QualifiedName sftp constantsace write data
+access SimpleName Assignment InfixExpression QualifiedName sftp constantsace write attributes
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modeappend
+contains SimpleName MethodInvocation QualifiedName open modeappend
+access SimpleName Assignment QualifiedName sftp constantsace append data
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName access
+put int SimpleName MethodInvocation SimpleName access
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modecreate
+contains SimpleName MethodInvocation QualifiedName open modecreate
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modeexclusive
+contains SimpleName MethodInvocation QualifiedName open modeexclusive
+options SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName options
+options SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+options SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName open modeexclusive
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName options
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName open modeexclusive
+open modecreate QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName options
+open modecreate QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+open modecreate QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName open modeexclusive
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf create new
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modecreate
+contains SimpleName MethodInvocation QualifiedName open modecreate
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modetruncate
+contains SimpleName MethodInvocation QualifiedName open modetruncate
+options SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName options
+options SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+options SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName open modetruncate
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName options
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName open modetruncate
+open modecreate QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName options
+open modecreate QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+open modecreate QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName open modetruncate
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf create truncate
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modecreate
+contains SimpleName MethodInvocation QualifiedName open modecreate
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf open or create
+options SimpleName MethodInvocation SimpleName contains
+options SimpleName MethodInvocation QualifiedName open modetruncate
+contains SimpleName MethodInvocation QualifiedName open modetruncate
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf truncate existing
+mode SimpleName Assignment QualifiedName sftp constantsssh fxf open existing
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName mode
+put int SimpleName MethodInvocation SimpleName mode
+write attributes SimpleName MethodInvocation SimpleName buffer
+write attributes SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attributes
+buffer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attributes
+check handle SimpleName MethodInvocation QualifiedName sftp constantsssh fxp open
+check handle SimpleName MethodInvocation SimpleName buffer
+sftp constantsssh fxp open QualifiedName MethodInvocation SimpleName buffer
+default closeable handle SimpleName SimpleType ClassInstanceCreation SimpleName path
+default closeable handle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName check handle
+default closeable handle SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName sftp constantsssh fxp open
+default closeable handle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName buffer
+path SimpleName ClassInstanceCreation MethodInvocation SimpleName check handle
+path SimpleName ClassInstanceCreation MethodInvocation QualifiedName sftp constantsssh fxp open
+path SimpleName ClassInstanceCreation MethodInvocation SimpleName buffer
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default closeable handle
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName check handle
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName sftp constantsssh fxp open
+handle SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName buffer
+closeable handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral open options {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get client session
+log SimpleName MethodInvocation SimpleName path
+log SimpleName MethodInvocation SimpleName options
+trace SimpleName MethodInvocation StringLiteral open options {}
+trace SimpleName MethodInvocation MethodInvocation SimpleName get client session
+trace SimpleName MethodInvocation SimpleName path
+trace SimpleName MethodInvocation SimpleName options
+trace SimpleName MethodInvocation SimpleName handle
+open options {} StringLiteral MethodInvocation MethodInvocation SimpleName get client session
+open options {} StringLiteral MethodInvocation SimpleName path
+open options {} StringLiteral MethodInvocation SimpleName options
+open options {} StringLiteral MethodInvocation SimpleName handle
+get client session SimpleName MethodInvocation MethodInvocation SimpleName path
+get client session SimpleName MethodInvocation MethodInvocation SimpleName options
+get client session SimpleName MethodInvocation MethodInvocation SimpleName handle
+path SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName handle
+options SimpleName MethodInvocation SimpleName handle
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName closeable handle
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName open
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SimpleType SimpleName closeable handle
+public Modifier MethodDeclaration SimpleName open
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+closeable handle SimpleName SimpleType MethodDeclaration SimpleName open
+closeable handle SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+closeable handle SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+closeable handle SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+open SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+open SimpleName MethodDeclaration SimpleType SimpleName io exception
+open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+open SimpleName MethodDeclaration Block ReturnStatement SimpleName handle
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable handle
+public Modifier TypeDeclaration MethodDeclaration SimpleName open
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable handle
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,87 @@
+environ SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName standard environment
+standard environment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName environ
+listener SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName signal
+signal listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+signal SimpleName SimpleType SingleVariableDeclaration SimpleName s
+environ SimpleName MethodInvocation SimpleName add signal listener
+environ SimpleName MethodInvocation SimpleName listener
+environ SimpleName MethodInvocation SimpleName s
+environ SimpleName MethodInvocation SimpleName s
+environ SimpleName MethodInvocation SimpleName s
+add signal listener SimpleName MethodInvocation SimpleName listener
+add signal listener SimpleName MethodInvocation SimpleName s
+add signal listener SimpleName MethodInvocation SimpleName s
+add signal listener SimpleName MethodInvocation SimpleName s
+add signal listener SimpleName MethodInvocation SimpleName s
+listener SimpleName MethodInvocation SimpleName s
+listener SimpleName MethodInvocation SimpleName s
+listener SimpleName MethodInvocation SimpleName s
+listener SimpleName MethodInvocation SimpleName s
+listener SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName s
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName signal listener
+environ SimpleName MethodInvocation SimpleName get signal listeners
+environ SimpleName MethodInvocation SimpleName s
+environ SimpleName MethodInvocation BooleanLiteral false
+get signal listeners SimpleName MethodInvocation SimpleName s
+get signal listeners SimpleName MethodInvocation BooleanLiteral false
+s SimpleName MethodInvocation BooleanLiteral false
+ls SimpleName VariableDeclarationFragment MethodInvocation SimpleName environ
+ls SimpleName VariableDeclarationFragment MethodInvocation SimpleName get signal listeners
+ls SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+ls SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+mismatched registered listeners count for signal StringLiteral InfixExpression SimpleName s
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName ls
+size SimpleName MethodInvocation SimpleName ls
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched registered listeners count for signal
+assert equals SimpleName MethodInvocation InfixExpression SimpleName s
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ls
+mismatched registered listeners count for signal StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+s SimpleName InfixExpression MethodInvocation NumberLiteral empty
+mismatched registered listeners count for signal StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+mismatched registered listeners count for signal StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+mismatched registered listeners count for signal StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ls
+s SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+s SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+s SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ls
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName generic utils
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName ls
+signal SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName signalsignals
+s SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName signalsignals
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test add signal listener on duplicate signals
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add signal listener on duplicate signals
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName signalsignals
+void PrimitiveType MethodDeclaration SimpleName test add signal listener on duplicate signals
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName signalsignals
+test add signal listener on duplicate signals SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName signalsignals
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add signal listener on duplicate signals
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add signal listener on duplicate signals

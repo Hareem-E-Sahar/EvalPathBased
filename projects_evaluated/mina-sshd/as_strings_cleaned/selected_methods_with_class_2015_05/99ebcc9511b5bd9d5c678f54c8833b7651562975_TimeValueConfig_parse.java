@@ -1,0 +1,311 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName time value config
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+time value config SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName s
+is empty SimpleName MethodInvocation SimpleName s
+collections SimpleName MethodInvocation SimpleName empty map
+last pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName time value config
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+time value config SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+enum map SimpleName SimpleType ParameterizedType SimpleType SimpleName time value config
+enum map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+time value config SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+cur pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName cur pos
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+cur pos SimpleName InfixExpression MethodInvocation SimpleName s
+cur pos SimpleName InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName cur pos
+char at SimpleName MethodInvocation SimpleName cur pos
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur pos
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cur pos
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression CharacterLiteral empty
+cur pos SimpleName InfixExpression SimpleName last pos
+parse StringLiteral InfixExpression SimpleName s
+parse StringLiteral InfixExpression StringLiteral ) missing count value at index
+parse StringLiteral InfixExpression SimpleName cur pos
+s SimpleName InfixExpression StringLiteral ) missing count value at index
+s SimpleName InfixExpression SimpleName cur pos
+) missing count value at index StringLiteral InfixExpression SimpleName cur pos
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral parse
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) missing count value at index
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cur pos
+from value char SimpleName MethodInvocation SimpleName ch
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName from value char
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName ch
+time value config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName ch
+value of SimpleName MethodInvocation SimpleName ch
+parse StringLiteral InfixExpression SimpleName s
+parse StringLiteral InfixExpression StringLiteral ) unknown time value character
+parse StringLiteral InfixExpression MethodInvocation SimpleName string
+parse StringLiteral InfixExpression MethodInvocation SimpleName value of
+parse StringLiteral InfixExpression MethodInvocation SimpleName ch
+s SimpleName InfixExpression StringLiteral ) unknown time value character
+s SimpleName InfixExpression MethodInvocation SimpleName string
+s SimpleName InfixExpression MethodInvocation SimpleName value of
+s SimpleName InfixExpression MethodInvocation SimpleName ch
+) unknown time value character StringLiteral InfixExpression MethodInvocation SimpleName string
+) unknown time value character StringLiteral InfixExpression MethodInvocation SimpleName value of
+) unknown time value character StringLiteral InfixExpression MethodInvocation SimpleName ch
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral parse
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) unknown time value character
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation SimpleName last pos
+s SimpleName MethodInvocation SimpleName cur pos
+substring SimpleName MethodInvocation SimpleName last pos
+substring SimpleName MethodInvocation SimpleName cur pos
+last pos SimpleName MethodInvocation SimpleName cur pos
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName last pos
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur pos
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName v
+value of SimpleName MethodInvocation SimpleName v
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+count SimpleName MethodInvocation SimpleName long value
+count SimpleName MethodInvocation InfixExpression NumberLiteral l
+long value SimpleName MethodInvocation InfixExpression NumberLiteral l
+c SimpleName MethodInvocation SimpleName name
+parse StringLiteral InfixExpression SimpleName s
+parse StringLiteral InfixExpression StringLiteral ) negative count (
+parse StringLiteral InfixExpression SimpleName v
+parse StringLiteral InfixExpression StringLiteral ) for
+parse StringLiteral InfixExpression MethodInvocation SimpleName c
+parse StringLiteral InfixExpression MethodInvocation SimpleName name
+s SimpleName InfixExpression StringLiteral ) negative count (
+s SimpleName InfixExpression SimpleName v
+s SimpleName InfixExpression StringLiteral ) for
+s SimpleName InfixExpression MethodInvocation SimpleName c
+s SimpleName InfixExpression MethodInvocation SimpleName name
+) negative count ( StringLiteral InfixExpression SimpleName v
+) negative count ( StringLiteral InfixExpression StringLiteral ) for
+) negative count ( StringLiteral InfixExpression MethodInvocation SimpleName c
+) negative count ( StringLiteral InfixExpression MethodInvocation SimpleName name
+v SimpleName InfixExpression StringLiteral ) for
+v SimpleName InfixExpression MethodInvocation SimpleName c
+v SimpleName InfixExpression MethodInvocation SimpleName name
+) for StringLiteral InfixExpression MethodInvocation SimpleName c
+) for StringLiteral InfixExpression MethodInvocation SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral parse
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) negative count (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName v
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) for
+spec SimpleName MethodInvocation SimpleName put
+spec SimpleName MethodInvocation SimpleName c
+spec SimpleName MethodInvocation SimpleName count
+put SimpleName MethodInvocation SimpleName c
+put SimpleName MethodInvocation SimpleName count
+c SimpleName MethodInvocation SimpleName count
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName spec
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName count
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+c SimpleName MethodInvocation SimpleName name
+parse StringLiteral InfixExpression SimpleName s
+parse StringLiteral InfixExpression StringLiteral )
+parse StringLiteral InfixExpression MethodInvocation SimpleName c
+parse StringLiteral InfixExpression MethodInvocation SimpleName name
+parse StringLiteral InfixExpression StringLiteral value respecified current
+parse StringLiteral InfixExpression SimpleName count
+s SimpleName InfixExpression StringLiteral )
+s SimpleName InfixExpression MethodInvocation SimpleName c
+s SimpleName InfixExpression MethodInvocation SimpleName name
+s SimpleName InfixExpression StringLiteral value respecified current
+s SimpleName InfixExpression SimpleName count
+s SimpleName InfixExpression StringLiteral previous
+) StringLiteral InfixExpression MethodInvocation SimpleName c
+) StringLiteral InfixExpression MethodInvocation SimpleName name
+) StringLiteral InfixExpression StringLiteral value respecified current
+) StringLiteral InfixExpression SimpleName count
+) StringLiteral InfixExpression StringLiteral previous
+) StringLiteral InfixExpression SimpleName prev
+c SimpleName MethodInvocation InfixExpression StringLiteral value respecified current
+name SimpleName MethodInvocation InfixExpression StringLiteral value respecified current
+c SimpleName MethodInvocation InfixExpression SimpleName count
+name SimpleName MethodInvocation InfixExpression SimpleName count
+c SimpleName MethodInvocation InfixExpression StringLiteral previous
+name SimpleName MethodInvocation InfixExpression StringLiteral previous
+c SimpleName MethodInvocation InfixExpression SimpleName prev
+name SimpleName MethodInvocation InfixExpression SimpleName prev
+value respecified current StringLiteral InfixExpression SimpleName count
+value respecified current StringLiteral InfixExpression StringLiteral previous
+value respecified current StringLiteral InfixExpression SimpleName prev
+count SimpleName InfixExpression StringLiteral previous
+count SimpleName InfixExpression SimpleName prev
+previous StringLiteral InfixExpression SimpleName prev
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral parse
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral value respecified current
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName count
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral previous
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prev
+cur pos SimpleName InfixExpression NumberLiteral empty
+last pos SimpleName Assignment InfixExpression SimpleName cur pos
+last pos SimpleName Assignment InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cur pos
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName cur pos
+cur pos SimpleName InfixExpression ForStatement PostfixExpression SimpleName cur pos
+s SimpleName MethodInvocation SimpleName length
+last pos SimpleName InfixExpression MethodInvocation SimpleName s
+last pos SimpleName InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation SimpleName last pos
+substring SimpleName MethodInvocation SimpleName last pos
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName last pos
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName v
+value of SimpleName MethodInvocation SimpleName v
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+count SimpleName MethodInvocation SimpleName long value
+count SimpleName MethodInvocation InfixExpression NumberLiteral l
+long value SimpleName MethodInvocation InfixExpression NumberLiteral l
+parse StringLiteral InfixExpression SimpleName s
+parse StringLiteral InfixExpression StringLiteral ) negative count (
+parse StringLiteral InfixExpression SimpleName v
+parse StringLiteral InfixExpression StringLiteral ) for last component
+s SimpleName InfixExpression StringLiteral ) negative count (
+s SimpleName InfixExpression SimpleName v
+s SimpleName InfixExpression StringLiteral ) for last component
+) negative count ( StringLiteral InfixExpression SimpleName v
+) negative count ( StringLiteral InfixExpression StringLiteral ) for last component
+v SimpleName InfixExpression StringLiteral ) for last component
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral parse
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) negative count (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName v
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) for last component
+spec SimpleName MethodInvocation SimpleName put
+spec SimpleName MethodInvocation SimpleName seconds
+spec SimpleName MethodInvocation SimpleName count
+put SimpleName MethodInvocation SimpleName seconds
+put SimpleName MethodInvocation SimpleName count
+seconds SimpleName MethodInvocation SimpleName count
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName spec
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName seconds
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName count
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+seconds SimpleName MethodInvocation SimpleName name
+parse StringLiteral InfixExpression SimpleName s
+parse StringLiteral InfixExpression StringLiteral ) last component (
+parse StringLiteral InfixExpression MethodInvocation SimpleName seconds
+parse StringLiteral InfixExpression MethodInvocation SimpleName name
+parse StringLiteral InfixExpression StringLiteral ) value respecified current
+parse StringLiteral InfixExpression SimpleName count
+s SimpleName InfixExpression StringLiteral ) last component (
+s SimpleName InfixExpression MethodInvocation SimpleName seconds
+s SimpleName InfixExpression MethodInvocation SimpleName name
+s SimpleName InfixExpression StringLiteral ) value respecified current
+s SimpleName InfixExpression SimpleName count
+s SimpleName InfixExpression StringLiteral previous
+) last component ( StringLiteral InfixExpression MethodInvocation SimpleName seconds
+) last component ( StringLiteral InfixExpression MethodInvocation SimpleName name
+) last component ( StringLiteral InfixExpression StringLiteral ) value respecified current
+) last component ( StringLiteral InfixExpression SimpleName count
+) last component ( StringLiteral InfixExpression StringLiteral previous
+) last component ( StringLiteral InfixExpression SimpleName prev
+seconds SimpleName MethodInvocation InfixExpression StringLiteral ) value respecified current
+name SimpleName MethodInvocation InfixExpression StringLiteral ) value respecified current
+seconds SimpleName MethodInvocation InfixExpression SimpleName count
+name SimpleName MethodInvocation InfixExpression SimpleName count
+seconds SimpleName MethodInvocation InfixExpression StringLiteral previous
+name SimpleName MethodInvocation InfixExpression StringLiteral previous
+seconds SimpleName MethodInvocation InfixExpression SimpleName prev
+name SimpleName MethodInvocation InfixExpression SimpleName prev
+) value respecified current StringLiteral InfixExpression SimpleName count
+) value respecified current StringLiteral InfixExpression StringLiteral previous
+) value respecified current StringLiteral InfixExpression SimpleName prev
+count SimpleName InfixExpression StringLiteral previous
+count SimpleName InfixExpression SimpleName prev
+previous StringLiteral InfixExpression SimpleName prev
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral parse
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) last component (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) value respecified current
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName count
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral previous
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prev
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName spec
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName time value config
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName time value config
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+static Modifier MethodDeclaration SimpleName parse
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SimpleType SimpleName number format exception
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName time value config
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+final Modifier MethodDeclaration SimpleName parse
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+final Modifier MethodDeclaration SimpleType SimpleName number format exception
+final Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse
+time value config SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+parse SimpleName MethodDeclaration SimpleType SimpleName number format exception
+parse SimpleName MethodDeclaration SimpleType SimpleName illegal argument exception
+parse SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse SimpleName MethodDeclaration Block ReturnStatement SimpleName spec
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName number format exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+number format exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal argument exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception

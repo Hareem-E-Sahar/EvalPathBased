@@ -1,0 +1,99 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName immediately
+immediately SimpleName InfixExpression InfixExpression SimpleName command
+command exit future SimpleName MethodInvocation SimpleName set closed
+command exit future SimpleName MethodInvocation SimpleName is closed
+io utils SimpleName MethodInvocation SimpleName close quietly
+io utils SimpleName MethodInvocation SimpleName receiver
+close quietly SimpleName MethodInvocation SimpleName receiver
+command exit future SimpleName MethodInvocation SimpleName set closed
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+task SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName timer task
+final Modifier VariableDeclarationStatement SimpleType SimpleName timer task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+timer task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+timeout SimpleName VariableDeclarationFragment SimpleName default command exit timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName default command exit timeout
+get session SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+get session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName server factory managercommand exit timeout
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName server factory managercommand exit timeout
+get SimpleName MethodInvocation QualifiedName server factory managercommand exit timeout
+val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get properties
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName server factory managercommand exit timeout
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName val
+parse long SimpleName MethodInvocation SimpleName val
+timeout SimpleName Assignment MethodInvocation SimpleName long
+timeout SimpleName Assignment MethodInvocation SimpleName parse long
+timeout SimpleName Assignment MethodInvocation SimpleName val
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral wait {} ms for shell to exit cleanly
+log SimpleName MethodInvocation SimpleName timeout
+debug SimpleName MethodInvocation StringLiteral wait {} ms for shell to exit cleanly
+debug SimpleName MethodInvocation SimpleName timeout
+wait {} ms for shell to exit cleanly StringLiteral MethodInvocation SimpleName timeout
+get session SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+get session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get scheduled executor service
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get scheduled executor service
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName schedule
+get scheduled executor service SimpleName MethodInvocation MethodInvocation SimpleName schedule
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get scheduled executor service SimpleName MethodInvocation MethodInvocation SimpleName task
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timeout
+get scheduled executor service SimpleName MethodInvocation MethodInvocation SimpleName timeout
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+get scheduled executor service SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+schedule SimpleName MethodInvocation SimpleName task
+schedule SimpleName MethodInvocation SimpleName timeout
+schedule SimpleName MethodInvocation QualifiedName time unitmilliseconds
+task SimpleName MethodInvocation SimpleName timeout
+task SimpleName MethodInvocation QualifiedName time unitmilliseconds
+timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+close future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+task SimpleName MethodInvocation SimpleName cancel
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName close future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+command exit future SimpleName MethodInvocation SimpleName add listener
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration SimpleType SimpleName close future
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName immediately
+public Modifier MethodDeclaration Block ReturnStatement SimpleName command exit future
+close future SimpleName SimpleType MethodDeclaration SimpleName close
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName immediately
+close SimpleName MethodDeclaration Block ReturnStatement SimpleName command exit future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName immediately

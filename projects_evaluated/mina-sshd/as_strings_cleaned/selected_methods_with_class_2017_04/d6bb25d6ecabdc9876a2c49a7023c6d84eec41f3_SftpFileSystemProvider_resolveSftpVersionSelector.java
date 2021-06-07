@@ -1,0 +1,120 @@
+uri SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+sftp version selector SimpleName SimpleType SingleVariableDeclaration SimpleName default selector
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName resolver
+resolver SimpleName MethodInvocation SimpleName get string
+resolver SimpleName MethodInvocation SimpleName version param
+get string SimpleName MethodInvocation SimpleName version param
+preference SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolver
+preference SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+preference SimpleName VariableDeclarationFragment MethodInvocation SimpleName version param
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName preference
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName preference
+is empty SimpleName MethodInvocation SimpleName preference
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral resolve sftp version selector preference
+log SimpleName MethodInvocation SimpleName uri
+log SimpleName MethodInvocation SimpleName preference
+debug SimpleName MethodInvocation StringLiteral resolve sftp version selector preference
+debug SimpleName MethodInvocation SimpleName uri
+debug SimpleName MethodInvocation SimpleName preference
+resolve sftp version selector preference StringLiteral MethodInvocation SimpleName uri
+resolve sftp version selector preference StringLiteral MethodInvocation SimpleName preference
+uri SimpleName MethodInvocation SimpleName preference
+max StringLiteral MethodInvocation SimpleName equals ignore case
+max StringLiteral MethodInvocation SimpleName preference
+equals ignore case SimpleName MethodInvocation SimpleName preference
+min StringLiteral MethodInvocation SimpleName equals ignore case
+min StringLiteral MethodInvocation SimpleName preference
+equals ignore case SimpleName MethodInvocation SimpleName preference
+current StringLiteral MethodInvocation SimpleName equals ignore case
+current StringLiteral MethodInvocation SimpleName preference
+equals ignore case SimpleName MethodInvocation SimpleName preference
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName preference
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName preference
+split SimpleName MethodInvocation CharacterLiteral empty
+preference SimpleName MethodInvocation CharacterLiteral empty
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName preference
+values SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+valueslength QualifiedName InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName values
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName values
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+sftp version selector SimpleName MethodInvocation SimpleName fixed version selector
+sftp version selector SimpleName MethodInvocation MethodInvocation SimpleName integer
+sftp version selector SimpleName MethodInvocation MethodInvocation SimpleName parse int
+sftp version selector SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName values
+sftp version selector SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+fixed version selector SimpleName MethodInvocation MethodInvocation SimpleName integer
+fixed version selector SimpleName MethodInvocation MethodInvocation SimpleName parse int
+fixed version selector SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName values
+fixed version selector SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation QualifiedName valueslength
+preferred SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+preferred SimpleName VariableDeclarationFragment ArrayCreation QualifiedName valueslength
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName preferred
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression QualifiedName valueslength
+preferred SimpleName ArrayAccess SimpleName index
+values SimpleName ArrayAccess SimpleName index
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName values
+integer SimpleName MethodInvocation ArrayAccess SimpleName index
+parse int SimpleName MethodInvocation ArrayAccess SimpleName values
+parse int SimpleName MethodInvocation ArrayAccess SimpleName index
+preferred SimpleName ArrayAccess Assignment MethodInvocation SimpleName integer
+preferred SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse int
+index SimpleName ArrayAccess Assignment MethodInvocation SimpleName integer
+index SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName valueslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+valueslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName index
+sftp version selector SimpleName MethodInvocation SimpleName preferred version selector
+sftp version selector SimpleName MethodInvocation SimpleName preferred
+preferred version selector SimpleName MethodInvocation SimpleName preferred
+protected Modifier MethodDeclaration SimpleType SimpleName sftp version selector
+protected Modifier MethodDeclaration SimpleName resolve sftp version selector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp version selector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName default selector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolver
+sftp version selector SimpleName SimpleType MethodDeclaration SimpleName resolve sftp version selector
+sftp version selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+sftp version selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName default selector
+sftp version selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resolver
+resolve sftp version selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+resolve sftp version selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+resolve sftp version selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp version selector
+resolve sftp version selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default selector
+resolve sftp version selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+resolve sftp version selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resolver
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default selector
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+default selector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp version selector
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve sftp version selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp version selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve sftp version selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver

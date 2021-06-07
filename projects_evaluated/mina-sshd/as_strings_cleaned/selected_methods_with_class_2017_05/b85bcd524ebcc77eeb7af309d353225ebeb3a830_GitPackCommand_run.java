@@ -1,0 +1,248 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+parse delimited string SimpleName MethodInvocation SimpleName command
+parse delimited string SimpleName MethodInvocation StringLiteral empty
+parse delimited string SimpleName MethodInvocation BooleanLiteral true
+command SimpleName MethodInvocation StringLiteral empty
+command SimpleName MethodInvocation BooleanLiteral true
+empty StringLiteral MethodInvocation BooleanLiteral true
+strs SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse delimited string
+strs SimpleName VariableDeclarationFragment MethodInvocation SimpleName command
+strs SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+strs SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+strs SimpleName MethodInvocation SimpleName size
+strs SimpleName MethodInvocation SimpleName to array
+strs SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName strs
+strs SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName strs
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName strs
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName to array
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName argslength
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName starts with
+i SimpleName ArrayAccess MethodInvocation SimpleName starts with
+args SimpleName ArrayAccess MethodInvocation StringLiteral empty
+i SimpleName ArrayAccess MethodInvocation StringLiteral empty
+starts with SimpleName MethodInvocation StringLiteral empty
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName ends with
+i SimpleName ArrayAccess MethodInvocation SimpleName ends with
+args SimpleName ArrayAccess MethodInvocation StringLiteral empty
+i SimpleName ArrayAccess MethodInvocation StringLiteral empty
+ends with SimpleName MethodInvocation StringLiteral empty
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName length
+i SimpleName ArrayAccess MethodInvocation SimpleName length
+args SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName substring
+i SimpleName ArrayAccess MethodInvocation SimpleName substring
+args SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+i SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+args SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+i SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName starts with
+i SimpleName ArrayAccess MethodInvocation SimpleName starts with
+args SimpleName ArrayAccess MethodInvocation StringLiteral \
+i SimpleName ArrayAccess MethodInvocation StringLiteral \
+starts with SimpleName MethodInvocation StringLiteral \
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName ends with
+i SimpleName ArrayAccess MethodInvocation SimpleName ends with
+args SimpleName ArrayAccess MethodInvocation StringLiteral \
+i SimpleName ArrayAccess MethodInvocation StringLiteral \
+ends with SimpleName MethodInvocation StringLiteral \
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral \
+\ StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+\ StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral \
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName length
+i SimpleName ArrayAccess MethodInvocation SimpleName length
+args SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName substring
+i SimpleName ArrayAccess MethodInvocation SimpleName substring
+args SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+i SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+args SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName substring
+i SimpleName ArrayAccess Assignment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName argslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+argslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+argslength QualifiedName InfixExpression NumberLiteral empty
+invalid git command line StringLiteral InfixExpression SimpleName command
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid git command line
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName command
+args SimpleName ArrayAccess NumberLiteral empty
+file SimpleName SimpleType ClassInstanceCreation SimpleName root dir
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+root dir SimpleName ClassInstanceCreation ArrayAccess SimpleName args
+root dir SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+src gitdir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+src gitdir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName root dir
+src gitdir SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+src gitdir SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src gitdir
+repository cachefile key QualifiedName MethodInvocation SimpleName lenient
+repository cachefile key QualifiedName MethodInvocation SimpleName src gitdir
+repository cachefile key QualifiedName MethodInvocation QualifiedName fsdetected
+lenient SimpleName MethodInvocation SimpleName src gitdir
+lenient SimpleName MethodInvocation QualifiedName fsdetected
+src gitdir SimpleName MethodInvocation QualifiedName fsdetected
+key SimpleName VariableDeclarationFragment MethodInvocation QualifiedName repository cachefile key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName lenient
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName src gitdir
+key SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fsdetected
+repository cachefile key QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName open
+key SimpleName MethodInvocation BooleanLiteral true
+open SimpleName MethodInvocation BooleanLiteral true
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+db SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+repository SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+args SimpleName ArrayAccess NumberLiteral empty
+gituploadpack StringLiteral MethodInvocation SimpleName equals
+gituploadpack StringLiteral MethodInvocation ArrayAccess SimpleName args
+gituploadpack StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+equals SimpleName MethodInvocation ArrayAccess SimpleName args
+equals SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+upload pack SimpleName SimpleType ClassInstanceCreation SimpleName db
+upload pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName upload
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName upload
+upload pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName in
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName in
+upload pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName out
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName out
+upload pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName err
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName err
+upload SimpleName MethodInvocation SimpleName in
+upload SimpleName MethodInvocation SimpleName out
+upload SimpleName MethodInvocation SimpleName err
+in SimpleName MethodInvocation SimpleName out
+in SimpleName MethodInvocation SimpleName err
+out SimpleName MethodInvocation SimpleName err
+args SimpleName ArrayAccess NumberLiteral empty
+gitreceivepack StringLiteral MethodInvocation SimpleName equals
+gitreceivepack StringLiteral MethodInvocation ArrayAccess SimpleName args
+gitreceivepack StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+equals SimpleName MethodInvocation ArrayAccess SimpleName args
+equals SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+receive pack SimpleName SimpleType ClassInstanceCreation SimpleName db
+receive pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName receive
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName receive
+receive pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName in
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName in
+receive pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName out
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName out
+receive pack SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName err
+db SimpleName ClassInstanceCreation MethodInvocation SimpleName err
+receive SimpleName MethodInvocation SimpleName in
+receive SimpleName MethodInvocation SimpleName out
+receive SimpleName MethodInvocation SimpleName err
+in SimpleName MethodInvocation SimpleName out
+in SimpleName MethodInvocation SimpleName err
+out SimpleName MethodInvocation SimpleName err
+unknown git command StringLiteral InfixExpression SimpleName command
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown git command
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName command
+callback SimpleName MethodInvocation SimpleName on exit
+callback SimpleName MethodInvocation NumberLiteral empty
+on exit SimpleName MethodInvocation NumberLiteral empty
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed {} to execute command {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation SimpleName command
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation StringLiteral failed {} to execute command {}
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation SimpleName command
+warn SimpleName MethodInvocation MethodInvocation SimpleName t
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+failed {} to execute command {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName t
+failed {} to execute command {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+failed {} to execute command {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+failed {} to execute command {} StringLiteral MethodInvocation SimpleName command
+failed {} to execute command {} StringLiteral MethodInvocation MethodInvocation SimpleName t
+failed {} to execute command {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName command
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName command
+get simple name SimpleName MethodInvocation MethodInvocation SimpleName command
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+command SimpleName MethodInvocation MethodInvocation SimpleName t
+command SimpleName MethodInvocation MethodInvocation SimpleName get message
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+callback SimpleName MethodInvocation SimpleName on exit
+callback SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+callback SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+callback SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+callback SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+on exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+on exit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+on exit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+on exit SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName get simple name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

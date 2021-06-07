@@ -1,0 +1,21 @@
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName calculate k
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+abstract Modifier MethodDeclaration ArrayType PrimitiveType byte
+abstract Modifier MethodDeclaration SimpleName calculate k
+abstract Modifier MethodDeclaration SimpleType SimpleName exception
+byte PrimitiveType ArrayType MethodDeclaration SimpleName calculate k
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName exception
+calculate k SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName calculate k
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName calculate k
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

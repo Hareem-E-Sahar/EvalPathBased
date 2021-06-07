@@ -1,0 +1,55 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factories
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+named resourceutils QualifiedName MethodInvocation SimpleName find by name
+named resourceutils QualifiedName MethodInvocation SimpleName name
+named resourceutils QualifiedName MethodInvocation QualifiedName stringcase insensitive order
+named resourceutils QualifiedName MethodInvocation SimpleName factories
+find by name SimpleName MethodInvocation SimpleName name
+find by name SimpleName MethodInvocation QualifiedName stringcase insensitive order
+find by name SimpleName MethodInvocation SimpleName factories
+name SimpleName MethodInvocation QualifiedName stringcase insensitive order
+name SimpleName MethodInvocation SimpleName factories
+stringcase insensitive order QualifiedName MethodInvocation SimpleName factories
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName get
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+t SimpleName TypeParameter MethodDeclaration SimpleName get
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName factories
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName name
+named factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factories
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+factories SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

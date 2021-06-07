@@ -1,0 +1,41 @@
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation StringLiteral no server session
+check not null SimpleName MethodInvocation SimpleName session
+check not null SimpleName MethodInvocation StringLiteral no server session
+session SimpleName MethodInvocation StringLiteral no server session
+session SimpleName FieldAccess Assignment MethodInvocation SimpleName validate utils
+session SimpleName FieldAccess Assignment MethodInvocation SimpleName check not null
+session SimpleName FieldAccess Assignment MethodInvocation SimpleName session
+session SimpleName FieldAccess Assignment MethodInvocation StringLiteral no server session
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName process
+validate utils SimpleName MethodInvocation StringLiteral session set after process started
+check true SimpleName MethodInvocation InfixExpression SimpleName process
+check true SimpleName MethodInvocation StringLiteral session set after process started
+process SimpleName InfixExpression MethodInvocation StringLiteral session set after process started
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName set session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+set session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+set session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session

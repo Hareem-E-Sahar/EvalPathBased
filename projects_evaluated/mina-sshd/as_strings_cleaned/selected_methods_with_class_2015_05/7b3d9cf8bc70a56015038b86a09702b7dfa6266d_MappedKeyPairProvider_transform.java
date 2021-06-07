@@ -1,0 +1,38 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName map
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName key pair
+final Modifier SingleVariableDeclaration SimpleName input
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+key pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+mapped key pair provider SimpleName SimpleType ClassInstanceCreation SimpleName input
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair provider
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName transform
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration SimpleType SimpleName key pair provider
+public Modifier MethodDeclaration SimpleName transform
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+key pair provider SimpleName SimpleType MethodDeclaration SimpleName transform
+key pair provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+key pair provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName input
+transform SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input

@@ -1,0 +1,132 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+scp client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+loader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName loader
+class SimpleName SimpleType ParameterizedType WildcardType ?
+method SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName method
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+close StringLiteral MethodInvocation SimpleName equals
+close StringLiteral MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+is open StringLiteral MethodInvocation SimpleName equals
+is open StringLiteral MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+close StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral is open
+close StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+close StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral is open
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral is open
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName args
+is empty SimpleName MethodInvocation SimpleName args
+method SimpleName MethodInvocation SimpleName invoke
+method SimpleName MethodInvocation SimpleName session
+method SimpleName MethodInvocation SimpleName args
+invoke SimpleName MethodInvocation SimpleName session
+invoke SimpleName MethodInvocation SimpleName args
+session SimpleName MethodInvocation SimpleName args
+method SimpleName MethodInvocation SimpleName invoke
+method SimpleName MethodInvocation SimpleName client
+method SimpleName MethodInvocation SimpleName args
+invoke SimpleName MethodInvocation SimpleName client
+invoke SimpleName MethodInvocation SimpleName args
+client SimpleName MethodInvocation SimpleName args
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName is trace enabled
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral invokecloseable scp client failed ({}) to execute {}
+log SimpleName MethodInvocation SimpleName name
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+trace SimpleName MethodInvocation StringLiteral invokecloseable scp client failed ({}) to execute {}
+trace SimpleName MethodInvocation SimpleName name
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+trace SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+trace SimpleName MethodInvocation MethodInvocation SimpleName t
+trace SimpleName MethodInvocation MethodInvocation SimpleName get message
+invokecloseable scp client failed ({}) to execute {} StringLiteral MethodInvocation SimpleName name
+invokecloseable scp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName t
+invokecloseable scp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+invokecloseable scp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+invokecloseable scp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName t
+invokecloseable scp client failed ({}) to execute {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+name SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+name SimpleName MethodInvocation MethodInvocation SimpleName t
+name SimpleName MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+proxy SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName method
+proxy SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName args
+method SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName args
+proxy SimpleName MethodInvocation SimpleName new proxy instance
+proxy SimpleName MethodInvocation SimpleName loader
+proxy SimpleName MethodInvocation SimpleName interfaces
+proxy SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+proxy SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+proxy SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+new proxy instance SimpleName MethodInvocation SimpleName loader
+new proxy instance SimpleName MethodInvocation SimpleName interfaces
+new proxy instance SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+new proxy instance SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+new proxy instance SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+loader SimpleName MethodInvocation SimpleName interfaces
+loader SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+loader SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+loader SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+interfaces SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName proxy
+interfaces SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName method
+interfaces SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName args
+closeable scp client SimpleName SimpleType CastExpression MethodInvocation SimpleName proxy
+closeable scp client SimpleName SimpleType CastExpression MethodInvocation SimpleName new proxy instance
+closeable scp client SimpleName SimpleType CastExpression MethodInvocation SimpleName loader
+closeable scp client SimpleName SimpleType CastExpression MethodInvocation SimpleName interfaces
+protected Modifier MethodDeclaration SimpleType SimpleName closeable scp client
+protected Modifier MethodDeclaration SimpleName create scp client
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp client
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+closeable scp client SimpleName SimpleType MethodDeclaration SimpleName create scp client
+closeable scp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+closeable scp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+closeable scp client SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create scp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+create scp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+create scp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scp client
+create scp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+create scp client SimpleName MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName closeable scp client
+public Modifier TypeDeclaration MethodDeclaration SimpleName create scp client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName closeable scp client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create scp client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,72 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName file system
+file system SimpleName InfixExpression FieldAccess SimpleName file system
+file system SimpleName FieldAccess Assignment SimpleName file system
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+file system SimpleName MethodInvocation SimpleName get root directories
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName file system
+objects SimpleName MethodInvocation MethodInvocation SimpleName get root directories
+objects SimpleName MethodInvocation StringLiteral no root directories
+require non null SimpleName MethodInvocation MethodInvocation SimpleName file system
+require non null SimpleName MethodInvocation MethodInvocation SimpleName get root directories
+require non null SimpleName MethodInvocation StringLiteral no root directories
+file system SimpleName MethodInvocation MethodInvocation StringLiteral no root directories
+get root directories SimpleName MethodInvocation MethodInvocation StringLiteral no root directories
+roots SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+roots SimpleName VariableDeclarationFragment MethodInvocation SimpleName require non null
+roots SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file system
+roots SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get root directories
+roots SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no root directories
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+roots SimpleName MethodInvocation SimpleName iterator
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName roots
+objects SimpleName MethodInvocation MethodInvocation SimpleName iterator
+objects SimpleName MethodInvocation StringLiteral no roots iterator
+require non null SimpleName MethodInvocation MethodInvocation SimpleName roots
+require non null SimpleName MethodInvocation MethodInvocation SimpleName iterator
+require non null SimpleName MethodInvocation StringLiteral no roots iterator
+roots SimpleName MethodInvocation MethodInvocation StringLiteral no roots iterator
+iterator SimpleName MethodInvocation MethodInvocation StringLiteral no roots iterator
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName require non null
+available SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName roots
+available SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+available SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no roots iterator
+available SimpleName MethodInvocation SimpleName has next
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName available
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName has next
+validate utils SimpleName MethodInvocation StringLiteral no available root
+check true SimpleName MethodInvocation MethodInvocation SimpleName available
+check true SimpleName MethodInvocation MethodInvocation SimpleName has next
+check true SimpleName MethodInvocation StringLiteral no available root
+available SimpleName MethodInvocation MethodInvocation StringLiteral no available root
+has next SimpleName MethodInvocation MethodInvocation StringLiteral no available root
+available SimpleName MethodInvocation SimpleName next
+default dir SimpleName FieldAccess Assignment MethodInvocation SimpleName available
+default dir SimpleName FieldAccess Assignment MethodInvocation SimpleName next
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set file system
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file system
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file system
+void PrimitiveType MethodDeclaration SimpleName set file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file system
+set file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+set file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file system
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file system

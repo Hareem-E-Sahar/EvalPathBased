@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName sub type
+client channelchannel shell QualifiedName MethodInvocation SimpleName equals
+client channelchannel shell QualifiedName MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+client channelchannel exec QualifiedName MethodInvocation SimpleName equals
+client channelchannel exec QualifiedName MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+create exec channel SimpleName MethodInvocation SimpleName sub type
+client channelchannel subsystem QualifiedName MethodInvocation SimpleName equals
+client channelchannel subsystem QualifiedName MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+create subsystem channel SimpleName MethodInvocation SimpleName sub type
+unsupported channel type StringLiteral InfixExpression SimpleName type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported channel type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName client channel
+public Modifier MethodDeclaration SimpleName create channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sub type
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+client channel SimpleName SimpleType MethodDeclaration SimpleName create channel
+client channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+client channel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sub type
+client channel SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+create channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sub type
+create channel SimpleName MethodDeclaration SimpleType SimpleName io exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sub type
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+sub type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName create channel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sub type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create channel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sub type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

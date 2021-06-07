@@ -1,0 +1,197 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+directory handle SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName index
+path SimpleName SimpleType SingleVariableDeclaration SimpleName f
+string SimpleName SimpleType SingleVariableDeclaration SimpleName short name
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName short name
+put string SimpleName MethodInvocation SimpleName short name
+version SimpleName InfixExpression SimpleName sftp v
+get long name SimpleName MethodInvocation SimpleName f
+long name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long name
+long name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName long name
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName long name
+put string SimpleName MethodInvocation SimpleName long name
+log SimpleName MethodInvocation SimpleName is trace enabled
+write dir entryid StringLiteral InfixExpression SimpleName id
+write dir entryid StringLiteral InfixExpression StringLiteral )[
+write dir entryid StringLiteral InfixExpression SimpleName index
+write dir entryid StringLiteral InfixExpression StringLiteral ] -
+write dir entryid StringLiteral InfixExpression SimpleName short name
+id SimpleName InfixExpression StringLiteral )[
+id SimpleName InfixExpression SimpleName index
+id SimpleName InfixExpression StringLiteral ] -
+id SimpleName InfixExpression SimpleName short name
+id SimpleName InfixExpression StringLiteral [
+)[ StringLiteral InfixExpression SimpleName index
+)[ StringLiteral InfixExpression StringLiteral ] -
+)[ StringLiteral InfixExpression SimpleName short name
+)[ StringLiteral InfixExpression StringLiteral [
+)[ StringLiteral InfixExpression SimpleName long name
+index SimpleName InfixExpression StringLiteral ] -
+index SimpleName InfixExpression SimpleName short name
+index SimpleName InfixExpression StringLiteral [
+index SimpleName InfixExpression SimpleName long name
+index SimpleName InfixExpression StringLiteral ]
+] - StringLiteral InfixExpression SimpleName short name
+] - StringLiteral InfixExpression StringLiteral [
+] - StringLiteral InfixExpression SimpleName long name
+] - StringLiteral InfixExpression StringLiteral ]
+short name SimpleName InfixExpression StringLiteral [
+short name SimpleName InfixExpression SimpleName long name
+short name SimpleName InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName long name
+[ StringLiteral InfixExpression StringLiteral ]
+long name SimpleName InfixExpression StringLiteral ]
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral write dir entryid
+log SimpleName MethodInvocation InfixExpression SimpleName id
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName index
+log SimpleName MethodInvocation InfixExpression StringLiteral ] -
+log SimpleName MethodInvocation InfixExpression SimpleName short name
+log SimpleName MethodInvocation InfixExpression StringLiteral [
+log SimpleName MethodInvocation InfixExpression SimpleName long name
+log SimpleName MethodInvocation InfixExpression StringLiteral ]
+trace SimpleName MethodInvocation InfixExpression StringLiteral write dir entryid
+trace SimpleName MethodInvocation InfixExpression SimpleName id
+trace SimpleName MethodInvocation InfixExpression StringLiteral )[
+trace SimpleName MethodInvocation InfixExpression SimpleName index
+trace SimpleName MethodInvocation InfixExpression StringLiteral ] -
+trace SimpleName MethodInvocation InfixExpression SimpleName short name
+trace SimpleName MethodInvocation InfixExpression StringLiteral [
+trace SimpleName MethodInvocation InfixExpression SimpleName long name
+trace SimpleName MethodInvocation InfixExpression StringLiteral ]
+log SimpleName MethodInvocation SimpleName is trace enabled
+write dir entryid StringLiteral InfixExpression SimpleName id
+write dir entryid StringLiteral InfixExpression StringLiteral )[
+write dir entryid StringLiteral InfixExpression SimpleName index
+write dir entryid StringLiteral InfixExpression StringLiteral ] -
+write dir entryid StringLiteral InfixExpression SimpleName short name
+id SimpleName InfixExpression StringLiteral )[
+id SimpleName InfixExpression SimpleName index
+id SimpleName InfixExpression StringLiteral ] -
+id SimpleName InfixExpression SimpleName short name
+)[ StringLiteral InfixExpression SimpleName index
+)[ StringLiteral InfixExpression StringLiteral ] -
+)[ StringLiteral InfixExpression SimpleName short name
+index SimpleName InfixExpression StringLiteral ] -
+index SimpleName InfixExpression SimpleName short name
+] - StringLiteral InfixExpression SimpleName short name
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral write dir entryid
+log SimpleName MethodInvocation InfixExpression SimpleName id
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName index
+log SimpleName MethodInvocation InfixExpression StringLiteral ] -
+log SimpleName MethodInvocation InfixExpression SimpleName short name
+trace SimpleName MethodInvocation InfixExpression StringLiteral write dir entryid
+trace SimpleName MethodInvocation InfixExpression SimpleName id
+trace SimpleName MethodInvocation InfixExpression StringLiteral )[
+trace SimpleName MethodInvocation InfixExpression SimpleName index
+trace SimpleName MethodInvocation InfixExpression StringLiteral ] -
+trace SimpleName MethodInvocation InfixExpression SimpleName short name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+resolve file attributes SimpleName MethodInvocation SimpleName f
+resolve file attributes SimpleName MethodInvocation SimpleName ssh filexfer attr all
+resolve file attributes SimpleName MethodInvocation BooleanLiteral false
+f SimpleName MethodInvocation SimpleName ssh filexfer attr all
+f SimpleName MethodInvocation BooleanLiteral false
+ssh filexfer attr all SimpleName MethodInvocation BooleanLiteral false
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh filexfer attr all
+attrs SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+write attrs SimpleName MethodInvocation SimpleName buffer
+write attrs SimpleName MethodInvocation SimpleName attrs
+buffer SimpleName MethodInvocation SimpleName attrs
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName write dir entry
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory handle
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleName write dir entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory handle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName directory handle
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+write dir entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+f SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+f SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+short name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write dir entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write dir entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName short name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

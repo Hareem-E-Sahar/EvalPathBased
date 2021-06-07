@@ -1,0 +1,95 @@
+registrar instance SimpleName MethodInvocation SimpleName get name
+assert security entity support state SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+assert security entity support state SimpleName MethodInvocation SimpleName registrar instance
+assert security entity support state SimpleName MethodInvocation BooleanLiteral true
+assert security entity support state SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+assert security entity support state SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert security entity support state SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key pair generator
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+get current test name SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName registrar instance
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+registrar instance SimpleName MethodInvocation BooleanLiteral true
+registrar instance SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+registrar instance SimpleName MethodInvocation MethodInvocation SimpleName get name
+registrar instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key pair generator
+registrar instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key factory
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName registrar instance
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get name
+true BooleanLiteral MethodInvocation TypeLiteral SimpleType SimpleName key pair generator
+true BooleanLiteral MethodInvocation TypeLiteral SimpleType SimpleName key factory
+assert security entity support state SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+assert security entity support state SimpleName MethodInvocation SimpleName registrar instance
+assert security entity support state SimpleName MethodInvocation BooleanLiteral true
+assert security entity support state SimpleName MethodInvocation QualifiedName security utilscurve ed sha
+assert security entity support state SimpleName MethodInvocation TypeLiteral SimpleType SimpleName signature
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+get current test name SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get current test name SimpleName MethodInvocation MethodInvocation QualifiedName security utilscurve ed sha
+registrar instance SimpleName MethodInvocation BooleanLiteral true
+registrar instance SimpleName MethodInvocation QualifiedName security utilscurve ed sha
+registrar instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName signature
+true BooleanLiteral MethodInvocation QualifiedName security utilscurve ed sha
+true BooleanLiteral MethodInvocation TypeLiteral SimpleType SimpleName signature
+security utilscurve ed sha QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName signature
+class SimpleName SimpleType ParameterizedType WildcardType ?
+collection SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key pair generator
+arrays SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key factory
+arrays SimpleName MethodInvocation TypeLiteral SimpleType SimpleName signature
+as list SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key pair generator
+as list SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key factory
+as list SimpleName MethodInvocation TypeLiteral SimpleType SimpleName signature
+supported SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+supported SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity
+supported SimpleName MethodInvocation SimpleName contains
+supported SimpleName MethodInvocation SimpleName entity
+contains SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName get simple name
+unexpected support for StringLiteral InfixExpression MethodInvocation SimpleName entity
+unexpected support for StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+registrar instance SimpleName MethodInvocation SimpleName get name
+registrar instance SimpleName MethodInvocation SimpleName is security entity supported
+registrar instance SimpleName MethodInvocation SimpleName entity
+registrar instance SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+registrar instance SimpleName MethodInvocation MethodInvocation SimpleName get name
+is security entity supported SimpleName MethodInvocation SimpleName entity
+is security entity supported SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+is security entity supported SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert false SimpleName MethodInvocation InfixExpression StringLiteral unexpected support for
+assert false SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity
+assert false SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert false SimpleName MethodInvocation MethodInvocation SimpleName registrar instance
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is security entity supported
+assert false SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName registrar instance
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+unexpected support for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName registrar instance
+unexpected support for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is security entity supported
+unexpected support for StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entity
+? WildcardType ParameterizedType SingleVariableDeclaration EnhancedForStatement QualifiedName security provider registrarsecurity entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName security provider registrarsecurity entities
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test supported security entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test supported security entities
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName security provider registrarsecurity entities
+void PrimitiveType MethodDeclaration SimpleName test supported security entities
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName security provider registrarsecurity entities
+test supported security entities SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName security provider registrarsecurity entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test supported security entities
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test supported security entities

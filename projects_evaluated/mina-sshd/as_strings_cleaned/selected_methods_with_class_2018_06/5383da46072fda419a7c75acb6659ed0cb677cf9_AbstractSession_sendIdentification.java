@@ -1,0 +1,87 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ident
+ident SimpleName InfixExpression StringLiteral r
+ident SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+r StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+ident SimpleName InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+r StringLiteral InfixExpression ParenthesizedExpression MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+data SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+log SimpleName MethodInvocation SimpleName is debug enabled
+ident SimpleName MethodInvocation SimpleName replace
+ident SimpleName MethodInvocation CharacterLiteral r
+ident SimpleName MethodInvocation CharacterLiteral 
+replace SimpleName MethodInvocation CharacterLiteral r
+replace SimpleName MethodInvocation CharacterLiteral 
+r CharacterLiteral MethodInvocation CharacterLiteral 
+ident SimpleName MethodInvocation MethodInvocation SimpleName replace
+replace SimpleName MethodInvocation MethodInvocation SimpleName replace
+r CharacterLiteral MethodInvocation MethodInvocation SimpleName replace
+ CharacterLiteral MethodInvocation MethodInvocation SimpleName replace
+ident SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+r CharacterLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+ CharacterLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+ident SimpleName MethodInvocation MethodInvocation CharacterLiteral 
+replace SimpleName MethodInvocation MethodInvocation CharacterLiteral 
+r CharacterLiteral MethodInvocation MethodInvocation CharacterLiteral 
+ CharacterLiteral MethodInvocation MethodInvocation CharacterLiteral 
+replace SimpleName MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation CharacterLiteral 
+empty CharacterLiteral MethodInvocation CharacterLiteral 
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral send identification {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ident
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+log SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral r
+log SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral 
+log SimpleName MethodInvocation MethodInvocation SimpleName replace
+log SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+log SimpleName MethodInvocation MethodInvocation CharacterLiteral 
+debug SimpleName MethodInvocation StringLiteral send identification {}
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ident
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral r
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral 
+debug SimpleName MethodInvocation MethodInvocation SimpleName replace
+debug SimpleName MethodInvocation MethodInvocation CharacterLiteral empty
+debug SimpleName MethodInvocation MethodInvocation CharacterLiteral 
+send identification {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ident
+send identification {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+send identification {} StringLiteral MethodInvocation MethodInvocation MethodInvocation CharacterLiteral r
+send identification {} StringLiteral MethodInvocation MethodInvocation MethodInvocation CharacterLiteral 
+send identification {} StringLiteral MethodInvocation MethodInvocation SimpleName replace
+send identification {} StringLiteral MethodInvocation MethodInvocation CharacterLiteral empty
+send identification {} StringLiteral MethodInvocation MethodInvocation CharacterLiteral 
+network session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get io session
+io session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName network session
+byte array buffer SimpleName SimpleType ClassInstanceCreation SimpleName data
+network session SimpleName MethodInvocation SimpleName write packet
+network session SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+network session SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+write packet SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+write packet SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+protected Modifier MethodDeclaration SimpleType SimpleName io write future
+protected Modifier MethodDeclaration SimpleName send identification
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ident
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+io write future SimpleName SimpleType MethodDeclaration SimpleName send identification
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ident
+io write future SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+send identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send identification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ident
+send identification SimpleName MethodDeclaration SimpleType SimpleName io exception
+ident SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName send identification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ident
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send identification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ident
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

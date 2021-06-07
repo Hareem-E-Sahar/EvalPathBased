@@ -1,0 +1,114 @@
+delim SimpleName VariableDeclarationFragment CharacterLiteral $
+final Modifier VariableDeclarationStatement PrimitiveType char
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName delim
+final Modifier VariableDeclarationStatement VariableDeclarationFragment CharacterLiteral $
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName delim
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CharacterLiteral $
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName append
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName delim
+append SimpleName MethodInvocation SimpleName delim
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+delim SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+delim SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current test name
+append SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+delim SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delim
+delim SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delim
+append SimpleName MethodInvocation MethodInvocation SimpleName delim
+get current test name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delim
+append SimpleName MethodInvocation SimpleName delim
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName append
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName append
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName delim
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+int PrimitiveType SingleVariableDeclaration SimpleName index
+expected SimpleName MethodInvocation SimpleName length
+expected SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayInitializer InfixExpression MethodInvocation SimpleName expected
+empty NumberLiteral ArrayInitializer InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral ArrayInitializer InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName set char at
+expected SimpleName MethodInvocation NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName delim
+set char at SimpleName MethodInvocation NumberLiteral empty
+set char at SimpleName MethodInvocation SimpleName delim
+empty NumberLiteral MethodInvocation SimpleName delim
+expected SimpleName MethodInvocation SimpleName length
+expected SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName set char at
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+expected SimpleName MethodInvocation InfixExpression NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName delim
+set char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+set char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+set char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set char at SimpleName MethodInvocation SimpleName delim
+expected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName delim
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName delim
+empty NumberLiteral InfixExpression MethodInvocation SimpleName delim
+delim SimpleName InfixExpression NumberLiteral empty
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName delim
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName set char at
+expected SimpleName MethodInvocation SimpleName index
+expected SimpleName MethodInvocation CastExpression PrimitiveType char
+set char at SimpleName MethodInvocation SimpleName index
+set char at SimpleName MethodInvocation CastExpression PrimitiveType char
+index SimpleName MethodInvocation CastExpression PrimitiveType char
+mismatched result for delim at index StringLiteral InfixExpression SimpleName index
+generic utils SimpleName MethodInvocation SimpleName strip delimiters
+generic utils SimpleName MethodInvocation SimpleName expected
+generic utils SimpleName MethodInvocation SimpleName delim
+strip delimiters SimpleName MethodInvocation SimpleName expected
+strip delimiters SimpleName MethodInvocation SimpleName delim
+expected SimpleName MethodInvocation SimpleName delim
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched result for delim at index
+assert same SimpleName MethodInvocation InfixExpression SimpleName index
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert same SimpleName MethodInvocation MethodInvocation SimpleName strip delimiters
+assert same SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName delim
+mismatched result for delim at index StringLiteral InfixExpression MethodInvocation SimpleName expected
+index SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched result for delim at index StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+mismatched result for delim at index StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName strip delimiters
+mismatched result for delim at index StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected
+mismatched result for delim at index StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName delim
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName strip delimiters
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected
+index SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName delim
+expected SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+expected SimpleName MethodInvocation MethodInvocation SimpleName strip delimiters
+expected SimpleName MethodInvocation MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation MethodInvocation SimpleName delim
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test strip delimiters only if on both ends
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test strip delimiters only if on both ends
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+void PrimitiveType MethodDeclaration SimpleName test strip delimiters only if on both ends
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+test strip delimiters only if on both ends SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test strip delimiters only if on both ends SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test strip delimiters only if on both ends
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test strip delimiters only if on both ends

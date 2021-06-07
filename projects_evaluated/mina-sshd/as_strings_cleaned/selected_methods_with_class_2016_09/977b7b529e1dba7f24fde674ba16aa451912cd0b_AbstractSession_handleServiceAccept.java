@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName service name
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral handle service accept ssh msg service accept service
+log SimpleName MethodInvocation SimpleName service name
+debug SimpleName MethodInvocation StringLiteral handle service accept ssh msg service accept service
+debug SimpleName MethodInvocation SimpleName service name
+handle service accept ssh msg service accept service StringLiteral MethodInvocation SimpleName service name
+validate kex state SimpleName MethodInvocation QualifiedName ssh constantsssh msg service accept
+validate kex state SimpleName MethodInvocation QualifiedName kex statedone
+ssh constantsssh msg service accept QualifiedName MethodInvocation QualifiedName kex statedone
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle service accept
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName service name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName handle service accept
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName service name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+handle service accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle service accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service name
+handle service accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle service accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle service accept SimpleName MethodDeclaration SimpleType SimpleName exception
+service name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+service name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle service accept
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle service accept
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

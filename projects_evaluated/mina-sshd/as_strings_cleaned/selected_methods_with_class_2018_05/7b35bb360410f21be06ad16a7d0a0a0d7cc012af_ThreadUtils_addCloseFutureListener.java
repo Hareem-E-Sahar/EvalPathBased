@@ -1,0 +1,27 @@
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName close future
+ssh future listener SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName listener
+close future SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName listener
+closeable SimpleName MethodInvocation SimpleName add close future listener
+closeable SimpleName MethodInvocation SimpleName listener
+add close future listener SimpleName MethodInvocation SimpleName listener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add close future listener
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add close future listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName add close future listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+add close future listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add close future listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add close future listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

@@ -1,0 +1,500 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get int
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+buffer SimpleName MethodInvocation SimpleName get byte
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get byte
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get byte
+buffer SimpleName MethodInvocation SimpleName get int
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp init version
+log SimpleName MethodInvocation SimpleName id
+debug SimpleName MethodInvocation StringLiteral received ssh fxp init version
+debug SimpleName MethodInvocation SimpleName id
+received ssh fxp init version StringLiteral MethodInvocation SimpleName id
+length SimpleName InfixExpression NumberLiteral empty
+incomplete ssh fxp init data length StringLiteral InfixExpression SimpleName length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral incomplete ssh fxp init data length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName length
+version SimpleName Assignment SimpleName id
+version SimpleName InfixExpression SimpleName lower sftp impl
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName version
+math SimpleName MethodInvocation SimpleName higher sftp impl
+min SimpleName MethodInvocation SimpleName version
+min SimpleName MethodInvocation SimpleName higher sftp impl
+version SimpleName MethodInvocation SimpleName higher sftp impl
+version SimpleName Assignment MethodInvocation SimpleName math
+version SimpleName Assignment MethodInvocation SimpleName min
+version SimpleName Assignment MethodInvocation SimpleName version
+version SimpleName Assignment MethodInvocation SimpleName higher sftp impl
+buffer SimpleName MethodInvocation SimpleName clear
+byte PrimitiveType CastExpression SimpleName ssh fxp version
+buffer SimpleName MethodInvocation SimpleName put byte
+buffer SimpleName MethodInvocation CastExpression PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression SimpleName ssh fxp version
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression SimpleName ssh fxp version
+buffer SimpleName MethodInvocation SimpleName put int
+buffer SimpleName MethodInvocation SimpleName version
+put int SimpleName MethodInvocation SimpleName version
+send SimpleName MethodInvocation SimpleName buffer
+sftp server only support versions StringLiteral InfixExpression SimpleName all sftp impl
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx op unsupported
+send status SimpleName MethodInvocation InfixExpression StringLiteral sftp server only support versions
+send status SimpleName MethodInvocation InfixExpression SimpleName all sftp impl
+id SimpleName MethodInvocation SimpleName ssh fx op unsupported
+id SimpleName MethodInvocation InfixExpression StringLiteral sftp server only support versions
+id SimpleName MethodInvocation InfixExpression SimpleName all sftp impl
+ssh fx op unsupported SimpleName MethodInvocation InfixExpression StringLiteral sftp server only support versions
+ssh fx op unsupported SimpleName MethodInvocation InfixExpression SimpleName all sftp impl
+session SimpleName MethodInvocation SimpleName get factory manager
+session SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get properties
+session SimpleName MethodInvocation SimpleName get factory manager
+session SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get properties
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max open handles per session
+get factory manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max open handles per session
+get properties SimpleName MethodInvocation MethodInvocation SimpleName max open handles per session
+get SimpleName MethodInvocation SimpleName max open handles per session
+max handles string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get properties
+max handles string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+max handles string SimpleName VariableDeclarationFragment MethodInvocation SimpleName max open handles per session
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max handles string
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName max handles string
+parse int SimpleName MethodInvocation SimpleName max handles string
+max handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+max handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+max handle count SimpleName VariableDeclarationFragment MethodInvocation SimpleName max handles string
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max handle count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max handles string
+handles SimpleName MethodInvocation SimpleName size
+handles SimpleName MethodInvocation InfixExpression SimpleName max handle count
+size SimpleName MethodInvocation InfixExpression SimpleName max handle count
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation StringLiteral too many open handles
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation StringLiteral too many open handles
+ssh fx failure SimpleName MethodInvocation StringLiteral too many open handles
+buffer SimpleName MethodInvocation SimpleName get string
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+buffer SimpleName MethodInvocation SimpleName get int
+pflags SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+pflags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pflags
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+attribute SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+read attrs SimpleName MethodInvocation SimpleName buffer
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName read attrs
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+path SimpleName ArrayInitializer SimpleName pflags
+path SimpleName ArrayInitializer SimpleName attrs
+pflags SimpleName ArrayInitializer SimpleName attrs
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp open path pflags attrs
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName path
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName pflags
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName attrs
+debug SimpleName MethodInvocation StringLiteral received ssh fxp open path pflags attrs
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName path
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName pflags
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName attrs
+received ssh fxp open path pflags attrs StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName path
+received ssh fxp open path pflags attrs StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName pflags
+received ssh fxp open path pflags attrs StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName attrs
+resolve file SimpleName MethodInvocation SimpleName path
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName file
+exists SimpleName MethodInvocation SimpleName file
+pflags SimpleName InfixExpression SimpleName ssh fxf read
+pflags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf read SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+files SimpleName MethodInvocation SimpleName is readable
+files SimpleName MethodInvocation SimpleName file
+is readable SimpleName MethodInvocation SimpleName file
+can not read StringLiteral InfixExpression SimpleName path
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx permission denied
+send status SimpleName MethodInvocation InfixExpression StringLiteral can not read
+send status SimpleName MethodInvocation InfixExpression SimpleName path
+id SimpleName MethodInvocation SimpleName ssh fx permission denied
+id SimpleName MethodInvocation InfixExpression StringLiteral can not read
+id SimpleName MethodInvocation InfixExpression SimpleName path
+ssh fx permission denied SimpleName MethodInvocation InfixExpression StringLiteral can not read
+ssh fx permission denied SimpleName MethodInvocation InfixExpression SimpleName path
+pflags SimpleName InfixExpression SimpleName ssh fxf write
+pflags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf write SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+files SimpleName MethodInvocation SimpleName is writable
+files SimpleName MethodInvocation SimpleName file
+is writable SimpleName MethodInvocation SimpleName file
+can not write StringLiteral InfixExpression SimpleName path
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx permission denied
+send status SimpleName MethodInvocation InfixExpression StringLiteral can not write
+send status SimpleName MethodInvocation InfixExpression SimpleName path
+id SimpleName MethodInvocation SimpleName ssh fx permission denied
+id SimpleName MethodInvocation InfixExpression StringLiteral can not write
+id SimpleName MethodInvocation InfixExpression SimpleName path
+ssh fx permission denied SimpleName MethodInvocation InfixExpression StringLiteral can not write
+ssh fx permission denied SimpleName MethodInvocation InfixExpression SimpleName path
+pflags SimpleName InfixExpression SimpleName ssh fxf creat
+pflags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf creat SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+pflags SimpleName InfixExpression SimpleName ssh fxf excl
+pflags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf excl SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation SimpleName path
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation SimpleName path
+ssh fx failure SimpleName MethodInvocation SimpleName path
+pflags SimpleName InfixExpression SimpleName ssh fxf creat
+pflags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf creat SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+files SimpleName MethodInvocation SimpleName create file
+files SimpleName MethodInvocation SimpleName file
+create file SimpleName MethodInvocation SimpleName file
+no such file StringLiteral InfixExpression SimpleName path
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx no such file
+send status SimpleName MethodInvocation InfixExpression StringLiteral no such file
+send status SimpleName MethodInvocation InfixExpression SimpleName path
+id SimpleName MethodInvocation SimpleName ssh fx no such file
+id SimpleName MethodInvocation InfixExpression StringLiteral no such file
+id SimpleName MethodInvocation InfixExpression SimpleName path
+ssh fx no such file SimpleName MethodInvocation InfixExpression StringLiteral no such file
+ssh fx no such file SimpleName MethodInvocation InfixExpression SimpleName path
+pflags SimpleName InfixExpression SimpleName ssh fxf creat
+pflags SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ssh fxf creat SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+set attributes SimpleName MethodInvocation SimpleName file
+set attributes SimpleName MethodInvocation SimpleName attrs
+file SimpleName MethodInvocation SimpleName attrs
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uuid
+handle SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName random uuid
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+file handle SimpleName SimpleType ClassInstanceCreation SimpleName file
+file handle SimpleName SimpleType ClassInstanceCreation SimpleName pflags
+file SimpleName ClassInstanceCreation SimpleName pflags
+handles SimpleName MethodInvocation SimpleName put
+handles SimpleName MethodInvocation SimpleName handle
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file handle
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+handles SimpleName MethodInvocation ClassInstanceCreation SimpleName pflags
+put SimpleName MethodInvocation SimpleName handle
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file handle
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName pflags
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file handle
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+handle SimpleName MethodInvocation ClassInstanceCreation SimpleName pflags
+send handle SimpleName MethodInvocation SimpleName id
+send handle SimpleName MethodInvocation SimpleName handle
+id SimpleName MethodInvocation SimpleName handle
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral empty
+get message SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral empty
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName e
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName get message
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+send status SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName e
+send status SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get message
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName e
+id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get message
+ssh fx failure SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+ssh fx failure SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName e
+ssh fx failure SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get message
+buffer SimpleName MethodInvocation SimpleName get string
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp close handle
+log SimpleName MethodInvocation SimpleName handle
+debug SimpleName MethodInvocation StringLiteral received ssh fxp close handle
+debug SimpleName MethodInvocation SimpleName handle
+received ssh fxp close handle StringLiteral MethodInvocation SimpleName handle
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName handle
+get SimpleName MethodInvocation SimpleName handle
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation SimpleName handle
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation SimpleName handle
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx failure SimpleName MethodInvocation SimpleName handle
+ssh fx failure SimpleName MethodInvocation StringLiteral empty
+handle SimpleName MethodInvocation StringLiteral empty
+handles SimpleName MethodInvocation SimpleName remove
+handles SimpleName MethodInvocation SimpleName handle
+remove SimpleName MethodInvocation SimpleName handle
+h SimpleName MethodInvocation SimpleName close
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx ok
+send status SimpleName MethodInvocation StringLiteral empty
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx ok
+id SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx ok SimpleName MethodInvocation StringLiteral empty
+ssh fx ok SimpleName MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation MethodInvocation SimpleName e
+send status SimpleName MethodInvocation MethodInvocation SimpleName get message
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation MethodInvocation SimpleName e
+id SimpleName MethodInvocation MethodInvocation SimpleName get message
+ssh fx failure SimpleName MethodInvocation MethodInvocation SimpleName e
+ssh fx failure SimpleName MethodInvocation MethodInvocation SimpleName get message
+buffer SimpleName MethodInvocation SimpleName get string
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+buffer SimpleName MethodInvocation SimpleName get long
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get long
+buffer SimpleName MethodInvocation SimpleName get int
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+handle SimpleName ArrayInitializer SimpleName offset
+handle SimpleName ArrayInitializer SimpleName len
+offset SimpleName ArrayInitializer SimpleName len
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp read handle offset length
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName handle
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName offset
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName len
+debug SimpleName MethodInvocation StringLiteral received ssh fxp read handle offset length
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName handle
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName offset
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName len
+received ssh fxp read handle offset length StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName handle
+received ssh fxp read handle offset length StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName offset
+received ssh fxp read handle offset length StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName len
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName handle
+get SimpleName MethodInvocation SimpleName handle
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName InstanceofExpression SimpleType SimpleName file handle
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation SimpleName handle
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation SimpleName handle
+ssh fx failure SimpleName MethodInvocation SimpleName handle
+file handle SimpleName SimpleType CastExpression SimpleName p
+fh SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName file handle
+fh SimpleName VariableDeclarationFragment CastExpression SimpleName p
+file handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fh
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName len
+math SimpleName MethodInvocation QualifiedName buffermax len
+min SimpleName MethodInvocation SimpleName len
+min SimpleName MethodInvocation QualifiedName buffermax len
+len SimpleName MethodInvocation QualifiedName buffermax len
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName math
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName min
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName len
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName buffermax len
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName math
+b SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName min
+b SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName len
+b SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation QualifiedName buffermax len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+fh SimpleName MethodInvocation SimpleName read
+fh SimpleName MethodInvocation SimpleName b
+fh SimpleName MethodInvocation SimpleName offset
+read SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName offset
+b SimpleName MethodInvocation SimpleName offset
+len SimpleName Assignment MethodInvocation SimpleName fh
+len SimpleName Assignment MethodInvocation SimpleName read
+len SimpleName Assignment MethodInvocation SimpleName b
+len SimpleName Assignment MethodInvocation SimpleName offset
+len SimpleName InfixExpression NumberLiteral empty
+len SimpleName InfixExpression NumberLiteral empty
+buffer SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName len
+buffer SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffer
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName len
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+byte PrimitiveType CastExpression SimpleName ssh fxp data
+buf SimpleName MethodInvocation SimpleName put byte
+buf SimpleName MethodInvocation CastExpression PrimitiveType byte
+buf SimpleName MethodInvocation CastExpression SimpleName ssh fxp data
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression SimpleName ssh fxp data
+buf SimpleName MethodInvocation SimpleName put int
+buf SimpleName MethodInvocation SimpleName id
+put int SimpleName MethodInvocation SimpleName id
+buf SimpleName MethodInvocation SimpleName put bytes
+buf SimpleName MethodInvocation SimpleName b
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName len
+put bytes SimpleName MethodInvocation SimpleName b
+put bytes SimpleName MethodInvocation NumberLiteral empty
+put bytes SimpleName MethodInvocation SimpleName len
+b SimpleName MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation SimpleName len
+empty NumberLiteral MethodInvocation SimpleName len
+send SimpleName MethodInvocation SimpleName buf
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx eof
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx eof
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx eof SimpleName MethodInvocation StringLiteral empty
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation MethodInvocation SimpleName e
+send status SimpleName MethodInvocation MethodInvocation SimpleName get message
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation MethodInvocation SimpleName e
+id SimpleName MethodInvocation MethodInvocation SimpleName get message
+ssh fx failure SimpleName MethodInvocation MethodInvocation SimpleName e
+ssh fx failure SimpleName MethodInvocation MethodInvocation SimpleName get message
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName MethodInvocation SimpleName get string
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handle
+buffer SimpleName MethodInvocation SimpleName get long
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName get long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get long
+buffer SimpleName MethodInvocation SimpleName get bytes
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+handle SimpleName ArrayInitializer SimpleName offset
+handle SimpleName ArrayInitializer QualifiedName datalength
+offset SimpleName ArrayInitializer QualifiedName datalength
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp write handle offset databyte
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName handle
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName offset
+log SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName datalength
+debug SimpleName MethodInvocation StringLiteral received ssh fxp write handle offset databyte
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName handle
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName offset
+debug SimpleName MethodInvocation ArrayCreation ArrayInitializer QualifiedName datalength
+received ssh fxp write handle offset databyte StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName handle
+received ssh fxp write handle offset databyte StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName offset
+received ssh fxp write handle offset databyte StringLiteral MethodInvocation ArrayCreation ArrayInitializer QualifiedName datalength
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName handle
+get SimpleName MethodInvocation SimpleName handle
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName InstanceofExpression SimpleType SimpleName file handle
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation SimpleName handle
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation SimpleName handle
+ssh fx failure SimpleName MethodInvocation SimpleName handle
+file handle SimpleName SimpleType CastExpression SimpleName p
+fh SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName file handle
+fh SimpleName VariableDeclarationFragment CastExpression SimpleName p
+file handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fh
+fh SimpleName MethodInvocation SimpleName write
+fh SimpleName MethodInvocation SimpleName data
+fh SimpleName MethodInvocation SimpleName offset
+write SimpleName MethodInvocation SimpleName data
+write SimpleName MethodInvocation SimpleName offset
+data SimpleName MethodInvocation SimpleName offset
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx ok
+send status SimpleName MethodInvocation StringLiteral empty
+id SimpleName MethodInvocation SimpleName ssh fx ok
+id SimpleName MethodInvocation StringLiteral empty
+ssh fx ok SimpleName MethodInvocation StringLiteral empty
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+send status SimpleName MethodInvocation SimpleName id
+send status SimpleName MethodInvocation SimpleName ssh fx failure
+send status SimpleName MethodInvocation MethodInvocation SimpleName e
+send status SimpleName MethodInvocation MethodInvocation SimpleName get message
+id SimpleName MethodInvocation SimpleName ssh fx failure
+id SimpleName MethodInvocation MethodInvocation SimpleName e
+id SimpleName MethodInvocation MethodInvocation SimpleName get message
+ssh fx failure SimpleName MethodInvocation MethodInvocation SimpleName e
+ssh fx failure SimpleName MethodInvocation MethodInvocation SimpleName get message
+buffer SimpleName MethodInvocation SimpleName get string
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received ssh fxp lstat path
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral received ssh fxp lstat path
+debug SimpleName MethodInvocation SimpleName path
+received ssh fxp lstat path StringLiteral MethodInvocation SimpleName path
+resolve file SimpleName MethodInvocation SimpleName path

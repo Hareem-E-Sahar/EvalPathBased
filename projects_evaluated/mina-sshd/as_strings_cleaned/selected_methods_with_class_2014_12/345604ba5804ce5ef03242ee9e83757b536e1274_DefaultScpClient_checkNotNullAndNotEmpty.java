@@ -1,0 +1,45 @@
+t SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+check not null SimpleName MethodInvocation SimpleName t
+check not null SimpleName MethodInvocation SimpleName message
+t SimpleName MethodInvocation SimpleName message
+t SimpleName Assignment MethodInvocation SimpleName check not null
+t SimpleName Assignment MethodInvocation SimpleName t
+t SimpleName Assignment MethodInvocation SimpleName message
+tlength QualifiedName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName message
+string SimpleName MethodInvocation SimpleName t
+format SimpleName MethodInvocation SimpleName message
+format SimpleName MethodInvocation SimpleName t
+message SimpleName MethodInvocation SimpleName t
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName message
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName t
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName check not null and not empty
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+t SimpleName TypeParameter MethodDeclaration SimpleName check not null and not empty
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName t
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName message
+t SimpleName SimpleType ArrayType MethodDeclaration SimpleName check not null and not empty
+check not null and not empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+check not null and not empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check not null and not empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+check not null and not empty SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName check not null and not empty
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check not null and not empty
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message

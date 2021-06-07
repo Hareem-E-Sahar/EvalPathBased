@@ -1,0 +1,12 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName host entry pair
+keys holder SimpleName MethodInvocation SimpleName get
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName host entry pair
+protected Modifier MethodDeclaration SimpleName get loaded hosts entries
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get loaded hosts entries
+host entry pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get loaded hosts entries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get loaded hosts entries
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get loaded hosts entries

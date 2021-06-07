@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName req
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received ssh msg channel request on channel {}
+log SimpleName MethodInvocation SimpleName id
+info SimpleName MethodInvocation StringLiteral received ssh msg channel request on channel {}
+info SimpleName MethodInvocation SimpleName id
+received ssh msg channel request on channel {} StringLiteral MethodInvocation SimpleName id
+exitstatus StringLiteral MethodInvocation SimpleName equals
+exitstatus StringLiteral MethodInvocation SimpleName req
+equals SimpleName MethodInvocation SimpleName req
+buffer SimpleName MethodInvocation SimpleName get int
+exit status SimpleName Assignment MethodInvocation SimpleName buffer
+exit status SimpleName Assignment MethodInvocation SimpleName get int
+exitsignal StringLiteral MethodInvocation SimpleName equals
+exitsignal StringLiteral MethodInvocation SimpleName req
+equals SimpleName MethodInvocation SimpleName req
+buffer SimpleName MethodInvocation SimpleName get string
+exit signal SimpleName Assignment MethodInvocation SimpleName buffer
+exit signal SimpleName Assignment MethodInvocation SimpleName get string
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName handle request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName handle request
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle request SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle request SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+req SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,20 @@
+handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName get unknown channel reference handler
+unknown channel reference handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handler
+mgr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mgr
+mgr SimpleName MethodInvocation SimpleName resolve unknown channel reference handler
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName unknown channel reference handler
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve unknown channel reference handler
+public Modifier MethodDeclaration SimpleType SimpleName unknown channel reference handler
+public Modifier MethodDeclaration SimpleName resolve unknown channel reference handler
+unknown channel reference handler SimpleName SimpleType MethodDeclaration SimpleName resolve unknown channel reference handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unknown channel reference handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve unknown channel reference handler
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unknown channel reference handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve unknown channel reference handler

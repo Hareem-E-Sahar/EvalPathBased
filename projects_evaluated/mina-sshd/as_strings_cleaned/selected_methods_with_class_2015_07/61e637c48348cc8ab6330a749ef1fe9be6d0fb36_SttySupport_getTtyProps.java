@@ -1,0 +1,62 @@
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+tty props last fetched holder SimpleName MethodInvocation SimpleName get
+last fetched SimpleName VariableDeclarationFragment MethodInvocation SimpleName tty props last fetched holder
+last fetched SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last fetched
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tty props last fetched holder
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+tty props holder SimpleName MethodInvocation SimpleName get
+now SimpleName InfixExpression SimpleName last fetched
+now SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral l
+last fetched SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral l
+stty SimpleName MethodInvocation StringLiteral a
+tty props holder SimpleName MethodInvocation SimpleName set
+tty props holder SimpleName MethodInvocation MethodInvocation SimpleName stty
+tty props holder SimpleName MethodInvocation MethodInvocation StringLiteral a
+set SimpleName MethodInvocation MethodInvocation SimpleName stty
+set SimpleName MethodInvocation MethodInvocation StringLiteral a
+system SimpleName MethodInvocation SimpleName current time millis
+tty props last fetched holder SimpleName MethodInvocation SimpleName set
+tty props last fetched holder SimpleName MethodInvocation MethodInvocation SimpleName system
+tty props last fetched holder SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+set SimpleName MethodInvocation MethodInvocation SimpleName system
+set SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+tty props holder SimpleName MethodInvocation SimpleName get
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get tty props
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get tty props
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+string SimpleName SimpleType MethodDeclaration SimpleName get tty props
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+get tty props SimpleName MethodDeclaration SimpleType SimpleName io exception
+get tty props SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+get tty props SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get tty props SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tty props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tty props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

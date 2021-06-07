@@ -1,0 +1,32 @@
+test random SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName jce random
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName test random
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName test random
+jce StringLiteral InfixExpression SimpleName t
+jce StringLiteral InfixExpression StringLiteral micro
+t SimpleName InfixExpression StringLiteral micro
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral jce
+systemout QualifiedName MethodInvocation InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral micro
+println SimpleName MethodInvocation InfixExpression StringLiteral jce
+println SimpleName MethodInvocation InfixExpression SimpleName t
+println SimpleName MethodInvocation InfixExpression StringLiteral micro
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test jce
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test jce
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test jce
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test jce SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test jce
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test jce

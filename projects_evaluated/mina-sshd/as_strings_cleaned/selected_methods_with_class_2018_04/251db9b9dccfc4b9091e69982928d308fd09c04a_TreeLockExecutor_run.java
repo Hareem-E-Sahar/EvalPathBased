@@ -1,0 +1,20 @@
+queue SimpleName MethodInvocation SimpleName take
+work SimpleName VariableDeclarationFragment MethodInvocation SimpleName queue
+work SimpleName VariableDeclarationFragment MethodInvocation SimpleName take
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work
+work SimpleName InfixExpression SimpleName close
+work SimpleName MethodInvocation SimpleName run
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName run
+protected Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+run SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

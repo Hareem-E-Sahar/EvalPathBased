@@ -1,0 +1,36 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral statement with empty body
+tty options SimpleName MethodInvocation SimpleName contains
+tty options SimpleName MethodInvocation QualifiedName pty modeicrnl
+contains SimpleName MethodInvocation QualifiedName pty modeicrnl
+write raw output SimpleName MethodInvocation CharacterLiteral empty
+tty options SimpleName MethodInvocation SimpleName contains
+tty options SimpleName MethodInvocation QualifiedName pty modeigncr
+contains SimpleName MethodInvocation QualifiedName pty modeigncr
+write raw output SimpleName MethodInvocation CharacterLiteral r
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+statement with empty body StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+statement with empty body StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName handle cr
+statement with empty body StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName handle cr
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+statement with empty body StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle cr
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName handle cr
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+handle cr SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral statement with empty body
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle cr
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral statement with empty body
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle cr
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

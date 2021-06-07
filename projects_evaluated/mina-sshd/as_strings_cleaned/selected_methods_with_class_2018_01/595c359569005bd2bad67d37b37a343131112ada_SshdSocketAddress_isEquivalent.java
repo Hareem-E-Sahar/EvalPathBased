@@ -1,0 +1,32 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName that
+that SimpleName MethodInvocation SimpleName get port
+get port SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName that
+get port SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+that SimpleName MethodInvocation SimpleName get host name
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName get host name
+objects SimpleName MethodInvocation MethodInvocation SimpleName that
+objects SimpleName MethodInvocation MethodInvocation SimpleName get host name
+equals SimpleName MethodInvocation MethodInvocation SimpleName get host name
+equals SimpleName MethodInvocation MethodInvocation SimpleName that
+equals SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName that
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is equivalent
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName that
+boolean PrimitiveType MethodDeclaration SimpleName is equivalent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName that
+is equivalent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+is equivalent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName that
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is equivalent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is equivalent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that

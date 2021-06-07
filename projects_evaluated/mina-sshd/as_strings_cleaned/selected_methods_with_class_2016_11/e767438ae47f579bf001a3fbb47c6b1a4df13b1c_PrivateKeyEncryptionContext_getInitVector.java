@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get init vector
+public Modifier MethodDeclaration Block ReturnStatement SimpleName init vector
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get init vector
+get init vector SimpleName MethodDeclaration Block ReturnStatement SimpleName init vector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get init vector
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get init vector

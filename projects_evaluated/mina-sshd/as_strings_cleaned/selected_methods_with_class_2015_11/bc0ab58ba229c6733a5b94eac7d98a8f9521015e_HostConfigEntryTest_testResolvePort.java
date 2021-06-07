@@ -1,0 +1,95 @@
+original port SimpleName VariableDeclarationFragment QualifiedName shortmax value
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName original port
+final Modifier VariableDeclarationStatement VariableDeclarationFragment QualifiedName shortmax value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName original port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName shortmax value
+entry port SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entry port
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+host config entry SimpleName MethodInvocation SimpleName resolve port
+host config entry SimpleName MethodInvocation SimpleName original port
+host config entry SimpleName MethodInvocation SimpleName entry port
+resolve port SimpleName MethodInvocation SimpleName original port
+resolve port SimpleName MethodInvocation SimpleName entry port
+original port SimpleName MethodInvocation SimpleName entry port
+assert equals SimpleName MethodInvocation StringLiteral mismatched entry port preference
+assert equals SimpleName MethodInvocation SimpleName entry port
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName resolve port
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName original port
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry port
+mismatched entry port preference StringLiteral MethodInvocation SimpleName entry port
+mismatched entry port preference StringLiteral MethodInvocation MethodInvocation SimpleName host config entry
+mismatched entry port preference StringLiteral MethodInvocation MethodInvocation SimpleName resolve port
+mismatched entry port preference StringLiteral MethodInvocation MethodInvocation SimpleName original port
+mismatched entry port preference StringLiteral MethodInvocation MethodInvocation SimpleName entry port
+entry port SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+entry port SimpleName MethodInvocation MethodInvocation SimpleName resolve port
+entry port SimpleName MethodInvocation MethodInvocation SimpleName original port
+entry port SimpleName MethodInvocation MethodInvocation SimpleName entry port
+int PrimitiveType SingleVariableDeclaration SimpleName entry port
+empty NumberLiteral PrefixExpression ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+nonpreferred original port for entry port StringLiteral InfixExpression SimpleName entry port
+host config entry SimpleName MethodInvocation SimpleName resolve port
+host config entry SimpleName MethodInvocation SimpleName original port
+host config entry SimpleName MethodInvocation SimpleName entry port
+resolve port SimpleName MethodInvocation SimpleName original port
+resolve port SimpleName MethodInvocation SimpleName entry port
+original port SimpleName MethodInvocation SimpleName entry port
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral nonpreferred original port for entry port
+assert equals SimpleName MethodInvocation InfixExpression SimpleName entry port
+assert equals SimpleName MethodInvocation SimpleName original port
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName resolve port
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName original port
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry port
+nonpreferred original port for entry port StringLiteral InfixExpression MethodInvocation SimpleName original port
+entry port SimpleName InfixExpression MethodInvocation SimpleName original port
+nonpreferred original port for entry port StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName host config entry
+nonpreferred original port for entry port StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName resolve port
+nonpreferred original port for entry port StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName original port
+nonpreferred original port for entry port StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry port
+entry port SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName host config entry
+entry port SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName resolve port
+entry port SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName original port
+entry port SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry port
+original port SimpleName MethodInvocation MethodInvocation SimpleName host config entry
+original port SimpleName MethodInvocation MethodInvocation SimpleName resolve port
+original port SimpleName MethodInvocation MethodInvocation SimpleName original port
+original port SimpleName MethodInvocation MethodInvocation SimpleName entry port
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resolve port
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resolve port
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test resolve port
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test resolve port SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test resolve port SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test resolve port SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test resolve port SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resolve port
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resolve port

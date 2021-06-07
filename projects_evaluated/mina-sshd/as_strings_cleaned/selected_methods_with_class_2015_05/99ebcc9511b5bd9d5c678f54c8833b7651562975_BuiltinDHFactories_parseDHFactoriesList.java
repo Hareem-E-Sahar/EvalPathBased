@@ -1,0 +1,84 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName dh factory
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factories
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factories
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName factories
+is empty SimpleName MethodInvocation SimpleName factories
+collections SimpleName MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName dh factory
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName dh factory
+factories SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName factories
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+from factory name SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation StringLiteral unknown factory name s in s
+validate utils SimpleName MethodInvocation SimpleName name
+validate utils SimpleName MethodInvocation SimpleName factories
+check not null SimpleName MethodInvocation MethodInvocation SimpleName from factory name
+check not null SimpleName MethodInvocation MethodInvocation SimpleName name
+check not null SimpleName MethodInvocation StringLiteral unknown factory name s in s
+check not null SimpleName MethodInvocation SimpleName name
+check not null SimpleName MethodInvocation SimpleName factories
+from factory name SimpleName MethodInvocation MethodInvocation StringLiteral unknown factory name s in s
+name SimpleName MethodInvocation MethodInvocation StringLiteral unknown factory name s in s
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName name
+name SimpleName MethodInvocation MethodInvocation SimpleName name
+from factory name SimpleName MethodInvocation MethodInvocation SimpleName factories
+name SimpleName MethodInvocation MethodInvocation SimpleName factories
+unknown factory name s in s StringLiteral MethodInvocation SimpleName name
+unknown factory name s in s StringLiteral MethodInvocation SimpleName factories
+name SimpleName MethodInvocation SimpleName factories
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from factory name
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral unknown factory name s in s
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName factories
+dh factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName c
+add SimpleName MethodInvocation SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName factories
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName factories
+factories SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dh factory
+public Modifier MethodDeclaration SimpleName parse dh factories list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dh factory
+static Modifier MethodDeclaration SimpleName parse dh factories list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName factories
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName dh factory
+final Modifier MethodDeclaration SimpleName parse dh factories list
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+final Modifier MethodDeclaration Block EnhancedForStatement SimpleName factories
+final Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse dh factories list
+dh factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse dh factories list
+parse dh factories list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factories
+parse dh factories list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName factories
+parse dh factories list SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse dh factories list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse dh factories list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories

@@ -1,0 +1,6 @@
+sftp client SimpleName SimpleType MethodDeclaration SimpleName get client
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client

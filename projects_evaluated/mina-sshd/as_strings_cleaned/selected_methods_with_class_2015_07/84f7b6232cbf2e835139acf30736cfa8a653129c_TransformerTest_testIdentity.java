@@ -1,0 +1,36 @@
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+object SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+transformerutils QualifiedName MethodInvocation SimpleName identity
+identity SimpleName VariableDeclarationFragment MethodInvocation QualifiedName transformerutils
+identity SimpleName VariableDeclarationFragment MethodInvocation SimpleName identity
+object SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+get class SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get current test name
+identity SimpleName MethodInvocation SimpleName transform
+identity SimpleName MethodInvocation SimpleName expected
+transform SimpleName MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName identity
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation StringLiteral mismatched identity result
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched identity result StringLiteral MethodInvocation SimpleName expected
+mismatched identity result StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test identity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test identity
+void PrimitiveType MethodDeclaration SimpleName test identity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test identity
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test identity

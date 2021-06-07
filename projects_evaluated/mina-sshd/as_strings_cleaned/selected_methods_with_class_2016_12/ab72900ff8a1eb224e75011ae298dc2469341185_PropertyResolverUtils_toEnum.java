@@ -1,0 +1,122 @@
+enum SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName enum
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName e
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enum type
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enum type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+boolean PrimitiveType SingleVariableDeclaration SimpleName fail if no match
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName available
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName available
+enum type SimpleName MethodInvocation SimpleName is instance
+enum type SimpleName MethodInvocation SimpleName value
+is instance SimpleName MethodInvocation SimpleName value
+enum type SimpleName MethodInvocation SimpleName cast
+enum type SimpleName MethodInvocation SimpleName value
+cast SimpleName MethodInvocation SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName char sequence
+value SimpleName MethodInvocation SimpleName to string
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName available
+size SimpleName MethodInvocation SimpleName available
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+available SimpleName MethodInvocation InfixExpression NumberLiteral empty
+e SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName name
+name SimpleName MethodInvocation SimpleName equals ignore case
+name SimpleName MethodInvocation MethodInvocation SimpleName v
+name SimpleName MethodInvocation MethodInvocation SimpleName name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName v
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName name
+e SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName available
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName available
+enum type SimpleName MethodInvocation SimpleName get simple name
+no match found for StringLiteral InfixExpression MethodInvocation SimpleName enum type
+no match found for StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+no match found for StringLiteral InfixExpression StringLiteral [
+no match found for StringLiteral InfixExpression SimpleName name
+no match found for StringLiteral InfixExpression StringLiteral ]
+enum type SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+enum type SimpleName MethodInvocation InfixExpression SimpleName name
+get simple name SimpleName MethodInvocation InfixExpression SimpleName name
+enum type SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName name
+[ StringLiteral InfixExpression StringLiteral ]
+name SimpleName InfixExpression StringLiteral ]
+no such element exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no match found for
+no such element exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral [
+no such element exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+no such element exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+value SimpleName MethodInvocation SimpleName get class
+value SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+bad value type for enum conversion StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName value
+bad value type for enum conversion StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+bad value type for enum conversion StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad value type for enum conversion
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName e
+public Modifier MethodDeclaration SimpleName to enum
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enum type
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName e
+static Modifier MethodDeclaration SimpleName to enum
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enum type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName e
+e SimpleName TypeParameter MethodDeclaration SimpleName to enum
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName enum type
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName value
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName fail if no match
+e SimpleName SimpleType MethodDeclaration SimpleName to enum
+e SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName enum type
+e SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+e SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+e SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName fail if no match
+e SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName available
+to enum SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enum type
+to enum SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to enum SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+to enum SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+to enum SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fail if no match
+to enum SimpleName MethodDeclaration SingleVariableDeclaration SimpleName available
+enum type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+enum type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+enum type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail if no match
+enum type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail if no match
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available
+fail if no match SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName to enum
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail if no match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to enum
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail if no match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName available

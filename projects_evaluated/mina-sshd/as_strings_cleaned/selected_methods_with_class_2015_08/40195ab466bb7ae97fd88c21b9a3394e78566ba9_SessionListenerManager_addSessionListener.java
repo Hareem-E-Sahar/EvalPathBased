@@ -1,0 +1,13 @@
+session listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName add session listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+add session listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session listener
+add session listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add session listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add session listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

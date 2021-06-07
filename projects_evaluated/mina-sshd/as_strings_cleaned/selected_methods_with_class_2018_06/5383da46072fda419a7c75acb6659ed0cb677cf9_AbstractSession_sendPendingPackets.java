@@ -1,0 +1,70 @@
+simple immutable entry SimpleName SimpleType ParameterizedType SimpleType SimpleName pending write future
+simple immutable entry SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+pending write future SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+queue SimpleName SimpleType ParameterizedType SimpleType SimpleName pending write future
+queue SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName packets queue
+pending write future SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName packets queue
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName packets queue
+is empty SimpleName MethodInvocation SimpleName packets queue
+collections SimpleName MethodInvocation SimpleName empty list
+packets queue SimpleName MethodInvocation SimpleName size
+num pending SimpleName VariableDeclarationFragment MethodInvocation SimpleName packets queue
+num pending SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num pending
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName packets queue
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+simple immutable entry SimpleName SimpleType ParameterizedType SimpleType SimpleName pending write future
+simple immutable entry SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+pending write future SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName num pending
+pending writes SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num pending
+pending packets SimpleName MethodInvocation SimpleName poll
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending packets
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName poll
+pending write future SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName future
+pending packets SimpleName MethodInvocation SimpleName poll
+future SimpleName Assignment MethodInvocation SimpleName pending packets
+future SimpleName Assignment MethodInvocation SimpleName poll
+future SimpleName MethodInvocation SimpleName get buffer
+do write packet SimpleName MethodInvocation MethodInvocation SimpleName future
+do write packet SimpleName MethodInvocation MethodInvocation SimpleName get buffer
+write future SimpleName VariableDeclarationFragment MethodInvocation SimpleName do write packet
+write future SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName future
+write future SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get buffer
+io write future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName write future
+simple immutable entry SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName future
+simple immutable entry SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName write future
+future SimpleName ClassInstanceCreation SimpleName write future
+pending writes SimpleName MethodInvocation SimpleName add
+pending writes SimpleName MethodInvocation ClassInstanceCreation SimpleName future
+pending writes SimpleName MethodInvocation ClassInstanceCreation SimpleName write future
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName future
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName write future
+future SimpleName InfixExpression ForStatement Assignment SimpleName future
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName encode lock
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName pending writes
+encode lock SimpleName SynchronizedStatement Block ReturnStatement SimpleName pending writes
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration SimpleName send pending packets
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName packets queue
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName encode lock
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName pending writes
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName send pending packets
+send pending packets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName packets queue
+send pending packets SimpleName MethodDeclaration SimpleType SimpleName io exception
+send pending packets SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+send pending packets SimpleName MethodDeclaration Block SynchronizedStatement SimpleName encode lock
+send pending packets SimpleName MethodDeclaration Block ReturnStatement SimpleName pending writes
+packets queue SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName send pending packets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packets queue
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send pending packets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packets queue
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

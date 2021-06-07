@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+int PrimitiveType SingleVariableDeclaration SimpleName def
+property resolver utils SimpleName MethodInvocation SimpleName get int property
+property resolver utils SimpleName MethodInvocation SimpleName name
+property resolver utils SimpleName MethodInvocation SimpleName def
+get int property SimpleName MethodInvocation SimpleName name
+get int property SimpleName MethodInvocation SimpleName def
+name SimpleName MethodInvocation SimpleName def
+default Modifier MethodDeclaration PrimitiveType int
+default Modifier MethodDeclaration SimpleName get int property
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+default Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName def
+int PrimitiveType MethodDeclaration SimpleName get int property
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def
+get int property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get int property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get int property SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get int property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get int property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get int property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def

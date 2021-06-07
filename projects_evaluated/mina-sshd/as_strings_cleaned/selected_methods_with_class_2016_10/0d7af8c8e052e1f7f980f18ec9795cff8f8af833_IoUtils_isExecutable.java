@@ -1,0 +1,31 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName f
+os utils SimpleName MethodInvocation SimpleName is win
+f SimpleName MethodInvocation SimpleName get name
+is windows executable SimpleName MethodInvocation MethodInvocation SimpleName f
+is windows executable SimpleName MethodInvocation MethodInvocation SimpleName get name
+f SimpleName MethodInvocation SimpleName can execute
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is executable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is executable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+boolean PrimitiveType MethodDeclaration SimpleName is executable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+is executable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+is executable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is executable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is executable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

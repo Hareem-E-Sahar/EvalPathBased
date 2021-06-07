@@ -1,0 +1,41 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+resource SimpleName MethodInvocation SimpleName to absolute path
+do load key SimpleName SuperMethodInvocation ConditionalExpression MethodInvocation SimpleName resource
+do load key SimpleName SuperMethodInvocation ConditionalExpression MethodInvocation SimpleName to absolute path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key pair
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do load key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName key pair
+protected Modifier MethodDeclaration SimpleName do load key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName general security exception
+key pair SimpleName SimpleType MethodDeclaration SimpleName do load key
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+key pair SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+do load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+do load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+do load key SimpleName MethodDeclaration SimpleType SimpleName io exception
+do load key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+resource SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+resource SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName do load key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do load key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

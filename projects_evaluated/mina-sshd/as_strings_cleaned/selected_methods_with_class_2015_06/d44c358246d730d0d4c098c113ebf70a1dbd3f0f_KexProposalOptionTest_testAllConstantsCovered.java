@@ -1,0 +1,104 @@
+constants SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get fields
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName get fields
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kex proposal option
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kex proposal option
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName all of
+field SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName get modifiers
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mods
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName f
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+modifier SimpleName MethodInvocation SimpleName is static
+modifier SimpleName MethodInvocation SimpleName mods
+is static SimpleName MethodInvocation SimpleName mods
+class SimpleName SimpleType ParameterizedType WildcardType ?
+f SimpleName MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+integertype QualifiedName MethodInvocation SimpleName is assignable from
+integertype QualifiedName MethodInvocation SimpleName type
+is assignable from SimpleName MethodInvocation SimpleName type
+f SimpleName MethodInvocation SimpleName get int
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName f
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+kex proposal option SimpleName MethodInvocation SimpleName from proposal index
+kex proposal option SimpleName MethodInvocation SimpleName index
+from proposal index SimpleName MethodInvocation SimpleName index
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName kex proposal option
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName from proposal index
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+kex proposal option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+no matching option for index StringLiteral InfixExpression SimpleName index
+assert not null SimpleName MethodInvocation InfixExpression StringLiteral no matching option for index
+assert not null SimpleName MethodInvocation InfixExpression SimpleName index
+assert not null SimpleName MethodInvocation SimpleName o
+no matching option for index StringLiteral InfixExpression MethodInvocation SimpleName o
+index SimpleName InfixExpression MethodInvocation SimpleName o
+option not in known options StringLiteral InfixExpression SimpleName o
+options SimpleName MethodInvocation SimpleName remove
+options SimpleName MethodInvocation SimpleName o
+remove SimpleName MethodInvocation SimpleName o
+assert true SimpleName MethodInvocation InfixExpression StringLiteral option not in known options
+assert true SimpleName MethodInvocation InfixExpression SimpleName o
+assert true SimpleName MethodInvocation MethodInvocation SimpleName options
+assert true SimpleName MethodInvocation MethodInvocation SimpleName remove
+assert true SimpleName MethodInvocation MethodInvocation SimpleName o
+option not in known options StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName options
+option not in known options StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName remove
+option not in known options StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName o
+o SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName options
+o SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName remove
+o SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName o
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+field SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName fields
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName fields
+fields SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+fields SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+not all options covered StringLiteral InfixExpression SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName options
+is empty SimpleName MethodInvocation SimpleName options
+assert true SimpleName MethodInvocation InfixExpression StringLiteral not all options covered
+assert true SimpleName MethodInvocation InfixExpression SimpleName options
+assert true SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation SimpleName options
+not all options covered StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+not all options covered StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is empty
+not all options covered StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName options
+options SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+options SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is empty
+options SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName options
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test all constants covered
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test all constants covered
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName fields
+void PrimitiveType MethodDeclaration SimpleName test all constants covered
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName fields
+test all constants covered SimpleName MethodDeclaration SimpleType SimpleName exception
+test all constants covered SimpleName MethodDeclaration Block EnhancedForStatement SimpleName fields
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test all constants covered
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test all constants covered
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

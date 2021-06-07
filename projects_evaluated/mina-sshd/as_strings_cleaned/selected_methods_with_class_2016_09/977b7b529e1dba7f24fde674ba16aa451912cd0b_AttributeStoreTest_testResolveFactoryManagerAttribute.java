@@ -1,0 +1,62 @@
+attribute store SimpleName MethodInvocation SimpleName resolve attribute
+attribute store SimpleName MethodInvocation CastExpression SimpleType SimpleName factory manager
+attribute store SimpleName MethodInvocation SimpleName key
+resolve attribute SimpleName MethodInvocation CastExpression SimpleType SimpleName factory manager
+resolve attribute SimpleName MethodInvocation SimpleName key
+factory manager SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+assert null SimpleName MethodInvocation StringLiteral unexpected null factory value
+assert null SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+assert null SimpleName MethodInvocation MethodInvocation SimpleName resolve attribute
+assert null SimpleName MethodInvocation MethodInvocation SimpleName key
+unexpected null factory value StringLiteral MethodInvocation MethodInvocation SimpleName attribute store
+unexpected null factory value StringLiteral MethodInvocation MethodInvocation SimpleName resolve attribute
+unexpected null factory value StringLiteral MethodInvocation MethodInvocation SimpleName key
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName factory manager
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+set attribute value SimpleName MethodInvocation SimpleName manager
+set attribute value SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+manager SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName set attribute value
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+attribute store SimpleName MethodInvocation SimpleName resolve attribute
+attribute store SimpleName MethodInvocation SimpleName manager
+attribute store SimpleName MethodInvocation SimpleName key
+resolve attribute SimpleName MethodInvocation SimpleName manager
+resolve attribute SimpleName MethodInvocation SimpleName key
+manager SimpleName MethodInvocation SimpleName key
+assert same SimpleName MethodInvocation StringLiteral mismatched resolved value
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+assert same SimpleName MethodInvocation MethodInvocation SimpleName resolve attribute
+assert same SimpleName MethodInvocation MethodInvocation SimpleName manager
+assert same SimpleName MethodInvocation MethodInvocation SimpleName key
+mismatched resolved value StringLiteral MethodInvocation SimpleName expected
+mismatched resolved value StringLiteral MethodInvocation MethodInvocation SimpleName attribute store
+mismatched resolved value StringLiteral MethodInvocation MethodInvocation SimpleName resolve attribute
+mismatched resolved value StringLiteral MethodInvocation MethodInvocation SimpleName manager
+mismatched resolved value StringLiteral MethodInvocation MethodInvocation SimpleName key
+expected SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+expected SimpleName MethodInvocation MethodInvocation SimpleName resolve attribute
+expected SimpleName MethodInvocation MethodInvocation SimpleName manager
+expected SimpleName MethodInvocation MethodInvocation SimpleName key
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resolve factory manager attribute
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resolve factory manager attribute
+void PrimitiveType MethodDeclaration SimpleName test resolve factory manager attribute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resolve factory manager attribute
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resolve factory manager attribute

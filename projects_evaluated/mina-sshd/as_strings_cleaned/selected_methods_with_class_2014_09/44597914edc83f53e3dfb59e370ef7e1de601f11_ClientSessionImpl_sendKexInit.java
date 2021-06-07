@@ -1,0 +1,31 @@
+get factory manager SimpleName MethodInvocation MethodInvocation SimpleName get signature factories
+named factoryutils QualifiedName MethodInvocation SimpleName get names
+named factoryutils QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get factory manager
+named factoryutils QualifiedName MethodInvocation MethodInvocation SimpleName get signature factories
+get names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get factory manager
+get names SimpleName MethodInvocation MethodInvocation SimpleName get signature factories
+algs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName named factoryutils
+algs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get names
+algs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get signature factories
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName algs
+create proposal SimpleName MethodInvocation SimpleName algs
+client proposal SimpleName Assignment MethodInvocation SimpleName create proposal
+client proposal SimpleName Assignment MethodInvocation SimpleName algs
+send kex init SimpleName MethodInvocation SimpleName client proposal
+i c SimpleName Assignment MethodInvocation SimpleName send kex init
+i c SimpleName Assignment MethodInvocation SimpleName client proposal
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send kex init
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName send kex init
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+send kex init SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send kex init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send kex init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

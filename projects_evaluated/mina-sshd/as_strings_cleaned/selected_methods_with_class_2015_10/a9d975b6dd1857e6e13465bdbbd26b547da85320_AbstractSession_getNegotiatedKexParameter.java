@@ -1,0 +1,29 @@
+kex proposal option SimpleName SimpleType SingleVariableDeclaration SimpleName param type
+negotiation result SimpleName MethodInvocation SimpleName get
+negotiation result SimpleName MethodInvocation SimpleName param type
+get SimpleName MethodInvocation SimpleName param type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get negotiated kex parameter
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName param type
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get negotiated kex parameter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kex proposal option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName param type
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName negotiation result
+string SimpleName SimpleType MethodDeclaration SimpleName get negotiated kex parameter
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName param type
+get negotiated kex parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kex proposal option
+get negotiated kex parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param type
+get negotiated kex parameter SimpleName MethodDeclaration Block SynchronizedStatement SimpleName negotiation result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get negotiated kex parameter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get negotiated kex parameter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param type

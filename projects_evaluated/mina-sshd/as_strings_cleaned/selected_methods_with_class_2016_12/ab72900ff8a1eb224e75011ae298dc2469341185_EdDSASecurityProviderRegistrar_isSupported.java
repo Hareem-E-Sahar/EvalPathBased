@@ -1,0 +1,44 @@
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName supported
+support holder SimpleName MethodInvocation SimpleName get
+supported SimpleName Assignment MethodInvocation SimpleName support holder
+supported SimpleName Assignment MethodInvocation SimpleName get
+supported SimpleName MethodInvocation SimpleName boolean value
+thread utils SimpleName MethodInvocation SimpleName resolve default class loader
+thread utils SimpleName MethodInvocation MethodInvocation SimpleName get class
+resolve default class loader SimpleName MethodInvocation MethodInvocation SimpleName get class
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread utils
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve default class loader
+cl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+reflection utils SimpleName MethodInvocation SimpleName is class available
+reflection utils SimpleName MethodInvocation SimpleName cl
+reflection utils SimpleName MethodInvocation StringLiteral neti pcryptoeddsaed dsa key
+is class available SimpleName MethodInvocation SimpleName cl
+is class available SimpleName MethodInvocation StringLiteral neti pcryptoeddsaed dsa key
+cl SimpleName MethodInvocation StringLiteral neti pcryptoeddsaed dsa key
+supported SimpleName Assignment MethodInvocation SimpleName reflection utils
+supported SimpleName Assignment MethodInvocation SimpleName is class available
+supported SimpleName Assignment MethodInvocation SimpleName cl
+supported SimpleName Assignment MethodInvocation StringLiteral neti pcryptoeddsaed dsa key
+support holder SimpleName MethodInvocation SimpleName set
+support holder SimpleName MethodInvocation SimpleName supported
+set SimpleName MethodInvocation SimpleName supported
+supported SimpleName MethodInvocation SimpleName boolean value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName support holder
+boolean PrimitiveType MethodDeclaration SimpleName is supported
+boolean PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName support holder
+is supported SimpleName MethodDeclaration Block SynchronizedStatement SimpleName support holder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is supported
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is supported

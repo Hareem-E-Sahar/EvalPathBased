@@ -1,0 +1,178 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral boxing
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName closeable executor service
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName closeable executor service
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+closeable executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+service SimpleName MethodInvocation SimpleName shutdown now
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName service
+mockito SimpleName MethodInvocation MethodInvocation SimpleName shutdown now
+when SimpleName MethodInvocation MethodInvocation SimpleName service
+when SimpleName MethodInvocation MethodInvocation SimpleName shutdown now
+collections SimpleName MethodInvocation SimpleName empty list
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+shutdown now SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+then return SimpleName MethodInvocation MethodInvocation SimpleName collections
+then return SimpleName MethodInvocation MethodInvocation SimpleName empty list
+service SimpleName MethodInvocation SimpleName is shutdown
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName service
+mockito SimpleName MethodInvocation MethodInvocation SimpleName is shutdown
+when SimpleName MethodInvocation MethodInvocation SimpleName service
+when SimpleName MethodInvocation MethodInvocation SimpleName is shutdown
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+is shutdown SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation QualifiedName booleantrue
+when SimpleName MethodInvocation MethodInvocation QualifiedName booleantrue
+service SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName booleantrue
+is shutdown SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName booleantrue
+then return SimpleName MethodInvocation QualifiedName booleantrue
+service SimpleName MethodInvocation SimpleName is terminated
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName service
+mockito SimpleName MethodInvocation MethodInvocation SimpleName is terminated
+when SimpleName MethodInvocation MethodInvocation SimpleName service
+when SimpleName MethodInvocation MethodInvocation SimpleName is terminated
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+is terminated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation QualifiedName booleantrue
+when SimpleName MethodInvocation MethodInvocation QualifiedName booleantrue
+service SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName booleantrue
+is terminated SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName booleantrue
+then return SimpleName MethodInvocation QualifiedName booleantrue
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName factory manager
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get properties
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName manager
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get properties
+when SimpleName MethodInvocation MethodInvocation SimpleName manager
+when SimpleName MethodInvocation MethodInvocation SimpleName get properties
+collections SimpleName MethodInvocation SimpleName empty map
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+then return SimpleName MethodInvocation MethodInvocation SimpleName collections
+then return SimpleName MethodInvocation MethodInvocation SimpleName empty map
+io service factory factory SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+prop name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop name
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is supported
+f SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation SimpleName prop name
+system SimpleName MethodInvocation SimpleName name
+set property SimpleName MethodInvocation SimpleName prop name
+set property SimpleName MethodInvocation SimpleName name
+prop name SimpleName MethodInvocation SimpleName name
+default io service factory factory SimpleName SimpleType ClassInstanceCreation LambdaExpression SimpleName service
+default factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default io service factory factory
+default factory SimpleName VariableDeclarationFragment ClassInstanceCreation LambdaExpression SimpleName service
+default io service factory factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default factory
+default factory SimpleName MethodInvocation SimpleName create
+default factory SimpleName MethodInvocation SimpleName manager
+create SimpleName MethodInvocation SimpleName manager
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName default factory
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+io service factory SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName factory
+factory SimpleName MethodInvocation SimpleName get class
+factory SimpleName MethodInvocation MethodInvocation SimpleName get method
+get class SimpleName MethodInvocation MethodInvocation SimpleName get method
+factory SimpleName MethodInvocation MethodInvocation StringLiteral get executor service
+get class SimpleName MethodInvocation MethodInvocation StringLiteral get executor service
+get method SimpleName MethodInvocation StringLiteral get executor service
+factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName invoke
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName invoke
+get method SimpleName MethodInvocation MethodInvocation SimpleName invoke
+get executor service StringLiteral MethodInvocation MethodInvocation SimpleName invoke
+factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory
+get method SimpleName MethodInvocation MethodInvocation SimpleName factory
+get executor service StringLiteral MethodInvocation MethodInvocation SimpleName factory
+invoke SimpleName MethodInvocation SimpleName factory
+closeable executor service SimpleName SimpleType CastExpression MethodInvocation SimpleName invoke
+closeable executor service SimpleName SimpleType CastExpression MethodInvocation SimpleName factory
+svc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName closeable executor service
+svc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName invoke
+svc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName factory
+closeable executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svc
+name SimpleName InfixExpression StringLiteral - mismatched executor service
+assert same SimpleName MethodInvocation InfixExpression SimpleName name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral - mismatched executor service
+assert same SimpleName MethodInvocation SimpleName service
+assert same SimpleName MethodInvocation SimpleName svc
+name SimpleName InfixExpression MethodInvocation SimpleName service
+- mismatched executor service StringLiteral InfixExpression MethodInvocation SimpleName service
+name SimpleName InfixExpression MethodInvocation SimpleName svc
+- mismatched executor service StringLiteral InfixExpression MethodInvocation SimpleName svc
+service SimpleName MethodInvocation SimpleName svc
+no such method exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+system SimpleName MethodInvocation SimpleName clear property
+system SimpleName MethodInvocation SimpleName prop name
+clear property SimpleName MethodInvocation SimpleName prop name
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+f SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName test
+boxing StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName test
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+boxing StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+boxing StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName test executor service initialization
+boxing StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName test executor service initialization
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+boxing StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test executor service initialization
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test executor service initialization
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+void PrimitiveType MethodDeclaration SimpleName test executor service initialization
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+test executor service initialization SimpleName MethodDeclaration SimpleType SimpleName exception
+test executor service initialization SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral boxing
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test executor service initialization
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral boxing
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test executor service initialization
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

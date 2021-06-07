@@ -1,0 +1,29 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new value
+new value SimpleName InfixExpression ConditionalExpression SimpleName new value
+new value SimpleName InfixExpression ConditionalExpression SimpleName null
+new value SimpleName ConditionalExpression SimpleName null
+result SimpleName Assignment ConditionalExpression InfixExpression SimpleName new value
+result SimpleName Assignment ConditionalExpression SimpleName new value
+result SimpleName Assignment ConditionalExpression SimpleName null
+lock SimpleName MethodInvocation SimpleName notify all
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new value
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+void PrimitiveType MethodDeclaration SimpleName set value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new value
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+set value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new value
+set value SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value

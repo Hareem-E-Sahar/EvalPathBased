@@ -1,0 +1,41 @@
+close SimpleName SuperMethodInvocation BooleanLiteral true
+socket SimpleName MethodInvocation SimpleName close
+socket SimpleName MethodInvocation SimpleName handle
+close SimpleName MethodInvocation SimpleName handle
+forwarder SimpleName MethodInvocation SimpleName is done
+forwarder SimpleName MethodInvocation SimpleName cancel
+forwarder SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+forward service SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName shutdown forwarder
+collection SimpleName SimpleType ParameterizedType WildcardType ?
+forward service SimpleName MethodInvocation SimpleName shutdown now
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName forward service
+runners SimpleName VariableDeclarationFragment MethodInvocation SimpleName shutdown now
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName runners
+log SimpleName MethodInvocation SimpleName is debug enabled
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName runners
+size SimpleName MethodInvocation SimpleName runners
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName generic utils
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName size
+shut down runners count StringLiteral InfixExpression MethodInvocation SimpleName runners
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral shut down runners count
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+debug SimpleName MethodInvocation InfixExpression StringLiteral shut down runners count
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName runners
+shutdown forwarder SimpleName Assignment BooleanLiteral false
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName close immediately
+void PrimitiveType MethodDeclaration SimpleName close immediately
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close immediately
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close immediately

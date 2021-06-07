@@ -1,0 +1,184 @@
+enum SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName enum
+e SimpleName TypeParameter ParameterizedType SimpleType SimpleName e
+e SimpleName TypeParameter SimpleType SimpleName compression factory
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName facs
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName facs
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+transformer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName config value xformer
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName config value xformer
+e SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+facs SimpleName MethodInvocation SimpleName get enum constants
+config value xformer SimpleName MethodInvocation SimpleName transform
+config value xformer SimpleName MethodInvocation SimpleName expected
+transform SimpleName MethodInvocation SimpleName expected
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName config value xformer
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+facs SimpleName MethodInvocation SimpleName get simple name
+expected SimpleName MethodInvocation SimpleName name
+facs SimpleName MethodInvocation InfixExpression StringLiteral [
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral [
+facs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+facs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+facs SimpleName MethodInvocation InfixExpression StringLiteral ][
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ][
+facs SimpleName MethodInvocation InfixExpression SimpleName value
+get simple name SimpleName MethodInvocation InfixExpression SimpleName value
+facs SimpleName MethodInvocation InfixExpression StringLiteral ]
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression MethodInvocation SimpleName expected
+[ StringLiteral InfixExpression MethodInvocation SimpleName name
+[ StringLiteral InfixExpression StringLiteral ][
+[ StringLiteral InfixExpression SimpleName value
+[ StringLiteral InfixExpression StringLiteral ]
+expected SimpleName MethodInvocation InfixExpression StringLiteral ][
+name SimpleName MethodInvocation InfixExpression StringLiteral ][
+expected SimpleName MethodInvocation InfixExpression SimpleName value
+name SimpleName MethodInvocation InfixExpression SimpleName value
+expected SimpleName MethodInvocation InfixExpression StringLiteral ]
+name SimpleName MethodInvocation InfixExpression StringLiteral ]
+][ StringLiteral InfixExpression SimpleName value
+][ StringLiteral InfixExpression StringLiteral ]
+value SimpleName InfixExpression StringLiteral ]
+prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName facs
+prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+prefix SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName expected
+prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName name
+prefix SimpleName VariableDeclarationFragment InfixExpression StringLiteral ][
+prefix SimpleName VariableDeclarationFragment InfixExpression SimpleName value
+prefix SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prefix
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName closeable
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get inner closeable
+protected Modifier MethodDeclaration SimpleType SimpleName closeable
+protected Modifier MethodDeclaration SimpleName get inner closeable
+closeable SimpleName SimpleType MethodDeclaration SimpleName get inner closeable
+ssh config file reader SimpleName MethodInvocation SimpleName configure compression
+ssh config file reader SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract factory manager
+ssh config file reader SimpleName MethodInvocation SimpleName value
+ssh config file reader SimpleName MethodInvocation BooleanLiteral false
+ssh config file reader SimpleName MethodInvocation BooleanLiteral true
+configure compression SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract factory manager
+configure compression SimpleName MethodInvocation SimpleName value
+configure compression SimpleName MethodInvocation BooleanLiteral false
+configure compression SimpleName MethodInvocation BooleanLiteral true
+abstract factory manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName value
+abstract factory manager SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+abstract factory manager SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+value SimpleName MethodInvocation BooleanLiteral false
+value SimpleName MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh config file reader
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName configure compression
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+manager SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+manager SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName compression
+manager SimpleName MethodInvocation SimpleName get compression factories
+compressions SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+compressions SimpleName VariableDeclarationFragment MethodInvocation SimpleName get compression factories
+prefix SimpleName InfixExpression StringLiteral size
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName compressions
+size SimpleName MethodInvocation SimpleName compressions
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert SimpleName MethodInvocation InfixExpression StringLiteral size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation SimpleName compressions
+assert equals SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName compressions
+prefix SimpleName InfixExpression MethodInvocation NumberLiteral empty
+size StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName compressions
+size StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName generic utils
+size StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+size StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName compressions
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName generic utils
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName compressions
+prefix SimpleName InfixExpression StringLiteral instance
+compressions SimpleName MethodInvocation SimpleName get
+compressions SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert same
+assert SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert SimpleName MethodInvocation InfixExpression StringLiteral instance
+assert SimpleName MethodInvocation SimpleName expected
+assert SimpleName MethodInvocation MethodInvocation SimpleName compressions
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert same SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert same SimpleName MethodInvocation InfixExpression StringLiteral instance
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation MethodInvocation SimpleName compressions
+assert same SimpleName MethodInvocation MethodInvocation SimpleName get
+assert same SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+prefix SimpleName InfixExpression MethodInvocation SimpleName expected
+instance StringLiteral InfixExpression MethodInvocation SimpleName expected
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName compressions
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+instance StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName compressions
+instance StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+instance StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+expected SimpleName MethodInvocation MethodInvocation SimpleName compressions
+expected SimpleName MethodInvocation MethodInvocation SimpleName get
+expected SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+expected SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName facs
+expected SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get enum constants
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration TypeParameter SimpleType SimpleName compression factory
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test configure compression from string accepts combined values
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName facs
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName compression factory
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName test configure compression from string accepts combined values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName facs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config value xformer
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+compression factory SimpleName SimpleType TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName test configure compression from string accepts combined values
+compression factory SimpleName SimpleType TypeParameter MethodDeclaration SimpleName test configure compression from string accepts combined values
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName facs
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName config value xformer
+void PrimitiveType MethodDeclaration SimpleName test configure compression from string accepts combined values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName facs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config value xformer
+test configure compression from string accepts combined values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName facs
+test configure compression from string accepts combined values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config value xformer
+facs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config value xformer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test configure compression from string accepts combined values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName facs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config value xformer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test configure compression from string accepts combined values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName facs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config value xformer

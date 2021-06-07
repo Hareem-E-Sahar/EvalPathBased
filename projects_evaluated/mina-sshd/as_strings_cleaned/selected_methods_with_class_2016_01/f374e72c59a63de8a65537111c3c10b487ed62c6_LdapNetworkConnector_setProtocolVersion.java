@@ -1,0 +1,42 @@
+int PrimitiveType SingleVariableDeclaration SimpleName value
+value SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName value
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral nonpositive protocol value d
+validate utils SimpleName MethodInvocation SimpleName value
+check true SimpleName MethodInvocation InfixExpression SimpleName value
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral nonpositive protocol value d
+check true SimpleName MethodInvocation SimpleName value
+value SimpleName InfixExpression MethodInvocation StringLiteral nonpositive protocol value d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral nonpositive protocol value d
+value SimpleName InfixExpression MethodInvocation SimpleName value
+empty NumberLiteral InfixExpression MethodInvocation SimpleName value
+nonpositive protocol value d StringLiteral MethodInvocation SimpleName value
+ldap env SimpleName MethodInvocation SimpleName put
+ldap env SimpleName MethodInvocation StringLiteral javanamingldapversion
+ldap env SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation StringLiteral javanamingldapversion
+put SimpleName MethodInvocation SimpleName value
+javanamingldapversion StringLiteral MethodInvocation SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set protocol version
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set protocol version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set protocol version SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set protocol version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set protocol version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set protocol version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

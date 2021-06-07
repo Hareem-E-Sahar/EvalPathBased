@@ -1,0 +1,54 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+get channel SimpleName MethodInvocation SimpleName buffer
+abstract client channel SimpleName SimpleType CastExpression MethodInvocation SimpleName get channel
+abstract client channel SimpleName SimpleType CastExpression MethodInvocation SimpleName buffer
+channel SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract client channel
+channel SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get channel
+channel SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName buffer
+abstract client channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName channel
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName channel
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get id
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral channel open failure received ssh msg channel open failure
+log SimpleName MethodInvocation SimpleName channel
+debug SimpleName MethodInvocation StringLiteral channel open failure received ssh msg channel open failure
+debug SimpleName MethodInvocation SimpleName channel
+channel open failure received ssh msg channel open failure StringLiteral MethodInvocation SimpleName channel
+channels SimpleName MethodInvocation SimpleName remove
+channels SimpleName MethodInvocation SimpleName id
+remove SimpleName MethodInvocation SimpleName id
+channel SimpleName MethodInvocation SimpleName handle open failure
+channel SimpleName MethodInvocation SimpleName buffer
+handle open failure SimpleName MethodInvocation SimpleName buffer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName channel open failure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName channel open failure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+channel open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+channel open failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+channel open failure SimpleName MethodDeclaration SimpleType SimpleName io exception
+channel open failure SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName channel open failure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName channel open failure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

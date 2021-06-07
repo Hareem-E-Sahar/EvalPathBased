@@ -1,0 +1,17 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName build
+public Modifier MethodDeclaration Block ReturnStatement SimpleName map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName build
+k SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName build
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName build
+build SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName build
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build

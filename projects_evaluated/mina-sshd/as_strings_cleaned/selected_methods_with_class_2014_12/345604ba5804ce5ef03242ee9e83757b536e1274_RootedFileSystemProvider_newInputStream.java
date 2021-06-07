@@ -1,0 +1,55 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+open option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+unroot SimpleName MethodInvocation SimpleName path
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unroot
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+provider SimpleName MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName new input stream
+r SimpleName MethodInvocation MethodInvocation SimpleName new input stream
+provider SimpleName MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation SimpleName r
+provider SimpleName MethodInvocation MethodInvocation SimpleName options
+r SimpleName MethodInvocation MethodInvocation SimpleName options
+new input stream SimpleName MethodInvocation SimpleName r
+new input stream SimpleName MethodInvocation SimpleName options
+r SimpleName MethodInvocation SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName input stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new input stream
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SimpleName new input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+input stream SimpleName SimpleType MethodDeclaration SimpleName new input stream
+input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+input stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+new input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+new input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+new input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open option
+new input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+new input stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName new input stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new input stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

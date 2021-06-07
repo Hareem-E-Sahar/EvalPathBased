@@ -1,0 +1,138 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host key types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+enum map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+enum map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+factory manager SimpleName MethodInvocation SimpleName get key exchange factories
+named resourceutils QualifiedName MethodInvocation SimpleName get names
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName factory manager
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName get key exchange factories
+get names SimpleName MethodInvocation MethodInvocation SimpleName factory manager
+get names SimpleName MethodInvocation MethodInvocation SimpleName get key exchange factories
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal optionalgorithms
+proposal SimpleName MethodInvocation MethodInvocation QualifiedName named resourceutils
+proposal SimpleName MethodInvocation MethodInvocation SimpleName get names
+proposal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory manager
+proposal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key exchange factories
+put SimpleName MethodInvocation QualifiedName kex proposal optionalgorithms
+put SimpleName MethodInvocation MethodInvocation QualifiedName named resourceutils
+put SimpleName MethodInvocation MethodInvocation SimpleName get names
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName factory manager
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key exchange factories
+kex proposal optionalgorithms QualifiedName MethodInvocation MethodInvocation QualifiedName named resourceutils
+kex proposal optionalgorithms QualifiedName MethodInvocation MethodInvocation SimpleName get names
+kex proposal optionalgorithms QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName factory manager
+kex proposal optionalgorithms QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key exchange factories
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal optionserverkeys
+proposal SimpleName MethodInvocation SimpleName host key types
+put SimpleName MethodInvocation QualifiedName kex proposal optionserverkeys
+put SimpleName MethodInvocation SimpleName host key types
+kex proposal optionserverkeys QualifiedName MethodInvocation SimpleName host key types
+factory manager SimpleName MethodInvocation SimpleName get cipher factories
+named resourceutils QualifiedName MethodInvocation SimpleName get names
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName factory manager
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName get cipher factories
+get names SimpleName MethodInvocation MethodInvocation SimpleName factory manager
+get names SimpleName MethodInvocation MethodInvocation SimpleName get cipher factories
+value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName named resourceutils
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get names
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName factory manager
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cipher factories
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal options cenc
+proposal SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation QualifiedName kex proposal options cenc
+put SimpleName MethodInvocation SimpleName value
+kex proposal options cenc QualifiedName MethodInvocation SimpleName value
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal optionc senc
+proposal SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation QualifiedName kex proposal optionc senc
+put SimpleName MethodInvocation SimpleName value
+kex proposal optionc senc QualifiedName MethodInvocation SimpleName value
+factory manager SimpleName MethodInvocation SimpleName get mac factories
+named resourceutils QualifiedName MethodInvocation SimpleName get names
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName factory manager
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName get mac factories
+get names SimpleName MethodInvocation MethodInvocation SimpleName factory manager
+get names SimpleName MethodInvocation MethodInvocation SimpleName get mac factories
+value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName named resourceutils
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get names
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName factory manager
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get mac factories
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal options cmac
+proposal SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation QualifiedName kex proposal options cmac
+put SimpleName MethodInvocation SimpleName value
+kex proposal options cmac QualifiedName MethodInvocation SimpleName value
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal optionc smac
+proposal SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation QualifiedName kex proposal optionc smac
+put SimpleName MethodInvocation SimpleName value
+kex proposal optionc smac QualifiedName MethodInvocation SimpleName value
+factory manager SimpleName MethodInvocation SimpleName get compression factories
+named resourceutils QualifiedName MethodInvocation SimpleName get names
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName factory manager
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName get compression factories
+get names SimpleName MethodInvocation MethodInvocation SimpleName factory manager
+get names SimpleName MethodInvocation MethodInvocation SimpleName get compression factories
+value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName named resourceutils
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get names
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName factory manager
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get compression factories
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal options ccomp
+proposal SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation QualifiedName kex proposal options ccomp
+put SimpleName MethodInvocation SimpleName value
+kex proposal options ccomp QualifiedName MethodInvocation SimpleName value
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal optionc scomp
+proposal SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation QualifiedName kex proposal optionc scomp
+put SimpleName MethodInvocation SimpleName value
+kex proposal optionc scomp QualifiedName MethodInvocation SimpleName value
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal options clang
+proposal SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation QualifiedName kex proposal options clang
+put SimpleName MethodInvocation StringLiteral empty
+kex proposal options clang QualifiedName MethodInvocation StringLiteral empty
+proposal SimpleName MethodInvocation SimpleName put
+proposal SimpleName MethodInvocation QualifiedName kex proposal optionc slang
+proposal SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation QualifiedName kex proposal optionc slang
+put SimpleName MethodInvocation StringLiteral empty
+kex proposal optionc slang QualifiedName MethodInvocation StringLiteral empty
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName kex proposal option
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName create proposal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName host key types
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName proposal
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create proposal
+kex proposal option SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create proposal
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create proposal
+create proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create proposal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host key types
+create proposal SimpleName MethodDeclaration Block ReturnStatement SimpleName proposal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName create proposal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host key types
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create proposal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host key types

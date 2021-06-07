@@ -1,0 +1,136 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName props
+is empty SimpleName MethodInvocation SimpleName props
+collections SimpleName MethodInvocation SimpleName empty map
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation SimpleName host key config prop
+get property SimpleName MethodInvocation SimpleName host key config prop
+key list SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+key list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+key list SimpleName VariableDeclarationFragment MethodInvocation SimpleName host key config prop
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key list
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName key list
+generic utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName key list
+split SimpleName MethodInvocation CharacterLiteral empty
+key list SimpleName MethodInvocation CharacterLiteral empty
+paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName key list
+paths SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName paths
+is empty SimpleName MethodInvocation SimpleName paths
+collections SimpleName MethodInvocation SimpleName empty map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+path SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+ids SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType SingleVariableDeclaration SimpleName p
+file SimpleName SimpleType ClassInstanceCreation SimpleName p
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName p
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName to path
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName to path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+exists SimpleName MethodInvocation SimpleName path
+exists SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName get file name
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+get file name SimpleName MethodInvocation MethodInvocation SimpleName to string
+get identity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+get identity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file name
+get identity type SimpleName MethodInvocation MethodInvocation SimpleName to string
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identity type
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName type
+is empty SimpleName MethodInvocation SimpleName type
+type SimpleName Assignment SimpleName p
+ids SimpleName MethodInvocation SimpleName put
+ids SimpleName MethodInvocation SimpleName type
+ids SimpleName MethodInvocation SimpleName path
+put SimpleName MethodInvocation SimpleName type
+put SimpleName MethodInvocation SimpleName path
+type SimpleName MethodInvocation SimpleName path
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName ids
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName prev
+validate utils SimpleName MethodInvocation StringLiteral multiple mappings for types
+validate utils SimpleName MethodInvocation SimpleName type
+check true SimpleName MethodInvocation InfixExpression SimpleName prev
+check true SimpleName MethodInvocation StringLiteral multiple mappings for types
+check true SimpleName MethodInvocation SimpleName type
+prev SimpleName InfixExpression MethodInvocation StringLiteral multiple mappings for types
+prev SimpleName InfixExpression MethodInvocation SimpleName type
+multiple mappings for types StringLiteral MethodInvocation SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName paths
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName paths
+paths SimpleName EnhancedForStatement Block ReturnStatement SimpleName ids
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName find identities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName find identities
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find identities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find identities
+path SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find identities
+find identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+find identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+find identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+find identities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+find identities SimpleName MethodDeclaration SimpleType SimpleName io exception
+find identities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName paths
+find identities SimpleName MethodDeclaration Block ReturnStatement SimpleName ids
+props SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName find identities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find identities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

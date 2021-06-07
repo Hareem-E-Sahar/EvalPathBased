@@ -1,0 +1,16 @@
+test apply slashify rules SimpleName MethodInvocation CharacterLiteral /
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test apply linux separator slashify rules
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test apply linux separator slashify rules
+void PrimitiveType MethodDeclaration SimpleName test apply linux separator slashify rules
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test apply linux separator slashify rules
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test apply linux separator slashify rules

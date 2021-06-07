@@ -1,0 +1,32 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+ssh future listener SimpleName SimpleType ParameterizedType CastExpression SimpleName o
+t SimpleName SimpleType ParameterizedType CastExpression SimpleName o
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName as listener
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName as listener
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName ssh future listener
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName as listener
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+ssh future listener SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName as listener
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName as listener
+as listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+as listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName as listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

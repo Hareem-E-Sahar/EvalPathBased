@@ -1,0 +1,38 @@
+extension parser SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+parsers map SimpleName MethodInvocation SimpleName remove
+parsers map SimpleName MethodInvocation SimpleName name
+remove SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName extension parser
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName unregister parser
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName parsers map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName extension parser
+static Modifier MethodDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SimpleName unregister parser
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName parsers map
+extension parser SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName unregister parser
+? WildcardType ParameterizedType MethodDeclaration SimpleName unregister parser
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName name
+unregister parser SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+unregister parser SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+unregister parser SimpleName MethodDeclaration Block SynchronizedStatement SimpleName parsers map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName unregister parser
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unregister parser
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

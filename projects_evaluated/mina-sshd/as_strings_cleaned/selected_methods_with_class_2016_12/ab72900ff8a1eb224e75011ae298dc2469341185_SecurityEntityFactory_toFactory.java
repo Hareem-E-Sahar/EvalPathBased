@@ -1,0 +1,74 @@
+security entity factory SimpleName SimpleType ParameterizedType SimpleType SimpleName f
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName f
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+f SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+security provider choice SimpleName SimpleType SingleVariableDeclaration SimpleName registrar
+security provider choice SimpleName SimpleType SingleVariableDeclaration SimpleName default provider
+default provider SimpleName InfixExpression QualifiedName security provider choiceempty
+to default factory SimpleName MethodInvocation SimpleName entity type
+default provider SimpleName MethodInvocation SimpleName is named provider used
+default provider SimpleName MethodInvocation SimpleName get name
+to named provider factory SimpleName MethodInvocation SimpleName entity type
+to named provider factory SimpleName MethodInvocation MethodInvocation SimpleName default provider
+to named provider factory SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity type SimpleName MethodInvocation MethodInvocation SimpleName default provider
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get name
+default provider SimpleName MethodInvocation SimpleName get security provider
+to provider instance factory SimpleName MethodInvocation SimpleName entity type
+to provider instance factory SimpleName MethodInvocation MethodInvocation SimpleName default provider
+to provider instance factory SimpleName MethodInvocation MethodInvocation SimpleName get security provider
+entity type SimpleName MethodInvocation MethodInvocation SimpleName default provider
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get security provider
+registrar SimpleName MethodInvocation SimpleName is named provider used
+registrar SimpleName MethodInvocation SimpleName get name
+to named provider factory SimpleName MethodInvocation SimpleName entity type
+to named provider factory SimpleName MethodInvocation MethodInvocation SimpleName registrar
+to named provider factory SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity type SimpleName MethodInvocation MethodInvocation SimpleName registrar
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get name
+registrar SimpleName MethodInvocation SimpleName get security provider
+to provider instance factory SimpleName MethodInvocation SimpleName entity type
+to provider instance factory SimpleName MethodInvocation MethodInvocation SimpleName registrar
+to provider instance factory SimpleName MethodInvocation MethodInvocation SimpleName get security provider
+entity type SimpleName MethodInvocation MethodInvocation SimpleName registrar
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get security provider
+static Modifier MethodDeclaration TypeParameter SimpleName f
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName security entity factory
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName f
+static Modifier MethodDeclaration SimpleName to factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security provider choice
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName registrar
+f SimpleName TypeParameter MethodDeclaration SimpleName to factory
+f SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName entity type
+f SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName registrar
+f SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName default provider
+security entity factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to factory
+f SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to factory
+to factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+to factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security provider choice
+to factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName registrar
+to factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security provider choice
+to factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default provider
+to factory SimpleName MethodDeclaration SimpleType SimpleName reflective operation exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registrar
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default provider
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+registrar SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default provider
+registrar SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+default provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName f
+public Modifier TypeDeclaration MethodDeclaration SimpleName to factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registrar
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registrar
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName reflective operation exception

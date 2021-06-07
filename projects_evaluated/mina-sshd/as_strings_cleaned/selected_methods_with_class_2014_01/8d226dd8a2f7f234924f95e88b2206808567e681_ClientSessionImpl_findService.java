@@ -1,0 +1,40 @@
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName is instance
+clazz SimpleName MethodInvocation SimpleName current service
+is instance SimpleName MethodInvocation SimpleName current service
+clazz SimpleName MethodInvocation SimpleName cast
+clazz SimpleName MethodInvocation SimpleName current service
+cast SimpleName MethodInvocation SimpleName current service
+clazz SimpleName MethodInvocation SimpleName is instance
+clazz SimpleName MethodInvocation SimpleName next service
+is instance SimpleName MethodInvocation SimpleName next service
+clazz SimpleName MethodInvocation SimpleName cast
+clazz SimpleName MethodInvocation SimpleName next service
+cast SimpleName MethodInvocation SimpleName next service
+clazz SimpleName MethodInvocation SimpleName get simple name
+attempted to access unknown service StringLiteral InfixExpression MethodInvocation SimpleName clazz
+attempted to access unknown service StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral attempted to access unknown service
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName find service
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName find service
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType MethodDeclaration SimpleName find service
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+find service SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName find service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

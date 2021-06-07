@@ -1,0 +1,50 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName paths
+size SimpleName MethodInvocation SimpleName paths
+num paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+num paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName paths
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num paths
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName paths
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+num paths SimpleName InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleType SimpleName path
+collections SimpleName MethodInvocation SimpleName empty list
+path SimpleName SimpleType MethodInvocation SimpleName empty list
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+paths SimpleName MethodInvocation SimpleName size
+resolved SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName collections
+resolved SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName empty list
+num paths SimpleName InfixExpression NumberLiteral empty
+path SimpleName SimpleType SingleVariableDeclaration SimpleName p
+p SimpleName MethodInvocation SimpleName to absolute path
+resolved SimpleName MethodInvocation SimpleName add
+resolved SimpleName MethodInvocation MethodInvocation SimpleName p
+resolved SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+add SimpleName MethodInvocation MethodInvocation SimpleName p
+add SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName paths
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName paths
+reset cache map SimpleName MethodInvocation SimpleName resolved
+files SimpleName Assignment SimpleName resolved
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set paths
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName paths
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName set paths
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName paths
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set paths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paths
+set paths SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set paths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set paths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths

@@ -1,0 +1,173 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+default ssh future SimpleName SimpleType ParameterizedType SimpleType SimpleName io write future
+object SimpleName SimpleType SingleVariableDeclaration SimpleName lock
+future SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+future SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock
+future SimpleName MethodDeclaration Block SuperConstructorInvocation SimpleName lock
+get value SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName boolean
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is written
+boolean PrimitiveType MethodDeclaration SimpleName is written
+set value SimpleName MethodInvocation QualifiedName booleantrue
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set written
+void PrimitiveType MethodDeclaration SimpleName set written
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName throwable
+throwable SimpleName SimpleType CastExpression SimpleName v
+v SimpleName InstanceofExpression ConditionalExpression CastExpression SimpleName v
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleName get exception
+throwable SimpleName SimpleType MethodDeclaration SimpleName get exception
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName exception
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral exception
+set value SimpleName MethodInvocation SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exception
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+set exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exception
+future SimpleName TypeDeclaration ParameterizedType SimpleType SimpleName default ssh future
+future SimpleName TypeDeclaration ParameterizedType SimpleType SimpleName io write future
+future SimpleName TypeDeclaration SimpleType SimpleName io write future
+future SimpleName TypeDeclaration MethodDeclaration SimpleName future
+future SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+future SimpleName TypeDeclaration MethodDeclaration Modifier public
+future SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+future SimpleName TypeDeclaration MethodDeclaration SimpleName is written
+future SimpleName TypeDeclaration MethodDeclaration Modifier public
+future SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+future SimpleName TypeDeclaration MethodDeclaration SimpleName set written
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName future
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType boolean
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName is written
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName set written
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName get exception
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+io write future SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName set exception
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType boolean
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName is written
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set written
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName get exception
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+future SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set written
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set written
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set written
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName get exception
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName get exception
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName get exception
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+is written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName get exception
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName get exception
+set written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+set written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName get exception
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+set written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+set written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+set written SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+get exception SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+get exception SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+get exception SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName set exception
+future SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName future
+final Modifier VariableDeclarationStatement SimpleType SimpleName io write future
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+io write future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+mina support SimpleName MethodInvocation SimpleName as io buffer
+mina support SimpleName MethodInvocation SimpleName buffer
+as io buffer SimpleName MethodInvocation SimpleName buffer
+session SimpleName MethodInvocation SimpleName write
+session SimpleName MethodInvocation MethodInvocation SimpleName mina support
+session SimpleName MethodInvocation MethodInvocation SimpleName as io buffer
+session SimpleName MethodInvocation MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName mina support
+write SimpleName MethodInvocation MethodInvocation SimpleName as io buffer
+write SimpleName MethodInvocation MethodInvocation SimpleName buffer
+io future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName write future
+write future SimpleName SimpleType SingleVariableDeclaration SimpleName cf
+cf SimpleName MethodInvocation SimpleName get exception
+cf SimpleName MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName set exception
+future SimpleName MethodInvocation MethodInvocation SimpleName cf
+future SimpleName MethodInvocation MethodInvocation SimpleName get exception
+set exception SimpleName MethodInvocation MethodInvocation SimpleName cf
+set exception SimpleName MethodInvocation MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName set written
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName write future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cf
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName write future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cf
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName write future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cf
+session SimpleName MethodInvocation MethodInvocation SimpleName add listener
+write SimpleName MethodInvocation MethodInvocation SimpleName add listener
+mina support SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add listener
+as io buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add listener
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add listener
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName future
+public Modifier MethodDeclaration SimpleType SimpleName io write future
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+io write future SimpleName SimpleType MethodDeclaration SimpleName write
+io write future SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+write SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+write SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io write future
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

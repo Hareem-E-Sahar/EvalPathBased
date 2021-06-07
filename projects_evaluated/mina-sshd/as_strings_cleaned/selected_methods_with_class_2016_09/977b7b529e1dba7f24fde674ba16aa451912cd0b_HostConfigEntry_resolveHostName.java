@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entry name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName entry name
+is empty SimpleName MethodInvocation SimpleName entry name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName resolve host name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName resolve host name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName original name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry name
+string SimpleName SimpleType MethodDeclaration SimpleName resolve host name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName original name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entry name
+resolve host name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve host name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original name
+resolve host name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve host name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entry name
+original name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve host name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve host name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry name

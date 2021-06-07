@@ -1,0 +1,35 @@
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get current test name SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+expected SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+base SimpleName MethodInvocation SimpleName discard whitespace
+base SimpleName MethodInvocation SimpleName expected
+discard whitespace SimpleName MethodInvocation SimpleName expected
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName base
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName discard whitespace
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation StringLiteral mismatched result
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched result StringLiteral MethodInvocation SimpleName expected
+mismatched result StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test discard whitespace on non whitespace
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test discard whitespace on non whitespace
+void PrimitiveType MethodDeclaration SimpleName test discard whitespace on non whitespace
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test discard whitespace on non whitespace
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test discard whitespace on non whitespace

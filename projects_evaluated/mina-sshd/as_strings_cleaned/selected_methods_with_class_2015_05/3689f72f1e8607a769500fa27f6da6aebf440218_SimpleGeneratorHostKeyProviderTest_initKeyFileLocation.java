@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algorithm
+file SimpleName SimpleType ClassInstanceCreation StringLiteral targetkeys
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+path SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral targetkeys
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName exists
+path SimpleName MethodInvocation SimpleName get absolute path
+failed to crearte hierarchy of StringLiteral InfixExpression MethodInvocation SimpleName path
+failed to crearte hierarchy of StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+path SimpleName MethodInvocation SimpleName mkdirs
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to crearte hierarchy of
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName path
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName mkdirs
+failed to crearte hierarchy of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+failed to crearte hierarchy of StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName mkdirs
+algorithm SimpleName InfixExpression StringLiteral simplekey
+file SimpleName SimpleType ClassInstanceCreation SimpleName path
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName algorithm
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral simplekey
+path SimpleName ClassInstanceCreation InfixExpression SimpleName algorithm
+path SimpleName ClassInstanceCreation InfixExpression StringLiteral simplekey
+path SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+path SimpleName Assignment ClassInstanceCreation SimpleName path
+path SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName algorithm
+path SimpleName Assignment ClassInstanceCreation InfixExpression StringLiteral simplekey
+path SimpleName MethodInvocation SimpleName exists
+path SimpleName MethodInvocation SimpleName get absolute path
+failed to delete test key file StringLiteral InfixExpression MethodInvocation SimpleName path
+failed to delete test key file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+path SimpleName MethodInvocation SimpleName delete
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to delete test key file
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName path
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName delete
+failed to delete test key file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName path
+failed to delete test key file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName delete
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SimpleName init key file location
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+private Modifier MethodDeclaration Block ReturnStatement SimpleName path
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName init key file location
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+static Modifier MethodDeclaration Block ReturnStatement SimpleName path
+file SimpleName SimpleType MethodDeclaration SimpleName init key file location
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+init key file location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+init key file location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+init key file location SimpleName MethodDeclaration Block ReturnStatement SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName init key file location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init key file location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algorithm

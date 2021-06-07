@@ -1,0 +1,46 @@
+signal listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName signal
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName signals
+signal SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName signals
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral listener may not be null
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral signals may not be null
+signal SimpleName SimpleType SingleVariableDeclaration SimpleName s
+get signal listeners SimpleName MethodInvocation SimpleName s
+get signal listeners SimpleName MethodInvocation BooleanLiteral true
+s SimpleName MethodInvocation BooleanLiteral true
+get signal listeners SimpleName MethodInvocation MethodInvocation SimpleName add
+s SimpleName MethodInvocation MethodInvocation SimpleName add
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName add
+get signal listeners SimpleName MethodInvocation MethodInvocation SimpleName listener
+s SimpleName MethodInvocation MethodInvocation SimpleName listener
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName listener
+add SimpleName MethodInvocation SimpleName listener
+signal SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName signals
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName signals
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add signal listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signal listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName signals
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName signals
+void PrimitiveType MethodDeclaration SimpleName add signal listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signal listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName signals
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName signals
+add signal listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signal listener
+add signal listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+add signal listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName signals
+add signal listener SimpleName MethodDeclaration Block EnhancedForStatement SimpleName signals
+listener SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signals
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add signal listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signals
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add signal listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName signals

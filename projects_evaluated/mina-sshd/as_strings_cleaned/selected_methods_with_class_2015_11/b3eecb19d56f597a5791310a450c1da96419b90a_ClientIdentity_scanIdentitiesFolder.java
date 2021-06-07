@@ -1,0 +1,181 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+boolean PrimitiveType SingleVariableDeclaration SimpleName strict
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+transformer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+transformer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id generator
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id generator
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id generator
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName types
+is empty SimpleName MethodInvocation SimpleName types
+collections SimpleName MethodInvocation SimpleName empty map
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName dir
+files SimpleName MethodInvocation SimpleName options
+exists SimpleName MethodInvocation SimpleName dir
+exists SimpleName MethodInvocation SimpleName options
+dir SimpleName MethodInvocation SimpleName options
+collections SimpleName MethodInvocation SimpleName empty map
+files SimpleName MethodInvocation SimpleName is directory
+files SimpleName MethodInvocation SimpleName dir
+files SimpleName MethodInvocation SimpleName options
+is directory SimpleName MethodInvocation SimpleName dir
+is directory SimpleName MethodInvocation SimpleName options
+dir SimpleName MethodInvocation SimpleName options
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName files
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName is directory
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName dir
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName options
+validate utils SimpleName MethodInvocation StringLiteral not a directory s
+validate utils SimpleName MethodInvocation SimpleName dir
+check true SimpleName MethodInvocation MethodInvocation SimpleName files
+check true SimpleName MethodInvocation MethodInvocation SimpleName is directory
+check true SimpleName MethodInvocation MethodInvocation SimpleName dir
+check true SimpleName MethodInvocation MethodInvocation SimpleName options
+check true SimpleName MethodInvocation StringLiteral not a directory s
+check true SimpleName MethodInvocation SimpleName dir
+files SimpleName MethodInvocation MethodInvocation StringLiteral not a directory s
+is directory SimpleName MethodInvocation MethodInvocation StringLiteral not a directory s
+dir SimpleName MethodInvocation MethodInvocation StringLiteral not a directory s
+options SimpleName MethodInvocation MethodInvocation StringLiteral not a directory s
+files SimpleName MethodInvocation MethodInvocation SimpleName dir
+is directory SimpleName MethodInvocation MethodInvocation SimpleName dir
+dir SimpleName MethodInvocation MethodInvocation SimpleName dir
+options SimpleName MethodInvocation MethodInvocation SimpleName dir
+not a directory s StringLiteral MethodInvocation SimpleName dir
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+paths SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+string SimpleName SimpleType SingleVariableDeclaration SimpleName t
+id generator SimpleName MethodInvocation SimpleName transform
+id generator SimpleName MethodInvocation SimpleName t
+transform SimpleName MethodInvocation SimpleName t
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName id generator
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file name
+dir SimpleName MethodInvocation SimpleName resolve
+dir SimpleName MethodInvocation SimpleName file name
+resolve SimpleName MethodInvocation SimpleName file name
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName dir
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName file name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName p
+files SimpleName MethodInvocation SimpleName options
+exists SimpleName MethodInvocation SimpleName p
+exists SimpleName MethodInvocation SimpleName options
+p SimpleName MethodInvocation SimpleName options
+key utils SimpleName MethodInvocation SimpleName validate strict key file permissions
+key utils SimpleName MethodInvocation SimpleName p
+key utils SimpleName MethodInvocation SimpleName options
+validate strict key file permissions SimpleName MethodInvocation SimpleName p
+validate strict key file permissions SimpleName MethodInvocation SimpleName options
+p SimpleName MethodInvocation SimpleName options
+paths SimpleName MethodInvocation SimpleName put
+paths SimpleName MethodInvocation SimpleName t
+paths SimpleName MethodInvocation SimpleName p
+put SimpleName MethodInvocation SimpleName t
+put SimpleName MethodInvocation SimpleName p
+t SimpleName MethodInvocation SimpleName p
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName paths
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName prev
+validate utils SimpleName MethodInvocation StringLiteral multiple mappings for types
+validate utils SimpleName MethodInvocation SimpleName t
+check true SimpleName MethodInvocation InfixExpression SimpleName prev
+check true SimpleName MethodInvocation StringLiteral multiple mappings for types
+check true SimpleName MethodInvocation SimpleName t
+prev SimpleName InfixExpression MethodInvocation StringLiteral multiple mappings for types
+prev SimpleName InfixExpression MethodInvocation SimpleName t
+multiple mappings for types StringLiteral MethodInvocation SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+types SimpleName EnhancedForStatement Block IfStatement SimpleName strict
+types SimpleName EnhancedForStatement Block ReturnStatement SimpleName paths
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName scan identities folder
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName strict
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName scan identities folder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName strict
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName scan identities folder
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName scan identities folder
+path SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName scan identities folder
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName strict
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id generator
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+scan identities folder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strict
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id generator
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+strict SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id generator
+strict SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id generator
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+strict SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+strict SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id generator
+types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id generator SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+id generator SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName scan identities folder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strict
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id generator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName scan identities folder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strict
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id generator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

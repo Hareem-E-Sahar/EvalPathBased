@@ -1,0 +1,32 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+simulated exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current test name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName client session impl
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do create session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName io session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName client session impl
+protected Modifier MethodDeclaration SimpleName do create session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+client session impl SimpleName SimpleType MethodDeclaration SimpleName do create session
+client session impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName io session
+client session impl SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+do create session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+do create session SimpleName MethodDeclaration SimpleType SimpleName exception
+io session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client session impl
+public Modifier TypeDeclaration MethodDeclaration SimpleName do create session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client session impl
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do create session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,47 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName a
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier public
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier static
+safe varargs SimpleName MarkerAnnotation MethodDeclaration Modifier final
+safe varargs SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+safe varargs SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName length
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName length
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+final Modifier MethodDeclaration TypeParameter SimpleName t
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName length
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+t SimpleName TypeParameter MethodDeclaration PrimitiveType int
+t SimpleName TypeParameter MethodDeclaration SimpleName length
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName a
+int PrimitiveType MethodDeclaration SimpleName length
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+length SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName safe varargs
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName safe varargs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a

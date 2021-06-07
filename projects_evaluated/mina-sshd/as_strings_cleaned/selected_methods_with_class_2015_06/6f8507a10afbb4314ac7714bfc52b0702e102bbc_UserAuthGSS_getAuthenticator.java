@@ -1,0 +1,43 @@
+server session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName get factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+server factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get gss authenticator
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName manager
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get gss authenticator
+validate utils SimpleName MethodInvocation StringLiteral no gss authenticator configured
+validate utils SimpleName MethodInvocation QualifiedName generic utilsempty object array
+check not null SimpleName MethodInvocation MethodInvocation SimpleName manager
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get gss authenticator
+check not null SimpleName MethodInvocation StringLiteral no gss authenticator configured
+check not null SimpleName MethodInvocation QualifiedName generic utilsempty object array
+manager SimpleName MethodInvocation MethodInvocation StringLiteral no gss authenticator configured
+get gss authenticator SimpleName MethodInvocation MethodInvocation StringLiteral no gss authenticator configured
+manager SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+get gss authenticator SimpleName MethodInvocation MethodInvocation QualifiedName generic utilsempty object array
+no gss authenticator configured StringLiteral MethodInvocation QualifiedName generic utilsempty object array
+protected Modifier MethodDeclaration SimpleType SimpleName gss authenticator
+protected Modifier MethodDeclaration SimpleName get authenticator
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+gss authenticator SimpleName SimpleType MethodDeclaration SimpleName get authenticator
+gss authenticator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+gss authenticator SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server session
+get authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+get authenticator SimpleName MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gss authenticator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authenticator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gss authenticator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authenticator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

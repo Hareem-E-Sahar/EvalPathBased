@@ -1,0 +1,17 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get supported type names
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get supported type names
+public Modifier MethodDeclaration Block ReturnStatement SimpleName names
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported type names
+get supported type names SimpleName MethodDeclaration Block ReturnStatement SimpleName names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get supported type names
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get supported type names

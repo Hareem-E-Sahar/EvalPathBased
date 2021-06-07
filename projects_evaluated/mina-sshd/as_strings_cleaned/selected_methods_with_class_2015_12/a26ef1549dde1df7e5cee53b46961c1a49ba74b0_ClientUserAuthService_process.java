@@ -1,0 +1,144 @@
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client session
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+auth future holder SimpleName MethodInvocation SimpleName get
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName auth future holder
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get
+validate utils SimpleName MethodInvocation StringLiteral no current future
+check not null SimpleName MethodInvocation MethodInvocation SimpleName auth future holder
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get
+check not null SimpleName MethodInvocation StringLiteral no current future
+auth future holder SimpleName MethodInvocation MethodInvocation StringLiteral no current future
+get SimpleName MethodInvocation MethodInvocation StringLiteral no current future
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+auth future SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+auth future SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName auth future holder
+auth future SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+auth future SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no current future
+auth future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth future
+auth future SimpleName MethodInvocation SimpleName is success
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral user auth message delivered to authenticated client
+auth future SimpleName MethodInvocation SimpleName is done
+log SimpleName MethodInvocation SimpleName is debug enabled
+ssh constants SimpleName MethodInvocation SimpleName get command message name
+ssh constants SimpleName MethodInvocation SimpleName cmd
+get command message name SimpleName MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral process ignoring random message - cmd
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+log SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+log SimpleName MethodInvocation MethodInvocation SimpleName cmd
+debug SimpleName MethodInvocation StringLiteral process ignoring random message - cmd
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+debug SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+debug SimpleName MethodInvocation MethodInvocation SimpleName cmd
+process ignoring random message - cmd StringLiteral MethodInvocation SimpleName session
+process ignoring random message - cmd StringLiteral MethodInvocation MethodInvocation SimpleName ssh constants
+process ignoring random message - cmd StringLiteral MethodInvocation MethodInvocation SimpleName get command message name
+process ignoring random message - cmd StringLiteral MethodInvocation MethodInvocation SimpleName cmd
+session SimpleName MethodInvocation MethodInvocation SimpleName ssh constants
+session SimpleName MethodInvocation MethodInvocation SimpleName get command message name
+session SimpleName MethodInvocation MethodInvocation SimpleName cmd
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg userauth banner
+buffer SimpleName MethodInvocation SimpleName get string
+welcome SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+welcome SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName welcome
+buffer SimpleName MethodInvocation SimpleName get string
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral process welcome bannerlang {}
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName lang
+log SimpleName MethodInvocation SimpleName welcome
+debug SimpleName MethodInvocation StringLiteral process welcome bannerlang {}
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName lang
+debug SimpleName MethodInvocation SimpleName welcome
+process welcome bannerlang {} StringLiteral MethodInvocation SimpleName session
+process welcome bannerlang {} StringLiteral MethodInvocation SimpleName lang
+process welcome bannerlang {} StringLiteral MethodInvocation SimpleName welcome
+session SimpleName MethodInvocation SimpleName lang
+session SimpleName MethodInvocation SimpleName welcome
+lang SimpleName MethodInvocation SimpleName welcome
+session SimpleName MethodInvocation SimpleName get user interaction
+ui SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+ui SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user interaction
+user interaction SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ui
+ui SimpleName MethodInvocation SimpleName is interaction allowed
+ui SimpleName MethodInvocation SimpleName session
+is interaction allowed SimpleName MethodInvocation SimpleName session
+ui SimpleName MethodInvocation SimpleName welcome
+ui SimpleName MethodInvocation SimpleName session
+ui SimpleName MethodInvocation SimpleName welcome
+ui SimpleName MethodInvocation SimpleName lang
+welcome SimpleName MethodInvocation SimpleName session
+welcome SimpleName MethodInvocation SimpleName welcome
+welcome SimpleName MethodInvocation SimpleName lang
+session SimpleName MethodInvocation SimpleName welcome
+session SimpleName MethodInvocation SimpleName lang
+welcome SimpleName MethodInvocation SimpleName lang
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rpos SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rpos
+rpos SimpleName MethodInvocation InfixExpression NumberLiteral empty
+process user auth SimpleName MethodInvocation SimpleName buffer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cmd
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+process SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+process SimpleName MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,102 @@
+dsa params SimpleName SimpleType SingleVariableDeclaration SimpleName p
+dsa params SimpleName SimpleType SingleVariableDeclaration SimpleName p
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName p
+objects SimpleName MethodInvocation SimpleName p
+equals SimpleName MethodInvocation SimpleName p
+equals SimpleName MethodInvocation SimpleName p
+p SimpleName MethodInvocation SimpleName p
+p SimpleName InfixExpression InfixExpression InfixExpression SimpleName p
+p SimpleName MethodInvocation SimpleName get g
+p SimpleName MethodInvocation SimpleName get g
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get g
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get g
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get g
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get g
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get g
+get g SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get g SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get g
+p SimpleName MethodInvocation SimpleName get p
+p SimpleName MethodInvocation SimpleName get p
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get p
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get p
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get p
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get p
+get p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get p
+p SimpleName MethodInvocation SimpleName get q
+p SimpleName MethodInvocation SimpleName get q
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get q
+objects SimpleName MethodInvocation MethodInvocation SimpleName p
+objects SimpleName MethodInvocation MethodInvocation SimpleName get q
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get q
+equals SimpleName MethodInvocation MethodInvocation SimpleName p
+equals SimpleName MethodInvocation MethodInvocation SimpleName get q
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get q
+get q SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get q SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get q
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName compare dsa params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName compare dsa params
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+boolean PrimitiveType MethodDeclaration SimpleName compare dsa params
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName p
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName p
+compare dsa params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+compare dsa params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+compare dsa params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dsa params
+compare dsa params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare dsa params
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare dsa params
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

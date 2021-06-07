@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName algo
+algo SimpleName MethodInvocation SimpleName starts with
+algo SimpleName MethodInvocation StringLiteral ecdhsha -
+starts with SimpleName MethodInvocation StringLiteral ecdhsha -
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName abstract dh
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName algo
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration SimpleType SimpleName abstract dh
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName algo
+static Modifier MethodDeclaration SimpleType SimpleName exception
+abstract dh SimpleName SimpleType MethodDeclaration SimpleName get instance
+abstract dh SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName algo
+abstract dh SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName algo
+get instance SimpleName MethodDeclaration SimpleType SimpleName exception
+algo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract dh
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algo
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract dh
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName algo
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

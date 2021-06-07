@@ -1,0 +1,88 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation SimpleName value
+trim to empty SimpleName MethodInvocation SimpleName value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim to empty
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName s
+is empty SimpleName MethodInvocation SimpleName s
+collections SimpleName MethodInvocation SimpleName empty list
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+multi value separators SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName multi value separators
+index SimpleName InfixExpression MethodInvocation SimpleName length
+multi value separators SimpleName MethodInvocation SimpleName char at
+multi value separators SimpleName MethodInvocation SimpleName index
+char at SimpleName MethodInvocation SimpleName index
+sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName multi value separators
+sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+sep SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sep
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName multi value separators
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index
+s SimpleName MethodInvocation SimpleName index of
+s SimpleName MethodInvocation SimpleName sep
+index of SimpleName MethodInvocation SimpleName sep
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName sep
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sep
+pos SimpleName InfixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName s
+generic utils SimpleName MethodInvocation SimpleName sep
+split SimpleName MethodInvocation SimpleName s
+split SimpleName MethodInvocation SimpleName sep
+s SimpleName MethodInvocation SimpleName sep
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName sep
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName vals
+is empty SimpleName MethodInvocation SimpleName vals
+collections SimpleName MethodInvocation SimpleName empty list
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName vals
+as list SimpleName MethodInvocation SimpleName vals
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName s
+singleton list SimpleName MethodInvocation SimpleName s
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName parse config value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName parse config value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse config value
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse config value
+parse config value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse config value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse config value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse config value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

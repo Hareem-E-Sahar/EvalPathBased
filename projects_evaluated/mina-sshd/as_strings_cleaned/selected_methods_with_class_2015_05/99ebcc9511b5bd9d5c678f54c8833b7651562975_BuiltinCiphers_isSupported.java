@@ -1,0 +1,27 @@
+javaxcryptocipher QualifiedName MethodInvocation SimpleName get max allowed key length
+javaxcryptocipher QualifiedName MethodInvocation MethodInvocation SimpleName get algorithm
+get max allowed key length SimpleName MethodInvocation MethodInvocation SimpleName get algorithm
+max key length SimpleName VariableDeclarationFragment MethodInvocation QualifiedName javaxcryptocipher
+max key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get max allowed key length
+max key length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get algorithm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName javaxcryptocipher
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get max allowed key length
+l NumberLiteral InfixExpression MethodInvocation SimpleName get block size
+max key length SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral l
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is supported
+boolean PrimitiveType MethodDeclaration SimpleName is supported
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is supported
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is supported

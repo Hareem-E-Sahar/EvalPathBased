@@ -1,0 +1,61 @@
+sftp client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+raw sftp client SimpleName SimpleType SingleVariableDeclaration SimpleName raw
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+string SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+client SimpleName MethodInvocation SimpleName get server extensions
+extensions SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+extensions SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server extensions
+parser utils SimpleName MethodInvocation SimpleName parse
+parser utils SimpleName MethodInvocation SimpleName extensions
+parse SimpleName MethodInvocation SimpleName extensions
+create SimpleName MethodInvocation SimpleName client
+create SimpleName MethodInvocation SimpleName raw
+create SimpleName MethodInvocation SimpleName extensions
+create SimpleName MethodInvocation MethodInvocation SimpleName parser utils
+create SimpleName MethodInvocation MethodInvocation SimpleName parse
+create SimpleName MethodInvocation MethodInvocation SimpleName extensions
+client SimpleName MethodInvocation SimpleName raw
+client SimpleName MethodInvocation SimpleName extensions
+client SimpleName MethodInvocation MethodInvocation SimpleName parser utils
+client SimpleName MethodInvocation MethodInvocation SimpleName parse
+client SimpleName MethodInvocation MethodInvocation SimpleName extensions
+raw SimpleName MethodInvocation SimpleName extensions
+raw SimpleName MethodInvocation MethodInvocation SimpleName parser utils
+raw SimpleName MethodInvocation MethodInvocation SimpleName parse
+raw SimpleName MethodInvocation MethodInvocation SimpleName extensions
+extensions SimpleName MethodInvocation MethodInvocation SimpleName parser utils
+extensions SimpleName MethodInvocation MethodInvocation SimpleName parse
+extensions SimpleName MethodInvocation MethodInvocation SimpleName extensions
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName sftp client extension
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName raw
+public Modifier MethodDeclaration SimpleType SimpleName sftp client extension
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw sftp client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName raw
+sftp client extension SimpleName SimpleType MethodDeclaration SimpleName create
+sftp client extension SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+sftp client extension SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName raw
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp client
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw sftp client
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName raw
+client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client extension
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client extension
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw

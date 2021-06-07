@@ -1,0 +1,229 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+int PrimitiveType SingleVariableDeclaration SimpleName key size
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+key type SimpleName InfixExpression StringLiteral [
+key type SimpleName InfixExpression SimpleName key size
+key type SimpleName InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName key size
+[ StringLiteral InfixExpression StringLiteral ]
+key size SimpleName InfixExpression StringLiteral ]
+prefix SimpleName VariableDeclarationFragment InfixExpression SimpleName key type
+prefix SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+prefix SimpleName VariableDeclarationFragment InfixExpression SimpleName key size
+prefix SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prefix
+test key pair cloning StringLiteral InfixExpression SimpleName prefix
+test key pair cloning StringLiteral InfixExpression StringLiteral )
+prefix SimpleName InfixExpression StringLiteral )
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral test key pair cloning
+systemout QualifiedName MethodInvocation InfixExpression SimpleName prefix
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral )
+println SimpleName MethodInvocation InfixExpression StringLiteral test key pair cloning
+println SimpleName MethodInvocation InfixExpression SimpleName prefix
+println SimpleName MethodInvocation InfixExpression StringLiteral )
+key utils SimpleName MethodInvocation SimpleName clone key pair
+key utils SimpleName MethodInvocation SimpleName key type
+key utils SimpleName MethodInvocation SimpleName kp
+clone key pair SimpleName MethodInvocation SimpleName key type
+clone key pair SimpleName MethodInvocation SimpleName kp
+key type SimpleName MethodInvocation SimpleName kp
+cloned SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+cloned SimpleName VariableDeclarationFragment MethodInvocation SimpleName clone key pair
+cloned SimpleName VariableDeclarationFragment MethodInvocation SimpleName key type
+cloned SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cloned
+prefix SimpleName InfixExpression StringLiteral : key pair not cloned
+assert not same SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert not same SimpleName MethodInvocation InfixExpression StringLiteral : key pair not cloned
+assert not same SimpleName MethodInvocation SimpleName kp
+assert not same SimpleName MethodInvocation SimpleName cloned
+prefix SimpleName InfixExpression MethodInvocation SimpleName kp
+: key pair not cloned StringLiteral InfixExpression MethodInvocation SimpleName kp
+prefix SimpleName InfixExpression MethodInvocation SimpleName cloned
+: key pair not cloned StringLiteral InfixExpression MethodInvocation SimpleName cloned
+kp SimpleName MethodInvocation SimpleName cloned
+prefix SimpleName InfixExpression StringLiteral : cloned pair not equals
+key utils SimpleName MethodInvocation SimpleName compare key pairs
+key utils SimpleName MethodInvocation SimpleName kp
+key utils SimpleName MethodInvocation SimpleName cloned
+compare key pairs SimpleName MethodInvocation SimpleName kp
+compare key pairs SimpleName MethodInvocation SimpleName cloned
+kp SimpleName MethodInvocation SimpleName cloned
+assert true SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert true SimpleName MethodInvocation InfixExpression StringLiteral : cloned pair not equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName key utils
+assert true SimpleName MethodInvocation MethodInvocation SimpleName compare key pairs
+assert true SimpleName MethodInvocation MethodInvocation SimpleName kp
+assert true SimpleName MethodInvocation MethodInvocation SimpleName cloned
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName key utils
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName compare key pairs
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName kp
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cloned
+: cloned pair not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName key utils
+: cloned pair not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName compare key pairs
+: cloned pair not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName kp
+: cloned pair not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cloned
+kp SimpleName MethodInvocation SimpleName get public
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public
+cloned SimpleName MethodInvocation SimpleName get public
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName cloned
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get public
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+k SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+prefix SimpleName InfixExpression StringLiteral : public key not cloned
+assert not same SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert not same SimpleName MethodInvocation InfixExpression StringLiteral : public key not cloned
+assert not same SimpleName MethodInvocation SimpleName k
+assert not same SimpleName MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation SimpleName k
+: public key not cloned StringLiteral InfixExpression MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation SimpleName k
+: public key not cloned StringLiteral InfixExpression MethodInvocation SimpleName k
+k SimpleName MethodInvocation SimpleName k
+prefix SimpleName InfixExpression StringLiteral : cloned public key not equals
+key utils SimpleName MethodInvocation SimpleName compare keys
+key utils SimpleName MethodInvocation SimpleName k
+key utils SimpleName MethodInvocation SimpleName k
+compare keys SimpleName MethodInvocation SimpleName k
+compare keys SimpleName MethodInvocation SimpleName k
+k SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert true SimpleName MethodInvocation InfixExpression StringLiteral : cloned public key not equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName key utils
+assert true SimpleName MethodInvocation MethodInvocation SimpleName compare keys
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName key utils
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName compare keys
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName k
+: cloned public key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName key utils
+: cloned public key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName compare keys
+: cloned public key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+: cloned public key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+key utils SimpleName MethodInvocation SimpleName get finger print
+key utils SimpleName MethodInvocation SimpleName k
+get finger print SimpleName MethodInvocation SimpleName k
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get finger print
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+key utils SimpleName MethodInvocation SimpleName get finger print
+key utils SimpleName MethodInvocation SimpleName k
+get finger print SimpleName MethodInvocation SimpleName k
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get finger print
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+prefix SimpleName InfixExpression StringLiteral : mismatched fingerprints
+assert equals SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral : mismatched fingerprints
+assert equals SimpleName MethodInvocation SimpleName f
+assert equals SimpleName MethodInvocation SimpleName f
+prefix SimpleName InfixExpression MethodInvocation SimpleName f
+: mismatched fingerprints StringLiteral InfixExpression MethodInvocation SimpleName f
+prefix SimpleName InfixExpression MethodInvocation SimpleName f
+: mismatched fingerprints StringLiteral InfixExpression MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName f
+kp SimpleName MethodInvocation SimpleName get private
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName kp
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private
+cloned SimpleName MethodInvocation SimpleName get private
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName cloned
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get private
+private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+private key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+k SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+prefix SimpleName InfixExpression StringLiteral : private key not cloned
+assert not same SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert not same SimpleName MethodInvocation InfixExpression StringLiteral : private key not cloned
+assert not same SimpleName MethodInvocation SimpleName k
+assert not same SimpleName MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation SimpleName k
+: private key not cloned StringLiteral InfixExpression MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation SimpleName k
+: private key not cloned StringLiteral InfixExpression MethodInvocation SimpleName k
+k SimpleName MethodInvocation SimpleName k
+prefix SimpleName InfixExpression StringLiteral : cloned private key not equals
+key utils SimpleName MethodInvocation SimpleName compare keys
+key utils SimpleName MethodInvocation SimpleName k
+key utils SimpleName MethodInvocation SimpleName k
+compare keys SimpleName MethodInvocation SimpleName k
+compare keys SimpleName MethodInvocation SimpleName k
+k SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation InfixExpression SimpleName prefix
+assert true SimpleName MethodInvocation InfixExpression StringLiteral : cloned private key not equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName key utils
+assert true SimpleName MethodInvocation MethodInvocation SimpleName compare keys
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName key utils
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName compare keys
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName k
+prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName k
+: cloned private key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName key utils
+: cloned private key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName compare keys
+: cloned private key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+: cloned private key not equals StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName k
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test key pair cloning
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key size
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName test key pair cloning
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName kp
+void PrimitiveType MethodDeclaration SimpleName test key pair cloning
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName kp
+void PrimitiveType MethodDeclaration SimpleType SimpleName general security exception
+test key pair cloning SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test key pair cloning SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+test key pair cloning SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test key pair cloning SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key size
+test key pair cloning SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key pair
+test key pair cloning SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kp
+test key pair cloning SimpleName MethodDeclaration SimpleType SimpleName general security exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key size
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+key size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+key size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+kp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test key pair cloning
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test key pair cloning
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

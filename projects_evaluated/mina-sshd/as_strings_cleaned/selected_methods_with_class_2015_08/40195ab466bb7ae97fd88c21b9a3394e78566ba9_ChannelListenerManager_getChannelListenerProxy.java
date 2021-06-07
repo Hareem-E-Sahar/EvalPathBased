@@ -1,0 +1,6 @@
+channel listener SimpleName SimpleType MethodDeclaration SimpleName get channel listener proxy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName channel listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get channel listener proxy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName channel listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get channel listener proxy

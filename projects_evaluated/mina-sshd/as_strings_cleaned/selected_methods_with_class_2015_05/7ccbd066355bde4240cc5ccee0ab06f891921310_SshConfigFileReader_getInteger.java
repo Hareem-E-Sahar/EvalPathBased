@@ -1,0 +1,57 @@
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation SimpleName name
+get property SimpleName MethodInvocation SimpleName name
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName props
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get property
+value SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName value
+is empty SimpleName MethodInvocation SimpleName value
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get integer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get integer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+final Modifier MethodDeclaration SimpleType SimpleName integer
+final Modifier MethodDeclaration SimpleName get integer
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+integer SimpleName SimpleType MethodDeclaration SimpleName get integer
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+get integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+get integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get integer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+props SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get integer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get integer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

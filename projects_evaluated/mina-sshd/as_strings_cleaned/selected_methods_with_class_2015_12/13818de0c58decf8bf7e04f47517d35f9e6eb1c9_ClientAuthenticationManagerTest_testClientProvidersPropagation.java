@@ -1,0 +1,179 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName type
+client authentication manager SimpleName SimpleType SingleVariableDeclaration SimpleName client
+client authentication manager SimpleName SimpleType SingleVariableDeclaration SimpleName session
+type SimpleName MethodInvocation SimpleName get simple name
+base name SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+base name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base name
+output debug message SimpleName MethodInvocation StringLiteral test client providers propagations
+output debug message SimpleName MethodInvocation SimpleName base name
+test client providers propagations StringLiteral MethodInvocation SimpleName base name
+base name SimpleName InfixExpression StringLiteral : not an interface
+type SimpleName MethodInvocation SimpleName is interface
+assert true SimpleName MethodInvocation InfixExpression SimpleName base name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral : not an interface
+assert true SimpleName MethodInvocation MethodInvocation SimpleName type
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is interface
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName type
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is interface
+: not an interface StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName type
+: not an interface StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is interface
+get StringLiteral InfixExpression SimpleName base name
+client authentication manager SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get method
+get method SimpleName MethodInvocation InfixExpression StringLiteral get
+get method SimpleName MethodInvocation InfixExpression SimpleName base name
+getter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method
+getter SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral get
+getter SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName base name
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName getter
+set StringLiteral InfixExpression SimpleName base name
+client authentication manager SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get method
+client authentication manager SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type
+get method SimpleName MethodInvocation InfixExpression StringLiteral set
+get method SimpleName MethodInvocation InfixExpression SimpleName base name
+get method SimpleName MethodInvocation SimpleName type
+set StringLiteral InfixExpression MethodInvocation SimpleName type
+base name SimpleName InfixExpression MethodInvocation SimpleName type
+setter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method
+setter SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral set
+setter SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName base name
+setter SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName setter
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation SimpleName type
+mock SimpleName MethodInvocation SimpleName type
+client provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+client provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+client provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client provider
+setter SimpleName MethodInvocation SimpleName invoke
+setter SimpleName MethodInvocation SimpleName client
+setter SimpleName MethodInvocation SimpleName client provider
+invoke SimpleName MethodInvocation SimpleName client
+invoke SimpleName MethodInvocation SimpleName client provider
+client SimpleName MethodInvocation SimpleName client provider
+base name SimpleName InfixExpression StringLiteral : mismatched clientonly provider
+getter SimpleName MethodInvocation SimpleName invoke
+getter SimpleName MethodInvocation SimpleName session
+invoke SimpleName MethodInvocation SimpleName session
+assert same SimpleName MethodInvocation InfixExpression SimpleName base name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral : mismatched clientonly provider
+assert same SimpleName MethodInvocation SimpleName client provider
+assert same SimpleName MethodInvocation MethodInvocation SimpleName getter
+assert same SimpleName MethodInvocation MethodInvocation SimpleName invoke
+assert same SimpleName MethodInvocation MethodInvocation SimpleName session
+base name SimpleName InfixExpression MethodInvocation SimpleName client provider
+: mismatched clientonly provider StringLiteral InfixExpression MethodInvocation SimpleName client provider
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName getter
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName invoke
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName session
+: mismatched clientonly provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName getter
+: mismatched clientonly provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName invoke
+: mismatched clientonly provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName session
+client provider SimpleName MethodInvocation MethodInvocation SimpleName getter
+client provider SimpleName MethodInvocation MethodInvocation SimpleName invoke
+client provider SimpleName MethodInvocation MethodInvocation SimpleName session
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation SimpleName type
+mock SimpleName MethodInvocation SimpleName type
+session provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+session provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+session provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session provider
+setter SimpleName MethodInvocation SimpleName invoke
+setter SimpleName MethodInvocation SimpleName session
+setter SimpleName MethodInvocation SimpleName session provider
+invoke SimpleName MethodInvocation SimpleName session
+invoke SimpleName MethodInvocation SimpleName session provider
+session SimpleName MethodInvocation SimpleName session provider
+base name SimpleName InfixExpression StringLiteral : mismatched session override provider
+getter SimpleName MethodInvocation SimpleName invoke
+getter SimpleName MethodInvocation SimpleName session
+invoke SimpleName MethodInvocation SimpleName session
+assert same SimpleName MethodInvocation InfixExpression SimpleName base name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral : mismatched session override provider
+assert same SimpleName MethodInvocation SimpleName session provider
+assert same SimpleName MethodInvocation MethodInvocation SimpleName getter
+assert same SimpleName MethodInvocation MethodInvocation SimpleName invoke
+assert same SimpleName MethodInvocation MethodInvocation SimpleName session
+base name SimpleName InfixExpression MethodInvocation SimpleName session provider
+: mismatched session override provider StringLiteral InfixExpression MethodInvocation SimpleName session provider
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName getter
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName invoke
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName session
+: mismatched session override provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName getter
+: mismatched session override provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName invoke
+: mismatched session override provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName session
+session provider SimpleName MethodInvocation MethodInvocation SimpleName getter
+session provider SimpleName MethodInvocation MethodInvocation SimpleName invoke
+session provider SimpleName MethodInvocation MethodInvocation SimpleName session
+setter SimpleName MethodInvocation SimpleName invoke
+setter SimpleName MethodInvocation SimpleName session
+invoke SimpleName MethodInvocation SimpleName session
+base name SimpleName InfixExpression StringLiteral : mismatched nullified session provider
+getter SimpleName MethodInvocation SimpleName invoke
+getter SimpleName MethodInvocation SimpleName session
+invoke SimpleName MethodInvocation SimpleName session
+assert same SimpleName MethodInvocation InfixExpression SimpleName base name
+assert same SimpleName MethodInvocation InfixExpression StringLiteral : mismatched nullified session provider
+assert same SimpleName MethodInvocation SimpleName client provider
+assert same SimpleName MethodInvocation MethodInvocation SimpleName getter
+assert same SimpleName MethodInvocation MethodInvocation SimpleName invoke
+assert same SimpleName MethodInvocation MethodInvocation SimpleName session
+base name SimpleName InfixExpression MethodInvocation SimpleName client provider
+: mismatched nullified session provider StringLiteral InfixExpression MethodInvocation SimpleName client provider
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName getter
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName invoke
+base name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName session
+: mismatched nullified session provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName getter
+: mismatched nullified session provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName invoke
+: mismatched nullified session provider StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName session
+client provider SimpleName MethodInvocation MethodInvocation SimpleName getter
+client provider SimpleName MethodInvocation MethodInvocation SimpleName invoke
+client provider SimpleName MethodInvocation MethodInvocation SimpleName session
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test client providers propagation
+private Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client authentication manager
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client authentication manager
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName test client providers propagation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client authentication manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName client
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client authentication manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test client providers propagation SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+test client providers propagation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+test client providers propagation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client authentication manager
+test client providers propagation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+test client providers propagation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client authentication manager
+test client providers propagation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+test client providers propagation SimpleName MethodDeclaration SimpleType SimpleName exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client providers propagation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client providers propagation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

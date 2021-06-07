@@ -1,0 +1,38 @@
+log SimpleName MethodInvocation SimpleName is debug enabled
+close StringLiteral InfixExpression MethodInvocation SimpleName get path
+close StringLiteral InfixExpression StringLiteral ) handle
+close StringLiteral InfixExpression SimpleName dir handle
+get path SimpleName MethodInvocation InfixExpression StringLiteral ) handle
+get path SimpleName MethodInvocation InfixExpression SimpleName dir handle
+) handle StringLiteral InfixExpression SimpleName dir handle
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral close
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+log SimpleName MethodInvocation InfixExpression StringLiteral ) handle
+log SimpleName MethodInvocation InfixExpression SimpleName dir handle
+debug SimpleName MethodInvocation InfixExpression StringLiteral close
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) handle
+debug SimpleName MethodInvocation InfixExpression SimpleName dir handle
+dir handle SimpleName MethodInvocation SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,61 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry flag
+int PrimitiveType SingleVariableDeclaration SimpleName acl flag
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry flag
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry flag
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName acl entry flag
+flags SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+flags SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+acl flag SimpleName InfixExpression QualifiedName sftp constantsace file inherit ace
+acl flag SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace file inherit ace QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName acl entry flagfile inherit
+add SimpleName MethodInvocation QualifiedName acl entry flagfile inherit
+acl flag SimpleName InfixExpression QualifiedName sftp constantsace directory inherit ace
+acl flag SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace directory inherit ace QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName acl entry flagdirectory inherit
+add SimpleName MethodInvocation QualifiedName acl entry flagdirectory inherit
+acl flag SimpleName InfixExpression QualifiedName sftp constantsace no propagate inherit ace
+acl flag SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace no propagate inherit ace QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName acl entry flagno propagate inherit
+add SimpleName MethodInvocation QualifiedName acl entry flagno propagate inherit
+acl flag SimpleName InfixExpression QualifiedName sftp constantsace inherit only ace
+acl flag SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp constantsace inherit only ace QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation QualifiedName acl entry flaginherit only
+add SimpleName MethodInvocation QualifiedName acl entry flaginherit only
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName acl entry flag
+public Modifier MethodDeclaration SimpleName decode acl flags
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl flag
+public Modifier MethodDeclaration Block ReturnStatement SimpleName flags
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName acl entry flag
+static Modifier MethodDeclaration SimpleName decode acl flags
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl flag
+static Modifier MethodDeclaration Block ReturnStatement SimpleName flags
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode acl flags
+acl entry flag SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode acl flags
+decode acl flags SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+decode acl flags SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl flag
+decode acl flags SimpleName MethodDeclaration Block ReturnStatement SimpleName flags
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode acl flags
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl flag
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode acl flags
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl flag

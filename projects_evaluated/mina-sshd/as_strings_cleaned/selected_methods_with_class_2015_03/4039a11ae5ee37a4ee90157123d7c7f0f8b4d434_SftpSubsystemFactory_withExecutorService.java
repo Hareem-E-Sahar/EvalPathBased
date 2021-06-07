@@ -1,0 +1,21 @@
+executor service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+factory SimpleName MethodInvocation SimpleName set executor service
+factory SimpleName MethodInvocation SimpleName service
+set executor service SimpleName MethodInvocation SimpleName service
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName with executor service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName executor service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+builder SimpleName SimpleType MethodDeclaration SimpleName with executor service
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service
+with executor service SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName executor service
+with executor service SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName with executor service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with executor service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service

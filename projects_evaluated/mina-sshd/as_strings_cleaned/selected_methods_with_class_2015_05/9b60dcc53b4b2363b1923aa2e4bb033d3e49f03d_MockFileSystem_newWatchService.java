@@ -1,0 +1,22 @@
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral new watch service na
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName watch service
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new watch service
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName watch service
+public Modifier MethodDeclaration SimpleName new watch service
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+watch service SimpleName SimpleType MethodDeclaration SimpleName new watch service
+watch service SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+new watch service SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName watch service
+public Modifier TypeDeclaration MethodDeclaration SimpleName new watch service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName watch service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new watch service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

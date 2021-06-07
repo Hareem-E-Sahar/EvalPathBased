@@ -1,0 +1,68 @@
+abstract session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName check for timeouts
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while checking session
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral while checking session
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral while checking session
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName session
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName session
+get simple name SimpleName MethodInvocation InfixExpression SimpleName session
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral timeouts
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral timeouts
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral timeouts
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+while checking session StringLiteral InfixExpression SimpleName session
+while checking session StringLiteral InfixExpression StringLiteral timeouts
+while checking session StringLiteral InfixExpression MethodInvocation SimpleName e
+while checking session StringLiteral InfixExpression MethodInvocation SimpleName get message
+session SimpleName InfixExpression StringLiteral timeouts
+session SimpleName InfixExpression MethodInvocation SimpleName e
+session SimpleName InfixExpression MethodInvocation SimpleName get message
+timeouts StringLiteral InfixExpression MethodInvocation SimpleName e
+timeouts StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral while checking session
+log SimpleName MethodInvocation InfixExpression SimpleName session
+log SimpleName MethodInvocation InfixExpression StringLiteral timeouts
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation InfixExpression StringLiteral while checking session
+warn SimpleName MethodInvocation InfixExpression SimpleName session
+warn SimpleName MethodInvocation InfixExpression StringLiteral timeouts
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+while checking session StringLiteral InfixExpression MethodInvocation SimpleName e
+session SimpleName InfixExpression MethodInvocation SimpleName e
+timeouts StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+abstract session SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sessions
+session SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sessions
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName sessions
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName sessions
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName sessions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

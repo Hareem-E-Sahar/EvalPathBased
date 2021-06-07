@@ -1,0 +1,146 @@
+predicate SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName predicate
+long PrimitiveType SingleVariableDeclaration SimpleName max wait time
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName predicate
+validate utils SimpleName MethodInvocation StringLiteral no condition
+check not null SimpleName MethodInvocation SimpleName predicate
+check not null SimpleName MethodInvocation StringLiteral no condition
+predicate SimpleName MethodInvocation StringLiteral no condition
+max wait time SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName max wait time
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral nonpositive max wait time d
+validate utils SimpleName MethodInvocation SimpleName max wait time
+check true SimpleName MethodInvocation InfixExpression SimpleName max wait time
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral nonpositive max wait time d
+check true SimpleName MethodInvocation SimpleName max wait time
+max wait time SimpleName InfixExpression MethodInvocation StringLiteral nonpositive max wait time d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral nonpositive max wait time d
+max wait time SimpleName InfixExpression MethodInvocation SimpleName max wait time
+empty NumberLiteral InfixExpression MethodInvocation SimpleName max wait time
+nonpositive max wait time d StringLiteral MethodInvocation SimpleName max wait time
+time unitmilliseconds QualifiedName MethodInvocation SimpleName to nanos
+time unitmilliseconds QualifiedName MethodInvocation SimpleName max wait time
+to nanos SimpleName MethodInvocation SimpleName max wait time
+max wait nanos SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+max wait nanos SimpleName VariableDeclarationFragment MethodInvocation SimpleName to nanos
+max wait nanos SimpleName VariableDeclarationFragment MethodInvocation SimpleName max wait time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max wait nanos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to nanos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max wait time
+rem wait nanos SimpleName VariableDeclarationFragment SimpleName max wait nanos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rem wait nanos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max wait nanos
+rem wait nanos SimpleName InfixExpression NumberLiteral l
+predicate SimpleName MethodInvocation SimpleName evaluate
+time unitnanoseconds QualifiedName MethodInvocation SimpleName to millis
+time unitnanoseconds QualifiedName MethodInvocation SimpleName rem wait nanos
+to millis SimpleName MethodInvocation SimpleName rem wait nanos
+cur wait millis SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitnanoseconds
+cur wait millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName to millis
+cur wait millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName rem wait nanos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur wait millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName time unitnanoseconds
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rem wait nanos
+system SimpleName MethodInvocation SimpleName nano time
+nano wait start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+nano wait start SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano wait start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+cur wait millis SimpleName InfixExpression NumberLiteral l
+lock SimpleName MethodInvocation SimpleName wait
+lock SimpleName MethodInvocation SimpleName cur wait millis
+wait SimpleName MethodInvocation SimpleName cur wait millis
+int PrimitiveType CastExpression SimpleName rem wait nanos
+lock SimpleName MethodInvocation SimpleName wait
+lock SimpleName MethodInvocation NumberLiteral l
+lock SimpleName MethodInvocation CastExpression PrimitiveType int
+lock SimpleName MethodInvocation CastExpression SimpleName rem wait nanos
+wait SimpleName MethodInvocation NumberLiteral l
+wait SimpleName MethodInvocation CastExpression PrimitiveType int
+wait SimpleName MethodInvocation CastExpression SimpleName rem wait nanos
+l NumberLiteral MethodInvocation CastExpression PrimitiveType int
+l NumberLiteral MethodInvocation CastExpression SimpleName rem wait nanos
+system SimpleName MethodInvocation SimpleName nano time
+nano wait end SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+nano wait end SimpleName VariableDeclarationFragment MethodInvocation SimpleName nano time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano wait end
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nano time
+nano wait end SimpleName InfixExpression SimpleName nano wait start
+nano wait duration SimpleName VariableDeclarationFragment InfixExpression SimpleName nano wait end
+nano wait duration SimpleName VariableDeclarationFragment InfixExpression SimpleName nano wait start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nano wait duration
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName nano wait end
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName nano wait start
+rem wait nanos SimpleName Assignment SimpleName nano wait duration
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+window closed exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+wait for condition StringLiteral InfixExpression StringLiteral ) timeout exceeded
+wait for condition StringLiteral InfixExpression SimpleName max wait time
+) timeout exceeded StringLiteral InfixExpression SimpleName max wait time
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral wait for condition
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) timeout exceeded
+socket timeout exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max wait time
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName wait for condition
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+protected Modifier MethodDeclaration SimpleType SimpleName window closed exception
+void PrimitiveType MethodDeclaration SimpleName wait for condition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName predicate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+void PrimitiveType MethodDeclaration SimpleType SimpleName window closed exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+wait for condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+wait for condition SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wait for condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+wait for condition SimpleName MethodDeclaration SimpleType SimpleName window closed exception
+wait for condition SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+wait for condition SimpleName MethodDeclaration SimpleType SimpleName socket timeout exception
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+max wait time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+window closed exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+window closed exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName socket timeout exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName socket timeout exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for condition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for condition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName window closed exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName socket timeout exception

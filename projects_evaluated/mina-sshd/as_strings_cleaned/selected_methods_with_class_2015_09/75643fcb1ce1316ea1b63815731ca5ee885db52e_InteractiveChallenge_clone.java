@@ -1,0 +1,49 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName cast
+get class SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName clone
+cast SimpleName MethodInvocation SuperMethodInvocation SimpleName clone
+other SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+other SimpleName VariableDeclarationFragment MethodInvocation SimpleName cast
+other SimpleName VariableDeclarationFragment MethodInvocation SuperMethodInvocation SimpleName clone
+interactive challenge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other
+prompt entry SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName clone
+other SimpleName MethodInvocation SimpleName add prompt
+other SimpleName MethodInvocation MethodInvocation SimpleName entry
+other SimpleName MethodInvocation MethodInvocation SimpleName clone
+add prompt SimpleName MethodInvocation MethodInvocation SimpleName entry
+add prompt SimpleName MethodInvocation MethodInvocation SimpleName clone
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get prompts
+clone not supported exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+failed to clone StringLiteral InfixExpression MethodInvocation SimpleName to string
+failed to clone StringLiteral InfixExpression StringLiteral :
+failed to clone StringLiteral InfixExpression MethodInvocation SimpleName e
+failed to clone StringLiteral InfixExpression MethodInvocation SimpleName get message
+to string SimpleName MethodInvocation InfixExpression StringLiteral :
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName e
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to clone
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to clone StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+to string SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+: StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interactive challenge
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration SimpleType SimpleName interactive challenge
+public Modifier MethodDeclaration SimpleName clone
+interactive challenge SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interactive challenge
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interactive challenge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

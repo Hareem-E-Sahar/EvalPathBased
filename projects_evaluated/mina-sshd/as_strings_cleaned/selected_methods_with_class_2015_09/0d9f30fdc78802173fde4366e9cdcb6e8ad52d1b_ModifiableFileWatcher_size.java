@@ -1,0 +1,24 @@
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation MethodInvocation SimpleName get path
+size SimpleName MethodInvocation MethodInvocation SimpleName get path
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName size
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration PrimitiveType long
+final Modifier MethodDeclaration SimpleName size
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType MethodDeclaration SimpleName size
+long PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+size SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

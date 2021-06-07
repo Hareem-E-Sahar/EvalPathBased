@@ -1,0 +1,31 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName flag
+flag SimpleName ConditionalExpression StringLiteral yes
+flag SimpleName ConditionalExpression StringLiteral no
+yes StringLiteral ConditionalExpression StringLiteral no
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName yes no value of
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName flag
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName yes no value of
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName flag
+string SimpleName SimpleType MethodDeclaration SimpleName yes no value of
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName flag
+yes no value of SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+yes no value of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName yes no value of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flag
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName yes no value of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flag

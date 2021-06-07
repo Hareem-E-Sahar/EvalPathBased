@@ -1,0 +1,22 @@
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+do load key SimpleName MethodInvocation SimpleName file
+next key pair SimpleName Assignment MethodInvocation SimpleName do load key
+next key pair SimpleName Assignment MethodInvocation SimpleName file
+next key pair set SimpleName Assignment BooleanLiteral true
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName set next object
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName set next object
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+set next object SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName set next object
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set next object

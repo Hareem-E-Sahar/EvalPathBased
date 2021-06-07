@@ -1,0 +1,81 @@
+security utils SimpleName MethodInvocation SimpleName has ecc
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral no ecc support
+assume SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation MethodInvocation SimpleName has ecc
+assume true SimpleName MethodInvocation StringLiteral no ecc support
+assume true SimpleName MethodInvocation MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation MethodInvocation SimpleName has ecc
+no ecc support StringLiteral MethodInvocation MethodInvocation SimpleName security utils
+no ecc support StringLiteral MethodInvocation MethodInvocation SimpleName has ecc
+general security exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+string SimpleName SimpleType SingleVariableDeclaration SimpleName curve name
+ec curves SimpleName MethodInvocation SimpleName get curve size
+ec curves SimpleName MethodInvocation SimpleName curve name
+get curve size SimpleName MethodInvocation SimpleName curve name
+key size SimpleName VariableDeclarationFragment MethodInvocation SimpleName ec curves
+key size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get curve size
+key size SimpleName VariableDeclarationFragment MethodInvocation SimpleName curve name
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key size
+ec curvesecdsa sha prefix QualifiedName InfixExpression SimpleName curve name
+key type SimpleName VariableDeclarationFragment InfixExpression QualifiedName ec curvesecdsa sha prefix
+key type SimpleName VariableDeclarationFragment InfixExpression SimpleName curve name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+key size SimpleName MethodInvocation SimpleName int value
+generate key pair SimpleName MethodInvocation SimpleName key type
+generate key pair SimpleName MethodInvocation MethodInvocation SimpleName key size
+generate key pair SimpleName MethodInvocation MethodInvocation SimpleName int value
+key type SimpleName MethodInvocation MethodInvocation SimpleName key size
+key type SimpleName MethodInvocation MethodInvocation SimpleName int value
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate key pair
+kp SimpleName VariableDeclarationFragment MethodInvocation SimpleName key type
+kp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key size
+kp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName int value
+key pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kp
+key size SimpleName MethodInvocation SimpleName int value
+test key pair cloning SimpleName MethodInvocation SimpleName key type
+test key pair cloning SimpleName MethodInvocation MethodInvocation SimpleName key size
+test key pair cloning SimpleName MethodInvocation MethodInvocation SimpleName int value
+test key pair cloning SimpleName MethodInvocation SimpleName kp
+key type SimpleName MethodInvocation MethodInvocation SimpleName key size
+key type SimpleName MethodInvocation MethodInvocation SimpleName int value
+key type SimpleName MethodInvocation SimpleName kp
+key size SimpleName MethodInvocation MethodInvocation SimpleName kp
+int value SimpleName MethodInvocation MethodInvocation SimpleName kp
+general security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName e
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName e
+err SimpleName MethodInvocation SimpleName e
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName ec curvesnames
+curve name SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName ec curvesnames
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test generate ecdsa key pairs
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test generate ecdsa key pairs
+public Modifier MethodDeclaration SimpleType SimpleName general security exception
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName ec curvesnames
+void PrimitiveType MethodDeclaration SimpleName test generate ecdsa key pairs
+void PrimitiveType MethodDeclaration SimpleType SimpleName general security exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName ec curvesnames
+test generate ecdsa key pairs SimpleName MethodDeclaration SimpleType SimpleName general security exception
+test generate ecdsa key pairs SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName ec curvesnames
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test generate ecdsa key pairs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test generate ecdsa key pairs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

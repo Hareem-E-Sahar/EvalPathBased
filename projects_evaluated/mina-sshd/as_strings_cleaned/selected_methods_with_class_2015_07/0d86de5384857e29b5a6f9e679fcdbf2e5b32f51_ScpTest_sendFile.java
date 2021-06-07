@@ -1,0 +1,168 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data
+session SimpleName MethodInvocation SimpleName open channel
+session SimpleName MethodInvocation StringLiteral exec
+open channel SimpleName MethodInvocation StringLiteral exec
+channel exec SimpleName SimpleType CastExpression MethodInvocation SimpleName session
+channel exec SimpleName SimpleType CastExpression MethodInvocation SimpleName open channel
+channel exec SimpleName SimpleType CastExpression MethodInvocation StringLiteral exec
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName channel exec
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName session
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName open channel
+c SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral exec
+channel exec SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+scp t StringLiteral InfixExpression SimpleName path
+command SimpleName VariableDeclarationFragment InfixExpression StringLiteral scp t
+command SimpleName VariableDeclarationFragment InfixExpression SimpleName path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName command
+c SimpleName MethodInvocation SimpleName set command
+c SimpleName MethodInvocation SimpleName command
+set command SimpleName MethodInvocation SimpleName command
+c SimpleName MethodInvocation SimpleName connect
+c SimpleName MethodInvocation SimpleName get output stream
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+os SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output stream
+output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName os
+c SimpleName MethodInvocation SimpleName get input stream
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get input stream
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName is
+assert ack received SimpleName MethodInvocation SimpleName is
+assert ack received SimpleName MethodInvocation SimpleName command
+is SimpleName MethodInvocation SimpleName command
+data SimpleName MethodInvocation SimpleName length
+c StringLiteral InfixExpression MethodInvocation SimpleName data
+c StringLiteral InfixExpression MethodInvocation SimpleName length
+c StringLiteral InfixExpression StringLiteral empty
+c StringLiteral InfixExpression SimpleName name
+data SimpleName MethodInvocation InfixExpression StringLiteral empty
+length SimpleName MethodInvocation InfixExpression StringLiteral empty
+data SimpleName MethodInvocation InfixExpression SimpleName name
+length SimpleName MethodInvocation InfixExpression SimpleName name
+empty StringLiteral InfixExpression SimpleName name
+assert ack received SimpleName MethodInvocation SimpleName os
+assert ack received SimpleName MethodInvocation SimpleName is
+assert ack received SimpleName MethodInvocation InfixExpression StringLiteral c
+assert ack received SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName data
+assert ack received SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+assert ack received SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert ack received SimpleName MethodInvocation InfixExpression SimpleName name
+os SimpleName MethodInvocation SimpleName is
+os SimpleName MethodInvocation InfixExpression StringLiteral c
+os SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName data
+os SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+os SimpleName MethodInvocation InfixExpression StringLiteral empty
+os SimpleName MethodInvocation InfixExpression SimpleName name
+is SimpleName MethodInvocation InfixExpression StringLiteral c
+is SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName data
+is SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+is SimpleName MethodInvocation InfixExpression StringLiteral empty
+is SimpleName MethodInvocation InfixExpression SimpleName name
+data SimpleName MethodInvocation SimpleName get bytes
+data SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+os SimpleName MethodInvocation SimpleName write
+os SimpleName MethodInvocation MethodInvocation SimpleName data
+os SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+os SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+write SimpleName MethodInvocation MethodInvocation SimpleName data
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+os SimpleName MethodInvocation SimpleName flush
+data SimpleName MethodInvocation SimpleName length
+sent data length StringLiteral InfixExpression MethodInvocation SimpleName data
+sent data length StringLiteral InfixExpression MethodInvocation SimpleName length
+sent data length StringLiteral InfixExpression StringLiteral ) for
+sent data length StringLiteral InfixExpression SimpleName path
+sent data length StringLiteral InfixExpression StringLiteral [
+sent data length StringLiteral InfixExpression SimpleName name
+data SimpleName MethodInvocation InfixExpression StringLiteral ) for
+length SimpleName MethodInvocation InfixExpression StringLiteral ) for
+data SimpleName MethodInvocation InfixExpression SimpleName path
+length SimpleName MethodInvocation InfixExpression SimpleName path
+data SimpleName MethodInvocation InfixExpression StringLiteral [
+length SimpleName MethodInvocation InfixExpression StringLiteral [
+data SimpleName MethodInvocation InfixExpression SimpleName name
+length SimpleName MethodInvocation InfixExpression SimpleName name
+data SimpleName MethodInvocation InfixExpression StringLiteral ]
+length SimpleName MethodInvocation InfixExpression StringLiteral ]
+) for StringLiteral InfixExpression SimpleName path
+) for StringLiteral InfixExpression StringLiteral [
+) for StringLiteral InfixExpression SimpleName name
+) for StringLiteral InfixExpression StringLiteral ]
+path SimpleName InfixExpression StringLiteral [
+path SimpleName InfixExpression SimpleName name
+path SimpleName InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression SimpleName name
+[ StringLiteral InfixExpression StringLiteral ]
+name SimpleName InfixExpression StringLiteral ]
+assert ack received SimpleName MethodInvocation SimpleName is
+assert ack received SimpleName MethodInvocation InfixExpression StringLiteral sent data length
+assert ack received SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName data
+assert ack received SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+assert ack received SimpleName MethodInvocation InfixExpression StringLiteral ) for
+assert ack received SimpleName MethodInvocation InfixExpression SimpleName path
+assert ack received SimpleName MethodInvocation InfixExpression StringLiteral [
+assert ack received SimpleName MethodInvocation InfixExpression SimpleName name
+assert ack received SimpleName MethodInvocation InfixExpression StringLiteral ]
+is SimpleName MethodInvocation InfixExpression StringLiteral sent data length
+is SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName data
+is SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+is SimpleName MethodInvocation InfixExpression StringLiteral ) for
+is SimpleName MethodInvocation InfixExpression SimpleName path
+is SimpleName MethodInvocation InfixExpression StringLiteral [
+is SimpleName MethodInvocation InfixExpression SimpleName name
+is SimpleName MethodInvocation InfixExpression StringLiteral ]
+os SimpleName MethodInvocation SimpleName write
+os SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+os SimpleName MethodInvocation SimpleName flush
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName disconnect
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleName send file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+send file SimpleName MethodDeclaration SimpleType SimpleName exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

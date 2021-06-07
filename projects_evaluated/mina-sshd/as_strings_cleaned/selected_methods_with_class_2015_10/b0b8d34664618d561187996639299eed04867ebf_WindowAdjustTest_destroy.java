@@ -1,0 +1,39 @@
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral destroying
+info SimpleName MethodInvocation StringLiteral destroying
+future SimpleName SimpleType ParameterizedType WildcardType ?
+future holder SimpleName MethodInvocation SimpleName get and set
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName future holder
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and set
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+future SimpleName MethodInvocation SimpleName is done
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral cancelling
+info SimpleName MethodInvocation StringLiteral cancelling
+future SimpleName MethodInvocation SimpleName cancel
+future SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+executor holder SimpleName MethodInvocation SimpleName get and set
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName executor holder
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and set
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+service SimpleName MethodInvocation SimpleName is shutdown
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral shutdown
+info SimpleName MethodInvocation StringLiteral shutdown
+service SimpleName MethodInvocation SimpleName shutdown now
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName destroy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName destroy
+void PrimitiveType MethodDeclaration SimpleName destroy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName destroy
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName destroy

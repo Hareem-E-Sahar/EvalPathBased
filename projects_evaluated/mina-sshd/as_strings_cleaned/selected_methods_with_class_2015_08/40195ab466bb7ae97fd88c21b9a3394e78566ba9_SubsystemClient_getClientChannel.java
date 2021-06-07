@@ -1,0 +1,6 @@
+client channel SimpleName SimpleType MethodDeclaration SimpleName get client channel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client channel
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client channel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client channel

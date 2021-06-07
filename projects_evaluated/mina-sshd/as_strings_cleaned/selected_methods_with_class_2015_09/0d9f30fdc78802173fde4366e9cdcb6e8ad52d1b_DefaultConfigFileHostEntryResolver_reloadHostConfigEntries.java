@@ -1,0 +1,110 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host config entry
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+int PrimitiveType SingleVariableDeclaration SimpleName port
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral reload host config entries check permissions of {}
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName host
+log SimpleName MethodInvocation SimpleName port
+debug SimpleName MethodInvocation StringLiteral reload host config entries check permissions of {}
+debug SimpleName MethodInvocation SimpleName username
+debug SimpleName MethodInvocation SimpleName host
+debug SimpleName MethodInvocation SimpleName port
+debug SimpleName MethodInvocation SimpleName path
+reload host config entries check permissions of {} StringLiteral MethodInvocation SimpleName username
+reload host config entries check permissions of {} StringLiteral MethodInvocation SimpleName host
+reload host config entries check permissions of {} StringLiteral MethodInvocation SimpleName port
+reload host config entries check permissions of {} StringLiteral MethodInvocation SimpleName path
+username SimpleName MethodInvocation SimpleName host
+username SimpleName MethodInvocation SimpleName port
+username SimpleName MethodInvocation SimpleName path
+host SimpleName MethodInvocation SimpleName port
+host SimpleName MethodInvocation SimpleName path
+port SimpleName MethodInvocation SimpleName path
+key utils SimpleName MethodInvocation SimpleName validate strict key file permissions
+key utils SimpleName MethodInvocation SimpleName path
+validate strict key file permissions SimpleName MethodInvocation SimpleName path
+violation SimpleName VariableDeclarationFragment MethodInvocation SimpleName key utils
+violation SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate strict key file permissions
+violation SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+posix file permission SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName violation
+string permission violation ( StringLiteral InfixExpression SimpleName violation
+string permission violation ( StringLiteral InfixExpression StringLiteral ) for
+string permission violation ( StringLiteral InfixExpression SimpleName path
+violation SimpleName InfixExpression StringLiteral ) for
+violation SimpleName InfixExpression SimpleName path
+) for StringLiteral InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral string permission violation (
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName violation
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) for
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+reload host config entries SimpleName SuperMethodInvocation SimpleName path
+reload host config entries SimpleName SuperMethodInvocation SimpleName host
+reload host config entries SimpleName SuperMethodInvocation SimpleName port
+reload host config entries SimpleName SuperMethodInvocation SimpleName username
+path SimpleName SuperMethodInvocation SimpleName host
+path SimpleName SuperMethodInvocation SimpleName port
+path SimpleName SuperMethodInvocation SimpleName username
+host SimpleName SuperMethodInvocation SimpleName port
+host SimpleName SuperMethodInvocation SimpleName username
+port SimpleName SuperMethodInvocation SimpleName username
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName reload host config entries
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName host config entry
+protected Modifier MethodDeclaration SimpleName reload host config entries
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reload host config entries
+host config entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reload host config entries
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reload host config entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+reload host config entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+host SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+port SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+port SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+username SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName reload host config entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reload host config entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

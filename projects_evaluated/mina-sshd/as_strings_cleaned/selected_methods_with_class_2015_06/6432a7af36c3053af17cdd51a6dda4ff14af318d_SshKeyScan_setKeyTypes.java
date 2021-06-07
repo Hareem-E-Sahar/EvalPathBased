@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key types
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key types
+key types SimpleName FieldAccess Assignment SimpleName key types
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set key types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key types
+void PrimitiveType MethodDeclaration SimpleName set key types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key types
+set key types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set key types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set key types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key types

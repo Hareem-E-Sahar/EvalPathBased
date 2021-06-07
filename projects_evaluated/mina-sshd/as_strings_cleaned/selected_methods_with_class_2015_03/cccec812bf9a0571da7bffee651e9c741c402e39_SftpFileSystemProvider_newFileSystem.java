@@ -1,0 +1,143 @@
+uri SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName env
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName env
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName env
+uri SimpleName MethodInvocation SimpleName get authority
+authority SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+authority SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authority
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authority
+file systems SimpleName MethodInvocation SimpleName get
+file systems SimpleName MethodInvocation SimpleName authority
+get SimpleName MethodInvocation SimpleName authority
+file system SimpleName VariableDeclarationFragment MethodInvocation SimpleName file systems
+file system SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+file system SimpleName VariableDeclarationFragment MethodInvocation SimpleName authority
+sftp file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file system
+file system already exists exception SimpleName SimpleType ClassInstanceCreation SimpleName authority
+uri SimpleName MethodInvocation SimpleName get host
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+uri SimpleName MethodInvocation SimpleName get user info
+user info SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+user info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user info
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user info
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral host not provided
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral user info not provided
+user info SimpleName MethodInvocation SimpleName split
+user info SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation StringLiteral :
+ui SimpleName VariableDeclarationFragment MethodInvocation SimpleName user info
+ui SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+ui SimpleName VariableDeclarationFragment MethodInvocation StringLiteral :
+client session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+ui SimpleName ArrayAccess NumberLiteral empty
+uri SimpleName MethodInvocation SimpleName get port
+uri SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+uri SimpleName MethodInvocation SimpleName get port
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName uri
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName get port
+uri SimpleName MethodInvocation InfixExpression ConditionalExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression NumberLiteral empty
+uri SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+get port SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+client SimpleName MethodInvocation SimpleName connect
+client SimpleName MethodInvocation ArrayAccess SimpleName ui
+client SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+client SimpleName MethodInvocation SimpleName host
+client SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+client SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName uri
+client SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+client SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+connect SimpleName MethodInvocation ArrayAccess SimpleName ui
+connect SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+connect SimpleName MethodInvocation SimpleName host
+connect SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+connect SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName uri
+connect SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+connect SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+ui SimpleName ArrayAccess MethodInvocation SimpleName host
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName host
+ui SimpleName ArrayAccess MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ConditionalExpression NumberLiteral empty
+host SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+host SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName uri
+host SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get port
+host SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+client SimpleName MethodInvocation MethodInvocation SimpleName await
+connect SimpleName MethodInvocation MethodInvocation SimpleName await
+ui SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName await
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName await
+host SimpleName MethodInvocation MethodInvocation SimpleName await
+empty NumberLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName await
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+connect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get session
+await SimpleName MethodInvocation MethodInvocation SimpleName get session
+session SimpleName Assignment MethodInvocation MethodInvocation SimpleName await
+session SimpleName Assignment MethodInvocation SimpleName get session
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ui SimpleName ArrayAccess NumberLiteral empty
+session SimpleName MethodInvocation SimpleName add password identity
+session SimpleName MethodInvocation ArrayAccess SimpleName ui
+session SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+add password identity SimpleName MethodInvocation ArrayAccess SimpleName ui
+add password identity SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+session SimpleName MethodInvocation SimpleName auth
+session SimpleName MethodInvocation MethodInvocation SimpleName verify
+auth SimpleName MethodInvocation MethodInvocation SimpleName verify
+sftp file system SimpleName SimpleType ClassInstanceCreation SimpleName session
+file system SimpleName Assignment ClassInstanceCreation SimpleType SimpleName sftp file system
+file system SimpleName Assignment ClassInstanceCreation SimpleName session
+file systems SimpleName MethodInvocation SimpleName put
+file systems SimpleName MethodInvocation SimpleName authority
+file systems SimpleName MethodInvocation SimpleName file system
+put SimpleName MethodInvocation SimpleName authority
+put SimpleName MethodInvocation SimpleName file system
+authority SimpleName MethodInvocation SimpleName file system
+file systems SimpleName SynchronizedStatement Block ReturnStatement SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new file system
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName uri
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName new file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+file system SimpleName SimpleType MethodDeclaration SimpleName new file system
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName env
+file system SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+new file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uri
+new file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+new file system SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+new file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+new file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+new file system SimpleName MethodDeclaration Block SynchronizedStatement SimpleName file systems
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName new file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

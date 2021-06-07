@@ -1,0 +1,28 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+send SimpleName MethodInvocation QualifiedName sftp constantsssh fxp extended
+send SimpleName MethodInvocation SimpleName buffer
+sftp constantsssh fxp extended QualifiedName MethodInvocation SimpleName buffer
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName send extended command
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName send extended command
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+send extended command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+send extended command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+send extended command SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName send extended command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send extended command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

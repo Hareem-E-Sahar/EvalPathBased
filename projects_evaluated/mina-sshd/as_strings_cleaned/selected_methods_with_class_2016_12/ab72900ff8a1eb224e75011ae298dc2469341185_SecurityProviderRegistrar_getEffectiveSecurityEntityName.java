@@ -1,0 +1,60 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+cipher SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+cipher SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity type
+is assignable from SimpleName MethodInvocation SimpleName entity type
+name SimpleName MethodInvocation SimpleName index of
+name SimpleName MethodInvocation CharacterLiteral /
+index of SimpleName MethodInvocation CharacterLiteral /
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral /
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral /
+pos SimpleName InfixExpression NumberLiteral empty
+name SimpleName MethodInvocation SimpleName substring
+name SimpleName MethodInvocation NumberLiteral empty
+name SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+pos SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName name
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName name
+name SimpleName MethodInvocation ConditionalExpression SimpleName name
+substring SimpleName MethodInvocation ConditionalExpression SimpleName name
+empty NumberLiteral MethodInvocation ConditionalExpression SimpleName name
+pos SimpleName MethodInvocation ConditionalExpression SimpleName name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get effective security entity name
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get effective security entity name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get effective security entity name SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get effective security entity name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get effective security entity name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get effective security entity name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get effective security entity name SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get effective security entity name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get effective security entity name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

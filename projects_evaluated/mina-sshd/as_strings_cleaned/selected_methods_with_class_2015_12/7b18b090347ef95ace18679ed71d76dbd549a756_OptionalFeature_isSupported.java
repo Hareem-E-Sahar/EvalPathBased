@@ -1,0 +1,29 @@
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName features
+is empty SimpleName MethodInvocation SimpleName features
+optional feature SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is supported
+optional feature SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName features
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName features
+features SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is supported
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName features
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is supported
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName features
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is supported SimpleName MethodDeclaration Block EnhancedForStatement SimpleName features
+is supported SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is supported
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is supported

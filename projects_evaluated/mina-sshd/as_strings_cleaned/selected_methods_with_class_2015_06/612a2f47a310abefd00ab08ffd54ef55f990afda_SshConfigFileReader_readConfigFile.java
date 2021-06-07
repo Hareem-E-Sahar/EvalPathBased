@@ -1,0 +1,165 @@
+buffered reader SimpleName SimpleType SingleVariableDeclaration SimpleName rdr
+props SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+line number SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line number
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName rdr
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+string SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName line
+rdr SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName rdr
+line SimpleName Assignment MethodInvocation SimpleName read line
+generic utils SimpleName MethodInvocation SimpleName trim to empty
+generic utils SimpleName MethodInvocation SimpleName line
+trim to empty SimpleName MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName generic utils
+line SimpleName Assignment MethodInvocation SimpleName trim to empty
+line SimpleName Assignment MethodInvocation SimpleName line
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName line
+is empty SimpleName MethodInvocation SimpleName line
+line SimpleName MethodInvocation SimpleName index of
+line SimpleName MethodInvocation SimpleName comment char
+index of SimpleName MethodInvocation SimpleName comment char
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName comment char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName line
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName comment char
+pos SimpleName InfixExpression NumberLiteral empty
+pos SimpleName InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation NumberLiteral empty
+line SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+line SimpleName Assignment MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName substring
+line SimpleName Assignment MethodInvocation NumberLiteral empty
+line SimpleName Assignment MethodInvocation SimpleName pos
+line SimpleName MethodInvocation SimpleName trim
+line SimpleName Assignment MethodInvocation SimpleName line
+line SimpleName Assignment MethodInvocation SimpleName trim
+line SimpleName MethodInvocation SimpleName index of
+line SimpleName MethodInvocation CharacterLiteral empty
+index of SimpleName MethodInvocation CharacterLiteral empty
+pos SimpleName Assignment MethodInvocation SimpleName line
+pos SimpleName Assignment MethodInvocation SimpleName index of
+pos SimpleName Assignment MethodInvocation CharacterLiteral empty
+pos SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation SimpleName index of
+line SimpleName MethodInvocation CharacterLiteral =
+index of SimpleName MethodInvocation CharacterLiteral =
+pos SimpleName Assignment MethodInvocation SimpleName line
+pos SimpleName Assignment MethodInvocation SimpleName index of
+pos SimpleName Assignment MethodInvocation CharacterLiteral =
+pos SimpleName InfixExpression NumberLiteral empty
+no delimiter at line StringLiteral InfixExpression SimpleName line number
+no delimiter at line StringLiteral InfixExpression StringLiteral :
+no delimiter at line StringLiteral InfixExpression SimpleName line
+line number SimpleName InfixExpression StringLiteral :
+line number SimpleName InfixExpression SimpleName line
+: StringLiteral InfixExpression SimpleName line
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no delimiter at line
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName line number
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+stream corrupted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName line
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation NumberLiteral empty
+line SimpleName MethodInvocation SimpleName pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName pos
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+key SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName pos
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+pos SimpleName InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation InfixExpression SimpleName pos
+line SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName pos
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+line SimpleName MethodInvocation MethodInvocation SimpleName trim
+substring SimpleName MethodInvocation MethodInvocation SimpleName trim
+pos SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName trim
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName trim
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName line
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName substring
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName prev
+is empty SimpleName MethodInvocation SimpleName prev
+prev SimpleName InfixExpression StringLiteral empty
+prev SimpleName InfixExpression SimpleName value
+empty StringLiteral InfixExpression SimpleName value
+value SimpleName Assignment InfixExpression SimpleName prev
+value SimpleName Assignment InfixExpression StringLiteral empty
+value SimpleName Assignment InfixExpression SimpleName value
+props SimpleName MethodInvocation SimpleName set property
+props SimpleName MethodInvocation SimpleName key
+props SimpleName MethodInvocation SimpleName value
+set property SimpleName MethodInvocation SimpleName key
+set property SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+line SimpleName InfixExpression ForStatement Assignment SimpleName line
+line SimpleName InfixExpression ForStatement PostfixExpression SimpleName line number
+line SimpleName Assignment ForStatement PostfixExpression SimpleName line number
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName props
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SimpleName read config file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rdr
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName properties
+static Modifier MethodDeclaration SimpleName read config file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName rdr
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration SimpleType SimpleName properties
+final Modifier MethodDeclaration SimpleName read config file
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName rdr
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block ReturnStatement SimpleName props
+properties SimpleName SimpleType MethodDeclaration SimpleName read config file
+properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rdr
+properties SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read config file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered reader
+read config file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rdr
+read config file SimpleName MethodDeclaration SimpleType SimpleName io exception
+read config file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read config file SimpleName MethodDeclaration Block ReturnStatement SimpleName props
+rdr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName read config file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rdr
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read config file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rdr
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

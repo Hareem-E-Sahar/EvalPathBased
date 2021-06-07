@@ -1,0 +1,71 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+start heavy load sending StringLiteral InfixExpression SimpleName send count
+start heavy load sending StringLiteral InfixExpression StringLiteral messages of
+start heavy load sending StringLiteral InfixExpression QualifiedName msglength
+start heavy load sending StringLiteral InfixExpression StringLiteral bytes
+send count SimpleName InfixExpression StringLiteral messages of
+send count SimpleName InfixExpression QualifiedName msglength
+send count SimpleName InfixExpression StringLiteral bytes
+messages of StringLiteral InfixExpression QualifiedName msglength
+messages of StringLiteral InfixExpression StringLiteral bytes
+msglength QualifiedName InfixExpression StringLiteral bytes
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral start heavy load sending
+log SimpleName MethodInvocation InfixExpression SimpleName send count
+log SimpleName MethodInvocation InfixExpression StringLiteral messages of
+log SimpleName MethodInvocation InfixExpression QualifiedName msglength
+log SimpleName MethodInvocation InfixExpression StringLiteral bytes
+info SimpleName MethodInvocation InfixExpression StringLiteral start heavy load sending
+info SimpleName MethodInvocation InfixExpression SimpleName send count
+info SimpleName MethodInvocation InfixExpression StringLiteral messages of
+info SimpleName MethodInvocation InfixExpression QualifiedName msglength
+info SimpleName MethodInvocation InfixExpression StringLiteral bytes
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName send count
+byte array buffer SimpleName SimpleType ClassInstanceCreation SimpleName msg
+pending wrapper SimpleName MethodInvocation SimpleName write
+pending wrapper SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+pending wrapper SimpleName MethodInvocation ClassInstanceCreation SimpleName msg
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+write SimpleName MethodInvocation ClassInstanceCreation SimpleName msg
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName send count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+send count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral sending eof signal
+info SimpleName MethodInvocation StringLiteral sending eof signal
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer SimpleName eof signal
+pending wrapper SimpleName MethodInvocation SimpleName write
+pending wrapper SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array buffer
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName run
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

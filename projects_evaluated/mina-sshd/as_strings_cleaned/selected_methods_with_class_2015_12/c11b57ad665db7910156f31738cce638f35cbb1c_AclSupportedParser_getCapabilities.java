@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get capabilities
+public Modifier MethodDeclaration Block ReturnStatement SimpleName capabilities
+int PrimitiveType MethodDeclaration SimpleName get capabilities
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName capabilities
+get capabilities SimpleName MethodDeclaration Block ReturnStatement SimpleName capabilities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get capabilities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get capabilities

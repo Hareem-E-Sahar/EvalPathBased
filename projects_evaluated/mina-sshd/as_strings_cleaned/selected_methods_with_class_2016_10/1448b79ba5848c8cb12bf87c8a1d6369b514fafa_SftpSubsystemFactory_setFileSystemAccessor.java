@@ -1,0 +1,35 @@
+sftp file system accessor SimpleName SimpleType SingleVariableDeclaration SimpleName accessor
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName accessor
+objects SimpleName MethodInvocation StringLiteral no accessor
+require non null SimpleName MethodInvocation SimpleName accessor
+require non null SimpleName MethodInvocation StringLiteral no accessor
+accessor SimpleName MethodInvocation StringLiteral no accessor
+file system accessor SimpleName Assignment MethodInvocation SimpleName objects
+file system accessor SimpleName Assignment MethodInvocation SimpleName require non null
+file system accessor SimpleName Assignment MethodInvocation SimpleName accessor
+file system accessor SimpleName Assignment MethodInvocation StringLiteral no accessor
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set file system accessor
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName accessor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set file system accessor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp file system accessor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName accessor
+void PrimitiveType MethodDeclaration SimpleName set file system accessor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp file system accessor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName accessor
+set file system accessor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp file system accessor
+set file system accessor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accessor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file system accessor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file system accessor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor

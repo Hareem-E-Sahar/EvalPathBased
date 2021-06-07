@@ -1,0 +1,28 @@
+ssh future listener SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+ssh future listener SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName l
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName l
+l SimpleName MethodInvocation SimpleName operation complete
+l SimpleName MethodInvocation MethodInvocation SimpleName as t
+operation complete SimpleName MethodInvocation MethodInvocation SimpleName as t
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+logger SimpleName MethodInvocation SimpleName warn
+logger SimpleName MethodInvocation StringLiteral listener threw an exception
+logger SimpleName MethodInvocation SimpleName t
+warn SimpleName MethodInvocation StringLiteral listener threw an exception
+warn SimpleName MethodInvocation SimpleName t
+listener threw an exception StringLiteral MethodInvocation SimpleName t
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName notify listener
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName notify listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+notify listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

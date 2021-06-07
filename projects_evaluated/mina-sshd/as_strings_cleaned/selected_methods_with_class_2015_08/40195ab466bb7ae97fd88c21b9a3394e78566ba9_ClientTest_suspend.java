@@ -1,0 +1,24 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName io session
+io session SimpleName InstanceofExpression SimpleType SimpleName mina session
+mina session SimpleName SimpleType CastExpression SimpleName io session
+io session SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName suspend
+nio session SimpleName SimpleType CastExpression SimpleName io session
+io session SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName suspend
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName suspend
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName io session
+void PrimitiveType MethodDeclaration SimpleName suspend
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName io session
+suspend SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io session
+suspend SimpleName MethodDeclaration SingleVariableDeclaration SimpleName io session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName suspend
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName suspend
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName io session

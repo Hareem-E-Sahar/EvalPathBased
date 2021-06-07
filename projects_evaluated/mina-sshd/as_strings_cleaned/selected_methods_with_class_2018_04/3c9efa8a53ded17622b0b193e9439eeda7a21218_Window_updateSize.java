@@ -1,0 +1,33 @@
+long PrimitiveType SingleVariableDeclaration SimpleName size
+buffer utils SimpleName MethodInvocation SimpleName validate uint value
+buffer utils SimpleName MethodInvocation SimpleName size
+buffer utils SimpleName MethodInvocation StringLiteral invalid updated size d
+buffer utils SimpleName MethodInvocation SimpleName size
+validate uint value SimpleName MethodInvocation SimpleName size
+validate uint value SimpleName MethodInvocation StringLiteral invalid updated size d
+validate uint value SimpleName MethodInvocation SimpleName size
+size SimpleName MethodInvocation StringLiteral invalid updated size d
+size SimpleName MethodInvocation SimpleName size
+invalid updated size d StringLiteral MethodInvocation SimpleName size
+size SimpleName FieldAccess Assignment SimpleName size
+lock SimpleName MethodInvocation SimpleName notify all
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update size
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+void PrimitiveType MethodDeclaration SimpleName update size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName size
+update size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+update size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size

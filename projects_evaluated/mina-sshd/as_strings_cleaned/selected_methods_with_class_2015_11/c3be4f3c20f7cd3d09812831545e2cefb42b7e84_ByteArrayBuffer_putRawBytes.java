@@ -1,0 +1,94 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName d
+int PrimitiveType SingleVariableDeclaration SimpleName off
+int PrimitiveType SingleVariableDeclaration SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName len
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral negative raw bytes length d
+validate utils SimpleName MethodInvocation SimpleName len
+check true SimpleName MethodInvocation InfixExpression SimpleName len
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral negative raw bytes length d
+check true SimpleName MethodInvocation SimpleName len
+len SimpleName InfixExpression MethodInvocation StringLiteral negative raw bytes length d
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral negative raw bytes length d
+len SimpleName InfixExpression MethodInvocation SimpleName len
+empty NumberLiteral InfixExpression MethodInvocation SimpleName len
+negative raw bytes length d StringLiteral MethodInvocation SimpleName len
+ensure capacity SimpleName MethodInvocation SimpleName len
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName d
+system SimpleName MethodInvocation SimpleName off
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation SimpleName wpos
+arraycopy SimpleName MethodInvocation SimpleName d
+arraycopy SimpleName MethodInvocation SimpleName off
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation SimpleName wpos
+arraycopy SimpleName MethodInvocation SimpleName len
+d SimpleName MethodInvocation SimpleName off
+d SimpleName MethodInvocation SimpleName data
+d SimpleName MethodInvocation SimpleName wpos
+d SimpleName MethodInvocation SimpleName len
+off SimpleName MethodInvocation SimpleName data
+off SimpleName MethodInvocation SimpleName wpos
+off SimpleName MethodInvocation SimpleName len
+data SimpleName MethodInvocation SimpleName wpos
+data SimpleName MethodInvocation SimpleName len
+wpos SimpleName MethodInvocation SimpleName len
+wpos SimpleName Assignment SimpleName len
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName put raw bytes
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName d
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put raw bytes
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName d
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+void PrimitiveType MethodDeclaration SimpleName put raw bytes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName off
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName len
+put raw bytes SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+put raw bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName d
+put raw bytes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+put raw bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName off
+put raw bytes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+put raw bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+off SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put raw bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put raw bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName off
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len

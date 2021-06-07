@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName root
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName names
+file system SimpleName MethodInvocation SimpleName create
+file system SimpleName MethodInvocation SimpleName root
+file system SimpleName MethodInvocation SimpleName names
+create SimpleName MethodInvocation SimpleName root
+create SimpleName MethodInvocation SimpleName names
+root SimpleName MethodInvocation SimpleName names
+protected Modifier MethodDeclaration SimpleType SimpleName t
+protected Modifier MethodDeclaration SimpleName create
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName root
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName names
+t SimpleName SimpleType MethodDeclaration SimpleName create
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName root
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName names
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName names
+root SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName names
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName names

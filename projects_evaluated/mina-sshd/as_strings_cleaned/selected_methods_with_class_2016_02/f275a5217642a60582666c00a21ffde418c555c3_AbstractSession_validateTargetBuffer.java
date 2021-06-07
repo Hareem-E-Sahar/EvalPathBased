@@ -1,0 +1,83 @@
+b SimpleName TypeParameter SimpleType SimpleName buffer
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+b SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName buffer
+validate utils SimpleName MethodInvocation StringLiteral no target buffer to examine for commandd
+validate utils SimpleName MethodInvocation SimpleName cmd
+check not null SimpleName MethodInvocation SimpleName buffer
+check not null SimpleName MethodInvocation StringLiteral no target buffer to examine for commandd
+check not null SimpleName MethodInvocation SimpleName cmd
+buffer SimpleName MethodInvocation StringLiteral no target buffer to examine for commandd
+buffer SimpleName MethodInvocation SimpleName cmd
+no target buffer to examine for commandd StringLiteral MethodInvocation SimpleName cmd
+buffer SimpleName InfixExpression SimpleName decoder buffer
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName buffer
+validate utils SimpleName MethodInvocation InfixExpression SimpleName decoder buffer
+validate utils SimpleName MethodInvocation StringLiteral not allowed to use the internal decoder buffer for commandd
+validate utils SimpleName MethodInvocation SimpleName cmd
+check true SimpleName MethodInvocation InfixExpression SimpleName buffer
+check true SimpleName MethodInvocation InfixExpression SimpleName decoder buffer
+check true SimpleName MethodInvocation StringLiteral not allowed to use the internal decoder buffer for commandd
+check true SimpleName MethodInvocation SimpleName cmd
+buffer SimpleName InfixExpression MethodInvocation StringLiteral not allowed to use the internal decoder buffer for commandd
+decoder buffer SimpleName InfixExpression MethodInvocation StringLiteral not allowed to use the internal decoder buffer for commandd
+buffer SimpleName InfixExpression MethodInvocation SimpleName cmd
+decoder buffer SimpleName InfixExpression MethodInvocation SimpleName cmd
+not allowed to use the internal decoder buffer for commandd StringLiteral MethodInvocation SimpleName cmd
+buffer SimpleName InfixExpression SimpleName uncompress buffer
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName buffer
+validate utils SimpleName MethodInvocation InfixExpression SimpleName uncompress buffer
+validate utils SimpleName MethodInvocation StringLiteral not allowed to use the internal uncompress buffer for commandd
+validate utils SimpleName MethodInvocation SimpleName cmd
+check true SimpleName MethodInvocation InfixExpression SimpleName buffer
+check true SimpleName MethodInvocation InfixExpression SimpleName uncompress buffer
+check true SimpleName MethodInvocation StringLiteral not allowed to use the internal uncompress buffer for commandd
+check true SimpleName MethodInvocation SimpleName cmd
+buffer SimpleName InfixExpression MethodInvocation StringLiteral not allowed to use the internal uncompress buffer for commandd
+uncompress buffer SimpleName InfixExpression MethodInvocation StringLiteral not allowed to use the internal uncompress buffer for commandd
+buffer SimpleName InfixExpression MethodInvocation SimpleName cmd
+uncompress buffer SimpleName InfixExpression MethodInvocation SimpleName cmd
+not allowed to use the internal uncompress buffer for commandd StringLiteral MethodInvocation SimpleName cmd
+protected Modifier MethodDeclaration TypeParameter SimpleName b
+protected Modifier MethodDeclaration TypeParameter SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName b
+protected Modifier MethodDeclaration SimpleName validate target buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName TypeParameter MethodDeclaration SimpleType SimpleName b
+b SimpleName TypeParameter MethodDeclaration SimpleName validate target buffer
+buffer SimpleName SimpleType TypeParameter MethodDeclaration SimpleName validate target buffer
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType int
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName cmd
+b SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName buffer
+b SimpleName SimpleType MethodDeclaration SimpleName validate target buffer
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+b SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+validate target buffer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+validate target buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+validate target buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName b
+validate target buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+validate target buffer SimpleName MethodDeclaration Block ReturnStatement SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate target buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate target buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

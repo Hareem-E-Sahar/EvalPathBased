@@ -1,0 +1,50 @@
+kex state SimpleName MethodInvocation SimpleName get
+kex statedone QualifiedName MethodInvocation SimpleName equals
+kex statedone QualifiedName MethodInvocation MethodInvocation SimpleName kex state
+kex statedone QualifiedName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName kex state
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+in packets count SimpleName MethodInvocation SimpleName get
+in packets count SimpleName MethodInvocation InfixExpression SimpleName max packets
+get SimpleName MethodInvocation InfixExpression SimpleName max packets
+out packets count SimpleName MethodInvocation SimpleName get
+out packets count SimpleName MethodInvocation InfixExpression SimpleName max packets
+get SimpleName MethodInvocation InfixExpression SimpleName max packets
+in bytes count SimpleName MethodInvocation SimpleName get
+in bytes count SimpleName MethodInvocation InfixExpression SimpleName max bytes
+get SimpleName MethodInvocation InfixExpression SimpleName max bytes
+out bytes count SimpleName MethodInvocation SimpleName get
+out bytes count SimpleName MethodInvocation InfixExpression SimpleName max bytes
+get SimpleName MethodInvocation InfixExpression SimpleName max bytes
+max key interval SimpleName InfixExpression NumberLiteral l
+last key time value SimpleName MethodInvocation SimpleName get
+now SimpleName InfixExpression MethodInvocation SimpleName last key time value
+now SimpleName InfixExpression MethodInvocation SimpleName get
+now SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName max key interval
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName check rekey
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check rekey
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName check rekey
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check rekey SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check rekey
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check rekey
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

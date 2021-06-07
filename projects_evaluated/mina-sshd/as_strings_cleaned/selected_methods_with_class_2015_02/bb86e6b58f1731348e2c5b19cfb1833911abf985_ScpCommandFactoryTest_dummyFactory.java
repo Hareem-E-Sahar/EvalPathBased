@@ -1,0 +1,18 @@
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName command factory
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName command factory
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName command factory
+private Modifier MethodDeclaration SimpleName dummy factory
+static Modifier MethodDeclaration SimpleType SimpleName command factory
+static Modifier MethodDeclaration SimpleName dummy factory
+command factory SimpleName SimpleType MethodDeclaration SimpleName dummy factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName dummy factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dummy factory

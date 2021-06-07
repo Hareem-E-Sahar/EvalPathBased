@@ -1,0 +1,26 @@
+host based authenticator SimpleName SimpleType SingleVariableDeclaration SimpleName host based authenticator
+host based authenticator SimpleName FieldAccess Assignment SimpleName host based authenticator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set host based authenticator
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set host based authenticator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host based authenticator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+void PrimitiveType MethodDeclaration SimpleName set host based authenticator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host based authenticator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+set host based authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host based authenticator
+set host based authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set host based authenticator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set host based authenticator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host based authenticator

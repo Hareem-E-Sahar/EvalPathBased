@@ -1,0 +1,289 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName query context
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ldap config
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ldap config
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName ldap config
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+hash map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ldap config
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ldap config
+object SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ldap config
+env SimpleName Assignment ClassInstanceCreation SimpleName ldap config
+env SimpleName MethodInvocation SimpleName contains key
+env SimpleName MethodInvocation QualifiedName contextprovider url
+contains key SimpleName MethodInvocation QualifiedName contextprovider url
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get port
+port SimpleName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression SimpleName port
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral no port configured
+check true SimpleName MethodInvocation InfixExpression SimpleName port
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral no port configured
+port SimpleName InfixExpression MethodInvocation StringLiteral no port configured
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral no port configured
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get protocol
+validate utils SimpleName MethodInvocation StringLiteral no protocol
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get protocol
+check not null and not empty SimpleName MethodInvocation StringLiteral no protocol
+get protocol SimpleName MethodInvocation MethodInvocation StringLiteral no protocol
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get host
+validate utils SimpleName MethodInvocation StringLiteral no host
+check not null and not empty SimpleName MethodInvocation MethodInvocation SimpleName get host
+check not null and not empty SimpleName MethodInvocation StringLiteral no host
+get host SimpleName MethodInvocation MethodInvocation StringLiteral no host
+validate utils SimpleName MethodInvocation InfixExpression StringLiteral ://
+check not null and not empty SimpleName MethodInvocation InfixExpression StringLiteral ://
+get protocol SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ://
+no protocol StringLiteral MethodInvocation InfixExpression StringLiteral ://
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName validate utils
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral no host
+check not null and not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName validate utils
+check not null and not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check not null and not empty
+check not null and not empty SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral no host
+no protocol StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName validate utils
+no protocol StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName check not null and not empty
+no protocol StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral no host
+validate utils SimpleName MethodInvocation InfixExpression StringLiteral :
+check not null and not empty SimpleName MethodInvocation InfixExpression StringLiteral :
+get protocol SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+no protocol StringLiteral MethodInvocation InfixExpression StringLiteral :
+validate utils SimpleName MethodInvocation InfixExpression SimpleName port
+check not null and not empty SimpleName MethodInvocation InfixExpression SimpleName port
+get protocol SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName port
+no protocol StringLiteral MethodInvocation InfixExpression SimpleName port
+:// StringLiteral InfixExpression MethodInvocation SimpleName validate utils
+:// StringLiteral InfixExpression MethodInvocation SimpleName check not null and not empty
+:// StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get host
+:// StringLiteral InfixExpression MethodInvocation StringLiteral no host
+:// StringLiteral InfixExpression StringLiteral :
+:// StringLiteral InfixExpression SimpleName port
+validate utils SimpleName MethodInvocation InfixExpression StringLiteral :
+check not null and not empty SimpleName MethodInvocation InfixExpression StringLiteral :
+get host SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+no host StringLiteral MethodInvocation InfixExpression StringLiteral :
+validate utils SimpleName MethodInvocation InfixExpression SimpleName port
+check not null and not empty SimpleName MethodInvocation InfixExpression SimpleName port
+get host SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName port
+no host StringLiteral MethodInvocation InfixExpression SimpleName port
+: StringLiteral InfixExpression SimpleName port
+url SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName validate utils
+url SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName check not null and not empty
+url SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral no protocol
+url SimpleName VariableDeclarationFragment InfixExpression StringLiteral ://
+url SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName validate utils
+url SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName check not null and not empty
+url SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral no host
+url SimpleName VariableDeclarationFragment InfixExpression StringLiteral :
+url SimpleName VariableDeclarationFragment InfixExpression SimpleName port
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation QualifiedName contextprovider url
+env SimpleName MethodInvocation SimpleName url
+put SimpleName MethodInvocation QualifiedName contextprovider url
+put SimpleName MethodInvocation SimpleName url
+contextprovider url QualifiedName MethodInvocation SimpleName url
+env SimpleName MethodInvocation SimpleName get
+env SimpleName MethodInvocation QualifiedName contextsecurity authentication
+get SimpleName MethodInvocation QualifiedName contextsecurity authentication
+objects SimpleName MethodInvocation SimpleName to string
+objects SimpleName MethodInvocation MethodInvocation SimpleName env
+objects SimpleName MethodInvocation MethodInvocation SimpleName get
+objects SimpleName MethodInvocation MethodInvocation QualifiedName contextsecurity authentication
+to string SimpleName MethodInvocation MethodInvocation SimpleName env
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation QualifiedName contextsecurity authentication
+mode SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects
+mode SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+mode SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName env
+mode SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+mode SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName contextsecurity authentication
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mode
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName mode
+is empty SimpleName MethodInvocation SimpleName mode
+none StringLiteral MethodInvocation SimpleName equals ignore case
+none StringLiteral MethodInvocation SimpleName mode
+equals ignore case SimpleName MethodInvocation SimpleName mode
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral none
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+generic utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mode
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral none
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mode
+mode SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral none
+mode SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+mode SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mode
+anonymous SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName generic utils
+anonymous SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is empty
+anonymous SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mode
+anonymous SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral none
+anonymous SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName equals ignore case
+anonymous SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mode
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName anonymous
+username SimpleName ArrayInitializer SimpleName password
+bind params SimpleName VariableDeclarationFragment ArrayInitializer SimpleName username
+bind params SimpleName VariableDeclarationFragment ArrayInitializer SimpleName password
+env SimpleName MethodInvocation SimpleName contains key
+env SimpleName MethodInvocation QualifiedName contextsecurity principal
+contains key SimpleName MethodInvocation QualifiedName contextsecurity principal
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName bind dn pattern
+validate utils SimpleName MethodInvocation StringLiteral no bind dn pattern
+check not null SimpleName MethodInvocation SimpleName bind dn pattern
+check not null SimpleName MethodInvocation StringLiteral no bind dn pattern
+bind dn pattern SimpleName MethodInvocation StringLiteral no bind dn pattern
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName format
+check not null SimpleName MethodInvocation MethodInvocation SimpleName format
+bind dn pattern SimpleName MethodInvocation MethodInvocation SimpleName format
+no bind dn pattern StringLiteral MethodInvocation MethodInvocation SimpleName format
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName bind params
+check not null SimpleName MethodInvocation MethodInvocation SimpleName bind params
+bind dn pattern SimpleName MethodInvocation MethodInvocation SimpleName bind params
+no bind dn pattern StringLiteral MethodInvocation MethodInvocation SimpleName bind params
+format SimpleName MethodInvocation SimpleName bind params
+bind dn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+bind dn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null
+bind dn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName bind dn pattern
+bind dn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no bind dn pattern
+bind dn SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+bind dn SimpleName VariableDeclarationFragment MethodInvocation SimpleName bind params
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bind dn
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName bind dn
+validate utils SimpleName MethodInvocation StringLiteral no bind dn
+check not null and not empty SimpleName MethodInvocation SimpleName bind dn
+check not null and not empty SimpleName MethodInvocation StringLiteral no bind dn
+bind dn SimpleName MethodInvocation StringLiteral no bind dn
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation QualifiedName contextsecurity principal
+env SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+env SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+env SimpleName MethodInvocation MethodInvocation SimpleName bind dn
+env SimpleName MethodInvocation MethodInvocation StringLiteral no bind dn
+put SimpleName MethodInvocation QualifiedName contextsecurity principal
+put SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+put SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+put SimpleName MethodInvocation MethodInvocation SimpleName bind dn
+put SimpleName MethodInvocation MethodInvocation StringLiteral no bind dn
+contextsecurity principal QualifiedName MethodInvocation MethodInvocation SimpleName validate utils
+contextsecurity principal QualifiedName MethodInvocation MethodInvocation SimpleName check not null and not empty
+contextsecurity principal QualifiedName MethodInvocation MethodInvocation SimpleName bind dn
+contextsecurity principal QualifiedName MethodInvocation MethodInvocation StringLiteral no bind dn
+env SimpleName MethodInvocation SimpleName contains key
+env SimpleName MethodInvocation QualifiedName contextsecurity credentials
+contains key SimpleName MethodInvocation QualifiedName contextsecurity credentials
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName bind password pattern
+validate utils SimpleName MethodInvocation StringLiteral no bind password pattern
+check not null SimpleName MethodInvocation SimpleName bind password pattern
+check not null SimpleName MethodInvocation StringLiteral no bind password pattern
+bind password pattern SimpleName MethodInvocation StringLiteral no bind password pattern
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName format
+check not null SimpleName MethodInvocation MethodInvocation SimpleName format
+bind password pattern SimpleName MethodInvocation MethodInvocation SimpleName format
+no bind password pattern StringLiteral MethodInvocation MethodInvocation SimpleName format
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName bind params
+check not null SimpleName MethodInvocation MethodInvocation SimpleName bind params
+bind password pattern SimpleName MethodInvocation MethodInvocation SimpleName bind params
+no bind password pattern StringLiteral MethodInvocation MethodInvocation SimpleName bind params
+format SimpleName MethodInvocation SimpleName bind params
+bind password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName validate utils
+bind password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName check not null
+bind password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName bind password pattern
+bind password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral no bind password pattern
+bind password SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+bind password SimpleName VariableDeclarationFragment MethodInvocation SimpleName bind params
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bind password
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName bind password
+validate utils SimpleName MethodInvocation StringLiteral no bind password
+check not null and not empty SimpleName MethodInvocation SimpleName bind password
+check not null and not empty SimpleName MethodInvocation StringLiteral no bind password
+bind password SimpleName MethodInvocation StringLiteral no bind password
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation QualifiedName contextsecurity credentials
+env SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+env SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+env SimpleName MethodInvocation MethodInvocation SimpleName bind password
+env SimpleName MethodInvocation MethodInvocation StringLiteral no bind password
+put SimpleName MethodInvocation QualifiedName contextsecurity credentials
+put SimpleName MethodInvocation MethodInvocation SimpleName validate utils
+put SimpleName MethodInvocation MethodInvocation SimpleName check not null and not empty
+put SimpleName MethodInvocation MethodInvocation SimpleName bind password
+put SimpleName MethodInvocation MethodInvocation StringLiteral no bind password
+contextsecurity credentials QualifiedName MethodInvocation MethodInvocation SimpleName validate utils
+contextsecurity credentials QualifiedName MethodInvocation MethodInvocation SimpleName check not null and not empty
+contextsecurity credentials QualifiedName MethodInvocation MethodInvocation SimpleName bind password
+contextsecurity credentials QualifiedName MethodInvocation MethodInvocation StringLiteral no bind password
+hashtable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hashtable SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+hashtable SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName env
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName env
+object SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName env
+initial dir context SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName env
+ldap config SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleType SimpleName dir context
+protected Modifier MethodDeclaration SimpleName initialize dir context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName query context
+protected Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+dir context SimpleName SimpleType MethodDeclaration SimpleName initialize dir context
+dir context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query context
+dir context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+dir context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName username
+dir context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName password
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query context
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize dir context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+initialize dir context SimpleName MethodDeclaration SimpleType SimpleName naming exception
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+query context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+query context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+ldap config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+username SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+password SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName naming exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dir context
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize dir context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName naming exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dir context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize dir context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName naming exception

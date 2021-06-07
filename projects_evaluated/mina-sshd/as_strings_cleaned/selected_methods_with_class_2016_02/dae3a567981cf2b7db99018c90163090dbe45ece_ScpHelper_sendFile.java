@@ -1,0 +1,101 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName local
+boolean PrimitiveType SingleVariableDeclaration SimpleName preserve
+int PrimitiveType SingleVariableDeclaration SimpleName buffer size
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName local
+validate utils SimpleName MethodInvocation StringLiteral no local path
+check not null SimpleName MethodInvocation SimpleName local
+check not null SimpleName MethodInvocation StringLiteral no local path
+local SimpleName MethodInvocation StringLiteral no local path
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName normalize
+check not null SimpleName MethodInvocation MethodInvocation SimpleName normalize
+local SimpleName MethodInvocation MethodInvocation SimpleName normalize
+no local path StringLiteral MethodInvocation MethodInvocation SimpleName normalize
+validate utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to absolute path
+check not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to absolute path
+local SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to absolute path
+no local path StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to absolute path
+normalize SimpleName MethodInvocation MethodInvocation SimpleName to absolute path
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName normalize
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName to absolute path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral send filepreservebuffersize sending file {}
+log SimpleName MethodInvocation SimpleName preserve
+log SimpleName MethodInvocation SimpleName buffer size
+debug SimpleName MethodInvocation StringLiteral send filepreservebuffersize sending file {}
+debug SimpleName MethodInvocation SimpleName preserve
+debug SimpleName MethodInvocation SimpleName buffer size
+debug SimpleName MethodInvocation SimpleName path
+send filepreservebuffersize sending file {} StringLiteral MethodInvocation SimpleName preserve
+send filepreservebuffersize sending file {} StringLiteral MethodInvocation SimpleName buffer size
+send filepreservebuffersize sending file {} StringLiteral MethodInvocation SimpleName path
+preserve SimpleName MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName path
+buffer size SimpleName MethodInvocation SimpleName path
+local file scp source stream resolver SimpleName SimpleType ClassInstanceCreation SimpleName path
+send stream SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName local file scp source stream resolver
+send stream SimpleName MethodInvocation ClassInstanceCreation SimpleName path
+send stream SimpleName MethodInvocation SimpleName preserve
+send stream SimpleName MethodInvocation SimpleName buffer size
+local file scp source stream resolver SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName preserve
+path SimpleName ClassInstanceCreation MethodInvocation SimpleName preserve
+local file scp source stream resolver SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName buffer size
+path SimpleName ClassInstanceCreation MethodInvocation SimpleName buffer size
+preserve SimpleName MethodInvocation SimpleName buffer size
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName send file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName preserve
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+void PrimitiveType MethodDeclaration SimpleName send file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName preserve
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+send file SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName preserve
+send file SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+send file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+send file SimpleName MethodDeclaration SimpleType SimpleName io exception
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+preserve SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName preserve
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

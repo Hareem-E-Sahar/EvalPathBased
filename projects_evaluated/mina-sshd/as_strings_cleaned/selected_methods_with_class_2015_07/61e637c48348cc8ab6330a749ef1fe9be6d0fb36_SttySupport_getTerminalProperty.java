@@ -1,0 +1,117 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prop
+string tokenizer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get tty props
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral 
+get tty props SimpleName MethodInvocation ClassInstanceCreation StringLiteral 
+tok SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+tok SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get tty props
+tok SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral 
+string tokenizer SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName tok
+tok SimpleName MethodInvocation SimpleName has more tokens
+tok SimpleName MethodInvocation SimpleName next token
+tok SimpleName MethodInvocation MethodInvocation SimpleName trim
+next token SimpleName MethodInvocation MethodInvocation SimpleName trim
+str SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tok
+str SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next token
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+str SimpleName MethodInvocation SimpleName starts with
+str SimpleName MethodInvocation SimpleName prop
+starts with SimpleName MethodInvocation SimpleName prop
+str SimpleName MethodInvocation SimpleName last index of
+str SimpleName MethodInvocation StringLiteral empty
+last index of SimpleName MethodInvocation StringLiteral empty
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName last index of
+index SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName str
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName last index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral empty
+str SimpleName MethodInvocation SimpleName substring
+str SimpleName MethodInvocation SimpleName index
+substring SimpleName MethodInvocation SimpleName index
+str SimpleName MethodInvocation MethodInvocation SimpleName trim
+substring SimpleName MethodInvocation MethodInvocation SimpleName trim
+index SimpleName MethodInvocation MethodInvocation SimpleName trim
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName str
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index
+integer SimpleName MethodInvocation MethodInvocation SimpleName trim
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName str
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index
+parse int SimpleName MethodInvocation MethodInvocation SimpleName trim
+str SimpleName MethodInvocation SimpleName ends with
+str SimpleName MethodInvocation SimpleName prop
+ends with SimpleName MethodInvocation SimpleName prop
+str SimpleName MethodInvocation SimpleName index of
+str SimpleName MethodInvocation StringLiteral empty
+index of SimpleName MethodInvocation StringLiteral empty
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+index SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName str
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral empty
+str SimpleName MethodInvocation SimpleName substring
+str SimpleName MethodInvocation NumberLiteral empty
+str SimpleName MethodInvocation SimpleName index
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation SimpleName index
+str SimpleName MethodInvocation MethodInvocation SimpleName trim
+substring SimpleName MethodInvocation MethodInvocation SimpleName trim
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName trim
+index SimpleName MethodInvocation MethodInvocation SimpleName trim
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName str
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index
+integer SimpleName MethodInvocation MethodInvocation SimpleName trim
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName str
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index
+parse int SimpleName MethodInvocation MethodInvocation SimpleName trim
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get terminal property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName prop
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get terminal property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prop
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType MethodDeclaration SimpleName get terminal property
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prop
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+get terminal property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get terminal property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prop
+get terminal property SimpleName MethodDeclaration SimpleType SimpleName io exception
+get terminal property SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+prop SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+prop SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get terminal property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get terminal property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

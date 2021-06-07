@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName channel listener
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get channel listener proxy
+public Modifier MethodDeclaration SimpleType SimpleName channel listener
+public Modifier MethodDeclaration SimpleName get channel listener proxy
+public Modifier MethodDeclaration Block ReturnStatement SimpleName channel listener proxy
+channel listener SimpleName SimpleType MethodDeclaration SimpleName get channel listener proxy
+get channel listener proxy SimpleName MethodDeclaration Block ReturnStatement SimpleName channel listener proxy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName channel listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get channel listener proxy
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName channel listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get channel listener proxy

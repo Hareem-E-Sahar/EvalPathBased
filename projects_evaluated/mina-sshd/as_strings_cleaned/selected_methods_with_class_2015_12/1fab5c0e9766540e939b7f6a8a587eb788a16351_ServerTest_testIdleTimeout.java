@@ -1,0 +1,339 @@
+count down latch SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+latch SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName count down latch
+latch SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName count down latch
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName latch
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+count down latch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName latch
+count down latch SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+test echo shelllatch QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName count down latch
+test echo shelllatch QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+idle timeout SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName idle timeout
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idle timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+property resolver utils SimpleName MethodInvocation SimpleName update property
+property resolver utils SimpleName MethodInvocation SimpleName sshd
+property resolver utils SimpleName MethodInvocation QualifiedName factory manageridle timeout
+property resolver utils SimpleName MethodInvocation SimpleName idle timeout
+update property SimpleName MethodInvocation SimpleName sshd
+update property SimpleName MethodInvocation QualifiedName factory manageridle timeout
+update property SimpleName MethodInvocation SimpleName idle timeout
+sshd SimpleName MethodInvocation QualifiedName factory manageridle timeout
+sshd SimpleName MethodInvocation SimpleName idle timeout
+factory manageridle timeout QualifiedName MethodInvocation SimpleName idle timeout
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+output debug message SimpleName MethodInvocation StringLiteral session created s
+output debug message SimpleName MethodInvocation SimpleName session
+session created s StringLiteral MethodInvocation SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session created
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session created
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName session created
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session created SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+output debug message SimpleName MethodInvocation StringLiteral session s event
+output debug message SimpleName MethodInvocation SimpleName session
+output debug message SimpleName MethodInvocation SimpleName event
+session s event StringLiteral MethodInvocation SimpleName session
+session s event StringLiteral MethodInvocation SimpleName event
+session SimpleName MethodInvocation SimpleName event
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session event
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName session event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+output debug message SimpleName MethodInvocation StringLiteral session closed s
+output debug message SimpleName MethodInvocation SimpleName session
+session closed s StringLiteral MethodInvocation SimpleName session
+latch SimpleName MethodInvocation SimpleName count down
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session closed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session closed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session event
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session event
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session event
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+session created SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+session event SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+session event SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+session event SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName session closed
+sshd SimpleName MethodInvocation SimpleName add session listener
+sshd SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName session listener
+add session listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName session listener
+channel listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test channel listener
+test channel listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel listener
+sshd SimpleName MethodInvocation SimpleName add channel listener
+sshd SimpleName MethodInvocation SimpleName channel listener
+add channel listener SimpleName MethodInvocation SimpleName channel listener
+sshd SimpleName MethodInvocation SimpleName start
+client SimpleName MethodInvocation SimpleName start
+create test client session SimpleName MethodInvocation SimpleName sshd
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test client session
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName sshd
+client session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName create shell channel
+shell SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+shell SimpleName VariableDeclarationFragment MethodInvocation SimpleName create shell channel
+channel shell SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName shell
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName out
+err SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName err
+shell SimpleName MethodInvocation SimpleName set out
+shell SimpleName MethodInvocation SimpleName out
+set out SimpleName MethodInvocation SimpleName out
+shell SimpleName MethodInvocation SimpleName set err
+shell SimpleName MethodInvocation SimpleName err
+set err SimpleName MethodInvocation SimpleName err
+shell SimpleName MethodInvocation SimpleName open
+shell SimpleName MethodInvocation MethodInvocation SimpleName verify
+open SimpleName MethodInvocation MethodInvocation SimpleName verify
+shell SimpleName MethodInvocation MethodInvocation NumberLiteral l
+open SimpleName MethodInvocation MethodInvocation NumberLiteral l
+shell SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+open SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+verify SimpleName MethodInvocation NumberLiteral l
+verify SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+channel listener SimpleName MethodInvocation SimpleName wait for modification
+channel listener SimpleName MethodInvocation NumberLiteral l
+channel listener SimpleName MethodInvocation QualifiedName time unitseconds
+wait for modification SimpleName MethodInvocation NumberLiteral l
+wait for modification SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+assert true SimpleName MethodInvocation StringLiteral no changes in activated channels
+assert true SimpleName MethodInvocation MethodInvocation SimpleName channel listener
+assert true SimpleName MethodInvocation MethodInvocation SimpleName wait for modification
+assert true SimpleName MethodInvocation MethodInvocation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+no changes in activated channels StringLiteral MethodInvocation MethodInvocation SimpleName channel listener
+no changes in activated channels StringLiteral MethodInvocation MethodInvocation SimpleName wait for modification
+no changes in activated channels StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+no changes in activated channels StringLiteral MethodInvocation MethodInvocation QualifiedName time unitseconds
+channel listener SimpleName MethodInvocation SimpleName get active channels
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName channel listener
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get active channels
+size SimpleName MethodInvocation MethodInvocation SimpleName channel listener
+size SimpleName MethodInvocation MethodInvocation SimpleName get active channels
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+channel listener SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get active channels SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation StringLiteral no activated server side channels
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+no activated server side channels StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+no activated server side channels StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName size
+no activated server side channels StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+channel listener SimpleName MethodInvocation SimpleName wait for modification
+channel listener SimpleName MethodInvocation NumberLiteral l
+channel listener SimpleName MethodInvocation QualifiedName time unitseconds
+wait for modification SimpleName MethodInvocation NumberLiteral l
+wait for modification SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+assert true SimpleName MethodInvocation StringLiteral no changes in open channels
+assert true SimpleName MethodInvocation MethodInvocation SimpleName channel listener
+assert true SimpleName MethodInvocation MethodInvocation SimpleName wait for modification
+assert true SimpleName MethodInvocation MethodInvocation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+no changes in open channels StringLiteral MethodInvocation MethodInvocation SimpleName channel listener
+no changes in open channels StringLiteral MethodInvocation MethodInvocation SimpleName wait for modification
+no changes in open channels StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+no changes in open channels StringLiteral MethodInvocation MethodInvocation QualifiedName time unitseconds
+channel listener SimpleName MethodInvocation SimpleName get open channels
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName channel listener
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName get open channels
+size SimpleName MethodInvocation MethodInvocation SimpleName channel listener
+size SimpleName MethodInvocation MethodInvocation SimpleName get open channels
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+channel listener SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get open channels SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation StringLiteral no open server side channels
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+no open server side channels StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName generic utils
+no open server side channels StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName size
+no open server side channels StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+collection SimpleName SimpleType ParameterizedType SimpleType QualifiedName client sessionclient session event
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName client sessionclient session eventclosed
+of SimpleName MethodInvocation QualifiedName client sessionclient session eventclosed
+l NumberLiteral InfixExpression SimpleName idle timeout
+s SimpleName MethodInvocation SimpleName wait for
+s SimpleName MethodInvocation MethodInvocation SimpleName enum set
+s SimpleName MethodInvocation MethodInvocation SimpleName of
+s SimpleName MethodInvocation MethodInvocation QualifiedName client sessionclient session eventclosed
+s SimpleName MethodInvocation InfixExpression NumberLiteral l
+s SimpleName MethodInvocation InfixExpression SimpleName idle timeout
+wait for SimpleName MethodInvocation MethodInvocation SimpleName enum set
+wait for SimpleName MethodInvocation MethodInvocation SimpleName of
+wait for SimpleName MethodInvocation MethodInvocation QualifiedName client sessionclient session eventclosed
+wait for SimpleName MethodInvocation InfixExpression NumberLiteral l
+wait for SimpleName MethodInvocation InfixExpression SimpleName idle timeout
+enum set SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+enum set SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName idle timeout
+of SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+of SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName idle timeout
+client sessionclient session eventclosed QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+client sessionclient session eventclosed QualifiedName MethodInvocation MethodInvocation InfixExpression SimpleName idle timeout
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enum set
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName client sessionclient session eventclosed
+res SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral l
+res SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName idle timeout
+session should be closed and authenticated StringLiteral InfixExpression SimpleName res
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName client sessionclient session eventclosed
+enum set SimpleName MethodInvocation QualifiedName client sessionclient session eventauthed
+of SimpleName MethodInvocation QualifiedName client sessionclient session eventclosed
+of SimpleName MethodInvocation QualifiedName client sessionclient session eventauthed
+client sessionclient session eventclosed QualifiedName MethodInvocation QualifiedName client sessionclient session eventauthed
+res SimpleName MethodInvocation SimpleName contains all
+res SimpleName MethodInvocation MethodInvocation SimpleName enum set
+res SimpleName MethodInvocation MethodInvocation SimpleName of
+res SimpleName MethodInvocation MethodInvocation QualifiedName client sessionclient session eventclosed
+res SimpleName MethodInvocation MethodInvocation QualifiedName client sessionclient session eventauthed
+contains all SimpleName MethodInvocation MethodInvocation SimpleName enum set
+contains all SimpleName MethodInvocation MethodInvocation SimpleName of
+contains all SimpleName MethodInvocation MethodInvocation QualifiedName client sessionclient session eventclosed
+contains all SimpleName MethodInvocation MethodInvocation QualifiedName client sessionclient session eventauthed
+assert true SimpleName MethodInvocation InfixExpression StringLiteral session should be closed and authenticated
+assert true SimpleName MethodInvocation InfixExpression SimpleName res
+assert true SimpleName MethodInvocation MethodInvocation SimpleName res
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName client sessionclient session eventclosed
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName client sessionclient session eventauthed
+session should be closed and authenticated StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName res
+session should be closed and authenticated StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains all
+res SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName res
+res SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains all
+client SimpleName MethodInvocation SimpleName stop
+latch SimpleName MethodInvocation SimpleName await
+latch SimpleName MethodInvocation NumberLiteral l
+latch SimpleName MethodInvocation QualifiedName time unitseconds
+await SimpleName MethodInvocation NumberLiteral l
+await SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+assert true SimpleName MethodInvocation StringLiteral session latch not signalled in time
+assert true SimpleName MethodInvocation MethodInvocation SimpleName latch
+assert true SimpleName MethodInvocation MethodInvocation SimpleName await
+assert true SimpleName MethodInvocation MethodInvocation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+session latch not signalled in time StringLiteral MethodInvocation MethodInvocation SimpleName latch
+session latch not signalled in time StringLiteral MethodInvocation MethodInvocation SimpleName await
+session latch not signalled in time StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+session latch not signalled in time StringLiteral MethodInvocation MethodInvocation QualifiedName time unitseconds
+test echo shelllatch QualifiedName MethodInvocation SimpleName await
+test echo shelllatch QualifiedName MethodInvocation NumberLiteral l
+test echo shelllatch QualifiedName MethodInvocation QualifiedName time unitseconds
+await SimpleName MethodInvocation NumberLiteral l
+await SimpleName MethodInvocation QualifiedName time unitseconds
+l NumberLiteral MethodInvocation QualifiedName time unitseconds
+assert true SimpleName MethodInvocation StringLiteral shell latch not signalled in time
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName test echo shelllatch
+assert true SimpleName MethodInvocation MethodInvocation SimpleName await
+assert true SimpleName MethodInvocation MethodInvocation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+shell latch not signalled in time StringLiteral MethodInvocation MethodInvocation QualifiedName test echo shelllatch
+shell latch not signalled in time StringLiteral MethodInvocation MethodInvocation SimpleName await
+shell latch not signalled in time StringLiteral MethodInvocation MethodInvocation NumberLiteral l
+shell latch not signalled in time StringLiteral MethodInvocation MethodInvocation QualifiedName time unitseconds
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test idle timeout
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test idle timeout
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test idle timeout
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test idle timeout SimpleName MethodDeclaration SimpleType SimpleName exception
+test idle timeout SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test idle timeout SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test idle timeout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test idle timeout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test idle timeout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

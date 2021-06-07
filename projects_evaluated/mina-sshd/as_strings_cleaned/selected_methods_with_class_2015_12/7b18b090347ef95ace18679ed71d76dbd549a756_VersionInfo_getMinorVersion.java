@@ -1,0 +1,19 @@
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get minor version
+public Modifier MethodDeclaration Block ReturnStatement SimpleName minor version
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName get minor version
+final Modifier MethodDeclaration Block ReturnStatement SimpleName minor version
+int PrimitiveType MethodDeclaration SimpleName get minor version
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName minor version
+get minor version SimpleName MethodDeclaration Block ReturnStatement SimpleName minor version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get minor version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get minor version

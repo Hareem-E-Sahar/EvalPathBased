@@ -1,0 +1,59 @@
+status SimpleName VariableDeclarationFragment QualifiedName sftp constantsssh fx ok
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName status
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName sftp constantsssh fx ok
+status SimpleName InfixExpression QualifiedName sftp constantsssh fx no matching byte range lock
+sftp constants SimpleName MethodInvocation SimpleName get status name
+sftp constants SimpleName MethodInvocation SimpleName status
+get status name SimpleName MethodInvocation SimpleName status
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp constants
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get status name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+failed to convert status StringLiteral InfixExpression SimpleName status
+failed to convert status StringLiteral InfixExpression StringLiteral :
+failed to convert status StringLiteral InfixExpression SimpleName name
+status SimpleName InfixExpression StringLiteral :
+status SimpleName InfixExpression SimpleName name
+: StringLiteral InfixExpression SimpleName name
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation StringLiteral ssh fx
+starts with SimpleName MethodInvocation StringLiteral ssh fx
+assert true SimpleName MethodInvocation InfixExpression StringLiteral failed to convert status
+assert true SimpleName MethodInvocation InfixExpression SimpleName status
+assert true SimpleName MethodInvocation InfixExpression StringLiteral :
+assert true SimpleName MethodInvocation InfixExpression SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName starts with
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral ssh fx
+failed to convert status StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+failed to convert status StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+failed to convert status StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fx
+status SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+status SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+status SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fx
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName name
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+: StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fx
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName starts with
+name SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral ssh fx
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName status
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName sftp constantsssh fx no matching byte range lock
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName status
+status SimpleName InfixExpression ForStatement PostfixExpression SimpleName status
+sftp constantsssh fx no matching byte range lock QualifiedName InfixExpression ForStatement PostfixExpression SimpleName status
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test substatus name resolution
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test substatus name resolution
+void PrimitiveType MethodDeclaration SimpleName test substatus name resolution
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test substatus name resolution
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test substatus name resolution

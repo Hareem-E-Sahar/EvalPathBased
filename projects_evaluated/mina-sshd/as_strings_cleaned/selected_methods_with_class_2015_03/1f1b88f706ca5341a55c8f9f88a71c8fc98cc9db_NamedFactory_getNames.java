@@ -1,0 +1,46 @@
+named factory SimpleName SimpleType ParameterizedType WildcardType ?
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factories
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+named factory SimpleName SimpleType ParameterizedType WildcardType ?
+named factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName f
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName f
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+f SimpleName MethodInvocation SimpleName get name
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName f
+sb SimpleName MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation SimpleName f
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+? WildcardType ParameterizedType SingleVariableDeclaration EnhancedForStatement SimpleName factories
+f SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName factories
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName factories
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get names
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName factories
+string SimpleName SimpleType MethodDeclaration SimpleName get names
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName factories
+get names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factories
+get names SimpleName MethodDeclaration Block EnhancedForStatement SimpleName factories
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories

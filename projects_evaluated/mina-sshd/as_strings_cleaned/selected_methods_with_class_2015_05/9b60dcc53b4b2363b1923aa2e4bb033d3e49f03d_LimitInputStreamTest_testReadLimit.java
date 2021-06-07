@@ -1,0 +1,279 @@
+detect target folder SimpleName MethodInvocation MethodInvocation SimpleName to path
+target path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName detect target folder
+target path SimpleName VariableDeclarationFragment MethodInvocation SimpleName to path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target path
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+target path SimpleName MethodInvocation SimpleName resolve
+target path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+target path SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+resolve SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+resolve SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName target path
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation SimpleName resolve
+assert hierarchy target folder exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+root folder SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert hierarchy target folder exists
+root folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName target path
+root folder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resolve
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root folder
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral bin
+root folder SimpleName MethodInvocation SimpleName resolve
+root folder SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+root folder SimpleName MethodInvocation InfixExpression StringLiteral bin
+resolve SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+resolve SimpleName MethodInvocation InfixExpression StringLiteral bin
+input file SimpleName VariableDeclarationFragment MethodInvocation SimpleName root folder
+input file SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve
+input file SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral bin
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input file
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression StringLiteral #
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current test name
+# StringLiteral InfixExpression MethodInvocation SimpleName get current test name
+# StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+files SimpleName MethodInvocation SimpleName write
+files SimpleName MethodInvocation SimpleName input file
+files SimpleName MethodInvocation SimpleName data
+write SimpleName MethodInvocation SimpleName input file
+write SimpleName MethodInvocation SimpleName data
+input file SimpleName MethodInvocation SimpleName data
+files SimpleName MethodInvocation SimpleName new input stream
+files SimpleName MethodInvocation SimpleName input file
+new input stream SimpleName MethodInvocation SimpleName input file
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName new input stream
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName input file
+input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName in
+datalength QualifiedName InfixExpression NumberLiteral empty
+max len SimpleName VariableDeclarationFragment InfixExpression QualifiedName datalength
+max len SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName datalength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation SimpleName max len
+expected SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+expected SimpleName VariableDeclarationFragment ArrayCreation SimpleName max len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName expected
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName expected
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName expectedlength
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName expected
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation QualifiedName expectedlength
+empty NumberLiteral MethodInvocation SimpleName expected
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName expectedlength
+expected SimpleName MethodInvocation NumberLiteral empty
+expected SimpleName MethodInvocation QualifiedName expectedlength
+empty NumberLiteral MethodInvocation QualifiedName expectedlength
+byte PrimitiveType ArrayType ArrayCreation QualifiedName expectedlength
+actual SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+actual SimpleName VariableDeclarationFragment ArrayCreation QualifiedName expectedlength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+limit input stream SimpleName SimpleType ClassInstanceCreation SimpleName in
+limit input stream SimpleName SimpleType ClassInstanceCreation QualifiedName expectedlength
+in SimpleName ClassInstanceCreation QualifiedName expectedlength
+limited SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName limit input stream
+limited SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName in
+limited SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName expectedlength
+limit input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName limited
+limited SimpleName MethodInvocation SimpleName is open
+assert true SimpleName MethodInvocation StringLiteral limited stream not marked as open
+assert true SimpleName MethodInvocation MethodInvocation SimpleName limited
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is open
+limited stream not marked as open StringLiteral MethodInvocation MethodInvocation SimpleName limited
+limited stream not marked as open StringLiteral MethodInvocation MethodInvocation SimpleName is open
+limited SimpleName MethodInvocation SimpleName available
+assert equals SimpleName MethodInvocation StringLiteral mismatched initial available data size
+assert equals SimpleName MethodInvocation QualifiedName expectedlength
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName limited
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName available
+mismatched initial available data size StringLiteral MethodInvocation QualifiedName expectedlength
+mismatched initial available data size StringLiteral MethodInvocation MethodInvocation SimpleName limited
+mismatched initial available data size StringLiteral MethodInvocation MethodInvocation SimpleName available
+expectedlength QualifiedName MethodInvocation MethodInvocation SimpleName limited
+expectedlength QualifiedName MethodInvocation MethodInvocation SimpleName available
+limited SimpleName MethodInvocation SimpleName read
+limited SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName limited
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName limited
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation StringLiteral incomplete actual data read
+assert equals SimpleName MethodInvocation QualifiedName actuallength
+assert equals SimpleName MethodInvocation SimpleName read len
+incomplete actual data read StringLiteral MethodInvocation QualifiedName actuallength
+incomplete actual data read StringLiteral MethodInvocation SimpleName read len
+actuallength QualifiedName MethodInvocation SimpleName read len
+assert array equals SimpleName MethodInvocation StringLiteral mismatched read data
+assert array equals SimpleName MethodInvocation SimpleName expected
+assert array equals SimpleName MethodInvocation SimpleName actual
+mismatched read data StringLiteral MethodInvocation SimpleName expected
+mismatched read data StringLiteral MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+limited SimpleName MethodInvocation SimpleName available
+assert equals SimpleName MethodInvocation StringLiteral mismatched remaining available data size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName limited
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName available
+mismatched remaining available data size StringLiteral MethodInvocation NumberLiteral empty
+mismatched remaining available data size StringLiteral MethodInvocation MethodInvocation SimpleName limited
+mismatched remaining available data size StringLiteral MethodInvocation MethodInvocation SimpleName available
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName limited
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName available
+limited SimpleName MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName limited
+read len SimpleName Assignment MethodInvocation SimpleName read
+unexpected success to read one more byte StringLiteral InfixExpression SimpleName read len
+read len SimpleName InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression StringLiteral unexpected success to read one more byte
+assert true SimpleName MethodInvocation InfixExpression SimpleName read len
+assert true SimpleName MethodInvocation InfixExpression SimpleName read len
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unexpected success to read one more byte StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName read len
+unexpected success to read one more byte StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+read len SimpleName InfixExpression MethodInvocation InfixExpression SimpleName read len
+read len SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+limited SimpleName MethodInvocation SimpleName read
+limited SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName Assignment MethodInvocation SimpleName limited
+read len SimpleName Assignment MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName actual
+unexpected success to read extra buffer StringLiteral InfixExpression SimpleName read len
+read len SimpleName InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression StringLiteral unexpected success to read extra buffer
+assert true SimpleName MethodInvocation InfixExpression SimpleName read len
+assert true SimpleName MethodInvocation InfixExpression SimpleName read len
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unexpected success to read extra buffer StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName read len
+unexpected success to read extra buffer StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+read len SimpleName InfixExpression MethodInvocation InfixExpression SimpleName read len
+read len SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+limited SimpleName MethodInvocation SimpleName close
+limited SimpleName MethodInvocation SimpleName is open
+assert false SimpleName MethodInvocation StringLiteral limited stream still marked as open
+assert false SimpleName MethodInvocation MethodInvocation SimpleName limited
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is open
+limited stream still marked as open StringLiteral MethodInvocation MethodInvocation SimpleName limited
+limited stream still marked as open StringLiteral MethodInvocation MethodInvocation SimpleName is open
+limited SimpleName MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName limited
+read len SimpleName Assignment MethodInvocation SimpleName read
+fail SimpleName MethodInvocation StringLiteral unexpected one byte read success after close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+limited SimpleName MethodInvocation SimpleName read
+limited SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName Assignment MethodInvocation SimpleName limited
+read len SimpleName Assignment MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName actual
+unexpected buffer read success after close StringLiteral InfixExpression SimpleName read len
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected buffer read success after close
+fail SimpleName MethodInvocation InfixExpression SimpleName read len
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+limited SimpleName MethodInvocation SimpleName read
+limited SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName Assignment MethodInvocation SimpleName limited
+read len SimpleName Assignment MethodInvocation SimpleName read
+read len SimpleName Assignment MethodInvocation SimpleName actual
+unexpected buffer read success after close StringLiteral InfixExpression SimpleName read len
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected buffer read success after close
+fail SimpleName MethodInvocation InfixExpression SimpleName read len
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+limited SimpleName MethodInvocation SimpleName skip
+limited SimpleName MethodInvocation QualifiedName bytesize
+skip SimpleName MethodInvocation QualifiedName bytesize
+int PrimitiveType CastExpression MethodInvocation SimpleName limited
+int PrimitiveType CastExpression MethodInvocation SimpleName skip
+int PrimitiveType CastExpression MethodInvocation QualifiedName bytesize
+read len SimpleName Assignment CastExpression PrimitiveType int
+read len SimpleName Assignment CastExpression MethodInvocation SimpleName limited
+read len SimpleName Assignment CastExpression MethodInvocation SimpleName skip
+read len SimpleName Assignment CastExpression MethodInvocation QualifiedName bytesize
+unexpected skip success after close StringLiteral InfixExpression SimpleName read len
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected skip success after close
+fail SimpleName MethodInvocation InfixExpression SimpleName read len
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+limited SimpleName MethodInvocation SimpleName available
+read len SimpleName Assignment MethodInvocation SimpleName limited
+read len SimpleName Assignment MethodInvocation SimpleName available
+unexpected available success after close StringLiteral InfixExpression SimpleName read len
+fail SimpleName MethodInvocation InfixExpression StringLiteral unexpected available success after close
+fail SimpleName MethodInvocation InfixExpression SimpleName read len
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+in SimpleName MethodInvocation SimpleName read
+in SimpleName MethodInvocation SimpleName actual
+read SimpleName MethodInvocation SimpleName actual
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+read len SimpleName VariableDeclarationFragment MethodInvocation SimpleName actual
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName actual
+datalength QualifiedName InfixExpression QualifiedName expectedlength
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation QualifiedName actuallength
+math SimpleName MethodInvocation InfixExpression QualifiedName datalength
+math SimpleName MethodInvocation InfixExpression QualifiedName expectedlength
+min SimpleName MethodInvocation QualifiedName actuallength
+min SimpleName MethodInvocation InfixExpression QualifiedName datalength
+min SimpleName MethodInvocation InfixExpression QualifiedName expectedlength
+actuallength QualifiedName MethodInvocation InfixExpression QualifiedName datalength
+actuallength QualifiedName MethodInvocation InfixExpression QualifiedName expectedlength
+assert equals SimpleName MethodInvocation StringLiteral incomplete extra data read
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName math
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName min
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName actuallength
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName datalength
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName expectedlength
+assert equals SimpleName MethodInvocation SimpleName read len
+incomplete extra data read StringLiteral MethodInvocation MethodInvocation SimpleName math
+incomplete extra data read StringLiteral MethodInvocation MethodInvocation SimpleName min
+incomplete extra data read StringLiteral MethodInvocation MethodInvocation QualifiedName actuallength
+incomplete extra data read StringLiteral MethodInvocation MethodInvocation InfixExpression QualifiedName datalength
+incomplete extra data read StringLiteral MethodInvocation MethodInvocation InfixExpression QualifiedName expectedlength
+incomplete extra data read StringLiteral MethodInvocation SimpleName read len
+math SimpleName MethodInvocation MethodInvocation SimpleName read len
+min SimpleName MethodInvocation MethodInvocation SimpleName read len
+actuallength QualifiedName MethodInvocation MethodInvocation SimpleName read len
+datalength QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName read len
+expectedlength QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName read len
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test read limit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test read limit
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test read limit
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test read limit SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test read limit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test read limit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

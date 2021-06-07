@@ -1,0 +1,71 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+attribute SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute
+attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attributes SimpleName MethodInvocation SimpleName key set
+attributes SimpleName MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation SimpleName attribute
+get SimpleName MethodInvocation SimpleName attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attributes
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+long SimpleName SimpleType CastExpression SimpleName value
+new size SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName long
+new size SimpleName VariableDeclarationFragment CastExpression SimpleName value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName value
+file output stream SimpleName SimpleType ClassInstanceCreation SimpleName file
+file output stream SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+file SimpleName ClassInstanceCreation BooleanLiteral true
+file output stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get channel
+file SimpleName ClassInstanceCreation MethodInvocation SimpleName get channel
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get channel
+out chan SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName file
+out chan SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral true
+out chan SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel
+file channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out chan
+out chan SimpleName MethodInvocation SimpleName truncate
+out chan SimpleName MethodInvocation SimpleName new size
+truncate SimpleName MethodInvocation SimpleName new size
+out chan SimpleName MethodInvocation SimpleName close
+long SimpleName SimpleType CastExpression SimpleName value
+set last modified SimpleName MethodInvocation CastExpression SimpleType SimpleName long
+set last modified SimpleName MethodInvocation CastExpression SimpleName value
+unsupported SimpleName MethodInvocation SimpleName add
+unsupported SimpleName MethodInvocation SimpleName attribute
+add SimpleName MethodInvocation SimpleName attribute
+attribute SimpleName SwitchStatement SwitchCase SimpleName size
+attribute SimpleName SwitchStatement Block VariableDeclarationStatement PrimitiveType long
+attribute SimpleName SwitchStatement SwitchCase SimpleName last modified time
+attribute SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set last modified
+size SimpleName SwitchCase SwitchStatement SwitchCase SimpleName last modified time
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName attributes
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+handle unsupported attributes SimpleName MethodInvocation SimpleName unsupported
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName set attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+set attributes SimpleName MethodDeclaration SimpleType SimpleName io exception
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

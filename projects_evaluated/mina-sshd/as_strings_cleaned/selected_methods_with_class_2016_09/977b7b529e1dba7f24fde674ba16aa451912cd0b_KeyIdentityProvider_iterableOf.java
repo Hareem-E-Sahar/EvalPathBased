@@ -1,0 +1,38 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName key pair
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName providers
+p SimpleName ExpressionMethodReference SimpleName load keys
+p SimpleName VariableDeclarationFragment LambdaExpression ExpressionMethodReference SimpleName p
+p SimpleName VariableDeclarationFragment LambdaExpression ExpressionMethodReference SimpleName load keys
+generic utils SimpleName MethodInvocation SimpleName wrap iterable
+generic utils SimpleName MethodInvocation SimpleName providers
+generic utils SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName p
+generic utils SimpleName MethodInvocation LambdaExpression ExpressionMethodReference SimpleName p
+generic utils SimpleName MethodInvocation LambdaExpression ExpressionMethodReference SimpleName load keys
+wrap iterable SimpleName MethodInvocation SimpleName providers
+wrap iterable SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName p
+wrap iterable SimpleName MethodInvocation LambdaExpression ExpressionMethodReference SimpleName p
+wrap iterable SimpleName MethodInvocation LambdaExpression ExpressionMethodReference SimpleName load keys
+providers SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName p
+providers SimpleName MethodInvocation LambdaExpression ExpressionMethodReference SimpleName p
+providers SimpleName MethodInvocation LambdaExpression ExpressionMethodReference SimpleName load keys
+generic utils SimpleName MethodInvocation SimpleName multi iterable suppliers
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName wrap iterable
+generic utils SimpleName MethodInvocation MethodInvocation SimpleName providers
+multi iterable suppliers SimpleName MethodInvocation MethodInvocation SimpleName generic utils
+multi iterable suppliers SimpleName MethodInvocation MethodInvocation SimpleName wrap iterable
+multi iterable suppliers SimpleName MethodInvocation MethodInvocation SimpleName providers
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key pair
+static Modifier MethodDeclaration SimpleName iterable of
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName providers
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterable of
+key pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterable of
+iterable of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterable of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName providers
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterable of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName providers

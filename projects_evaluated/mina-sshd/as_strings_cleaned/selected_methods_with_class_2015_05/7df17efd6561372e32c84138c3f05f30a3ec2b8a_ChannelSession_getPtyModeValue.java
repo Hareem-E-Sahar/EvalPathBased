@@ -1,0 +1,35 @@
+pty mode SimpleName SimpleType SingleVariableDeclaration SimpleName mode
+get environment SimpleName MethodInvocation MethodInvocation SimpleName get pty modes
+get environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get pty modes SimpleName MethodInvocation MethodInvocation SimpleName get
+get environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mode
+get pty modes SimpleName MethodInvocation MethodInvocation SimpleName mode
+get SimpleName MethodInvocation SimpleName mode
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get pty modes
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName mode
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName int value
+v SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName v
+v SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName int value
+v SimpleName InfixExpression ConditionalExpression NumberLiteral empty
+v SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+int value SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName get pty mode value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pty mode
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName mode
+int PrimitiveType MethodDeclaration SimpleName get pty mode value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pty mode
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mode
+get pty mode value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pty mode
+get pty mode value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mode
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get pty mode value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get pty mode value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode

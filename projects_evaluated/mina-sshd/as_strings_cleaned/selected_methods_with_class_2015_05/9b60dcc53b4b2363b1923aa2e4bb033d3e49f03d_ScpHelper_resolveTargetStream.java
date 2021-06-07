@@ -1,0 +1,110 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+long PrimitiveType SingleVariableDeclaration SimpleName length
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+log SimpleName MethodInvocation SimpleName is debug enabled
+resolve target stream StringLiteral InfixExpression SimpleName name
+resolve target stream StringLiteral InfixExpression StringLiteral )[
+resolve target stream StringLiteral InfixExpression SimpleName perms
+resolve target stream StringLiteral InfixExpression StringLiteral len
+resolve target stream StringLiteral InfixExpression SimpleName length
+name SimpleName InfixExpression StringLiteral )[
+name SimpleName InfixExpression SimpleName perms
+name SimpleName InfixExpression StringLiteral len
+name SimpleName InfixExpression SimpleName length
+name SimpleName InfixExpression StringLiteral ] started local stream download
+)[ StringLiteral InfixExpression SimpleName perms
+)[ StringLiteral InfixExpression StringLiteral len
+)[ StringLiteral InfixExpression SimpleName length
+)[ StringLiteral InfixExpression StringLiteral ] started local stream download
+perms SimpleName InfixExpression StringLiteral len
+perms SimpleName InfixExpression SimpleName length
+perms SimpleName InfixExpression StringLiteral ] started local stream download
+len StringLiteral InfixExpression SimpleName length
+len StringLiteral InfixExpression StringLiteral ] started local stream download
+length SimpleName InfixExpression StringLiteral ] started local stream download
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral resolve target stream
+log SimpleName MethodInvocation InfixExpression SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral )[
+log SimpleName MethodInvocation InfixExpression SimpleName perms
+log SimpleName MethodInvocation InfixExpression StringLiteral len
+log SimpleName MethodInvocation InfixExpression SimpleName length
+log SimpleName MethodInvocation InfixExpression StringLiteral ] started local stream download
+debug SimpleName MethodInvocation InfixExpression StringLiteral resolve target stream
+debug SimpleName MethodInvocation InfixExpression SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral )[
+debug SimpleName MethodInvocation InfixExpression SimpleName perms
+debug SimpleName MethodInvocation InfixExpression StringLiteral len
+debug SimpleName MethodInvocation InfixExpression SimpleName length
+debug SimpleName MethodInvocation InfixExpression StringLiteral ] started local stream download
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName output stream
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName output stream
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName resolve target stream
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName resolve target stream
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName output stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve target stream
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName length
+public Modifier MethodDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SimpleName resolve target stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName length
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+output stream SimpleName SimpleType MethodDeclaration SimpleName resolve target stream
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName length
+output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName perms
+output stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+resolve target stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve target stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+resolve target stream SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+resolve target stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName length
+resolve target stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+resolve target stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+resolve target stream SimpleName MethodDeclaration Block ReturnStatement SimpleName local
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+length SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+length SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName output stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve target stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName output stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve target stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

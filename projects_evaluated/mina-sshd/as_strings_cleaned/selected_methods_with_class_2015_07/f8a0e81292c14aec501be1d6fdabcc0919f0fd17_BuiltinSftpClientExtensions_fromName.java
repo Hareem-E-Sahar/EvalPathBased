@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName n
+named resourceutils QualifiedName MethodInvocation SimpleName find by name
+named resourceutils QualifiedName MethodInvocation SimpleName n
+named resourceutils QualifiedName MethodInvocation QualifiedName stringcase insensitive order
+named resourceutils QualifiedName MethodInvocation SimpleName values
+find by name SimpleName MethodInvocation SimpleName n
+find by name SimpleName MethodInvocation QualifiedName stringcase insensitive order
+find by name SimpleName MethodInvocation SimpleName values
+n SimpleName MethodInvocation QualifiedName stringcase insensitive order
+n SimpleName MethodInvocation SimpleName values
+stringcase insensitive order QualifiedName MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+public Modifier MethodDeclaration SimpleName from name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+static Modifier MethodDeclaration SimpleName from name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+final Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+final Modifier MethodDeclaration SimpleName from name
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+builtin sftp client extensions SimpleName SimpleType MethodDeclaration SimpleName from name
+builtin sftp client extensions SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+from name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+public Modifier TypeDeclaration MethodDeclaration SimpleName from name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName load keys
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName key
+get key type SimpleName MethodInvocation SimpleName key
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation MethodInvocation SimpleName get key type
+type SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get key type
+equals SimpleName MethodInvocation MethodInvocation SimpleName key
+key pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+public Modifier MethodDeclaration SimpleType SimpleName key pair
+public Modifier MethodDeclaration SimpleName load key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName keys
+key pair SimpleName SimpleType MethodDeclaration SimpleName load key
+key pair SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+load key SimpleName MethodDeclaration Block EnhancedForStatement SimpleName keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+public Modifier TypeDeclaration MethodDeclaration SimpleName load key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key pair
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

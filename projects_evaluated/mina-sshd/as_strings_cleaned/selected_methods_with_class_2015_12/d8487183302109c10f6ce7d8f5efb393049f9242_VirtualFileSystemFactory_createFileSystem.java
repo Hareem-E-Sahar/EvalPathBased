@@ -1,0 +1,59 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+session SimpleName MethodInvocation SimpleName get username
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName get username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+compute root dir SimpleName MethodInvocation SimpleName username
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute root dir
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName username
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+invalid path exception SimpleName SimpleType ClassInstanceCreation SimpleName username
+invalid path exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot resolve home directory
+username SimpleName ClassInstanceCreation StringLiteral cannot resolve home directory
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+rooted file system provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new file system
+rooted file system provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName dir
+new file system SimpleName MethodInvocation SimpleName dir
+new file system SimpleName MethodInvocation MethodInvocation SimpleName collections
+new file system SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+new file system SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+new file system SimpleName MethodInvocation MethodInvocation SimpleName empty map
+dir SimpleName MethodInvocation MethodInvocation SimpleName collections
+dir SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+dir SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+dir SimpleName MethodInvocation MethodInvocation SimpleName empty map
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create file system
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName create file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+file system SimpleName SimpleType MethodDeclaration SimpleName create file system
+file system SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+file system SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+create file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+create file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName create file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

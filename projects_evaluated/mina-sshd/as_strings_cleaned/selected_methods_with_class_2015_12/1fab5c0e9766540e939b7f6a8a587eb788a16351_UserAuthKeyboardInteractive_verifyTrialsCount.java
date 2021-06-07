@@ -1,0 +1,115 @@
+client session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType SingleVariableDeclaration SimpleName service
+int PrimitiveType SingleVariableDeclaration SimpleName cmd
+int PrimitiveType SingleVariableDeclaration SimpleName nb trials
+int PrimitiveType SingleVariableDeclaration SimpleName max allowed
+log SimpleName MethodInvocation SimpleName is debug enabled
+get auth command name SimpleName MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral verify trials count cmd - {} out of {}
+log SimpleName MethodInvocation SimpleName session
+log SimpleName MethodInvocation SimpleName service
+log SimpleName MethodInvocation MethodInvocation SimpleName get auth command name
+log SimpleName MethodInvocation MethodInvocation SimpleName cmd
+debug SimpleName MethodInvocation StringLiteral verify trials count cmd - {} out of {}
+debug SimpleName MethodInvocation SimpleName session
+debug SimpleName MethodInvocation SimpleName service
+debug SimpleName MethodInvocation MethodInvocation SimpleName get auth command name
+debug SimpleName MethodInvocation MethodInvocation SimpleName cmd
+debug SimpleName MethodInvocation SimpleName nb trials
+verify trials count cmd - {} out of {} StringLiteral MethodInvocation SimpleName session
+verify trials count cmd - {} out of {} StringLiteral MethodInvocation SimpleName service
+verify trials count cmd - {} out of {} StringLiteral MethodInvocation MethodInvocation SimpleName get auth command name
+verify trials count cmd - {} out of {} StringLiteral MethodInvocation MethodInvocation SimpleName cmd
+verify trials count cmd - {} out of {} StringLiteral MethodInvocation SimpleName nb trials
+verify trials count cmd - {} out of {} StringLiteral MethodInvocation SimpleName max allowed
+session SimpleName MethodInvocation SimpleName service
+session SimpleName MethodInvocation MethodInvocation SimpleName get auth command name
+session SimpleName MethodInvocation MethodInvocation SimpleName cmd
+session SimpleName MethodInvocation SimpleName nb trials
+session SimpleName MethodInvocation SimpleName max allowed
+service SimpleName MethodInvocation MethodInvocation SimpleName get auth command name
+service SimpleName MethodInvocation MethodInvocation SimpleName cmd
+service SimpleName MethodInvocation SimpleName nb trials
+service SimpleName MethodInvocation SimpleName max allowed
+get auth command name SimpleName MethodInvocation MethodInvocation SimpleName nb trials
+cmd SimpleName MethodInvocation MethodInvocation SimpleName nb trials
+get auth command name SimpleName MethodInvocation MethodInvocation SimpleName max allowed
+cmd SimpleName MethodInvocation MethodInvocation SimpleName max allowed
+nb trials SimpleName MethodInvocation SimpleName max allowed
+nb trials SimpleName InfixExpression SimpleName max allowed
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName verify trials count
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+boolean PrimitiveType MethodDeclaration SimpleName verify trials count
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName service
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client session
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+verify trials count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+service SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+nb trials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+nb trials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify trials count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify trials count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nb trials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max allowed

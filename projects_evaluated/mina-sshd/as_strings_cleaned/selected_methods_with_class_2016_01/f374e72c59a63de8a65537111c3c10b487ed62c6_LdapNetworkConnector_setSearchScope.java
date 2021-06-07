@@ -1,0 +1,24 @@
+int PrimitiveType SingleVariableDeclaration SimpleName scope
+search controls SimpleName MethodInvocation SimpleName set search scope
+search controls SimpleName MethodInvocation SimpleName scope
+set search scope SimpleName MethodInvocation SimpleName scope
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set search scope
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scope
+void PrimitiveType MethodDeclaration SimpleName set search scope
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scope
+set search scope SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set search scope SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scope
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set search scope
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set search scope
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope

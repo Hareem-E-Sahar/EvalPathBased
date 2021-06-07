@@ -1,0 +1,104 @@
+c SimpleName TypeParameter SimpleType SimpleName private key encryption context
+c SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName alg info
+validate utils SimpleName MethodInvocation SimpleName check not null and not empty
+validate utils SimpleName MethodInvocation SimpleName alg info
+validate utils SimpleName MethodInvocation StringLiteral no encryption algorithm data
+check not null and not empty SimpleName MethodInvocation SimpleName alg info
+check not null and not empty SimpleName MethodInvocation StringLiteral no encryption algorithm data
+alg info SimpleName MethodInvocation StringLiteral no encryption algorithm data
+generic utils SimpleName MethodInvocation SimpleName split
+generic utils SimpleName MethodInvocation SimpleName alg info
+generic utils SimpleName MethodInvocation CharacterLiteral -
+split SimpleName MethodInvocation SimpleName alg info
+split SimpleName MethodInvocation CharacterLiteral -
+alg info SimpleName MethodInvocation CharacterLiteral -
+cipher data SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+cipher data SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+cipher data SimpleName VariableDeclarationFragment MethodInvocation SimpleName alg info
+cipher data SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral -
+cipher datalength QualifiedName InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation InfixExpression QualifiedName cipher datalength
+validate utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+validate utils SimpleName MethodInvocation StringLiteral bad encryption alogrithm data s
+validate utils SimpleName MethodInvocation SimpleName alg info
+check true SimpleName MethodInvocation InfixExpression QualifiedName cipher datalength
+check true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check true SimpleName MethodInvocation StringLiteral bad encryption alogrithm data s
+check true SimpleName MethodInvocation SimpleName alg info
+cipher datalength QualifiedName InfixExpression MethodInvocation StringLiteral bad encryption alogrithm data s
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral bad encryption alogrithm data s
+cipher datalength QualifiedName InfixExpression MethodInvocation SimpleName alg info
+empty NumberLiteral InfixExpression MethodInvocation SimpleName alg info
+bad encryption alogrithm data s StringLiteral MethodInvocation SimpleName alg info
+cipher data SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName set cipher name
+context SimpleName MethodInvocation ArrayAccess SimpleName cipher data
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set cipher name SimpleName MethodInvocation ArrayAccess SimpleName cipher data
+set cipher name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cipher data SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName set cipher type
+context SimpleName MethodInvocation ArrayAccess SimpleName cipher data
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set cipher type SimpleName MethodInvocation ArrayAccess SimpleName cipher data
+set cipher type SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cipher data SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName set cipher mode
+context SimpleName MethodInvocation ArrayAccess SimpleName cipher data
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set cipher mode SimpleName MethodInvocation ArrayAccess SimpleName cipher data
+set cipher mode SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration TypeParameter SimpleName c
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName private key encryption context
+public Modifier MethodDeclaration SimpleType SimpleName c
+public Modifier MethodDeclaration SimpleName parse algorithm info
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration TypeParameter SimpleName c
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName private key encryption context
+static Modifier MethodDeclaration SimpleType SimpleName c
+static Modifier MethodDeclaration SimpleName parse algorithm info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+final Modifier MethodDeclaration TypeParameter SimpleName c
+final Modifier MethodDeclaration TypeParameter SimpleType SimpleName private key encryption context
+final Modifier MethodDeclaration SimpleType SimpleName c
+final Modifier MethodDeclaration SimpleName parse algorithm info
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName alg info
+c SimpleName TypeParameter MethodDeclaration SimpleType SimpleName c
+c SimpleName TypeParameter MethodDeclaration SimpleName parse algorithm info
+private key encryption context SimpleName SimpleType TypeParameter MethodDeclaration SimpleName parse algorithm info
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName context
+c SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName alg info
+c SimpleName SimpleType MethodDeclaration SimpleName parse algorithm info
+c SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+c SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName alg info
+parse algorithm info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName c
+parse algorithm info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+parse algorithm info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse algorithm info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alg info
+parse algorithm info SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alg info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse algorithm info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alg info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse algorithm info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alg info

@@ -1,0 +1,55 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+posix file permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+pf SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+posix file permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+pf SimpleName Assignment SimpleName s irusr
+pf SimpleName Assignment SimpleName s iwusr
+pf SimpleName Assignment SimpleName s ixusr
+pf SimpleName Assignment SimpleName s irgrp
+pf SimpleName Assignment SimpleName s iwgrp
+pf SimpleName Assignment SimpleName s ixgrp
+pf SimpleName Assignment SimpleName s iroth
+pf SimpleName Assignment SimpleName s iwoth
+pf SimpleName Assignment SimpleName s ixoth
+p SimpleName SwitchStatement SwitchCase SimpleName owner read
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s irusr
+p SimpleName SwitchStatement SwitchCase SimpleName owner write
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName pf
+p SimpleName SwitchStatement ExpressionStatement Assignment SimpleName s iwusr
+owner read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner write
+owner write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName owner execute
+owner execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group read
+group read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group write
+group write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group execute
+group execute SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others read
+others read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others write
+others write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName others execute
+posix file permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName perms
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName perms
+perms SimpleName EnhancedForStatement Block SwitchStatement SimpleName p
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName pf
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName attributes to permissions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName pf
+int PrimitiveType MethodDeclaration SimpleName attributes to permissions
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perms
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName pf
+attributes to permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+attributes to permissions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+attributes to permissions SimpleName MethodDeclaration Block ReturnStatement SimpleName pf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName attributes to permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attributes to permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms

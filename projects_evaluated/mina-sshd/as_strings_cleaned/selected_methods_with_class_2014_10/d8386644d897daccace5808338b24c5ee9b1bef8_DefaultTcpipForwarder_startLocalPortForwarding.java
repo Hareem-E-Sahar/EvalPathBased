@@ -1,0 +1,69 @@
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName local
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName remote
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral local address is null
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral remote address is null
+local SimpleName MethodInvocation SimpleName get port
+local SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+local SimpleName MethodInvocation SimpleName get port
+invalid local port StringLiteral InfixExpression MethodInvocation SimpleName local
+invalid local port StringLiteral InfixExpression MethodInvocation SimpleName get port
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid local port
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral tcpip forwarder is closed
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral tcpip forwarder is closing
+do bind SimpleName MethodInvocation SimpleName local
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName do bind
+bound SimpleName VariableDeclarationFragment MethodInvocation SimpleName local
+sshd socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound
+bound SimpleName MethodInvocation SimpleName get port
+local to remote SimpleName MethodInvocation SimpleName put
+local to remote SimpleName MethodInvocation MethodInvocation SimpleName bound
+local to remote SimpleName MethodInvocation MethodInvocation SimpleName get port
+local to remote SimpleName MethodInvocation SimpleName remote
+put SimpleName MethodInvocation MethodInvocation SimpleName bound
+put SimpleName MethodInvocation MethodInvocation SimpleName get port
+put SimpleName MethodInvocation SimpleName remote
+bound SimpleName MethodInvocation MethodInvocation SimpleName remote
+get port SimpleName MethodInvocation MethodInvocation SimpleName remote
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SimpleName start local port forwarding
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote
+synchronized Modifier MethodDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SimpleName start local port forwarding
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName local
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleName start local port forwarding
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local
+sshd socket address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName remote
+sshd socket address SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+start local port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+start local port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local
+start local port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+start local port forwarding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote
+start local port forwarding SimpleName MethodDeclaration SimpleType SimpleName io exception
+start local port forwarding SimpleName MethodDeclaration Block ReturnStatement SimpleName bound
+local SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+local SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+remote SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+public Modifier TypeDeclaration MethodDeclaration SimpleName start local port forwarding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sshd socket address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start local port forwarding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

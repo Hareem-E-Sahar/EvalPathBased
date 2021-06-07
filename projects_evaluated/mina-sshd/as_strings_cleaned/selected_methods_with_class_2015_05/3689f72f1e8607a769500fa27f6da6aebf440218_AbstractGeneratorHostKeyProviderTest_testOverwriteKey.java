@@ -1,0 +1,72 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+temporary folder SimpleName MethodInvocation SimpleName new file
+key pair file SimpleName VariableDeclarationFragment MethodInvocation SimpleName temporary folder
+key pair file SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key pair file
+test provider SimpleName SimpleType ClassInstanceCreation SimpleName key pair file
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test provider
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName key pair file
+test provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+provider SimpleName MethodInvocation SimpleName load keys
+provider SimpleName MethodInvocation SimpleName get write count
+assert equals SimpleName MethodInvocation StringLiteral mismatched generate write count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get write count
+mismatched generate write count StringLiteral MethodInvocation NumberLiteral empty
+mismatched generate write count StringLiteral MethodInvocation MethodInvocation SimpleName provider
+mismatched generate write count StringLiteral MethodInvocation MethodInvocation SimpleName get write count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName provider
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get write count
+test provider SimpleName SimpleType ClassInstanceCreation SimpleName key pair file
+provider SimpleName Assignment ClassInstanceCreation SimpleType SimpleName test provider
+provider SimpleName Assignment ClassInstanceCreation SimpleName key pair file
+provider SimpleName MethodInvocation SimpleName set overwrite allowed
+provider SimpleName MethodInvocation BooleanLiteral false
+set overwrite allowed SimpleName MethodInvocation BooleanLiteral false
+provider SimpleName MethodInvocation SimpleName load keys
+provider SimpleName MethodInvocation SimpleName get write count
+assert equals SimpleName MethodInvocation StringLiteral mismatched load write count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get write count
+mismatched load write count StringLiteral MethodInvocation NumberLiteral empty
+mismatched load write count StringLiteral MethodInvocation MethodInvocation SimpleName provider
+mismatched load write count StringLiteral MethodInvocation MethodInvocation SimpleName get write count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName provider
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get write count
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName test
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName test
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName test overwrite key
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName test overwrite key
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test overwrite key
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test overwrite key
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test overwrite key
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test overwrite key SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test overwrite key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test overwrite key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

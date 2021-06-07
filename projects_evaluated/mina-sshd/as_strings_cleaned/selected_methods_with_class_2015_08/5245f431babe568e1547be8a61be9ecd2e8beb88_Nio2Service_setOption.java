@@ -1,0 +1,271 @@
+network channel SimpleName SimpleType SingleVariableDeclaration SimpleName socket
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+socket option SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+socket option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName option
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName option
+t SimpleName SimpleType SingleVariableDeclaration SimpleName default value
+factory manager utils SimpleName MethodInvocation SimpleName get string
+factory manager utils SimpleName MethodInvocation SimpleName manager
+factory manager utils SimpleName MethodInvocation SimpleName property
+get string SimpleName MethodInvocation SimpleName manager
+get string SimpleName MethodInvocation SimpleName property
+manager SimpleName MethodInvocation SimpleName property
+val str SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory manager utils
+val str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+val str SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+val str SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val str
+val SimpleName VariableDeclarationFragment SimpleName default value
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName val str
+is empty SimpleName MethodInvocation SimpleName val str
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+option SimpleName MethodInvocation SimpleName type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName option
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+type SimpleName InfixExpression TypeLiteral SimpleType SimpleName integer
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName val str
+value of SimpleName MethodInvocation SimpleName val str
+type SimpleName MethodInvocation SimpleName cast
+type SimpleName MethodInvocation MethodInvocation SimpleName integer
+type SimpleName MethodInvocation MethodInvocation SimpleName value of
+type SimpleName MethodInvocation MethodInvocation SimpleName val str
+cast SimpleName MethodInvocation MethodInvocation SimpleName integer
+cast SimpleName MethodInvocation MethodInvocation SimpleName value of
+cast SimpleName MethodInvocation MethodInvocation SimpleName val str
+val SimpleName Assignment MethodInvocation SimpleName type
+val SimpleName Assignment MethodInvocation SimpleName cast
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName integer
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName val str
+type SimpleName InfixExpression TypeLiteral SimpleType SimpleName boolean
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation SimpleName val str
+value of SimpleName MethodInvocation SimpleName val str
+type SimpleName MethodInvocation SimpleName cast
+type SimpleName MethodInvocation MethodInvocation SimpleName boolean
+type SimpleName MethodInvocation MethodInvocation SimpleName value of
+type SimpleName MethodInvocation MethodInvocation SimpleName val str
+cast SimpleName MethodInvocation MethodInvocation SimpleName boolean
+cast SimpleName MethodInvocation MethodInvocation SimpleName value of
+cast SimpleName MethodInvocation MethodInvocation SimpleName val str
+val SimpleName Assignment MethodInvocation SimpleName type
+val SimpleName Assignment MethodInvocation SimpleName cast
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName val str
+unsupported socket option type StringLiteral InfixExpression SimpleName type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported socket option type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+socket option SimpleName SimpleType ParameterizedType WildcardType ?
+socket SimpleName MethodInvocation SimpleName supported options
+supported SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+supported SimpleName VariableDeclarationFragment MethodInvocation SimpleName supported options
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName supported
+size SimpleName MethodInvocation SimpleName supported
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+supported SimpleName MethodInvocation InfixExpression NumberLiteral empty
+supported SimpleName MethodInvocation SimpleName contains
+supported SimpleName MethodInvocation SimpleName option
+contains SimpleName MethodInvocation SimpleName option
+unsupported socket option ( StringLiteral InfixExpression SimpleName option
+unsupported socket option ( StringLiteral InfixExpression StringLiteral ) to set using property
+unsupported socket option ( StringLiteral InfixExpression SimpleName property
+unsupported socket option ( StringLiteral InfixExpression StringLiteral value
+unsupported socket option ( StringLiteral InfixExpression SimpleName val
+option SimpleName InfixExpression StringLiteral ) to set using property
+option SimpleName InfixExpression SimpleName property
+option SimpleName InfixExpression StringLiteral value
+option SimpleName InfixExpression SimpleName val
+) to set using property StringLiteral InfixExpression SimpleName property
+) to set using property StringLiteral InfixExpression StringLiteral value
+) to set using property StringLiteral InfixExpression SimpleName val
+property SimpleName InfixExpression StringLiteral value
+property SimpleName InfixExpression SimpleName val
+value StringLiteral InfixExpression SimpleName val
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unsupported socket option (
+log SimpleName MethodInvocation InfixExpression SimpleName option
+log SimpleName MethodInvocation InfixExpression StringLiteral ) to set using property
+log SimpleName MethodInvocation InfixExpression SimpleName property
+log SimpleName MethodInvocation InfixExpression StringLiteral value
+log SimpleName MethodInvocation InfixExpression SimpleName val
+warn SimpleName MethodInvocation InfixExpression StringLiteral unsupported socket option (
+warn SimpleName MethodInvocation InfixExpression SimpleName option
+warn SimpleName MethodInvocation InfixExpression StringLiteral ) to set using property
+warn SimpleName MethodInvocation InfixExpression SimpleName property
+warn SimpleName MethodInvocation InfixExpression StringLiteral value
+warn SimpleName MethodInvocation InfixExpression SimpleName val
+socket SimpleName MethodInvocation SimpleName set option
+socket SimpleName MethodInvocation SimpleName option
+socket SimpleName MethodInvocation SimpleName val
+set option SimpleName MethodInvocation SimpleName option
+set option SimpleName MethodInvocation SimpleName val
+option SimpleName MethodInvocation SimpleName val
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral set option from property
+log SimpleName MethodInvocation SimpleName option
+log SimpleName MethodInvocation SimpleName val
+log SimpleName MethodInvocation SimpleName property
+debug SimpleName MethodInvocation StringLiteral set option from property
+debug SimpleName MethodInvocation SimpleName option
+debug SimpleName MethodInvocation SimpleName val
+debug SimpleName MethodInvocation SimpleName property
+set option from property StringLiteral MethodInvocation SimpleName option
+set option from property StringLiteral MethodInvocation SimpleName val
+set option from property StringLiteral MethodInvocation SimpleName property
+option SimpleName MethodInvocation SimpleName val
+option SimpleName MethodInvocation SimpleName property
+val SimpleName MethodInvocation SimpleName property
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get message
+unable ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+unable ( StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+unable ( StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+unable ( StringLiteral InfixExpression StringLiteral )
+unable ( StringLiteral InfixExpression StringLiteral to set socket option
+unable ( StringLiteral InfixExpression SimpleName option
+unable ( StringLiteral InfixExpression StringLiteral using property
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral )
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral to set socket option
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral to set socket option
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral to set socket option
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName option
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName option
+get simple name SimpleName MethodInvocation InfixExpression SimpleName option
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral using property
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral using property
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral using property
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName property
+get class SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName property
+get simple name SimpleName MethodInvocation InfixExpression SimpleName property
+) StringLiteral InfixExpression StringLiteral to set socket option
+) StringLiteral InfixExpression SimpleName option
+) StringLiteral InfixExpression StringLiteral using property
+) StringLiteral InfixExpression SimpleName property
+) StringLiteral InfixExpression StringLiteral value
+to set socket option StringLiteral InfixExpression SimpleName option
+to set socket option StringLiteral InfixExpression StringLiteral using property
+to set socket option StringLiteral InfixExpression SimpleName property
+to set socket option StringLiteral InfixExpression StringLiteral value
+to set socket option StringLiteral InfixExpression SimpleName val
+option SimpleName InfixExpression StringLiteral using property
+option SimpleName InfixExpression SimpleName property
+option SimpleName InfixExpression StringLiteral value
+option SimpleName InfixExpression SimpleName val
+option SimpleName InfixExpression StringLiteral :
+using property StringLiteral InfixExpression SimpleName property
+using property StringLiteral InfixExpression StringLiteral value
+using property StringLiteral InfixExpression SimpleName val
+using property StringLiteral InfixExpression StringLiteral :
+using property StringLiteral InfixExpression MethodInvocation SimpleName e
+using property StringLiteral InfixExpression MethodInvocation SimpleName get message
+property SimpleName InfixExpression StringLiteral value
+property SimpleName InfixExpression SimpleName val
+property SimpleName InfixExpression StringLiteral :
+property SimpleName InfixExpression MethodInvocation SimpleName e
+property SimpleName InfixExpression MethodInvocation SimpleName get message
+value StringLiteral InfixExpression SimpleName val
+value StringLiteral InfixExpression StringLiteral :
+value StringLiteral InfixExpression MethodInvocation SimpleName e
+value StringLiteral InfixExpression MethodInvocation SimpleName get message
+val SimpleName InfixExpression StringLiteral :
+val SimpleName InfixExpression MethodInvocation SimpleName e
+val SimpleName InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName e
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unable (
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation InfixExpression StringLiteral to set socket option
+log SimpleName MethodInvocation InfixExpression SimpleName option
+log SimpleName MethodInvocation InfixExpression StringLiteral using property
+log SimpleName MethodInvocation InfixExpression SimpleName property
+log SimpleName MethodInvocation InfixExpression StringLiteral value
+log SimpleName MethodInvocation InfixExpression SimpleName val
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation InfixExpression StringLiteral unable (
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation InfixExpression StringLiteral )
+warn SimpleName MethodInvocation InfixExpression StringLiteral to set socket option
+warn SimpleName MethodInvocation InfixExpression SimpleName option
+warn SimpleName MethodInvocation InfixExpression StringLiteral using property
+warn SimpleName MethodInvocation InfixExpression SimpleName property
+warn SimpleName MethodInvocation InfixExpression StringLiteral value
+warn SimpleName MethodInvocation InfixExpression SimpleName val
+warn SimpleName MethodInvocation InfixExpression StringLiteral :
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+protected Modifier MethodDeclaration TypeParameter SimpleName t
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName network channel
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName socket
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+t SimpleName TypeParameter MethodDeclaration PrimitiveType void
+t SimpleName TypeParameter MethodDeclaration SimpleName set option
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName socket
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName option
+void PrimitiveType MethodDeclaration SimpleName set option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName network channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName socket
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName default value
+set option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName network channel
+set option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName socket
+set option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+set option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName option
+set option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+set option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default value
+set option SimpleName MethodDeclaration SimpleType SimpleName io exception
+socket SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+socket SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName option
+socket SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+socket SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName option
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+option SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+option SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+default value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set option
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName option
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set option
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName option
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

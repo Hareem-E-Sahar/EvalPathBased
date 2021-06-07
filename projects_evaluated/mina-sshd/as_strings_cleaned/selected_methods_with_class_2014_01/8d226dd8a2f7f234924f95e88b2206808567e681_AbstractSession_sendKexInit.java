@@ -1,0 +1,21 @@
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send kex init
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName send kex init
+abstract Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName send kex init
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+send kex init SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send kex init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send kex init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

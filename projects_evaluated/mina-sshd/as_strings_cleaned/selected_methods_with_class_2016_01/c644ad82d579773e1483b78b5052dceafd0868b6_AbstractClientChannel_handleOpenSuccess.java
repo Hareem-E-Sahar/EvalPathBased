@@ -1,0 +1,214 @@
+int PrimitiveType SingleVariableDeclaration SimpleName recipient
+int PrimitiveType SingleVariableDeclaration SimpleName rw size
+int PrimitiveType SingleVariableDeclaration SimpleName packet size
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+set recipient SimpleName MethodInvocation SimpleName recipient
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName get factory manager
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName session
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+validate utils SimpleName MethodInvocation StringLiteral no factory manager
+check not null SimpleName MethodInvocation MethodInvocation SimpleName session
+check not null SimpleName MethodInvocation MethodInvocation SimpleName get factory manager
+check not null SimpleName MethodInvocation StringLiteral no factory manager
+session SimpleName MethodInvocation MethodInvocation StringLiteral no factory manager
+get factory manager SimpleName MethodInvocation MethodInvocation StringLiteral no factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate utils
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName check not null
+manager SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName session
+manager SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get factory manager
+manager SimpleName VariableDeclarationFragment MethodInvocation StringLiteral no factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+w remote SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote window
+window SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName w remote
+manager SimpleName MethodInvocation SimpleName get properties
+w remote SimpleName MethodInvocation SimpleName init
+w remote SimpleName MethodInvocation SimpleName rw size
+w remote SimpleName MethodInvocation SimpleName packet size
+w remote SimpleName MethodInvocation MethodInvocation SimpleName manager
+w remote SimpleName MethodInvocation MethodInvocation SimpleName get properties
+init SimpleName MethodInvocation SimpleName rw size
+init SimpleName MethodInvocation SimpleName packet size
+init SimpleName MethodInvocation MethodInvocation SimpleName manager
+init SimpleName MethodInvocation MethodInvocation SimpleName get properties
+rw size SimpleName MethodInvocation SimpleName packet size
+rw size SimpleName MethodInvocation MethodInvocation SimpleName manager
+rw size SimpleName MethodInvocation MethodInvocation SimpleName get properties
+packet size SimpleName MethodInvocation MethodInvocation SimpleName manager
+packet size SimpleName MethodInvocation MethodInvocation SimpleName get properties
+listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get channel listener proxy
+channel listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+listener SimpleName MethodInvocation SimpleName channel open success
+opened SimpleName FieldAccess MethodInvocation SimpleName set
+opened SimpleName FieldAccess MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+open future SimpleName FieldAccess MethodInvocation SimpleName set opened
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName t
+peel exception SimpleName MethodInvocation SimpleName t
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+listener SimpleName MethodInvocation SimpleName channel open failure
+listener SimpleName MethodInvocation SimpleName e
+channel open failure SimpleName MethodInvocation SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName err
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName err
+peel exception SimpleName MethodInvocation SimpleName err
+ignored SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+ignored SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+ignored SimpleName VariableDeclarationFragment MethodInvocation SimpleName err
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ignored
+ignored SimpleName MethodInvocation SimpleName get class
+ignored SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+ignored SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral handle open success failed ({}) to inform listener of open failure {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation StringLiteral handle open success failed ({}) to inform listener of open failure {}
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+warn SimpleName MethodInvocation MethodInvocation SimpleName ignored
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation SimpleName ignored
+handle open success failed ({}) to inform listener of open failure {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignored
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName is debug enabled
+handle open success StringLiteral InfixExpression StringLiteral ) inform listener open failure details
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral handle open success
+log SimpleName MethodInvocation InfixExpression StringLiteral ) inform listener open failure details
+log SimpleName MethodInvocation SimpleName ignored
+debug SimpleName MethodInvocation InfixExpression StringLiteral handle open success
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) inform listener open failure details
+debug SimpleName MethodInvocation SimpleName ignored
+handle open success StringLiteral InfixExpression MethodInvocation SimpleName ignored
+) inform listener open failure details StringLiteral InfixExpression MethodInvocation SimpleName ignored
+log SimpleName MethodInvocation SimpleName is trace enabled
+ignored SimpleName MethodInvocation SimpleName get suppressed
+suppressed SimpleName VariableDeclarationFragment MethodInvocation SimpleName ignored
+suppressed SimpleName VariableDeclarationFragment MethodInvocation SimpleName get suppressed
+generic utils SimpleName MethodInvocation SimpleName length
+generic utils SimpleName MethodInvocation SimpleName suppressed
+length SimpleName MethodInvocation SimpleName suppressed
+generic utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+suppressed SimpleName MethodInvocation InfixExpression NumberLiteral empty
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName s
+handle open success StringLiteral InfixExpression StringLiteral ) suppressed channel open failure signalling
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral handle open success
+log SimpleName MethodInvocation InfixExpression StringLiteral ) suppressed channel open failure signalling
+log SimpleName MethodInvocation SimpleName s
+trace SimpleName MethodInvocation InfixExpression StringLiteral handle open success
+trace SimpleName MethodInvocation InfixExpression StringLiteral ) suppressed channel open failure signalling
+trace SimpleName MethodInvocation SimpleName s
+handle open success StringLiteral InfixExpression MethodInvocation SimpleName s
+) suppressed channel open failure signalling StringLiteral InfixExpression MethodInvocation SimpleName s
+throwable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName suppressed
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName suppressed
+open future SimpleName FieldAccess MethodInvocation SimpleName set exception
+open future SimpleName FieldAccess MethodInvocation SimpleName e
+set exception SimpleName MethodInvocation SimpleName e
+close future SimpleName FieldAccess MethodInvocation SimpleName set closed
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName handle open success
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName recipient
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName rw size
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle open success
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName recipient
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rw size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName packet size
+void PrimitiveType MethodDeclaration SimpleName handle open success
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName recipient
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rw size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName packet size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName recipient
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rw size
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName packet size
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+handle open success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rw size
+recipient SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+recipient SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rw size
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+recipient SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+recipient SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+recipient SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+rw size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+rw size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+rw size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+packet size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle open success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName recipient
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rw size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle open success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName recipient
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rw size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName packet size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

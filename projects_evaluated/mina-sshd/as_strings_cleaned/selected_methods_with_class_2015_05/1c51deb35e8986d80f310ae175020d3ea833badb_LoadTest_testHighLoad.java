@@ -1,0 +1,53 @@
+string builder SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+response SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName string builder
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+response SimpleName MethodInvocation SimpleName append
+response SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+response SimpleName MethodInvocation SimpleName to string
+test SimpleName MethodInvocation MethodInvocation SimpleName response
+test SimpleName MethodInvocation MethodInvocation SimpleName to string
+test SimpleName MethodInvocation NumberLiteral empty
+test SimpleName MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test high load
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test high load
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test high load
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test high load SimpleName MethodDeclaration SimpleType SimpleName exception
+test high load SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test high load
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test high load
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

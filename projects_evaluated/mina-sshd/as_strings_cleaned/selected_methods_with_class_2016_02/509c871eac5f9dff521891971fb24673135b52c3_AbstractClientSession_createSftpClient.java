@@ -1,0 +1,42 @@
+sftp version selector SimpleName SimpleType SingleVariableDeclaration SimpleName selector
+client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default sftp client
+default sftp client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName negotiate version
+client SimpleName MethodInvocation SimpleName selector
+negotiate version SimpleName MethodInvocation SimpleName selector
+io exception SimpleName SimpleType UnionType SimpleType SimpleName runtime exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+client SimpleName MethodInvocation SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName sftp client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create sftp client
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName selector
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName sftp client
+public Modifier MethodDeclaration SimpleName create sftp client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp version selector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName selector
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName client
+sftp client SimpleName SimpleType MethodDeclaration SimpleName create sftp client
+sftp client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName selector
+sftp client SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sftp version selector
+create sftp client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selector
+create sftp client SimpleName MethodDeclaration SimpleType SimpleName io exception
+create sftp client SimpleName MethodDeclaration Block ReturnStatement SimpleName client
+selector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+public Modifier TypeDeclaration MethodDeclaration SimpleName create sftp client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sftp client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create sftp client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

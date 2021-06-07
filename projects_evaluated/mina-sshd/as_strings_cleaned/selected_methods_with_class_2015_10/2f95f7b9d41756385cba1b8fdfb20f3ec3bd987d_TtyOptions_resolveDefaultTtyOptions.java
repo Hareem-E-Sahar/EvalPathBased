@@ -1,0 +1,20 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName tty options
+os utils SimpleName MethodInvocation SimpleName is win
+resolve tty options SimpleName MethodInvocation MethodInvocation SimpleName os utils
+resolve tty options SimpleName MethodInvocation MethodInvocation SimpleName is win
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tty options
+public Modifier MethodDeclaration SimpleName resolve default tty options
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tty options
+static Modifier MethodDeclaration SimpleName resolve default tty options
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve default tty options
+tty options SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve default tty options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve default tty options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve default tty options

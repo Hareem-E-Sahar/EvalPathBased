@@ -1,0 +1,19 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName mac
+named factory SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName digester
+mac SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName digester
+digester SimpleName FieldAccess Assignment SimpleName digester
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set digester
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName digester
+void PrimitiveType MethodDeclaration SimpleName set digester
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName digester
+set digester SimpleName MethodDeclaration SingleVariableDeclaration SimpleName digester
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set digester
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName digester
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set digester
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName digester

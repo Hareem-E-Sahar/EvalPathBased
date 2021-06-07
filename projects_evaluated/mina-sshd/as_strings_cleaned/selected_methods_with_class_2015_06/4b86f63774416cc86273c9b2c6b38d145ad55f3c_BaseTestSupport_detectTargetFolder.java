@@ -1,0 +1,27 @@
+utils SimpleName MethodInvocation SimpleName detect target folder
+utils SimpleName MethodInvocation MethodInvocation SimpleName get class
+detect target folder SimpleName MethodInvocation MethodInvocation SimpleName get class
+target folder SimpleName Assignment MethodInvocation SimpleName utils
+target folder SimpleName Assignment MethodInvocation SimpleName detect target folder
+target folder SimpleName Assignment MethodInvocation MethodInvocation SimpleName get class
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to detect target folder
+temp subfolder name SimpleName SynchronizedStatement Block ReturnStatement SimpleName target folder
+protected Modifier MethodDeclaration SimpleType SimpleName file
+protected Modifier MethodDeclaration SimpleName detect target folder
+protected Modifier MethodDeclaration SimpleType SimpleName illegal state exception
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName temp subfolder name
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName target folder
+file SimpleName SimpleType MethodDeclaration SimpleName detect target folder
+file SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal state exception
+detect target folder SimpleName MethodDeclaration SimpleType SimpleName illegal state exception
+detect target folder SimpleName MethodDeclaration Block SynchronizedStatement SimpleName temp subfolder name
+detect target folder SimpleName MethodDeclaration Block ReturnStatement SimpleName target folder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName detect target folder
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal state exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName detect target folder
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal state exception

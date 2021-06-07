@@ -1,0 +1,200 @@
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel piped sink
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName channel piped sink
+sink SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+sink SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+channel piped sink SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sink
+atomic boolean SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+eof called SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic boolean
+eof called SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName eof called
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+atomic boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eof called
+eof called SimpleName MethodInvocation SimpleName get and set
+eof called SimpleName MethodInvocation BooleanLiteral true
+get and set SimpleName MethodInvocation BooleanLiteral true
+assert false SimpleName MethodInvocation StringLiteral multiple eof calls
+assert false SimpleName MethodInvocation MethodInvocation SimpleName eof called
+assert false SimpleName MethodInvocation MethodInvocation SimpleName get and set
+assert false SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+multiple eof calls StringLiteral MethodInvocation MethodInvocation SimpleName eof called
+multiple eof calls StringLiteral MethodInvocation MethodInvocation SimpleName get and set
+multiple eof calls StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+mockito SimpleName MethodInvocation SimpleName do answer
+mockito SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName invocation
+do answer SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName invocation
+mockito SimpleName MethodInvocation MethodInvocation SimpleName when
+do answer SimpleName MethodInvocation MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName sink
+do answer SimpleName MethodInvocation MethodInvocation SimpleName sink
+when SimpleName MethodInvocation SimpleName sink
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eof
+do answer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eof
+when SimpleName MethodInvocation MethodInvocation SimpleName eof
+sink SimpleName MethodInvocation MethodInvocation SimpleName eof
+atomic integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+receive count SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic integer
+receive count SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName atomic integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName receive count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName receive count
+invocation SimpleName MethodInvocation SimpleName get argument at
+invocation SimpleName MethodInvocation NumberLiteral empty
+invocation SimpleName MethodInvocation TypeLiteral SimpleType SimpleName number
+get argument at SimpleName MethodInvocation NumberLiteral empty
+get argument at SimpleName MethodInvocation TypeLiteral SimpleType SimpleName number
+empty NumberLiteral MethodInvocation TypeLiteral SimpleType SimpleName number
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName invocation
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get argument at
+len SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+len SimpleName MethodInvocation SimpleName int value
+receive count SimpleName MethodInvocation SimpleName add and get
+receive count SimpleName MethodInvocation MethodInvocation SimpleName len
+receive count SimpleName MethodInvocation MethodInvocation SimpleName int value
+add and get SimpleName MethodInvocation MethodInvocation SimpleName len
+add and get SimpleName MethodInvocation MethodInvocation SimpleName int value
+mockito SimpleName MethodInvocation SimpleName do answer
+mockito SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName invocation
+do answer SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName invocation
+mockito SimpleName MethodInvocation MethodInvocation SimpleName when
+do answer SimpleName MethodInvocation MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName sink
+do answer SimpleName MethodInvocation MethodInvocation SimpleName sink
+when SimpleName MethodInvocation SimpleName sink
+matchers SimpleName MethodInvocation SimpleName any
+matchers SimpleName MethodInvocation TypeLiteral ArrayType PrimitiveType byte
+any SimpleName MethodInvocation TypeLiteral ArrayType PrimitiveType byte
+matchers SimpleName MethodInvocation SimpleName any int
+matchers SimpleName MethodInvocation SimpleName any int
+mockito SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName receive
+do answer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName receive
+when SimpleName MethodInvocation MethodInvocation SimpleName receive
+sink SimpleName MethodInvocation MethodInvocation SimpleName receive
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+receive SimpleName MethodInvocation MethodInvocation SimpleName matchers
+receive SimpleName MethodInvocation MethodInvocation SimpleName any
+receive SimpleName MethodInvocation MethodInvocation SimpleName matchers
+receive SimpleName MethodInvocation MethodInvocation SimpleName any int
+receive SimpleName MethodInvocation MethodInvocation SimpleName matchers
+receive SimpleName MethodInvocation MethodInvocation SimpleName any int
+matchers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+matchers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+any SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+any SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+matchers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+matchers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+any SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+any SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+matchers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+matchers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+any int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+any int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+channel piped output stream SimpleName SimpleType ClassInstanceCreation SimpleName sink
+stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName channel piped output stream
+stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sink
+channel piped output stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName stream
+stream SimpleName MethodInvocation SimpleName is open
+assert true SimpleName MethodInvocation StringLiteral stream not marked as initially open
+assert true SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is open
+stream not marked as initially open StringLiteral MethodInvocation MethodInvocation SimpleName stream
+stream not marked as initially open StringLiteral MethodInvocation MethodInvocation SimpleName is open
+receive count SimpleName MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation StringLiteral unexpected initial receive count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName receive count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName int value
+unexpected initial receive count StringLiteral MethodInvocation NumberLiteral empty
+unexpected initial receive count StringLiteral MethodInvocation MethodInvocation SimpleName receive count
+unexpected initial receive count StringLiteral MethodInvocation MethodInvocation SimpleName int value
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName receive count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName int value
+get current test name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get current test name SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get current test name
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+b SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+stream SimpleName MethodInvocation SimpleName write
+stream SimpleName MethodInvocation SimpleName b
+write SimpleName MethodInvocation SimpleName b
+stream SimpleName MethodInvocation SimpleName is open
+assert true SimpleName MethodInvocation StringLiteral stream not marked as still open after write data
+assert true SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is open
+stream not marked as still open after write data StringLiteral MethodInvocation MethodInvocation SimpleName stream
+stream not marked as still open after write data StringLiteral MethodInvocation MethodInvocation SimpleName is open
+receive count SimpleName MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation StringLiteral mismatched write data count
+assert equals SimpleName MethodInvocation QualifiedName blength
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName receive count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName int value
+mismatched write data count StringLiteral MethodInvocation QualifiedName blength
+mismatched write data count StringLiteral MethodInvocation MethodInvocation SimpleName receive count
+mismatched write data count StringLiteral MethodInvocation MethodInvocation SimpleName int value
+blength QualifiedName MethodInvocation MethodInvocation SimpleName receive count
+blength QualifiedName MethodInvocation MethodInvocation SimpleName int value
+stream SimpleName MethodInvocation SimpleName close
+stream SimpleName MethodInvocation SimpleName is open
+assert false SimpleName MethodInvocation StringLiteral stream still marked as open after close
+assert false SimpleName MethodInvocation MethodInvocation SimpleName stream
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is open
+stream still marked as open after close StringLiteral MethodInvocation MethodInvocation SimpleName stream
+stream still marked as open after close StringLiteral MethodInvocation MethodInvocation SimpleName is open
+eof called SimpleName MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation StringLiteral sink eof not called on close
+assert true SimpleName MethodInvocation MethodInvocation SimpleName eof called
+assert true SimpleName MethodInvocation MethodInvocation SimpleName get
+sink eof not called on close StringLiteral MethodInvocation MethodInvocation SimpleName eof called
+sink eof not called on close StringLiteral MethodInvocation MethodInvocation SimpleName get
+stream SimpleName MethodInvocation SimpleName write
+stream SimpleName MethodInvocation SimpleName b
+write SimpleName MethodInvocation SimpleName b
+fail SimpleName MethodInvocation StringLiteral unexpected write success after close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+stream SimpleName MethodInvocation SimpleName flush
+fail SimpleName MethodInvocation StringLiteral unexpected flush success after close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test nio channel implementation
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test nio channel implementation
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test nio channel implementation
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test nio channel implementation SimpleName MethodDeclaration SimpleType SimpleName io exception
+test nio channel implementation SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test nio channel implementation SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test nio channel implementation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test nio channel implementation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,87 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+int PrimitiveType SingleVariableDeclaration SimpleName port
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName host
+is empty SimpleName MethodInvocation SimpleName host
+port SimpleName InfixExpression NumberLiteral empty
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName entries
+is empty SimpleName MethodInvocation SimpleName entries
+local forwarding entry SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get port
+port SimpleName InfixExpression MethodInvocation SimpleName e
+port SimpleName InfixExpression MethodInvocation SimpleName get port
+e SimpleName MethodInvocation SimpleName get host name
+host SimpleName MethodInvocation SimpleName equals
+host SimpleName MethodInvocation MethodInvocation SimpleName e
+host SimpleName MethodInvocation MethodInvocation SimpleName get host name
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get host name
+e SimpleName MethodInvocation SimpleName get alias
+host SimpleName MethodInvocation SimpleName equals
+host SimpleName MethodInvocation MethodInvocation SimpleName e
+host SimpleName MethodInvocation MethodInvocation SimpleName get alias
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get alias
+host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+local forwarding entry SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entries
+e SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entries
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName local forwarding entry
+public Modifier MethodDeclaration SimpleName find matching entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName local forwarding entry
+static Modifier MethodDeclaration SimpleName find matching entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+final Modifier MethodDeclaration SimpleType SimpleName local forwarding entry
+final Modifier MethodDeclaration SimpleName find matching entry
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+local forwarding entry SimpleName SimpleType MethodDeclaration SimpleName find matching entry
+local forwarding entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host
+local forwarding entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+local forwarding entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName port
+local forwarding entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entries
+find matching entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find matching entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+find matching entry SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+find matching entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+find matching entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+find matching entry SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entries
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+port SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName local forwarding entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName find matching entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName local forwarding entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find matching entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries

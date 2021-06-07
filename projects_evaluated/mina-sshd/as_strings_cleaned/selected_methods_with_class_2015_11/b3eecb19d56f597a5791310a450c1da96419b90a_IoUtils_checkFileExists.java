@@ -1,0 +1,48 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+files SimpleName MethodInvocation SimpleName exists
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+exists SimpleName MethodInvocation SimpleName path
+exists SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+files SimpleName MethodInvocation SimpleName not exists
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+not exists SimpleName MethodInvocation SimpleName path
+not exists SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName check file exists
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SimpleName check file exists
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+boolean SimpleName SimpleType MethodDeclaration SimpleName check file exists
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+check file exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+check file exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+check file exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+check file exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check file exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check file exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

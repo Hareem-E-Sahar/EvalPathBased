@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName interaction name
+interaction name SimpleName FieldAccess Assignment SimpleName interaction name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set interaction name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName interaction name
+void PrimitiveType MethodDeclaration SimpleName set interaction name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName interaction name
+set interaction name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set interaction name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName interaction name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set interaction name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interaction name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set interaction name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interaction name

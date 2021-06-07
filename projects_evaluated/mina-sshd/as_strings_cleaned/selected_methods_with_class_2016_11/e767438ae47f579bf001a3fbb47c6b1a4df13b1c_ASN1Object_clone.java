@@ -1,0 +1,41 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName cast
+get class SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName clone
+cast SimpleName MethodInvocation SuperMethodInvocation SimpleName clone
+cpy SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+cpy SimpleName VariableDeclarationFragment MethodInvocation SimpleName cast
+cpy SimpleName VariableDeclarationFragment MethodInvocation SuperMethodInvocation SimpleName clone
+asn object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cpy
+cpy SimpleName MethodInvocation SimpleName get value
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName cpy
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data SimpleName MethodInvocation SimpleName clone
+cpy SimpleName MethodInvocation SimpleName set value
+cpy SimpleName MethodInvocation MethodInvocation SimpleName data
+cpy SimpleName MethodInvocation MethodInvocation SimpleName clone
+set value SimpleName MethodInvocation MethodInvocation SimpleName data
+set value SimpleName MethodInvocation MethodInvocation SimpleName clone
+clone not supported exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+unexpected clone failure StringLiteral InfixExpression MethodInvocation SimpleName e
+unexpected clone failure StringLiteral InfixExpression MethodInvocation SimpleName get message
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected clone failure
+illegal state exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+unexpected clone failure StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName asn object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration SimpleType SimpleName asn object
+public Modifier MethodDeclaration SimpleName clone
+asn object SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName asn object
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName asn object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

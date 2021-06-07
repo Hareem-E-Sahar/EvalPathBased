@@ -1,0 +1,75 @@
+int PrimitiveType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName handle
+handles SimpleName MethodInvocation SimpleName get
+handles SimpleName MethodInvocation SimpleName handle
+get SimpleName MethodInvocation SimpleName handle
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName handles
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do open ssh fsync
+log SimpleName MethodInvocation SimpleName handle
+log SimpleName MethodInvocation SimpleName h
+debug SimpleName MethodInvocation StringLiteral do open ssh fsync
+debug SimpleName MethodInvocation SimpleName handle
+debug SimpleName MethodInvocation SimpleName h
+do open ssh fsync StringLiteral MethodInvocation SimpleName handle
+do open ssh fsync StringLiteral MethodInvocation SimpleName h
+handle SimpleName MethodInvocation SimpleName h
+validate handle SimpleName MethodInvocation SimpleName handle
+validate handle SimpleName MethodInvocation SimpleName h
+validate handle SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+handle SimpleName MethodInvocation SimpleName h
+handle SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+h SimpleName MethodInvocation TypeLiteral SimpleType SimpleName file handle
+file handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate handle
+file handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle
+file handle SimpleName VariableDeclarationFragment MethodInvocation SimpleName h
+file handle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file handle
+file handle SimpleName MethodInvocation SimpleName get file channel
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName file handle
+channel SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file channel
+file channel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName channel
+channel SimpleName MethodInvocation SimpleName force
+channel SimpleName MethodInvocation BooleanLiteral false
+force SimpleName MethodInvocation BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do open ssh fsync
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName handle
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do open ssh fsync
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName handle
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do open ssh fsync SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+do open ssh fsync SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+do open ssh fsync SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do open ssh fsync SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handle
+do open ssh fsync SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handle
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handle
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+handle SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do open ssh fsync
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handle
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do open ssh fsync
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handle
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

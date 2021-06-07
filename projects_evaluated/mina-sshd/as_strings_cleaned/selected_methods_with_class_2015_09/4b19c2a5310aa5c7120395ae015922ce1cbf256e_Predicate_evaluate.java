@@ -1,0 +1,13 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName input
+boolean PrimitiveType MethodDeclaration SimpleName evaluate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName input
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName evaluate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName evaluate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input

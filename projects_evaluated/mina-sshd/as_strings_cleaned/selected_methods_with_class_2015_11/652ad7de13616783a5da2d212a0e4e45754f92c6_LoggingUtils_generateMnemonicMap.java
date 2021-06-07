@@ -1,0 +1,103 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clazz
+predicate SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acceptor
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+field SimpleName SimpleType SingleVariableDeclaration SimpleName f
+clazz SimpleName MethodInvocation SimpleName get fields
+f SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+f SimpleName MethodInvocation SimpleName get modifiers
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+mods SimpleName VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mods
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName f
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get modifiers
+modifier SimpleName MethodInvocation SimpleName is public
+modifier SimpleName MethodInvocation SimpleName mods
+is public SimpleName MethodInvocation SimpleName mods
+modifier SimpleName MethodInvocation SimpleName is static
+modifier SimpleName MethodInvocation SimpleName mods
+is static SimpleName MethodInvocation SimpleName mods
+modifier SimpleName MethodInvocation SimpleName is final
+modifier SimpleName MethodInvocation SimpleName mods
+is final SimpleName MethodInvocation SimpleName mods
+class SimpleName SimpleType ParameterizedType WildcardType ?
+f SimpleName MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+generic utils SimpleName MethodInvocation SimpleName is numeric class
+generic utils SimpleName MethodInvocation SimpleName type
+is numeric class SimpleName MethodInvocation SimpleName type
+acceptor SimpleName MethodInvocation SimpleName evaluate
+acceptor SimpleName MethodInvocation SimpleName f
+evaluate SimpleName MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName get
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName f
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName number
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName f
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName int value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation MethodInvocation SimpleName value
+result SimpleName MethodInvocation MethodInvocation SimpleName int value
+result SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation MethodInvocation SimpleName value
+put SimpleName MethodInvocation MethodInvocation SimpleName int value
+put SimpleName MethodInvocation SimpleName name
+value SimpleName MethodInvocation MethodInvocation SimpleName name
+int value SimpleName MethodInvocation MethodInvocation SimpleName name
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+prev SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value
+prev SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName int value
+prev SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+f SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName clazz
+f SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get fields
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName generate mnemonic map
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName generate mnemonic map
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName generate mnemonic map
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName generate mnemonic map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName generate mnemonic map
+generate mnemonic map SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+generate mnemonic map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+generate mnemonic map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+generate mnemonic map SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate mnemonic map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate mnemonic map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acceptor

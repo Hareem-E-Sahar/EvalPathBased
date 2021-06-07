@@ -1,0 +1,18 @@
+io session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+sessions SimpleName MethodInvocation SimpleName values
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+session SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName sessions
+session SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+group SimpleName MethodInvocation SimpleName shutdown
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do dispose
+void PrimitiveType MethodDeclaration SimpleName do dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do dispose

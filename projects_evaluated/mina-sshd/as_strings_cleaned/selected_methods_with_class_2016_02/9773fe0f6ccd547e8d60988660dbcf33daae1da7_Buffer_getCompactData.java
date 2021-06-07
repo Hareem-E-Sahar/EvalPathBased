@@ -1,0 +1,40 @@
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+l SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation SimpleName l
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation SimpleName l
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation MethodInvocation SimpleName array
+system SimpleName MethodInvocation MethodInvocation SimpleName rpos
+system SimpleName MethodInvocation SimpleName b
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName array
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName rpos
+arraycopy SimpleName MethodInvocation SimpleName b
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName l
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation SimpleName b
+array SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+array SimpleName MethodInvocation MethodInvocation SimpleName l
+rpos SimpleName MethodInvocation MethodInvocation SimpleName b
+rpos SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+rpos SimpleName MethodInvocation MethodInvocation SimpleName l
+b SimpleName MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation SimpleName l
+empty NumberLiteral MethodInvocation SimpleName l
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get compact data
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get compact data
+get compact data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get compact data
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get compact data

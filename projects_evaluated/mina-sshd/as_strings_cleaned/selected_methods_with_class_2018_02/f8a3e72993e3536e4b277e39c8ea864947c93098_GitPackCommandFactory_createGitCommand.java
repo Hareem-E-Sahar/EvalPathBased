@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command
+git pack command SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get git location resolver
+git pack command SimpleName SimpleType ClassInstanceCreation SimpleName command
+git pack command SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get executor service
+git pack command SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+get git location resolver SimpleName MethodInvocation ClassInstanceCreation SimpleName command
+get git location resolver SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get executor service
+get git location resolver SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+command SimpleName ClassInstanceCreation MethodInvocation SimpleName get executor service
+command SimpleName ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+get executor service SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is shutdown on exit
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName git pack command
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create git command
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier MethodDeclaration SimpleType SimpleName git pack command
+public Modifier MethodDeclaration SimpleName create git command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName command
+git pack command SimpleName SimpleType MethodDeclaration SimpleName create git command
+git pack command SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName command
+create git command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create git command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName git pack command
+public Modifier TypeDeclaration MethodDeclaration SimpleName create git command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName git pack command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create git command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command

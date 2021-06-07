@@ -1,0 +1,50 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current
+kex proposal option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName proposal
+kex proposal option SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName proposal
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName proposal
+current SimpleName InfixExpression SimpleName proposal
+current SimpleName MethodInvocation SimpleName is empty
+current SimpleName MethodInvocation SimpleName clear
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName proposal
+is empty SimpleName MethodInvocation SimpleName proposal
+current SimpleName MethodInvocation SimpleName put all
+current SimpleName MethodInvocation SimpleName proposal
+put all SimpleName MethodInvocation SimpleName proposal
+current SimpleName SynchronizedStatement Block ReturnStatement SimpleName proposal
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName kex proposal option
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName merge proposals
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName current
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName proposal
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName current
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName proposal
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName merge proposals
+kex proposal option SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName merge proposals
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName merge proposals
+merge proposals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current
+merge proposals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName proposal
+merge proposals SimpleName MethodDeclaration Block SynchronizedStatement SimpleName current
+merge proposals SimpleName MethodDeclaration Block ReturnStatement SimpleName proposal
+current SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName merge proposals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposal
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName merge proposals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proposal

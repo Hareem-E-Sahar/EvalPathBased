@@ -1,0 +1,52 @@
+int PrimitiveType SingleVariableDeclaration SimpleName level
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName is info enabled
+log SimpleName MethodInvocation SimpleName is warn enabled
+log SimpleName MethodInvocation SimpleName is error enabled
+log SimpleName MethodInvocation SimpleName is error enabled
+level SimpleName SwitchStatement SwitchCase SimpleName debug
+level SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName log
+level SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName is debug enabled
+level SimpleName SwitchStatement SwitchCase SimpleName info
+level SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName log
+level SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName is info enabled
+level SimpleName SwitchStatement SwitchCase SimpleName warn
+debug SimpleName SwitchCase SwitchStatement SwitchCase SimpleName info
+debug SimpleName SwitchCase SwitchStatement SwitchCase SimpleName warn
+info SimpleName SwitchCase SwitchStatement SwitchCase SimpleName warn
+info SimpleName SwitchCase SwitchStatement SwitchCase SimpleName error
+warn SimpleName SwitchCase SwitchStatement SwitchCase SimpleName error
+warn SimpleName SwitchCase SwitchStatement SwitchCase SimpleName fatal
+error SimpleName SwitchCase SwitchStatement SwitchCase SimpleName fatal
+error SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+fatal SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is enabled
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is enabled
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier MethodDeclaration Block SwitchStatement SimpleName level
+boolean PrimitiveType MethodDeclaration SimpleName is enabled
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName level
+boolean PrimitiveType MethodDeclaration Block SwitchStatement SimpleName level
+is enabled SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+is enabled SimpleName MethodDeclaration SingleVariableDeclaration SimpleName level
+is enabled SimpleName MethodDeclaration Block SwitchStatement SimpleName level
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is enabled
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is enabled
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level

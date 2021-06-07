@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration SimpleName get paths
+public Modifier MethodDeclaration Block ReturnStatement SimpleName files
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get paths
+get paths SimpleName MethodDeclaration Block ReturnStatement SimpleName files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get paths
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get paths

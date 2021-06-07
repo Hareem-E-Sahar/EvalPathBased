@@ -1,0 +1,86 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName command path
+selector utils SimpleName MethodInvocation SimpleName translate to local file system path
+selector utils SimpleName MethodInvocation SimpleName command path
+selector utils SimpleName MethodInvocation QualifiedName fileseparator char
+selector utils SimpleName MethodInvocation SimpleName file system
+translate to local file system path SimpleName MethodInvocation SimpleName command path
+translate to local file system path SimpleName MethodInvocation QualifiedName fileseparator char
+translate to local file system path SimpleName MethodInvocation SimpleName file system
+command path SimpleName MethodInvocation QualifiedName fileseparator char
+command path SimpleName MethodInvocation SimpleName file system
+fileseparator char QualifiedName MethodInvocation SimpleName file system
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName selector utils
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName translate to local file system path
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName command path
+path SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fileseparator char
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+file system SimpleName MethodInvocation SimpleName get path
+file system SimpleName MethodInvocation SimpleName path
+get path SimpleName MethodInvocation SimpleName path
+lcl SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+lcl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+lcl SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lcl
+lcl SimpleName MethodInvocation SimpleName is absolute
+lcl SimpleName MethodInvocation SimpleName to absolute path
+lcl SimpleName MethodInvocation ConditionalExpression SimpleName lcl
+is absolute SimpleName MethodInvocation ConditionalExpression SimpleName lcl
+lcl SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName lcl
+lcl SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to absolute path
+is absolute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName lcl
+is absolute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to absolute path
+lcl SimpleName ConditionalExpression MethodInvocation SimpleName lcl
+lcl SimpleName ConditionalExpression MethodInvocation SimpleName to absolute path
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName lcl
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is absolute
+abs SimpleName VariableDeclarationFragment ConditionalExpression SimpleName lcl
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName lcl
+abs SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to absolute path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName abs
+abs SimpleName MethodInvocation SimpleName normalize
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName abs
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral resolve local path {}
+log SimpleName MethodInvocation SimpleName command path
+log SimpleName MethodInvocation SimpleName p
+trace SimpleName MethodInvocation StringLiteral resolve local path {}
+trace SimpleName MethodInvocation SimpleName command path
+trace SimpleName MethodInvocation SimpleName p
+resolve local path {} StringLiteral MethodInvocation SimpleName command path
+resolve local path {} StringLiteral MethodInvocation SimpleName p
+command path SimpleName MethodInvocation SimpleName p
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName resolve local path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName command path
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName invalid path exception
+path SimpleName SimpleType MethodDeclaration SimpleName resolve local path
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName command path
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid path exception
+resolve local path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve local path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command path
+resolve local path SimpleName MethodDeclaration SimpleType SimpleName io exception
+resolve local path SimpleName MethodDeclaration SimpleType SimpleName invalid path exception
+resolve local path SimpleName MethodDeclaration Block ReturnStatement SimpleName p
+command path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+command path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid path exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid path exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve local path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid path exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve local path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid path exception

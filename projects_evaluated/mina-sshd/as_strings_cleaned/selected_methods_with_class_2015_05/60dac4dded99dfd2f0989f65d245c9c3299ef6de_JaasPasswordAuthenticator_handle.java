@@ -1,0 +1,64 @@
+callback SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName callbacks
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName callbackslength
+callbacks SimpleName ArrayAccess SimpleName i
+callbacks SimpleName ArrayAccess InstanceofExpression SimpleType SimpleName name callback
+i SimpleName ArrayAccess InstanceofExpression SimpleType SimpleName name callback
+callbacks SimpleName ArrayAccess SimpleName i
+name callback SimpleName SimpleType CastExpression ArrayAccess SimpleName callbacks
+name callback SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+set name SimpleName MethodInvocation SimpleName username
+callbacks SimpleName ArrayAccess SimpleName i
+callbacks SimpleName ArrayAccess InstanceofExpression SimpleType SimpleName password callback
+i SimpleName ArrayAccess InstanceofExpression SimpleType SimpleName password callback
+callbacks SimpleName ArrayAccess SimpleName i
+password callback SimpleName SimpleType CastExpression ArrayAccess SimpleName callbacks
+password callback SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+password SimpleName MethodInvocation SimpleName to char array
+set password SimpleName MethodInvocation MethodInvocation SimpleName password
+set password SimpleName MethodInvocation MethodInvocation SimpleName to char array
+callbacks SimpleName ArrayAccess SimpleName i
+unsupported callback exception SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName callbacks
+unsupported callback exception SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName callbackslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+callbackslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName handle
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName callbacks
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName callbacks
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName unsupported callback exception
+void PrimitiveType MethodDeclaration SimpleName handle
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName callbacks
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName unsupported callback exception
+handle SimpleName MethodDeclaration SingleVariableDeclaration SimpleName callbacks
+handle SimpleName MethodDeclaration SimpleType SimpleName io exception
+handle SimpleName MethodDeclaration SimpleType SimpleName unsupported callback exception
+callbacks SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+callbacks SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unsupported callback exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unsupported callback exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName callbacks
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported callback exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName callbacks
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported callback exception

@@ -1,0 +1,173 @@
+t SimpleName TypeParameter SimpleType SimpleName event listener
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName listener type
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName listener type
+class loader SimpleName SimpleType SingleVariableDeclaration SimpleName loader
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName iterable
+final Modifier SingleVariableDeclaration SimpleName listeners
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName listeners
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName listener type
+validate utils SimpleName MethodInvocation StringLiteral no listener type specified
+check not null SimpleName MethodInvocation SimpleName listener type
+check not null SimpleName MethodInvocation StringLiteral no listener type specified
+listener type SimpleName MethodInvocation StringLiteral no listener type specified
+listener type SimpleName MethodInvocation SimpleName is interface
+listener type SimpleName MethodInvocation SimpleName get simple name
+validate utils SimpleName MethodInvocation SimpleName check true
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName listener type
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName is interface
+validate utils SimpleName MethodInvocation StringLiteral target proxy is not an interface s
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName listener type
+validate utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+check true SimpleName MethodInvocation MethodInvocation SimpleName listener type
+check true SimpleName MethodInvocation MethodInvocation SimpleName is interface
+check true SimpleName MethodInvocation StringLiteral target proxy is not an interface s
+check true SimpleName MethodInvocation MethodInvocation SimpleName listener type
+check true SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+listener type SimpleName MethodInvocation MethodInvocation StringLiteral target proxy is not an interface s
+is interface SimpleName MethodInvocation MethodInvocation StringLiteral target proxy is not an interface s
+listener type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName listener type
+listener type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+is interface SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName listener type
+is interface SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+target proxy is not an interface s StringLiteral MethodInvocation MethodInvocation SimpleName listener type
+target proxy is not an interface s StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+validate utils SimpleName MethodInvocation SimpleName check not null
+validate utils SimpleName MethodInvocation SimpleName listeners
+validate utils SimpleName MethodInvocation StringLiteral no listeners container provided
+check not null SimpleName MethodInvocation SimpleName listeners
+check not null SimpleName MethodInvocation StringLiteral no listeners container provided
+listeners SimpleName MethodInvocation StringLiteral no listeners container provided
+class SimpleName SimpleType ParameterizedType WildcardType ?
+object SimpleName SimpleType SingleVariableDeclaration SimpleName proxy
+method SimpleName SimpleType SingleVariableDeclaration SimpleName method
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+t SimpleName SimpleType SingleVariableDeclaration SimpleName l
+method SimpleName MethodInvocation SimpleName invoke
+method SimpleName MethodInvocation SimpleName l
+method SimpleName MethodInvocation SimpleName args
+invoke SimpleName MethodInvocation SimpleName l
+invoke SimpleName MethodInvocation SimpleName args
+l SimpleName MethodInvocation SimpleName args
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+generic utils SimpleName MethodInvocation SimpleName peel exception
+generic utils SimpleName MethodInvocation SimpleName t
+peel exception SimpleName MethodInvocation SimpleName t
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName peel exception
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName e
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName e
+err SimpleName MethodInvocation SimpleName e
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName e
+t SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+l SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName listeners
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName invoke
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName proxy
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName method
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName invoke
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName proxy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName method
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+object SimpleName SimpleType MethodDeclaration SimpleName invoke
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName proxy
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName method
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName proxy
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+invoke SimpleName MethodDeclaration SimpleType SimpleName throwable
+invoke SimpleName MethodDeclaration Block EnhancedForStatement SimpleName listeners
+proxy SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method
+proxy SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+proxy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+method SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+proxy SimpleName MethodInvocation SimpleName new proxy instance
+proxy SimpleName MethodInvocation SimpleName loader
+proxy SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName listener type
+proxy SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName invocation handler
+new proxy instance SimpleName MethodInvocation SimpleName loader
+new proxy instance SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName listener type
+new proxy instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName invocation handler
+loader SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName listener type
+loader SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName invocation handler
+wrapper SimpleName VariableDeclarationFragment MethodInvocation SimpleName proxy
+wrapper SimpleName VariableDeclarationFragment MethodInvocation SimpleName new proxy instance
+wrapper SimpleName VariableDeclarationFragment MethodInvocation SimpleName loader
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wrapper
+listener type SimpleName MethodInvocation SimpleName cast
+listener type SimpleName MethodInvocation SimpleName wrapper
+cast SimpleName MethodInvocation SimpleName wrapper
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName event listener
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName proxy wrapper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener type
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName event listener
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName proxy wrapper
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class loader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName loader
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName proxy wrapper
+event listener SimpleName SimpleType TypeParameter MethodDeclaration SimpleName proxy wrapper
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName listener type
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName loader
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration Modifier final
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName listeners
+t SimpleName SimpleType MethodDeclaration SimpleName proxy wrapper
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName listener type
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName loader
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName listeners
+proxy wrapper SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener type
+proxy wrapper SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class loader
+proxy wrapper SimpleName MethodDeclaration SingleVariableDeclaration SimpleName loader
+proxy wrapper SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+proxy wrapper SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listeners
+listener type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loader
+listener type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+listener type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listeners
+loader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+loader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listeners
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName proxy wrapper
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listeners
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName proxy wrapper
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listeners

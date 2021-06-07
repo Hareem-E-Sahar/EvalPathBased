@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName session listener
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get session listener proxy
+public Modifier MethodDeclaration SimpleType SimpleName session listener
+public Modifier MethodDeclaration SimpleName get session listener proxy
+public Modifier MethodDeclaration Block ReturnStatement SimpleName session listener proxy
+session listener SimpleName SimpleType MethodDeclaration SimpleName get session listener proxy
+get session listener proxy SimpleName MethodDeclaration Block ReturnStatement SimpleName session listener proxy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName session listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session listener proxy
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName session listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session listener proxy

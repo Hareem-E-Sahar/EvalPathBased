@@ -1,0 +1,51 @@
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+default io service factory factory SimpleName MethodInvocation SimpleName new instance
+default io service factory factory SimpleName MethodInvocation TypeLiteral SimpleType SimpleName io service factory factory
+default io service factory factory SimpleName MethodInvocation SimpleName name
+new instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName io service factory factory
+new instance SimpleName MethodInvocation SimpleName name
+io service factory factory SimpleName SimpleType TypeLiteral MethodInvocation SimpleName name
+factory instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName default io service factory factory
+factory instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+factory instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+io service factory factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory instance
+class SimpleName SimpleType ParameterizedType WildcardType ?
+f SimpleName MethodInvocation SimpleName get factory class
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory class
+factory instance SimpleName MethodInvocation SimpleName get class
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName factory instance
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+expected SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+assert same SimpleName MethodInvocation SimpleName name
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+name SimpleName MethodInvocation SimpleName expected
+name SimpleName MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+builtin io service factory factories SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+f SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test builtin io service factory factories
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test builtin io service factory factories
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+void PrimitiveType MethodDeclaration SimpleName test builtin io service factory factories
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+test builtin io service factory factories SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName builtin io service factory factoriesvalues
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test builtin io service factory factories
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test builtin io service factory factories

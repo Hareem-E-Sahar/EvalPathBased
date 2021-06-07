@@ -1,0 +1,24 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName signature
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName factories
+factories SimpleName FieldAccess Assignment SimpleName factories
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set signature factories
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName factories
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set signature factories
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factories
+void PrimitiveType MethodDeclaration SimpleName set signature factories
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factories
+set signature factories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factories
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set signature factories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set signature factories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factories

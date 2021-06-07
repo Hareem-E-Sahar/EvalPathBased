@@ -1,0 +1,57 @@
+private key encryption context SimpleName SimpleType SingleVariableDeclaration SimpleName enc context
+enc context SimpleName MethodInvocation SimpleName get cipher name
+cipher name SimpleName VariableDeclarationFragment MethodInvocation SimpleName enc context
+cipher name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cipher name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cipher name
+enc context SimpleName MethodInvocation SimpleName get cipher type
+cipher type SimpleName VariableDeclarationFragment MethodInvocation SimpleName enc context
+cipher type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cipher type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cipher type
+eff context SimpleName VariableDeclarationFragment SimpleName enc context
+private key encryption context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eff context
+private key encryption context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enc context
+ede StringLiteral MethodInvocation SimpleName equals ignore case
+ede StringLiteral MethodInvocation SimpleName cipher type
+equals ignore case SimpleName MethodInvocation SimpleName cipher type
+cipher name SimpleName Assignment StringLiteral ede
+enc context SimpleName MethodInvocation SimpleName clone
+eff context SimpleName Assignment MethodInvocation SimpleName enc context
+eff context SimpleName Assignment MethodInvocation SimpleName clone
+eff context SimpleName MethodInvocation SimpleName set cipher name
+eff context SimpleName MethodInvocation SimpleName cipher name
+set cipher name SimpleName MethodInvocation SimpleName cipher name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName private key encryption context
+public Modifier MethodDeclaration SimpleName resolve effective context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key encryption context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc context
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName private key encryption context
+static Modifier MethodDeclaration SimpleName resolve effective context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key encryption context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc context
+static Modifier MethodDeclaration Block ReturnStatement SimpleName eff context
+final Modifier MethodDeclaration SimpleType SimpleName private key encryption context
+final Modifier MethodDeclaration SimpleName resolve effective context
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key encryption context
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc context
+final Modifier MethodDeclaration Block ReturnStatement SimpleName eff context
+private key encryption context SimpleName SimpleType MethodDeclaration SimpleName resolve effective context
+private key encryption context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName enc context
+resolve effective context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName private key encryption context
+resolve effective context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enc context
+resolve effective context SimpleName MethodDeclaration Block ReturnStatement SimpleName eff context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName private key encryption context
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve effective context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName private key encryption context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve effective context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc context

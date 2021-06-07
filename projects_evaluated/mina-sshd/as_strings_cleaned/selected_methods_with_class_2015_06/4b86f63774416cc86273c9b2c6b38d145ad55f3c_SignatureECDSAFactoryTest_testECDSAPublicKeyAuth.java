@@ -1,0 +1,45 @@
+security utils SimpleName MethodInvocation SimpleName has ecc
+security utils SimpleName MethodInvocation SimpleName is bouncy castle registered
+security utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+security utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is bouncy castle registered
+has ecc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+has ecc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is bouncy castle registered
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation StringLiteral ecc not supported
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has ecc
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+assume SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is bouncy castle registered
+assume true SimpleName MethodInvocation StringLiteral ecc not supported
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has ecc
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+assume true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is bouncy castle registered
+ecc not supported StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+ecc not supported StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName has ecc
+ecc not supported StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName security utils
+ecc not supported StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is bouncy castle registered
+test key pair provider SimpleName MethodInvocation QualifiedName ecdsa public key entry decoderinstance
+test key pair provider SimpleName MethodInvocation SimpleName factories
+ecdsa public key entry decoderinstance QualifiedName MethodInvocation SimpleName factories
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test ecdsa public key auth
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test ecdsa public key auth
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test ecdsa public key auth
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test ecdsa public key auth SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test ecdsa public key auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test ecdsa public key auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

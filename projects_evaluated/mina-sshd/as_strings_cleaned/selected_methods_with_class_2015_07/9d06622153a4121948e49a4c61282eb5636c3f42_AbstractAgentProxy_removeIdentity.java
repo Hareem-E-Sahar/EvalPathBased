@@ -1,0 +1,92 @@
+public key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+create buffer SimpleName MethodInvocation SimpleName ssh agentc remove identity
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh agentc remove identity
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName put public key
+buffer SimpleName MethodInvocation SimpleName key
+put public key SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation SimpleName is debug enabled
+key SimpleName MethodInvocation SimpleName get algorithm
+remove identity StringLiteral InfixExpression MethodInvocation SimpleName key
+remove identity StringLiteral InfixExpression MethodInvocation SimpleName get algorithm
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral remove identity
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get algorithm
+debug SimpleName MethodInvocation InfixExpression StringLiteral remove identity
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get algorithm
+prepare SimpleName MethodInvocation SimpleName buffer
+request SimpleName MethodInvocation MethodInvocation SimpleName prepare
+request SimpleName MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName Assignment MethodInvocation SimpleName request
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName prepare
+buffer SimpleName Assignment MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName available
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+available SimpleName VariableDeclarationFragment MethodInvocation SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName available
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName available
+available SimpleName InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName get u byte
+buffer SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+get u byte SimpleName MethodInvocation ConditionalExpression PrefixExpression NumberLiteral empty
+response SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName buffer
+response SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get u byte
+response SimpleName VariableDeclarationFragment ConditionalExpression PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+available SimpleName InfixExpression NumberLiteral empty
+response SimpleName InfixExpression SimpleName ssh agent success
+response SimpleName InfixExpression NumberLiteral x ff
+bad remove identity response ( StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName response
+bad remove identity response ( StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+bad remove identity response ( StringLiteral InfixExpression StringLiteral ) - available
+bad remove identity response ( StringLiteral InfixExpression SimpleName available
+response SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ) - available
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral ) - available
+response SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName available
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName available
+) - available StringLiteral InfixExpression SimpleName available
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad remove identity response (
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) - available
+ssh exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName available
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove identity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove identity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName remove identity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+remove identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName public key
+remove identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+remove identity SimpleName MethodDeclaration SimpleType SimpleName io exception
+remove identity SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+remove identity SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

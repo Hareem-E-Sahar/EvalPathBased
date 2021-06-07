@@ -1,0 +1,119 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName thread
+thread group SimpleName SimpleType SingleVariableDeclaration SimpleName group
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName thread
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName thread
+group SimpleName MethodInvocation SimpleName active count
+num threads SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+num threads SimpleName VariableDeclarationFragment MethodInvocation SimpleName active count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num threads
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName group
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName active count
+num threads SimpleName InfixExpression NumberLiteral empty
+threads SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName num threads
+threads SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+group SimpleName MethodInvocation SimpleName enumerate
+group SimpleName MethodInvocation SimpleName threads
+group SimpleName MethodInvocation BooleanLiteral false
+enumerate SimpleName MethodInvocation SimpleName threads
+enumerate SimpleName MethodInvocation BooleanLiteral false
+threads SimpleName MethodInvocation BooleanLiteral false
+num threads SimpleName Assignment MethodInvocation SimpleName group
+num threads SimpleName Assignment MethodInvocation SimpleName enumerate
+num threads SimpleName Assignment MethodInvocation SimpleName threads
+num threads SimpleName Assignment MethodInvocation BooleanLiteral false
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num threads
+threads SimpleName ArrayAccess SimpleName i
+check thread for port forward SimpleName MethodInvocation ArrayAccess SimpleName threads
+check thread for port forward SimpleName MethodInvocation ArrayAccess SimpleName i
+check thread for port forward SimpleName MethodInvocation SimpleName name
+threads SimpleName ArrayAccess MethodInvocation SimpleName name
+i SimpleName ArrayAccess MethodInvocation SimpleName name
+threads SimpleName ArrayAccess SimpleName i
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ArrayAccess SimpleName threads
+ret SimpleName MethodInvocation ArrayAccess SimpleName i
+add SimpleName MethodInvocation ArrayAccess SimpleName threads
+add SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num threads
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+num threads SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+group SimpleName MethodInvocation SimpleName active group count
+num groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+num groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName active group count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num groups
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName group
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName active group count
+num groups SimpleName InfixExpression NumberLiteral empty
+groups SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName num groups
+groups SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+group SimpleName MethodInvocation SimpleName enumerate
+group SimpleName MethodInvocation SimpleName groups
+group SimpleName MethodInvocation BooleanLiteral false
+enumerate SimpleName MethodInvocation SimpleName groups
+enumerate SimpleName MethodInvocation BooleanLiteral false
+groups SimpleName MethodInvocation BooleanLiteral false
+num groups SimpleName Assignment MethodInvocation SimpleName group
+num groups SimpleName Assignment MethodInvocation SimpleName enumerate
+num groups SimpleName Assignment MethodInvocation SimpleName groups
+num groups SimpleName Assignment MethodInvocation BooleanLiteral false
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num groups
+groups SimpleName ArrayAccess SimpleName i
+find threads SimpleName MethodInvocation ArrayAccess SimpleName groups
+find threads SimpleName MethodInvocation ArrayAccess SimpleName i
+find threads SimpleName MethodInvocation SimpleName name
+groups SimpleName ArrayAccess MethodInvocation SimpleName name
+i SimpleName ArrayAccess MethodInvocation SimpleName name
+ret SimpleName MethodInvocation SimpleName add all
+ret SimpleName MethodInvocation MethodInvocation SimpleName find threads
+ret SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName groups
+ret SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+ret SimpleName MethodInvocation MethodInvocation SimpleName name
+add all SimpleName MethodInvocation MethodInvocation SimpleName find threads
+add all SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName groups
+add all SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+add all SimpleName MethodInvocation MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num groups
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+num groups SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName thread
+private Modifier MethodDeclaration SimpleName find threads
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName thread group
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName group
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find threads
+thread SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find threads
+find threads SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName thread group
+find threads SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group
+find threads SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find threads SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+find threads SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+find threads SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+find threads SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+group SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName find threads
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find threads
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

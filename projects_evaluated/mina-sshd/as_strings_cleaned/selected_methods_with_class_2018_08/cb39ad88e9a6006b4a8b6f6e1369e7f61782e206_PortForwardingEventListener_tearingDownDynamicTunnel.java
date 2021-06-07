@@ -1,0 +1,36 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+sshd socket address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+default Modifier MethodDeclaration PrimitiveType void
+default Modifier MethodDeclaration SimpleName tearing down dynamic tunnel
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+default Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+default Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName tearing down dynamic tunnel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName address
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+tearing down dynamic tunnel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+tearing down dynamic tunnel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+tearing down dynamic tunnel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sshd socket address
+tearing down dynamic tunnel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+tearing down dynamic tunnel SimpleName MethodDeclaration SimpleType SimpleName io exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+address SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier default
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tearing down dynamic tunnel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier default
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tearing down dynamic tunnel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

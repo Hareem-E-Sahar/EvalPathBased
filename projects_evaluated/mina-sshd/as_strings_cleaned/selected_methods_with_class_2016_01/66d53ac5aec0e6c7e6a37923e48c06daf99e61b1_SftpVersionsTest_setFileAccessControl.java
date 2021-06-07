@@ -1,0 +1,64 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl entry
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acl actual
+acl entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName acl actual
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+mismatched acl set for file StringLiteral InfixExpression SimpleName file
+assert list equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched acl set for file
+assert list equals SimpleName MethodInvocation InfixExpression SimpleName file
+assert list equals SimpleName MethodInvocation SimpleName acl expected
+assert list equals SimpleName MethodInvocation SimpleName acl actual
+mismatched acl set for file StringLiteral InfixExpression MethodInvocation SimpleName acl expected
+file SimpleName InfixExpression MethodInvocation SimpleName acl expected
+mismatched acl set for file StringLiteral InfixExpression MethodInvocation SimpleName acl actual
+file SimpleName InfixExpression MethodInvocation SimpleName acl actual
+acl expected SimpleName MethodInvocation SimpleName acl actual
+num invocations SimpleName MethodInvocation SimpleName increment and get
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set file access control
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set file access control
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleName set file access control
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+set file access control SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+set file access control SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+acl actual SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+acl actual SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file access control
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file access control
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl actual
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

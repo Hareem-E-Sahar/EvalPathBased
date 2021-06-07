@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName external form
+url SimpleName VariableDeclarationFragment SimpleName external form
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName external form
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName url
+is empty SimpleName MethodInvocation SimpleName url
+url SimpleName MethodInvocation SimpleName starts with
+url SimpleName MethodInvocation SimpleName jar url prefix
+starts with SimpleName MethodInvocation SimpleName jar url prefix
+jar url prefix SimpleName MethodInvocation SimpleName length
+url SimpleName MethodInvocation SimpleName substring
+url SimpleName MethodInvocation MethodInvocation SimpleName jar url prefix
+url SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName jar url prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName strip jar url prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName external form
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName strip jar url prefix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName external form
+static Modifier MethodDeclaration Block ReturnStatement SimpleName url
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName strip jar url prefix
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName external form
+final Modifier MethodDeclaration Block ReturnStatement SimpleName url
+string SimpleName SimpleType MethodDeclaration SimpleName strip jar url prefix
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName external form
+strip jar url prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+strip jar url prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName external form
+strip jar url prefix SimpleName MethodDeclaration Block ReturnStatement SimpleName url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName strip jar url prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external form
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName strip jar url prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external form

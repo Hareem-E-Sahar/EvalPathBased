@@ -1,0 +1,40 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host config entry
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host config entry
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+host config entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+host config entry SimpleName SimpleType SingleVariableDeclaration SimpleName cur entry
+entries SimpleName MethodInvocation SimpleName add
+entries SimpleName MethodInvocation SimpleName cur entry
+add SimpleName MethodInvocation SimpleName cur entry
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SimpleName update entries list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName host config entry
+static Modifier MethodDeclaration SimpleName update entries list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+static Modifier MethodDeclaration Block ReturnStatement SimpleName entries
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update entries list
+host config entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update entries list
+update entries list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+update entries list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host config entry
+update entries list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+update entries list SimpleName MethodDeclaration Block ReturnStatement SimpleName entries
+entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entries list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur entry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entries list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur entry

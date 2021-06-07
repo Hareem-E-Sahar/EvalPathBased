@@ -1,0 +1,36 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get class
+from type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName o
+from type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get class
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+public Modifier MethodDeclaration SimpleName from instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+static Modifier MethodDeclaration SimpleName from instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+final Modifier MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+final Modifier MethodDeclaration SimpleName from instance
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+builtin sftp client extensions SimpleName SimpleType MethodDeclaration SimpleName from instance
+builtin sftp client extensions SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName o
+from instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+from instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+public Modifier TypeDeclaration MethodDeclaration SimpleName from instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builtin sftp client extensions
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

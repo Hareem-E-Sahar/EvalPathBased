@@ -1,0 +1,37 @@
+fixed value SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fixed value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fixed value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+sftp version selector SimpleName MethodInvocation SimpleName fixed version selector
+sftp version selector SimpleName MethodInvocation SimpleName fixed value
+fixed version selector SimpleName MethodInvocation SimpleName fixed value
+test version selector SimpleName MethodInvocation MethodInvocation SimpleName sftp version selector
+test version selector SimpleName MethodInvocation MethodInvocation SimpleName fixed version selector
+test version selector SimpleName MethodInvocation MethodInvocation SimpleName fixed value
+test version selector SimpleName MethodInvocation SimpleName fixed value
+sftp version selector SimpleName MethodInvocation MethodInvocation SimpleName fixed value
+fixed version selector SimpleName MethodInvocation MethodInvocation SimpleName fixed value
+fixed value SimpleName MethodInvocation MethodInvocation SimpleName fixed value
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test fixed version selector
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test fixed version selector
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test fixed version selector
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test fixed version selector SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test fixed version selector SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test fixed version selector
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test fixed version selector

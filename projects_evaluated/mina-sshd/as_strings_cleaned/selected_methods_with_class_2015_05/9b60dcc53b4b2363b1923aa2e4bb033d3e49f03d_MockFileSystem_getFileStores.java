@@ -1,0 +1,18 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName file store
+collections SimpleName MethodInvocation SimpleType SimpleName file store
+collections SimpleName MethodInvocation SimpleName empty list
+file store SimpleName SimpleType MethodInvocation SimpleName empty list
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get file stores
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file store
+public Modifier MethodDeclaration SimpleName get file stores
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get file stores
+file store SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get file stores
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file stores
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file stores

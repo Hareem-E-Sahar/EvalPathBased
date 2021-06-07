@@ -1,0 +1,37 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+io utils SimpleName MethodInvocation SimpleName get link options
+io utils SimpleName MethodInvocation BooleanLiteral false
+get link options SimpleName MethodInvocation BooleanLiteral false
+files SimpleName MethodInvocation SimpleName is directory
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation MethodInvocation SimpleName io utils
+files SimpleName MethodInvocation MethodInvocation SimpleName get link options
+files SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+is directory SimpleName MethodInvocation SimpleName path
+is directory SimpleName MethodInvocation MethodInvocation SimpleName io utils
+is directory SimpleName MethodInvocation MethodInvocation SimpleName get link options
+is directory SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+path SimpleName MethodInvocation MethodInvocation SimpleName io utils
+path SimpleName MethodInvocation MethodInvocation SimpleName get link options
+path SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName ensure directory
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName ensure directory
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+ensure directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+ensure directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+ensure directory SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName ensure directory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ensure directory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

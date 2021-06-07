@@ -1,0 +1,69 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName array
+buffer SimpleName MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation SimpleName available
+byte array buffer SimpleName MethodInvocation SimpleName get compact clone
+byte array buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+byte array buffer SimpleName MethodInvocation MethodInvocation SimpleName array
+byte array buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+byte array buffer SimpleName MethodInvocation MethodInvocation SimpleName rpos
+byte array buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+byte array buffer SimpleName MethodInvocation MethodInvocation SimpleName available
+get compact clone SimpleName MethodInvocation MethodInvocation SimpleName buffer
+get compact clone SimpleName MethodInvocation MethodInvocation SimpleName array
+get compact clone SimpleName MethodInvocation MethodInvocation SimpleName buffer
+get compact clone SimpleName MethodInvocation MethodInvocation SimpleName rpos
+get compact clone SimpleName MethodInvocation MethodInvocation SimpleName buffer
+get compact clone SimpleName MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpos
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+rpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName available
+result buf SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte array buffer
+result buf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get compact clone
+result buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName buffer
+result buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName array
+result buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName buffer
+result buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rpos
+result buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName buffer
+result buf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName available
+buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result buf
+request result SimpleName MethodInvocation SimpleName set
+request result SimpleName MethodInvocation SimpleName result buf
+set SimpleName MethodInvocation SimpleName result buf
+request result SimpleName MethodInvocation SimpleName notify all
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName request success
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName request result
+void PrimitiveType MethodDeclaration SimpleName request success
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName request result
+request success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+request success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+request success SimpleName MethodDeclaration SimpleType SimpleName exception
+request success SimpleName MethodDeclaration Block SynchronizedStatement SimpleName request result
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName request success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName request success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

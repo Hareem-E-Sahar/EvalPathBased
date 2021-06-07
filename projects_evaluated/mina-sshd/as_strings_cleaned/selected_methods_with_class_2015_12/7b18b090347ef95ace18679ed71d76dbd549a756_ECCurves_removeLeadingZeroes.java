@@ -1,0 +1,72 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName input
+input SimpleName ArrayAccess NumberLiteral empty
+input SimpleName ArrayAccess InfixExpression NumberLiteral x
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x
+pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+inputlength QualifiedName InfixExpression NumberLiteral empty
+pos SimpleName InfixExpression InfixExpression QualifiedName inputlength
+pos SimpleName InfixExpression InfixExpression NumberLiteral empty
+input SimpleName ArrayAccess SimpleName pos
+input SimpleName ArrayAccess InfixExpression NumberLiteral x
+pos SimpleName ArrayAccess InfixExpression NumberLiteral x
+pos SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x
+inputlength QualifiedName InfixExpression SimpleName pos
+byte PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName inputlength
+byte PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName pos
+output SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+output SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName inputlength
+output SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName pos
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName output
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName input
+system SimpleName MethodInvocation SimpleName pos
+system SimpleName MethodInvocation SimpleName output
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName input
+arraycopy SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation SimpleName output
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName outputlength
+input SimpleName MethodInvocation SimpleName pos
+input SimpleName MethodInvocation SimpleName output
+input SimpleName MethodInvocation NumberLiteral empty
+input SimpleName MethodInvocation QualifiedName outputlength
+pos SimpleName MethodInvocation SimpleName output
+pos SimpleName MethodInvocation NumberLiteral empty
+pos SimpleName MethodInvocation QualifiedName outputlength
+output SimpleName MethodInvocation NumberLiteral empty
+output SimpleName MethodInvocation QualifiedName outputlength
+empty NumberLiteral MethodInvocation QualifiedName outputlength
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName output
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SimpleName remove leading zeroes
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName output
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName remove leading zeroes
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName output
+byte PrimitiveType ArrayType MethodDeclaration SimpleName remove leading zeroes
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName input
+remove leading zeroes SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+remove leading zeroes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+remove leading zeroes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+remove leading zeroes SimpleName MethodDeclaration Block ReturnStatement SimpleName output
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove leading zeroes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove leading zeroes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input

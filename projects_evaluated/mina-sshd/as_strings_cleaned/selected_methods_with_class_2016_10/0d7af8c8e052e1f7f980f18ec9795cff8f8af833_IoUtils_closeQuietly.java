@@ -1,0 +1,63 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral throwable result of method call ignored
+closeable SimpleName SimpleType SingleVariableDeclaration SimpleName closeables
+io exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+closeable SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName e
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName e
+err SimpleName MethodInvocation SimpleName e
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName e
+closeable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName closeables
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName closeables
+closeables SimpleName EnhancedForStatement Block ReturnStatement SimpleName err
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+throwable result of method call ignored StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+throwable result of method call ignored StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+throwable result of method call ignored StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName io exception
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName close quietly
+throwable result of method call ignored StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName close quietly
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName closeables
+throwable result of method call ignored StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName closeables
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleName close quietly
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName closeables
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName closeables
+public Modifier MethodDeclaration Block ReturnStatement SimpleName err
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleName close quietly
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName closeables
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName closeables
+static Modifier MethodDeclaration Block ReturnStatement SimpleName err
+io exception SimpleName SimpleType MethodDeclaration SimpleName close quietly
+io exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName closeables
+close quietly SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+close quietly SimpleName MethodDeclaration SingleVariableDeclaration SimpleName closeables
+close quietly SimpleName MethodDeclaration Block EnhancedForStatement SimpleName closeables
+close quietly SimpleName MethodDeclaration Block ReturnStatement SimpleName err
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral throwable result of method call ignored
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName close quietly
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName closeables
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral throwable result of method call ignored
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close quietly
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName closeables

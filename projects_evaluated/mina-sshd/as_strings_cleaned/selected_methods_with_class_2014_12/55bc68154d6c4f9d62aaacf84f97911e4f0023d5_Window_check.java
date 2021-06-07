@@ -1,0 +1,74 @@
+int PrimitiveType SingleVariableDeclaration SimpleName max free
+max free SimpleName InfixExpression NumberLiteral empty
+size SimpleName InfixExpression InfixExpression SimpleName max free
+size SimpleName InfixExpression InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is debug enabled
+max free SimpleName InfixExpression SimpleName size
+increase StringLiteral InfixExpression SimpleName name
+increase StringLiteral InfixExpression StringLiteral by
+increase StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName max free
+increase StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName size
+increase StringLiteral InfixExpression StringLiteral up to
+increase StringLiteral InfixExpression SimpleName max free
+name SimpleName InfixExpression StringLiteral by
+name SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName max free
+name SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName size
+name SimpleName InfixExpression StringLiteral up to
+name SimpleName InfixExpression SimpleName max free
+by StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName max free
+by StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName size
+by StringLiteral InfixExpression StringLiteral up to
+by StringLiteral InfixExpression SimpleName max free
+max free SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral up to
+size SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral up to
+max free SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName max free
+size SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName max free
+up to StringLiteral InfixExpression SimpleName max free
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral increase
+log SimpleName MethodInvocation InfixExpression SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral by
+log SimpleName MethodInvocation InfixExpression StringLiteral up to
+log SimpleName MethodInvocation InfixExpression SimpleName max free
+debug SimpleName MethodInvocation InfixExpression StringLiteral increase
+debug SimpleName MethodInvocation InfixExpression SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral by
+debug SimpleName MethodInvocation InfixExpression StringLiteral up to
+debug SimpleName MethodInvocation InfixExpression SimpleName max free
+max free SimpleName InfixExpression SimpleName size
+channel SimpleName MethodInvocation SimpleName send window adjust
+channel SimpleName MethodInvocation InfixExpression SimpleName max free
+channel SimpleName MethodInvocation InfixExpression SimpleName size
+send window adjust SimpleName MethodInvocation InfixExpression SimpleName max free
+send window adjust SimpleName MethodInvocation InfixExpression SimpleName size
+size SimpleName Assignment SimpleName max free
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max free
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName lock
+void PrimitiveType MethodDeclaration SimpleName check
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max free
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName lock
+check SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max free
+check SimpleName MethodDeclaration SimpleType SimpleName io exception
+check SimpleName MethodDeclaration Block SynchronizedStatement SimpleName lock
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+max free SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max free
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max free
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

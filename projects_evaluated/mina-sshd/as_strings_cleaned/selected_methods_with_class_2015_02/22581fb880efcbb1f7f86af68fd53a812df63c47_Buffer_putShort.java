@@ -1,0 +1,30 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+ensure capacity SimpleName MethodInvocation NumberLiteral empty
+data SimpleName ArrayAccess PostfixExpression SimpleName wpos
+i SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName i
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName wpos
+byte PrimitiveType CastExpression ParenthesizedExpression SimpleName i
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put short
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+void PrimitiveType MethodDeclaration SimpleName put short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName i
+put short SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+put short SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

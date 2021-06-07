@@ -1,0 +1,163 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName stringcase insensitive order
+params SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName stringcase insensitive order
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+params SimpleName MethodInvocation SimpleName put
+params SimpleName MethodInvocation StringLiteral testclassname
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+params SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+put SimpleName MethodInvocation StringLiteral testclassname
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+put SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+testclassname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+testclassname StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get package
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get package SimpleName MethodInvocation MethodInvocation SimpleName get name
+params SimpleName MethodInvocation SimpleName put
+params SimpleName MethodInvocation StringLiteral testpkgname
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get package
+params SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation StringLiteral testpkgname
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get package
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+testpkgname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get package
+testpkgname StringLiteral MethodInvocation MethodInvocation SimpleName get name
+params SimpleName MethodInvocation SimpleName put
+params SimpleName MethodInvocation StringLiteral testname
+params SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+put SimpleName MethodInvocation StringLiteral testname
+put SimpleName MethodInvocation MethodInvocation SimpleName get current test name
+testname StringLiteral MethodInvocation MethodInvocation SimpleName get current test name
+sftp subsystemlower sftp impl QualifiedName InfixExpression QualifiedName sftp subsystemhigher sftp impl
+sftp subsystemlower sftp impl QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+sftp subsystemhigher sftp impl QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+expected version SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+params SimpleName MethodInvocation SimpleName put
+params SimpleName MethodInvocation QualifiedName sftp file system providerversion param
+params SimpleName MethodInvocation SimpleName expected version
+put SimpleName MethodInvocation QualifiedName sftp file system providerversion param
+put SimpleName MethodInvocation SimpleName expected version
+sftp file system providerversion param QualifiedName MethodInvocation SimpleName expected version
+create default file system uri SimpleName MethodInvocation SimpleName params
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+file systems SimpleName MethodInvocation SimpleName new file system
+file systems SimpleName MethodInvocation MethodInvocation SimpleName create default file system uri
+file systems SimpleName MethodInvocation MethodInvocation SimpleName params
+file systems SimpleName MethodInvocation MethodInvocation SimpleName collections
+file systems SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+file systems SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+file systems SimpleName MethodInvocation MethodInvocation SimpleName empty map
+new file system SimpleName MethodInvocation MethodInvocation SimpleName create default file system uri
+new file system SimpleName MethodInvocation MethodInvocation SimpleName params
+new file system SimpleName MethodInvocation MethodInvocation SimpleName collections
+new file system SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+new file system SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+new file system SimpleName MethodInvocation MethodInvocation SimpleName empty map
+create default file system uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+create default file system uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+sftp file system SimpleName SimpleType CastExpression MethodInvocation SimpleName file systems
+sftp file system SimpleName SimpleType CastExpression MethodInvocation SimpleName new file system
+fs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName sftp file system
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName file systems
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName new file system
+sftp file system SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get client
+sftp client SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+sftp client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+sftp client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sftp client
+sftp client SimpleName MethodInvocation SimpleName get version
+assert equals SimpleName MethodInvocation StringLiteral mismatched negotiated version
+assert equals SimpleName MethodInvocation SimpleName expected version
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName sftp client
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get version
+mismatched negotiated version StringLiteral MethodInvocation SimpleName expected version
+mismatched negotiated version StringLiteral MethodInvocation MethodInvocation SimpleName sftp client
+mismatched negotiated version StringLiteral MethodInvocation MethodInvocation SimpleName get version
+expected version SimpleName MethodInvocation MethodInvocation SimpleName sftp client
+expected version SimpleName MethodInvocation MethodInvocation SimpleName get version
+sftp client SimpleName MethodInvocation SimpleName get client session
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName sftp client
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client session
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType ParameterizedType WildcardType ?
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pe
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName pe
+params SimpleName MethodInvocation SimpleName entry set
+pe SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName pe
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+pe SimpleName MethodInvocation SimpleName get value
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName pe
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+sftp file system providerversion param QualifiedName MethodInvocation SimpleName equals ignore case
+sftp file system providerversion param QualifiedName MethodInvocation SimpleName key
+equals ignore case SimpleName MethodInvocation SimpleName key
+property resolver utils SimpleName MethodInvocation SimpleName get object
+property resolver utils SimpleName MethodInvocation SimpleName session
+property resolver utils SimpleName MethodInvocation SimpleName key
+get object SimpleName MethodInvocation SimpleName session
+get object SimpleName MethodInvocation SimpleName key
+session SimpleName MethodInvocation SimpleName key
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName property resolver utils
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get object
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched value for param StringLiteral InfixExpression SimpleName key
+mismatched value for param StringLiteral InfixExpression StringLiteral empty
+key SimpleName InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral mismatched value for param
+assert equals SimpleName MethodInvocation InfixExpression SimpleName key
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName actual
+mismatched value for param StringLiteral InfixExpression MethodInvocation SimpleName expected
+key SimpleName InfixExpression MethodInvocation SimpleName expected
+empty StringLiteral InfixExpression MethodInvocation SimpleName expected
+mismatched value for param StringLiteral InfixExpression MethodInvocation SimpleName actual
+key SimpleName InfixExpression MethodInvocation SimpleName actual
+empty StringLiteral InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+pe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName params
+pe SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test file system uri parameters
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test file system uri parameters
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test file system uri parameters
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test file system uri parameters SimpleName MethodDeclaration SimpleType SimpleName exception
+test file system uri parameters SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test file system uri parameters
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test file system uri parameters
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

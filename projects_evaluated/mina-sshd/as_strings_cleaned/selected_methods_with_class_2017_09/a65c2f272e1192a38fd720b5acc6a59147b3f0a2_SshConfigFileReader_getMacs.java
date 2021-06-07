@@ -1,0 +1,35 @@
+property resolver SimpleName SimpleType SingleVariableDeclaration SimpleName props
+props SimpleName MethodInvocation SimpleName get string
+props SimpleName MethodInvocation SimpleName macs config prop
+get string SimpleName MethodInvocation SimpleName macs config prop
+builtin macs SimpleName MethodInvocation SimpleName parse macs list
+builtin macs SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+builtin macs SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+builtin macs SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName macs config prop
+parse macs list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName props
+parse macs list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string
+parse macs list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName macs config prop
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType QualifiedName builtin macsparse result
+public Modifier MethodDeclaration SimpleName get macs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+static Modifier MethodDeclaration SimpleType QualifiedName builtin macsparse result
+static Modifier MethodDeclaration SimpleName get macs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+builtin macsparse result QualifiedName SimpleType MethodDeclaration SimpleName get macs
+builtin macsparse result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName props
+get macs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property resolver
+get macs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName builtin macsparse result
+public Modifier TypeDeclaration MethodDeclaration SimpleName get macs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName builtin macsparse result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get macs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

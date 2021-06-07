@@ -1,0 +1,51 @@
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get factory manager
+factory manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get signature factories
+named resourceutils QualifiedName MethodInvocation SimpleName get names
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName manager
+named resourceutils QualifiedName MethodInvocation MethodInvocation SimpleName get signature factories
+get names SimpleName MethodInvocation MethodInvocation SimpleName manager
+get names SimpleName MethodInvocation MethodInvocation SimpleName get signature factories
+algs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName named resourceutils
+algs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get names
+algs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName manager
+algs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get signature factories
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName algs
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName kex proposal option
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+kex proposal option SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+create proposal SimpleName MethodInvocation SimpleName algs
+proposal SimpleName VariableDeclarationFragment MethodInvocation SimpleName create proposal
+proposal SimpleName VariableDeclarationFragment MethodInvocation SimpleName algs
+client proposal SimpleName MethodInvocation SimpleName is empty
+client proposal SimpleName MethodInvocation SimpleName clear
+client proposal SimpleName MethodInvocation SimpleName put all
+client proposal SimpleName MethodInvocation SimpleName proposal
+put all SimpleName MethodInvocation SimpleName proposal
+send kex init SimpleName MethodInvocation SimpleName proposal
+i c SimpleName Assignment MethodInvocation SimpleName send kex init
+i c SimpleName Assignment MethodInvocation SimpleName proposal
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName send kex init
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send kex init
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName client proposal
+void PrimitiveType MethodDeclaration SimpleName send kex init
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName client proposal
+send kex init SimpleName MethodDeclaration SimpleType SimpleName io exception
+send kex init SimpleName MethodDeclaration Block SynchronizedStatement SimpleName client proposal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send kex init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send kex init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

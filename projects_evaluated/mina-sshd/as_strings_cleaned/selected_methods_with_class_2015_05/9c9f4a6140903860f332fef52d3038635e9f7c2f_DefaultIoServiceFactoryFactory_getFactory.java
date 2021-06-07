@@ -1,0 +1,25 @@
+new instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName io service factory factory
+factory SimpleName Assignment MethodInvocation SimpleName new instance
+factory SimpleName InstanceofExpression SimpleType SimpleName executor service configurer
+executor service configurer SimpleName SimpleType CastExpression SimpleName factory
+configurer SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName executor service configurer
+configurer SimpleName VariableDeclarationFragment CastExpression SimpleName factory
+executor service configurer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configurer
+configurer SimpleName MethodInvocation SimpleName set executor service
+configurer SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+set executor service SimpleName MethodInvocation MethodInvocation SimpleName get executor service
+configurer SimpleName MethodInvocation SimpleName set shutdown on exit
+configurer SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+set shutdown on exit SimpleName MethodInvocation MethodInvocation SimpleName is shutdown on exit
+private Modifier MethodDeclaration SimpleType SimpleName io service factory factory
+private Modifier MethodDeclaration SimpleName get factory
+private Modifier MethodDeclaration Block ReturnStatement SimpleName factory
+io service factory factory SimpleName SimpleType MethodDeclaration SimpleName get factory
+get factory SimpleName MethodDeclaration Block ReturnStatement SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io service factory factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName get factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io service factory factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get factory

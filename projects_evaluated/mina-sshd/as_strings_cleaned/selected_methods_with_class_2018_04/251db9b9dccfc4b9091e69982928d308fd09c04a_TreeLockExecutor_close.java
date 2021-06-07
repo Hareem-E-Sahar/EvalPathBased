@@ -1,0 +1,29 @@
+queue SimpleName MethodInvocation SimpleName clear
+queue SimpleName MethodInvocation SimpleName add
+queue SimpleName MethodInvocation SimpleName close
+add SimpleName MethodInvocation SimpleName close
+future SimpleName MethodInvocation SimpleName get
+future SimpleName MethodInvocation NumberLiteral empty
+future SimpleName MethodInvocation QualifiedName time unitseconds
+get SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+future SimpleName MethodInvocation SimpleName cancel
+future SimpleName MethodInvocation BooleanLiteral true
+cancel SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleName close
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close

@@ -1,0 +1,26 @@
+sshd SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ssh server
+ssh server SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sshd
+sshd SimpleName MethodInvocation SimpleName stop
+sshd SimpleName MethodInvocation SimpleName stop
+sshd SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName stop method should be idempotent
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop method should be idempotent
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName stop method should be idempotent
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+stop method should be idempotent SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop method should be idempotent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop method should be idempotent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

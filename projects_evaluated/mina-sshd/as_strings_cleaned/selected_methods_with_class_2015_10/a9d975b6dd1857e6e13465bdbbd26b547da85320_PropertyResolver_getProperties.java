@@ -1,0 +1,9 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get properties

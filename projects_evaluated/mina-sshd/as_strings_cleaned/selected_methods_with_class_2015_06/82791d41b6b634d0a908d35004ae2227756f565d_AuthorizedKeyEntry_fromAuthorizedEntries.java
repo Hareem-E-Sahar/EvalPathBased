@@ -1,0 +1,51 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName public key
+resolve authorized keys SimpleName MethodInvocation SimpleName entries
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve authorized keys
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName keys
+is empty SimpleName MethodInvocation SimpleName keys
+key set publickey authenticator SimpleName SimpleType ClassInstanceCreation SimpleName keys
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName publickey authenticator
+public Modifier MethodDeclaration SimpleName from authorized entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName publickey authenticator
+static Modifier MethodDeclaration SimpleName from authorized entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration SimpleType SimpleName publickey authenticator
+final Modifier MethodDeclaration SimpleName from authorized entries
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration SimpleType SimpleName general security exception
+publickey authenticator SimpleName SimpleType MethodDeclaration SimpleName from authorized entries
+publickey authenticator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entries
+publickey authenticator SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+publickey authenticator SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+from authorized entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+from authorized entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+from authorized entries SimpleName MethodDeclaration SimpleType SimpleName general security exception
+entries SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+entries SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName publickey authenticator
+public Modifier TypeDeclaration MethodDeclaration SimpleName from authorized entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName publickey authenticator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from authorized entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

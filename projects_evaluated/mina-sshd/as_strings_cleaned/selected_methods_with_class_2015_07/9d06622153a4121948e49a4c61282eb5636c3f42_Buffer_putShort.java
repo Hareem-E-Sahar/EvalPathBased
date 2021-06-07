@@ -1,0 +1,44 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+shortsize QualifiedName InfixExpression QualifiedName bytesize
+ensure capacity SimpleName MethodInvocation InfixExpression QualifiedName shortsize
+ensure capacity SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+work buf SimpleName ArrayAccess NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName i
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+work buf SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType byte
+work buf SimpleName ArrayAccess NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression SimpleName i
+work buf SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType byte
+shortsize QualifiedName InfixExpression QualifiedName bytesize
+put raw bytes SimpleName MethodInvocation SimpleName work buf
+put raw bytes SimpleName MethodInvocation NumberLiteral empty
+put raw bytes SimpleName MethodInvocation InfixExpression QualifiedName shortsize
+put raw bytes SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+work buf SimpleName MethodInvocation NumberLiteral empty
+work buf SimpleName MethodInvocation InfixExpression QualifiedName shortsize
+work buf SimpleName MethodInvocation InfixExpression QualifiedName bytesize
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName shortsize
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName bytesize
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put short
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+void PrimitiveType MethodDeclaration SimpleName put short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName i
+put short SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+put short SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

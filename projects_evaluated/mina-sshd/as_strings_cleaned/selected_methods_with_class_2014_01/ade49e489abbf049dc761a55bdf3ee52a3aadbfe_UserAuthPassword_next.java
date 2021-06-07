@@ -1,0 +1,78 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral send ssh msg userauth request for password
+info SimpleName MethodInvocation StringLiteral send ssh msg userauth request for password
+session SimpleName MethodInvocation SimpleName create buffer
+session SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+session SimpleName MethodInvocation NumberLiteral empty
+create buffer SimpleName MethodInvocation QualifiedName ssh constantsssh msg userauth request
+create buffer SimpleName MethodInvocation NumberLiteral empty
+ssh constantsssh msg userauth request QualifiedName MethodInvocation NumberLiteral empty
+buffer SimpleName Assignment MethodInvocation SimpleName session
+buffer SimpleName Assignment MethodInvocation SimpleName create buffer
+buffer SimpleName Assignment MethodInvocation QualifiedName ssh constantsssh msg userauth request
+buffer SimpleName Assignment MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName username
+put string SimpleName MethodInvocation SimpleName username
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName service
+put string SimpleName MethodInvocation SimpleName service
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation StringLiteral password
+put string SimpleName MethodInvocation StringLiteral password
+byte PrimitiveType CastExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put byte
+buffer SimpleName MethodInvocation CastExpression PrimitiveType byte
+buffer SimpleName MethodInvocation CastExpression NumberLiteral empty
+put byte SimpleName MethodInvocation CastExpression PrimitiveType byte
+put byte SimpleName MethodInvocation CastExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName put string
+buffer SimpleName MethodInvocation SimpleName password
+put string SimpleName MethodInvocation SimpleName password
+session SimpleName MethodInvocation SimpleName write packet
+session SimpleName MethodInvocation SimpleName buffer
+write packet SimpleName MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName get byte
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get byte
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get byte
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg userauth success
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received ssh msg userauth success
+info SimpleName MethodInvocation StringLiteral received ssh msg userauth success
+cmd SimpleName InfixExpression QualifiedName ssh constantsssh msg userauth failure
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received ssh msg userauth failure
+info SimpleName MethodInvocation StringLiteral received ssh msg userauth failure
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received unkown packet {}
+log SimpleName MethodInvocation SimpleName cmd
+info SimpleName MethodInvocation StringLiteral received unkown packet {}
+info SimpleName MethodInvocation SimpleName cmd
+received unkown packet {} StringLiteral MethodInvocation SimpleName cmd
+public Modifier MethodDeclaration SimpleType SimpleName result
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+result SimpleName SimpleType MethodDeclaration SimpleName next
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+result SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+next SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+next SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+next SimpleName MethodDeclaration SimpleType SimpleName io exception
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

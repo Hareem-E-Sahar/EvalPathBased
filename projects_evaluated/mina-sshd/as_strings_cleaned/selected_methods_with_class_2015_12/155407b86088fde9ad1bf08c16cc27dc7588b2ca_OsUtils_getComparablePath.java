@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+path SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName path
+empty StringLiteral ConditionalExpression SimpleName path
+p SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral empty
+p SimpleName VariableDeclarationFragment ConditionalExpression SimpleName path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName to lower case
+is win SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName p
+is win SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to lower case
+is win SimpleName MethodInvocation ConditionalExpression SimpleName p
+p SimpleName MethodInvocation ConditionalExpression SimpleName p
+to lower case SimpleName MethodInvocation ConditionalExpression SimpleName p
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get comparable path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get comparable path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SimpleName get comparable path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+get comparable path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get comparable path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get comparable path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get comparable path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

@@ -1,0 +1,49 @@
+flush StringLiteral InfixExpression SimpleName path
+flush StringLiteral InfixExpression StringLiteral ) stream is closed
+path SimpleName InfixExpression StringLiteral ) stream is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral flush
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) stream is closed
+default sftp client SimpleName ThisExpression MethodInvocation SimpleName write
+default sftp client SimpleName ThisExpression MethodInvocation SimpleName handle
+default sftp client SimpleName ThisExpression MethodInvocation SimpleName offset
+default sftp client SimpleName ThisExpression MethodInvocation SimpleName buffer
+default sftp client SimpleName ThisExpression MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName handle
+write SimpleName MethodInvocation SimpleName offset
+write SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName index
+handle SimpleName MethodInvocation SimpleName offset
+handle SimpleName MethodInvocation SimpleName buffer
+handle SimpleName MethodInvocation NumberLiteral empty
+handle SimpleName MethodInvocation SimpleName index
+offset SimpleName MethodInvocation SimpleName buffer
+offset SimpleName MethodInvocation NumberLiteral empty
+offset SimpleName MethodInvocation SimpleName index
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation SimpleName index
+offset SimpleName Assignment SimpleName index
+index SimpleName Assignment NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName flush
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName flush
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName flush
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+flush SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName flush
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName flush
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

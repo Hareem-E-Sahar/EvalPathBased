@@ -1,0 +1,53 @@
+buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+send extended command SimpleName MethodInvocation SimpleName buffer
+req id SimpleName VariableDeclarationFragment MethodInvocation SimpleName send extended command
+req id SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName req id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName send extended command
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+log SimpleName MethodInvocation SimpleName is debug enabled
+send and check extended command status StringLiteral InfixExpression MethodInvocation SimpleName get name
+send and check extended command status StringLiteral InfixExpression StringLiteral ) id
+send and check extended command status StringLiteral InfixExpression SimpleName req id
+get name SimpleName MethodInvocation InfixExpression StringLiteral ) id
+get name SimpleName MethodInvocation InfixExpression SimpleName req id
+) id StringLiteral InfixExpression SimpleName req id
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral send and check extended command status
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral ) id
+log SimpleName MethodInvocation InfixExpression SimpleName req id
+debug SimpleName MethodInvocation InfixExpression StringLiteral send and check extended command status
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) id
+debug SimpleName MethodInvocation InfixExpression SimpleName req id
+receive SimpleName MethodInvocation SimpleName req id
+check status SimpleName MethodInvocation MethodInvocation SimpleName receive
+check status SimpleName MethodInvocation MethodInvocation SimpleName req id
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName send and check extended command status
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName send and check extended command status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+send and check extended command status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffer
+send and check extended command status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+send and check extended command status SimpleName MethodDeclaration SimpleType SimpleName io exception
+send and check extended command status SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send and check extended command status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send and check extended command status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

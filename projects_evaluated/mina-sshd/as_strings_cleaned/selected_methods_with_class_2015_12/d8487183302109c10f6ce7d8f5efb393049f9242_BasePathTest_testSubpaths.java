@@ -1,0 +1,212 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName MethodInvocation SimpleName get root
+path SimpleName MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation SimpleName subpath
+path SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation MethodInvocation SimpleName path
+path SimpleName MethodInvocation MethodInvocation SimpleName get name count
+subpath SimpleName MethodInvocation NumberLiteral empty
+subpath SimpleName MethodInvocation MethodInvocation SimpleName path
+subpath SimpleName MethodInvocation MethodInvocation SimpleName get name count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName path
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get name count
+assert equals SimpleName MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName subpath
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation MethodInvocation SimpleName path
+path SimpleName MethodInvocation MethodInvocation SimpleName subpath
+path SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get name count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+root SimpleName MethodInvocation SimpleName length
+string SimpleName MethodInvocation SimpleName substring
+string SimpleName MethodInvocation MethodInvocation SimpleName root
+string SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName root
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+root SimpleName InfixExpression ConditionalExpression SimpleName string
+root SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName string
+root SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName substring
+string SimpleName ConditionalExpression MethodInvocation SimpleName string
+string SimpleName ConditionalExpression MethodInvocation SimpleName substring
+string SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName root
+string SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName length
+string without root SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName root
+string without root SimpleName VariableDeclarationFragment ConditionalExpression SimpleName string
+string without root SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName string
+string without root SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName substring
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName string without root
+path SimpleName MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation SimpleName subpath
+path SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation MethodInvocation SimpleName path
+path SimpleName MethodInvocation MethodInvocation SimpleName get name count
+subpath SimpleName MethodInvocation NumberLiteral empty
+subpath SimpleName MethodInvocation MethodInvocation SimpleName path
+subpath SimpleName MethodInvocation MethodInvocation SimpleName get name count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName path
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get name count
+start subpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+start subpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName subpath
+start subpath SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+start subpath SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+start subpath SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name count
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start subpath
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+split SimpleName MethodInvocation SimpleName string without root
+split SimpleName MethodInvocation StringLiteral /
+string without root SimpleName MethodInvocation StringLiteral /
+path SimpleName MethodInvocation SimpleName get name count
+split SimpleName MethodInvocation MethodInvocation SimpleName sub list
+string without root SimpleName MethodInvocation MethodInvocation SimpleName sub list
+/ StringLiteral MethodInvocation MethodInvocation SimpleName sub list
+split SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+string without root SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+/ StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+split SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name count
+string without root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+string without root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name count
+/ StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName path
+/ StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get name count
+sub list SimpleName MethodInvocation NumberLiteral empty
+sub list SimpleName MethodInvocation MethodInvocation SimpleName path
+sub list SimpleName MethodInvocation MethodInvocation SimpleName get name count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName path
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get name count
+start names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName split
+start names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName string without root
+start names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral /
+start names SimpleName VariableDeclarationFragment MethodInvocation SimpleName sub list
+start names SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+start names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+start names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name count
+join SimpleName MethodInvocation SimpleName start names
+join SimpleName MethodInvocation StringLiteral /
+start names SimpleName MethodInvocation StringLiteral /
+path tester SimpleName SimpleType ClassInstanceCreation SimpleName file system
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName join
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral /
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName join
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName start names
+file system SimpleName ClassInstanceCreation MethodInvocation StringLiteral /
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+join SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+start names SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+/ StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName start names
+join SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName start names
+start names SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName start names
+/ StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName start names
+names SimpleName MethodInvocation SimpleName start names
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation SimpleName test
+start names SimpleName MethodInvocation MethodInvocation SimpleName test
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName start subpath
+names SimpleName MethodInvocation MethodInvocation SimpleName start subpath
+start names SimpleName MethodInvocation MethodInvocation SimpleName start subpath
+test SimpleName MethodInvocation SimpleName start subpath
+path SimpleName MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get name count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName subpath
+path SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName path
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+subpath SimpleName MethodInvocation NumberLiteral empty
+subpath SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName path
+subpath SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name count
+subpath SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName path
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get name count
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+end subpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+end subpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName subpath
+end subpath SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+end subpath SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end subpath
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+split SimpleName MethodInvocation SimpleName string without root
+split SimpleName MethodInvocation StringLiteral /
+string without root SimpleName MethodInvocation StringLiteral /
+path SimpleName MethodInvocation SimpleName get name count
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get name count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+split SimpleName MethodInvocation MethodInvocation SimpleName sub list
+string without root SimpleName MethodInvocation MethodInvocation SimpleName sub list
+/ StringLiteral MethodInvocation MethodInvocation SimpleName sub list
+split SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+string without root SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+/ StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+string without root SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+/ StringLiteral MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+sub list SimpleName MethodInvocation NumberLiteral empty
+sub list SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName path
+sub list SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name count
+sub list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName path
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get name count
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+end names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName split
+end names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName string without root
+end names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral /
+end names SimpleName VariableDeclarationFragment MethodInvocation SimpleName sub list
+end names SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+end names SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+join SimpleName MethodInvocation SimpleName end names
+join SimpleName MethodInvocation StringLiteral /
+end names SimpleName MethodInvocation StringLiteral /
+path tester SimpleName SimpleType ClassInstanceCreation SimpleName file system
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName join
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral /
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName join
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName end names
+file system SimpleName ClassInstanceCreation MethodInvocation StringLiteral /
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName names
+join SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+end names SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+/ StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName names
+path tester SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end names
+file system SimpleName ClassInstanceCreation MethodInvocation SimpleName end names
+join SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end names
+end names SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end names
+/ StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end names
+names SimpleName MethodInvocation SimpleName end names
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName test
+names SimpleName MethodInvocation MethodInvocation SimpleName test
+end names SimpleName MethodInvocation MethodInvocation SimpleName test
+file system SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName end subpath
+names SimpleName MethodInvocation MethodInvocation SimpleName end subpath
+end names SimpleName MethodInvocation MethodInvocation SimpleName end subpath
+test SimpleName MethodInvocation SimpleName end subpath
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test subpaths
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName test subpaths
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+test subpaths SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+test subpaths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test subpaths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test subpaths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

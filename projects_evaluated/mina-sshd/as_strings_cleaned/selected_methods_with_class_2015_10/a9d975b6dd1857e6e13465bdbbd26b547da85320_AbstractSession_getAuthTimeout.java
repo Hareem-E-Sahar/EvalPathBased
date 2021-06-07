@@ -1,0 +1,21 @@
+property resolver utils SimpleName MethodInvocation SimpleName get long property
+property resolver utils SimpleName MethodInvocation QualifiedName factory managerauth timeout
+property resolver utils SimpleName MethodInvocation QualifiedName factory managerdefault auth timeout
+get long property SimpleName MethodInvocation QualifiedName factory managerauth timeout
+get long property SimpleName MethodInvocation QualifiedName factory managerdefault auth timeout
+factory managerauth timeout QualifiedName MethodInvocation QualifiedName factory managerdefault auth timeout
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get auth timeout
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get auth timeout
+long PrimitiveType MethodDeclaration SimpleName get auth timeout
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get auth timeout
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get auth timeout

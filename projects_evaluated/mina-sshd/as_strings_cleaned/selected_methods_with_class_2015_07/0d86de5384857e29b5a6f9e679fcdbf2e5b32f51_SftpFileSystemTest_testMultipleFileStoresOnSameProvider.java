@@ -1,0 +1,164 @@
+ssh client SimpleName MethodInvocation SimpleName set up default client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssh client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName set up default client
+ssh client SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName start
+sftp file system provider SimpleName SimpleType ClassInstanceCreation SimpleName client
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sftp file system provider
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName client
+sftp file system provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName sftp file system
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression NumberLiteral empty
+get current test name SimpleName MethodInvocation InfixExpression StringLiteral user
+get current test name SimpleName MethodInvocation InfixExpression SimpleName index
+user StringLiteral InfixExpression SimpleName index
+credentials SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get current test name
+credentials SimpleName VariableDeclarationFragment InfixExpression StringLiteral user
+credentials SimpleName VariableDeclarationFragment InfixExpression SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName credentials
+create file system uri SimpleName MethodInvocation SimpleName credentials
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+provider SimpleName MethodInvocation SimpleName new file system
+provider SimpleName MethodInvocation MethodInvocation SimpleName create file system uri
+provider SimpleName MethodInvocation MethodInvocation SimpleName credentials
+provider SimpleName MethodInvocation MethodInvocation SimpleName collections
+provider SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+provider SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+provider SimpleName MethodInvocation MethodInvocation SimpleName empty map
+new file system SimpleName MethodInvocation MethodInvocation SimpleName create file system uri
+new file system SimpleName MethodInvocation MethodInvocation SimpleName credentials
+new file system SimpleName MethodInvocation MethodInvocation SimpleName collections
+new file system SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+new file system SimpleName MethodInvocation MethodInvocation SimpleType SimpleName object
+new file system SimpleName MethodInvocation MethodInvocation SimpleName empty map
+create file system uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+create file system uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty map
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file system
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create file system uri
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName credentials
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty map
+sftp file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+fs list SimpleName MethodInvocation SimpleName add
+fs list SimpleName MethodInvocation SimpleName expected
+add SimpleName MethodInvocation SimpleName expected
+expected SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+non unique file system id StringLiteral InfixExpression SimpleName id
+id set SimpleName MethodInvocation SimpleName add
+id set SimpleName MethodInvocation SimpleName id
+add SimpleName MethodInvocation SimpleName id
+assert true SimpleName MethodInvocation InfixExpression StringLiteral non unique file system id
+assert true SimpleName MethodInvocation InfixExpression SimpleName id
+assert true SimpleName MethodInvocation MethodInvocation SimpleName id set
+assert true SimpleName MethodInvocation MethodInvocation SimpleName add
+assert true SimpleName MethodInvocation MethodInvocation SimpleName id
+non unique file system id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName id set
+non unique file system id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName add
+non unique file system id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName id
+id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName id set
+id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName add
+id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName id
+provider SimpleName MethodInvocation SimpleName get file system
+provider SimpleName MethodInvocation SimpleName id
+get file system SimpleName MethodInvocation SimpleName id
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+sftp file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+mismatched cached instances for StringLiteral InfixExpression SimpleName id
+assert same SimpleName MethodInvocation InfixExpression StringLiteral mismatched cached instances for
+assert same SimpleName MethodInvocation InfixExpression SimpleName id
+assert same SimpleName MethodInvocation SimpleName expected
+assert same SimpleName MethodInvocation SimpleName actual
+mismatched cached instances for StringLiteral InfixExpression MethodInvocation SimpleName expected
+id SimpleName InfixExpression MethodInvocation SimpleName expected
+mismatched cached instances for StringLiteral InfixExpression MethodInvocation SimpleName actual
+id SimpleName InfixExpression MethodInvocation SimpleName actual
+expected SimpleName MethodInvocation SimpleName actual
+created file system id StringLiteral InfixExpression SimpleName id
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral created file system id
+systemout QualifiedName MethodInvocation InfixExpression SimpleName id
+println SimpleName MethodInvocation InfixExpression StringLiteral created file system id
+println SimpleName MethodInvocation InfixExpression SimpleName id
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName index
+sftp file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+fs SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+fs SimpleName MethodInvocation SimpleName close
+file system not removed from cache StringLiteral InfixExpression SimpleName id
+provider SimpleName MethodInvocation SimpleName get file system
+provider SimpleName MethodInvocation SimpleName id
+get file system SimpleName MethodInvocation SimpleName id
+assert null SimpleName MethodInvocation InfixExpression StringLiteral file system not removed from cache
+assert null SimpleName MethodInvocation InfixExpression SimpleName id
+assert null SimpleName MethodInvocation MethodInvocation SimpleName provider
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get file system
+assert null SimpleName MethodInvocation MethodInvocation SimpleName id
+file system not removed from cache StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName provider
+file system not removed from cache StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get file system
+file system not removed from cache StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName id
+id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName provider
+id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get file system
+id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName id
+sftp file system SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName fs list
+fs SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName fs list
+io exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+fs SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+generic utils SimpleName MethodInvocation SimpleName accumulate exception
+generic utils SimpleName MethodInvocation SimpleName err
+generic utils SimpleName MethodInvocation SimpleName e
+accumulate exception SimpleName MethodInvocation SimpleName err
+accumulate exception SimpleName MethodInvocation SimpleName e
+err SimpleName MethodInvocation SimpleName e
+err SimpleName Assignment MethodInvocation SimpleName generic utils
+err SimpleName Assignment MethodInvocation SimpleName accumulate exception
+err SimpleName Assignment MethodInvocation SimpleName err
+err SimpleName Assignment MethodInvocation SimpleName e
+file system SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName fs list
+fs SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName fs list
+client SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test multiple file stores on same provider
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test multiple file stores on same provider
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test multiple file stores on same provider
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test multiple file stores on same provider SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test multiple file stores on same provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test multiple file stores on same provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

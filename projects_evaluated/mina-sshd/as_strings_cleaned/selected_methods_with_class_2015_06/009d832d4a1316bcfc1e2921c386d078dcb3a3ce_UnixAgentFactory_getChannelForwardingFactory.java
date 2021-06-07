@@ -1,0 +1,17 @@
+named factory SimpleName SimpleType ParameterizedType SimpleType SimpleName channel
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get channel forwarding factory
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName named factory
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName channel
+public Modifier MethodDeclaration SimpleName get channel forwarding factory
+public Modifier MethodDeclaration Block ReturnStatement SimpleName factory
+named factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get channel forwarding factory
+channel SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get channel forwarding factory
+get channel forwarding factory SimpleName MethodDeclaration Block ReturnStatement SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get channel forwarding factory
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get channel forwarding factory

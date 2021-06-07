@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName seed
+key pair providerssh ed QualifiedName MethodInvocation SimpleName equals
+key pair providerssh ed QualifiedName MethodInvocation SimpleName key type
+equals SimpleName MethodInvocation SimpleName key type
+unsupported key type StringLiteral InfixExpression SimpleName key type
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported key type
+invalid key exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key type
+eddsa SimpleName InfixExpression StringLiteral provider not supported
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName eddsa
+no such algorithm exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral provider not supported
+ed dsa security provider utils SimpleName MethodInvocation SimpleName generate eddsa public key
+ed dsa security provider utils SimpleName MethodInvocation SimpleName seed
+generate eddsa public key SimpleName MethodInvocation SimpleName seed
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName public key
+public Modifier MethodDeclaration SimpleName generate eddsa public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName seed
+static Modifier MethodDeclaration SimpleType SimpleName public key
+static Modifier MethodDeclaration SimpleName generate eddsa public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName seed
+static Modifier MethodDeclaration SimpleType SimpleName general security exception
+public key SimpleName SimpleType MethodDeclaration SimpleName generate eddsa public key
+public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key type
+public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName seed
+public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName general security exception
+generate eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+generate eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+generate eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+generate eddsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seed
+generate eddsa public key SimpleName MethodDeclaration SimpleType SimpleName general security exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+seed SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName general security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName public key
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate eddsa public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName public key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate eddsa public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName general security exception

@@ -1,0 +1,16 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName posix file permission
+permissions to attributes SimpleName MethodInvocation QualifiedName attributesperms
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName permissions
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName posix file permission
+public Modifier MethodDeclaration SimpleName permissions
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName permissions
+posix file permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName permissions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName permissions
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName permissions

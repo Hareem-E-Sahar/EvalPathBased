@@ -1,0 +1,20 @@
+close SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation MethodInvocation SimpleName await
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName await
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral exception caught while closing
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral exception caught while closing
+debug SimpleName MethodInvocation SimpleName e
+exception caught while closing StringLiteral MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

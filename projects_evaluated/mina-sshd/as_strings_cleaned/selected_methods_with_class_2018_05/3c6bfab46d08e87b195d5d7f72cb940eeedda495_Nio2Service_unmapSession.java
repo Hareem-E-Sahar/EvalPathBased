@@ -1,0 +1,37 @@
+long SimpleName SimpleType SingleVariableDeclaration SimpleName session id
+sessions SimpleName MethodInvocation SimpleName remove
+sessions SimpleName MethodInvocation SimpleName session id
+remove SimpleName MethodInvocation SimpleName session id
+io session SimpleName VariableDeclarationFragment MethodInvocation SimpleName sessions
+io session SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+io session SimpleName VariableDeclarationFragment MethodInvocation SimpleName session id
+io session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName io session
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unmap sessionid {}
+log SimpleName MethodInvocation SimpleName session id
+log SimpleName MethodInvocation SimpleName io session
+debug SimpleName MethodInvocation StringLiteral unmap sessionid {}
+debug SimpleName MethodInvocation SimpleName session id
+debug SimpleName MethodInvocation SimpleName io session
+unmap sessionid {} StringLiteral MethodInvocation SimpleName session id
+unmap sessionid {} StringLiteral MethodInvocation SimpleName io session
+session id SimpleName MethodInvocation SimpleName io session
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName unmap session
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName session id
+void PrimitiveType MethodDeclaration SimpleName unmap session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session id
+unmap session SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+unmap session SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unmap session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session id
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unmap session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session id

@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+name SimpleName MethodInvocation SimpleName length
+class file suffix SimpleName MethodInvocation SimpleName length
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName class file suffix
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName class file suffix
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+name SimpleName MethodInvocation SimpleName replace
+name SimpleName MethodInvocation CharacterLiteral .
+name SimpleName MethodInvocation CharacterLiteral /
+replace SimpleName MethodInvocation CharacterLiteral .
+replace SimpleName MethodInvocation CharacterLiteral /
+. CharacterLiteral MethodInvocation CharacterLiteral /
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName name
+append SimpleName MethodInvocation MethodInvocation SimpleName replace
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral .
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+. CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+/ CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName class file suffix
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName class file suffix
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName class file suffix
+. CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName class file suffix
+/ CharacterLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName class file suffix
+append SimpleName MethodInvocation SimpleName class file suffix
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+class file suffix SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get class bytes resource name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get class bytes resource name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName get class bytes resource name
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType MethodDeclaration SimpleName get class bytes resource name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get class bytes resource name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get class bytes resource name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class bytes resource name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class bytes resource name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

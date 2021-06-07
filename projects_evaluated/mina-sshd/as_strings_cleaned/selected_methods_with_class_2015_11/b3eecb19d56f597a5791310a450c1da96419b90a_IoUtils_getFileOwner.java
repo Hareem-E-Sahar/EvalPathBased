@@ -1,0 +1,56 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+link option SimpleName SimpleType SingleVariableDeclaration SimpleName options
+files SimpleName MethodInvocation SimpleName get owner
+files SimpleName MethodInvocation SimpleName path
+files SimpleName MethodInvocation SimpleName options
+get owner SimpleName MethodInvocation SimpleName path
+get owner SimpleName MethodInvocation SimpleName options
+path SimpleName MethodInvocation SimpleName options
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName get owner
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+user principal SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+principal SimpleName MethodInvocation SimpleName get name
+unsupported operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get file owner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get file owner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName get file owner
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get file owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get file owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+get file owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName link option
+get file owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+get file owner SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file owner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file owner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

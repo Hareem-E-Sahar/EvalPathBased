@@ -1,0 +1,67 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName ssh file
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName ssh file
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName ssh file
+string SimpleName SimpleType SingleVariableDeclaration SimpleName root
+roots SimpleName MethodInvocation SimpleName key set
+normalize root SimpleName MethodInvocation SimpleName root
+display SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize root
+display SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName display
+display SimpleName MethodInvocation SimpleName length
+display SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+display SimpleName MethodInvocation SimpleName substring
+display SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName display
+display SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+display SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName display
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+/ StringLiteral InfixExpression MethodInvocation SimpleName display
+/ StringLiteral InfixExpression MethodInvocation SimpleName substring
+/ StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+display SimpleName Assignment InfixExpression StringLiteral /
+display SimpleName Assignment InfixExpression MethodInvocation SimpleName display
+display SimpleName Assignment InfixExpression MethodInvocation SimpleName substring
+roots SimpleName MethodInvocation SimpleName get
+roots SimpleName MethodInvocation SimpleName root
+get SimpleName MethodInvocation SimpleName root
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName roots
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName root
+create native ssh file SimpleName MethodInvocation SimpleName display
+create native ssh file SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+create native ssh file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName roots
+create native ssh file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+create native ssh file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName root
+create native ssh file SimpleName MethodInvocation SimpleName user name
+display SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+display SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName roots
+display SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+display SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName root
+display SimpleName MethodInvocation SimpleName user name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName user name
+roots SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user name
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user name
+root SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user name
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation MethodInvocation SimpleName create native ssh file
+list SimpleName MethodInvocation MethodInvocation SimpleName display
+list SimpleName MethodInvocation MethodInvocation SimpleName user name
+add SimpleName MethodInvocation MethodInvocation SimpleName create native ssh file
+add SimpleName MethodInvocation MethodInvocation SimpleName display
+add SimpleName MethodInvocation MethodInvocation SimpleName user name
+root SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName roots
+root SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName ssh file
+public Modifier MethodDeclaration SimpleName list ssh files
+public Modifier MethodDeclaration Block ReturnStatement SimpleName list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list ssh files
+ssh file SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list ssh files
+list ssh files SimpleName MethodDeclaration Block ReturnStatement SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list ssh files
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list ssh files

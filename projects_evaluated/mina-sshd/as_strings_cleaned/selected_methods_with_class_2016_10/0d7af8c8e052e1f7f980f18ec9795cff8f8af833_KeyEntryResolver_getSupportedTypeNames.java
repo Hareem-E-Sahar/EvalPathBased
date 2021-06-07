@@ -1,0 +1,6 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported type names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get supported type names
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get supported type names

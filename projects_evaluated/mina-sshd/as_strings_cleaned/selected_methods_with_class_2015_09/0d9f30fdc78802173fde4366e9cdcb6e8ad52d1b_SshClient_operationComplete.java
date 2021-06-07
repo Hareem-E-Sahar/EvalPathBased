@@ -1,0 +1,161 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral syntheticaccess
+io connect future SimpleName SimpleType SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName is canceled
+connect future SimpleName MethodInvocation SimpleName cancel
+future SimpleName MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName get exception
+connect future SimpleName MethodInvocation SimpleName set exception
+connect future SimpleName MethodInvocation MethodInvocation SimpleName future
+connect future SimpleName MethodInvocation MethodInvocation SimpleName get exception
+set exception SimpleName MethodInvocation MethodInvocation SimpleName future
+set exception SimpleName MethodInvocation MethodInvocation SimpleName get exception
+future SimpleName MethodInvocation SimpleName get session
+abstract session SimpleName MethodInvocation SimpleName get session
+abstract session SimpleName MethodInvocation MethodInvocation SimpleName future
+abstract session SimpleName MethodInvocation MethodInvocation SimpleName get session
+get session SimpleName MethodInvocation MethodInvocation SimpleName future
+get session SimpleName MethodInvocation MethodInvocation SimpleName get session
+client session impl SimpleName SimpleType CastExpression MethodInvocation SimpleName abstract session
+client session impl SimpleName SimpleType CastExpression MethodInvocation SimpleName get session
+session SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName client session impl
+session SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName abstract session
+session SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get session
+client session impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName set username
+session SimpleName MethodInvocation SimpleName username
+set username SimpleName MethodInvocation SimpleName username
+session SimpleName MethodInvocation SimpleName set key pair provider
+session SimpleName MethodInvocation MethodInvocation SimpleName get key pair provider
+set key pair provider SimpleName MethodInvocation MethodInvocation SimpleName get key pair provider
+generic utils SimpleName MethodInvocation SimpleName size
+generic utils SimpleName MethodInvocation SimpleName identities
+size SimpleName MethodInvocation SimpleName identities
+num ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic utils
+num ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+num ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName identities
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num ids
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName generic utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName identities
+num ids SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral do connect adding {} identities
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName address
+log SimpleName MethodInvocation SimpleName num ids
+debug SimpleName MethodInvocation StringLiteral do connect adding {} identities
+debug SimpleName MethodInvocation SimpleName username
+debug SimpleName MethodInvocation SimpleName address
+debug SimpleName MethodInvocation SimpleName num ids
+do connect adding {} identities StringLiteral MethodInvocation SimpleName username
+do connect adding {} identities StringLiteral MethodInvocation SimpleName address
+do connect adding {} identities StringLiteral MethodInvocation SimpleName num ids
+username SimpleName MethodInvocation SimpleName address
+username SimpleName MethodInvocation SimpleName num ids
+address SimpleName MethodInvocation SimpleName num ids
+key pair SimpleName SimpleType SingleVariableDeclaration SimpleName kp
+log SimpleName MethodInvocation SimpleName is trace enabled
+key utils SimpleName MethodInvocation SimpleName get key type
+key utils SimpleName MethodInvocation SimpleName kp
+get key type SimpleName MethodInvocation SimpleName kp
+kp SimpleName MethodInvocation SimpleName get public
+key utils SimpleName MethodInvocation SimpleName get finger print
+key utils SimpleName MethodInvocation MethodInvocation SimpleName kp
+key utils SimpleName MethodInvocation MethodInvocation SimpleName get public
+get finger print SimpleName MethodInvocation MethodInvocation SimpleName kp
+get finger print SimpleName MethodInvocation MethodInvocation SimpleName get public
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral do connect add identity type fingerprint
+log SimpleName MethodInvocation SimpleName username
+log SimpleName MethodInvocation SimpleName address
+log SimpleName MethodInvocation MethodInvocation SimpleName key utils
+log SimpleName MethodInvocation MethodInvocation SimpleName get key type
+log SimpleName MethodInvocation MethodInvocation SimpleName kp
+trace SimpleName MethodInvocation StringLiteral do connect add identity type fingerprint
+trace SimpleName MethodInvocation SimpleName username
+trace SimpleName MethodInvocation SimpleName address
+trace SimpleName MethodInvocation MethodInvocation SimpleName key utils
+trace SimpleName MethodInvocation MethodInvocation SimpleName get key type
+trace SimpleName MethodInvocation MethodInvocation SimpleName kp
+trace SimpleName MethodInvocation MethodInvocation SimpleName key utils
+trace SimpleName MethodInvocation MethodInvocation SimpleName get finger print
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public
+do connect add identity type fingerprint StringLiteral MethodInvocation SimpleName username
+do connect add identity type fingerprint StringLiteral MethodInvocation SimpleName address
+do connect add identity type fingerprint StringLiteral MethodInvocation MethodInvocation SimpleName key utils
+do connect add identity type fingerprint StringLiteral MethodInvocation MethodInvocation SimpleName get key type
+do connect add identity type fingerprint StringLiteral MethodInvocation MethodInvocation SimpleName kp
+do connect add identity type fingerprint StringLiteral MethodInvocation MethodInvocation SimpleName key utils
+do connect add identity type fingerprint StringLiteral MethodInvocation MethodInvocation SimpleName get finger print
+do connect add identity type fingerprint StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+do connect add identity type fingerprint StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get public
+username SimpleName MethodInvocation SimpleName address
+username SimpleName MethodInvocation MethodInvocation SimpleName key utils
+username SimpleName MethodInvocation MethodInvocation SimpleName get key type
+username SimpleName MethodInvocation MethodInvocation SimpleName kp
+username SimpleName MethodInvocation MethodInvocation SimpleName key utils
+username SimpleName MethodInvocation MethodInvocation SimpleName get finger print
+username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public
+address SimpleName MethodInvocation MethodInvocation SimpleName key utils
+address SimpleName MethodInvocation MethodInvocation SimpleName get key type
+address SimpleName MethodInvocation MethodInvocation SimpleName kp
+address SimpleName MethodInvocation MethodInvocation SimpleName key utils
+address SimpleName MethodInvocation MethodInvocation SimpleName get finger print
+address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kp
+address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get public
+key utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key utils
+key utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get finger print
+get key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key utils
+get key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get finger print
+kp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key utils
+kp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get finger print
+session SimpleName MethodInvocation SimpleName add public key identity
+session SimpleName MethodInvocation SimpleName kp
+add public key identity SimpleName MethodInvocation SimpleName kp
+key pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName identities
+kp SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName identities
+connect future SimpleName MethodInvocation SimpleName set session
+connect future SimpleName MethodInvocation SimpleName session
+set session SimpleName MethodInvocation SimpleName session
+use default identities SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName operation complete
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+syntheticaccess StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName operation complete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName operation complete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName future
+void PrimitiveType MethodDeclaration SimpleName operation complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName io connect future
+operation complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName operation complete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral syntheticaccess
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName operation complete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName future

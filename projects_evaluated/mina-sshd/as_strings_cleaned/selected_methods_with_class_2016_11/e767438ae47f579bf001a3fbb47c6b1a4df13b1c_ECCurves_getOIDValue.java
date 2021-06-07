@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get oid value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName oid value
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+final Modifier MethodDeclaration SimpleName get oid value
+final Modifier MethodDeclaration Block ReturnStatement SimpleName oid value
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get oid value
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get oid value
+get oid value SimpleName MethodDeclaration Block ReturnStatement SimpleName oid value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get oid value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get oid value

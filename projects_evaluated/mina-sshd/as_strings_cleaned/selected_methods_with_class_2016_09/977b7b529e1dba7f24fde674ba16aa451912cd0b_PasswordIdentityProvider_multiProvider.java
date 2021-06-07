@@ -1,0 +1,31 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName providers
+generic utils SimpleName MethodInvocation SimpleName is empty
+generic utils SimpleName MethodInvocation SimpleName providers
+is empty SimpleName MethodInvocation SimpleName providers
+iterable of SimpleName MethodInvocation SimpleName providers
+wrap SimpleName MethodInvocation MethodInvocation SimpleName iterable of
+wrap SimpleName MethodInvocation MethodInvocation SimpleName providers
+generic utils SimpleName MethodInvocation ConditionalExpression SimpleName empty passwords provider
+is empty SimpleName MethodInvocation ConditionalExpression SimpleName empty passwords provider
+providers SimpleName MethodInvocation ConditionalExpression SimpleName empty passwords provider
+generic utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName wrap
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName wrap
+providers SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName wrap
+empty passwords provider SimpleName ConditionalExpression MethodInvocation SimpleName wrap
+empty passwords provider SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName iterable of
+empty passwords provider SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName providers
+static Modifier MethodDeclaration SimpleType SimpleName password identity provider
+static Modifier MethodDeclaration SimpleName multi provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName providers
+password identity provider SimpleName SimpleType MethodDeclaration SimpleName multi provider
+password identity provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName providers
+multi provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName password identity provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName multi provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName providers
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName password identity provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName multi provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName providers

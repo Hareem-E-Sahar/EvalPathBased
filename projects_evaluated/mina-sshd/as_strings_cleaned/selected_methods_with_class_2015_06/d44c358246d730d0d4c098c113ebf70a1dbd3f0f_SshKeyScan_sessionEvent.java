@@ -1,0 +1,99 @@
+session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+log session event SimpleName MethodInvocation SimpleName session
+log session event SimpleName MethodInvocation SimpleName event
+session SimpleName MethodInvocation SimpleName event
+is enabled SimpleName MethodInvocation QualifiedName levelfinest
+eventkex completed QualifiedName MethodInvocation SimpleName equals
+eventkex completed QualifiedName MethodInvocation SimpleName event
+equals SimpleName MethodInvocation SimpleName event
+is enabled SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName eventkex completed
+is enabled SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+is enabled SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+levelfinest QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName eventkex completed
+levelfinest QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+levelfinest QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName event
+session SimpleName MethodInvocation SimpleName get io session
+io session SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+io session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get io session
+io session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName io session
+io session SimpleName MethodInvocation SimpleName get remote address
+remote address SimpleName VariableDeclarationFragment MethodInvocation SimpleName io session
+remote address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote address
+socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote address
+to string SimpleName MethodInvocation SimpleName remote address
+remote location SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+remote location SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote location
+kex proposal option SimpleName SimpleType SingleVariableDeclaration SimpleName param type
+session SimpleName MethodInvocation SimpleName get negotiated kex parameter
+session SimpleName MethodInvocation SimpleName param type
+get negotiated kex parameter SimpleName MethodInvocation SimpleName param type
+param value SimpleName VariableDeclarationFragment MethodInvocation SimpleName session
+param value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get negotiated kex parameter
+param value SimpleName VariableDeclarationFragment MethodInvocation SimpleName param type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName param value
+param type SimpleName MethodInvocation SimpleName get description
+remote location SimpleName InfixExpression StringLiteral [
+remote location SimpleName InfixExpression MethodInvocation SimpleName param type
+remote location SimpleName InfixExpression MethodInvocation SimpleName get description
+remote location SimpleName InfixExpression StringLiteral ]:
+remote location SimpleName InfixExpression SimpleName param value
+[ StringLiteral InfixExpression MethodInvocation SimpleName param type
+[ StringLiteral InfixExpression MethodInvocation SimpleName get description
+[ StringLiteral InfixExpression StringLiteral ]:
+[ StringLiteral InfixExpression SimpleName param value
+param type SimpleName MethodInvocation InfixExpression StringLiteral ]:
+get description SimpleName MethodInvocation InfixExpression StringLiteral ]:
+param type SimpleName MethodInvocation InfixExpression SimpleName param value
+get description SimpleName MethodInvocation InfixExpression SimpleName param value
+]: StringLiteral InfixExpression SimpleName param value
+log SimpleName MethodInvocation QualifiedName levelfinest
+log SimpleName MethodInvocation InfixExpression SimpleName remote location
+log SimpleName MethodInvocation InfixExpression StringLiteral [
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName param type
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get description
+log SimpleName MethodInvocation InfixExpression StringLiteral ]:
+log SimpleName MethodInvocation InfixExpression SimpleName param value
+levelfinest QualifiedName MethodInvocation InfixExpression SimpleName remote location
+levelfinest QualifiedName MethodInvocation InfixExpression StringLiteral [
+levelfinest QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName param type
+levelfinest QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get description
+levelfinest QualifiedName MethodInvocation InfixExpression StringLiteral ]:
+levelfinest QualifiedName MethodInvocation InfixExpression SimpleName param value
+kex proposal option SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName kex proposal optionvalues
+param type SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName kex proposal optionvalues
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName session event
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName session event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName session event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+session event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+session SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName session event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName session event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

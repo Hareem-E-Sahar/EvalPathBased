@@ -1,0 +1,25 @@
+simplified log SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName logger
+simplified log SimpleName MethodInvocation SimpleName get
+logger SimpleName Assignment MethodInvocation SimpleName simplified log
+logger SimpleName Assignment MethodInvocation SimpleName get
+logging utils SimpleName MethodInvocation SimpleName wrap
+logging utils SimpleName MethodInvocation SimpleName log
+wrap SimpleName MethodInvocation SimpleName log
+logger SimpleName Assignment MethodInvocation SimpleName logging utils
+logger SimpleName Assignment MethodInvocation SimpleName wrap
+logger SimpleName Assignment MethodInvocation SimpleName log
+simplified log SimpleName SynchronizedStatement Block ReturnStatement SimpleName logger
+protected Modifier MethodDeclaration SimpleType SimpleName simplified log
+protected Modifier MethodDeclaration SimpleName get simplified logger
+protected Modifier MethodDeclaration Block SynchronizedStatement SimpleName simplified log
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName logger
+simplified log SimpleName SimpleType MethodDeclaration SimpleName get simplified logger
+get simplified logger SimpleName MethodDeclaration Block SynchronizedStatement SimpleName simplified log
+get simplified logger SimpleName MethodDeclaration Block ReturnStatement SimpleName logger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName simplified log
+public Modifier TypeDeclaration MethodDeclaration SimpleName get simplified logger
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName simplified log
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get simplified logger

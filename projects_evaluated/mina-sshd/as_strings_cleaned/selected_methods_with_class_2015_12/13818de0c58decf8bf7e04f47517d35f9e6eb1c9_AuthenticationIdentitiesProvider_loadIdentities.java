@@ -1,0 +1,19 @@
+iterable SimpleName SimpleType ParameterizedType WildcardType ?
+select identities SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ParameterizedType WildcardType ?
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load identities
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName load identities
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load identities
+? WildcardType ParameterizedType MethodDeclaration SimpleName load identities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName load identities
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load identities
